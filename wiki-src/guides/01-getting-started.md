@@ -28,3 +28,6 @@ A starting scenario for a ninja village of the old ways.
 - **Medieval village:** your faction starts at a medieval tech level, so industrial and later research costs more. You start knowing smithing, long blades, recurve bows, brewing, pemmican, complex furniture and clothing, stonecutting, passive coolers, tree sowing and ninja tools.
 - **Starting gear:** 500 silver, 450 pemmican, herbal medicine and all-heale, three D-rank and one C-rank technique scrolls, kunai, shuriken, a steel longsword, two recurve bows and a talisman of warding. Wood, steel and cloth lie nearby.
 - **Animals:** two horses and a husky bonded to one of the founders.
+
+## Scenario: The Founding: two masters (easy)
+The same medieval village, with two founders and a rich caravan: 1500 silver, 600 pemmican and 20 survival meals, plenty of medicine (including yulpris root), two C-rank and one B-rank technique scrolls, two steel longswords, a set of plate armour, two talismans, three spirit gems, and a big pile of wood, steel, cloth and granite blocks. Two horses and two bonded huskies. Plate armour, great bows, beds and carpets are already researched.
