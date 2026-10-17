@@ -1,6 +1,4 @@
 # Ninja ranks and the rank exam
-**Coming in the next update.**
-
 Every ninja can climb four ranks: **genin**, **chūnin**, **jōnin** and **village leader**. A rank shows as a small bonus on the pawn's health tab, and each one replaces the last.
 
 ## The rank exam

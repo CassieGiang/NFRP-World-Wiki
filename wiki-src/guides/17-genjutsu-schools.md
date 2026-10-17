@@ -1,6 +1,4 @@
 # Genjutsu schools
-**Coming in the next update.**
-
 Six schools of illusion from the archive, all in the **Genjutsu** tab. They unlock like the other genjutsu trees. Each school opens with a "Perception" passive that helps see through that kind of illusion.
 
 - **Figment**: false images and sounds. Decoys, phantom guardians, illusory walls and pits, and the Thousand Weapons of Death, which does real damage.

@@ -66,9 +66,16 @@ def group_of(t):
     if t.startswith(('NF_Prof', 'NF_Anbu')): return 'Professions and ANBU'
     if t.startswith(('NF_Craft', 'NF_ArtEnh', 'NF_Alch')): return 'Crafting arts'
     if t == 'NF_Medical': return 'Medical'
+    if t.startswith('NF_Arch'):   # archive trees (u41/u42) go by the class they sit in
+        c = tree_class.get(t)
+        if t == 'NF_ArchMedicalSkill': return 'Medical'
+        if c == 'WN_Clan': return 'Clans and bloodlines'
+        if c == 'WN_Genjutsu': return 'Genjutsu'
+        if c == 'WN_Taijutsu': return 'Fighting and weapon styles'
+        if t[7:].startswith(('Skill', 'Onimusha', 'Veritas', 'ArtisanPaths', 'Troll')): return 'Skills and beast arts'
     return 'Universal ninjutsu'
 GROUPS = ['Clans and bloodlines', 'Elements', 'Genjutsu', 'Fighting and weapon styles', 'Universal taijutsu', 'Universal ninjutsu',
-          'Medical', 'Professions and ANBU', 'Crafting arts']
+          'Medical', 'Professions and ANBU', 'Skills and beast arts', 'Crafting arts']
 
 KIND_TEXT = {'toggle': 'Toggle: drains chakra while on', 'passive': 'Passive (always on, no button)', 'nfsummon': 'Summon', 'fabled': 'Summon', 'cone': 'Area: cone', 'zone': 'Area: zone',
              'strike': 'Single target', 'hediff': 'Status', 'areahediff': 'Area status', 'heal': 'Healing', 'massheal': 'Area healing',
@@ -196,7 +203,7 @@ for g in GROUPS:
                     ti_ = tier_info(li.text)
                     if ti_: gl |= set(ti_['genes'])
             if gl: gate = 'Needs the ' + ' or '.join((genes[g].findtext('label') if g in genes else g) for g in sorted(gl)) + ' gene.'
-        note = NOTE.get(tdn) or gate or ('Open to every ninja. How high a ninja can go depends on their ninja build.' if open_t else 'Unlocks through World of Naruto\'s own trees, a gene, a build choice or a profession.')
+        note = NOTE.get(tdn) or gate or ('Open to every ninja. How high a ninja can go depends on their ninja build.' if open_t else 'Learned from technique scrolls, mission rewards, written scrolls and scroll merchants; some NPC ninja know it. It counts toward the ninja build like other trees.' if tdn.startswith('NF_Arch') else 'Unlocks through World of Naruto\'s own trees, a gene, a build choice or a profession.')
         bg = img(t.findtext('backgroundTexPath'), True)
         hero = f'<img class="treebg" src="{up}img/{E(bg)}" alt="">' if bg else ''
         body = f'''<div class="hero tree">{hero}<div><p class="crumb"><a href="index.html">Technique trees</a> › {E(g)}</p>
@@ -220,7 +227,7 @@ page('trees/index.html', 'Technique trees', f'<h1>Technique trees</h1><p class="
 # ───────────────────────────── items
 ITEM_GROUPS = [('Brews, pills and drugs', ('MakeableDrugBase', 'DrugPillBase', 'DrugBase')), ('Bombs and grenades', ('BaseMakeableGrenade',)),
                ('Apparel and gear', ('Apparel', 'Headgear', 'Armor')), ('Weapons and instruments', ('BaseWeapon', 'BaseMelee', 'BaseHumanMakeableGun', 'Weapon')),
-               ('Workbenches and buildings', ('BenchBase', 'BuildingBase', 'Building')), ('Other items', ('ResourceBase', 'ResourceVerbBase', 'BodyPartBase', 'OrganicProductBase'))]
+               ('Workbenches and buildings', ('BenchBase', 'BuildingBase', 'Building', 'DoorBase', 'StorageShelfBase', 'TableGatherSpotBase', 'FurnitureBase', 'FurnitureWithQualityBase', 'AnimalBedFurnitureBase')), ('Other items', ('ResourceBase', 'ResourceVerbBase', 'BodyPartBase', 'OrganicProductBase'))]
 items = {g: [] for g, _ in ITEM_GROUPS}
 for dn, t in things.items():
     par = t.get('ParentName') or ''

@@ -1,6 +1,4 @@
 # Diplomacy and scroll trading
-**Coming in the next update.**
-
 ## Talking to the villages
 Call a hidden village on the comms console and, as long as they aren't hostile, you get three extra options:
 - **Request a ninja squad**: a squad of their ninja comes to help. Needs goodwill 40 and costs 25 goodwill.

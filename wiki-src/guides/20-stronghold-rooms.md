@@ -1,6 +1,4 @@
 # Stronghold rooms
-**Coming in the next update.**
-
 Furniture and fittings from the archive's stronghold rooms, painted in the same Japanese style. Facilities work like vanilla tool cabinets: place them next to the workstation they help.
 
 ## Facilities

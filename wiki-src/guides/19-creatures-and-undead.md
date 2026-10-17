@@ -1,6 +1,4 @@
 # New creatures and the undead
-**Coming in the next update.**
-
 Sixteen new beasts and fifteen undead, from the archive's bestiary.
 
 ## Beasts

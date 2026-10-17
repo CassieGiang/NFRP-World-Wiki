@@ -1,6 +1,4 @@
 # Beast arts and skill techniques
-**Coming in the next update.**
-
 ## Beast arts
 - **Hive mind**: for the insect-control clan. Linked minds, shared senses, remote control and a chakra conduit through the swarm.
 - **Scent**: for the hound clan. Tracking, picking out fear, disease and poison by smell.
