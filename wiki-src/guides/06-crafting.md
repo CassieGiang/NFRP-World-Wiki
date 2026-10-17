@@ -19,3 +19,14 @@ The alchemy table, disciplines, the scribe desk and the crafting arts.
 - Demolitionists can make more than twenty alchemical bombs: fire, shrapnel, lightning, freezing wind, blinding sand, sticky goo, spores and poison gas, up to the S-rank Apocalypse. Many leave everyone in the blast dazed, blinded, slowed or drained of chakra.
 - Any alchemist can make **coatings**: oils and poisons rubbed onto the weapon in hand. A coating lasts a number of hits and takes no seal slot. Some oils only bite into animals, big foes, insects, machines or people; poisons build up toxins, cripple, confuse or frighten.
 - **Unguents**: tough skin liniment, stop-bleeding ointment and vapours of easy breathing.
+
+## Alchemist's tricks
+A passive tree with the rest of the archive's universal alchemy techniques: faster alchemy in steps (Fast Item Creation through Efficient Alchemist and Journeyman), Master Mixologist (brewing), Master Poisoner (drugs and poisons), Mineral Attunement (crystalmancy and mining yield), Skilled Harvester, Cautious Handler (toxic resistance), Acid Resistance, Alertness, Skirmishing, Sidestep Charge, Sneak Attack, Precision Poisoning, Minor Damage Reduction, Improved Uncanny Dodge and Improved Sleight of Hand.
+
+## Alchana
+Made by any alchemist at the alchemy table:
+- **Feather tokens**: tree (a fully grown oak), campsite (a campfire and two bedrolls), tar and feathers (thrown: blinds and glues).
+- **Jumping spider scrolls** (thrown): flame, frost and shock.
+- **Exploding spiders**: flame, frost and shock traps, built from the Security tab.
+- **Create fire** and **create stone** vials (thrown): a line of fire or a short stone wall.
+- **Sunrod**: leaves a floating light for a day.
