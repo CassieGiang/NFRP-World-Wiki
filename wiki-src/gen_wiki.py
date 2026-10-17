@@ -111,6 +111,11 @@ def tree_gate(el):
         return 'Unlocks once the pawn has ' + (pt.findtext('label') if pt is not None else g.findtext('parentTree')) + '.'
     return None
 
+NOTE = {
+    'NF_Medical': 'Every ninja can learn it, but only up to D rank. Higher ranks need a Medical Specialist build.',
+    'NF_ProfSensor': 'Counts as a medical tree: D rank only, unless the pawn has a Medical Specialist build.',
+    'NF_ProfSoulcaster': 'Counts as a medical tree: D rank only, unless the pawn has a Medical Specialist build.',
+}
 by_tree = {}
 for dn, a in abilities.items():
     for li in a.findall('abilityTrees/li'):
@@ -191,7 +196,7 @@ for g in GROUPS:
                     ti_ = tier_info(li.text)
                     if ti_: gl |= set(ti_['genes'])
             if gl: gate = 'Needs the ' + ' or '.join((genes[g].findtext('label') if g in genes else g) for g in sorted(gl)) + ' gene.'
-        note = gate or ('Open to every ninja.' if open_t else 'Unlocks through World of Naruto\'s own trees, a gene, a build choice or a profession.')
+        note = NOTE.get(tdn) or gate or ('Open to every ninja. How high a ninja can go depends on their ninja build.' if open_t else 'Unlocks through World of Naruto\'s own trees, a gene, a build choice or a profession.')
         bg = img(t.findtext('backgroundTexPath'), True)
         hero = f'<img class="treebg" src="{up}img/{E(bg)}" alt="">' if bg else ''
         body = f'''<div class="hero tree">{hero}<div><p class="crumb"><a href="index.html">Technique trees</a> › {E(g)}</p>

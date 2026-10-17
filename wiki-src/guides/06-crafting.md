@@ -14,3 +14,8 @@ The alchemy table, disciplines, the scribe desk and the crafting arts.
 ## Scribe desk
 - Write **technique scrolls**: pick a technique with the "Scroll to write" button. A ninja can write any technique they know, up to the rank they know it at, but never clan or bloodline techniques. Written scrolls can be sold.
 - Seals and Revamp Scrolls can be made here too.
+
+## Bombs, oils and poisons
+- Demolitionists can make more than twenty alchemical bombs: fire, shrapnel, lightning, freezing wind, blinding sand, sticky goo, spores and poison gas, up to the S-rank Apocalypse. Many leave everyone in the blast dazed, blinded, slowed or drained of chakra.
+- Any alchemist can make **coatings**: oils and poisons rubbed onto the weapon in hand. A coating lasts a number of hits and takes no seal slot. Some oils only bite into animals, big foes, insects, machines or people; poisons build up toxins, cripple, confuse or frighten.
+- **Unguents**: tough skin liniment, stop-bleeding ointment and vapours of easy breathing.

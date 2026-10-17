@@ -10,7 +10,7 @@ What to install, what changes when you start a colony, and where to find everyth
 - Every colonist aged 6 or older gets a **Ninja build** button. The build decides which kinds of trees the pawn can enter and how far they can go in each. See [Ninja builds](builds.html).
 - Techniques live in World of Naruto's ability window, in the Ninjutsu, Clan and other tabs. Each technique has ranks from D to S; higher ranks need a higher class level.
 - Pawns born into a clan (a gene or xenotype) get that clan's tree for free. See [Clans and bloodlines](bloodlines.html).
-- Some trees are open to every ninja from the start: Medical ninjutsu, Summoning arts, Contract bonds, and the crafting arts.
+- Some trees are open to every ninja from the start: Summoning arts, Contract bonds and the crafting arts. Medical ninjutsu is open too, but only up to D rank; higher ranks need a Medical Specialist build.
 
 ## The first year
 - The hidden villages and the Black Ink Syndicate are at war with everyone, but a **one-year truce** (60 days) keeps them from raiding a new colony. An alert counts down the days. See [Factions and missions](factions.html).

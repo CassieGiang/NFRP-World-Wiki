@@ -17,3 +17,7 @@ Pressing power into weapons and armour.
 
 ## Storing a technique
 - **Jutsu Storing** (armour), **Jutsu Well** and **Jutsu Carrier** (weapons) hold one technique. Use "Store technique" to pay its chakra now; later, "Release" gives the chakra back and readies the technique at once, so it can be cast for free.
+
+## Attachments and quivers
+- Red dot sights, scopes, stabilizers and pistol grips are fitted to ranged weapons like seals.
+- **Quivers of special arrows** are worn in the belt slot: broad-head, bullet-point, blunt, superheated, screaming, whistling, net, boreworm and tracer arrows. The quiver's effect works with every hit of the wearer's bow, crossbow or sling.

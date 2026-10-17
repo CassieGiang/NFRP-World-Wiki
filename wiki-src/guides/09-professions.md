@@ -12,3 +12,8 @@ Venator, Bard, Soulcaster, Monster Trainer, Sensor and ANBU.
 ## Gadgets
 - Spyglass, radio headset, field radio, caltrops, tripwire alarm, grappling hook, shinobi goggles, covert listening device, motion scanner and field medic kit.
 - **Talismans** (one at a time, belt slot) from the Venator: Clear Mind, Warding, Hunter's and Ash Oath.
+- **Sensors**: heat sensor, noise sensor and laser tripwire (which also stuns). A **desktop computer** next to a hi-tech research bench speeds up research.
+
+## Clothing and gear
+- Boots of speed, boots of striding and springing, gloves of digging, cloaks of protection, displacement and lightning, battle cloaks, fire-resistant, cold-weather and hot-weather clothing, courtier's clothing, a tactical vest and a patrol pack.
+- Weapons: battle umbrellas, throwing disks, war boomerangs, senbon, and two legendary blades, the clockwork blade and the blade of the dhampir.
