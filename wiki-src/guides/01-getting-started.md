@@ -34,3 +34,11 @@ The same medieval village, with two founders and a rich caravan: 1500 silver, 60
 
 ## Animation settings
 Mod settings > NFRP World has switches for the animations: lunges, recoil and knockback slides; swing trails; the wind-up glow while casting; camera shake (with a strength slider); idle flourishes for drafted ninja; work animations (training posts, the shrine, ritual seals); hover for winged ninja and flying creatures; lightning bolts and growing beams; animating only your own pawns; a cap on effects on screen; and a zoom level past which pawn animations stop. They are cosmetic only and never change positions or damage.
+
+## World and ritual settings
+The same settings window also has: how often sealed ruins appear on new maps, how often NFRP events happen, switches for monster incursions, chakra storms and wandering masters, ritual power, the augmentation cap per person, and whether enemy ninja carry ritual seals and bombs (they use them: Syndicate ninja curse your colonists, Venator hunters heal their own).
+
+## Dev tools and the self-test
+With dev mode on, the debug actions menu has an **NFRP World** section: build a tomb, shrine or training ground; fire each event; start a ruin quest or a mission; drop families of items; spawn creatures; teach a tree or set a discipline; fill chakra; and test animations.
+
+**Run self-test** checks everything the mod adds: every item, building and creature spawns; every icon, technique icon, tree background and worn look is present; every status can be added and removed; every piece of gear can be worn; every ritual seal runs; every recipe has a bench; and legendary techniques point at real weapons. It writes **NFRP_SelfTest.txt** to your RimWorld save-data folder. Use a throwaway colony and don't save afterwards.
