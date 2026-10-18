@@ -7,6 +7,16 @@ Call a hidden village on the comms console and, as long as they aren't hostile, 
 
 Silver has to be near a trade beacon, as with any comms trade.
 
+## Joining a village
+With goodwill 60 or more you can **swear your ninja** to one of the six hidden villages from the comms console. Only one village at a time.
+- Each of your ninja on the map receives the village's **headband** by drop pod.
+- The village's scrolls cost 30% less and go up to B rank.
+- It offers ranked missions three times as often.
+- Every rank one of your ninja earns raises the village's goodwill (+2 for genin up to +8 for village leader).
+- It hosts your genin at the chūnin exam.
+
+**Leaving** costs 60 goodwill with that village. Every ranked ninja becomes **missing-nin** for 60 days (less social impact) and feels they abandoned their village for a while. You can't swear to another village for 30 days.
+
 ## Venator
 Call a Venator base and you can **hire monster hunters** for 600 silver: a hunting party arrives to fight beside you.
 

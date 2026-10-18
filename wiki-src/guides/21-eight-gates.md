@@ -13,6 +13,8 @@ Each gate is named after its chakra wheel. Every gate needs the gate before it, 
 - **Sahasrara (Seventh Gate: the Crown)**, S rank, level 16: ×1.9 melee damage. Afterwards: a day and a half of strain, very heavy blood loss.
 - **Patala (Eighth Gate: the Underworld)**, S rank, level 18: ×2.4 melee damage, huge speed, hit and dodge, ignores most pain. Afterwards: two days barely able to move, about 60% blood loss and heavy damage. Nearly fatal.
 
+While a gate is open the user glows in its chakra's colour, from red-orange at the first gate through orange, yellow, green, sky blue, indigo and white-gold to crimson at the eighth. The glow grows with each gate: flames from the third, drifting motes from the fifth, and blood-red steam at the eighth.
+
 ## Gate strikes
 All of these need the First Gate learned.
 

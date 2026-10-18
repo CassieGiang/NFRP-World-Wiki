@@ -32,3 +32,4 @@ Every archive tree has its own section, named after the tree, in its class's tab
 - **The Pulverem (Keepers of the Y'la)**: Eye of the Y'la, Aura of misfortune, Oafstep, Harrowing strike, Malediction, Squirming grip, Devour curse, Great discord, Apt curse, Utterance of damnation, Foolschant, Verum fatis.
 - **Medical skill and restoration**: Physician's oath, Field healer, Sense weakness, Trauma care, Ritual of the hundred-fold seal, Hundred-fold seal, Rebirth seal, Remote healing, Hundred-fold regeneration.
 
+In the technique window each archive tree is laid out one row per rank, D at the top down to S at the bottom.
