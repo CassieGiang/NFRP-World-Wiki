@@ -4,7 +4,12 @@ What to install, what changes when you start a colony, and where to find everyth
 ## Install
 - Subscribe to [Harmony](https://steamcommunity.com/sharedfiles/filedetails/?id=2009463077), [Taran Magic Framework](https://steamcommunity.com/sharedfiles/filedetails/?id=3527502876), [World of Naruto](https://steamcommunity.com/sharedfiles/filedetails/?id=3025338958) and [Giddy-Up](https://steamcommunity.com/sharedfiles/filedetails/?id=3674332861), then NFRP World.
 - Load order: Harmony, Taran Magic Framework, World of Naruto, Giddy-Up, NFRP World.
-- Giddy-Up is required. In the next update NFRP World's creatures become mounts through it, and riders on flying creatures can fly.
+- Giddy-Up is required: NFRP World's big tame beasts are mounts through it, and riders on flying creatures get a **Fly** order. See [Mounts and flying](mounts-and-flying.html).
+
+## Credits and other mods
+- Built on **World of Naruto** and **Taran Magic Framework**; riding comes from **Giddy-Up** (required).
+- The Kazeraikou clan was created by Marii from NFRP and is used with her permission. Other technique and clan material comes from the NFRP community archive.
+- Known compatibility: NFRP World guards against errors from Surveillance Shift and Alpha Memes when its summons and golems are on the map, and gives its generated pawns a world tile so SimpleLeadership doesn't complain.
 - The mod works in new and existing saves. Factions that are missing from an old world are added when you load it.
 
 ## Your first ninja

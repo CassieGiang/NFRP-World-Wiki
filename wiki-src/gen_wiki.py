@@ -294,6 +294,10 @@ for g, _ in ITEM_GROUPS:
         tex = t.findtext('graphicData/texPath') or ''
         ic = img(tex) or img(tex + '_south') or img(tex + '/' + tex.split('/')[-1]) or img(t.findtext('uiIconPath'))
         icimg = f'<img class="ic" src="img/{E(ic)}" alt="" loading="lazy">' if ic else '<span class="ic blank"></span>'
+        wg = t.findtext('apparel/wornGraphicPath')
+        if wg:
+            wi = img(wg + '_Male_south') or img(wg + '_south')
+            if wi: icimg += f'<img class="ic worn" src="img/{E(wi)}" alt="worn" title="Worn look" loading="lazy">'
         inner += f'<article class="item unit" id="{slug(dn)}">{icimg}<div><h3>{E(t.findtext("label").capitalize())}</h3><p>{E(t.findtext("description"))}</p></div></article>'
         index.append([t.findtext('label'), 'Item', 'items.html#' + slug(dn), g])
     inner += '</div>'
@@ -329,6 +333,17 @@ for fw, title in (('true', 'Weapon seals'), ('false', 'Armour seals')):
 page('seals.html', 'Enchantment seals', body)
 
 
+ARTS = {}
+try:
+    for _x in json.load(open('/mnt/user-data/outputs/beastarts_wiki.json', encoding='utf-8')): ARTS[_x['defName']] = _x['arts']
+except Exception: pass
+FLYERS = set()
+for dn_, t_ in things.items():
+    if any((e.get('Class') or '') == 'CassieNFRP.NFFlyingMount' for e in t_.iter()): FLYERS.add(dn_)
+for f in glob.glob(os.path.join(SRC, 'Patches', '*.xml')):
+    for op in ET.parse(f).getroot().iter('Operation'):
+        if 'NFFlyingMount' in ET.tostring(op, encoding='unicode'):
+            FLYERS.update(re.findall(r'defName="([^"]+)"', op.findtext('xpath') or ''))
 def nice_biome(b): return re.sub(r'(?<!^)([A-Z])', r' \1', b).lower().replace('_', ' ')
 def creature_roles(dn, t):
     r = t.find('race')
@@ -339,7 +354,10 @@ def creature_roles(dn, t):
     wild = float(t.findtext('statBases/Wildness') or 0.5)
     if not dn.startswith('NF_Undead_') and r.findtext('intelligence') != 'Humanlike' and wild < 0.98: tags.append('tameable')
     comps = [c.get('Class') or '' for c in t.findall('comps/li')]
-    if any(('Mount' in (e.get('Class') or '') or 'Ridable' in (e.get('Class') or '')) for e in t.iter()): tags.append('rideable')
+    size = float(r.findtext('baseBodySize') or 1)
+    cls = [(e.get('Class') or '') for e in t.iter()]
+    if 'tameable' in tags and 'GiddyUp.NotMountable' not in cls and (size > 1.2 or 'GiddyUp.Mountable' in cls): tags.append('rideable (Giddy-Up)')
+    if dn in FLYERS: tags.append('flying mount')
     if r.findtext('packAnimal') == 'true': tags.append('pack animal')
     if any('Milkable' in c for c in comps): tags.append('milk')
     if any('Shearable' in c for c in comps): tags.append('wool')
@@ -350,7 +368,12 @@ def creature_roles(dn, t):
     out = ''
     if tags: out += '<b>' + E(', '.join(tags)) + '</b>'
     if bio: out += (' · ' if out else '') + 'wild in ' + E(', '.join(bio))
-    return f'<p class="meta"><small>{out}</small></p>' if out else ''
+    res = f'<p class="meta"><small>{out}</small></p>' if out else ''
+    arts = ARTS.get(dn)
+    if arts:
+        res += '<details class="arts"><summary>Creature arts (' + str(len(arts)) + ')</summary><ul>' + ''.join(
+            f'<li><b>{E(a["label"])}</b>{(" · " + E(a["element"])) if a.get("element") else ""} · {a["cooldownSeconds"]} s cooldown<br><small>{E(a["desc"])}</small></li>' for a in arts) + '</ul></details>'
+    return res
 
 # ───────────────────────────── creatures (summons)
 CRE_GROUPS = ['Legendary beasts', 'Predators', 'Mounts, pack and farm animals', 'Other wildlife', 'Undead', 'Summons, golems and companions']
@@ -449,10 +472,17 @@ page('factions.html', 'Factions', body)
 
 # ───────────────────────────── guides (hand-written, markdown-lite in guides/*.md)
 SOON = 'Coming in the next update.'
+GUIDE_SLUGS = {re.sub(r'^\d+-', '', os.path.basename(f)[:-3]) for f in glob.glob(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'guides', '*.md'))}
 def inline(s, up):
     s2 = E(s)
     s2 = re.sub(r'\*\*(.+?)\*\*', r'<b>\1</b>', s2)
-    s2 = re.sub(r'\[(.+?)\]\((.+?)\)', lambda m: f'<a href="{m.group(2) if m.group(2).startswith("http") else up + m.group(2)}">{m.group(1)}</a>', s2)
+    def _href(t):
+        if t.startswith('http') or t.startswith('#'): return t
+        while t.startswith('../'): t = t[3:]
+        base = t.split('#')[0]
+        if '/' not in base and base.endswith('.html') and base[:-5] in GUIDE_SLUGS: t = 'guides/' + t
+        return up + t
+    s2 = re.sub(r'\[(.+?)\]\((.+?)\)', lambda m: f'<a href="{_href(m.group(2))}">{m.group(1)}</a>', s2)
     return s2
 
 def md(text, up, sections=False):

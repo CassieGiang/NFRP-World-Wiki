@@ -42,3 +42,6 @@ Worn gadgets add a button: **grapnel gun** (pull yourself 22 cells), **line laun
 
 ## Odds and ends
 New oils against monsters, the undead, summoned beings, entities and blood-drinkers; metal polish; plant growth powder; scent killer; salt bomb (hurts summons and entities); smoke pellet; acid flask and sunsfane; seven Japanese instruments for Bards; and candy, which gives Yokushin chakra back.
+
+## How it looks when worn
+All worn clothing and gear is drawn on RimWorld's own body and head shapes for every body type, in the same flat, bold style as the base game. Village headbands (the cloth band), the haori, kimono-style pieces, the jingasa, the buckler and tedate, the Japanese armour (dō, haidate, hakama, kote, sode, noragi) and the tear-away jacket take the colour of the material they're made from. Item pages show the worn look next to each item's icon.

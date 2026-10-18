@@ -28,3 +28,22 @@ Forty more creatures from the archive, each with a job in a colony. Every one is
 - **Legendary beasts:** phoenix, kirin (rideable), thunder behemoth, frost roc. The kirin, phoenix and frost roc guard shrines; the hell scorpion, trapdoor spider, manticore and thunder behemoth guard tombs.
 
 Forty new plants came with them: herbs, poisons, alchemy ingredients, crops, dyes, flowers and trees. See the [plants page](../plants.html).
+
+## Storm birds, feathered serpents and land sharks
+- **Ziz**: a huge storm bird of wind and lightning, rare and hard to tame. A flying mount.
+- **Couatls**: beside the jet couatl, the rainbow-feathered **couatl** (mends the worst wound of a friend nearby), the **primal couatl** (its gaze stuns) and the **radiant couatl** (a cursing bite). All are flying mounts; the jet couatl can be ridden too.
+- **Pied viper**: a small winged serpent with a toxic bite. Too small to ride.
+- **Bulettes**: burrowing land sharks that dig under the ground and burst up next to their prey, stunning it: the common bulette, the **hammerhead** (a stunning ram) and the **xenarth** (burning acid ichor). Rideable, but they don't fly.
+
+## Creature arts
+Every creature, summon and undead has one to three **signature arts** that ninja don't have: breath cones, spit and volleys, webs, pounces and dives, trampling charges, burrow ambushes, rakes and draining bites, coils, tail sweeps and stomps, element pulses, roars, wails and howls, healing songs, shell guards and dazing gazes. Each creature's arts, with their numbers, are on the [creatures page](../creatures.html) under "Creature arts".
+- Wild animals only use them in a fight: predators on a hunt, manhunters, animals that are attacked and faction beasts.
+- Tamed creatures get a button per art when selected, plus an **Auto arts** switch.
+- Damaging area arts hit everyone in the area, but a creature never uses one on its own if it would catch a friend; heals, roars and howls only touch the side they're meant for.
+- Damage grows with body size; cooldowns are 10 to 50 seconds. The **Creature arts** setting turns them off.
+
+## How creatures move
+- Flyers hover and bob with a shadow below them; the main flyers flap their wings.
+- Long bodies slither: couatls and Kishinryuu ripple from head to tail, coiled snakes sway, the centipede ripples and the slugs creep. World of Naruto's snakes slither too.
+- Big beasts breathe while standing; spirits drift and flicker. Magical creatures carry an element aura and flash an element effect when they attack.
+- Settings: **Creature idle motion**, **Creature auras**, **Creature attack flashes** and **Serpent movement**.

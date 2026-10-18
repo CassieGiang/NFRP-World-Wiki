@@ -4,7 +4,7 @@ What NFRP World patches, how its defs are named, and the extensions you can reus
 This page is for people making mods that sit next to NFRP World, or tracking down a conflict. Players can skip it.
 
 ## Load order
-- **Harmony**, then **Taran Magic Framework**, then **World of Naruto**, then **Giddy-Up**, then **NFRP World**. NFRP World must load after Taran Magic Framework and World of Naruto, because it adds trees to their framework and patches their classes. Giddy-Up is required too; the next update adds NFRP World's creatures as Giddy-Up mounts and builds flying on top of it.
+- **Harmony**, then **Taran Magic Framework**, then **World of Naruto**, then **Giddy-Up**, then **NFRP World**. NFRP World must load after Taran Magic Framework and World of Naruto, because it adds trees to their framework and patches their classes. Giddy-Up is required too: NFRP World's creatures are Giddy-Up mounts, and the Fly order is built on top of it (called by reflection, so the 1.6 and 1.7 Giddy-Up builds both work).
 - The mod supports RimWorld 1.6 and 1.7. On 1.7 it loads the same 1.6 folder (set in LoadFolders.xml), so there is one set of defs and one assembly for both.
 
 ## Seeing the live patch list
@@ -64,6 +64,12 @@ These are DefModExtensions in the CassieNFRP namespace. Add them to your own def
 - **KZEffect** (on an ability): kind (cone, strike, zone, shield, orb), element, tint, damageDef, damage, armorPenetration, extraDamageDef, extraDamage. Painted area and strike effects.
 - **NFFactionInfo** (on a faction): group (main, minor, syndicate, venator, feudal), title, trees, headband, helmet, rank. How a faction fights and dresses, and whether it joins the war.
 - **NFRitualItem** (on a ritual): kind, hediff, ticks, amount, radius, thing, curse, aug. What a ritual gives.
+
+## Dev test suite and showcase
+- **Dev menu, NFRP World, Run full test suite** (or one section) runs fixed scenarios on the current map: every technique tier is cast, every hediff applied and removed, every item spawned and worn on all five body types, every recipe made, every creature spawned with its arts, mounting and flying, rituals, ranks, factions, incidents, windows and settings. Use a dev quick-test map and never save afterwards.
+- The report goes to `NFRP_TestSuite/report.txt` and `report.json` next to your save data, with screenshots in `shots/`. Errors raised by other mods during the run are listed separately (EXT lines) and don't fail a case.
+- **Dev menu, NFRP World, Showcase** stages each technique (or creature art) in a clean arena in daylight with a caption, for recording, and writes a timeline with exact clip times to `NFRP_Showcase/` so a long screen recording can be cut into one clip per technique.
+- While the suite or showcase runs, NFRP World's own windows and letters are held back and the storyteller is paused.
 
 ## Reporting a conflict
 Send the NFRP_Patches.txt file, your mod list and the error from the log. If two mods patch the same method, the dev file shows which NFRP patch is there, so it is quick to see who needs to change.
