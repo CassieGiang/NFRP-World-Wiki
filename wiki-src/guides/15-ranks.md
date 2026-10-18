@@ -43,3 +43,13 @@ In dev mode, the **NFRP World** debug actions include "Make selected pawn qualif
 
 ## The ninja world panel
 The **ninja world** button on the bottom bar opens one screen with everything about your place in the ninja world: the village you're sworn to and its perks (or how to join), any colonists marked missing-nin, the truce countdown, how many days until a chūnin exam invitation can come and which village would host it, goodwill and relation with every NFRP faction, and a list of your ninja with rank, level, days at that rank and whether they're ready for the next exam. Click a ninja's row to select them.
+
+## Leader orders
+Coming in the next update.
+
+A colonist with the **village leader** rank gets three buttons when selected on their own:
+- **Rally the village** (once a day): everyone on the map is rallied for about six hours (+5% consciousness), and everyone but the leader feels "rallied by the leader" (+6 mood for a day).
+- **Call to arms** (once a day): drafts every ninja on the map who can fight, and all of them are "called to arms" for about three hours (faster movement, +3 shooting accuracy, +3 melee hit chance).
+- **Assign a mission** (once every 10 days): pick a rank from D to S and a ranked mission comes in from your sworn village, or the friendliest village that gives missions. It's greyed out with the reason if no village can give one.
+
+The ninja world panel shows the leader and whether each order is ready.

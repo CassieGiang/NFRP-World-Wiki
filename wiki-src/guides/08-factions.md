@@ -18,3 +18,12 @@ Who's out there, the war, the truce and ranked missions.
 
 ## Enemy ninja
 - NPC ninja learn techniques from their clan and village trees up to their rank: genin C, chunin B, jounin and ANBU A, village heads S.
+
+## Venator bounties
+Coming in the next update.
+
+While the Order of the Venator isn't hostile to you, it posts a **bounty** every few weeks (from day 8, at least 20 days apart):
+- **A rogue ninja** of the Black Ink Syndicate (only after the truce, while the Syndicate is hostile) who comes for your colony. The reward depends on how dangerous they are, from 400 to 1,200 silver.
+- **A pack of undead**, three to five of them, roaming in. 150 silver a head.
+
+Kill, down or capture every target and the silver arrives by drop pod, plus +6 goodwill with the Venator. A bounty that isn't claimed within ten days is withdrawn.
