@@ -31,7 +31,7 @@ Forty new plants came with them: herbs, poisons, alchemy ingredients, crops, dye
 
 ## Storm birds, feathered serpents and land sharks
 - **Ziz**: a huge storm bird of wind and lightning, rare and hard to tame. A flying mount.
-- **Couatls**: beside the jet couatl, the rainbow-feathered **couatl** (mends the worst wound of a friend nearby), the **primal couatl** (its gaze stuns) and the **radiant couatl** (a cursing bite). All are flying mounts; the jet couatl can be ridden too.
+- **Couatls**: beside the jet couatl, the rainbow-feathered **couatl** (mends the worst wound of a friend nearby), the **primal couatl** (its gaze stuns) and the **radiant couatl** (a cursing bite). All four couatls, the jet couatl included, are rideable flying mounts.
 - **Pied viper**: a small winged serpent with a toxic bite. Too small to ride.
 - **Bulettes**: burrowing land sharks that dig under the ground and burst up next to their prey, stunning it: the common bulette, the **hammerhead** (a stunning ram) and the **xenarth** (burning acid ichor). Rideable, but they don't fly.
 

@@ -7,7 +7,7 @@ The wilds of the NFRP world: archive beasts, herbs, chakra metal and gems, seale
 - **Crystal serpent**: a calm crystal snake. Tame it and shear it for crystal shards.
 - **Pyro hydra**: a rare three-headed fire drake of the deserts that breathes fire. Avoid it unless you are ready.
 - **Snarl beast**: a horned lion whose snarl stuns everyone around it.
-- **Bleyk**: a huge horned pack animal with tough skin. With the Giddy-up mod it can be ridden.
+- **Bleyk**: a huge horned pack animal with tough skin. It can be ridden through Giddy-Up.
 - **Keel turtle**: a slow giant with a spiked shell.
 - **Poison monkey** troupes, **berserker wasp** swarms (their sting can drive a victim berserk), the sand-buried **dust digger** and swarms of **hell moths** whose scales burn.
 - Many can be tamed, some only by a Monster Trainer's techniques.

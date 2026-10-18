@@ -38,4 +38,4 @@ Four ninja rituals, each brought by one of the memes and open to ideoligions wit
 - **Festival rite** (Sage of the Wilds): during a village festival it raises goodwill with the host village.
 - **Blood pact rite** (The Forbidden Path): the pact-bearer regains chakra faster for one to three days, longer and stronger with a summoning contract.
 
-An ideoligion made before the update gets the rituals only after it is reformed.
+An ideoligion made before the rituals were added gets them only after it is reformed.

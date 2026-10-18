@@ -64,6 +64,9 @@ These are DefModExtensions in the CassieNFRP namespace. Add them to your own def
 - **KZEffect** (on an ability): kind (cone, strike, zone, shield, orb), element, tint, damageDef, damage, armorPenetration, extraDamageDef, extraDamage. Painted area and strike effects.
 - **NFFactionInfo** (on a faction): group (main, minor, syndicate, venator, feudal), title, trees, headband, helmet, rank. How a faction fights and dresses, and whether it joins the war.
 - **NFRitualItem** (on a ritual): kind, hediff, ticks, amount, radius, thing, curse, aug. What a ritual gives.
+- **NFFlyingMount** (on an animal's race): range (0 = from body size, 25 to 60 cells). Makes the animal a flying mount: a pawn riding it through Giddy-Up gets the Fly order.
+- **CompProperties_NFCreatureLook** (a comp on an animal): motion (still, hover, sway, breathe, shamble, spirit), element, flapTex. Idle motion, element aura and wing frames for your own creatures.
+- **CompProperties_NFBeastArts** (a comp on an animal): arts. Signature creature arts with their own cooldowns, AI use and buttons when tamed.
 
 ## Reporting a conflict
 Send the NFRP_Patches.txt file, your mod list and the error from the log. If two mods patch the same method, the dev file shows which NFRP patch is there, so it is quick to see who needs to change.

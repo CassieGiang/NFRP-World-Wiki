@@ -4,7 +4,7 @@ Golems, fabled animals, a bone steed and animals sealed into scrolls.
 ## Element summons
 - **Golem** (Earth C/B/A): one, two or three stone golems. Needs bare ground underfoot, not a built floor. **Golem Stone Prayer** crushes one enemy; **Living Golem Armour** puts a stone suit on an ally.
 - **Flame Golem** (Fire C to S), **Water Beast** (Water B, needs rain or water within 8 cells), **Wood Golem** (Wood S, weak to fire), **Spontaneous Tree** (Wood A, shelters an ally).
-- **Bone Golem** (Kaguya A) stays until destroyed. **Skeletal Steed** (Kaguya C) is a fast bone mount: with the Giddy-up mod it can be ridden, without it it runs beside its maker as a companion.
+- **Bone Golem** (Kaguya A) stays until destroyed. **Skeletal Steed** (Kaguya C) is a fast bone mount that can be ridden through Giddy-Up.
 
 ## Fabled animals
 - Learn **Blood Pact** (Summoning arts, D) and pick one contract: Gale Hawks, Iron Boars, Moon Wolves or Stone Tortoises. One contract per ninja.

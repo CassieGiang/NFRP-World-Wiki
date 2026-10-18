@@ -17,7 +17,7 @@ Who's out there, the war, the truce and ranked missions.
 - Rewards: the usual payment plus a bonus on success: a technique scroll and seals of the mission's rank, and sometimes a clan weapon at A or S rank.
 
 ## Enemy ninja
-- NPC ninja learn techniques from their clan and village trees up to their rank: genin C, chunin B, jounin and ANBU A, village heads S.
+- NPC ninja learn techniques from their clan and village trees up to their rank: genin C, chūnin B, jōnin and ANBU A, village leaders S.
 - Every NPC fighter of an NFRP faction has a **squad role**, shown as a health condition:
 - **Frontline** (the most common): takes 10% less damage, dodges better and shrugs off pain.
 - **Medic**: tends wounds better and faster, and heals the most hurt ally within 12 cells (the downed first) with its own heal techniques.

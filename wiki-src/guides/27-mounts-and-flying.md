@@ -9,7 +9,7 @@ NFRP World's creatures are ridden through **Giddy-Up**, which is required.
 ## Flying
 - A pawn riding a **flying mount** gets a **Fly** order: the pair takes off, flies over walls and water and lands still mounted.
 - Range: 22 + 8 cells per point of the mount's body size, kept between **25 and 60 cells**. Both the take-off and landing cells must be unroofed. The order recharges in **900 ticks**.
-- Flying mounts: Ziz, couatl, primal couatl, radiant couatl, jet couatl, hippogriff, jungle griffon, kirin, and the great and elder gale hawks.
+- Flying mounts: Ziz, couatl, primal couatl, radiant couatl, jet couatl, hippogriff, jungle griffon, kirin, the great and elder gale hawks, and Kishinryuu (it hovers, so a pawn riding it can fly too).
 - **Caravans**: when every person in a caravan has an adult flying beast of body size 1.2 or more along, world travel takes **three quarters** of the time.
 - A flight in progress isn't saved: after a save and load mid-air, the rider lands on foot.
 

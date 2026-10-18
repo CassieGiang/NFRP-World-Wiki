@@ -10,7 +10,7 @@ Silver has to be near a trade beacon, as with any comms trade.
 ## Joining a village
 With goodwill 60 or more you can **swear your ninja** to one of the six hidden villages from the comms console. Only one village at a time.
 - Each of your ninja on the map receives the village's **headband** by drop pod.
-- The village's scrolls cost 30% less and go up to B rank. When a jōnin or the village leader does the talking, they go up to **A rank** (1,200 silver, 840 when sworn).
+- The village's scrolls cost 30% less and go up to B rank. When a jōnin or the village leader does the talking, they go up to **A rank** (840 silver with the sworn discount).
 - It offers ranked missions three times as often.
 - Every rank one of your ninja earns raises the village's goodwill (+2 for genin up to +8 for village leader).
 - It hosts your genin at the chūnin exam.
@@ -37,4 +37,4 @@ Every couple of weeks (from day 10, at least 15 days apart) your sworn village, 
 On success the silver and a D to B rank technique scroll arrive by drop pod, plus +8 goodwill (+12 if you're sworn to that village). A failed contract costs 5 goodwill.
 
 ## Festivals
-From the fourth day of summer, fall and winter, your sworn village (or the friendliest village that isn't hostile) invites you to a festival: the **lantern festival** in summer, the **harvest festival** in fall and the **new year festival** in winter, once each a year. Every colonist gets a good mood for three days (+6, +7 and +6), goodwill with the host rises (+3, or +5 if you're sworn to it), and the colony holds a party if it can. There's no spring festival.
+From the fourth day of summer, fall and winter, your sworn village (or the friendliest village that isn't hostile) invites you to a festival: the **lantern festival** in summer, the **harvest festival** in fall (with festival drums) and the **new year festival** in winter, once each a year. Every colonist gets a good mood for three days (+6, +7 and +6), goodwill with the host rises (+3, or +5 if you're sworn to it), and the colony holds a party if it can. There's no spring festival.

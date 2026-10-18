@@ -25,7 +25,7 @@ What to install, what changes when you start a colony, and where to find everyth
 - The ninja world panel shows a **Getting started** list of up to four next steps for your colony.
 
 ## The first year
-- The hidden villages and the Black Ink Syndicate are at war with everyone, but a **one-year truce** (60 days) keeps them from raiding a new colony. An alert counts down the days. See [Factions and missions](factions.html).
+- The hidden villages and the Black Ink Syndicate are at war with everyone, but a **truce of one in-game year** (60 days) keeps them from raiding a new colony. An alert counts down the days. See [Factions and missions](factions.html).
 - Use the year to train, build an alchemy table and a scribe desk, and make friends with the Order of the Venator, who trade seals, scrolls and potions.
 
 ## Techniques hit everyone
@@ -54,6 +54,9 @@ More switches in the same window:
 - **Creature idle motion**: flyers hover and bob (the main flyers flap their wings), serpents sway, zombies shamble, big beasts breathe, spirits drift and flicker. Golems, turtles and insects stay still.
 - **Creature auras**: magical creatures carry an aura in their element: crackling lightning, embers, drips, smoke, wisps, frost or leaves.
 - **Creature attack flashes**: creatures flash their element's effect when they hit or shoot.
+- **Serpent movement**: couatls, Kishinryuu and snakes slither and sway along their bodies.
+- **Creature arts**: beasts use their own signature attacks (breaths, pounces, roars, venom and more). See [New creatures and the undead](creatures-and-undead.html).
+- **Flying mounts**: riders on a flying beast get a Fly order over walls and water. Riding itself is Giddy-Up. See [Mounts and flying](mounts-and-flying.html).
 
 Sound cues need no setting: a technique starting plays a sound for its element, and gates, summons, promotions, festivals, combos and sensor marks have their own sounds, all taken from the base game and DLCs.
 
