@@ -65,11 +65,5 @@ These are DefModExtensions in the CassieNFRP namespace. Add them to your own def
 - **NFFactionInfo** (on a faction): group (main, minor, syndicate, venator, feudal), title, trees, headband, helmet, rank. How a faction fights and dresses, and whether it joins the war.
 - **NFRitualItem** (on a ritual): kind, hediff, ticks, amount, radius, thing, curse, aug. What a ritual gives.
 
-## Dev test suite and showcase
-- **Dev menu, NFRP World, Run full test suite** (or one section) runs fixed scenarios on the current map: every technique tier is cast, every hediff applied and removed, every item spawned and worn on all five body types, every recipe made, every creature spawned with its arts, mounting and flying, rituals, ranks, factions, incidents, windows and settings. Use a dev quick-test map and never save afterwards.
-- The report goes to `NFRP_TestSuite/report.txt` and `report.json` next to your save data, with screenshots in `shots/`. Errors raised by other mods during the run are listed separately (EXT lines) and don't fail a case.
-- **Dev menu, NFRP World, Showcase** stages each technique (or creature art) in a clean arena in daylight with a caption, for recording, and writes a timeline with exact clip times to `NFRP_Showcase/` so a long screen recording can be cut into one clip per technique.
-- While the suite or showcase runs, NFRP World's own windows and letters are held back and the storyteller is paused.
-
 ## Reporting a conflict
 Send the NFRP_Patches.txt file, your mod list and the error from the log. If two mods patch the same method, the dev file shows which NFRP patch is there, so it is quick to see who needs to change.
