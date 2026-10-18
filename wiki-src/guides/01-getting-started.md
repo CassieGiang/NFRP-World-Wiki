@@ -2,8 +2,9 @@
 What to install, what changes when you start a colony, and where to find everything.
 
 ## Install
-- Subscribe to Harmony, Taran Magic Framework and World of Naruto, then NFRP World.
-- Load order: Harmony, Taran Magic Framework, World of Naruto, NFRP World.
+- Subscribe to [Harmony](https://steamcommunity.com/sharedfiles/filedetails/?id=2009463077), [Taran Magic Framework](https://steamcommunity.com/sharedfiles/filedetails/?id=3527502876), [World of Naruto](https://steamcommunity.com/sharedfiles/filedetails/?id=3025338958) and [Giddy-Up](https://steamcommunity.com/sharedfiles/filedetails/?id=3674332861), then NFRP World.
+- Load order: Harmony, Taran Magic Framework, World of Naruto, Giddy-Up, NFRP World.
+- Giddy-Up is required from the next update: NFRP World's creatures become mounts through it, and riders on flying creatures can fly.
 - The mod works in new and existing saves. Factions that are missing from an old world are added when you load it.
 
 ## Your first ninja

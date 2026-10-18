@@ -1,21 +1,25 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>For modders · NFRP World</title><meta name="description" content="For modders">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@600;700&display=swap">
 <link rel="stylesheet" href="../assets/style.css"><link rel="icon" href="../assets/icon.png">
 </head><body>
-<header><a class="brand" href="../index.html"><img src="../assets/icon.png" alt=""><span>NFRP World</span></a>
-<nav><a href="../index.html">Home</a><a href="../guides/index.html">Guides</a><a href="../trees/index.html">Technique trees</a><a href="../items.html">Items</a><a href="../seals.html">Seals</a><a href="../creatures.html">Creatures</a><a href="../plants.html">Plants</a><a href="../factions.html">Factions</a></nav>
+<header><div class="hin"><a class="brand" href="../index.html"><img src="../assets/icon.png" alt=""><span>NFRP World</span></a>
+<nav><a href="../index.html">Home</a><a href="../guides/index.html">Guides</a><a href="../trees/index.html">Technique trees</a><a href="../items.html">Items</a><a href="../seals.html">Seals</a><a href="../creatures.html">Creatures</a><a href="../plants.html">Plants</a><a href="../factions.html">Factions</a><a href="../guides/for-modders.html" class=on>For modders</a></nav>
 <div class="search"><input id="q" type="search" placeholder="Search techniques, items, seals…" autocomplete="off" aria-label="Search"><div id="hits"></div></div>
-</header>
+</div></header>
 <main><article class="guide"><h1>For modders</h1>
 <p>What NFRP World patches, how its defs are named, and the extensions you can reuse.</p>
 <p>This page is for people making mods that sit next to NFRP World, or tracking down a conflict. Players can skip it.</p>
-<h2>Load order</h2>
-<ul><li><b>Harmony</b>, then <b>Taran Magic Framework</b>, then <b>World of Naruto</b>, then <b>NFRP World</b>. NFRP World must load after both, because it adds trees to their framework and patches their classes.</li><li>The mod supports RimWorld 1.6 and 1.7. On 1.7 it loads the same 1.6 folder (set in LoadFolders.xml), so there is one set of defs and one assembly for both.</li></ul>
-<h2>Seeing the live patch list</h2>
+<div class="toolbar"><button type="button" data-act="open">Expand all</button><button type="button" data-act="close">Collapse all</button></div><div class="toc"><a href="#load-order">Load order</a><a href="#seeing-the-live-patch-list">Seeing the live patch list</a><a href="#what-gets-patched-by-system">What gets patched, by system</a><a href="#def-names">Def names</a><a href="#extensions-you-can-use">Extensions you can use</a><a href="#reporting-a-conflict">Reporting a conflict</a></div><details class="sec gsec" open id="load-order"><summary><span class="st">Load order</span></summary><div class="body">
+<ul><li><b>Harmony</b>, then <b>Taran Magic Framework</b>, then <b>World of Naruto</b>, then <b>Giddy-Up</b>, then <b>NFRP World</b>. NFRP World must load after Taran Magic Framework and World of Naruto, because it adds trees to their framework and patches their classes. From the next update Giddy-Up is required too: NFRP World adds its creatures as Giddy-Up mounts and builds flying on top of it.</li><li>The mod supports RimWorld 1.6 and 1.7. On 1.7 it loads the same 1.6 folder (set in LoadFolders.xml), so there is one set of defs and one assembly for both.</li></ul>
+</div></details>
+<details class="sec gsec" open id="seeing-the-live-patch-list"><summary><span class="st">Seeing the live patch list</span></summary><div class="body">
 <p>The startup line and the dev file come in the next update.</p>
 <ul><li>At startup the log shows one line: <b>[NFRP World] Harmony patches: N on M methods</b>.</li><li>For the full list, open the dev menu, go to <b>NFRP World</b>, and choose <b>List NFRP World patches</b>. It writes <b>NFRP_Patches.txt</b> to your RimWorld save-data folder (next to NFRP_SelfTest.txt), grouped by Harmony id. Each line gives the patch kind, the patched method and the NFRP method that does it.</li><li>Every Harmony id starts with <b>cassie.nfrpworld.</b> so you can filter for them in any patch-listing tool.</li></ul>
-<h2>What gets patched, by system</h2>
+</div></details>
+<details class="sec gsec" open id="what-gets-patched-by-system"><summary><span class="st">What gets patched, by system</span></summary><div class="body">
 <p>The list below is current as of this page. The dev file above is always exact.</p>
 <p><b>Techniques and trees</b> (Taran Magic Framework)</p>
 <ul><li>AbilityClass.LearnAbility and AbilityClass.RequiredXPForNewLevel: build limits and levelling pace.</li><li>AcquireRequirement.RequirementSatisfied: tree unlock rules, with a finalizer (cassie.nfrpworld.reqguard) that stops a broken requirement from another mod throwing errors.</li><li>CompAbilities.CompGetGizmosExtra: technique buttons, the tech UI and scribe scrolls.</li><li>CompAbilities.PostDraw: aura effects.</li><li>Ability.Start: projectile effects.</li></ul>
@@ -27,13 +31,17 @@
 <ul><li>PawnGenerator.GeneratePawn: faction gear and traits.</li><li>Pawn.GetGizmos: alchemy, training and world job buttons.</li><li>Pawn_HealthTracker.AddHediff: goggles and ideology hooks.</li><li>Thing.TakeDamage: chakra seal.</li><li>PrisonBreakUtility.CanParticipateInPrisonBreak: chakra-sealed prisoners.</li></ul>
 <p><b>World, factions and quests</b></p>
 <ul><li>IncidentWorker.TryExecute and IncidentWorker_Raid.TryExecuteWorker: the faction war and the truce.</li><li>FactionDialogMaker.FactionDialogFor: rank and diplomacy options.</li><li>Quest.Accept and Quest.End: village contracts and ideology reactions.</li><li>WeatherDecider.ChooseNextWeather: storm arts.</li></ul>
-<h2>Def names</h2>
+</div></details>
+<details class="sec gsec" open id="def-names"><summary><span class="st">Def names</span></summary><div class="body">
 <ul><li><b>NF_</b> for most defs: trees, abilities, hediffs, items, factions, rituals.</li><li><b>KZ_</b> for the Kazeraikou tree and its effects.</li><li><b>Weapon_NF_</b> for weapons and <b>Proj_NF_</b> for projectiles.</li><li>Use these prefixes in XPath patches, for example to change a def without touching others.</li></ul>
-<h2>Extensions you can use</h2>
+</div></details>
+<details class="sec gsec" open id="extensions-you-can-use"><summary><span class="st">Extensions you can use</span></summary><div class="body">
 <p>These are DefModExtensions in the CassieNFRP namespace. Add them to your own defs with the class attribute, for example li Class=&quot;CassieNFRP.NFRequiresTree&quot;.</p>
 <ul><li><b>NFRequiresTree</b> (on a recipe or item): tree, label. Only pawns who know that tree can make it.</li><li><b>NFDisciplineItem</b> (on an item): discipline. Ties an alchemy item to a discipline.</li><li><b>NFGeneTree</b> (on a tree): gene, abilityClass, parentTree. Unlocks the tree from a gene, or when the pawn already has the parent tree.</li><li><b>NFInnate</b> (on a weapon or apparel): seals, weaponSeal, armourSeal, rank. Seals the item always carries.</li><li><b>NFAuraFx</b> (on an ability or hediff): layers. Drawn aura layers.</li><li><b>KZEffect</b> (on an ability): kind (cone, strike, zone, shield, orb), element, tint, damageDef, damage, armorPenetration, extraDamageDef, extraDamage. Painted area and strike effects.</li><li><b>NFFactionInfo</b> (on a faction): group (main, minor, syndicate, venator, feudal), title, trees, headband, helmet, rank. How a faction fights and dresses, and whether it joins the war.</li><li><b>NFRitualItem</b> (on a ritual): kind, hediff, ticks, amount, radius, thing, curse, aug. What a ritual gives.</li></ul>
-<h2>Reporting a conflict</h2>
-<p>Send the NFRP_Patches.txt file, your mod list and the error from the log. If two mods patch the same method, the dev file shows which NFRP patch is there, so it is quick to see who needs to change.</p></article></main>
+</div></details>
+<details class="sec gsec" open id="reporting-a-conflict"><summary><span class="st">Reporting a conflict</span></summary><div class="body">
+<p>Send the NFRP_Patches.txt file, your mod list and the error from the log. If two mods patch the same method, the dev file shows which NFRP patch is there, so it is quick to see who needs to change.</p>
+</div></details></article></main>
 <footer>NFRP World is a RimWorld mod by Cassie, an add-on for World of Naruto and Taran Magic Framework. Technique and clan material from the Naruto Forum Role-play (NFRP) community archive. The Kazeraikou clan was created by Marii from NFRP and is used with her permission. This wiki is generated from the mod's files.</footer>
 <script>window.ROOT="../";</script><script src="../assets/search.js"></script>
 </body></html>

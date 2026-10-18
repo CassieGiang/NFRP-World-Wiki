@@ -1,39 +1,47 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Ninja ranks and the rank exam · NFRP World</title><meta name="description" content="Ninja ranks and the rank exam">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@600;700&display=swap">
 <link rel="stylesheet" href="../assets/style.css"><link rel="icon" href="../assets/icon.png">
 </head><body>
-<header><a class="brand" href="../index.html"><img src="../assets/icon.png" alt=""><span>NFRP World</span></a>
-<nav><a href="../index.html">Home</a><a href="../guides/index.html">Guides</a><a href="../trees/index.html">Technique trees</a><a href="../items.html">Items</a><a href="../seals.html">Seals</a><a href="../creatures.html">Creatures</a><a href="../plants.html">Plants</a><a href="../factions.html">Factions</a></nav>
+<header><div class="hin"><a class="brand" href="../index.html"><img src="../assets/icon.png" alt=""><span>NFRP World</span></a>
+<nav><a href="../index.html">Home</a><a href="../guides/index.html">Guides</a><a href="../trees/index.html">Technique trees</a><a href="../items.html">Items</a><a href="../seals.html">Seals</a><a href="../creatures.html">Creatures</a><a href="../plants.html">Plants</a><a href="../factions.html">Factions</a><a href="../guides/for-modders.html">For modders</a></nav>
 <div class="search"><input id="q" type="search" placeholder="Search techniques, items, seals…" autocomplete="off" aria-label="Search"><div id="hits"></div></div>
-</header>
+</div></header>
 <main><article class="guide"><h1>Ninja ranks and the rank exam</h1>
 <p>Every ninja can climb four ranks: <b>genin</b>, <b>chūnin</b>, <b>jōnin</b> and <b>village leader</b>. A rank shows as a small bonus on the pawn&#x27;s health tab, and each one replaces the last.</p>
-<h2>The rank exam</h2>
+<div class="toolbar"><button type="button" data-act="open">Expand all</button><button type="button" data-act="close">Collapse all</button></div><div class="toc"><a href="#the-rank-exam">The rank exam</a><a href="#leveling-pace">Leveling pace</a><a href="#other-ways-to-grow">Other ways to grow</a><a href="#missions-by-rank">Missions by rank</a><a href="#the-ch-nin-exam">The chūnin exam</a><a href="#the-ninja-world-panel">The ninja world panel</a><a href="#leader-orders">Leader orders</a></div><details class="sec gsec" open id="the-rank-exam"><summary><span class="st">The rank exam</span></summary><div class="body">
 <p>Every couple of weeks the <b>rank exam</b> event comes round, as long as at least one colonist is eligible. Each eligible ninja sits the exam for the next rank. The chance of passing starts at 55%, goes up 4% for every ninja level above the requirement, and always stays between 30% and 92%. Passing gives a good mood for ten days; failing gives a small dip for five, and they can try again next time.</p>
 <ul><li><b>Genin</b>: needs ninja level 3. Bonus: learns a little faster.</li><li><b>Chūnin</b>: needs a year (60 days) as genin, level 8, and Melee or Shooting 6. Bonus: learns faster, more social impact, steadier nerves.</li><li><b>Jōnin</b>: needs two years (120 days) as chūnin, level 13, and two of Melee, Shooting, Intellectual or Medicine at 8. Bonus: social impact, steadier nerves, better aim and melee hits.</li><li><b>Village leader</b>: needs four years (240 days) as jōnin, level 16 and Social 8; only one per colony. Bonus: big social and negotiation bonus, steady nerves, better aim and hits.</li></ul>
 <p>Hover over a rank on the health tab to see the pawn&#x27;s ninja level, how long they&#x27;ve held the rank, what the next exam needs, and whether they&#x27;re ready for it.</p>
 <p><b>Ninja level</b> is the highest of the pawn&#x27;s Ninjutsu, Taijutsu and Genjutsu class levels.</p>
-<h2>Leveling pace</h2>
+</div></details>
+<details class="sec gsec" open id="leveling-pace"><summary><span class="st">Leveling pace</span></summary><div class="body">
 <p>Ninja classes level slowly, so a rank is earned over years of play:</p>
-<ul><li>Each new level of Ninjutsu, Taijutsu or Genjutsu costs 150 × (current level + 1) XP, three times the framework&#x27;s default. Reaching level 20 takes 31,500 XP in all.</li><li>NFRP World techniques give a small amount of XP once per cast, to the class the technique belongs to: D rank 1, C rank 3, B rank 4, A rank 7, S rank 11. Fighting alone won&#x27;t make a jōnin.</li></ul>
-<h2>Other ways to grow</h2>
+<ul><li>Each new level of Ninjutsu, Taijutsu or Genjutsu costs 150 × (current level + 1) XP, three times the framework&#x27;s default. Reaching level 20 takes 31,500 XP in all.</li><li>NFRP World techniques give a small amount of XP once per cast, to the class the technique belongs to: a quarter of the XP written in the technique, at least 1. That is usually 2 for D rank, 2 to 3 for C, 4 for B, 6 to 7 for A and 11 to 12 for S. Fighting alone won&#x27;t make a jōnin.</li></ul>
+</div></details>
+<details class="sec gsec" open id="other-ways-to-grow"><summary><span class="st">Other ways to grow</span></summary><div class="body">
 <ul><li><b>Training</b>: one session a day at a training building gives class XP as well as skill. Training post and training dummy: 15 Taijutsu. Battle ring: 18 Taijutsu. Chakra study apparatus (&quot;Study chakra at&quot;): 15 Ninjutsu. Star-watching platform (&quot;Meditate on&quot;): 15 Genjutsu. From class level 8 training gives half, and training alone stops at level 10. Pawns who refuse violence can still study at the apparatus and meditate at the platform; only the post, dummy and ring turn them away.</li><li><b>Sensei and student</b>: select a colonist below jōnin and use the <b>Sensei</b> button to pick a jōnin or village leader who outranks them. While the sensei is awake within 15 cells, the student gets three times the XP from training and sparring, in the sensei&#x27;s best class, and can grow past level 10 up to one level below the sensei (at most 16). The sensei gains Social.</li><li><b>Sparring</b>: select a colonist, right-click a <b>battle ring</b> and pick &quot;Spar with&quot; a partner. Both walk to the ring and spar: Melee practice for both, 12 Taijutsu XP each at the end (three times as much with their sensei). There is a small chance of a light bruise; nobody gets knocked down.</li><li><b>Missions</b>: clearing a ranked mission&#x27;s camp gives every ninja on the site class XP by mission rank: D 60, C 120, B 250, A 450, S 800.</li><li><b>Exams</b>: passing a rank exam gives genin 300, chūnin 600, jōnin 1,000 and village leader 1,500 class XP.</li></ul>
-<h2>Missions by rank</h2>
+</div></details>
+<details class="sec gsec" open id="missions-by-rank"><summary><span class="st">Missions by rank</span></summary><div class="body">
 <p>Like the role-play, a ninja&#x27;s rank decides which missions they can take: unranked ninja only D, genin up to C, chūnin up to B, jōnin and the village leader any. Accepting a mission no ranked ninja of yours can take is refused with the reason. A colony with no ranked ninja at all is never blocked.</p>
-<h2>The chūnin exam</h2>
+</div></details>
+<details class="sec gsec" open id="the-ch-nin-exam"><summary><span class="st">The chūnin exam</span></summary><div class="body">
 <p>About once a season after the truce ends, your sworn village (or another friendly village) invites your genin to the <b>chūnin exam</b>. Pick up to three genin and send them; the exam is played out at once in three stages:</p>
 <ul><li><b>Written test</b>: Intellectual and Social.</li><li><b>Survival trial</b>: ninja level and the better of Melee or Shooting.</li><li><b>Final duel</b>: ninja level, Melee and Shooting.</li></ul>
 <p>Each stage has a roll on both sides, so an underdog can win. Winners become <b>chūnin</b> on the spot, even without a year as genin, and gain 600 class XP; the others gain XP for how far they got (300, 150 or 60). Those beaten in the trial or the final may come back bruised. One letter tells the whole tournament, round by round, against genin from the other villages. The host&#x27;s goodwill rises for every finalist and winner.</p>
 <p>Ninja from other villages carry ranks too, matching how strong their loadout is: their leaders are village leaders, their elites jōnin.</p>
 <p>In dev mode, the <b>NFRP World</b> debug actions include &quot;Make selected pawn qualify for the next rank exam&quot; (raises level, skills and time served to exactly what the next exam needs), &quot;Rank exam now&quot; (everyone eligible passes; if nobody is, it says why for each ninja), &quot;Chūnin exam invitation now&quot; and &quot;Raise selected pawn&#x27;s rank&quot;.</p>
-<h2>The ninja world panel</h2>
+</div></details>
+<details class="sec gsec" open id="the-ninja-world-panel"><summary><span class="st">The ninja world panel</span></summary><div class="body">
 <p>The <b>ninja world</b> button on the bottom bar opens one screen with everything about your place in the ninja world: the village you&#x27;re sworn to and its perks (or how to join), any colonists marked missing-nin, the truce countdown, how many days until a chūnin exam invitation can come and which village would host it, goodwill and relation with every NFRP faction, and a list of your ninja with rank, level, days at that rank and whether they&#x27;re ready for the next exam. Click a ninja&#x27;s row to select them.</p>
-<h2>Leader orders</h2>
-<p>Coming in the next update.</p>
+</div></details>
+<details class="sec gsec" open id="leader-orders"><summary><span class="st">Leader orders</span></summary><div class="body">
 <p>A colonist with the <b>village leader</b> rank gets three buttons when selected on their own:</p>
 <ul><li><b>Rally the village</b> (once a day): everyone on the map is rallied for about six hours (+5% consciousness), and everyone but the leader feels &quot;rallied by the leader&quot; (+6 mood for a day).</li><li><b>Call to arms</b> (once a day): drafts every ninja on the map who can fight, and all of them are &quot;called to arms&quot; for about three hours (faster movement, +3 shooting accuracy, +3 melee hit chance).</li><li><b>Assign a mission</b> (once every 10 days): pick a rank from D to S and a ranked mission comes in from your sworn village, or the friendliest village that gives missions. It&#x27;s greyed out with the reason if no village can give one.</li></ul>
-<p>The ninja world panel shows the leader and whether each order is ready.</p></article></main>
+<p>The ninja world panel shows the leader and whether each order is ready.</p>
+</div></details></article></main>
 <footer>NFRP World is a RimWorld mod by Cassie, an add-on for World of Naruto and Taran Magic Framework. Technique and clan material from the Naruto Forum Role-play (NFRP) community archive. The Kazeraikou clan was created by Marii from NFRP and is used with her permission. This wiki is generated from the mod's files.</footer>
 <script>window.ROOT="../";</script><script src="../assets/search.js"></script>
 </body></html>

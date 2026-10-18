@@ -4,7 +4,7 @@ A RimWorld mod that brings the clans, bloodlines and techniques of the Naruto Fo
 
 **Wiki:** https://cassiegiang.github.io/NFRP-World/
 
-Requires Harmony, Taran Magic Framework and World of Naruto (load in that order, then NFRP World). RimWorld 1.6 and 1.7.
+Requires Harmony, Taran Magic Framework, World of Naruto and Giddy-Up (load in that order, then NFRP World). RimWorld 1.6 and 1.7.
 
 ## This repository
 - `docs/`: the wiki, a static site served by GitHub Pages. It is generated from the mod's own files.

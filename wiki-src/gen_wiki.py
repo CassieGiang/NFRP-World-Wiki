@@ -111,7 +111,7 @@ def tier_info(tn):
             except (TypeError, ValueError): pass
     gn = [g.text for g in t.findall('acquireRequirement/requiredGenes/li')]
     if not kind and t.findtext('regenRate'): kind = 'toggle'
-    return dict(label=t.findtext('label') or tn, rank=rank_of(t.findtext('label')), cost=num('energyCost'), cd=num('cooldownTicks') / 60.0,
+    return dict(label=t.findtext('label') or tn, rank=rank_of(t.findtext('label')), cost=num('energyCost'), cd=num('cooldownTicks'),
                 lvl=lvl, kind=kind, req=req_t, genes=gn, drain=num('regenRate'))
 
 def tree_gate(el):
@@ -142,7 +142,29 @@ def pos(a):
 
 # ───────────────────────────── page shell
 NAV = [('index.html', 'Home'), ('guides/index.html', 'Guides'), ('trees/index.html', 'Technique trees'), ('items.html', 'Items'),
-       ('seals.html', 'Seals'), ('creatures.html', 'Creatures'), ('plants.html', 'Plants'), ('factions.html', 'Factions')]
+       ('seals.html', 'Seals'), ('creatures.html', 'Creatures'), ('plants.html', 'Plants'), ('factions.html', 'Factions'),
+       ('guides/for-modders.html', 'For modders')]
+
+def cd_text(ticks):
+    # the technique window shows cooldowns as in-game time (GenDate.ToStringTicksToPeriod): seconds under an hour, then hours, then days
+    t = int(ticks or 0)
+    if t <= 0: return 'none'
+    if t < 2500: s = t / 60.0; return (f'{s:.1f}'.rstrip('0').rstrip('.') if s < 10 else f'{s:.0f}') + ' s'
+    if t < 60000: h = t / 2500.0; return (f'{h:.1f}'.rstrip('0').rstrip('.')) + (' hour' if abs(h - 1) < 0.05 else ' hours')
+    d = t / 60000.0; return (f'{d:.1f}'.rstrip('0').rstrip('.')) + (' day' if abs(d - 1) < 0.05 else ' days')
+
+def fmt(x):
+    return f'{x:.0f}' if abs(x - round(x)) < 0.01 else f'{x:.1f}'
+
+def sec(title, body, count=None, open_=False, sid=None, cls='sec'):
+    c = f' <small>{E(str(count))}</small>' if count is not None else ''
+    return f'<details class="{cls}"{" open" if open_ else ""}{" id=" + chr(34) + sid + chr(34) if sid else ""}><summary><span class="st">{E(title)}</span>{c}</summary><div class="body">{body}</div></details>'
+
+def toolbar(ph='Filter this page'):
+    return f'<div class="toolbar"><input type="search" placeholder="{E(ph)}" aria-label="{E(ph)}" autocomplete="off"><button type="button" data-act="open">Expand all</button><button type="button" data-act="close">Collapse all</button><span class="count" aria-live="polite"></span></div>'
+
+def seals_r(ranks):
+    return '<span class="seals-r" aria-label="ranks ' + E(' '.join(ranks)) + '">' + ''.join(f'<span class="seal">{E(r)}</span>' for r in ranks) + '</span>' if ranks else ''
 
 def page(path, title, body, depth=None, desc=''):
     depth = path.count('/') if depth is None else depth
@@ -151,12 +173,14 @@ def page(path, title, body, depth=None, desc=''):
     doc = f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{E(title)} · NFRP World</title><meta name="description" content="{E(desc or title)}">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@600;700&display=swap">
 <link rel="stylesheet" href="{up}assets/style.css"><link rel="icon" href="{up}assets/icon.png">
 </head><body>
-<header><a class="brand" href="{up}index.html"><img src="{up}assets/icon.png" alt=""><span>NFRP World</span></a>
+<header><div class="hin"><a class="brand" href="{up}index.html"><img src="{up}assets/icon.png" alt=""><span>NFRP World</span></a>
 <nav>{nav}</nav>
 <div class="search"><input id="q" type="search" placeholder="Search techniques, items, seals…" autocomplete="off" aria-label="Search"><div id="hits"></div></div>
-</header>
+</div></header>
 <main>{body}</main>
 <footer>NFRP World is a RimWorld mod by Cassie, an add-on for World of Naruto and Taran Magic Framework. Technique and clan material from the Naruto Forum Role-play (NFRP) community archive. The Kazeraikou clan was created by Marii from NFRP and is used with her permission. This wiki is generated from the mod's files.</footer>
 <script>window.ROOT="{up}";</script><script src="{up}assets/search.js"></script>
@@ -177,21 +201,37 @@ def tech_card(dn, up, url_tree):
     a = abilities[dn]
     label = a.findtext('label') or dn
     ti = [x for x in (tier_info(li.text) for li in a.findall('abilityTiers/li')) if x]
-    ranks = '/'.join(t['rank'] for t in ti if t['rank'])
+    rk = [t['rank'] for t in ti if t['rank']]
     passive = ti and all(t['kind'] == 'passive' for t in ti)
-    rows = ''
+    def chakra(t):
+        if t['kind'] == 'passive': return '–'
+        parts = []
+        if t['cost']: parts.append(fmt(t['cost']))
+        if t['drain']: parts.append(f"{-t['drain'] * 60:.2f}/s while on")
+        return ' + '.join(parts) or '0'
     if not passive:
-        rows = ''.join(f'<tr><td>{E(t["rank"] or "–")}</td><td>{(f"{t['cost']:.0f}" if t["cost"] or not t["drain"] else f"{-t['drain']*60:.2f}/s")}</td><td>{t["cd"]:.0f} s</td><td>{t["lvl"] or "–"}</td></tr>' for t in ti)
-        rows = f'<table class="tiers"><tr><th>Rank</th><th>Chakra</th><th>Cooldown</th><th>Class level</th></tr>{rows}</table>'
+        rows = ''.join(f'<tr><td>{seals_r([t["rank"]]) if t["rank"] else "–"}</td><td>{E(chakra(t))}</td><td>{E(cd_text(t["cd"]) if t["kind"] != "passive" else "–")}</td><td>{t["lvl"] or "–"}</td></tr>' for t in ti)
+        rows = f'<div class="tw"><table class="tiers"><tr><th>Rank</th><th>Chakra</th><th>Cooldown</th><th>Class level</th></tr>{rows}</table></div>'
+        costs = [t['cost'] for t in ti if t['cost'] and t['kind'] != 'passive']
+        drains = [-t['drain'] * 60 for t in ti if t['drain']]
+        if costs: short = 'Chakra ' + (fmt(min(costs)) if min(costs) == max(costs) else f'{fmt(min(costs))} to {fmt(max(costs))}')
+        elif drains: short = f'Drains {min(drains):.2f} to {max(drains):.2f} chakra a second' if min(drains) != max(drains) else f'Drains {drains[0]:.2f} chakra a second'
+        else: short = 'No chakra cost'
     else:
-        rows = '<p class="meta">Learn at class level ' + ', '.join(f'{t["rank"]} {t["lvl"]}' for t in ti) + '</p>'
+        rows = '<p class="meta">Passive: always on once learned. Class level needed: ' + ', '.join(f'{t["rank"] or "–"} {t["lvl"]}' for t in ti) + '.</p>'
+        short = 'Passive'
     kinds = sorted({KIND_TEXT.get(t['kind'], '') for t in ti if t['kind']} - {''})
     reqs = sorted({t['req'] for t in ti if t['req']})
     tags = ''.join(f'<span class="tag">{E(k)}</span>' for k in kinds) + ''.join(f'<span class="tag req">Needs {E(r)}</span>' for r in reqs)
-    index.append([label, 'Technique', url_tree + '#' + slug(dn), ranks])
-    return f'''<article class="tech" id="{slug(dn)}">{icon(a.findtext('uiSkillIcon'), up)}
-<div><h3>{E(label)} <span class="rk">{E(ranks)}</span></h3><p>{E(a.findtext('description'))}</p>
-<div class="tags">{tags}</div>{rows}</div></article>'''
+    index.append([label, 'Technique', url_tree + '#' + slug(dn), '/'.join(rk)])
+    desc = a.findtext('description') or ''
+    return f'''<details class="card unit" id="{slug(dn)}"><summary>{icon(a.findtext('uiSkillIcon'), up)}<div class="sum"><h3>{E(label)} {seals_r(rk)}</h3><p class="line">{E(short)}. {E(desc)}</p></div></summary>
+<div class="body"><p>{E(desc)}</p><div class="tags">{tags}</div>{rows}</div></details>'''
+
+COST_NOTE = ('<p class="note">Chakra is the technique\'s base cost, the number in its def. In play it is multiplied by the pawn\'s '
+             '<b>chakra energy usage multiplier</b>, which traits (chakra artificer 90%, volatile conduit 110%), World of Naruto genes and jutsu enhancements change, '
+             'so the technique window can show a slightly different number for each ninja. Cooldowns are in-game time, as the technique window shows them, '
+             'and the pawn\'s cooldown stat shortens or lengthens them. World of Naruto gives every ninja a base of 100 maximum chakra; genes and traits change it.</p>')
 
 tree_list = {}
 for tdn, t in trees.items():
@@ -215,8 +255,8 @@ for g in GROUPS:
         bg = img(t.findtext('backgroundTexPath'), True)
         hero = f'<img class="treebg" src="{up}img/{E(bg)}" alt="">' if bg else ''
         body = f'''<div class="hero tree">{hero}<div><p class="crumb"><a href="index.html">Technique trees</a> › {E(g)}</p>
-<h1>{E(t.findtext('label'))}</h1><p class="lead">{len(techs)} techniques · {E(tree_class.get(tdn, '').replace('WN_', '') or 'class')} tab</p><p>{E(note)}</p></div></div>
-<section class="techs">{''.join(tech_card(d, up, path) for d in techs)}</section>'''
+<h1>{E(t.findtext('label'))}</h1><p class="lead">{len(techs)} techniques in the {E(tree_class.get(tdn, '').replace('WN_', '') or 'class')} tab.</p><p>{E(note)}</p></div></div>
+{toolbar('Filter techniques')}<section class="techs">{''.join(tech_card(d, up, path) for d in techs)}</section>{COST_NOTE}'''
         page(path, t.findtext('label'), body, desc=f'{t.findtext("label")}: all {len(techs)} techniques of the NFRP World tree.')
         index.append([t.findtext('label'), 'Tree', path, g])
 
@@ -224,13 +264,14 @@ cards = ''
 for g in GROUPS:
     lst = sorted(tree_list.get(g, []), key=lambda x: trees[x].findtext('label') or x)
     if not lst: continue
-    cards += f'<h2 id="{slug(g)}">{E(g)} <small>{len(lst)} trees</small></h2><div class="grid trees">'
+    inner = '<div class="grid trees">'
     for tdn in lst:
         t = trees[tdn]; bg = img(t.findtext('backgroundTexPath'), True)
-        cards += f'<a class="treecard" href="{slug(tdn)}.html">{"<img src=../img/" + E(bg) + " alt=\"\" loading=lazy>" if bg else "<span class=blank></span>"}<b>{E(t.findtext("label"))}</b><small>{len(by_tree[tdn])} techniques</small></a>'
-    cards += '</div>'
+        inner += f'<a class="treecard unit" href="{slug(tdn)}.html">{"<img src=../img/" + E(bg) + " alt=\"\" loading=lazy>" if bg else "<span class=blank></span>"}<b>{E(t.findtext("label"))}</b><small>{len(by_tree[tdn])} techniques</small></a>'
+    inner += '</div>'
+    cards += sec(g, inner, f'{len(lst)} trees', True, slug(g))
 ntech = sum(len(by_tree[t]) for g in tree_list.values() for t in g)
-page('trees/index.html', 'Technique trees', f'<h1>Technique trees</h1><p class="lead">{sum(len(v) for v in tree_list.values())} trees and {ntech} techniques, read straight from the mod.</p>{cards}')
+page('trees/index.html', 'Technique trees', f'<h1>Technique trees</h1><p class="lead">{sum(len(v) for v in tree_list.values())} trees and {ntech} techniques, read straight from the mod.</p>{toolbar('Filter trees')}{cards}')
 
 # ───────────────────────────── items
 ITEM_GROUPS = [('Brews, pills and drugs', ('MakeableDrugBase', 'DrugPillBase', 'DrugBase')), ('Bombs and grenades', ('BaseMakeableGrenade',)),
@@ -244,24 +285,27 @@ for dn, t in things.items():
     for g, keys in ITEM_GROUPS:
         if any(k in par for k in keys) or (g == 'Apparel and gear' and t.find('apparel') is not None) or (g == 'Weapons and instruments' and (t.find('verbs') is not None or t.find('tools') is not None) and t.find('race') is None):
             items[g].append(dn); break
-body = '<h1>Items</h1><p class="lead">Everything the mod adds that you can hold, wear, drink, throw or build. Seals have <a href="seals.html">their own page</a>.</p>'
+body = '<h1>Items</h1><p class="lead">Everything the mod adds that you can hold, wear, drink, throw or build. Seals have <a href="seals.html">their own page</a>.</p>' + toolbar('Filter items')
 for g, _ in ITEM_GROUPS:
     if not items[g]: continue
-    body += f'<h2 id="{slug(g)}">{E(g)} <small>{len(items[g])}</small></h2><div class="grid items">'
+    inner = '<div class="grid items">'
     for dn in sorted(items[g], key=lambda d: things[d].findtext('label').lower()):
         t = things[dn]
         tex = t.findtext('graphicData/texPath') or ''
         ic = img(tex) or img(tex + '_south') or img(tex + '/' + tex.split('/')[-1]) or img(t.findtext('uiIconPath'))
         icimg = f'<img class="ic" src="img/{E(ic)}" alt="" loading="lazy">' if ic else '<span class="ic blank"></span>'
-        body += f'<article class="item" id="{slug(dn)}">{icimg}<div><h3>{E(t.findtext("label").capitalize())}</h3><p>{E(t.findtext("description"))}</p></div></article>'
+        inner += f'<article class="item unit" id="{slug(dn)}">{icimg}<div><h3>{E(t.findtext("label").capitalize())}</h3><p>{E(t.findtext("description"))}</p></div></article>'
         index.append([t.findtext('label'), 'Item', 'items.html#' + slug(dn), g])
-    body += '</div>'
+    inner += '</div>'
+    body += sec(g, inner, len(items[g]), False, slug(g))
 page('items.html', 'Items', body)
 
 # ───────────────────────────── seals
 def seal_line(s):
     out = []
-    for m in s.findall('statOffsets/*'): out.append(f'{m.tag} {m.text}')
+    for m in s.findall('statOffsets/*'):
+        v = float(m.text or 0); nm = re.sub(r'(?<!^)([A-Z])', r' \1', m.tag).lower().replace('_', ' ')
+        out.append(nm + ' ' + ('+' if v > 0 else '') + (m.text or ''))
     for k, lab in (('extraDamageDef', 'extra damage'), ('hediff', 'applies'), ('hitMental', 'can cause'), ('reactDamageDef', 'hurts melee attackers with'), ('wornHediff', 'worn effect')):
         if s.findtext(k): out.append(f'{lab}: {s.findtext(k)}')
     if s.find('resist') is not None: out.append('resists ' + ', '.join(li.text for li in s.findall('resist/li')))
@@ -270,16 +314,18 @@ def seal_line(s):
     return '; '.join(out)
 body = '''<h1>Enchantment seals</h1><p class="lead">Seals are inked at a crafting spot, tailoring bench or scribe desk and pressed into gear. Weapon seals act on every hit; armour seals help the wearer.</p>
 <p>Gear has 1 seal slot, 2 at excellent or masterwork and 3 at legendary. A new seal goes on at C rank at most and then rises one rank at a time. Inscribing needs a minimum ninjutsu level (D 1, C 4, B 8, A 12, S 16); every level above it makes the seal stronger. Seals marked with a technique can only be made by an artisan who knows it (Equipment enhancing tree).</p>'''
+body += toolbar('Filter seals')
 for fw, title in (('true', 'Weapon seals'), ('false', 'Armour seals')):
     lst = sorted([s for s in seals.values() if (s.findtext('forWeapon') or 'true') == fw], key=lambda s: s.findtext('label').lower())
-    body += f'<h2>{title} <small>{len(lst)}</small></h2><table class="seals"><tr><th></th><th>Seal</th><th>Ranks</th><th>What it does</th></tr>'
+    inner = '<div class="tw"><table class="seals"><tr><th></th><th>Seal</th><th>Ranks</th><th>What it does</th></tr>'
     for s in lst:
         name = s.findtext('defName')[8:]
         lo, hi = int(s.findtext('minRank') or 0), int(s.findtext('maxRank') or 3)
         ic = img(f'NFRP/Seals/{name}_{RANKS[lo]}')
-        body += f'<tr id="{slug(name)}"><td>{"<img class=sic src=img/" + E(ic) + " alt=\"\" loading=lazy>" if ic else ""}</td><td><b>{E(s.findtext("label").capitalize())}</b></td><td>{RANKS[lo]}–{RANKS[hi]}</td><td>{E(s.findtext("description"))}<br><small>{E(seal_line(s))}</small></td></tr>'
+        inner += f'<tr class="unit" id="{slug(name)}"><td>{"<img class=sic src=img/" + E(ic) + " alt=\"\" loading=lazy>" if ic else ""}</td><td><b>{E(s.findtext("label").capitalize())}</b></td><td>{seals_r(list(RANKS[lo:hi + 1]))}</td><td>{E(s.findtext("description"))}<br><small>{E(seal_line(s))}</small></td></tr>'
         index.append([s.findtext('label') + ' seal', 'Seal', 'seals.html#' + slug(name), RANKS[lo] + '–' + RANKS[hi]])
-    body += '</table>'
+    inner += '</table></div>'
+    body += sec(title, inner, len(lst), False, slug(title))
 page('seals.html', 'Enchantment seals', body)
 
 
@@ -307,16 +353,30 @@ def creature_roles(dn, t):
     return f'<p class="meta"><small>{out}</small></p>' if out else ''
 
 # ───────────────────────────── creatures (summons)
-body = '<h1>Creatures</h1><p class="lead">Wild animals and monsters, undead, summons, golems, contract animals and companions. Roles and the biomes each lives in are listed under its description.</p><div class="grid items">'
+CRE_GROUPS = ['Legendary beasts', 'Predators', 'Mounts, pack and farm animals', 'Other wildlife', 'Undead', 'Summons, golems and companions']
+CRE_NOTE = {'Legendary beasts': 'Rare monsters with their own special attacks.', 'Undead': 'Never tame. They come with the restless-dead night event and some ruins.',
+            'Summons, golems and companions': 'Called by techniques and contracts, never found wild.'}
+def cre_group(dn, t):
+    r = t.find('race'); comps = [c.get('Class') or '' for c in t.findall('comps/li')]
+    if dn.startswith('NF_Undead_'): return 'Undead'
+    if not r.findall('wildBiomes/*'): return 'Summons, golems and companions'
+    if any('NFCreature' in c for c in comps): return 'Legendary beasts'
+    if r.findtext('predator') == 'true': return 'Predators'
+    if r.findtext('packAnimal') == 'true' or any(k in c for c in comps for k in ('Milkable', 'Shearable', 'EggLayer')) or float(t.findtext('statBases/Wildness') or 1) <= 0.6: return 'Mounts, pack and farm animals'
+    return 'Other wildlife'
+cre = {g: [] for g in CRE_GROUPS}
 for dn, t in sorted(things.items(), key=lambda kv: (kv[1].findtext('label') or '')):
     if (t.get('ParentName') or '') != 'AnimalThingBase' or not t.findtext('description'): continue
     kind = T('PawnKindDef').get(dn)
     tex = kind.findtext('lifeStages/li/bodyGraphicData/texPath') if kind is not None else None
     ic = img((tex or '') + '_south') or img((tex or '') + '_east')
     icimg = f'<img class="ic big" src="img/{E(ic)}" alt="" loading="lazy">' if ic else '<span class="ic big blank"></span>'
-    body += f'<article class="item" id="{slug(dn)}">{icimg}<div><h3>{E((t.findtext("label") or dn).capitalize())}</h3><p>{E(t.findtext("description"))}</p>{creature_roles(dn, t)}</div></article>'
-    index.append([t.findtext('label'), 'Creature', 'creatures.html#' + slug(dn), ''])
-body += '</div>'
+    cre[cre_group(dn, t)].append(f'<article class="item unit" id="{slug(dn)}">{icimg}<div><h3>{E((t.findtext("label") or dn).capitalize())}</h3><p>{E(t.findtext("description"))}</p>{creature_roles(dn, t)}</div></article>')
+    index.append([t.findtext('label'), 'Creature', 'creatures.html#' + slug(dn), cre_group(dn, t)])
+ncre = sum(len(v) for v in cre.values())
+body = f'<h1>Creatures</h1><p class="lead">{ncre} wild animals and monsters, undead, summons, golems and companions. Roles and the biomes each one lives in are listed under its description.</p>' + toolbar('Filter creatures')
+for g in CRE_GROUPS:
+    if cre[g]: body += sec(g, (f'<p class="meta">{E(CRE_NOTE[g])}</p>' if g in CRE_NOTE else '') + '<div class="grid items">' + ''.join(cre[g]) + '</div>', len(cre[g]), False, slug(g))
 page('creatures.html', 'Creatures', body)
 
 
@@ -342,7 +402,8 @@ def uses_of(item):
             out.append(lab)
     return sorted(set(out))
 plist = sorted([dn for dn, t in things.items() if dn.startswith('NF_Plant_') and t.find('plant') is not None], key=lambda d: (things[d].findtext('label') or d).lower())
-body = f'<h1>Plants</h1><p class="lead">{len(plist)} plants: medicinal herbs, poisons, alchemy ingredients, crops, dyes, flowers and trees. Sowable ones appear in a growing zone\'s plant list once a grower has the skill shown.</p><div class="grid items">'
+PL_GROUPS = ['Medicinal herbs and alchemy ingredients', 'Poisonous plants', 'Food crops', 'Flowers', 'Trees']
+pl_cards = {g: [] for g in PL_GROUPS}
 for dn in plist:
     t = things[dn]; pl = t.find('plant')
     tex = t.findtext('graphicData/texPath') or ''
@@ -352,53 +413,76 @@ for dn in plist:
     sow = pl.find('sowTags') is not None
     facts = []
     facts.append('tree' if tree else 'plant')
-    facts.append(f'sowable (growing skill {pl.findtext("sowMinSkill") or 0})' if sow else 'wild only')
+    facts.append(f'sowable at growing skill {pl.findtext("sowMinSkill") or 0}' if sow else 'wild only')
     if pl.findtext('growDays'): facts.append(f'grows in {pl.findtext("growDays")} days')
     hv = pl.findtext('harvestedThingDef')
     extra = ''
     if hv:
         hl = things[hv].findtext('label') if hv in things else hv
-        facts.append(f'yields {pl.findtext("harvestYield") or "?"} × {hl}')
+        facts.append(f'yields {pl.findtext("harvestYield") or "?"} {hl}')
         u = uses_of(hv)
         if u: extra += '<br>Used for: ' + E(', '.join(u))
         if hv in things and hv != dn and things[hv].findtext('description') and not things[hv].findtext('description').startswith(t.findtext('description') or '~'):
             extra += '<br>' + E(hl.capitalize()) + ': ' + E(things[hv].findtext('description'))
     bio = sorted(nice_biome(b) for b in wild_in.get(dn, ()))
     if bio: extra += '<br>Grows wild in: ' + E(', '.join(bio))
-    body += f'<article class="item" id="{slug(dn)}">{icimg}<div><h3>{E((t.findtext("label") or dn).capitalize())}</h3><p>{E(t.findtext("description"))}</p><p class="meta"><small><b>{E(" · ".join(facts))}</b>{extra}</small></p></div></article>'
-    index.append([t.findtext('label'), 'Plant', 'plants.html#' + slug(dn), ''])
-body += '</div>'
+    d = (t.findtext('description') or '').lower()
+    g = 'Trees' if tree else 'Flowers' if not hv else 'Food crops' if hv.startswith('NF_Raw') else 'Poisonous plants' if any(k in d for k in ('poison', 'toxic', 'deadly', 'venom', 'lethal')) else 'Medicinal herbs and alchemy ingredients'
+    pl_cards[g].append(f'<article class="item unit" id="{slug(dn)}">{icimg}<div><h3>{E((t.findtext("label") or dn).capitalize())}</h3><p>{E(t.findtext("description"))}</p><p class="meta"><small><b>{E(", ".join(facts).capitalize())}</b>{extra}</small></p></div></article>')
+    index.append([t.findtext('label'), 'Plant', 'plants.html#' + slug(dn), g])
+body = f'<h1>Plants</h1><p class="lead">{len(plist)} plants: medicinal herbs, poisons, alchemy ingredients, crops, flowers and trees. Sowable ones appear in a growing zone\'s plant list once a grower has the skill shown.</p>' + toolbar('Filter plants')
+for g in PL_GROUPS:
+    if pl_cards[g]: body += sec(g, '<div class="grid items">' + ''.join(pl_cards[g]) + '</div>', len(pl_cards[g]), False, slug(g))
 page('plants.html', 'Plants', body)
 
 # ───────────────────────────── factions
-body = '<h1>Factions</h1><p class="lead">Hidden villages, a criminal syndicate, an order of witch-hunters and three feudal houses.</p><div class="grid items">'
+fcards = ''
 for dn, f in sorted(T('FactionDef').items(), key=lambda kv: kv[1].findtext('label') or ''):
     ic = img(f.findtext('factionIconPath'))
     icimg = f'<img class="ic big" src="img/{E(ic)}" alt="" loading="lazy">' if ic else '<span class="ic big blank"></span>'
-    body += f'<article class="item">{icimg}<div><h3>{E((f.findtext("label") or dn))}</h3><p>{E(f.findtext("description"))}</p></div></article>'
-    index.append([f.findtext('label'), 'Faction', 'factions.html', ''])
-body += '</div><p>See the <a href="guides/factions.html">factions and missions guide</a> for the war, the one-year truce and ranked missions.</p>'
+    fcards += f'<article class="item unit" id="{slug(dn)}">{icimg}<div><h3>{E((f.findtext("label") or dn))}</h3><p>{E(f.findtext("description"))}</p></div></article>'
+    index.append([f.findtext('label'), 'Faction', 'factions.html#' + slug(dn), ''])
+body = ('<h1>Factions</h1><p class="lead">Hidden villages, a criminal syndicate, an order of witch-hunters and three feudal houses.</p>' +
+        sec('All factions', '<div class="grid items">' + fcards + '</div>', len(T('FactionDef')), True, 'all') +
+        '<p>See the <a href="guides/factions.html">factions and missions guide</a> for the war, the one-year truce and ranked missions, and <a href="guides/diplomacy.html">diplomacy</a> for joining a village.</p>')
 page('factions.html', 'Factions', body)
 
 # ───────────────────────────── guides (hand-written, markdown-lite in guides/*.md)
-def md(text, up):
+SOON = 'Coming in the next update.'
+def inline(s, up):
+    s2 = E(s)
+    s2 = re.sub(r'\*\*(.+?)\*\*', r'<b>\1</b>', s2)
+    s2 = re.sub(r'\[(.+?)\]\((.+?)\)', lambda m: f'<a href="{m.group(2) if m.group(2).startswith("http") else up + m.group(2)}">{m.group(1)}</a>', s2)
+    return s2
+
+def md(text, up, sections=False):
+    """markdown-lite: #, ##, ###, - lists, **bold**, [links](..). With sections=True every ## part becomes a collapsible section.
+    A line that says exactly 'Coming in the next update.' becomes a badge."""
     out, para, lst = [], [], []
+    toc = []; in_sec = False
     def flush():
         nonlocal para, lst
         if para: out.append('<p>' + ' '.join(para) + '</p>'); para = []
         if lst: out.append('<ul>' + ''.join(f'<li>{x}</li>' for x in lst) + '</ul>'); lst = []
     for line in text.splitlines():
         s = line.rstrip()
-        s2 = E(s)
-        s2 = re.sub(r'\*\*(.+?)\*\*', r'<b>\1</b>', s2)
-        s2 = re.sub(r'\[(.+?)\]\((.+?)\)', lambda m: f'<a href="{m.group(2) if m.group(2).startswith("http") else up + m.group(2)}">{m.group(1)}</a>', s2)
         if not s: flush(); continue
+        if s.strip() == SOON: flush(); out.append('<p class="soon">Coming in the next update</p>'); continue
+        s2 = inline(s, up)
         if s.startswith('# '): flush(); out.append(f'<h1>{s2[2:]}</h1>')
-        elif s.startswith('## '): flush(); out.append(f'<h2>{s2[3:]}</h2>')
+        elif s.startswith('## '):
+            flush()
+            if sections:
+                if in_sec: out.append('</div></details>')
+                sid = slug(s[3:]); toc.append((sid, s2[3:]))
+                out.append(f'<details class="sec gsec" open id="{sid}"><summary><span class="st">{s2[3:]}</span></summary><div class="body">'); in_sec = True
+            else: out.append(f'<h2>{s2[3:]}</h2>')
+        elif s.startswith('### '): flush(); out.append(f'<h3 id="{slug(s[4:])}">{s2[4:]}</h3>')
         elif s.startswith('- '): para and flush(); lst.append(s2[2:])
         else: lst and flush(); para.append(s2)
     flush()
-    return '\n'.join(out)
+    if in_sec: out.append('</div></details>')
+    return ('\n'.join(out), toc) if sections else '\n'.join(out)
 
 gdir = os.path.join(HERE, 'guides')
 glist = []
@@ -407,7 +491,15 @@ for f in sorted(glob.glob(os.path.join(gdir, '*.md'))):
     text = open(f, encoding='utf-8').read()
     title = text.splitlines()[0].lstrip('# ').strip()
     blurb = next((l for l in text.splitlines()[1:] if l.strip() and not l.startswith('#')), '')
-    page(f'guides/{name[3:]}.html', title, '<article class="guide">' + md(text, '../') + '</article>')
+    gbody, toc = md(text, '../', True)
+    side = ''
+    if len(toc) >= 2:
+        links = ''.join(f'<a href="#{sid}">{lab}</a>' for sid, lab in toc)
+        side = ' '
+        bar = '<div class="toolbar"><button type="button" data-act="open">Expand all</button><button type="button" data-act="close">Collapse all</button></div>'
+        # put the toolbar under the intro (after the first paragraph following the title)
+        gbody = gbody.replace('<details', bar + '<div class="toc">' + ''.join(f'<a href="#{sid}">{lab}</a>' for sid, lab in toc) + '</div><details', 1)
+    page(f'guides/{name[3:]}.html', title, f'<article class="guide">{gbody}</article>')
     glist.append((name[3:], title, blurb))
     index.append([title, 'Guide', f'guides/{name[3:]}.html', ''])
 page('guides/index.html', 'Guides', '<h1>Guides</h1><p class="lead">How the systems work, step by step.</p><div class="grid guides">' +
