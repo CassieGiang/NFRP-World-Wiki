@@ -18,7 +18,7 @@ Every archive tree has its own section, named after the tree, in its class's tab
 - **Riders (Mounted Combat)**: Needs a melee weapon. Riding (Mount), Charge, Thunderclap Stride, Coup de Jarnoc, Vortex Charge, Wrath of the Thunder Dragon, Tsunami Strike, Star of Justice.
 
 ## Universal ninjutsu and sealing
-- **Academy techniques**: Kinobori no Waza (tree climbing), Suimen Hokō no Waza (water walking), Kawarimi no Jutsu (body switch), Jibaku Fuda: Kassei (exploding tag), Chakra antiseptic, Chakra water purify, Sennen Goroshi (thousand years of pain).
+- **Academy techniques**: Kinobori no Waza (tree climbing), Suimen Hokō no Waza (water walking), Irekawari (body switch), Jibaku Fuda: Kassei (exploding tag), Chakra antiseptic, Chakra water purify, Sennen Goroshi (thousand years of pain).
 - **Chakra sword**: Chakra Ken (chakra sword), Chakra Ken Nitōryū (twin chakra swords), Nobiyo Chakra Ken (chakra javelin), Nobiyo Chakra Ken Shirei (javelin control).
 - **Hair arts**: Kami Hari (hair needles), Kami Hoippu (hair whip), Kami Baindo (hair bind), Kami Harihana (hair needle field), Ranji Shigumi (wild lion's mane), Kami Henge Hebi (hair snakes), Art of the hair warrior, Wicked weaves: fist of the butterfly.
 - **Tenkai (Heavenly Release)**: Tenkai (heavenly release), Kekkai (barrier), Kekkai: Yari (barrier spear), Kekkai: Shōheki (barrier wall), Sekkai (untimely interference), Kekkai: Metsu (barrier destroy), Bankai (full release), Zekkai (absolute boundary).

@@ -4,12 +4,10 @@ What NFRP World patches, how its defs are named, and the extensions you can reus
 This page is for people making mods that sit next to NFRP World, or tracking down a conflict. Players can skip it.
 
 ## Load order
-- **Harmony**, then **Taran Magic Framework**, then **World of Naruto**, then **Giddy-Up**, then **NFRP World**. NFRP World must load after Taran Magic Framework and World of Naruto, because it adds trees to their framework and patches their classes. From the next update Giddy-Up is required too: NFRP World adds its creatures as Giddy-Up mounts and builds flying on top of it.
+- **Harmony**, then **Taran Magic Framework**, then **World of Naruto**, then **Giddy-Up**, then **NFRP World**. NFRP World must load after Taran Magic Framework and World of Naruto, because it adds trees to their framework and patches their classes. Giddy-Up is required too; the next update adds NFRP World's creatures as Giddy-Up mounts and builds flying on top of it.
 - The mod supports RimWorld 1.6 and 1.7. On 1.7 it loads the same 1.6 folder (set in LoadFolders.xml), so there is one set of defs and one assembly for both.
 
 ## Seeing the live patch list
-The startup line and the dev file come in the next update.
-
 - At startup the log shows one line: **[NFRP World] Harmony patches: N on M methods**.
 - For the full list, open the dev menu, go to **NFRP World**, and choose **List NFRP World patches**. It writes **NFRP_Patches.txt** to your RimWorld save-data folder (next to NFRP_SelfTest.txt), grouped by Harmony id. Each line gives the patch kind, the patched method and the NFRP method that does it.
 - Every Harmony id starts with **cassie.nfrpworld.** so you can filter for them in any patch-listing tool.

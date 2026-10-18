@@ -4,14 +4,20 @@ What to install, what changes when you start a colony, and where to find everyth
 ## Install
 - Subscribe to [Harmony](https://steamcommunity.com/sharedfiles/filedetails/?id=2009463077), [Taran Magic Framework](https://steamcommunity.com/sharedfiles/filedetails/?id=3527502876), [World of Naruto](https://steamcommunity.com/sharedfiles/filedetails/?id=3025338958) and [Giddy-Up](https://steamcommunity.com/sharedfiles/filedetails/?id=3674332861), then NFRP World.
 - Load order: Harmony, Taran Magic Framework, World of Naruto, Giddy-Up, NFRP World.
-- Giddy-Up is required from the next update: NFRP World's creatures become mounts through it, and riders on flying creatures can fly.
+- Giddy-Up is required. In the next update NFRP World's creatures become mounts through it, and riders on flying creatures can fly.
 - The mod works in new and existing saves. Factions that are missing from an old world are added when you load it.
 
 ## Your first ninja
 - Every colonist aged 6 or older gets a **Ninja build** button. The build decides which kinds of trees the pawn can enter and how far they can go in each. See [Ninja builds](builds.html).
 - Techniques live in World of Naruto's ability window, in the Ninjutsu, Clan and other tabs. Each technique has ranks from D to S; higher ranks need a higher class level.
+- Tree and technique names read Japanese first, with the English meaning in brackets, for example Irekawari (body switch). NFRP's own invented names, the fighting styles, summons and a few clan trees keep theirs.
 - Pawns born into a clan (a gene or xenotype) get that clan's tree for free. See [Clans and bloodlines](bloodlines.html).
 - Some trees are open to every ninja from the start: Summoning arts, Contract bonds and the crafting arts. Medical ninjutsu is open too, but only up to D rank; higher ranks need a Medical Specialist build.
+
+## Ninja steps (tips)
+- Over the first five days, five short **Ninja steps** letters explain the ninja build, the technique window and the ways to learn, the ninja world panel, the war and the truce, and ranks and exams.
+- Each letter can stop the tips for this game or for good ("Never show these tips again" writes NFRPWorld_NoOnboarding.txt to the game's config folder; delete it to get them back).
+- The ninja world panel shows a **Getting started** list of up to four next steps for your colony.
 
 ## The first year
 - The hidden villages and the Black Ink Syndicate are at war with everyone, but a **one-year truce** (60 days) keeps them from raiding a new colony. An alert counts down the days. See [Factions and missions](factions.html).
@@ -35,6 +41,16 @@ The same medieval village, with two founders and a rich caravan: 1500 silver, 60
 
 ## Animation settings
 Mod settings > NFRP World has switches for the animations: lunges, recoil and knockback slides; swing trails; the wind-up glow while casting; camera shake (with a strength slider); idle flourishes for drafted ninja; work animations (training posts, the shrine, ritual seals); hover for winged ninja and flying creatures; lightning bolts and growing beams; animating only your own pawns; a cap on effects on screen; and a zoom level past which pawn animations stop. They are cosmetic only and never change positions or damage.
+
+More switches in the same window:
+- **Smooth effects**: technique animations blend from one frame into the next and grow and fade over their life. The most used effects have eight frames.
+- **Effect glow**: a soft glow under each effect in its element's colour (purple for Shidensen), and a short afterglow after lightning.
+- **Projectile trails**: NFRP projectiles leave a fading ribbon in their element's colour.
+- **Creature idle motion**: flyers hover and bob (the main flyers flap their wings), serpents sway, zombies shamble, big beasts breathe, spirits drift and flicker. Golems, turtles and insects stay still.
+- **Creature auras**: magical creatures carry an aura in their element: crackling lightning, embers, drips, smoke, wisps, frost or leaves.
+- **Creature attack flashes**: creatures flash their element's effect when they hit or shoot.
+
+Sound cues need no setting: a technique starting plays a sound for its element, and gates, summons, promotions, festivals, combos and sensor marks have their own sounds, all taken from the base game and DLCs.
 
 ## World and ritual settings
 The same settings window also has: how often sealed ruins appear on new maps, how often NFRP events happen, switches for monster incursions, chakra storms and wandering masters, ritual power, the augmentation cap per person, and whether enemy ninja carry ritual seals and bombs (they use them: Syndicate ninja curse your colonists, Venator hunters heal their own).

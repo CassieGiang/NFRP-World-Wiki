@@ -4,7 +4,7 @@ Every ninja can climb four ranks: **genin**, **chūnin**, **jōnin** and **villa
 ## The rank exam
 Every couple of weeks the **rank exam** event comes round, as long as at least one colonist is eligible. Each eligible ninja sits the exam for the next rank. The chance of passing starts at 55%, goes up 4% for every ninja level above the requirement, and always stays between 30% and 92%. Passing gives a good mood for ten days; failing gives a small dip for five, and they can try again next time.
 
-- **Genin**: needs ninja level 3. Bonus: learns a little faster.
+- **Genin**: needs ninja level 3. For anyone under 18 it is the **academy graduation exam**: they must be 13 or older, and it is 15% easier. Bonus: learns a little faster.
 - **Chūnin**: needs a year (60 days) as genin, level 8, and Melee or Shooting 6. Bonus: learns faster, more social impact, steadier nerves.
 - **Jōnin**: needs two years (120 days) as chūnin, level 13, and two of Melee, Shooting, Intellectual or Medicine at 8. Bonus: social impact, steadier nerves, better aim and melee hits.
 - **Village leader**: needs four years (240 days) as jōnin, level 16 and Social 8; only one per colony. Bonus: big social and negotiation bonus, steady nerves, better aim and hits.
@@ -25,6 +25,9 @@ Ninja classes level slowly, so a rank is earned over years of play:
 - **Sparring**: select a colonist, right-click a **battle ring** and pick "Spar with" a partner. Both walk to the ring and spar: Melee practice for both, 12 Taijutsu XP each at the end (three times as much with their sensei). There is a small chance of a light bruise; nobody gets knocked down.
 - **Missions**: clearing a ranked mission's camp gives every ninja on the site class XP by mission rank: D 60, C 120, B 250, A 450, S 800.
 - **Exams**: passing a rank exam gives genin 300, chūnin 600, jōnin 1,000 and village leader 1,500 class XP.
+
+## The academy (Biotech)
+Colonist children aged 6 to 17 with no rank gain class experience whenever their Biotech learning need fills, from lessons, the school desk, reading and play: 45 XP per full point of learning, at most 40 a day, and double when a ranked ninja teaches nearby. It goes into the child's best class, or Taijutsu, and stops at class level 5. The inspect panel shows "Academy student: n/40 class XP today, graduates at 13". Graduating gives a good mood for ten days.
 
 ## Missions by rank
 Like the role-play, a ninja's rank decides which missions they can take: unranked ninja only D, genin up to C, chūnin up to B, jōnin and the village leader any. Accepting a mission no ranked ninja of yours can take is refused with the reason. A colony with no ranked ninja at all is never blocked.

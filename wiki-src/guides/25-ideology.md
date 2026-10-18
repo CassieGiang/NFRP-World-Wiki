@@ -32,8 +32,6 @@ With the Ideology DLC, NFRP World adds five ninja memes, eight ninja issues with
 - **The feudal houses** Akagane, Shiranami and Kurogane: Clan Honour.
 
 ## Rituals
-Coming in the next update.
-
 Four ninja rituals, each brought by one of the memes and open to ideoligions with a related meme:
 - **Rank ceremony** (Shinobi Code): the leader honours a ranked ninja. Good mood and class experience for the honoree.
 - **Memorial for the fallen** (Clan Honour): held at a grave. If the dead was a ninja, the ninja present gain experience.

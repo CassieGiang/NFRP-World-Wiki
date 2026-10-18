@@ -10,7 +10,7 @@ Silver has to be near a trade beacon, as with any comms trade.
 ## Joining a village
 With goodwill 60 or more you can **swear your ninja** to one of the six hidden villages from the comms console. Only one village at a time.
 - Each of your ninja on the map receives the village's **headband** by drop pod.
-- The village's scrolls cost 30% less and go up to B rank. From the next update, when a jōnin or the village leader does the talking, they go up to **A rank** (1,200 silver, 840 when sworn).
+- The village's scrolls cost 30% less and go up to B rank. When a jōnin or the village leader does the talking, they go up to **A rank** (1,200 silver, 840 when sworn).
 - It offers ranked missions three times as often.
 - Every rank one of your ninja earns raises the village's goodwill (+2 for genin up to +8 for village leader).
 - It hosts your genin at the chūnin exam.

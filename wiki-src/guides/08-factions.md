@@ -18,6 +18,11 @@ Who's out there, the war, the truce and ranked missions.
 
 ## Enemy ninja
 - NPC ninja learn techniques from their clan and village trees up to their rank: genin C, chunin B, jounin and ANBU A, village heads S.
+- Every NPC fighter of an NFRP faction has a **squad role**, shown as a health condition:
+- **Frontline** (the most common): takes 10% less damage, dodges better and shrugs off pain.
+- **Medic**: tends wounds better and faster, and heals the most hurt ally within 12 cells (the downed first) with its own heal techniques.
+- **Sensor**: every 10 seconds marks the nearest enemy within 22 cells (10% more damage taken, much worse dodging, 15 seconds), and nearby allies aim faster and better.
+- **Support**: aims 15% faster.
 
 ## Venator bounties
 While the Order of the Venator isn't hostile to you, it posts a **bounty** every few weeks (from day 8, at least 20 days apart):
@@ -25,3 +30,30 @@ While the Order of the Venator isn't hostile to you, it posts a **bounty** every
 - **A pack of undead**, three to five of them, roaming in. 150 silver a head.
 
 Kill, down or capture every target and the silver arrives by drop pod, plus +6 goodwill with the Venator. A bounty that isn't claimed within ten days is withdrawn.
+
+## The visible war
+From day 30, every 10 to 20 days two warring factions fight over a settlement. The attacker wins 25% to 75% of the time, depending on size, and a captured settlement changes hands with a news letter. A faction never loses its last settlement, and a settlement where you have a map open is never taken.
+
+From day 60, at most every 25 days and never during the truce, two squads from opposite edges of your map meet outside your home. A letter lets you side with either squad or stay out. Your side stops being hostile to you for the battle and the other side turns hostile. The winning side's goodwill rises (+12 if it was yours, +6 if yours lost), and the other side's drops by 8. The battle ends when one side has nobody standing, or after 36 hours.
+
+The ninja world panel's war section shows settlements taken and held, who holds how many, any battle going on and the last news.
+
+## Founding your own village
+When your colony is strong enough, the ninja world panel shows a checklist and a **Found the village** button:
+- a village leader and three more ninja of chūnin rank or higher
+- at least six colonists
+- not sworn to a village, or your sworn village blesses it at goodwill 75 or more
+- goodwill 0 or more with two villages
+- a household shrine, a training dummy or battle ring, and a comms console
+
+Founding leaves your old village without anyone turning missing-nin. It becomes your first ally (+10 goodwill). Friendly villages are pleased and hostile ones less so; the Syndicate takes it badly. Everyone feels "we founded a hidden village" (+8 mood for 15 days). Afterwards chūnin exams are held at home, you can no longer swear to a village, and every 10 to 18 days a friendly faction sends a D to S rank request: you choose one of your top three eligible ninja, and the chance of success is 50% plus 7% for each level above the target, kept between 10% and 95%.
+
+## Leaders' summits
+Once you have a village leader and the truce is over, the first summit comes 15 days later and then one every 60 days. Accept the letter within three days to open the summit. You get two proposals, one more with a leader of Social 12 or higher and one more once you've founded your village:
+- **Alliance** (needs goodwill 30): goodwill rises to 75. That village's enemies like you a little less.
+- **Ceasefire** (needs goodwill −60): goodwill rises to at least 0 and the hostility ends.
+- **United front against the Syndicate** (needs two partners).
+
+Success depends on goodwill, the leader's Social and whether you founded a village; a refusal costs 5 goodwill. Your partners stop fighting each other.
+
+**Peace** comes when four villages are your partners and the united front has been called, or when the Syndicate has no settlements left. Then every village stops fighting every other, every village's goodwill with you rises by 15, and everyone gets +10 mood for 20 days. After peace only the fights against the Syndicate go on. The panel's "Path to peace" section tracks it.
