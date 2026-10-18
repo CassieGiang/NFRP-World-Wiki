@@ -20,7 +20,7 @@ Ninja classes level slowly, so a rank is earned over years of play:
 - NFRP World techniques give a small amount of XP once per cast, to the class the technique belongs to: D rank 1, C rank 3, B rank 4, A rank 7, S rank 11. Fighting alone won't make a jōnin.
 
 ## Other ways to grow
-- **Training**: one session a day at a training building gives class XP as well as skill. Training post and training dummy: 15 Taijutsu. Battle ring: 18 Taijutsu. Chakra study apparatus ("Study chakra at"): 15 Ninjutsu. Star-watching platform ("Meditate on"): 15 Genjutsu. From class level 8 training gives half, and training alone stops at level 10. Pawns who refuse violence can't use the apparatus or the platform.
+- **Training**: one session a day at a training building gives class XP as well as skill. Training post and training dummy: 15 Taijutsu. Battle ring: 18 Taijutsu. Chakra study apparatus ("Study chakra at"): 15 Ninjutsu. Star-watching platform ("Meditate on"): 15 Genjutsu. From class level 8 training gives half, and training alone stops at level 10. Pawns who refuse violence can still study at the apparatus and meditate at the platform; only the post, dummy and ring turn them away.
 - **Sensei and student**: select a colonist below jōnin and use the **Sensei** button to pick a jōnin or village leader who outranks them. While the sensei is awake within 15 cells, the student gets three times the XP from training and sparring, in the sensei's best class, and can grow past level 10 up to one level below the sensei (at most 16). The sensei gains Social.
 - **Sparring**: select a colonist, right-click a **battle ring** and pick "Spar with" a partner. Both walk to the ring and spar: Melee practice for both, 12 Taijutsu XP each at the end (three times as much with their sensei). There is a small chance of a light bruise; nobody gets knocked down.
 - **Missions**: clearing a ranked mission's camp gives every ninja on the site class XP by mission rank: D 60, C 120, B 250, A 450, S 800.
@@ -40,3 +40,6 @@ Each stage has a roll on both sides, so an underdog can win. Winners become **ch
 Ninja from other villages carry ranks too, matching how strong their loadout is: their leaders are village leaders, their elites jōnin.
 
 In dev mode, the **NFRP World** debug actions include "Make selected pawn qualify for the next rank exam" (raises level, skills and time served to exactly what the next exam needs), "Rank exam now" (everyone eligible passes; if nobody is, it says why for each ninja), "Chūnin exam invitation now" and "Raise selected pawn's rank".
+
+## The ninja world panel
+The **ninja world** button on the bottom bar opens one screen with everything about your place in the ninja world: the village you're sworn to and its perks (or how to join), any colonists marked missing-nin, the truce countdown, how many days until a chūnin exam invitation can come and which village would host it, goodwill and relation with every NFRP faction, and a list of your ninja with rank, level, days at that rank and whether they're ready for the next exam. Click a ninja's row to select them.

@@ -17,6 +17,8 @@ With goodwill 60 or more you can **swear your ninja** to one of the six hidden v
 
 **Leaving** costs 60 goodwill with that village. Every ranked ninja becomes **missing-nin** for 60 days (less social impact) and feels they abandoned their village for a while. You can't swear to another village for 30 days.
 
+Your standing with every village, the Syndicate, the Venator and the feudal houses is on the **ninja world** panel (bottom bar), along with your sworn village and the truce countdown.
+
 ## Venator
 Call a Venator base and you can **hire monster hunters** for 600 silver: a hunting party arrives to fight beside you.
 

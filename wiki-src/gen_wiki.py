@@ -142,7 +142,7 @@ def pos(a):
 
 # ───────────────────────────── page shell
 NAV = [('index.html', 'Home'), ('guides/index.html', 'Guides'), ('trees/index.html', 'Technique trees'), ('items.html', 'Items'),
-       ('seals.html', 'Seals'), ('creatures.html', 'Creatures'), ('factions.html', 'Factions')]
+       ('seals.html', 'Seals'), ('creatures.html', 'Creatures'), ('plants.html', 'Plants'), ('factions.html', 'Factions')]
 
 def page(path, title, body, depth=None, desc=''):
     depth = path.count('/') if depth is None else depth
@@ -282,18 +282,93 @@ for fw, title in (('true', 'Weapon seals'), ('false', 'Armour seals')):
     body += '</table>'
 page('seals.html', 'Enchantment seals', body)
 
+
+def nice_biome(b): return re.sub(r'(?<!^)([A-Z])', r' \1', b).lower().replace('_', ' ')
+def creature_roles(dn, t):
+    r = t.find('race')
+    if r is None: return ''
+    tags = []
+    if dn.startswith('NF_Undead_'): tags.append('undead')
+    tr = r.findtext('trainability') or ''
+    wild = float(t.findtext('statBases/Wildness') or 0.5)
+    if not dn.startswith('NF_Undead_') and r.findtext('intelligence') != 'Humanlike' and wild < 0.98: tags.append('tameable')
+    comps = [c.get('Class') or '' for c in t.findall('comps/li')]
+    if any(('Mount' in (e.get('Class') or '') or 'Ridable' in (e.get('Class') or '')) for e in t.iter()): tags.append('rideable')
+    if r.findtext('packAnimal') == 'true': tags.append('pack animal')
+    if any('Milkable' in c for c in comps): tags.append('milk')
+    if any('Shearable' in c for c in comps): tags.append('wool')
+    if any('EggLayer' in c for c in comps): tags.append('eggs')
+    if r.findtext('predator') == 'true': tags.append('predator')
+    if r.findtext('herdAnimal') == 'true': tags.append('herds')
+    bio = [nice_biome(b.tag) for b in r.findall('wildBiomes/*')]
+    out = ''
+    if tags: out += '<b>' + E(', '.join(tags)) + '</b>'
+    if bio: out += (' · ' if out else '') + 'wild in ' + E(', '.join(bio))
+    return f'<p class="meta"><small>{out}</small></p>' if out else ''
+
 # ───────────────────────────── creatures (summons)
-body = '<h1>Creatures</h1><p class="lead">Summons, golems, contract animals and companions.</p><div class="grid items">'
+body = '<h1>Creatures</h1><p class="lead">Wild animals and monsters, undead, summons, golems, contract animals and companions. Roles and the biomes each lives in are listed under its description.</p><div class="grid items">'
 for dn, t in sorted(things.items(), key=lambda kv: (kv[1].findtext('label') or '')):
     if (t.get('ParentName') or '') != 'AnimalThingBase' or not t.findtext('description'): continue
     kind = T('PawnKindDef').get(dn)
     tex = kind.findtext('lifeStages/li/bodyGraphicData/texPath') if kind is not None else None
     ic = img((tex or '') + '_south') or img((tex or '') + '_east')
     icimg = f'<img class="ic big" src="img/{E(ic)}" alt="" loading="lazy">' if ic else '<span class="ic big blank"></span>'
-    body += f'<article class="item" id="{slug(dn)}">{icimg}<div><h3>{E((t.findtext("label") or dn).capitalize())}</h3><p>{E(t.findtext("description"))}</p></div></article>'
+    body += f'<article class="item" id="{slug(dn)}">{icimg}<div><h3>{E((t.findtext("label") or dn).capitalize())}</h3><p>{E(t.findtext("description"))}</p>{creature_roles(dn, t)}</div></article>'
     index.append([t.findtext('label'), 'Creature', 'creatures.html#' + slug(dn), ''])
 body += '</div>'
 page('creatures.html', 'Creatures', body)
+
+
+# ───────────────────────────── plants
+wild_in = {}
+for f in glob.glob(os.path.join(SRC, 'Patches', '*.xml')):
+    try: root = ET.parse(f).getroot()
+    except ET.ParseError: continue
+    for op in root.iter('Operation'):
+        m = re.search(r'BiomeDef\[defName="([^"]+)"\]/wildPlants', op.findtext('xpath') or '')
+        if not m: continue
+        for v in op.iter('value'):
+            for c in v:
+                if c.tag.startswith('NF_Plant_'): wild_in.setdefault(c.tag, set()).add(m.group(1))
+recipes = T('RecipeDef')
+def uses_of(item):
+    out = []
+    for rd, r in recipes.items():
+        names = [li.text for li in r.findall('ingredients/li/filter/thingDefs/li')] + [li.text for li in r.findall('fixedIngredientFilter/thingDefs/li')]
+        if item in names:
+            prod = [c.tag for c in r.findall('products/*')]
+            lab = ', '.join((things[p].findtext('label') if p in things else re.sub(r'(?<!^)([A-Z])', r' \1', p).lower()) for p in prod) or (r.findtext('label') or rd)
+            out.append(lab)
+    return sorted(set(out))
+plist = sorted([dn for dn, t in things.items() if dn.startswith('NF_Plant_') and t.find('plant') is not None], key=lambda d: (things[d].findtext('label') or d).lower())
+body = f'<h1>Plants</h1><p class="lead">{len(plist)} plants: medicinal herbs, poisons, alchemy ingredients, crops, dyes, flowers and trees. Sowable ones appear in a growing zone\'s plant list once a grower has the skill shown.</p><div class="grid items">'
+for dn in plist:
+    t = things[dn]; pl = t.find('plant')
+    tex = t.findtext('graphicData/texPath') or ''
+    ic = img(tex) or img(tex + '_a')
+    icimg = f'<img class="ic big" src="img/{E(ic)}" alt="" loading="lazy">' if ic else '<span class="ic big blank"></span>'
+    tree = (t.get('ParentName') or '').startswith('Tree') or pl.findtext('treeCategory') or 'Tree' in (t.get('ParentName') or '')
+    sow = pl.find('sowTags') is not None
+    facts = []
+    facts.append('tree' if tree else 'plant')
+    facts.append(f'sowable (growing skill {pl.findtext("sowMinSkill") or 0})' if sow else 'wild only')
+    if pl.findtext('growDays'): facts.append(f'grows in {pl.findtext("growDays")} days')
+    hv = pl.findtext('harvestedThingDef')
+    extra = ''
+    if hv:
+        hl = things[hv].findtext('label') if hv in things else hv
+        facts.append(f'yields {pl.findtext("harvestYield") or "?"} × {hl}')
+        u = uses_of(hv)
+        if u: extra += '<br>Used for: ' + E(', '.join(u))
+        if hv in things and hv != dn and things[hv].findtext('description') and not things[hv].findtext('description').startswith(t.findtext('description') or '~'):
+            extra += '<br>' + E(hl.capitalize()) + ': ' + E(things[hv].findtext('description'))
+    bio = sorted(nice_biome(b) for b in wild_in.get(dn, ()))
+    if bio: extra += '<br>Grows wild in: ' + E(', '.join(bio))
+    body += f'<article class="item" id="{slug(dn)}">{icimg}<div><h3>{E((t.findtext("label") or dn).capitalize())}</h3><p>{E(t.findtext("description"))}</p><p class="meta"><small><b>{E(" · ".join(facts))}</b>{extra}</small></p></div></article>'
+    index.append([t.findtext('label'), 'Plant', 'plants.html#' + slug(dn), ''])
+body += '</div>'
+page('plants.html', 'Plants', body)
 
 # ───────────────────────────── factions
 body = '<h1>Factions</h1><p class="lead">Hidden villages, a criminal syndicate, an order of witch-hunters and three feudal houses.</p><div class="grid items">'

@@ -18,3 +18,13 @@ Undead can't be tamed, are always hostile and leave no meat or leather. Skeleton
 
 ## The restless dead
 A night-time event from day 15: late at night (9 pm to 3 am), undead rise at the edge of the map and attack.
+
+## The second wave: forty more animals
+Forty more creatures from the archive, each with a job in a colony. Every one is on the [creatures page](../creatures.html) with its roles and biomes.
+- **Mounts and pack animals:** Halbeisen warhorse, dune strider, hippogriff, giant bumblebee steed, titanothere.
+- **Farm animals:** stench kow and Amalthean ram (milk), great woolback (wool), bandy-tailed fighting cock (eggs), giant hog, snow boar and giant rabbit (meat).
+- **Game:** Pleistocene deer, giant stag, jackalope, giant beaver, great pangolin, dire armadillo, giant hedgehog, plains kangaroo.
+- **Predators:** winter wolf and magma wrath wolf (breath attacks), sabre-tooth cat, cave lion, cave bear, giant komodo, giant constrictor, giant and hell scorpions, manticore, chupacabra, deadly preying mantis, giant trapdoor spider, giant snapping turtle, muskhorn, leucrotta. Many of them also turn up in monster incursions.
+- **Legendary beasts:** phoenix, kirin (rideable), thunder behemoth, frost roc. The kirin, phoenix and frost roc guard shrines; the hell scorpion, trapdoor spider, manticore and thunder behemoth guard tombs.
+
+Forty new plants came with them: herbs, poisons, alchemy ingredients, crops, dyes, flowers and trees. See the [plants page](../plants.html).
