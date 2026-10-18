@@ -1,6 +1,8 @@
 # More arts from the archive
 The rest of the archive's styles and technique trees. Fighting and weapon styles are in the **Taijutsu** tab, the rest in **Ninjutsu**. Trees unlock like World of Naruto's element trees; **Academy techniques** and **Medical skill techniques** are open to every ninja. Weapon styles need the right weapon in hand (shown in each technique's description); passives stay on once learned.
 
+Every archive tree has its own section, named after the tree, in its class's tab of the technique menu. Locked trees are learned from technique scrolls, mission rewards, written scrolls and scroll merchants, and some NPC ninja know one; they count toward the ninja build like the older trees of their class.
+
 ## Fighting and weapon styles
 - **Brawler Style (Kentoushi)**: Needs empty hands. Chouba (Taunt), Tetsu Tekken (Iron Fist), Gekijou Atemi (Fury of Blows), Sensai Kaba (Master Bull Rush), Buttoi Jouhi (Thick Skin), Kenboushou Tekken (Amnesia Fist), Fundo (Rage), Brawler's Saishuu Tachi (Last Stand), Tsuyoi Fundo (Mighty Rage).
 - **Goutetsu (Roaring Iron)**: Needs empty hands. Roaring Iron Stance, Hadō Shō (Surge Palm), Tobi Geri (Iron Flying Kick), Focus Stomp, Tetsu Senpū (Iron Whirlwind), Ryūjō Ken (Rising Iron Fist), Ashura Senku (Asura Flashing Air), Messatsu Gōha (Annihilating Great Surge), Tetsu Rasetsu (Iron Demon Fury).

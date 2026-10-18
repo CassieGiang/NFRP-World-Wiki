@@ -35,6 +35,13 @@ for ch in allel:
 def T(tag): return defs.get(tag, {})
 trees, abilities, tiers = T('TaranMagicFramework.AbilityTreeDef'), T('TaranMagicFramework.AbilityDef'), T('TaranMagicFramework.AbilityTierDef')
 things, seals, genes = T('ThingDef'), T('CassieNFRP.SealDef'), T('GeneDef')
+# gene labels from World of Naruto and NFRP World (WoN's genes aren't in the wiki source files)
+import json as _json
+try: GENE_LABELS = _json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'gene_labels.json'), encoding='utf-8'))
+except Exception: GENE_LABELS = {}
+def gene_label(g):
+    gd = genes.get(g)
+    return (gd.findtext('label') if gd is not None else None) or GENE_LABELS.get(g) or g
 
 # which class each tree belongs to (from patches)
 tree_class = {}
@@ -111,11 +118,12 @@ def tree_gate(el):
     g = el.find("modExtensions/li[@Class='CassieNFRP.NFGeneTree']")
     if g is None: return None
     if g.findtext('gene'):
-        gd = genes.get(g.findtext('gene'))
-        return 'Unlocks for pawns with the ' + (gd.findtext('label') if gd is not None else g.findtext('gene')) + ' gene.'
+        return 'Unlocks for pawns with the ' + gene_label(g.findtext('gene')) + ' gene.'
     if g.findtext('parentTree'):
         pt = trees.get(g.findtext('parentTree'))
-        return 'Unlocks once the pawn has ' + (pt.findtext('label') if pt is not None else g.findtext('parentTree')) + '.'
+        if pt is not None: return 'Unlocks once the pawn has ' + pt.findtext('label') + '.'
+        ptn = g.findtext('parentTree'); m_ = re.match(r'WN_(Ninjutsu|Clan)?(\w+)', ptn or '')
+        return 'Unlocks once the pawn has World of Naruto\'s ' + (re.sub(r'(?<!^)([A-Z])', r' \1', m_.group(2)).lower() + ' tree' if m_ else ptn) + '.'
     return None
 
 NOTE = {
@@ -202,7 +210,7 @@ for g in GROUPS:
                 for li in abilities[d].findall('abilityTiers/li'):
                     ti_ = tier_info(li.text)
                     if ti_: gl |= set(ti_['genes'])
-            if gl: gate = 'Needs the ' + ' or '.join((genes[g].findtext('label') if g in genes else g) for g in sorted(gl)) + ' gene.'
+            if gl: gate = 'Needs the ' + ' or '.join(gene_label(g) for g in sorted(gl)) + ' gene.'
         note = NOTE.get(tdn) or gate or ('Open to every ninja. How high a ninja can go depends on their ninja build.' if open_t else 'Learned from technique scrolls, mission rewards, written scrolls and scroll merchants; some NPC ninja know it. It counts toward the ninja build like other trees.' if tdn.startswith('NF_Arch') else 'Unlocks through World of Naruto\'s own trees, a gene, a build choice or a profession.')
         bg = img(t.findtext('backgroundTexPath'), True)
         hero = f'<img class="treebg" src="{up}img/{E(bg)}" alt="">' if bg else ''

@@ -20,7 +20,7 @@ Twelve metals, forged at the smithy ten at a time. Weapons made from them get an
 **Fittings** (scopes, sights, stabilizer, grip, stock) are used on the bow, crossbow or sling in hand; a weapon holds two, and they take no seal slot. New quivers (**karimata**, **togari-ya**, **yanagi-ba**, vial, bolo, flechette, sonic, zigzag) and sling pouches (burrowing, groaning, tracer, tremor) work like the old ones: worn, they change every hit.
 
 ## Worn gear
-- **Packs and pouches** carry more and some help with work (scroll pouch: faster rituals; medical pack: better tending). One pack, one pouch, one gadget, one trinket and one quiver or shield can be worn together.
+- **Packs and pouches** carry more and some help with work (scroll pouch: faster rituals; medical pack: better tending). One pack, one pouch, one gadget, one trinket and one quiver or shield can be worn together. The **chest rig**, **load-carrying vest**, **bandolier** and **equipment belt** are worn on the front of the body, drawn to fit each body build.
 - **Magic gear**: boots of levitation (hover), bracer of jutsu turning (techniques do 25% less, one in seven fails), cloak of confusion, cloak of the clear eye, thief's gloves.
 - **Armour pieces**: jingasa, sode, kote, dō, haidate and iron greaves (harder kicks). **Clothing**: kimono, hakama, haori, noragi, tear-away clothing, kasa, waraji.
 - **Lenses and masks**: anti-flash, night-vision, infravision, zooming, lie-detector, condition-viewing and x-ray lenses; gas mask and rebreather.
@@ -28,7 +28,7 @@ Twelve metals, forged at the smithy ten at a time. Weapons made from them get an
 Almost everything has its own look on the pawn, painted for every body shape.
 
 ## Gadgets
-Worn gadgets add a button: **grapnel gun** (pull yourself 22 cells), **line launcher** (reel an enemy in), **sonic emitter** (stuns enemies around you, daily), **magnetic emitter** (rips metal weapons away, daily), **propulsion disk** (dash), **pouch projector** (smoke), **dungeoneer's compass** (clears the fog, daily), **disruptor** (sets off enemy traps, stuns machines, daily). The **auto-injector harness** tends every wound when the wearer goes down or bleeds badly. **Air trecks** make the wearer glide. The **seeker mine** walks to the nearest enemy and goes off. **Nets** pin everyone they land on; the **empyreal net** also seals chakra.
+Worn gadgets add a button: **grapnel gun** (pull yourself 22 cells), **line launcher** (fires a cord into an enemy and reels them in), **sonic emitter** (stuns enemies around you, daily), **magnetic emitter** (rips metal weapons away, daily), **propulsion disk** (dash), **pouch projector** (smoke), **dungeoneer's compass** (clears the fog, daily), **disruptor** (sets off enemy traps, stuns machines, daily). The **auto-injector harness** tends every wound when the wearer goes down or bleeds badly. **Air trecks** make the wearer glide. The **seeker mine** walks to the nearest enemy and goes off. **Nets** pin everyone they land on; the **empyreal net** also seals chakra.
 
 ## Field medicine, restraints and locks
 - **Field cauterizer**, **pressure seal bandage**, **field splint**, **anti-shock blanket**: used on anyone nearby.

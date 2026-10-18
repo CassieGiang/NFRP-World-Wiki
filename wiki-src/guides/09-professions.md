@@ -3,6 +3,7 @@ Venator, Bard, Soulcaster, Monster Trainer, Sensor and ANBU.
 
 ## Professions
 - **The Venator** (witch-hunter), **The Art of the Bard**, **Soulcaster**, **Monster Trainer** and **Sensor Specialist** are profession trees.
+- Venator, Bard, ANBU and Monster Trainer count as **universal ninjutsu** in the ninja build: technique scrolls, mission rewards and scroll merchants can teach them, up to the build's universal rank cap. Sensor and Soulcaster count as **Medical**.
 - Bard techniques need a **musical instrument** in hand (flute, shamisen, war drum, horn, harp or bell staff). Better instruments make stronger songs.
 
 ## ANBU
