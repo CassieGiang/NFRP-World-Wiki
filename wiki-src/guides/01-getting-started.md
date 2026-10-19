@@ -66,10 +66,16 @@ More switches in the same window:
 - **Technique hands**: both hands show during hand seals, wind-ups, palm strikes, punches and throws. With [Show Me Your Hands](https://steamcommunity.com/sharedfiles/filedetails/?id=2475965842) installed, they match its hand colour and size.
 - **Weapon size** (80% to 125%): makes every NFRP World weapon bigger or smaller while keeping their proportions. It takes effect after a restart.
 
+Newer visual settings (all on unless noted; see [Visual effects](visual-effects.html)):
+- **Effects:** **Glow strength** (55%; 100% is the old brighter look), **Most particles per technique use** (30), **Crisp effect shapes**, **Crisp animated effects**, **Crisp particles** (takes effect after a restart), **Overshoot easing**, **Ground shadows**, **Hit flash and sparks**, **Thrown weapon visuals**.
+- **Techniques:** **Mouth casting for breath techniques**, **Technique constructs**, **Iron sand constructs**, **Storm Dragon as a flowing stream**, **Channel visuals** with **Channel pose** (Varied, or one pose for every technique), **Anticipation and recovery poses**, **Area warnings** (All, Enemies only or Off; default All).
+- **Taijutsu and teams:** **Taijutsu choreography** with **Taijutsu motion size** (50% to 150%, default 100%), **Team strike visuals**, **Big combo visuals**.
+- **Ninja:** **Movement technique visuals**, **Crisp status looks**, **XP gain pop-ups**, **Technique name callouts** (Mine, All pawns or Off; default Mine), and **One-handed signs: training sessions needed alone** (4 to 40, default 14; see [Hand signs](hand-signs.html)).
+
 Sound cues need no setting: a technique starting plays a sound for its element, and gates, summons, promotions, festivals, combos and sensor marks have their own sounds, all taken from the base game and DLCs.
 
 ## World and ritual settings
 The same settings window also has: how often sealed ruins appear on new maps, how often NFRP events happen, switches for monster incursions, chakra storms and wandering masters, ritual power, the augmentation cap per person, and whether enemy ninja carry ritual seals and bombs (they use them: Syndicate ninja curse your colonists, Venator hunters heal their own).
 
 ## Dev tools
-With dev mode on, the debug actions menu has an **NFRP World** section: build a tomb, shrine or training ground; fire each event; start a ruin quest or a mission; drop families of items; spawn creatures; teach a tree or set a discipline; fill chakra; and test animations.
+With dev mode on, the debug actions menu has an **NFRP World** section: build a tomb, shrine or training ground; fire each event; start a ruin quest or a mission; drop families of items; spawn creatures; teach a tree or set a discipline; and fill chakra.

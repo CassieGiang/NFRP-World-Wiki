@@ -10,7 +10,7 @@ Who's out there, the war, the truce and ranked missions.
 
 ## War and truce
 - The villages and the Syndicate start hostile to you and to each other. Goodwill can still be raised normally.
-- A **one-year truce** (60 days) blocks their raids on a new colony's home map, including raids from quests and from other mods' raid events. An alert counts down; letters mark its start and end.
+- A **one-year truce** (60 days) blocks their raids on a new colony's home map, including raids from quests, other mods' raid events and Faction Territories incursions. An alert counts down; letters mark its start and end.
 
 ## Ranked missions
 - The feudal houses, the Venator, and any village or the Syndicate at goodwill 25 or more offer **D to S rank missions** against a camp of a common enemy.

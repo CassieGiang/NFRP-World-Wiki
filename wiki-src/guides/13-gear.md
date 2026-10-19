@@ -22,7 +22,7 @@ Twelve metals, forged at the smithy ten at a time. Weapons made from them get an
 **Fittings** (scopes, sights, stabilizer, grip, stock) are used on the bow, crossbow or sling in hand; a weapon holds two, and they take no seal slot. New quivers (**karimata**, **togari-ya**, **yanagi-ba**, vial, bolo, flechette, sonic, zigzag) and sling pouches (burrowing, groaning, tracer, tremor) work like the old ones: worn, they change every hit.
 
 ## Worn gear
-- **Packs and pouches** carry more and some help with work (scroll pouch: faster rituals; medical pack: better tending). One pack, one pouch, one gadget, one trinket and one quiver or shield can be worn together. The **chest rig**, **load-carrying vest**, **bandolier** and **equipment belt** are worn on the front of the body, drawn to fit each body build.
+- **Packs and pouches** carry more and some help with work (scroll pouch: faster rituals; medical pack: better tending). One pack, one pouch, one gadget, one trinket and one quiver or shield can be worn together. The **chest rig**, **load-carrying vest**, **bandolier** and **equipment belt** are worn on the body and drawn fitted to every body shape, like vanilla's bandolier. Packs, quivers and sling pouches sit on the back without loose straps hanging off them.
 - **Magic gear**: boots of levitation (hover), bracer of jutsu turning (techniques do 25% less, one in seven fails), cloak of confusion, cloak of the clear eye, thief's gloves.
 - **Armour pieces**: jingasa, sode, kote, dō, haidate and iron greaves (harder kicks). **Clothing**: kimono, hakama, haori, noragi, tear-away clothing, kasa, waraji.
 - **Lenses and masks**: anti-flash, night-vision, infravision, zooming, lie-detector, condition-viewing and x-ray lenses; gas mask and rebreather.

@@ -1,5 +1,5 @@
 # New creatures and the undead
-Sixteen new beasts and fifteen undead, from the archive's bestiary.
+Sixteen new beasts and fifteen undead, from the archive's bestiary. Creatures follow the archive's size classes (tiny, small, medium, large, huge, gargantuan, colossal) both in how big they are drawn and in body size, which also sets their health, food and whether they can be ridden.
 
 ## Beasts
 - **Ember cockatrice**: spits fire. **Blizzard bear**: its roar freezes prey. **Stone-gaze basilisk**: its gaze stiffens and slows.
