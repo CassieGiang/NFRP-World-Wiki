@@ -2,7 +2,7 @@
 
 A RimWorld mod that brings the clans, bloodlines and techniques of the Naruto Forum Role-play (NFRP) archive into World of Naruto.
 
-**Wiki:** https://cassiegiang.github.io/NFRP-World/
+**Wiki:** https://cassiegiang.github.io/NFRP-World-Wiki/
 
 Requires Harmony, Taran Magic Framework, World of Naruto and Giddy-Up (load in that order, then NFRP World). RimWorld 1.6 and 1.7.
 
