@@ -16,4 +16,4 @@ Illusions only affect enemies unless they are meant to help.
 - **Pattern illusions**: Pattern Perception, Dazzling Lights, Spots Before Your Eyes, Hypnotic Flower Storm, Double Vision, Rainbow Pattern, Doomtide, Cone of Paralysis, Maelstrom of Colour, Wall of Patterns.
 - **Phantasm illusions**: Phantasm Perception, Unnerving Gaze, Phantom Threat, Phantasmal Strangler, Awakened Fears, Eyes of Decay, Friend to Foe, Phantasmal Stalker, Death Dream, Unreality.
 - **Shadow illusions**: Shadow Perception, Shadow Missile, Net of Shadows, Shadow Claws, Shadow Spray, Shadow Form, Shadowy Grappler, Skittering Shadow, Shadow Beast.
-- **Charm illusions**: Charm Perception, Lesser Charm, Heroes' Tale, Stay the Hand, Enthrall, Camaraderie, Charm Person, Mass, Friendship, Charm Contagion.
+- **Charm illusions**: Charm Perception, Lesser Charm, Heroes' Tale, Stay the Hand, Captivate, Camaraderie, Crowd charm, Friendship, Charm Contagion.

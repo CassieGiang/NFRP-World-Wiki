@@ -19,7 +19,7 @@ While a gate is open the user glows in its chakra's colour, from red-orange at t
 All of these need the First Gate learned.
 
 - **Gentle Touch** (C): a stunning palm strike that rarely kills.
-- **Stunning Fist** (C): a long stun.
+- **Knockout Fist** (C): a long stun.
 - **Chakra Disruption** (C): the target turns clumsy and inaccurate for a while.
 - **Luminosity** (C): a burning, dazzling ray of light from the palm.
 - **Aether Ties** (C): the target is slowed.
@@ -27,7 +27,7 @@ All of these need the First Gate learned.
 - **Crack the Shell** (B): a blow that ignores most armour.
 - **Seal Wounds** (B): heals the user.
 - **Revitalizing Breath** (B): heals a friend.
-- **Uncanny Dodge** (B, passive) and **Improved Uncanny Dodge** (A, passive): better dodging.
+- **Godspeed Evasion** (B, passive) and **Godspeed Evasion, Perfected** (A, passive): better dodging.
 - **Sever the Flow** (A): cuts the target off from its chakra, so no techniques for a while.
 - **Incandescent Strike** (S): a blow of white-hot radiant energy.
 - **Wages of Sin** (S): a crushing blow that leaves the target helpless.

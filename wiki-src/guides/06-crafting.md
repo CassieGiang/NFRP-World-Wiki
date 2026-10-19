@@ -21,7 +21,7 @@ The alchemy table, disciplines, the scribe desk and the crafting arts.
 - **Unguents**: tough skin liniment, stop-bleeding ointment and vapours of easy breathing.
 
 ## Alchemist's tricks
-A passive tree with the rest of the archive's universal alchemy techniques: faster alchemy in steps (Fast Item Creation through Efficient Alchemist and Journeyman), Master Mixologist (brewing), Master Poisoner (drugs and poisons), Mineral Attunement (crystalmancy and mining yield), Skilled Harvester, Cautious Handler (toxic resistance), Acid Resistance, Alertness, Skirmishing, Sidestep Charge, Sneak Attack, Precision Poisoning, Minor Damage Reduction, Improved Uncanny Dodge and Improved Sleight of Hand.
+A passive tree with the rest of the archive's universal alchemy techniques: faster alchemy in steps (Fast Item Creation through Tireless Alchemist and Journeyman), Master Mixologist (brewing), Master Poisoner (drugs and poisons), Mineral Attunement (crystalmancy and mining yield), Herbalist's Eye (harvest yield), Cautious Handler (toxic resistance), Scald Ward, Watchful Eye, Duck and Weave, Bullfighter's Step, Low Blow, Precision Poisoning, Shrug It Off, Sixth Sense and Improved Sleight of Hand.
 
 ## Alchana
 Made by any alchemist at the alchemy table:

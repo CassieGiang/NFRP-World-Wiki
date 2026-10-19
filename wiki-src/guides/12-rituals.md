@@ -19,25 +19,25 @@ Permanent body changes, used on a person (up to **three** per person): claws, fa
 **Curses** (C, five days, on enemies and prisoners): brittle bones, lethargy, thin skin, combat fear and festering sores.
 
 ## Deception
-- **Calm emotions**: ends a mental break at once.
-- **Dancing lights**, **miasma of shadows** and **hallucinatory wall** (thrown): lights, a cloud of shadow, an illusory wall that blocks sight but not movement.
+- **Soothing calm**: ends a mental break at once.
+- **Wisp lights**, **miasma of shadows** and **hallucinatory wall** (thrown): lights, a cloud of shadow, an illusory wall that blocks sight but not movement.
 - **Poker face**, **glib limerick**: better bargaining and social impact for a day.
 - **Grim interrogator**: breaks down a prisoner's resistance.
 - **Lap of luxury**: a good mood for a day.
 - **Camouflage** and **vanish** (B): invisibility for a while.
-- **Modify memory** (B): erases someone's worst bad memory.
+- **Memory rewrite** (B): erases someone's worst bad memory.
 - **Phase shift** (B): half damage for a short while.
 - **Curse: nightmares** (A), **extend lifespan** (S): five years younger.
 
 ## Restoration
-Cleansing, cure disease, comrades' succor (heals everyone near), remove affliction, restore senses, transfer vitality, false life, gentle repose (preserves a corpse), field of victory, moonlight vigor (a full night's rest), **heal** (A, about 80 points), fantastic recuperation, **contingent recovery** (heals once when the bearer goes down), soul guard, **cure blight** (S), **raise dead** (S) and **restore youth** (S, ten years).
+Cleansing, cure disease, comrades' succor (heals everyone near), remove affliction, restore senses, transfer vitality, borrowed vigour, lasting rest (preserves a corpse), field of victory, moonlight vigor (a full night's rest), **heal** (A, about 80 points), fantastic recuperation, **contingent recovery** (heals once when the bearer goes down), soul guard, **cure blight** (S), **call the departed** (S) and **restore youth** (S, ten years).
 
 ## Travel
-- **Blink** and **jaunt** (thrown): carry the thrower to where the seal lands.
+- **Flicker** and **jaunt** (thrown): carry the thrower to where the seal lands.
 - **Companion summon** and **summon friend**: pull one of your animals or people on the map to your side.
 - **Wagon's burden**, **feet of cloudrunner**, **cheetah's pursuit**: carrying capacity and speed.
-- **Teleportation circle** (B): place two or more; right-click one with a colonist to step through to another.
+- **Transit circle** (B): place two or more; right-click one with a colonist to step through to another.
 - **Swift mark** (S): a marker stone you place; a **swift mark recall** seal flashes its user to the nearest mark.
 
 ## Warding
-- **Glyph of warding** (B): a floor glyph that stuns enemies who come near and raises the alarm.
+- **Warding sigil** (B): a floor glyph that stuns enemies who come near and raises the alarm.

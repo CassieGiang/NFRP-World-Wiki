@@ -4,7 +4,7 @@ The rest of the archive's styles and technique trees. Fighting and weapon styles
 Every archive tree has its own section, named after the tree, in its class's tab of the technique menu. Locked trees are learned from technique scrolls, mission rewards, written scrolls and scroll merchants, and some NPC ninja know one; they count toward the ninja build like the older trees of their class.
 
 ## Fighting and weapon styles
-- **Brawler Style (Kentoushi)**: Needs empty hands. Chouba (Taunt), Tetsu Tekken (Iron Fist), Gekijou Atemi (Fury of Blows), Sensai Kaba (Master Bull Rush), Buttoi Jouhi (Thick Skin), Kenboushou Tekken (Amnesia Fist), Fundo (Rage), Brawler's Saishuu Tachi (Last Stand), Tsuyoi Fundo (Mighty Rage).
+- **Brawler Style (Kentoushi)**: Needs empty hands. Chouba (Taunt), Tetsu Tekken (Iron Fist), Gekijou Atemi (Fury of Blows), Sensai Kaba (Master Bull Rush), Buttoi Jouhi (Thick Skin), Kenboushou Tekken (Amnesia Fist), Fundo (Wrath), Brawler's Saishuu Tachi (Last Stand), Tsuyoi Fundo (Towering Wrath).
 - **Goutetsu (Roaring Iron)**: Needs empty hands. Roaring Iron Stance, Hadō Shō (Surge Palm), Tobi Geri (Iron Flying Kick), Focus Stomp, Tetsu Senpū (Iron Whirlwind), Ryūjō Ken (Rising Iron Fist), Ashura Senku (Asura Flashing Air), Messatsu Gōha (Annihilating Great Surge), Tetsu Rasetsu (Iron Demon Fury).
 - **Musha Shukke Fuu (The Warrior Monk's Way)**: Needs empty hands. Steel Fists, Double Punch, Raging Palm Thrust, Chakra Sphere Pulse, Root, Zen, Berserk Fury, Cursed Circle, Asura Strike.
 - **The Will of Kratos (Medic Strength)**: Jab, Finger Flick, Hand Clap, Hurl, Field Mend, Foot Stomp, Knockout Blow, Armor of Apollo, Judgement Day, Invincible.
@@ -15,7 +15,7 @@ Every archive tree has its own section, named after the tree, in its class's tab
 - **Wakizashi Kagame (Gem Mirror)**: Needs a bladed weapon. Wakizashi Kagame Training, Jade Fist, Amethyst Blade, Fūton: Chiisaikaze (Wind Release: Tiny Wind), Onyx Blade, Katon: Chiisaibakahatsu (Fire Release: Tiny Explosion), Diamond Whirlwind, Diamond Razor, 100 Strikes.
 - **Meimei Undoushinkei (Divine Reflexes)**: Needs a melee weapon. Demon Claw Stance: Mantis, Mantis Claw: Tiger Slash, Mantis Claw: Lion Breaker, Turtle Claw: Abyss Scissors, Mantis Claw: Lynx Spin, Mantis Claw: Assassin's Bullet, Demon Horns Stance: Cat, Dead Man's Teeth: Hades Teeth, Bear's Teeth: Massacre.
 - **Kumotate (Bear Shield)**: Needs a shield. Kuma Tsume no Shisei (Bear Claw Stance), Kuma Tsume – Zenpou Nibutsuke (Forward Bump), Kuma Tsume – Nage (Toss), Kuma Tsume – Kaijo (Disarm), Kuma Tsume – Kessai Kyouda (Clearing Swipe), Kyuushi Joutai (Hibernation), Watashi ha Kowari Nai, Tatsu (I Stand, Unbreakable), Are Kuruu Kuma no Yamera Renai Kake (Unstoppable Lope of the Raging Bear).
-- **Riders (Mounted Combat)**: Needs a melee weapon. Riding (Mount), Charge, Thunderclap Stride, Coup de Jarnoc, Vortex Charge, Wrath of the Thunder Dragon, Tsunami Strike, Star of Justice.
+- **Riders (Saddle Warfare)**: Needs a melee weapon. Riding (Mount), Charge, Thunderclap Stride, Coup de Jarnoc, Vortex Charge, Wrath of the Thunder Dragon, Tsunami Strike, Star of Justice.
 
 ## Universal ninjutsu and sealing
 - **Academy techniques**: Kinobori no Waza (tree climbing), Suimen Hokō no Waza (water walking), Irekawari (body switch), Jibaku Fuda: Kassei (exploding tag), Chakra antiseptic, Chakra water purify, Sennen Goroshi (thousand years of pain).
@@ -23,7 +23,7 @@ Every archive tree has its own section, named after the tree, in its class's tab
 - **Hair arts**: Kami Hari (hair needles), Kami Hoippu (hair whip), Kami Baindo (hair bind), Kami Harihana (hair needle field), Ranji Shigumi (wild lion's mane), Kami Henge Hebi (hair snakes), Art of the hair warrior, Wicked weaves: fist of the butterfly.
 - **Tenkai (Heavenly Release)**: Tenkai (heavenly release), Kekkai (barrier), Kekkai: Yari (barrier spear), Kekkai: Shōheki (barrier wall), Sekkai (untimely interference), Kekkai: Metsu (barrier destroy), Bankai (full release), Zekkai (absolute boundary).
 - **Transformation**: Transformation, Lizard's skin, Human transformation, Combination transformation, Beast manifestation, Transform any object.
-- **Forbidden techniques**: Shadow manipulation, Shadow creation, Shadow completion, Bikō (my shadow), Astral projection.
+- **Forbidden techniques**: Shadow manipulation, Shadow creation, Shadow completion, Bikō (my shadow), Leaving the body.
 - **Fūinjutsu: binding seals**: Seal of chains, Mekuraban seal, Third eye of enlightenment, Third ear of the rat, Second nose of the bloodhound, Second mouth of the serpent's tongue, Seal of communication, The directive seal, Directive creation.
 - **Fūinjutsu: cursed seals**: Tenfūin: stage zero, Tenfūin: stage one, Tenfūin: stage two, Seishingan, A mother's touch, A mother's protection, Goddess worship, Black hole seal.
 - **Fūinjutsu: barriers and scroll seals**: Gofu Kekkai (five seal barrier), Seimitsu Han'ei (perfect reflection), Gofu Kekkai deactivation, Saisokufūin (summon seal), Bukifūin (weapon seal), Scroll grenade, Scroll shotgun, Wangetsuryū (crescent dragons).

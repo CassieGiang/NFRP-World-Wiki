@@ -4,6 +4,8 @@ Over two hundred pieces of equipment from the archive's item catalogs, painted i
 ## Weapons for every style
 Each weapon style now has its own weapons: **bō staff** (Bōjutsu), **naginata** and **ōgama great scythe** (staff and scythe styles), **nodachi** and **wakizashi** (blade styles), **ono** and **masakari** axes, **kanabō** (can stun) and **ōtsuchi** (can knock back), **tekko-kagi** claws and **tekkō** knuckles, **kusarigama** (can tangle), **steel wire spool** (Demon Weaver; can web), **ōgi battle fan** (gusts knock foes back), and the **spring razor**. Ranged: **yumi** longbow, **hankyū** short bow, pistol, heavy and repeating **crossbows**, hand and staff **slings**, the poisoned **fukiya** blowgun and **tetsudama** iron balls. The **tedate tower shield** and **iron buckler** count as shields for Armiger.
 
+Every weapon is drawn at a real-world length, on the same scale as World of Naruto's katana and kunai: tekkō and senbon are small, a wakizashi is shorter than a katana, nodachi and legendary blades are long, and bō staffs, naginata and the yumi longbow stand taller than the wielder. Pawns hold swords, axes and staffs raised like vanilla weapons, and two-handed weapons with both hands on the shaft when Show Me Your Hands is installed.
+
 ## Legendary weapons
 Four new legendary weapons join the clockwork blade and the blade of the dhampir: **Ryūgeki, the dragon cleaver** (fire and knockback), **Kibaō, the fang king blade** (wind, drains chakra), **Hoshigiri, the star cutter** (pierces armour) and **Fūraimaru, the wind-thunder sword** (lightning). Each needs Crafting 14.
 

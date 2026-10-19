@@ -9,6 +9,7 @@ What to install, what changes when you start a colony, and where to find everyth
 ## Credits and other mods
 - Built on **World of Naruto** and **Taran Magic Framework**; riding comes from **Giddy-Up** (required).
 - The Kazeraikou clan was created by Marii from NFRP and is used with her permission. Other technique and clan material comes from the NFRP community archive.
+- Optional: **Show Me Your Hands** shows hands on weapons. NFRP World sets the hand positions for all of its weapons and adds its own hands for technique poses, so pawns never show four hands.
 - Known compatibility: NFRP World guards against errors from Surveillance Shift and Alpha Memes when its summons and golems are on the map, and gives its generated pawns a world tile so SimpleLeadership doesn't complain.
 - The mod works in new and existing saves. Factions that are missing from an old world are added when you load it.
 
@@ -57,13 +58,18 @@ More switches in the same window:
 - **Serpent movement**: couatls, Kishinryuu and snakes slither and sway along their bodies.
 - **Creature arts**: beasts use their own signature attacks (breaths, pounces, roars, venom and more). See [New creatures and the undead](creatures-and-undead.html).
 - **Flying mounts**: riders on a flying beast get a Fly order over walls and water. Riding itself is Giddy-Up. See [Mounts and flying](mounts-and-flying.html).
+- **Varied technique effects**: every technique gets its own effect, colour, size and burst pattern, so no two look the same.
+- **Technique sequences** (Full, Short or Off): techniques play as a sequence: hand seals and chakra gathering during the wind-up, then the body move, the strike, flurries and a finisher. Attacks land on the strike, up to half a second after the cast; if the caster goes down in that moment, the technique fizzles. Off brings back instant techniques. Signature techniques such as the Eight Gates, Storm Dragon, Tsunami and 128 Palms have their own sequences.
+- **Technique lighting**: casts, hits and projectiles in flight light up the ground in their element's colour, and opened gates, Kishinryuu and aura creatures glow. A slider sets how many lights can show at once.
+- **Ground marks**: scorch marks, lightning burns, puddles, cracks, frost, acid and summoning sigils are left behind and fade over about a day.
+- **Impact feedback**: hits flash in their element's colour and heavy hits jolt the target. Camera shake stays for the biggest hits.
+- **Technique hands**: both hands show during hand seals, wind-ups, palm strikes, punches and throws. With [Show Me Your Hands](https://steamcommunity.com/sharedfiles/filedetails/?id=2475965842) installed, they match its hand colour and size.
+- **Weapon size** (80% to 125%): makes every NFRP World weapon bigger or smaller while keeping their proportions. It takes effect after a restart.
 
 Sound cues need no setting: a technique starting plays a sound for its element, and gates, summons, promotions, festivals, combos and sensor marks have their own sounds, all taken from the base game and DLCs.
 
 ## World and ritual settings
 The same settings window also has: how often sealed ruins appear on new maps, how often NFRP events happen, switches for monster incursions, chakra storms and wandering masters, ritual power, the augmentation cap per person, and whether enemy ninja carry ritual seals and bombs (they use them: Syndicate ninja curse your colonists, Venator hunters heal their own).
 
-## Dev tools and the self-test
+## Dev tools
 With dev mode on, the debug actions menu has an **NFRP World** section: build a tomb, shrine or training ground; fire each event; start a ruin quest or a mission; drop families of items; spawn creatures; teach a tree or set a discipline; fill chakra; and test animations.
-
-**Run self-test** checks everything the mod adds: every item, building and creature spawns; every icon, technique icon, tree background and worn look is present; every status can be added and removed; every piece of gear can be worn; every ritual seal runs; every recipe has a bench; and legendary techniques point at real weapons. It writes **NFRP_SelfTest.txt** to your RimWorld save-data folder. Use a throwaway colony and don't save afterwards.

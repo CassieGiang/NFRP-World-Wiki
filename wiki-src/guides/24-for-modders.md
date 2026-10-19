@@ -9,7 +9,7 @@ This page is for people making mods that sit next to NFRP World, or tracking dow
 
 ## Seeing the live patch list
 - At startup the log shows one line: **[NFRP World] Harmony patches: N on M methods**.
-- For the full list, open the dev menu, go to **NFRP World**, and choose **List NFRP World patches**. It writes **NFRP_Patches.txt** to your RimWorld save-data folder (next to NFRP_SelfTest.txt), grouped by Harmony id. Each line gives the patch kind, the patched method and the NFRP method that does it.
+- For the full list, open the dev menu, go to **NFRP World**, and choose **List NFRP World patches**. It writes **NFRP_Patches.txt** to your RimWorld save-data folder, grouped by Harmony id. Each line gives the patch kind, the patched method and the NFRP method that does it.
 - Every Harmony id starts with **cassie.nfrpworld.** so you can filter for them in any patch-listing tool.
 
 ## What gets patched, by system

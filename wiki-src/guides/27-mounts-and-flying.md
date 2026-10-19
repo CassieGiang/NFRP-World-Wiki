@@ -13,12 +13,12 @@ NFRP World's creatures are ridden through **Giddy-Up**, which is required.
 - **Caravans**: when every person in a caravan has an adult flying beast of body size 1.2 or more along, world travel takes **three quarters** of the time.
 - A flight in progress isn't saved: after a save and load mid-air, the rider lands on foot.
 
-## Bajutsu (Riders: Mounted Combat)
+## Bajutsu (Riders: Saddle Warfare)
 The Riders tree has 30 techniques from the NFRP archive's mounted-combat thread; most work only, or much better, in the saddle. See the [Riders tree page](../trees/nf-archriders.html) for every tier.
 - **Saddle power**: every Riders technique hits harder while mounted, by 0.85 + 0.25 × the mount's body size, kept between **×1.0 and ×1.8**. The eight original techniques work as before on foot.
 - **Riding** (passive): only in the saddle, stronger at Animals 8 and 15.
-- **Mounted Combat** and **Mounted Archery**: passives that switch on in the saddle.
+- **Fighting from the Saddle** and **Mounted Archery**: passives that switch on in the saddle.
 - **Beast Bond**: the mount's creature arts appear on the rider's buttons, with a third off their cooldowns.
 - **Shared Shelter**: heals and protective effects on the rider also reach the mount.
 - **Aerial Perfection**: the Fly order reaches **a third farther** and recovers **twice as fast**.
-- Active techniques include Fast Mount, Trample, Rearing Strike, **Unhorse** (knocks an enemy rider off), Diving Charge, Sky Watch, Ride-by Flurry, Lightning Leap from the Saddle, Strafing Pass, Crusading Steed, Second Wind, Rider's Vengeance, Skyguard Catapult, Snatch and Drop, and Overwhelming Charge.
+- Active techniques include Fast Mount, Trample, Rearing Strike, **Unhorse** (knocks an enemy rider off), Diving Charge, Sky Watch, Ride-by Flurry, Lightning Leap from the Saddle, Strafing Pass, Crusading Steed, Second Breath, Rider's Vengeance, Skyguard Catapult, Snatch and Drop, and Overwhelming Charge.

@@ -11,7 +11,7 @@ Venator, Bard, Soulcaster, Monster Trainer, Sensor and ANBU.
 - Division arts need one of six **ANBU masks** worn: Falcon (tracking), Owl (sound), Bear (defence), Cat (stealth), Frog (healing auras), Wolf (interrogation). Only pawns who know the ANBU tree can make masks.
 
 ## Gadgets
-- Spyglass, radio headset, field radio, caltrops, tripwire alarm, grappling hook, shinobi goggles, covert listening device, motion scanner and field medic kit.
+- Spyglass, radio headset, field radio, caltrops, bell cord alarm, grappling hook, shinobi goggles, covert listening device, motion scanner and field medic kit.
 - **Talismans** (one at a time, belt slot) from the Venator: Clear Mind, Warding, Hunter's and Ash Oath.
 - **Sensors**: heat sensor, noise sensor and laser tripwire (which also stuns). A **desktop computer** next to a hi-tech research bench speeds up research.
 

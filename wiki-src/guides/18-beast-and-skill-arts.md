@@ -21,9 +21,9 @@ Five trees in the Ninjutsu tab that sharpen everyday skills and toughness, most 
 - **Beast arts: web**: Web, Balled web, Web: silk, Toxic web, Web of impact, Web line, Protection web, Sticky shelter.
 - **Beast arts: troll**: Fearsome demeanor, Tracker's nose, Tusks of the high chief, Burst of vigor, Curse of mortality, Curse of sunstone, Troll claim, Rock rain.
 - **Skill techniques: basic**: Acrobatic, Animal affinity, Artisan, Bargain, Green thumb, Mechanical aptitude, Negotiator, Observer, Outdoorsman, Scholar, Self-sufficient, Persuasive.
-- **Skill techniques: advanced**: Advanced skill mastery, An old dog, Mark of a professional, Cipher, Eye for detail, Physician's training, Mine mastery, Photographic memory, Skill focus, Perfect skill mastery.
+- **Skill techniques: advanced**: Advanced skill mastery, An old dog, Mark of a professional, Cipher, Eye for detail, Physician's training, Mine mastery, Photographic memory, One-art focus, Perfect skill mastery.
 - **Skill techniques: covert**: Ambush basics, Ambush supremacy, Equilibrium mastery, Escape and evasion, Faceless, Mingling supremacy, Ghost supremacy, Tracking mastery, Terrain training, Traceless.
-- **Skill techniques: toughness and will**: Toughness, Ironhide, Epic toughness, Iron will, Great fortitude, Poison healer, Bolstered resilience, Chakra toughness, Pain mastery, Strength of the earth.
+- **Skill techniques: toughness and will**: Toughness, Ironhide, Epic toughness, Steel mind, Unbowed, Poison healer, Bolstered resilience, Chakra toughness, Pain mastery, Strength of the earth.
 - **Skill techniques: miscellaneous**: Deepsight, Night owl, Fortune, Fast mover, Sense chakra, Cutting insult, Big game hunter, Desert dweller, Prodigy, Eyes of the hawk, Detect lie, Control the constructed.
 - **Onimusha no Taiyoushin (Warriors of the Black Sun)**: Ishizuri (Imprint of the Black Sun), Eikoudan (Flare of the Black Sun), Bakoushou (Bursting of the Black Sun), Black sun awakening.
 - **Veritas (Truth)**: Veritas seal, Veritas: the seal watches, Veritas: truth flood.
