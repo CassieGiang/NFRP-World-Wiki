@@ -23,6 +23,7 @@ Who's out there, the war, the truce and ranked missions.
 - **Medic**: tends wounds better and faster, and heals the most hurt ally within 12 cells (the downed first) with its own heal techniques.
 - **Sensor**: every 10 seconds marks the nearest enemy within 22 cells (10% more damage taken, much worse dodging, 15 seconds), and nearby allies aim faster and better.
 - **Support**: aims 15% faster.
+- **Tactics:** with **Enemy ninja tactics** on Basic or Smart (Smart is the default), enemy ninja choose their techniques: the best one for its chakra and the target, stuns on the strongest foe first, no area technique dropped on their own side or on themselves, and substitution or a flicker away when nearly beaten. On Smart they also keep their distance with ranged techniques, focus one target, pincer from opposite sides, and their medics heal the downed. Set it to Off for the old behaviour.
 
 ## Venator bounties
 While the Order of the Venator isn't hostile to you, it posts a **bounty** every few weeks (from day 8, at least 20 days apart):

@@ -1,6 +1,56 @@
 # Update notes
 What changed in recent updates, newest first.
 
+## Update 105: buildings in the base-game style
+- Every NFRP building and piece of furniture is repainted to sit beside base-game and World of Naruto furniture: seen from above, square to the grid, flat colours with a dark outline.
+- Each one fits its footprint, so nothing pokes past its selection corners. The scribe desk and alchemy table turn properly when rotated.
+
+## Update 104: Ninja world icon
+- The ninja world button on the bottom bar has its own icon.
+
+## Update 102: soft effect edges
+- Burst animations, beast heads and status marks fade at their edges instead of ending in a hard straight line.
+
+## Update 100: effects that match the name
+- A technique's colours and particles now follow its name: purple lightning for Shidensen, pink petals for Sakura Tsuisutā, red fire for Crimson Fireball, black ink, silver crescents and more. More than 450 techniques changed look. New setting: **Effects match technique names**. See [Visual effects](visual-effects.html#effects-that-match-the-name).
+
+## Updates 97 to 103: fixes
+- Four hidden villages that were sometimes never added to a world are now added, in new and existing saves.
+- Dash kicks such as Capoeira's Aú play their move.
+- Your own casts stick to their target instead of being dropped for an auto-attack.
+- A shot that can't fire because chakra ran out during the wind-up now shows "Fizzled".
+- Enemy ninja judge each technique's real reach, never throw an exploding technique where they'd stand in its own blast, step back from melee fighters with ranged techniques, and join a pincer when a friend is already fighting the target.
+- Shots from technique bows and guns that fire plain projectiles get a muzzle flash.
+- Fast projectiles flying straight at each other clash instead of passing through.
+- A Kishinryuu rider who lands is put back in the saddle.
+- Saving while a bonded partner was gone no longer writes a broken reference.
+- The ANBU mask from **Don the Mask** shows its side profile when the ninja faces sideways, and isn't drawn twice over a worn ANBU mask. Stat bonuses to hit chance and accuracy show as skill levels (+5), not as a percentage.
+
+## Update 96: signature looks, defensive moments and a new settings window
+- About 35 S-rank techniques have a signature look of their own: a seal circle that flashes once per hand seal, a release with its own shapes, and an aftermath. See [Visual effects](visual-effects.html#signature-looks).
+- **Defensive moments:** parry and block sparks, dodge side-steps with afterimages, the full substitution sequence, and ripples when a barrier is hit.
+- The settings window has tabs, a tooltip on every setting, look presets (Cinematic, Balanced, Performance, Vanilla-like) and a first-time guide. Your settings keep their values. See [Getting started](getting-started.html#the-settings-window).
+
+## Update 95: enemy tactics and performance
+- Enemy ninja use their techniques with tactics: the best technique for the chakra, stuns first, no area techniques on their own side, escapes when nearly beaten, and on Smart keeping distance, focus fire, pincers, support and medics. New setting: **Enemy ninja tactics** (Off, Basic, Smart; default Smart).
+- **Effects quality** (Full, Balanced, Performance) and **Auto-reduce in big fights**.
+- Medieval Overhaul: NFRP World's woods are no longer turned into Medieval Overhaul timber.
+- Long sessions stay smooth: effect timing no longer drifts in long games, and old effects are cleaned up.
+
+## Update 94: fizzles, finishing blows and a balance pass
+- **Keep casts going** and **Show fizzled casts**: a cast is no longer quietly cancelled; if it ends before the technique fires, you see a grey puff and "Fizzled".
+- **Finishing blow moments**, **Ambient ninja life** and **Weather interplay**. See [Visual effects](visual-effects.html#finishing-blows-life-and-weather).
+- Balance: 126 status, buff and blink techniques no longer deal a stray 10 damage (allies-only buffs used to hurt your own team). 30 techniques that were far too strong for their chakra cost more and hit a little less (Five Sharks, Water Gun, Typhoon, Finger Bullets, Rail Gun and others), and 18 weak ones (mostly stuns and paralysis) cost less. The Kazeraikou arts and the Eight Gates are unchanged.
+- Enemy jōnin are now clearly stronger than chūnin.
+- The chūnin exam needs ninja level 6 to enter. New setting: **Progression speed** (25% to 200%). See [Ranks](ranks.html).
+- Fixes from the game log: animal trainability, food rot, smelting and butchering of NFRP items, the sealed ruin quest, and several pack and gear textures.
+
+## Updates 84 to 92: stability and weapon arts
+- Fixed three crashes during long fights and channelled casts, and a slow memory leak from effects.
+- **Weapon art choreography**: weapon techniques draw, dash, flurry, rise and thrust with the weapon. See [Visual effects](visual-effects.html#weapon-arts).
+- Belts, rigs and vests drawn on the body no longer show a red X, and dropped items are smaller on the ground.
+- Casts at a target someone else has reserved go ahead.
+
 ## Update 83: polish everywhere
 - Every remaining soft particle is crisp now: embers, flames, leaves, petals, sparks, drops, rings, swirls, auras, lightning bolts, gusts, healing and seal marks.
 - Constructs and bursts grow slightly past full size and settle.

@@ -49,6 +49,32 @@ See [Hand signs](hand-signs.html).
 - **Callouts:** a ninja shouts the technique as it casts ("Fire Release!" and then the technique's name); quick chains stack. Your ninja only, everyone, or off.
 - **XP pop-ups:** small yellow text over your ninja when they gain class XP, such as "+27 XP (Combat)", "(Kill)" or "(Training)". Gains close together merge.
 
+## Signature looks
+About 35 of the biggest S-rank techniques have a look of their own (**Signature technique looks**). Each plays in three beats:
+- **Wind-up:** a seal circle in the clan's colour grows under the caster and flashes once per hand seal, with an aura ring around them.
+- **Release:** its own combination of shapes, timed to land with the technique: a beast head, a dome, a ring of walls, spear rain, rising spikes, crescents, rays or bolts.
+- **Aftermath:** a mark left on the ground, falling embers, petals, shards, leaves, drops or sparks, and a brief screen tint.
+
+They cover the Kazeraikou storm arts (created by Marii from NFRP), the Eighth Gate and the gate finishers, the legendary weapon finals, the great elemental techniques (Tsunami, Typhoon, Judgment Bolt, Crashing Meteor, Iceberg, Tree Tomb and more) and every clan's top technique. With the finisher camera on, they get a short slow-down too.
+
+## Effects that match the name
+With **Effects match technique names** on, a technique's colours and particles follow its name and description: Shidensen (Purple Lightning Flash) cuts with purple lightning and purple sparks, Sakura Tsuisutā (Sakura Twister) swirls pink petals, Crimson Fireball burns red, ink techniques splash black ink, Silver Moon Dance throws silver crescents and Lightning Leaf Storm drops sparks and leaves. More than 450 techniques changed look. Turn it off for the element colours alone.
+
+## Weapon arts
+Weapon techniques move the weapon (**Weapon art choreography**): draw cuts, flash dashes through the target, flurries, rising arcs and thrusts, with the weapon swinging through each move.
+
+## Defensive moments
+- **Blocks and parries:** sparks at the point of contact, a flash on the weapon or shield, and both fighters pushed back a little. Armour deflections and shield belts spark too.
+- **Dodges:** a quick side-step with two afterimages and a whoosh; ranged shots that only just miss get a side-step too.
+- **Substitution:** the hit lands, a burst of smoke, the log drops in place, and the ninja reappears nearby in a puff, trailing afterimages.
+- **Barriers:** a shot hitting a barrier or a technique wall sends out ripples and cracks.
+
+## Finishing blows, life and weather
+- **Finishing blow moments:** an impact ring, a flash and a burst when a strong technique or a heavy hit kills or downs. **Finishing blow slow motion** and the **Finisher camera** (a short zoom on S-rank finishers) are off by default.
+- **Hit-stop:** heavy and finishing hits hold attacker and target still for a few frames.
+- **Ambient ninja life:** ninja practise hand signs while idle, sparring throws sparks, a soft glow shows at night and meditation raises motes.
+- **Weather interplay:** steam in the rain, bigger lightning in storms, puddles, frost and wind gusts.
+
 ## Small touches
 - **Wind-up and recovery:** every technique has a short wind-up pose (pointing after a draw-back for shots, gathering for support techniques, raised hands for areas), and the hands lower afterwards. Cast times are unchanged.
 - **Area warnings:** while an area technique winds up, a marker fills on the ground in its element's colour: a ring for circles, a wedge for cones, a band for lines. Enemy markers have a reddish edge.
@@ -58,3 +84,4 @@ See [Hand signs](hand-signs.html).
 - **Movement:** flicker techniques leave a puff where the ninja leaves and arrives, plus afterimages; leaps raise dust; ninja walking on water leave ripples; climbers shake leaves loose; the substitution log drops with a bounce.
 - **Summons** land with a squash and settle; the storm dragon Kishinryuu arrives in a storm puff.
 - **Status looks:** burning, frozen, poisoned, bound, under genjutsu, stunned, bleeding and chakra exhausted ninja show it on the body, without covering the face.
+- **Soft edges:** burst animations, beast heads and status marks fade out at their edges instead of ending in a hard line.

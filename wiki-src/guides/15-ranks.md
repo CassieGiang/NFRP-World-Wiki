@@ -18,6 +18,7 @@ Ninja classes level slowly, so a rank is earned over years of play:
 
 - Each new level of Ninjutsu, Taijutsu or Genjutsu costs 150 × (current level + 1) XP, three times the framework's default. Reaching level 20 takes 31,500 XP in all.
 - NFRP World techniques give a small amount of XP once per cast, to the class the technique belongs to: a quarter of the XP written in the technique, at least 1. That is usually 2 for D rank, 2 to 3 for C, 4 for B, 6 to 7 for A and 11 to 12 for S. Fighting alone won't make a jōnin.
+- **Progression speed** in the mod settings (Gameplay & progression tab, 25% to 200%) divides the XP every level needs. At 100% a ninja with a sensei reaches chūnin in about a year and a half and jōnin in under four; training alone takes roughly 2.5 and 5.5 years. The years each rank exam asks for never change.
 
 ## Other ways to grow
 - **Training**: one session a day at a training building gives class XP as well as skill. Training post and training dummy: 15 Taijutsu. Battle ring: 18 Taijutsu. Chakra study apparatus ("Study chakra at"): 15 Ninjutsu. Star-watching platform ("Meditate on"): 15 Genjutsu. From class level 8 training gives half, and training alone stops at level 10. Pawns who refuse violence can still study at the apparatus and meditate at the platform; only the post, dummy and ring turn them away.
@@ -33,7 +34,7 @@ Colonist children aged 6 to 17 with no rank gain class experience whenever their
 Like the role-play, a ninja's rank decides which missions they can take: unranked ninja only D, genin up to C, chūnin up to B, jōnin and the village leader any. Accepting a mission no ranked ninja of yours can take is refused with the reason. A colony with no ranked ninja at all is never blocked.
 
 ## The chūnin exam
-About once a season after the truce ends, your sworn village (or another friendly village) invites your genin to the **chūnin exam**. Pick up to three genin and send them; the exam is played out at once in three stages:
+About once a season after the truce ends, your sworn village (or another friendly village) invites your genin to the **chūnin exam**. Only genin of ninja level 6 or more may enter. Pick up to three of them and send them; the exam is played out at once in three stages:
 - **Written test**: Intellectual and Social.
 - **Survival trial**: ninja level and the better of Melee or Shooting.
 - **Final duel**: ninja level, Melee and Shooting.
