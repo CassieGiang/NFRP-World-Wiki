@@ -1,5 +1,5 @@
 # Mounts and flying
-NFRP World's creatures are ridden through **Giddy-Up**, which is required.
+NFRP World's creatures are ridden through **Giddy-Up**, which is recommended. Without Giddy-Up, creatures can't be ridden and the mounted arts and Fly order are unavailable; everything else works.
 
 ## Riding
 - Giddy-Up lets a pawn ride any **tamed adult animal larger than body size 1.2** that has learned Tameness, as long as the animal can carry the rider. Most of NFRP World's big beasts qualify; the jet couatl, Ziz, the couatls and the bulettes are marked rideable on purpose.
