@@ -1,6 +1,13 @@
 # Update notes
 What changed in recent updates, newest first.
 
+## Update 140: live squad missions
+- Squad missions are planned from what your ninja can do (rank, elements, taijutsu, medics, sensors, genjutsu, summons) and can be watched in a live window with a map of the road and a log.
+- What happens on the road comes home with them: wounds, loot, bounty shares, relics, hidden camps, fame, hunger and tiredness.
+- Village mission rank: harder missions open as your village completes missions (B at level 2, A at 3, S at 4).
+- Ten relics with small permanent bonuses for the whole village, and a Mission records window.
+- New settings in the Living world section. See *Live squad missions*.
+
 ## Updates 133, 135, 137 and 139: the living world
 - **The world moves on its own:** villages besiege, capture, raze and found settlements, sign ceasefires and go to war; named ninja of every village rank up, marry, have children and die; it all goes into the new **World news** in the Ninja world panel. See [The living world](living-world.html).
 - **Squad missions:** send 1 to 4 ninja on a D- to S-rank mission off the map; they come back days later with a report.
