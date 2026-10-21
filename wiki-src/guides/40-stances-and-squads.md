@@ -20,12 +20,12 @@ Select drafted ninja and use the **Stance** button.
 Right-click an enemy with your pawns selected and choose **Mark … as priority**, or select the enemy and press **Mark as priority**. A red ring marks it. Stances aim at it and any drafted pawn whose weapon reaches it fires at it. It clears when the enemy goes down.
 
 ## Formations
-Select two or more drafted pawns and use **Formation**: wedge, diamond, line or ring. A genin team's sensei leads if the team is selected; otherwise the first pawn you picked. Move the leader and the others keep their places. Pawns holding their place in a fight get the **team in sync** bonus.
+Select two or more drafted pawns and use **Formation**: wedge, diamond, line or ring. A genin team's sensei leads if the team is selected; otherwise the first pawn you picked. Move the leader and the others keep their places. Pawns holding their place in a fight get the **team in sync** bonus. A place that would be behind a wall moves to the nearest cell the leader can see and reach.
 
 ## Guard posts and patrols
 Build a **guard post** and **patrol markers** from the Security tab. Give a post and its markers the same colour to make a route, and number the stops. Turn on the **Guard** work type for the pawns who should stand watch (it starts off for everyone).
 
-A guard takes the first post of the route, faces the way you set, waits there, then walks to the next stop. With **hold fire** on, the guard waits until an enemy steps inside the post's ring, then attacks with a technique or a weapon and goes back on duty afterwards. Assassin-stance guards build up the ambush bonus while they wait unseen.
+A guard takes the first post of the route, faces the way you set, waits there, then walks to the next stop. With **hold fire** on, the guard waits until an enemy steps inside the post's ring, then attacks with a technique or a weapon and goes back on duty afterwards. Use **Draw hold-fire area** on the post to drag extra cells (a doorway, a bridge): an enemy inside them counts too. **Clear area** removes it. Assassin-stance guards build up the ambush bonus while they wait unseen.
 
 ## Medical ninja
 A drafted ninja who knows a healing technique heals downed allies when no enemy is close. With no heal ready, they carry the fallen to a bed, or tend them on the spot.

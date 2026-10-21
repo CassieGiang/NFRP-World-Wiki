@@ -1,6 +1,13 @@
 # Update notes
 What changed in recent updates, newest first.
 
+## Update 144: ninja tool kit
+- **Ninja pouches** (cloth, leather, sealing scroll) and **kits**: choose what each ninja carries; idle pawns refill from storage. See [Ninja tool kit](ninja-tool-kit.html).
+- **Stances use tools** with no chakra: smoke and kunai openers, senbon from hiding, bombs at groups (never next to allies), nets, pills for allies.
+- **Thrown blades come back**: they land on the ground or stick in the target and fall out later; a small chance to break on a hit. Bombs and pills are used up.
+- **Sidearm swap by range**, standing down when a weapon-swap mod is loaded. **Enemy ninja carry kits** by rank.
+- **Guard posts**: draw a hold-fire area as well as the ring. **Formations**: places behind a wall move to a cell the leader can see and reach.
+
 ## Updates 142 and 143: wounded retreat and the Barrage stance
 - Badly hurt pawns fall back to a bed or to cover behind their friends and return once they've healed a little. Each colonist has a **Fall back** button (Off, Cautious, Normal, Last stand); stances shift the point. Hurt enemies run for the map edge and may come back as rivals.
 - New stance **Barrage**: a ranged ninjutsu caster that keeps its distance, casts as often as chakra allows and holds back big area techniques near allies. See [Stances and squads](stances-and-squads.html).
