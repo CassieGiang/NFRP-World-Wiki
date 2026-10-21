@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Reputation, duels and intel · NFRP World</title><meta name="description" content="Reputation, duels and intel">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@600;700&display=swap">
+<link rel="stylesheet" href="../assets/style.css"><link rel="icon" href="../assets/icon.png">
+</head><body>
+<header><div class="hin"><a class="brand" href="../index.html"><img src="../assets/icon.png" alt=""><span>NFRP World</span></a>
+<nav><a href="../index.html">Home</a><a href="../guides/index.html">Guides</a><a href="../trees/index.html">Technique trees</a><a href="../items.html">Items</a><a href="../seals.html">Seals</a><a href="../creatures.html">Creatures</a><a href="../plants.html">Plants</a><a href="../factions.html">Factions</a><a href="../guides/for-modders.html">For modders</a></nav>
+<div class="search"><input id="q" type="search" placeholder="Search techniques, items, seals…" autocomplete="off" aria-label="Search"><div id="hits"></div></div>
+</div></header>
+<main><article class="guide"><h1>Reputation, duels and intel</h1>
+<p>More on <a href="../guides/fame-bingo-book-and-rivals.html">fame, the Bingo Book and rivals</a>: who hears about your deeds, masked names, infamy, your village&#x27;s renown, duel challenges, teachers and fallen legends, tales for your artists, body and bloodline bounties, intel and interrogation, and beheading a village. Every part has its own setting.</p>
+<div class="toolbar"><button type="button" data-act="open">Expand all</button><button type="button" data-act="close">Collapse all</button></div><div class="toc"><a href="#witnesses">Witnesses</a><a href="#masked-names">Masked names</a><a href="#infamy">Infamy</a><a href="#village-renown">Village renown</a><a href="#duel-challenges">Duel challenges</a><a href="#teachers-and-fallen-legends">Teachers and fallen legends</a><a href="#tales-and-art">Tales and art</a><a href="#body-and-bloodline-bounties">Body and bloodline bounties</a><a href="#intel-spying-and-interrogation">Intel, spying and interrogation</a><a href="#beheading-a-village">Beheading a village</a><a href="#settings">Settings</a></div><details class="sec gsec" open id="witnesses"><summary><span class="st">Witnesses</span></summary><div class="body">
+<p>A deed only becomes fame (or infamy) when <b>someone who isn&#x27;t one of yours lives to tell it</b>.</p>
+<ul><li><b>In a fight</b>, deeds wait until the fight is over. If anyone outside your colony who saw it got away, or is still free (a visitor, a trader, an ally, an enemy still standing), the story spreads.</li><li>If the only ones left are <b>your prisoners</b>, the story waits on them: it spreads the moment one is freed or escapes, and is lost if they all die or join you.</li><li>If <b>nobody</b> is left, nobody ever hears of it. Your own ninja&#x27;s pages in the Bingo Book list these as &quot;deeds nobody lived to tell&quot;.</li><li>Deeds away from a fight (an execution, seizing a guest) are judged by who is on the map at the time.</li><li>Missions, promotions and duels are public: they never wait.</li></ul>
+</div></details>
+<details class="sec gsec" open id="masked-names"><summary><span class="st">Masked names</span></summary><div class="body">
+<p>A colonist wearing a <b>masked-guard mask</b> earns fame under the mask&#x27;s name (&quot;the Falcon Mask&quot;), with its own nickname and its own page in the Bingo Book that only you can link to them. Bounty hunters can&#x27;t come for a face nobody has seen. If they take the mask off (or lose it) <b>in front of outsiders</b>, the mask&#x27;s fame becomes theirs.</p>
+</div></details>
+<details class="sec gsec" open id="infamy"><summary><span class="st">Infamy</span></summary><div class="body">
+<p>A second, darker reputation for your own people:</p>
+<p>| Deed | Infamy | |---|---| | Executing a prisoner | 8, more for higher ranks (halved if their ideology respects executions) | | Harvesting organs from a captive, or cutting a bloodline out of a living one | 10 | | Killing a downed enemy on purpose | 5 | | Attacking a guest or ally on purpose / seizing a guest as a prisoner | 6 | | Killing your own prisoner / a guest, an ally or a child | 12 / 15 | | Banishing or abandoning a colonist, deserting your village | adds to the colony&#x27;s notoriety |</p>
+<p>Infamy has its own tiers (<b>Notorious</b>, <b>Dreaded</b>, <b>Accursed</b>) and <b>dark nicknames</b> by what they did (&quot;Headsman&quot;, &quot;Oathbreaker&quot;, &quot;the Butcher&quot;...). A dark name replaces the nickname only when infamy is at least as high as fame. Infamous ninja draw <b>more and stronger bounty hunters</b>, cost <b>goodwill with the villages</b> (the Black Ink Syndicate likes it), <b>intimidate harder</b>, and <b>inspire less</b>: not at all for allies who despise such deeds (kind people, ideologies that find it abhorrent), fully for allies who approve.</p>
+</div></details>
+<details class="sec gsec" open id="village-renown"><summary><span class="st">Village renown</span></summary><div class="body">
+<p>Your village&#x27;s name grows with its ninja&#x27;s fame (the five most famous count most; masked names count half), and its <b>notoriety</b> with their infamy. Shown in the <b>Ninja world panel</b>.</p>
+<p>| Renown | Wanderers join | Mission silver | Traders | Raids | |---|---|---|---|---| | Noted (100) | 0.5% a day | +10% | 1% cheaper | +5% | | Renowned (350) | 1% | +20% | 2% | +10% | | Storied (1000) | 1.5% | +35% | 3% | +15% |</p>
+<p>Notoriety makes raids up to 15% bigger on top.</p>
+</div></details>
+<details class="sec gsec" open id="duel-challenges"><summary><span class="st">Duel challenges</span></summary><div class="body">
+<p>Famous colonists now and then get a <b>formal challenge</b> from the strongest fighter of a hostile ninja faction; rivals challenge too.</p>
+<ul><li><b>Accept</b>: the challenger comes alone and fights only the challenged ninja. <b>Anyone else who hurts the challenger breaks the rules</b>: infamy for them, and the win counts half.</li><li><b>Win</b>: fame told everywhere (25 + 30% of the challenger&#x27;s fame), and a tale. A beaten challenger can be taken prisoner.</li><li><b>Lose</b> or <b>refuse</b>: a little fame lost. A refused rival comes back another way.</li></ul>
+</div></details>
+<details class="sec gsec" open id="teachers-and-fallen-legends"><summary><span class="st">Teachers and fallen legends</span></summary><div class="body">
+<ul><li><b>Sparring with someone more famous</b> teaches more (extra taijutsu experience) and rubs off a little fame; the student is noted on their page.</li><li><b>When a Feared or Legendary colonist dies</b>, the colony grieves, then carries on in their name (&quot;their will lives on&quot;), and a quarter of their fame stays with the village as renown for good.</li><li><b>Bury your legends</b>: a body left in the open may draw body thieves from a hostile faction.</li></ul>
+</div></details>
+<details class="sec gsec" open id="tales-and-art"><summary><span class="st">Tales and art</span></summary><div class="body">
+<p>Famous enemies defeated, duels won, rivals beaten, legends fallen and names earned become tales your artists can carve and paint, with everyone&#x27;s nickname in it.</p>
+</div></details>
+<details class="sec gsec" open id="body-and-bloodline-bounties"><summary><span class="st">Body and bloodline bounties</span></summary><div class="body">
+<ul><li>Some bounties are <b>dead only</b>: the Dreaded, rivals with your people&#x27;s blood on their hands, famous clan ninja wanted for their bloodline. Capturing them pays half.</li><li>A dead enemy from the Bingo Book whose <b>body lies at your home</b> can be <b>handed in</b> from their page for the bounty they carried (more for clan ninja).</li><li>Tissue from the corpse of a <b>Feared or Legendary clan ninja</b> grafts like living tissue.</li><li>Your famous clan ninja draw bounty hunters more often: they&#x27;re after the bloodline.</li></ul>
+</div></details>
+<details class="sec gsec" open id="intel-spying-and-interrogation"><summary><span class="st">Intel, spying and interrogation</span></summary><div class="body">
+<p>What the Bingo Book shows about an enemy grows with what you know:</p>
+<p>| Intel | Shows | |---|---| | Rumour | name, faction, tier, bounty | | Seen (you fought them) | rank, level, what they&#x27;re known for, their deeds | | Studied (a sensor or tracker of yours was there) | the techniques they know | | Known (a spy mission or interrogation) | weaknesses and whereabouts |</p>
+<ul><li><b>Spy</b>: on an enemy&#x27;s page, posts a mission to a camp of their faction. Reaching it is enough.</li><li><b>Interrogate</b>: in the prisoner tab, switch on <b>Interrogate</b> or <b>Interrogate harshly</b>. Once a day a warden questions the prisoner. Social and Intellectual help; genjutsu and sensory techniques help a lot; famous, high-ranked and stubborn prisoners are harder. Each success reveals one thing: the prisoner&#x27;s own page, another ninja of their faction, <b>a camp of their faction you can raid</b> (sometimes with a famous ninja in it), or <b>a raid they&#x27;re planning</b>. A failure makes them more stubborn. <b>Harsh</b> works more often but is cruel: infamy for the warden, a bad mood and injuries for the prisoner. Captured rivals know the most.</li></ul>
+</div></details>
+<details class="sec gsec" open id="beheading-a-village"><summary><span class="st">Beheading a village</span></summary><div class="body">
+<p>Each enemy village (and the Syndicate) has a <b>leader</b>, marked in the Bingo Book. Killing or capturing them leaves the faction <b>leaderless for a season</b> (60 days): its raids are 40% weaker and it sends no bounty hunters or challengers. A successor is named the next day.</p>
+</div></details>
+<details class="sec gsec" open id="settings"><summary><span class="st">Settings</span></summary><div class="body">
+<p>Under <b>Combat &amp; AI → Fame, Bingo Book and Rivals</b>, each on by default: <b>Witnesses</b>, <b>Masked names</b>, <b>Infamy</b>, <b>Village renown</b>, <b>Duel challenges</b> (and how often), <b>Teachers and legacy</b>, <b>Tales and art</b>, <b>Body and bloodline bounties</b>, <b>Intel</b>, <b>Interrogation</b>, <b>Beheading a village</b>.</p>
+</div></details></article></main>
+<footer>NFRP World is a RimWorld mod by Cassie, an add-on for World of Naruto and Taran Magic Framework. Technique and clan material from the Naruto Forum Role-play (NFRP) community archive. The Kazeraikou clan was created by Marii from NFRP and is used with her permission. This wiki is generated from the mod's files.</footer>
+<script>window.ROOT="../";</script><script src="../assets/search.js"></script>
+</body></html>

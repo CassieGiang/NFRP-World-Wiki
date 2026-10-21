@@ -47,7 +47,7 @@ An enemy who gets away after a fight with you can become a **rival**:
 - they carry **battle scars** naming who gave them
 - while away they grow: more skill, promotions, more fame
 
-Rivals come back, leading a raid or alone for a **duel** with the ninja they hate, and go for that ninja first. A feared rival "killed" far from your home may turn out to have survived and return in a mask. A captured rival is harder to recruit; recruiting one ends the rivalry. A famous colonist taken by an enemy faction can come back as a rival too.
+Rivals come back leading a raid, or send a **duel challenge** to the ninja they hate (see [Reputation, duels and intel](reputation-duels-and-intel.html)), and go for that ninja first. A feared rival "killed" far from your home may turn out to have survived and return in a mask. A captured rival is harder to recruit; recruiting one ends the rivalry. A famous colonist taken by an enemy faction can come back as a rival too.
 
 Rivals have a gold "rival" tag in the Bingo Book, with their story on their page.
 
@@ -59,3 +59,5 @@ Under **Combat & AI → Fame, Bingo Book and Rivals**:
 - **Earned nicknames**: Apply, Suggest or Off
 - **Bingo Book hunters** on or off, and how often
 - **Rivals** on or off, the most rivals at once (default 6), and how often they return
+
+More parts (witnesses, masked names, infamy, renown, duels, legacy, bounties on bodies, intel and interrogation, beheading a village) are in [Reputation, duels and intel](reputation-duels-and-intel.html).

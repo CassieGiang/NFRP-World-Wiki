@@ -1,6 +1,19 @@
 # Update notes
 What changed in recent updates, newest first.
 
+## Updates 128 to 130: reputation, duels and intel
+- **Witnesses:** deeds only become fame or infamy if someone who isn't one of yours lives to tell them; stories seen only by your prisoners wait until one goes free. See [Reputation, duels and intel](reputation-duels-and-intel.html).
+- **Masked names:** a colonist in a masked-guard mask earns fame under the mask's name, with its own Bingo Book page; unmasked in front of outsiders, the names become one.
+- **Infamy:** executions, harvesting captives, killing the helpless, betraying guests and allies earn a darker reputation: dark nicknames, more bounty hunters, less goodwill with the villages, harder intimidation, less inspiration.
+- **Village renown:** your ninja's fame makes your village known: wanderers join, missions pay more, traders give a discount, raids grow a little. Shown in the Ninja world panel.
+- **Duel challenges:** famous colonists get formal challenges (rivals too). Accept, and nobody else may step in.
+- **Teachers and legacy:** famous sparring partners teach more; fallen legends leave the village their will and some renown; bury them, or thieves may come for the body.
+- **Tales:** famous deeds become tales for your artists.
+- **Body and bloodline bounties:** dead-only bounties, handing in bodies for the bounty, a legend's bloodline, clan ninja as prime targets.
+- **Intel, spying and interrogation:** the Bingo Book fills in as you learn more; spy missions; interrogate prisoners for their secrets, camps you can raid and raids being planned.
+- **Beheading a village:** kill or capture a village's leader and it is leaderless (and weaker) for a season.
+- New settings for each part under Combat & AI.
+
 ## Updates 124 to 127: fame, the Bingo Book and rivals
 - **Fame:** ninja, yours and the enemy's, build fame from kills, breaks, combos, won fights, missions and promotions. Known, Feared and Legendary ninja inspire allies and intimidate enemies near them in a fight, which also changes how fast break meters fill. See [Fame, the Bingo Book and rivals](fame-bingo-book-and-rivals.html).
 - **Nicknames:** famous ninja earn a nickname from what they are known for, grander as they get more famous. A nickname you set yourself is never replaced.
