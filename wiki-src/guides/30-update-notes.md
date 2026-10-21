@@ -1,6 +1,13 @@
 # Update notes
 What changed in recent updates, newest first.
 
+## Update 151: mission bonding
+- Squads come home closer: shared mission memories, "fought side by side", "patched me up on the road", and sometimes a grudge against the leader of a failed mission.
+- Three missions together make two ninja **comrades**; a comrade's death hits harder.
+- A ninja back from a solo mission is proud of it.
+- A trip skipped to the end keeps its planned times in the log.
+- Setting: Living world → Mission bonding.
+
 ## Update 150: visual and combat fixes
 
 - Signature art (phoenix, dragons, sharks, coffins, Tree Tomb and the rest) now keeps its own painted colours instead of being recoloured by the element tint, and Suzaku no longer shows a beast head over its phoenix. Tombs, coffins and the monolith play larger.

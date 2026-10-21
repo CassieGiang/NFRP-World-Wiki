@@ -26,7 +26,17 @@ On the road the squad may fight rogue ninja, bandits, beasts, Black Ink crews or
 ## Coming home
 What happened on the road is what they bring back: the wounds, the loot and bounty (by drop pod), a relic if they found one, the hidden camp on the world map, fame for the fights they won, hunger and tiredness, and practice in a couple of skills, on top of the usual mission pay, XP and goodwill.
 
-## Village mission rank
+## Bonds from the road
+Ninja who come home from a mission together like each other more:
+- **Went on a mission together:** every pair in the squad, for about 30 days. Harder ranks leave a stronger memory.
+- **Fought side by side:** when the squad won fights on the road; stronger after three or more.
+- **Patched me up on the road:** the one a medic treated on the road thinks well of that medic for about 60 days.
+- **Led us into a mess:** after a failed mission, or when someone came back badly hurt, some members blame the squad leader (the first ninja in the squad).
+- **Comrades:** two ninja who have been on three missions together become comrades, a lasting relation shown in the Social tab. Losing a comrade hurts more than losing a friend.
+- **Solo missions:** a ninja who comes back from a successful mission alone is proud of it for a few days.
+
+A trip brought home early with "skip to the end" keeps the planned day and hour on every line of its log.
+
 Every mission earns your village points (more for higher ranks and successes). The rank opens harder missions: **B at level 2, A at level 3, S at level 4**, and makes great successes (extra pay) more likely.
 
 ## Relics
@@ -49,4 +59,4 @@ Rarely, a squad finds one of ten old relics. Each gives everyone in the village 
 The **Mission records** window lists every mission with its full log, your mission rank, totals and relics.
 
 ## Settings
-Settings → World and events → Living world: **Live squad missions**, **Allow "skip to the end"**, and sliders for rewards, injuries, relic chance and replay speed.
+Settings → World and events → Living world: **Live squad missions**, **Allow "skip to the end"**, **Mission bonding**, and sliders for rewards, injuries, relic chance and replay speed.
