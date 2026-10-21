@@ -1,6 +1,14 @@
 # Update notes
 What changed in recent updates, newest first.
 
+## Updates 118 to 123: break and combos, names and backstories
+- **Break and combos:** steady pressure fills a break meter under a fighter's name; a broken fighter can't act for a few seconds and a nearby ninja runs a combo you set with the new **Combo** button. Combos grow from 2 to 5 actions with level. Enemy ninja do it too. Settings: **Break and combos** and **Break speed**. See [Break and combos](break-and-combos.html).
+- **Ninja names:** ninja, villagers and World of Naruto's ninja get Japanese-style names, some with nicknames. See [Ninja names and backstories](names-and-backstories.html).
+- **Ninja backstories:** 42 childhoods and 53 adulthoods from the ninja world for every NFRP and World of Naruto ninja faction.
+- New settings, off by default: **Ninja names for new colonists** and **Ninja backstories for new colonists**, for starts other than the ninja ones.
+- **New creature art:** 95 more creatures and summons repainted in the flatter base-game style. Flying creatures still flap with their old wings until their new wing frames arrive.
+- Giddy-Up is listed as recommended, not required.
+
 ## Updates 106 to 117: ninja research
 - **Ninja research:** 19 projects in four tiers on World of Naruto's ninja research tab. Starter gear stays free; C to S-rank seals, alchemy, gadgets, metallurgy, gems, bloodline work, legendary weapons and relics are researched. See [Ninja research](ninja-research.html).
 - The scroll library, chakra study apparatus and desktop computer now link to research benches and speed up research; the highest projects need one linked.

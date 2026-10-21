@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Break and combos · NFRP World</title><meta name="description" content="Break and combos">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@600;700&display=swap">
+<link rel="stylesheet" href="../assets/style.css"><link rel="icon" href="../assets/icon.png">
+</head><body>
+<header><div class="hin"><a class="brand" href="../index.html"><img src="../assets/icon.png" alt=""><span>NFRP World</span></a>
+<nav><a href="../index.html">Home</a><a href="../guides/index.html">Guides</a><a href="../trees/index.html">Technique trees</a><a href="../items.html">Items</a><a href="../seals.html">Seals</a><a href="../creatures.html">Creatures</a><a href="../plants.html">Plants</a><a href="../factions.html">Factions</a><a href="../guides/for-modders.html">For modders</a></nav>
+<div class="search"><input id="q" type="search" placeholder="Search techniques, items, seals…" autocomplete="off" aria-label="Search"><div id="hits"></div></div>
+</div></header>
+<main><article class="guide"><h1>Break and combos</h1>
+<p>Steady pressure breaks a fighter. A broken fighter can&#x27;t act for a few seconds, and a nearby ninja runs a combo on them that you set up in advance. Enemy ninja do the same to your pawns.</p>
+<div class="toolbar"><button type="button" data-act="open">Expand all</button><button type="button" data-act="close">Collapse all</button></div><div class="toc"><a href="#the-break-meter">The break meter</a><a href="#how-long-it-takes">How long it takes</a><a href="#broken">Broken</a><a href="#combos">Combos</a><a href="#settings">Settings</a></div><details class="sec gsec" open id="the-break-meter"><summary><span class="st">The break meter</span></summary><div class="body">
+<p>A small bar appears under a fighter&#x27;s name once they are under pressure. It fills from:</p>
+<ul><li><b>melee hits</b>, more for harder hits</li><li><b>taijutsu moves</b>, which fill it the most of any single hit</li><li><b>stuns</b> and <b>knockbacks</b>, which add a big chunk</li><li><b>genjutsu and fear</b>, which fill it without doing damage</li><li>techniques and ranged weapons, which add only a little</li></ul>
+<p>It fills faster when:</p>
+<ul><li><b>several of your pawns attack the same target</b> (each extra attacker adds a quarter, up to three extra)</li><li>you attack <b>from the side or from behind</b></li><li>the target is <b>low on chakra or rest</b></li></ul>
+<p>Only hostile attackers count. Fire, weather and friendly hits add nothing.</p>
+<p>If the pressure stops for about 3 seconds, the meter drains quickly. A break has to be earned with steady pressure, not one big hit.</p>
+</div></details>
+<details class="sec gsec" open id="how-long-it-takes"><summary><span class="st">How long it takes</span></summary><div class="body">
+<p>Tougher fighters have bigger meters. Rank sets it (a jōnin&#x27;s meter is half again a genin&#x27;s, a village leader&#x27;s twice as big), and big creatures and mechanoids are tougher still.</p>
+<ul><li>A genin fighting alone breaks after about 12 hits; two ninja flanking need about half that.</li><li>A jōnin alone takes about 19 hits.</li><li>A village leader alone is hard to break on purpose.</li></ul>
+</div></details>
+<details class="sec gsec" open id="broken"><summary><span class="st">Broken</span></summary><div class="body">
+<p>When the meter fills, the fighter is <b>Broken</b>: a flash, a dust ring and &quot;Broken!&quot; over their head. For about 3 to 5 seconds (shorter for tough fighters) they can&#x27;t act or dodge. Afterwards they can&#x27;t be broken again for 20 seconds, so nobody gets stun-locked.</p>
+</div></details>
+<details class="sec gsec" open id="combos"><summary><span class="st">Combos</span></summary><div class="body">
+<p>The ninja who caused the break (or the one who put on the most pressure) walks in and runs their combo: one action after another, with the last one as the <b>finisher</b>, which hits for 1.25 times its normal damage. Step numbers, &quot;Combo!&quot; and &quot;Finisher!&quot; show over the target.</p>
+<p>A combo stops early if the target dies or goes down, the ninja is downed or stunned, the ninja runs out of chakra, the break ends, or you give the ninja a new order.</p>
+<h3 id="setting-up-a-combo">Setting up a combo</h3>
+<p>Select a ninja and press the <b>Combo</b> button. The window has the actions the ninja can use on the left and the combo order on the right:</p>
+<ul><li>click an action to add it; move it up or down or remove it in the order list</li><li><b>Automatic</b> fills the slots with a sensible combo</li><li><b>Clear</b> empties it</li></ul>
+<p>Combos can use <b>melee strikes, taijutsu moves and quick jutsu</b>: attack techniques with a short cast. Summons, heals, buffs, toggles and long casts can&#x27;t go in a combo. Without a combo set, the ninja uses an automatic one.</p>
+<h3 id="slots-by-level">Slots by level</h3>
+<p>| Level | Combo slots | | --- | --- | | below 8 | 2 | | 8 | 3 | | 13 | 4 | | 16, or village leader | 5 |</p>
+<p>Locked slots show the level that unlocks them.</p>
+</div></details>
+<details class="sec gsec" open id="settings"><summary><span class="st">Settings</span></summary><div class="body">
+<p>On the <b>Combat &amp; AI</b> tab of the mod settings:</p>
+<ul><li><b>Break and combos:</b> turns the whole system on or off (on by default).</li><li><b>Break speed:</b> from 50% to 200%. Lower means fighters take longer to break.</li></ul>
+</div></details></article></main>
+<footer>NFRP World is a RimWorld mod by Cassie, an add-on for World of Naruto and Taran Magic Framework. Technique and clan material from the Naruto Forum Role-play (NFRP) community archive. The Kazeraikou clan was created by Marii from NFRP and is used with her permission. This wiki is generated from the mod's files.</footer>
+<script>window.ROOT="../";</script><script src="../assets/search.js"></script>
+</body></html>
