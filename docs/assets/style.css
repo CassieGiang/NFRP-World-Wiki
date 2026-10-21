@@ -58,3 +58,4 @@ details[open].card .line{display:none}details.card>.body{padding:0 14px 14px 74p
 @media (max-width:700px){.hero{flex-direction:column}.hero.home img{max-width:100%;width:100%}.treebg{display:none}header{padding:8px 12px;position:static}.hin{gap:8px}nav a{padding:4px 7px;font-size:.88rem}.search{max-width:none;order:3;flex-basis:100%}main{padding:16px 14px 60px}.toolbar{top:0;position:static}details.card>.body{padding:0 12px 12px}.grid.items{grid-template-columns:1fr}h1{font-size:1.7rem}}
 .ic.worn{background:color-mix(in srgb,var(--tag) 70%,#c9b18e 30%)}
 details.arts{margin-top:6px}details.arts summary{cursor:pointer;font-size:.85rem;color:var(--muted,inherit)}details.arts ul{margin:6px 0 0;padding-left:18px}details.arts li{margin:4px 0;font-size:.9rem}
+.item small.res{display:block;margin-top:4px;color:var(--muted);font-size:.85rem}

@@ -75,6 +75,17 @@ Weapon techniques move the weapon (**Weapon art choreography**): draw cuts, flas
 - **Ambient ninja life:** ninja practise hand signs while idle, sparring throws sparks, a soft glow shows at night and meditation raises motes.
 - **Weather interplay:** steam in the rain, bigger lightning in storms, puddles, frost and wind gusts.
 
+## Lasting effects form and fade
+- **Storm zones** show their area as it forms: a streak runs from the caster, the footprint blooms outward with pieces of its element, and the zone fades out when it ends instead of vanishing.
+- **Barriers** rise out of the ground with a glowing rim and crumble away when they end.
+- **Status auras** fade in when they land and fade out when they wear off. A status ring flashes and the target flinches when a status lands.
+- **Ranged casts** that are not projectiles send a visible carrier from the caster to the target, and thrown-blade arts throw a real blade.
+- **Fast casts** flash a seal at the caster's hands; self-buffs flare when they start.
+- **Summons** arrive in a seal circle.
+- **Stuns** from NFRP techniques show a swirl in the technique's element (water, fire, earth, wind, wood, sand, ice) instead of electric crackle. Lightning techniques keep the crackle.
+- **Storm Cloud** (Kumo Soushi) launches from the caster's mouth, blooms, drifts in layers with crackling light and drizzle, strikes from the cloud itself and fades out when dispelled.
+- One setting turns all of this on or off: **Lasting effects form and fade**.
+
 ## Small touches
 - **Wind-up and recovery:** every technique has a short wind-up pose (pointing after a draw-back for shots, gathering for support techniques, raised hands for areas), and the hands lower afterwards. Cast times are unchanged.
 - **Area warnings:** while an area technique winds up, a marker fills on the ground in its element's colour: a ring for circles, a wedge for cones, a band for lines. Enemy markers have a reddish edge.

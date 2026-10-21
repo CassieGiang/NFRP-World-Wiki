@@ -14,7 +14,7 @@ None of these are needed. NFRP World notices them when they're loaded and works 
 - [Yayo's Animation (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2877292196): body animation. When it's loaded, NFRP World's technique sequences use smaller body motion and leave melee lunges to it.
 - [Medieval Overhaul](https://steamcommunity.com/sharedfiles/filedetails/?id=3219596926): NFRP World's woods are kept out of Medieval Overhaul's timber conversion, so its trees still give NFRP wood.
 - [CAI 5000 - Advanced AI + Fog Of War (continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=3673768803): runs alongside NFRP World. Our **Enemy ninja tactics** setting only decides which techniques enemy ninja use and where they cast them.
-- **Ferny's Progression mods**: NFRP World is developed and tested inside the Progression modpack and needs no extra setup there.
+- **Ferny's Progression mods**: not needed. NFRP World is developed and tested inside the Progression modpack and needs no extra setup there; with Progression loaded, Progression's research pacing also scales the ninja research costs, and a few ninja projects also ask for Progression's writing or advanced research bench projects.
 
 ## Load order
 Harmony, Taran Magic Framework, World of Naruto, then NFRP World (Giddy-Up, if you use it, before NFRP World). Optional mods can load anywhere before or after; NFRP World looks for them by name.

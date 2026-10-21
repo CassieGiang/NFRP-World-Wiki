@@ -35,6 +35,23 @@ for ch in allel:
 def T(tag): return defs.get(tag, {})
 trees, abilities, tiers = T('TaranMagicFramework.AbilityTreeDef'), T('TaranMagicFramework.AbilityDef'), T('TaranMagicFramework.AbilityTierDef')
 things, seals, genes = T('ThingDef'), T('CassieNFRP.SealDef'), T('GeneDef')
+RES_LABEL = {d: (r.findtext('label') or d) for d, r in T('ResearchProjectDef').items()}
+RES_LABEL.update({'Smithing': 'smithing', 'LongBlades': 'long blades', 'PlateArmor': 'plate armor', 'ComplexFurniture': 'complex furniture', 'ComplexClothing': 'complex clothing',
+                  'Machining': 'machining', 'MicroelectronicsBasics': 'microelectronics', 'Electricity': 'electricity', 'Stonecutting': 'stonecutting', 'Brewing': 'brewing',
+                  'WN_NinjaTools': 'ninja tools', 'WN_NinjaApparel': 'ninja apparel', 'WN_NinjaLab': 'ninja lab'})
+def research_of(t):
+    # research needed to make or build a thing: its own researchPrerequisite(s) or its recipeMaker's
+    out = []
+    for base in (t, t.find('recipeMaker')):
+        if base is None: continue
+        one = base.findtext('researchPrerequisite')
+        if one: out.append(one.strip())
+        lst = base.find('researchPrerequisites')
+        if lst is not None: out += [li.text.strip() for li in lst if (li.text or '').strip()]
+    seen = []
+    for r in out:
+        if r not in seen: seen.append(r)
+    return [RES_LABEL.get(r, re.sub(r'(?<!^)(?=[A-Z])', ' ', r.replace('WN_', '').replace('NF_Res_', '')).lower()) for r in seen]
 # gene labels from World of Naruto and NFRP World (WoN's genes aren't in the wiki source files)
 import json as _json
 try: GENE_LABELS = _json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'gene_labels.json'), encoding='utf-8'))
@@ -298,7 +315,7 @@ for g, _ in ITEM_GROUPS:
         if wg:
             wi = img(wg + '_Male_south') or img(wg + '_south')
             if wi: icimg += f'<img class="ic worn" src="img/{E(wi)}" alt="worn" title="Worn look" loading="lazy">'
-        inner += f'<article class="item unit" id="{slug(dn)}">{icimg}<div><h3>{E(t.findtext("label").capitalize())}</h3><p>{E(t.findtext("description"))}</p></div></article>'
+        inner += f'<article class="item unit" id="{slug(dn)}">{icimg}<div><h3>{E(t.findtext("label").capitalize())}</h3><p>{E(t.findtext("description"))}</p>{('<small class="res">Research: ' + E(', '.join(research_of(t))) + '</small>') if research_of(t) else ''}</div></article>'
         index.append([t.findtext('label'), 'Item', 'items.html#' + slug(dn), g])
     inner += '</div>'
     body += sec(g, inner, len(items[g]), False, slug(g))
@@ -317,7 +334,8 @@ def seal_line(s):
     if s.findtext('technique'): out.append('made with the ' + (abilities.get(s.findtext('technique')).findtext('label') if abilities.get(s.findtext('technique')) is not None else s.findtext('technique')) + ' technique')
     return '; '.join(out)
 body = '''<h1>Enchantment seals</h1><p class="lead">Seals are inked at a crafting spot, tailoring bench or scribe desk and pressed into gear. Weapon seals act on every hit; armour seals help the wearer.</p>
-<p>Gear has 1 seal slot, 2 at excellent or masterwork and 3 at legendary. A new seal goes on at C rank at most and then rises one rank at a time. Inscribing needs a minimum ninjutsu level (D 1, C 4, B 8, A 12, S 16); every level above it makes the seal stronger. Seals marked with a technique can only be made by an artisan who knows it (Equipment enhancing tree).</p>'''
+<p>Gear has 1 seal slot, 2 at excellent or masterwork and 3 at legendary. A new seal goes on at C rank at most and then rises one rank at a time. Inscribing needs a minimum ninjutsu level (D 1, C 4, B 8, A 12, S 16); every level above it makes the seal stronger. Seals marked with a technique can only be made by an artisan who knows it (Equipment enhancing tree).</p>
+<p>D-rank seals need no research. Higher ranks are unlocked on the ninja research tab: C rank by <b>scribe arts</b>, B rank by <b>sealing arts</b>, A rank by <b>high sealing</b> and S rank by <b>supreme sealing</b>. See <a href="guides/ninja-research.html">Ninja research</a>.</p>'''
 body += toolbar('Filter seals')
 for fw, title in (('true', 'Weapon seals'), ('false', 'Armour seals')):
     lst = sorted([s for s in seals.values() if (s.findtext('forWeapon') or 'true') == fw], key=lambda s: s.findtext('label').lower())

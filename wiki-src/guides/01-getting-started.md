@@ -28,7 +28,7 @@ What to install, what changes when you start a colony, and where to find everyth
 
 ## The first year
 - The hidden villages and the Black Ink Syndicate are at war with everyone, but a **truce of one in-game year** (60 days) keeps them from raiding a new colony. An alert counts down the days. See [Factions and missions](factions.html).
-- Use the year to train, build an alchemy table and a scribe desk, and make friends with the Order of the Venator, who trade seals, scrolls and potions.
+- Use the year to train, build a scribe desk, research **scribe arts** and **ninja alchemy** (for C-rank seals and the alchemy table), and make friends with the Order of the Venator, who trade seals, scrolls and potions. See [Ninja research](ninja-research.html).
 
 ## Techniques hit everyone
 - Area techniques hit everyone caught in them, **allies included**, unless the description says otherwise. Aim with care.

@@ -1,6 +1,28 @@
 # Update notes
 What changed in recent updates, newest first.
 
+## Updates 106 to 117: ninja research
+- **Ninja research:** 19 projects in four tiers on World of Naruto's ninja research tab. Starter gear stays free; C to S-rank seals, alchemy, gadgets, metallurgy, gems, bloodline work, legendary weapons and relics are researched. See [Ninja research](ninja-research.html).
+- The scroll library, chakra study apparatus and desktop computer now link to research benches and speed up research; the highest projects need one linked.
+- A **Ninja research** button at the top of the Ninja world panel opens the research screen on the ninja tab and shows your progress.
+- New settings: **Ninja research cost** and **Start with ninja research done**. Saves from before the tree get the projects they already use, once, with a letter.
+- Every item on the [Items](../items.html) page lists the research it needs.
+- NFRP World works with only the base game, Harmony, Taran Magic Framework and World of Naruto. Giddy-Up and Ferny's Progression mods are optional. See [Recommended mods](recommended-mods.html).
+
+## Updates 106 to 117: looks and fixes
+- **Lasting effects form and fade:** storm zones bloom and fade, barriers rise and crumble, status auras fade in and out, ranged casts send a visible carrier, summons arrive in a seal circle. New setting of the same name. See [Visual effects](visual-effects.html#lasting-effects-form-and-fade).
+- **Stuns** from NFRP techniques show a swirl in the technique's element instead of electric crackle.
+- **Storm Cloud** gets a full presentation: launched from the mouth, drifting layers, crackle, drizzle and strikes from the cloud.
+- The six ghostly creatures (apparition, nightwraith banshee, lacedon, mist wrath wolf, swamp jellyfish and jungle griffon) are drawn see-through.
+- New creature art in a flatter base-game style for the cave bear, winter wolf, ghoul, giant rabbit, Halbeisen warhorse and gale hawk; the rest follow in coming updates.
+- Technique tree backgrounds are repainted in a darker NFRP look.
+- Technique sounds fall back to base-game sounds when a DLC is missing.
+- Things created by techniques (walls, domes, clouds and the like) have info cards.
+- Disarm and other hostile single-target techniques never hit their own caster.
+- ANBU masks sit correctly on the head from every side. Seijaku no Maru (Silence Dome) uses the shadow dome.
+- Eight weapons and two brews use base-game style lowercase names.
+- The game starts faster: NFRP World's alchemy setup no longer slows loading.
+
 ## Update 105: buildings in the base-game style
 - Every NFRP building and piece of furniture is repainted to sit beside base-game and World of Naruto furniture: seen from above, square to the grid, flat colours with a dark outline.
 - Each one fits its footprint, so nothing pokes past its selection corners. The scribe desk and alchemy table turn properly when rotated.
