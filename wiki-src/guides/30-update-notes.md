@@ -1,6 +1,14 @@
 # Update notes
 What changed in recent updates, newest first.
 
+## Updates 124 to 127: fame, the Bingo Book and rivals
+- **Fame:** ninja, yours and the enemy's, build fame from kills, breaks, combos, won fights, missions and promotions. Known, Feared and Legendary ninja inspire allies and intimidate enemies near them in a fight, which also changes how fast break meters fill. See [Fame, the Bingo Book and rivals](fame-bingo-book-and-rivals.html).
+- **Nicknames:** famous ninja earn a nickname from what they are known for, grander as they get more famous. A nickname you set yourself is never replaced.
+- **Bingo Book:** a new button in the Ninja world panel. Famous ninja and their bounties; bounty hunters come for your most famous ninja, and you can hunt famous enemies for their bounty.
+- **Rivals:** enemies who get away can come back for the ninja who hurt them, stronger, scarred and harder to beat the same way twice, leading a raid or alone for a duel.
+- **New wing frames** for the 12 flying creatures, matching their new look.
+- New settings under Combat & AI: **Fame**, **Inspire and intimidate strength**, **Weak enemies may flee**, **Earned nicknames**, **Bingo Book hunters**, **Rivals**.
+
 ## Updates 118 to 123: break and combos, names and backstories
 - **Break and combos:** steady pressure fills a break meter under a fighter's name; a broken fighter can't act for a few seconds and a nearby ninja runs a combo you set with the new **Combo** button. Combos grow from 2 to 5 actions with level. Enemy ninja do it too. Settings: **Break and combos** and **Break speed**. See [Break and combos](break-and-combos.html).
 - **Ninja names:** ninja, villagers and World of Naruto's ninja get Japanese-style names, some with nicknames. See [Ninja names and backstories](names-and-backstories.html).
