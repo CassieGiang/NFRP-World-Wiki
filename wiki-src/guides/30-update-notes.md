@@ -1,6 +1,11 @@
 # Update notes
 What changed in recent updates, newest first.
 
+## Update 141: stances and squads
+- Drafted ninja get combat stances: Vanguard, Support, Assassin and Sealer change which techniques they use and how they move. Assassins earn an ambush bonus while unseen.
+- Mark an enemy as the squad's priority target (right-click it), march drafted groups in formation, and post guards on patrol routes with hold fire.
+- Medical ninja heal or carry downed allies on their own when it is safe. See [Stances and squads](stances-and-squads.html).
+
 ## Update 140: live squad missions
 - Squad missions are planned from what your ninja can do (rank, elements, taijutsu, medics, sensors, genjutsu, summons) and can be watched in a live window with a map of the road and a log.
 - What happens on the road comes home with them: wounds, loot, bounty shares, relics, hidden camps, fame, hunger and tiredness.
