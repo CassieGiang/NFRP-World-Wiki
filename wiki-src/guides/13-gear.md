@@ -9,7 +9,7 @@ Every weapon is drawn at a real-world length, on the same scale as World of Naru
 ## Legendary weapons
 Four new legendary weapons join the clockwork blade and the blade of the dhampir: **Ryūgeki, the dragon cleaver** (fire and knockback), **Kibaō, the fang king blade** (wind, drains chakra), **Hoshigiri, the star cutter** (pierces armour) and **Fūraimaru, the wind-thunder sword** (lightning). Each needs Crafting 14.
 
-Every legendary weapon has its own **technique tree** in the Taijutsu tab. Passives stay on once learned; every active technique needs that weapon in hand.
+Every legendary weapon has its own **technique tree** in the Taijutsu tab. The tree stays closed until the pawn first equips that weapon; after that it stays open. Passives stay on once learned; every active technique needs that weapon in hand.
 
 ## Special metals
 Twelve metals, forged at the smithy ten at a time. Weapons made from them get an on-hit effect and armour made from them a bonus:

@@ -1,6 +1,14 @@
 # Update notes
 What changed in recent updates, newest first.
 
+## Update 149: polish
+- **Ninja build window:** the planner's rows, level buttons and rank strips line up, notes wrap instead of being cut off, the rank legend is a full line, and the frame fits its content.
+- **Technique palette:** techniques World of Naruto shows only while drafted (taijutsu such as Kick and Combo) are now listed greyed with "draft to use", so their tab no longer disappears.
+- **Legendary blade trees** start closed and open the first time a pawn equips that blade, so new pawns no longer start with arts for blades they don't have. Techniques already learned are kept.
+- **Technique previews** (the small looping effect when hovering a technique button) are now off by default; turn them on under Looks. Configs that had them on from the old default are switched off once.
+- **Guide:** the first-time guide points to the new settings tabs.
+- **Icons:** buttons that borrowed a vanilla icon missing in this game version (the Sensei button showed a red square) now use NFRP icons.
+
 ## Update 148: interface redesign
 - **Ninja orders:** NFRP's buttons on a selected ninja (Combo, Kit, Sidearm, throwing tools, Formation, Fall back, Guard post, Stance) are grouped into one **Ninja orders** button that opens a ring at the mouse. Stance and Mark as priority stay on the bar. A setting brings the separate buttons back. See [Stances and squads](stances-and-squads.html).
 - **Settings:** tabs down the side (Looks, Combat, World, Village life, Performance, Dev) with setting counts, "changed from default" counts, a search box over every tab, a look-preset menu, and Reset this tab / Reset everything. See [Getting started](getting-started.html#the-settings-window).
