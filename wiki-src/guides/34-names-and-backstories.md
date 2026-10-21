@@ -14,7 +14,7 @@ Ninja and villagers in NFRP World get Japanese-style names and ninja-world backs
 
 Each group gets fitting stories: village ninja get shinobi and village-folk stories, Black Ink gets underworld stories, the Venator get their own, the feudal houses get samurai and court stories. Villagers and merchants get village-folk stories only.
 
-A ninja backstory doesn't give chakra on its own. A pawn still needs the Chakra trait (or a clan gene or eye) to use techniques.
+Ninja-trained backstories (academy students, clan heirs, genin team leaders, masked-guard operatives, missing-nin, medics, sensors and the like, 33 in all) give the Chakra trait, so those pawns can use techniques and have the ninja tab. Village-folk and feudal backstories never do.
 
 ## Who gets them
 - NFRP's villages, Black Ink, the Venator, the feudal houses and their villagers.

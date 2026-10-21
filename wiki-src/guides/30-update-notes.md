@@ -1,6 +1,9 @@
 # Update notes
 What changed in recent updates, newest first.
 
+## Update 145: ninja backstories give chakra
+- The 33 ninja-trained backstories now give World of Naruto's Chakra trait (only when World of Naruto is loaded). Civilian backstories never do, and a pawn never gets the trait twice.
+
 ## Update 144: ninja tool kit
 - **Ninja pouches** (cloth, leather, sealing scroll) and **kits**: choose what each ninja carries; idle pawns refill from storage. See [Ninja tool kit](ninja-tool-kit.html).
 - **Stances use tools** with no chakra: smoke and kunai openers, senbon from hiding, bombs at groups (never next to allies), nets, pills for allies.
