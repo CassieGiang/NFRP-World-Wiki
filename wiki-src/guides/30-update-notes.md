@@ -1,6 +1,15 @@
 # Update notes
 What changed in recent updates, newest first.
 
+## Update 150: fixes from the showcase
+
+- Signature art (phoenix, dragons, sharks, coffins, Tree Tomb and the rest) now keeps its own painted colours instead of being recoloured by the element tint, and Suzaku no longer shows a beast head over its phoenix. Tombs, coffins and the monolith play larger.
+- Combos no longer cut their own techniques short.
+- Passive perks (blade basics and similar) no longer pop up as text or count as ailments, and specialisations no longer show the genjutsu swirl.
+- Stuns from water, moon and sword techniques show the neutral swirl instead of lightning crackle.
+- Leafless winter trees show their bare art again.
+- Every NFRP window can be dragged and opens where you last left it.
+
 ## Update 149: polish
 - **Ninja build window:** the planner's rows, level buttons and rank strips line up, notes wrap instead of being cut off, the rank legend is a full line, and the frame fits its content.
 - **Technique palette:** techniques World of Naruto shows only while drafted (taijutsu such as Kick and Combo) are now listed greyed with "draft to use", so their tab no longer disappears.
