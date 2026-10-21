@@ -1,6 +1,10 @@
 # Update notes
 What changed in recent updates, newest first.
 
+## Update 146: new Ninja world and build windows
+- The Ninja world window is split into six tabs: Overview, Villages & diplomacy, Bingo Book, Missions, News and Research. The Overview shows your village, squads away with progress bars and Watch buttons, what's coming up, your ninja with their stance and status, and the latest news.
+- The ninja build window is now a one-page planner: a None / Non-Specialist / Specialist / Master choice per kind, a D-to-S rank strip for each (green reachable, gold with a mastery, grey out of reach), slot counts, universal caps and an "If you confirm" box. The build rules are unchanged.
+
 ## Update 145: ninja backstories give chakra
 - The 33 ninja-trained backstories now give World of Naruto's Chakra trait (only when World of Naruto is loaded). Civilian backstories never do, and a pawn never gets the trait twice.
 

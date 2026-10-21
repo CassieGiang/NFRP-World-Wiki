@@ -1,6 +1,11 @@
 # Ninja builds
 How the build decides what a ninja can learn, after NFRP's Specialist rules.
 
+## The build window
+The build window is a one-page planner. Each kind (Ninjutsu, Genjutsu, Taijutsu, Clan, Medical) has a row with four buttons: **None**, **Non-Specialist**, **Specialist** and **Master**. Picking a Master switches the build to the Master layout and clears Specialists; picking a Specialist switches it back. Medical has no Non-Specialist or Master form, so those buttons are greyed out.
+
+Next to each row a **rank strip** from D to S shows how far that kind can go: green ranks are reachable, gold ranks need a tree you master, grey ranks are out of reach. Under the rows you see the slot counts, the universal ninjutsu and taijutsu caps as strips, and whether the build is complete. On a respec, an **If you confirm** box lists what would be forgotten and what the respec costs. The full rules are behind **Show rules**.
+
 ## Layouts
 - **2 Specialists + 2 Non-Specialists**, or **1 Master + 1 Non-Specialist**.
 - The categories are Ninjutsu, Genjutsu, Taijutsu, Clan and Medical.
