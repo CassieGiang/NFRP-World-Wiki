@@ -1,6 +1,13 @@
 # Update notes
 What changed in recent updates, newest first.
 
+## Updates 134, 136 and 138: animation upgrade
+- **Effects drawn in code:** shockwave rings, impact bursts, cones, beams, speed lines, ripples, lightning, slashes, domes, wind spirals, dust, sparks and smoke are now drawn in code: smooth every frame, sharp at any zoom, in the element's colours. Signature art stays painted. A new setting, **Procedural effects** (Full, Simple, Off), brings the painted animations back if you prefer them. See [Visual effects](visual-effects.html).
+- **Impact feel:** a short pause on the heaviest hits and on breaks, dark (colour-inverting) flashes for shadow, ink and genjutsu, heat haze over fire and big impacts, debris that bounces and skids, and fading copies of a ninja along dashes.
+- **The body:** throws, palms, slams, draws and grabs move the whole body, and the hands pull back before a strike. Kunai and senbon stay stuck where they hit; stone skin, frost, ink and seal tags show on the body.
+- **Barriers and shots:** hostile shots slow down outside NFRP barriers, and wind barriers bend about half of them away (a gameplay setting, on by default).
+- New settings for each part under Mod settings > NFRP World.
+
 ## Update 132: storytellers
 - **Three ninja storytellers:** Hisame the Chronicler (like Cassandra), Old Sensei Genkō (like Phoebe) and Kitsunebi the Trickster (like Randy). See [Storytellers](storytellers.html).
 - Your village's renown sets the pace; generic early threats (mech clusters, manhunters, infestations, ship parts) are mostly replaced by ninja ones.

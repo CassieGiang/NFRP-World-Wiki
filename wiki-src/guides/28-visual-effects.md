@@ -96,3 +96,21 @@ Weapon techniques move the weapon (**Weapon art choreography**): draw cuts, flas
 - **Summons** land with a squash and settle; the storm dragon Kishinryuu arrives in a storm puff.
 - **Status looks:** burning, frozen, poisoned, bound, under genjutsu, stunned, bleeding and chakra exhausted ninja show it on the body, without covering the face.
 - **Soft edges:** burst animations, beast heads and status marks fade out at their edges instead of ending in a hard line.
+
+## Effects drawn in code
+Since update 134 the everyday effect parts are drawn in code instead of from painted animation frames: shockwave rings, impact bursts, cones, beams, speed lines, water ripples, lightning, slash arcs, domes, wind spirals, dust, sparks and smoke puffs. They keep the crisp look (a dark outline, the element's colour, a light core), animate smoothly every frame, stay sharp at any zoom and take the colour of the technique's element or name theme. Painted art is kept where its shape is the point: dragons, phoenixes, sharks, coffins, summons, hand signs, leaves, crystals, spikes, ink, paper and every signature technique.
+- **Procedural effects:** Full, Simple (fewer layers, also used automatically in big fights) or Off (the painted animations as before).
+
+## Impact feel
+- **Impact pause:** the heaviest hits and every [break](break-and-combos.html) hold the whole scene still for a few hundredths of a second, at most once every 1.2 seconds and never in a big fight.
+- **Dark flashes:** shadow, ink, genjutsu and sealing impacts and every break invert the colours under them for a moment.
+- **Heat haze:** fire bursts, chakra flares, big impacts and breaks ripple the air.
+- **Debris:** earth, ice, wood, sand and water hits throw chunks that arc, bounce once or twice and skid to a stop, with a shadow under them.
+- **Afterimage copies:** dashes, flash steps and taijutsu or weapon-art dashes leave fading copies of the ninja along the path.
+
+## The body
+- **Body motion for techniques:** throws lean back and whip forward, palm strikes and punches lean in after a short pull-back, ground slams crouch and spring back, sword draws twist and grabs lean back as they lift. The hands pull back before a strike and overshoot a little past it. Timing and damage are unchanged.
+- **Body overlays:** kunai, senbon and shuriken stay stuck where they hit a ninja for about half a minute; stone-skin statuses crack the body grey, frost leaves rime at the edges, ink statuses stain, seal tags flutter on the chest, and burning ninja shed embers.
+
+## Barriers and shots
+**Barriers slow and deflect shots** (a gameplay setting, on by default): hostile shots slow down just outside NFRP World's barriers and domes before they hit, and wind barriers bend about half of them away; a bent shot flies on and can hit someone else. Shots from the barrier owner's friends pass untouched.
