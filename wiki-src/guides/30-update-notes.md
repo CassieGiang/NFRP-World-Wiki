@@ -1,6 +1,15 @@
 # Update notes
 What changed in recent updates, newest first.
 
+## Update 131: plants, items and signature art
+- **Plants:** 47 more plants repainted in the flatter base-game style, and every NFRP plant now grows in two looks. Belan, golden beech, ironwood, silverbark and zalantar trees lose their leaves in winter.
+- **Items:** about 530 item pictures repainted: weapons, armour and clothing, resources, gems, potions, bombs, books, scrolls and gear.
+- **Status looks:** clearer status rings around affected pawns and new symbols over their heads.
+- **Technique walls:** escarpment, glacier, briar and hallucinatory walls now join up with each other and with ordinary walls.
+- **Summon circles:** each element has its own painted summoning circle.
+- **Signature art:** 33 techniques that used generic effects now show their own beast or object, such as the rainbow dragon, phoenix, thunder dragon, true hydra, megamouth shark, crescent dragons, tree tomb, sand and earth coffins, iron sand monolith, meteors, stalagmite forest and the iron demon. Drawing only: damage and timing are unchanged.
+- Six effects (earth spikes, seal circle, scroll unroll, flame pillar, burrow eruption, shell guard) and the storm cloud were redrawn without cut edges.
+
 ## Updates 128 to 130: reputation, duels and intel
 - **Witnesses:** deeds only become fame or infamy if someone who isn't one of yours lives to tell them; stories seen only by your prisoners wait until one goes free. See [Reputation, duels and intel](reputation-duels-and-intel.html).
 - **Masked names:** a colonist in a masked-guard mask earns fame under the mask's name, with its own Bingo Book page; unmasked in front of outsiders, the names become one.
