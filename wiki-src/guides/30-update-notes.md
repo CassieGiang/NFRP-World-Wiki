@@ -1,6 +1,14 @@
 # Update notes
 What changed in recent updates, newest first.
 
+## Updates 133, 135, 137 and 139: the living world
+- **The world moves on its own:** villages besiege, capture, raze and found settlements, sign ceasefires and go to war; named ninja of every village rank up, marry, have children and die; it all goes into the new **World news** in the Ninja world panel. See [The living world](living-world.html).
+- **Squad missions:** send 1 to 4 ninja on a D- to S-rank mission off the map; they come back days later with a report.
+- **Ninja society:** village leaders with attitudes and successions, genin teams, a chūnin exam host that rotates every year with named genin, envoys, hostages, tribute and marriage alliances, clans in your colony with heads, feuds and requests, and villages that remember what you did.
+- **The living land:** travellers on the world map to trade with, escort, ambush or recruit; landmarks to explore; three legendary beasts (the Ashmaw, the Tidewyrm and the Thunderhorn) to hunt or befriend; pilgrims, monks, students and refugees at your door; a market that follows the wars.
+- **Small touches:** festivals in other villages you can send a delegation to, letters from the ninja you know, and the stories of their deaths.
+- Every part has its own switch under Mod settings > NFRP World > World and events > Living world. The legendary beasts borrow other creatures' art until their own is painted.
+
 ## Updates 134, 136 and 138: animation upgrade
 - **Effects drawn in code:** shockwave rings, impact bursts, cones, beams, speed lines, ripples, lightning, slashes, domes, wind spirals, dust, sparks and smoke are now drawn in code: smooth every frame, sharp at any zoom, in the element's colours. Signature art stays painted. A new setting, **Procedural effects** (Full, Simple, Off), brings the painted animations back if you prefer them. See [Visual effects](visual-effects.html).
 - **Impact feel:** a short pause on the heaviest hits and on breaks, dark (colour-inverting) flashes for shadow, ink and genjutsu, heat haze over fire and big impacts, debris that bounces and skids, and fading copies of a ninja along dashes.
