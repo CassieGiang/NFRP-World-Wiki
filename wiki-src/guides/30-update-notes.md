@@ -1,6 +1,13 @@
 # Update notes
 What changed in recent updates, newest first.
 
+## Update 132: storytellers
+- **Three ninja storytellers:** Hisame the Chronicler (like Cassandra), Old Sensei Genkō (like Phoebe) and Kitsunebi the Trickster (like Randy). See [Storytellers](storytellers.html).
+- Your village's renown sets the pace; generic early threats (mech clusters, manhunters, infestations, ship parts) are mostly replaced by ninja ones.
+- A ninja calendar of festivals, exams, mission offers in quiet seasons and village war after the truce.
+- Story arcs over weeks: returning rivals and their camps, bounty hunters, deserters and the hunter-nin who follow them (or spies), rogue ninja, summon beasts gone wild, Black Ink smugglers, wandering masters.
+- Their portraits are placeholders for now; painted ones are coming.
+
 ## Update 131: plants, items and signature art
 - **Plants:** 47 more plants repainted in the flatter base-game style, and every NFRP plant now grows in two looks. Belan, golden beech, ironwood, silverbark and zalantar trees lose their leaves in winter.
 - **Items:** about 530 item pictures repainted: weapons, armour and clothing, resources, gems, potions, bombs, books, scrolls and gear.
