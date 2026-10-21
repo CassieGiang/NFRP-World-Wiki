@@ -18,7 +18,7 @@ Ninja classes level slowly, so a rank is earned over years of play:
 
 - Each new level of Ninjutsu, Taijutsu or Genjutsu costs 150 × (current level + 1) XP, three times the framework's default. Reaching level 20 takes 31,500 XP in all.
 - NFRP World techniques give a small amount of XP once per cast, to the class the technique belongs to: a quarter of the XP written in the technique, at least 1. That is usually 2 for D rank, 2 to 3 for C, 4 for B, 6 to 7 for A and 11 to 12 for S. Fighting alone won't make a jōnin.
-- **Progression speed** in the mod settings (Gameplay & progression tab, 25% to 200%) divides the XP every level needs. At 100% a ninja with a sensei reaches chūnin in about a year and a half and jōnin in under four; training alone takes roughly 2.5 and 5.5 years. The years each rank exam asks for never change.
+- **Progression speed** in the mod settings (Village life tab, 25% to 200%) divides the XP every level needs. At 100% a ninja with a sensei reaches chūnin in about a year and a half and jōnin in under four; training alone takes roughly 2.5 and 5.5 years. The years each rank exam asks for never change.
 
 ## Other ways to grow
 - **Training**: one session a day at a training building gives class XP as well as skill. Training post and training dummy: 15 Taijutsu. Battle ring: 18 Taijutsu. Chakra study apparatus ("Study chakra at"): 15 Ninjutsu. Star-watching platform ("Meditate on"): 15 Genjutsu. From class level 8 training gives half, and training alone stops at level 10. Pawns who refuse violence can still study at the apparatus and meditate at the platform; only the post, dummy and ring turn them away.

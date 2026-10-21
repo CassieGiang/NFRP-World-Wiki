@@ -1,6 +1,14 @@
 # Update notes
 What changed in recent updates, newest first.
 
+## Update 148: interface redesign
+- **Ninja orders:** NFRP's buttons on a selected ninja (Combo, Kit, Sidearm, throwing tools, Formation, Fall back, Guard post, Stance) are grouped into one **Ninja orders** button that opens a ring at the mouse. Stance and Mark as priority stay on the bar. A setting brings the separate buttons back. See [Stances and squads](stances-and-squads.html).
+- **Settings:** tabs down the side (Looks, Combat, World, Village life, Performance, Dev) with setting counts, "changed from default" counts, a search box over every tab, a look-preset menu, and Reset this tab / Reset everything. See [Getting started](getting-started.html#the-settings-window).
+- **Shinobi tab:** a new pawn tab gathers rank and level, nickname, fame and infamy, stance, fall-back point, kit and sidearm, team sync, the break meter, rivals and grudges, deeds and village relics.
+- **Interrogation panel:** an Interrogation button on prisoners shows resistance, today's odds, mood, the questioning mode and what they have revealed, with Raid it for camps.
+- **First-time guide:** a contents list with checkmarks and new pages on break and combos, stances and squads, ninja tools, fame and rivals, missions, the living world and storytellers.
+- The combo builder, kit editor, Bingo Book, live squad mission window and mission records share one dark look.
+
 ## Update 146: new Ninja world and build windows
 - The Ninja world window is split into six tabs: Overview, Villages & diplomacy, Bingo Book, Missions, News and Research. The Overview shows your village, squads away with progress bars and Watch buttons, what's coming up, your ninja with their stance and status, and the latest news.
 - The ninja build window is now a one-page planner: a None / Non-Specialist / Specialist / Master choice per kind, a D-to-S rank strip for each (green reachable, gold with a mastery, grey out of reach), slot counts, universal caps and an "If you confirm" box. The build rules are unchanged.

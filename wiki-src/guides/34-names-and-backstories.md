@@ -22,7 +22,7 @@ Ninja-trained backstories (academy students, clan heirs, genin team leaders, mas
 - Colonists in NFRP's own Hidden Village start and World of Naruto's ninja starts.
 
 ## Settings
-For other starts (such as Crashlanded), two settings on the **Gameplay & progression** tab, under **World and events**, are off by default:
+For other starts (such as Crashlanded), two settings on the **World** tab, under **World and events**, are off by default:
 - **Ninja names for new colonists:** new colonists, wanderers who join and other pawns made for you get ninja names.
 - **Ninja backstories for new colonists:** they can also get ninja-world backstories, next to RimWorld's usual ones.
 

@@ -52,7 +52,7 @@ Rivals come back leading a raid, or send a **duel challenge** to the ninja they 
 Rivals have a gold "rival" tag in the Bingo Book, with their story on their page.
 
 ## Settings
-Under **Combat & AI → Fame, Bingo Book and Rivals**:
+Under **Village life → Fame, Bingo Book and Rivals**:
 - **Fame** on or off
 - **Inspire and intimidate strength** (0 to 200%)
 - **Weak enemies may flee from feared ninja**

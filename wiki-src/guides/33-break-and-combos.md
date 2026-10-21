@@ -51,6 +51,6 @@ Combos can use **melee strikes, taijutsu moves and quick jutsu**: attack techniq
 Locked slots show the level that unlocks them.
 
 ## Settings
-On the **Combat & AI** tab of the mod settings:
+On the **Combat** tab of the mod settings:
 - **Break and combos:** turns the whole system on or off (on by default).
 - **Break speed:** from 50% to 200%. Lower means fighters take longer to break.

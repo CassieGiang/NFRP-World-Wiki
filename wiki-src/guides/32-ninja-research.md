@@ -53,6 +53,6 @@ Weapons and furniture that already needed base-game research (smithing, long bla
 ## Settings and old saves
 - **Ninja research cost** (25% to 300%) changes the cost of every ninja project. Finished projects stay finished. Progression's research pacing, if you use it, still applies on top.
 - **Start with ninja research done** marks every ninja project as finished, so nothing in NFRP World needs research.
-- Both are under Gameplay & progression in the settings.
+- Both are under Village life in the settings.
 - A save from before the research tree gets the projects it already uses, once: everything you have built, carry or wear unlocks its project, and a letter lists what was granted.
 - The tree needs only the base game and World of Naruto. With Ferny's Progression or Medieval Overhaul loaded, a few projects also ask for those mods' writing, alchemy or advanced research bench projects.
