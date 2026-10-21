@@ -1,6 +1,10 @@
 # Update notes
 What changed in recent updates, newest first.
 
+## Updates 142 and 143: wounded retreat and the Barrage stance
+- Badly hurt pawns fall back to a bed or to cover behind their friends and return once they've healed a little. Each colonist has a **Fall back** button (Off, Cautious, Normal, Last stand); stances shift the point. Hurt enemies run for the map edge and may come back as rivals.
+- New stance **Barrage**: a ranged ninjutsu caster that keeps its distance, casts as often as chakra allows and holds back big area techniques near allies. See [Stances and squads](stances-and-squads.html).
+
 ## Update 141: stances and squads
 - Drafted ninja get combat stances: Vanguard, Support, Assassin and Sealer change which techniques they use and how they move. Assassins earn an ambush bonus while unseen.
 - Mark an enemy as the squad's priority target (right-click it), march drafted groups in formation, and post guards on patrol routes with hold fire.
