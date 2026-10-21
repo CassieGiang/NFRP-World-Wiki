@@ -1,7 +1,7 @@
 # Update notes
 What changed in recent updates, newest first.
 
-## Update 150: fixes from the showcase
+## Update 150: visual and combat fixes
 
 - Signature art (phoenix, dragons, sharks, coffins, Tree Tomb and the rest) now keeps its own painted colours instead of being recoloured by the element tint, and Suzaku no longer shows a beast head over its phoenix. Tombs, coffins and the monolith play larger.
 - Combos no longer cut their own techniques short.
