@@ -104,7 +104,7 @@ GROUPS = ['Clans and bloodlines', 'Elements', 'Genjutsu', 'Fighting and weapon s
 KIND_TEXT = {'toggle': 'Toggle: drains chakra while on', 'passive': 'Passive (always on, no button)', 'nfsummon': 'Summon', 'fabled': 'Summon', 'cone': 'Area: cone', 'zone': 'Area: zone',
              'strike': 'Single target', 'hediff': 'Status', 'areahediff': 'Area status', 'heal': 'Healing', 'massheal': 'Area healing',
              'shield': 'Barrier', 'dash': 'Movement', 'bind': 'Bind', 'tame': 'Taming', 'capture': 'Capture', 'gas': 'Gas cloud'}
-REQ_TEXT = {'bow': 'a bow, crossbow or sling', 'ranged': 'a ranged weapon', 'blade': 'a bladed weapon', 'stab': 'a thrusting weapon', 'staff': 'a staff or spear',
+REQ_TEXT = {'bow': 'a bow, crossbow or sling', 'ranged': 'a ranged weapon', 'blade': 'a bladed weapon', 'sword': 'a sword', 'stab': 'a thrusting weapon', 'staff': 'a staff or spear',
             'scythe': 'a scythe, glaive or axe', 'blunt': 'a blunt weapon', 'fan': 'a war fan', 'yoyo': 'a battle yo-yo', 'melee': 'a melee weapon',
             'unarmed': 'empty hands', 'instrument': 'a musical instrument', 'contract': 'a Blood Pact', 'shield': 'a shield', 'water': 'rain or water nearby',
             'earth': 'bare ground underfoot', 'bond': 'a Contract Bond partner'}

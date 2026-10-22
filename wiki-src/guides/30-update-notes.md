@@ -1,6 +1,19 @@
 # Update notes
 What changed in recent updates, newest first.
 
+## Updates 152–173: hand-made animations for every technique, and fixes
+- **Hand-made hero animations:** 227 techniques now have their own hand-choreographed animation, with a wind-up, launch, travel, impact with a short pause, aftermath and a clean fade. They cover all of Kazeraikou and a set of signature techniques, plus the nine major clans (Uchiha, Hyūga, Aburame, Inuzuka, Kaguya, Nara, Akimichi, Yamanaka, Hoshigaki), the ANBU, Red Leg, Busosen and Kenseijin. Each one plays the mod's own painted effects at its key moments: the dragons, phoenix, sharks, hydra and other beasts fly their own art. Setting: Looks → Hero animations.
+- **Every other technique** (about 1,300) plays a hero-style animation from its family (waves, streams, binds, blows, auras, barriers and more), sized to its real range and coloured by its element. Setting: Looks → Hero-style family animations.
+- **Melee techniques** step the user in to the target for the hit, then back.
+- **When the user becomes the technique,** the body vanishes into it: Piercing Fang's spinning drill (the dog drills alongside from Double Piercing Fang on, and each enemy is hit as the drill reaches them), the shooting star, the charging bear.
+- **Inuzuka techniques** are performed with the bonded dog: it sniffs, howls, bites, mirrors the beast stance and answers the pack call.
+- **Three-sword style** now needs a sword (polearms such as the naginata no longer count). The fighter holds a second sword in the other hand and a third in the teeth. Setting: Looks → Three-sword style look.
+- **Silent Kill:** an enemy below half health dies outright; one caught unaware is struck in the neck or heart.
+- **Smoke Escape:** the user is unseen for a moment while the smoke is thick.
+- **Chakra:** pawns who know no techniques no longer count as "out of chakra", which had made breaking them and the Barrage stance behave oddly.
+- **Creatures:** 16 creatures redrawn in the flat style (wrath wolves, hags, Lacedon, Blizzard Bear and others).
+- **Descriptions:** 41 S-rank techniques no longer say their rank twice.
+
 ## Update 151: mission bonding
 - Squads come home closer: shared mission memories, "fought side by side", "patched me up on the road", and sometimes a grudge against the leader of a failed mission.
 - Three missions together make two ninja **comrades**; a comrade's death hits harder.
