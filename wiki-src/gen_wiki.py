@@ -159,7 +159,7 @@ def pos(a):
 
 # ───────────────────────────── page shell
 NAV = [('index.html', 'Home'), ('guides/index.html', 'Guides'), ('trees/index.html', 'Technique trees'), ('items.html', 'Items'),
-       ('seals.html', 'Seals'), ('creatures.html', 'Creatures'), ('plants.html', 'Plants'), ('factions.html', 'Factions'),
+       ('seals.html', 'Seals'), ('creatures.html', 'Creatures'), ('plants.html', 'Plants'), ('factions.html', 'Factions'), ('animations.html', 'Animations'),
        ('guides/for-modders.html', 'For modders')]
 
 def cd_text(ticks):
@@ -558,6 +558,12 @@ home = open(os.path.join(HERE, 'home.md'), encoding='utf-8').read()
 stats = f'<div class="stats"><div><b>{ntech}</b>techniques</div><div><b>{sum(len(v) for v in tree_list.values())}</b>trees</div><div><b>{len(seals)}</b>seals</div><div><b>{sum(len(v) for v in items.values())}</b>items</div></div>'
 quick = '<div class="grid guides">' + ''.join(f'<a class="guidecard" href="guides/{n}.html"><b>{E(t)}</b><small>{E(b[:140])}</small></a>' for n, t, b in glist[:8]) + '</div>'
 page('index.html', 'Home', '<div class="hero home"><img src="assets/preview.png" alt=""><div>' + md(home, '') + '</div></div>' + stats + '<h2>Start here</h2>' + quick)
+
+# ───────────────────────────── animations (recorded clips; see animations.py)
+try:
+    sys.path.insert(0, HERE); import animations
+    if os.path.exists(os.path.join(HERE, 'animations.json')): animations.build(page)
+except Exception as ex: print('animations page skipped:', ex)
 
 # ───────────────────────────── assets
 os.makedirs(os.path.join(OUT, 'assets'), exist_ok=True)

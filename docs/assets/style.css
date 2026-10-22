@@ -59,3 +59,5 @@ details[open].card .line{display:none}details.card>.body{padding:0 14px 14px 74p
 .ic.worn{background:color-mix(in srgb,var(--tag) 70%,#c9b18e 30%)}
 details.arts{margin-top:6px}details.arts summary{cursor:pointer;font-size:.85rem;color:var(--muted,inherit)}details.arts ul{margin:6px 0 0;padding-left:18px}details.arts li{margin:4px 0;font-size:.9rem}
 .item small.res{display:block;margin-top:4px;color:var(--muted);font-size:.85rem}
+
+.grid.anims{grid-template-columns:repeat(auto-fill,minmax(300px,1fr))}figure.anim{margin:0;background:var(--panel);border:1px solid var(--line);border-radius:8px;overflow:hidden}figure.anim video{display:block;width:100%;aspect-ratio:16/9;background:#111;cursor:pointer;object-fit:cover}figure.anim figcaption{padding:8px 10px}figure.anim figcaption b{display:block;font-family:"Shippori Mincho",Georgia,serif}figure.anim figcaption small{color:var(--muted)}
