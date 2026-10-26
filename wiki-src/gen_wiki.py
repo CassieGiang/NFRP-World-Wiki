@@ -34,6 +34,10 @@ for ch in allel:
 
 def T(tag): return defs.get(tag, {})
 trees, abilities, tiers = T('TaranMagicFramework.AbilityTreeDef'), T('TaranMagicFramework.AbilityDef'), T('TaranMagicFramework.AbilityTierDef')
+# u282: the signature-technique slots are empty places filled at runtime (each save has its own inventions): not wiki cards
+abilities = {d: a for d, a in abilities.items() if not d.startswith('NF_Sig_')}
+tiers = {d: t for d, t in tiers.items() if not d.startswith('NF_Sig_')}
+trees = {d: t for d, t in trees.items() if d != 'NF_Signature'}
 things, seals, genes = T('ThingDef'), T('CassieNFRP.SealDef'), T('GeneDef')
 RES_LABEL = {d: (r.findtext('label') or d) for d, r in T('ResearchProjectDef').items()}
 RES_LABEL.update({'Smithing': 'smithing', 'LongBlades': 'long blades', 'PlateArmor': 'plate armor', 'ComplexFurniture': 'complex furniture', 'ComplexClothing': 'complex clothing',
