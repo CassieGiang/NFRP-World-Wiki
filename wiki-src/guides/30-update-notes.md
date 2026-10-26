@@ -1,6 +1,31 @@
 # Update notes
 What changed in recent updates, newest first.
 
+## Updates 174–262: cleaner hand-made animations, painted creatures, jutsu chains and fixes
+**Hand-made animations**
+- **Clean casts:** a technique with its own hand-made animation now shows only its own art. During the wind-up the hands form the seals, with no shared seal circle or chakra gather; there is no generic flash, ring or start burst at the cast.
+- **Shooting techniques** (Great Fireball, Chakra Needles, the storm shots and others) start their animation when the shot is fired and aim it at the real target. Before, in normal play it could play early at the caster, before the shot left.
+- **Great Fireball** is redrawn: flame gathers at the mouth while the ball swells, a large churning fireball flies with the real shot and lands as it hits, then a sharp flash and a spreading dome of fire. No smoke cloud covers the dome.
+- **Great Fire Annihilation** pours a painted sea of fire from the mouth that reaches past the target, and no longer ends in dark smoke.
+- **Painted creatures fly their own art** from caster to target: water and bug dragons, fire dragon, ice tiger, fire sparrow, clay birds, water sharks, smoke dragon, wind tiger, the C2 dragon, lightning dragon and hound; the earth dragon, wood dragon, shadow beast, earth hounds and sand hands rise from the ground.
+- **Painted art stays visible in long sessions:** after many effects had played, some painted art (fireballs, creatures) became almost invisible for the rest of the game. Fixed.
+- **Effects face the right way:** flares, pillars, splashes and spikes stand upright; breaths, needle volleys and thrusts point at the target.
+- **Weather techniques** bring their rain and wind within seconds; Ryūraisen's dragon is red; riders step off their mount for a leap and back on after; Mega Palm Thrust and Partial Expansion swell the user's own flesh arm; the Bug Dragon flies slower and larger so it reads; Storm Bullets fly slower; Double-Headed Wolf merges ninja and dog into one painted wolf; Crescent Dragons' scrolls circle the user; Starfall, Black Drizzle and Stalagmite Forest last as long as the technique; storm clouds show their reach.
+- **Element combos** (firestorm, blizzard and the rest) play their own painted art.
+- **Barrier rings:** all 14 materials have their own painted wall (water, sand, bugs, paper, crystal, ink and more); Shark Wall has three sharks circling it.
+- **Cleaner effects:** heat shimmer only on fire; rings and shadow ribbons are one continuous piece; Silence Dome has its own look; standing auras dim while their pawn's technique plays; shared impact stars and smoke stay out where a technique has its own art; 29 cut-off effect animations re-cut whole.
+
+**Combat and progression**
+- **Jutsu chains** and **solo combos** for trained ninja, with a chain tab in the build window and a letter when a chain step, a combo slot or a solo combo unlocks.
+- **Projectile targeting** per technique: some home in on a moving target, some can be aimed at the ground, the rest fly straight.
+- **Kenseijin stances** give more dodge, a blade in hand turns some melee swings aside, and stuns wear off faster.
+- **World of Naruto duplicates:** where both mods had the same technique (Kawarimi, element duplicates, the Uchiha and Hyūga ones, the Eight Gates), NFRP's version replaces it; pawns who knew World of Naruto's version are taught NFRP's.
+- **Scroll chakra bar:** chakra is an ink stroke on a paper scroll, shows the aimed technique's cost and what is left after it, and turns vermilion when low. Setting: Looks → Information → Scroll chakra bar.
+
+**Fixes**
+- A new-world crash from the three NFRP ideology roles having no names is fixed.
+- Makibishi caltrops no longer log an error when thrown.
+
 ## Updates 152–173: hand-made animations for every technique, and fixes
 - **Hand-made hero animations:** 227 techniques now have their own hand-choreographed animation, with a wind-up, launch, travel, impact with a short pause, aftermath and a clean fade. They cover all of Kazeraikou and a set of signature techniques, plus the nine major clans (Uchiha, Hyūga, Aburame, Inuzuka, Kaguya, Nara, Akimichi, Yamanaka, Hoshigaki), the ANBU, Red Leg, Busosen and Kenseijin. Each one plays the mod's own painted effects at its key moments: the dragons, phoenix, sharks, hydra and other beasts fly their own art. Setting: Looks → Hero animations.
 - **Every other technique** (about 1,300) plays a hero-style animation from its family (waves, streams, binds, blows, auras, barriers and more), sized to its real range and coloured by its element. Setting: Looks → Hero-style family animations.
