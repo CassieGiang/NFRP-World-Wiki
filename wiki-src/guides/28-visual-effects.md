@@ -101,6 +101,8 @@ Weapon techniques move the weapon (**Weapon art choreography**): draw cuts, flas
 
 ## Effects drawn in code
 Since update 134 the everyday effect parts are drawn in code instead of from painted animation frames: shockwave rings, impact bursts, cones, beams, speed lines, water ripples, lightning, slash arcs, domes, wind spirals, dust, sparks and smoke puffs. They keep the crisp look (a dark outline, the element's colour, a light core), animate smoothly every frame, stay sharp at any zoom and take the colour of the technique's element or name theme. Painted art is kept where its shape is the point: dragons, phoenixes, sharks, coffins, summons, hand signs, leaves, crystals, spikes, ink, paper and every signature technique.
+
+Since update 285 every technique also has a painted piece of its own that plays where it lands, or on the user for a self buff. It is drawn for that technique from its description and keeps the same crisp style. Pieces arrive in stages and show once they are installed.
 - **Procedural effects:** Full, Simple (fewer layers, also used automatically in big fights) or Off (the painted animations as before).
 
 ## Impact feel

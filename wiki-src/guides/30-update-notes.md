@@ -3,6 +3,19 @@ What changed in recent updates, newest first.
 
 @@summary What changed in recent updates, newest first.
 
+## Updates 290–301: every technique gets its own painted art, and many fixes
+**Art**
+- **Every technique gets its own painted effect.** S- and A-rank techniques now show their own painted piece where they hit (239 techniques). B-, C- and D-rank techniques follow in stages (562). Plain shots get a piece where they land, and self buffs one on the user (170). A piece shows only once it is installed; until then the technique looks as before.
+- **Living domes:** barrier domes breathe, ripple where a shot hits them, and pop and shrink when they end.
+
+**Fixes**
+- After loading an earlier save, small effects, creature flashes, camera shake and finisher cinematics no longer stay off for a while, and nothing from the later save is left on screen.
+- Prisoners no longer heal themselves with seals from their pockets (they still use them when breaking out).
+- Enemy ninja keep using Storm Clone, Kenseijin stances, storm clouds and golems in normal fights.
+- Goodwill changes from NFRP name their reason (ninja mission, hidden village ties, ninja world, festival).
+- A ninja who falls on a squad mission is remembered properly after loading; signature techniques of enemies who died are freed a day later.
+- Formations face the right way when the leader faces east or west; youth seals leave children alone; coatings stay on both halves of a split stack.
+
 ## Updates 263–289: signature techniques, our own art everywhere, a shinobi furniture style and smarter storytellers
 **Signature techniques** (see [signature techniques](signature-techniques.html))
 - Your ninja design techniques of their own from 24 shapes, 34 modifiers and 22 painted motifs, named in Japanese and English, and develop them at a training spot.
