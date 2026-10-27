@@ -37,7 +37,7 @@ Every village starts with a set of shapes, modifiers and motifs. The rest are **
 ## Teaching and scrolls
 - The creator can write the technique on a scroll at the scribe desk. Another of your ninja who reads it starts **Learning** it at a training spot.
 - The creator casts it a little stronger (+15%); someone who learned it from a scroll a little weaker (−15%).
-- **No copying.** Eyes and techniques that copy what they see can't take a signature technique. Only scrolls teach it.
+- **No copying.** The Sharingan and any other copy effect can't take a signature technique. Only scrolls teach it.
 
 ## Enemy signatures
 - Village leaders always carry one, jōnin often, and a rival may come back from training with one.
