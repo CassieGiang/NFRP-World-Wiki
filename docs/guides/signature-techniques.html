@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Signature techniques · NFRP World</title><meta name="description" content="Signature techniques">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@600;700&display=swap">
+<link rel="stylesheet" href="../assets/style.css"><link rel="stylesheet" href="../assets/mock.css"><link rel="icon" href="../assets/icon.png">
+</head><body>
+<header><div class="hin"><a class="brand" href="../index.html"><img src="../assets/icon.png" alt=""><span>NFRP World</span></a>
+<nav><a href="../index.html">Home</a><a href="../guides/index.html">Guides</a><a href="../trees/index.html">Technique trees</a><a href="../items.html">Items</a><a href="../seals.html">Seals</a><a href="../creatures.html">Creatures</a><a href="../plants.html">Plants</a><a href="../factions.html">Factions</a><a href="../guides/for-modders.html">For modders</a></nav>
+<div class="search"><input id="q" type="search" placeholder="Search techniques, items, seals…" autocomplete="off" aria-label="Search"><div id="hits"></div></div>
+</div></header>
+<main><article class="guide"><h1>Signature techniques</h1>
+<p>Your ninja can create techniques of their own: pick an element, a shape, a few modifiers and a look, give it a name, and develop it at a training spot. Enemy leaders, jōnin and rivals carry signatures of their own too.</p>
+<div class="toolbar"><button type="button" data-act="open">Expand all</button><button type="button" data-act="close">Collapse all</button></div><div class="toc"><a href="#how-a-ninja-gets-one">How a ninja gets one</a><a href="#developing">Developing</a><a href="#parts">Parts</a><a href="#teaching-and-scrolls">Teaching and scrolls</a><a href="#enemy-signatures">Enemy signatures</a><a href="#where-to-find-them">Where to find them</a></div><details class="sec gsec" open id="how-a-ninja-gets-one"><summary><span class="st">How a ninja gets one</span></summary><div class="body">
+<ul><li><b>On purpose:</b> select a ninja and press <b>Design a signature technique</b>. The design editor opens with every part your village has earned.</li><li><b>Inspired:</b> missions, beating a rival, a new fame tier, opening an old sealed cache, every 20 training sessions, and (with an NFRP storyteller) festivals, wandering masters and quiet moments of insight can inspire a ninja. They get three ideas within their rank. Press <b>Inspired</b> to pick one, keep them for later, or let them go.</li><li><b>Refining an idea</b> keeps its shape. You may add one modifier and drop one before you start.</li><li><b>Limits:</b> genin and chūnin may own one signature, jōnin two, village leaders three.</li></ul>
+<figure class="mock slate">
+<div class="mwin">
+<span class="mx">×</span>
+
+<div class="mpage" data-page="inspire">
+  <div class="mtitle">Inspiration: Aiko</div>
+  <p class="mmuted">A B-rank mission gave Aiko ideas for a technique of her own. Pick one to refine, keep them for later, or let them go.</p>
+  <div class="msec">
+    <div class="mrow sel"><b>Raiton: Kiba no Yari</b> <span class="mmuted">(Lightning Release: Fang Lance)</span><span class="r">B · lance, piercing, hounds</span></div>
+    <div class="mrow"><b>Raiton: Senkō</b> <span class="mmuted">(Lightning Release: Flash)</span><span class="r">C · flash step, quick</span></div>
+    <div class="mrow"><b>Raiton: Uzu no Jin</b> <span class="mmuted">(Lightning Release: Spiral Field)</span><span class="r">B · field, stunning, spiral</span></div>
+  </div>
+  <div class="mrowbtns"><button class="mbtn pri" data-go="refine">Refine this idea</button><button class="mbtn" data-go="later">Later</button><button class="mbtn bad" data-go="letgo">Let it go</button></div>
+</div>
+
+<div class="mpage" data-page="later" hidden>
+  <div class="mtitle">Inspiration kept</div>
+  <p>The three ideas wait under Aiko's <b>Inspired</b> button. Select her and press it to come back to them.</p>
+  <div class="mrowbtns"><button class="mbtn" data-back>Back</button></div>
+</div>
+<div class="mpage" data-page="letgo" hidden>
+  <div class="mtitle">Let the ideas go?</div>
+  <p>The inspiration ends. A new one can come from the next mission, duel, fame tier or every 20 training sessions.</p>
+  <div class="mrowbtns"><button class="mbtn" data-back>Back</button></div>
+</div>
+
+<div class="mpage" data-page="refine" hidden>
+  <div class="mtitle">Refine the idea: Raiton: Kiba no Yari<small>Look: lightning hound strike</small></div>
+  <div class="mcols even">
+    <div>
+      <div class="msec"><h4>Element: lightning</h4>
+        <h4>Shape</h4>
+        <div class="mgrid">
+          <div class="mslot on">lance<small>locked in refine</small></div>
+          <div class="mslot lock">bullet</div><div class="mslot lock">wave</div><div class="mslot lock">storm<small>A-rank missions</small></div>
+        </div>
+      </div>
+      <div class="msec"><h4>Modifiers (change one)</h4>
+        <div class="mgrid">
+          <div class="mslot on">piercing</div><div class="mslot">empowered</div><div class="mslot">far-reaching</div><div class="mslot">stunning</div>
+          <div class="mslot">quick</div><div class="mslot lock">freezing<small>A-rank missions</small></div><div class="mslot lock">shocking<small>old seals</small></div><div class="mslot">efficient</div>
+        </div>
+      </div>
+      <div class="msec"><h4>Motif</h4>
+        <div class="mgrid"><div class="mslot">plain</div><div class="mslot on">hounds</div><div class="mslot">birds</div><div class="mslot lock">dragon<small>A-rank missions</small></div><div class="mslot">wolf</div><div class="mslot lock">crescent moon<small>become Legendary</small></div></div>
+      </div>
+    </div>
+    <div>
+      <div class="msec"><h4>Rank B</h4>
+        <div class="mfield"><span>Name:</span><div class="minput">Raiton: Kiba no Yari</div></div>
+        <p class="mmuted">A lance of lightning shaped like a running hound that pierces armour. Damage, range, chakra and cooldown show here and change as you pick parts.</p>
+        <p>Develops in about <b>10 hours</b> of work at a training spot (twice as long without an inspiration).</p>
+      </div>
+      <div class="mrowbtns"><button class="mbtn pri" data-go="dev">Start developing</button><button class="mbtn" data-tab="yours" data-also="parts enemy">All signatures</button></div>
+    </div>
+  </div>
+</div>
+
+<div class="mpage" data-page="dev" hidden>
+  <div class="mtitle">Developing</div>
+  <p>Aiko now works on <b>Raiton: Kiba no Yari</b> at a training spot. Her <b>Developing</b> button shows the progress. When it is done, the technique joins her tree and the art request list.</p>
+  <div class="mbar"><i style="width:40%"></i></div><p class="mmuted">4 of 10 hours</p>
+  <div class="mrowbtns"><button class="mbtn" data-back>Back</button></div>
+</div>
+
+<div class="mpage" data-page="yours" hidden>
+  <div class="mtitle">Signature techniques</div>
+  <div class="mtabs" role="tablist"><button data-tab="yours">Your techniques (3)</button><button data-tab="parts">Parts (41 of 80)</button><button data-tab="enemy">Known enemy techniques (2)</button></div>
+  <div class="mrow mmuted"><b>Technique</b><span class="r">Rank · Ninja · Look</span></div>
+  <div class="mrow"><span>Katon: Ryū no Dan <span class="mmuted">(Fire Release: Dragon Bullet)</span></span><span class="r">A · Kenta · fire dragon flight</span></div>
+  <div class="mrow"><span>Raiton: Kiba no Yari <span class="mmuted">(developing, 4 of 10 h)</span></span><span class="r">B · Aiko · lightning hound strike</span></div>
+  <div class="mrow"><span>Suiton: Same no Nami <span class="mmuted">(Water Release: Shark Wave)</span></span><span class="r">B · Mei · water shark flight</span></div>
+  <div class="mrowbtns"><button class="mbtn" data-go="art">Write art requests</button><span class="mmuted" style="margin-left:auto;align-self:center">Slots free: 93 of 96</span></div>
+</div>
+
+<div class="mpage" data-page="parts" hidden>
+  <div class="mtitle">Signature techniques</div>
+  <div class="mtabs" role="tablist"><button data-tab="yours">Your techniques (3)</button><button data-tab="parts">Parts (41 of 80)</button><button data-tab="enemy">Known enemy techniques (2)</button></div>
+  <div class="msec"><h4>Shapes</h4><div class="mgrid">
+    <div class="mslot on">bullet</div><div class="mslot on">palm strike</div><div class="mslot on">breath</div><div class="mslot on">wave</div><div class="mslot on">lance</div><div class="mslot on">field</div>
+    <div class="mslot lock">storm<small>A-rank missions</small></div><div class="mslot lock">pillars<small>B-rank missions</small></div><div class="mslot on">bind</div><div class="mslot lock">drill<small>beat a rival</small></div><div class="mslot lock">vortex<small>old seals</small></div><div class="mslot lock">great beast<small>S-rank missions</small></div>
+  </div></div>
+  <div class="msec"><h4>Modifiers</h4><div class="mgrid">
+    <div class="mslot on">empowered</div><div class="mslot on">far-reaching</div><div class="mslot on">wide</div><div class="mslot on">piercing</div><div class="mslot lock">lingering<small>training</small></div><div class="mslot lock">of heroism<small>become Legendary</small></div>
+  </div></div>
+  <div class="msec"><h4>Motifs</h4><div class="mgrid">
+    <div class="mslot on">birds</div><div class="mslot on">blades</div><div class="mslot on">hounds</div><div class="mslot lock">serpent<small>B-rank missions</small></div><div class="mslot lock">lotus<small>training</small></div><div class="mslot lock">sun flare<small>S-rank missions</small></div>
+  </div></div>
+  <p class="mmuted">Hover a part in game for what it does; locked parts say how to earn them.</p>
+</div>
+
+<div class="mpage" data-page="enemy" hidden>
+  <div class="mtitle">Signature techniques</div>
+  <div class="mtabs" role="tablist"><button data-tab="yours">Your techniques (3)</button><button data-tab="parts">Parts (41 of 80)</button><button data-tab="enemy">Known enemy techniques (2)</button></div>
+  <div class="mrow mmuted"><b>Technique</b><span class="r">Rank · Used by · What it is</span></div>
+  <div class="mrow"><span>Fūton: Ten no Arashi</span><span class="r">A · Jōnin Haru (Kazegakure) · wind storm, wide</span></div>
+  <div class="mrow"><span>Doton: Tora no Hashira</span><span class="r">S · Rival Gorō · earth pillars, tiger</span></div>
+  <p class="mmuted">Only techniques your colony has seen used appear here. They are also in the Bingo Book.</p>
+</div>
+
+<div class="mpage" data-page="art" hidden>
+  <div class="mtitle">Art requests written</div>
+  <p>The list of signature techniques that would look better with their own painted art is saved in the mod's <b>_requests</b> folder, with a plain picture brief for each.</p>
+  <div class="mrowbtns"><button class="mbtn" data-back>Back</button></div>
+</div>
+
+</div>
+<figcaption>The inspiration, the design editor in refine mode, and the Signature techniques overview from the bottom bar.</figcaption>
+</figure>
+
+</div></details>
+<details class="sec gsec" open id="developing"><summary><span class="st">Developing</span></summary><div class="body">
+<ul><li>Developing is research-like work at a training spot, one hour at a time. The ninja&#x27;s <b>Developing</b> button shows the progress.</li><li>Time for an inspired idea: D 4 hours, C 6, B 10, A 16, S 24. A design made from scratch takes twice as long.</li><li>A-rank work has an 8% chance per hour to backfire, S-rank 15%. A backfire burns or shocks a hand or arm a little; the progress is kept.</li><li>The rank needs ninjutsu: D 2, C 6, B 10, A 14, S 18. Modifiers: two, plus one for jōnin and one more for leaders.</li></ul>
+</div></details>
+<details class="sec gsec" open id="parts"><summary><span class="st">Parts</span></summary><div class="body">
+<p>Every village starts with a set of shapes, modifiers and motifs. The rest are <b>earned</b>, and the parts window says how.</p>
+<div class="tw"><table class="gt"><tr><th>Earned by</th><th>Some parts it opens</th></tr><tr><td>C-rank missions</td><td>wave, lance, barrier; quick, piercing, pinning, rooting; spiral, turtle shell</td></tr><tr><td>B-rank missions</td><td>pillars, prison, rain; stunning, numbing, paralysing; sharks, hounds, serpent, giant hands</td></tr><tr><td>A-rank missions</td><td>storm, flash step; freezing, lulling, of stealth; dragon, tiger, comet</td></tr><tr><td>S-rank missions</td><td>great beast; sun flare</td></tr><tr><td>Beating a rival</td><td>drill; wolf</td></tr><tr><td>Becoming Feared</td><td>rallying aura, terror genjutsu; terrifying, dreadful; feathers, crane</td></tr><tr><td>Becoming Legendary</td><td>of heroism; crescent moon</td></tr><tr><td>Opening old seals</td><td>confusion genjutsu, vortex; searing, shocking, venomous; petals, bones, spider web, mirror shards</td></tr><tr><td>Training</td><td>dash strike; lingering; lotus</td></tr></table></div>
+<ul><li><b>Shapes</b> (24) decide what the technique does: a bullet, a breath, a field, a bind, a barrier, a mending, a curse and more.</li><li><b>Modifiers</b> (34) tune it: stronger, farther, wider, cheaper, and effects such as stunning, freezing, chakra-sealing or of swiftness.</li><li><b>Motifs</b> (22 besides plain) decide its look: dragons, birds, hounds, sharks, a serpent, a crane, a wolf, a comet, a lotus, a crescent moon and more. Each is painted art that takes the element&#x27;s colour.</li></ul>
+</div></details>
+<details class="sec gsec" open id="teaching-and-scrolls"><summary><span class="st">Teaching and scrolls</span></summary><div class="body">
+<ul><li>The creator can write the technique on a scroll at the scribe desk. Another of your ninja who reads it starts <b>Learning</b> it at a training spot.</li><li>The creator casts it a little stronger (+15%); someone who learned it from a scroll a little weaker (−15%).</li><li><b>No copying.</b> Eyes and techniques that copy what they see can&#x27;t take a signature technique. Only scrolls teach it.</li></ul>
+</div></details>
+<details class="sec gsec" open id="enemy-signatures"><summary><span class="st">Enemy signatures</span></summary><div class="body">
+<ul><li>Village leaders always carry one, jōnin often, and a rival may come back from training with one.</li><li>You only learn an enemy&#x27;s technique once your colony sees it used. It then shows in the <b>Known enemy techniques</b> tab and in the Bingo Book.</li><li>When the creator dies and nobody else knows it, the technique is gone.</li></ul>
+</div></details>
+<details class="sec gsec" open id="where-to-find-them"><summary><span class="st">Where to find them</span></summary><div class="body">
+<ul><li><b>Signature techniques</b> on the bottom bar: your techniques, the parts library and known enemy techniques.</li><li>The technique tree shows only the selected ninja&#x27;s signatures.</li><li><b>Write art requests</b> saves a list of signatures that would look better with their own painted art.</li></ul>
+</div></details></article></main>
+<footer>NFRP World is a RimWorld mod by Cassie, an add-on for World of Naruto and Taran Magic Framework. Technique and clan material from the Naruto Forum Role-play (NFRP) community archive. The Kazeraikou clan was created by Marii from NFRP and is used with her permission. This wiki is generated from the mod's files.</footer>
+<script>window.ROOT="../";</script><script src="../assets/search.js"></script><script src="../assets/mock.js"></script>
+</body></html>

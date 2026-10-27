@@ -196,7 +196,7 @@ def page(path, title, body, depth=None, desc=''):
 <title>{E(title)} · NFRP World</title><meta name="description" content="{E(desc or title)}">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@600;700&display=swap">
-<link rel="stylesheet" href="{up}assets/style.css"><link rel="icon" href="{up}assets/icon.png">
+<link rel="stylesheet" href="{up}assets/style.css"><link rel="stylesheet" href="{up}assets/mock.css"><link rel="icon" href="{up}assets/icon.png">
 </head><body>
 <header><div class="hin"><a class="brand" href="{up}index.html"><img src="{up}assets/icon.png" alt=""><span>NFRP World</span></a>
 <nav>{nav}</nav>
@@ -204,7 +204,7 @@ def page(path, title, body, depth=None, desc=''):
 </div></header>
 <main>{body}</main>
 <footer>NFRP World is a RimWorld mod by Cassie, an add-on for World of Naruto and Taran Magic Framework. Technique and clan material from the Naruto Forum Role-play (NFRP) community archive. The Kazeraikou clan was created by Marii from NFRP and is used with her permission. This wiki is generated from the mod's files.</footer>
-<script>window.ROOT="{up}";</script><script src="{up}assets/search.js"></script>
+<script>window.ROOT="{up}";</script><script src="{up}assets/search.js"></script><script src="{up}assets/mock.js"></script>
 </body></html>'''
     p = os.path.join(OUT, path); os.makedirs(os.path.dirname(p), exist_ok=True)
     open(p, 'w', encoding='utf-8').write(doc)
@@ -508,18 +508,51 @@ def inline(s, up):
     return s2
 
 def md(text, up, sections=False):
-    """markdown-lite: #, ##, ###, - lists, **bold**, [links](..). With sections=True every ## part becomes a collapsible section.
-    A line that says exactly 'Coming in the next update.' becomes a badge."""
-    out, para, lst = [], [], []
+    """markdown-lite: #, ##, ###, - lists (indented '  - ' for a second level), | pipe tables |, **bold**, [links](..).
+    With sections=True every ## part becomes a collapsible section. A line that says exactly 'Coming in the next update.'
+    becomes a badge; '@@mock name' embeds the clickable mockup mockups/name.html."""
+    out, para, lst, tbl = [], [], [], []
     toc = []; in_sec = False
+    def flush_list():
+        nonlocal lst
+        if not lst: return
+        h = '<ul>'; open_sub = False
+        for lvl, x in lst:
+            if lvl == 0:
+                if open_sub: h += '</ul></li>'; open_sub = False
+                elif h != '<ul>': h += '</li>'
+                h += '<li>' + x
+            else:
+                if not open_sub: h += '<ul>'; open_sub = True
+                h += '<li>' + x + '</li>'
+        h += ('</ul></li>' if open_sub else '</li>') + '</ul>'
+        out.append(h); lst = []
+    def flush_table():
+        nonlocal tbl
+        if not tbl: return
+        rows = [r for r in tbl if not re.fullmatch(r'\|?\s*:?-{2,}:?\s*(\|\s*:?-{2,}:?\s*)*\|?', r.strip())]
+        cells = [[c.strip() for c in r.strip().strip('|').split('|')] for r in rows]
+        h = '<div class="tw"><table class="gt">'
+        for i, row in enumerate(cells):
+            tag = 'th' if i == 0 else 'td'
+            h += '<tr>' + ''.join(f'<{tag}>{inline(c, up)}</{tag}>' for c in row) + '</tr>'
+        out.append(h + '</table></div>'); tbl = []
     def flush():
-        nonlocal para, lst
+        nonlocal para
         if para: out.append('<p>' + ' '.join(para) + '</p>'); para = []
-        if lst: out.append('<ul>' + ''.join(f'<li>{x}</li>' for x in lst) + '</ul>'); lst = []
+        flush_list(); flush_table()
     for line in text.splitlines():
         s = line.rstrip()
         if not s: flush(); continue
         if s.strip() == SOON: flush(); out.append('<p class="soon">Coming in the next update</p>'); continue
+        if s.startswith('@@mock '):
+            # a clickable window mockup from mockups/<name>.html (every tab and page button works)
+            flush(); mp = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'mockups', s[7:].strip() + '.html')
+            out.append(open(mp, encoding='utf-8').read() if os.path.exists(mp) else f'<p class="meta">(mockup {E(s[7:])} missing)</p>'); continue
+        if s.lstrip().startswith('|'):
+            if para or lst: f_t = tbl; tbl = []; flush(); tbl = f_t
+            tbl.append(s); continue
+        elif tbl: flush_table()
         s2 = inline(s, up)
         if s.startswith('# '): flush(); out.append(f'<h1>{s2[2:]}</h1>')
         elif s.startswith('## '):
@@ -530,8 +563,12 @@ def md(text, up, sections=False):
                 out.append(f'<details class="sec gsec" open id="{sid}"><summary><span class="st">{s2[3:]}</span></summary><div class="body">'); in_sec = True
             else: out.append(f'<h2>{s2[3:]}</h2>')
         elif s.startswith('### '): flush(); out.append(f'<h3 id="{slug(s[4:])}">{s2[4:]}</h3>')
-        elif s.startswith('- '): para and flush(); lst.append(s2[2:])
-        else: lst and flush(); para.append(s2)
+        elif s.startswith('- '):
+            if para: out.append('<p>' + ' '.join(para) + '</p>'); para = []
+            lst.append((0, s2[2:]))
+        elif re.match(r'^\s{2,}- ', s) and lst: lst.append((1, inline(s.lstrip()[2:], up)))
+        else:
+            flush_list(); para.append(s2)
     flush()
     if in_sec: out.append('</div></details>')
     return ('\n'.join(out), toc) if sections else '\n'.join(out)
@@ -565,7 +602,7 @@ page('index.html', 'Home', '<div class="hero home"><img src="assets/preview.png"
 
 # ───────────────────────────── assets
 os.makedirs(os.path.join(OUT, 'assets'), exist_ok=True)
-for f in ('style.css', 'search.js'): shutil.copy(os.path.join(HERE, f), os.path.join(OUT, 'assets', f))
+for f in ('style.css', 'search.js', 'mock.css', 'mock.js'): shutil.copy(os.path.join(HERE, f), os.path.join(OUT, 'assets', f))
 pv = os.path.join(SRC, 'About', 'Preview.png')
 if os.path.exists(pv):
     from PIL import Image

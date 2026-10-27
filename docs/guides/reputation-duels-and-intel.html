@@ -3,7 +3,7 @@
 <title>Reputation, duels and intel · NFRP World</title><meta name="description" content="Reputation, duels and intel">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@600;700&display=swap">
-<link rel="stylesheet" href="../assets/style.css"><link rel="icon" href="../assets/icon.png">
+<link rel="stylesheet" href="../assets/style.css"><link rel="stylesheet" href="../assets/mock.css"><link rel="icon" href="../assets/icon.png">
 </head><body>
 <header><div class="hin"><a class="brand" href="../index.html"><img src="../assets/icon.png" alt=""><span>NFRP World</span></a>
 <nav><a href="../index.html">Home</a><a href="../guides/index.html">Guides</a><a href="../trees/index.html">Technique trees</a><a href="../items.html">Items</a><a href="../seals.html">Seals</a><a href="../creatures.html">Creatures</a><a href="../plants.html">Plants</a><a href="../factions.html">Factions</a><a href="../guides/for-modders.html">For modders</a></nav>
@@ -20,12 +20,12 @@
 </div></details>
 <details class="sec gsec" open id="infamy"><summary><span class="st">Infamy</span></summary><div class="body">
 <p>A second, darker reputation for your own people:</p>
-<p>| Deed | Infamy | |---|---| | Executing a prisoner | 8, more for higher ranks (halved if their ideology respects executions) | | Harvesting organs from a captive, or cutting a bloodline out of a living one | 10 | | Killing a downed enemy on purpose | 5 | | Attacking a guest or ally on purpose / seizing a guest as a prisoner | 6 | | Killing your own prisoner / a guest, an ally or a child | 12 / 15 | | Banishing or abandoning a colonist, deserting your village | adds to the colony&#x27;s notoriety |</p>
+<div class="tw"><table class="gt"><tr><th>Deed</th><th>Infamy</th></tr><tr><td>Executing a prisoner</td><td>8, more for higher ranks (halved if their ideology respects executions)</td></tr><tr><td>Harvesting organs from a captive, or cutting a bloodline out of a living one</td><td>10</td></tr><tr><td>Killing a downed enemy on purpose</td><td>5</td></tr><tr><td>Attacking a guest or ally on purpose / seizing a guest as a prisoner</td><td>6</td></tr><tr><td>Killing your own prisoner / a guest, an ally or a child</td><td>12 / 15</td></tr><tr><td>Banishing or abandoning a colonist, deserting your village</td><td>adds to the colony&#x27;s notoriety</td></tr></table></div>
 <p>Infamy has its own tiers (<b>Notorious</b>, <b>Dreaded</b>, <b>Accursed</b>) and <b>dark nicknames</b> by what they did (&quot;Headsman&quot;, &quot;Oathbreaker&quot;, &quot;the Butcher&quot;...). A dark name replaces the nickname only when infamy is at least as high as fame. Infamous ninja draw <b>more and stronger bounty hunters</b>, cost <b>goodwill with the villages</b> (the Black Ink Syndicate likes it), <b>intimidate harder</b>, and <b>inspire less</b>: not at all for allies who despise such deeds (kind people, ideologies that find it abhorrent), fully for allies who approve.</p>
 </div></details>
 <details class="sec gsec" open id="village-renown"><summary><span class="st">Village renown</span></summary><div class="body">
 <p>Your village&#x27;s name grows with its ninja&#x27;s fame (the five most famous count most; masked names count half), and its <b>notoriety</b> with their infamy. Shown in the <b>Ninja world panel</b>.</p>
-<p>| Renown | Wanderers join | Mission silver | Traders | Raids | |---|---|---|---|---| | Noted (100) | 0.5% a day | +10% | 1% cheaper | +5% | | Renowned (350) | 1% | +20% | 2% | +10% | | Storied (1000) | 1.5% | +35% | 3% | +15% |</p>
+<div class="tw"><table class="gt"><tr><th>Renown</th><th>Wanderers join</th><th>Mission silver</th><th>Traders</th><th>Raids</th></tr><tr><td>Noted (100)</td><td>0.5% a day</td><td>+10%</td><td>1% cheaper</td><td>+5%</td></tr><tr><td>Renowned (350)</td><td>1%</td><td>+20%</td><td>2%</td><td>+10%</td></tr><tr><td>Storied (1000)</td><td>1.5%</td><td>+35%</td><td>3%</td><td>+15%</td></tr></table></div>
 <p>Notoriety makes raids up to 15% bigger on top.</p>
 </div></details>
 <details class="sec gsec" open id="duel-challenges"><summary><span class="st">Duel challenges</span></summary><div class="body">
@@ -43,7 +43,7 @@
 </div></details>
 <details class="sec gsec" open id="intel-spying-and-interrogation"><summary><span class="st">Intel, spying and interrogation</span></summary><div class="body">
 <p>What the Bingo Book shows about an enemy grows with what you know:</p>
-<p>| Intel | Shows | |---|---| | Rumour | name, faction, tier, bounty | | Seen (you fought them) | rank, level, what they&#x27;re known for, their deeds | | Studied (a sensor or tracker of yours was there) | the techniques they know | | Known (a spy mission or interrogation) | weaknesses and whereabouts |</p>
+<div class="tw"><table class="gt"><tr><th>Intel</th><th>Shows</th></tr><tr><td>Rumour</td><td>name, faction, tier, bounty</td></tr><tr><td>Seen (you fought them)</td><td>rank, level, what they&#x27;re known for, their deeds</td></tr><tr><td>Studied (a sensor or tracker of yours was there)</td><td>the techniques they know</td></tr><tr><td>Known (a spy mission or interrogation)</td><td>weaknesses and whereabouts</td></tr></table></div>
 <ul><li><b>Spy</b>: on an enemy&#x27;s page, posts a mission to a camp of their faction. Reaching it is enough.</li><li><b>Interrogate</b>: select a prisoner and press <b>Interrogation</b>. The panel shows their resistance, today&#x27;s odds with your best warden, their mood and everything they have told you so far, with <b>Raid it</b> next to any camp they gave away. Choose <b>Question</b> or <b>Question harshly</b> there (or switch on <b>Interrogate</b> / <b>Interrogate harshly</b> in the prisoner tab). Once a day a warden questions the prisoner. Social and Intellectual help; genjutsu and sensory techniques help a lot; famous, high-ranked and stubborn prisoners are harder. Each success reveals one thing: the prisoner&#x27;s own page, another ninja of their faction, <b>a camp of their faction you can raid</b> (sometimes with a famous ninja in it), or <b>a raid they&#x27;re planning</b>. A failure makes them more stubborn. <b>Harsh</b> works more often but is cruel: infamy for the warden, a bad mood and injuries for the prisoner. Captured rivals know the most.</li></ul>
 </div></details>
 <details class="sec gsec" open id="beheading-a-village"><summary><span class="st">Beheading a village</span></summary><div class="body">
@@ -53,5 +53,5 @@
 <p>Under <b>Village life → Fame, Bingo Book and Rivals</b>, each on by default: <b>Witnesses</b>, <b>Masked names</b>, <b>Infamy</b>, <b>Village renown</b>, <b>Duel challenges</b> (and how often), <b>Teachers and legacy</b>, <b>Tales and art</b>, <b>Body and bloodline bounties</b>, <b>Intel</b>, <b>Interrogation</b>, <b>Beheading a village</b>.</p>
 </div></details></article></main>
 <footer>NFRP World is a RimWorld mod by Cassie, an add-on for World of Naruto and Taran Magic Framework. Technique and clan material from the Naruto Forum Role-play (NFRP) community archive. The Kazeraikou clan was created by Marii from NFRP and is used with her permission. This wiki is generated from the mod's files.</footer>
-<script>window.ROOT="../";</script><script src="../assets/search.js"></script>
+<script>window.ROOT="../";</script><script src="../assets/search.js"></script><script src="../assets/mock.js"></script>
 </body></html>

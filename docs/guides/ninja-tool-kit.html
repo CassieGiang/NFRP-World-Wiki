@@ -3,7 +3,7 @@
 <title>Ninja tool kit · NFRP World</title><meta name="description" content="Ninja tool kit">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@600;700&display=swap">
-<link rel="stylesheet" href="../assets/style.css"><link rel="icon" href="../assets/icon.png">
+<link rel="stylesheet" href="../assets/style.css"><link rel="stylesheet" href="../assets/mock.css"><link rel="icon" href="../assets/icon.png">
 </head><body>
 <header><div class="hin"><a class="brand" href="../index.html"><img src="../assets/icon.png" alt=""><span>NFRP World</span></a>
 <nav><a href="../index.html">Home</a><a href="../guides/index.html">Guides</a><a href="../trees/index.html">Technique trees</a><a href="../items.html">Items</a><a href="../seals.html">Seals</a><a href="../creatures.html">Creatures</a><a href="../plants.html">Plants</a><a href="../factions.html">Factions</a><a href="../guides/for-modders.html">For modders</a></nav>
@@ -13,15 +13,602 @@
 <p>Kunai, shuriken, senbon, paper bombs, smoke, nets and pills are a ninja&#x27;s everyday tools. They ride in a <b>ninja pouch</b>, a <b>kit</b> decides what each pawn carries, and in a fight the pawn&#x27;s stance decides when to throw them. Tools cost no chakra, so they are what a ninja reaches for while chakra recovers.</p>
 <div class="toolbar"><button type="button" data-act="open">Expand all</button><button type="button" data-act="close">Collapse all</button></div><div class="toc"><a href="#pouches">Pouches</a><a href="#kits">Kits</a><a href="#in-a-fight">In a fight</a><a href="#blades-come-back">Blades come back</a><a href="#sidearm">Sidearm</a><a href="#enemies">Enemies</a><a href="#settings">Settings</a></div><details class="sec gsec" open id="pouches"><summary><span class="st">Pouches</span></summary><div class="body">
 <p>A pouch is worn at the hip. It sets how much fits. Kunai, shuriken, senbon, smoke and pills take 1 unit each; bombs and nets take 2.</p>
-<p>| Pouch | Holds | Research | |---|---|---| | no pouch | 4 units | | | cloth ninja pouch | 12 units | none (crafting spot or tool bench) | | leather ninja pouch | 24 units | Ninja weaponsmithing | | sealing-scroll pouch | 40 units | Sealing arts |</p>
+<div class="tw"><table class="gt"><tr><th>Pouch</th><th>Holds</th><th>Research</th></tr><tr><td>no pouch</td><td>4 units</td><td></td></tr><tr><td>cloth ninja pouch</td><td>12 units</td><td>none (crafting spot or tool bench)</td></tr><tr><td>leather ninja pouch</td><td>24 units</td><td>Ninja weaponsmithing</td></tr><tr><td>sealing-scroll pouch</td><td>40 units</td><td>Sealing arts</td></tr></table></div>
 </div></details>
 <details class="sec gsec" open id="kits"><summary><span class="st">Kits</span></summary><div class="body">
 <p>Select a colonist and press <b>Kit</b>. Pick a kit, or <b>Edit kits…</b> to make your own: set a count for each tool and see how many units it needs. The game starts with five kits: *Assault*, *Infiltration*, *Sealer*, *Medic* and *Barrage*.</p>
 <p>When a pawn is not drafted and has nothing to do, it walks to storage (or picks up tools lying on the ground) and refills its pouch, up to what the pouch holds.</p>
+<figure class="mock bronze">
+<div class="mwin">
+<span class="mx">×</span>
+
+<div class="mpage" data-page="g-assault">
+  <div class="mtitle">Aiko<small>colonist selected, undrafted</small></div>
+  <div class="mgrid">
+    <div class="mslot">Draft</div>
+    <button class="mslot on" data-go="menu">Kit: Assault (14/24)</button>
+    <button class="mslot" data-go="side">Sidearm: none</button>
+  </div>
+  <p class="mmuted">Kit: the ninja tool kit this pawn carries in its pouch, and how full the pouch is. Undrafted pawns refill it from storage. Click to pick a kit or edit kits.</p>
+  <p>Drafted, the bar also shows a button for each kind of tool in the pouch (up to four): <b>Throw kunai x6</b>, <b>Throw shuriken x3</b>, <b>Throw paper bombs x2</b>, <b>Soldier pill x1</b>.</p>
+</div>
+
+<div class="mpage" data-page="g-infiltration" hidden>
+  <div class="mtitle">Aiko<small>colonist selected, undrafted</small></div>
+  <div class="mgrid">
+    <div class="mslot">Draft</div>
+    <button class="mslot on" data-go="menu">Kit: Infiltration (14/24)</button>
+    <button class="mslot" data-go="side">Sidearm: none</button>
+  </div>
+  <p class="mmuted">Kit: the ninja tool kit this pawn carries in its pouch, and how full the pouch is. Undrafted pawns refill it from storage. Click to pick a kit or edit kits.</p>
+  <p class="mgood">Next time Aiko is undrafted and idle, she walks to storage (or the ground) and fills the pouch toward the Infiltration kit, as far as its 24 units allow.</p>
+</div>
+
+<div class="mpage" data-page="g-sealer" hidden>
+  <div class="mtitle">Aiko<small>colonist selected, undrafted</small></div>
+  <div class="mgrid">
+    <div class="mslot">Draft</div>
+    <button class="mslot on" data-go="menu">Kit: Sealer (14/24)</button>
+    <button class="mslot" data-go="side">Sidearm: none</button>
+  </div>
+  <p class="mmuted">Kit: the ninja tool kit this pawn carries in its pouch, and how full the pouch is. Undrafted pawns refill it from storage. Click to pick a kit or edit kits.</p>
+  <p class="mgood">Next time Aiko is undrafted and idle, she walks to storage (or the ground) and fills the pouch toward the Sealer kit, as far as its 24 units allow.</p>
+</div>
+
+<div class="mpage" data-page="g-medic" hidden>
+  <div class="mtitle">Aiko<small>colonist selected, undrafted</small></div>
+  <div class="mgrid">
+    <div class="mslot">Draft</div>
+    <button class="mslot on" data-go="menu">Kit: Medic (14/24)</button>
+    <button class="mslot" data-go="side">Sidearm: none</button>
+  </div>
+  <p class="mmuted">Kit: the ninja tool kit this pawn carries in its pouch, and how full the pouch is. Undrafted pawns refill it from storage. Click to pick a kit or edit kits.</p>
+  <p class="mgood">Next time Aiko is undrafted and idle, she walks to storage (or the ground) and fills the pouch toward the Medic kit, as far as its 24 units allow.</p>
+</div>
+
+<div class="mpage" data-page="g-barrage" hidden>
+  <div class="mtitle">Aiko<small>colonist selected, undrafted</small></div>
+  <div class="mgrid">
+    <div class="mslot">Draft</div>
+    <button class="mslot on" data-go="menu">Kit: Barrage (14/24)</button>
+    <button class="mslot" data-go="side">Sidearm: none</button>
+  </div>
+  <p class="mmuted">Kit: the ninja tool kit this pawn carries in its pouch, and how full the pouch is. Undrafted pawns refill it from storage. Click to pick a kit or edit kits.</p>
+  <p class="mgood">Next time Aiko is undrafted and idle, she walks to storage (or the ground) and fills the pouch toward the Barrage kit, as far as its 24 units allow.</p>
+</div>
+
+<div class="mpage" data-page="g-none" hidden>
+  <div class="mtitle">Aiko<small>colonist selected, undrafted</small></div>
+  <div class="mgrid">
+    <div class="mslot">Draft</div>
+    <button class="mslot on" data-go="menu">Kit: none (14/24)</button>
+    <button class="mslot" data-go="side">Sidearm: none</button>
+  </div>
+  <p class="mmuted">Kit: the ninja tool kit this pawn carries in its pouch, and how full the pouch is. Undrafted pawns refill it from storage. Click to pick a kit or edit kits.</p>
+  <p class="mmuted">No kit: nothing is refilled, and what is in the pouch stays there.</p>
+</div>
+
+<div class="mpage" data-page="menu" hidden>
+  <div class="mtitle">Aiko<small>Kit menu</small></div>
+  <div class="msec">
+<div class="mrow"><button class="mlink" data-go="g-none">No kit</button></div>
+<div class="mrow"><button class="mlink" data-go="g-assault">Assault (16 units)</button></div>
+<div class="mrow"><button class="mlink" data-go="g-infiltration">Infiltration (11 units)</button></div>
+<div class="mrow"><button class="mlink" data-go="g-sealer">Sealer (12 units)</button></div>
+<div class="mrow"><button class="mlink" data-go="g-medic">Medic (7 units)</button></div>
+<div class="mrow"><button class="mlink" data-go="g-barrage">Barrage (16 units)</button></div>
+<div class="mrow"><button class="mlink" data-go="kit-assault">Edit kits...</button></div>
+  </div>
+  <p class="mmuted">With several colonists selected, the kit you pick goes to all of them.</p>
+  <div class="mrowbtns"><button class="mbtn" data-back>Back</button></div>
+</div>
+
+<div class="mpage" data-page="side" hidden>
+  <div class="mtitle">Aiko<small>Sidearm menu</small></div>
+  <div class="msec">
+    <div class="mrow"><button class="mlink" data-back>None</button></div>
+    <div class="mrow mmuted">(drop a second weapon into this pawn's inventory first)</div>
+  </div>
+  <p class="mmuted">A second weapon carried in the pouch. In a fight it swaps in by range: a blade when an enemy is on top of the pawn, the ranged weapon when the enemy is far.</p>
+  <div class="mrowbtns"><button class="mbtn" data-back>Back</button></div>
+</div>
+
+<div class="mpage" data-page="kit-assault" hidden>
+  <div class="mtitle">Ninja kits</div>
+  <div class="mcols" style="grid-template-columns:minmax(0,.45fr) minmax(0,1fr)">
+    <div class="msec">
+<div class="mrow sel"><button class="mlink" data-go="kit-assault">Assault (16)</button></div>
+<div class="mrow"><button class="mlink" data-go="kit-infiltration">Infiltration (11)</button></div>
+<div class="mrow"><button class="mlink" data-go="kit-sealer">Sealer (12)</button></div>
+<div class="mrow"><button class="mlink" data-go="kit-medic">Medic (7)</button></div>
+<div class="mrow"><button class="mlink" data-go="kit-barrage">Barrage (16)</button></div>
+      <div class="mrowbtns" style="flex-direction:column"><button class="mbtn pri" data-go="kit-new">New kit</button><button class="mbtn bad" data-go="del-assault">Delete kit</button></div>
+    </div>
+    <div>
+      <div class="mfield"><div class="minput" style="flex:none;width:240px">Assault</div><span class="mmuted">Units 16 — pouches hold: none 4, cloth 12, leather 24, sealing scroll 40</span></div>
+      <div class="msec" style="max-height:330px;overflow:auto">
+<div class="mrow"><span>Kunai &nbsp;<span class="mmuted">(blade, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">6</b> <button class="mbtn sm" data-go="kit-assault-plus">+</button></span></div>
+<div class="mrow"><span>Senbon &nbsp;<span class="mmuted">(blade, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Shuriken &nbsp;<span class="mmuted">(blade, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">3</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Blinding powder &nbsp;<span class="mmuted">(smoke, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Flash bombs &nbsp;<span class="mmuted">(smoke, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Smoke bombs &nbsp;<span class="mmuted">(smoke, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">2</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Smoke pellet &nbsp;<span class="mmuted">(smoke, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Cluster bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Diamond bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Incendiary bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Paper bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">2</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Penetration bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Empyreal net &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Riot bombs &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Salt bomb &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Slime bomb &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Tanglefoot bag &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Throwing net &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Blood-increasing pill &nbsp;<span class="mmuted">(pill, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Soldier pill &nbsp;<span class="mmuted">(pill, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">1</b> <button class="mbtn sm">+</button></span></div>
+      </div>
+      
+    </div>
+  </div>
+  <div class="mrowbtns" style="justify-content:center"><button class="mbtn" style="width:120px" data-go="g-assault">Close</button></div>
+</div>
+
+<div class="mpage" data-page="del-assault" hidden>
+  <div class="mtitle">Ninja kits</div>
+  <div class="mcols" style="grid-template-columns:minmax(0,.45fr) minmax(0,1fr)">
+    <div class="msec">
+<div class="mrow sel"><button class="mlink" data-go="kit-infiltration">Infiltration (11)</button></div>
+<div class="mrow"><button class="mlink" data-go="kit-sealer">Sealer (12)</button></div>
+<div class="mrow"><button class="mlink" data-go="kit-medic">Medic (7)</button></div>
+<div class="mrow"><button class="mlink" data-go="kit-barrage">Barrage (16)</button></div>
+      <div class="mrowbtns" style="flex-direction:column"><button class="mbtn pri" data-go="kit-new">New kit</button><button class="mbtn bad" data-go="del-assault">Delete kit</button></div>
+    </div>
+    <div>
+      <div class="mfield"><div class="minput" style="flex:none;width:240px">Infiltration</div><span class="mmuted">Units 11 — pouches hold: none 4, cloth 12, leather 24, sealing scroll 40</span></div>
+      <div class="msec" style="max-height:330px;overflow:auto">
+<div class="mrow"><span>Kunai &nbsp;<span class="mmuted">(blade, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Senbon &nbsp;<span class="mmuted">(blade, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">6</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Shuriken &nbsp;<span class="mmuted">(blade, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Blinding powder &nbsp;<span class="mmuted">(smoke, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Flash bombs &nbsp;<span class="mmuted">(smoke, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">1</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Smoke bombs &nbsp;<span class="mmuted">(smoke, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">2</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Smoke pellet &nbsp;<span class="mmuted">(smoke, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">2</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Cluster bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Diamond bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Incendiary bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Paper bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Penetration bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Empyreal net &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Riot bombs &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Salt bomb &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Slime bomb &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Tanglefoot bag &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Throwing net &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Blood-increasing pill &nbsp;<span class="mmuted">(pill, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Soldier pill &nbsp;<span class="mmuted">(pill, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+      </div>
+      <p class="mwarn">Assault is deleted. Colonists who carried it now have no kit.</p>
+    </div>
+  </div>
+  <div class="mrowbtns" style="justify-content:center"><button class="mbtn" style="width:120px" data-go="g-assault">Close</button></div>
+</div>
+
+<div class="mpage" data-page="kit-infiltration" hidden>
+  <div class="mtitle">Ninja kits</div>
+  <div class="mcols" style="grid-template-columns:minmax(0,.45fr) minmax(0,1fr)">
+    <div class="msec">
+<div class="mrow"><button class="mlink" data-go="kit-assault">Assault (16)</button></div>
+<div class="mrow sel"><button class="mlink" data-go="kit-infiltration">Infiltration (11)</button></div>
+<div class="mrow"><button class="mlink" data-go="kit-sealer">Sealer (12)</button></div>
+<div class="mrow"><button class="mlink" data-go="kit-medic">Medic (7)</button></div>
+<div class="mrow"><button class="mlink" data-go="kit-barrage">Barrage (16)</button></div>
+      <div class="mrowbtns" style="flex-direction:column"><button class="mbtn pri" data-go="kit-new">New kit</button><button class="mbtn bad" data-go="del-infiltration">Delete kit</button></div>
+    </div>
+    <div>
+      <div class="mfield"><div class="minput" style="flex:none;width:240px">Infiltration</div><span class="mmuted">Units 11 — pouches hold: none 4, cloth 12, leather 24, sealing scroll 40</span></div>
+      <div class="msec" style="max-height:330px;overflow:auto">
+<div class="mrow"><span>Kunai &nbsp;<span class="mmuted">(blade, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Senbon &nbsp;<span class="mmuted">(blade, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">6</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Shuriken &nbsp;<span class="mmuted">(blade, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Blinding powder &nbsp;<span class="mmuted">(smoke, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Flash bombs &nbsp;<span class="mmuted">(smoke, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">1</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Smoke bombs &nbsp;<span class="mmuted">(smoke, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">2</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Smoke pellet &nbsp;<span class="mmuted">(smoke, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">2</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Cluster bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Diamond bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Incendiary bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Paper bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Penetration bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Empyreal net &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Riot bombs &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Salt bomb &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Slime bomb &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Tanglefoot bag &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Throwing net &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Blood-increasing pill &nbsp;<span class="mmuted">(pill, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Soldier pill &nbsp;<span class="mmuted">(pill, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+      </div>
+      
+    </div>
+  </div>
+  <div class="mrowbtns" style="justify-content:center"><button class="mbtn" style="width:120px" data-go="g-assault">Close</button></div>
+</div>
+
+<div class="mpage" data-page="del-infiltration" hidden>
+  <div class="mtitle">Ninja kits</div>
+  <div class="mcols" style="grid-template-columns:minmax(0,.45fr) minmax(0,1fr)">
+    <div class="msec">
+<div class="mrow sel"><button class="mlink" data-go="kit-assault">Assault (16)</button></div>
+<div class="mrow"><button class="mlink" data-go="kit-sealer">Sealer (12)</button></div>
+<div class="mrow"><button class="mlink" data-go="kit-medic">Medic (7)</button></div>
+<div class="mrow"><button class="mlink" data-go="kit-barrage">Barrage (16)</button></div>
+      <div class="mrowbtns" style="flex-direction:column"><button class="mbtn pri" data-go="kit-new">New kit</button><button class="mbtn bad" data-go="del-infiltration">Delete kit</button></div>
+    </div>
+    <div>
+      <div class="mfield"><div class="minput" style="flex:none;width:240px">Assault</div><span class="mmuted">Units 16 — pouches hold: none 4, cloth 12, leather 24, sealing scroll 40</span></div>
+      <div class="msec" style="max-height:330px;overflow:auto">
+<div class="mrow"><span>Kunai &nbsp;<span class="mmuted">(blade, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">6</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Senbon &nbsp;<span class="mmuted">(blade, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Shuriken &nbsp;<span class="mmuted">(blade, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">3</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Blinding powder &nbsp;<span class="mmuted">(smoke, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Flash bombs &nbsp;<span class="mmuted">(smoke, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Smoke bombs &nbsp;<span class="mmuted">(smoke, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">2</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Smoke pellet &nbsp;<span class="mmuted">(smoke, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Cluster bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Diamond bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Incendiary bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Paper bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">2</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Penetration bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Empyreal net &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Riot bombs &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Salt bomb &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Slime bomb &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Tanglefoot bag &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Throwing net &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Blood-increasing pill &nbsp;<span class="mmuted">(pill, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Soldier pill &nbsp;<span class="mmuted">(pill, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">1</b> <button class="mbtn sm">+</button></span></div>
+      </div>
+      <p class="mwarn">Infiltration is deleted. Colonists who carried it now have no kit.</p>
+    </div>
+  </div>
+  <div class="mrowbtns" style="justify-content:center"><button class="mbtn" style="width:120px" data-go="g-assault">Close</button></div>
+</div>
+
+<div class="mpage" data-page="kit-sealer" hidden>
+  <div class="mtitle">Ninja kits</div>
+  <div class="mcols" style="grid-template-columns:minmax(0,.45fr) minmax(0,1fr)">
+    <div class="msec">
+<div class="mrow"><button class="mlink" data-go="kit-assault">Assault (16)</button></div>
+<div class="mrow"><button class="mlink" data-go="kit-infiltration">Infiltration (11)</button></div>
+<div class="mrow sel"><button class="mlink" data-go="kit-sealer">Sealer (12)</button></div>
+<div class="mrow"><button class="mlink" data-go="kit-medic">Medic (7)</button></div>
+<div class="mrow"><button class="mlink" data-go="kit-barrage">Barrage (16)</button></div>
+      <div class="mrowbtns" style="flex-direction:column"><button class="mbtn pri" data-go="kit-new">New kit</button><button class="mbtn bad" data-go="del-sealer">Delete kit</button></div>
+    </div>
+    <div>
+      <div class="mfield"><div class="minput" style="flex:none;width:240px">Sealer</div><span class="mmuted">Units 12 — pouches hold: none 4, cloth 12, leather 24, sealing scroll 40</span></div>
+      <div class="msec" style="max-height:330px;overflow:auto">
+<div class="mrow"><span>Kunai &nbsp;<span class="mmuted">(blade, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">4</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Senbon &nbsp;<span class="mmuted">(blade, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Shuriken &nbsp;<span class="mmuted">(blade, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Blinding powder &nbsp;<span class="mmuted">(smoke, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Flash bombs &nbsp;<span class="mmuted">(smoke, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Smoke bombs &nbsp;<span class="mmuted">(smoke, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Smoke pellet &nbsp;<span class="mmuted">(smoke, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Cluster bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Diamond bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Incendiary bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Paper bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Penetration bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Empyreal net &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Riot bombs &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Salt bomb &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Slime bomb &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Tanglefoot bag &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">2</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Throwing net &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">2</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Blood-increasing pill &nbsp;<span class="mmuted">(pill, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Soldier pill &nbsp;<span class="mmuted">(pill, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+      </div>
+      
+    </div>
+  </div>
+  <div class="mrowbtns" style="justify-content:center"><button class="mbtn" style="width:120px" data-go="g-assault">Close</button></div>
+</div>
+
+<div class="mpage" data-page="del-sealer" hidden>
+  <div class="mtitle">Ninja kits</div>
+  <div class="mcols" style="grid-template-columns:minmax(0,.45fr) minmax(0,1fr)">
+    <div class="msec">
+<div class="mrow"><button class="mlink" data-go="kit-assault">Assault (16)</button></div>
+<div class="mrow sel"><button class="mlink" data-go="kit-infiltration">Infiltration (11)</button></div>
+<div class="mrow"><button class="mlink" data-go="kit-medic">Medic (7)</button></div>
+<div class="mrow"><button class="mlink" data-go="kit-barrage">Barrage (16)</button></div>
+      <div class="mrowbtns" style="flex-direction:column"><button class="mbtn pri" data-go="kit-new">New kit</button><button class="mbtn bad" data-go="del-sealer">Delete kit</button></div>
+    </div>
+    <div>
+      <div class="mfield"><div class="minput" style="flex:none;width:240px">Infiltration</div><span class="mmuted">Units 11 — pouches hold: none 4, cloth 12, leather 24, sealing scroll 40</span></div>
+      <div class="msec" style="max-height:330px;overflow:auto">
+<div class="mrow"><span>Kunai &nbsp;<span class="mmuted">(blade, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Senbon &nbsp;<span class="mmuted">(blade, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">6</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Shuriken &nbsp;<span class="mmuted">(blade, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Blinding powder &nbsp;<span class="mmuted">(smoke, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Flash bombs &nbsp;<span class="mmuted">(smoke, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">1</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Smoke bombs &nbsp;<span class="mmuted">(smoke, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">2</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Smoke pellet &nbsp;<span class="mmuted">(smoke, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">2</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Cluster bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Diamond bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Incendiary bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Paper bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Penetration bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Empyreal net &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Riot bombs &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Salt bomb &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Slime bomb &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Tanglefoot bag &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Throwing net &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Blood-increasing pill &nbsp;<span class="mmuted">(pill, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Soldier pill &nbsp;<span class="mmuted">(pill, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+      </div>
+      <p class="mwarn">Sealer is deleted. Colonists who carried it now have no kit.</p>
+    </div>
+  </div>
+  <div class="mrowbtns" style="justify-content:center"><button class="mbtn" style="width:120px" data-go="g-assault">Close</button></div>
+</div>
+
+<div class="mpage" data-page="kit-medic" hidden>
+  <div class="mtitle">Ninja kits</div>
+  <div class="mcols" style="grid-template-columns:minmax(0,.45fr) minmax(0,1fr)">
+    <div class="msec">
+<div class="mrow"><button class="mlink" data-go="kit-assault">Assault (16)</button></div>
+<div class="mrow"><button class="mlink" data-go="kit-infiltration">Infiltration (11)</button></div>
+<div class="mrow"><button class="mlink" data-go="kit-sealer">Sealer (12)</button></div>
+<div class="mrow sel"><button class="mlink" data-go="kit-medic">Medic (7)</button></div>
+<div class="mrow"><button class="mlink" data-go="kit-barrage">Barrage (16)</button></div>
+      <div class="mrowbtns" style="flex-direction:column"><button class="mbtn pri" data-go="kit-new">New kit</button><button class="mbtn bad" data-go="del-medic">Delete kit</button></div>
+    </div>
+    <div>
+      <div class="mfield"><div class="minput" style="flex:none;width:240px">Medic</div><span class="mmuted">Units 7 — pouches hold: none 4, cloth 12, leather 24, sealing scroll 40</span></div>
+      <div class="msec" style="max-height:330px;overflow:auto">
+<div class="mrow"><span>Kunai &nbsp;<span class="mmuted">(blade, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Senbon &nbsp;<span class="mmuted">(blade, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Shuriken &nbsp;<span class="mmuted">(blade, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Blinding powder &nbsp;<span class="mmuted">(smoke, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Flash bombs &nbsp;<span class="mmuted">(smoke, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Smoke bombs &nbsp;<span class="mmuted">(smoke, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">1</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Smoke pellet &nbsp;<span class="mmuted">(smoke, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Cluster bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Diamond bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Incendiary bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Paper bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Penetration bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Empyreal net &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Riot bombs &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Salt bomb &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Slime bomb &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Tanglefoot bag &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Throwing net &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Blood-increasing pill &nbsp;<span class="mmuted">(pill, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">3</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Soldier pill &nbsp;<span class="mmuted">(pill, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">3</b> <button class="mbtn sm">+</button></span></div>
+      </div>
+      
+    </div>
+  </div>
+  <div class="mrowbtns" style="justify-content:center"><button class="mbtn" style="width:120px" data-go="g-assault">Close</button></div>
+</div>
+
+<div class="mpage" data-page="del-medic" hidden>
+  <div class="mtitle">Ninja kits</div>
+  <div class="mcols" style="grid-template-columns:minmax(0,.45fr) minmax(0,1fr)">
+    <div class="msec">
+<div class="mrow"><button class="mlink" data-go="kit-assault">Assault (16)</button></div>
+<div class="mrow"><button class="mlink" data-go="kit-infiltration">Infiltration (11)</button></div>
+<div class="mrow sel"><button class="mlink" data-go="kit-sealer">Sealer (12)</button></div>
+<div class="mrow"><button class="mlink" data-go="kit-barrage">Barrage (16)</button></div>
+      <div class="mrowbtns" style="flex-direction:column"><button class="mbtn pri" data-go="kit-new">New kit</button><button class="mbtn bad" data-go="del-medic">Delete kit</button></div>
+    </div>
+    <div>
+      <div class="mfield"><div class="minput" style="flex:none;width:240px">Sealer</div><span class="mmuted">Units 12 — pouches hold: none 4, cloth 12, leather 24, sealing scroll 40</span></div>
+      <div class="msec" style="max-height:330px;overflow:auto">
+<div class="mrow"><span>Kunai &nbsp;<span class="mmuted">(blade, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">4</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Senbon &nbsp;<span class="mmuted">(blade, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Shuriken &nbsp;<span class="mmuted">(blade, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Blinding powder &nbsp;<span class="mmuted">(smoke, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Flash bombs &nbsp;<span class="mmuted">(smoke, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Smoke bombs &nbsp;<span class="mmuted">(smoke, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Smoke pellet &nbsp;<span class="mmuted">(smoke, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Cluster bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Diamond bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Incendiary bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Paper bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Penetration bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Empyreal net &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Riot bombs &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Salt bomb &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Slime bomb &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Tanglefoot bag &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">2</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Throwing net &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">2</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Blood-increasing pill &nbsp;<span class="mmuted">(pill, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Soldier pill &nbsp;<span class="mmuted">(pill, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+      </div>
+      <p class="mwarn">Medic is deleted. Colonists who carried it now have no kit.</p>
+    </div>
+  </div>
+  <div class="mrowbtns" style="justify-content:center"><button class="mbtn" style="width:120px" data-go="g-assault">Close</button></div>
+</div>
+
+<div class="mpage" data-page="kit-barrage" hidden>
+  <div class="mtitle">Ninja kits</div>
+  <div class="mcols" style="grid-template-columns:minmax(0,.45fr) minmax(0,1fr)">
+    <div class="msec">
+<div class="mrow"><button class="mlink" data-go="kit-assault">Assault (16)</button></div>
+<div class="mrow"><button class="mlink" data-go="kit-infiltration">Infiltration (11)</button></div>
+<div class="mrow"><button class="mlink" data-go="kit-sealer">Sealer (12)</button></div>
+<div class="mrow"><button class="mlink" data-go="kit-medic">Medic (7)</button></div>
+<div class="mrow sel"><button class="mlink" data-go="kit-barrage">Barrage (16)</button></div>
+      <div class="mrowbtns" style="flex-direction:column"><button class="mbtn pri" data-go="kit-new">New kit</button><button class="mbtn bad" data-go="del-barrage">Delete kit</button></div>
+    </div>
+    <div>
+      <div class="mfield"><div class="minput" style="flex:none;width:240px">Barrage</div><span class="mmuted">Units 16 — pouches hold: none 4, cloth 12, leather 24, sealing scroll 40</span></div>
+      <div class="msec" style="max-height:330px;overflow:auto">
+<div class="mrow"><span>Kunai &nbsp;<span class="mmuted">(blade, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">4</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Senbon &nbsp;<span class="mmuted">(blade, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Shuriken &nbsp;<span class="mmuted">(blade, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Blinding powder &nbsp;<span class="mmuted">(smoke, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Flash bombs &nbsp;<span class="mmuted">(smoke, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Smoke bombs &nbsp;<span class="mmuted">(smoke, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Smoke pellet &nbsp;<span class="mmuted">(smoke, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Cluster bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">2</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Diamond bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Incendiary bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Paper bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">4</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Penetration bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Empyreal net &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Riot bombs &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Salt bomb &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Slime bomb &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Tanglefoot bag &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Throwing net &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Blood-increasing pill &nbsp;<span class="mmuted">(pill, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Soldier pill &nbsp;<span class="mmuted">(pill, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+      </div>
+      
+    </div>
+  </div>
+  <div class="mrowbtns" style="justify-content:center"><button class="mbtn" style="width:120px" data-go="g-assault">Close</button></div>
+</div>
+
+<div class="mpage" data-page="del-barrage" hidden>
+  <div class="mtitle">Ninja kits</div>
+  <div class="mcols" style="grid-template-columns:minmax(0,.45fr) minmax(0,1fr)">
+    <div class="msec">
+<div class="mrow"><button class="mlink" data-go="kit-assault">Assault (16)</button></div>
+<div class="mrow"><button class="mlink" data-go="kit-infiltration">Infiltration (11)</button></div>
+<div class="mrow"><button class="mlink" data-go="kit-sealer">Sealer (12)</button></div>
+<div class="mrow sel"><button class="mlink" data-go="kit-medic">Medic (7)</button></div>
+      <div class="mrowbtns" style="flex-direction:column"><button class="mbtn pri" data-go="kit-new">New kit</button><button class="mbtn bad" data-go="del-barrage">Delete kit</button></div>
+    </div>
+    <div>
+      <div class="mfield"><div class="minput" style="flex:none;width:240px">Medic</div><span class="mmuted">Units 7 — pouches hold: none 4, cloth 12, leather 24, sealing scroll 40</span></div>
+      <div class="msec" style="max-height:330px;overflow:auto">
+<div class="mrow"><span>Kunai &nbsp;<span class="mmuted">(blade, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Senbon &nbsp;<span class="mmuted">(blade, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Shuriken &nbsp;<span class="mmuted">(blade, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Blinding powder &nbsp;<span class="mmuted">(smoke, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Flash bombs &nbsp;<span class="mmuted">(smoke, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Smoke bombs &nbsp;<span class="mmuted">(smoke, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">1</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Smoke pellet &nbsp;<span class="mmuted">(smoke, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Cluster bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Diamond bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Incendiary bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Paper bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Penetration bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Empyreal net &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Riot bombs &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Salt bomb &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Slime bomb &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Tanglefoot bag &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Throwing net &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Blood-increasing pill &nbsp;<span class="mmuted">(pill, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">3</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Soldier pill &nbsp;<span class="mmuted">(pill, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">3</b> <button class="mbtn sm">+</button></span></div>
+      </div>
+      <p class="mwarn">Barrage is deleted. Colonists who carried it now have no kit.</p>
+    </div>
+  </div>
+  <div class="mrowbtns" style="justify-content:center"><button class="mbtn" style="width:120px" data-go="g-assault">Close</button></div>
+</div>
+
+<div class="mpage" data-page="kit-assault-plus" hidden>
+  <div class="mtitle">Ninja kits</div>
+  <div class="mcols" style="grid-template-columns:minmax(0,.45fr) minmax(0,1fr)">
+    <div class="msec">
+<div class="mrow sel"><button class="mlink" data-go="kit-assault">Assault (17)</button></div>
+<div class="mrow"><button class="mlink" data-go="kit-infiltration">Infiltration (11)</button></div>
+<div class="mrow"><button class="mlink" data-go="kit-sealer">Sealer (12)</button></div>
+<div class="mrow"><button class="mlink" data-go="kit-medic">Medic (7)</button></div>
+<div class="mrow"><button class="mlink" data-go="kit-barrage">Barrage (16)</button></div>
+      <div class="mrowbtns" style="flex-direction:column"><button class="mbtn pri" data-go="kit-new">New kit</button><button class="mbtn bad" data-go="del-assault">Delete kit</button></div>
+    </div>
+    <div>
+      <div class="mfield"><div class="minput" style="flex:none;width:240px">Assault</div><span class="mmuted">Units 17 — pouches hold: none 4, cloth 12, leather 24, sealing scroll 40</span></div>
+      <div class="msec" style="max-height:330px;overflow:auto">
+<div class="mrow"><span>Kunai &nbsp;<span class="mmuted">(blade, 1 unit)</span></span><span class="r"><button class="mbtn sm" data-go="kit-assault">-</button> <b style="display:inline-block;width:28px;text-align:center">7</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Senbon &nbsp;<span class="mmuted">(blade, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Shuriken &nbsp;<span class="mmuted">(blade, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">3</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Blinding powder &nbsp;<span class="mmuted">(smoke, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Flash bombs &nbsp;<span class="mmuted">(smoke, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Smoke bombs &nbsp;<span class="mmuted">(smoke, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">2</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Smoke pellet &nbsp;<span class="mmuted">(smoke, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Cluster bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Diamond bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Incendiary bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Paper bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">2</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Penetration bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Empyreal net &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Riot bombs &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Salt bomb &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Slime bomb &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Tanglefoot bag &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Throwing net &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Blood-increasing pill &nbsp;<span class="mmuted">(pill, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Soldier pill &nbsp;<span class="mmuted">(pill, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">1</b> <button class="mbtn sm">+</button></span></div>
+      </div>
+      
+    </div>
+  </div>
+  <div class="mrowbtns" style="justify-content:center"><button class="mbtn" style="width:120px" data-go="g-assault">Close</button></div>
+</div>
+
+<div class="mpage" data-page="kit-new" hidden>
+  <div class="mtitle">Ninja kits</div>
+  <div class="mcols" style="grid-template-columns:minmax(0,.45fr) minmax(0,1fr)">
+    <div class="msec">
+<div class="mrow"><button class="mlink" data-go="kit-assault">Assault (16)</button></div>
+<div class="mrow"><button class="mlink" data-go="kit-infiltration">Infiltration (11)</button></div>
+<div class="mrow"><button class="mlink" data-go="kit-sealer">Sealer (12)</button></div>
+<div class="mrow"><button class="mlink" data-go="kit-medic">Medic (7)</button></div>
+<div class="mrow"><button class="mlink" data-go="kit-barrage">Barrage (16)</button></div>
+<div class="mrow sel"><button class="mlink" data-go="kit-new">Kit 6 (0)</button></div>
+      <div class="mrowbtns" style="flex-direction:column"><button class="mbtn pri" data-go="kit-new">New kit</button><button class="mbtn bad" data-go="kit-barrage">Delete kit</button></div>
+    </div>
+    <div>
+      <div class="mfield"><div class="minput" style="flex:none;width:240px">Kit 6</div><span class="mmuted">Units 0 — pouches hold: none 4, cloth 12, leather 24, sealing scroll 40</span></div>
+      <div class="msec" style="max-height:330px;overflow:auto">
+<div class="mrow"><span>Kunai &nbsp;<span class="mmuted">(blade, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Senbon &nbsp;<span class="mmuted">(blade, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Shuriken &nbsp;<span class="mmuted">(blade, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Blinding powder &nbsp;<span class="mmuted">(smoke, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Flash bombs &nbsp;<span class="mmuted">(smoke, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Smoke bombs &nbsp;<span class="mmuted">(smoke, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Smoke pellet &nbsp;<span class="mmuted">(smoke, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Cluster bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Diamond bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Incendiary bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Paper bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Penetration bombs &nbsp;<span class="mmuted">(bomb, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Empyreal net &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Riot bombs &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Salt bomb &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Slime bomb &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Tanglefoot bag &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Throwing net &nbsp;<span class="mmuted">(control, 2 units)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Blood-increasing pill &nbsp;<span class="mmuted">(pill, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+<div class="mrow"><span>Soldier pill &nbsp;<span class="mmuted">(pill, 1 unit)</span></span><span class="r"><button class="mbtn sm">-</button> <b style="display:inline-block;width:28px;text-align:center">0</b> <button class="mbtn sm">+</button></span></div>
+      </div>
+      <p class="mmuted">Type a name in the box and set a count for each tool.</p>
+    </div>
+  </div>
+  <div class="mrowbtns" style="justify-content:center"><button class="mbtn" style="width:120px" data-go="g-assault">Close</button></div>
+</div>
+
+</div>
+<figcaption>The <b>Kit</b> and <b>Sidearm</b> buttons of a selected colonist, the kit menu, and the <b>Ninja kits</b> editor (Kit button → <b>Edit kits...</b>).</figcaption>
+</figure>
+
 </div></details>
 <details class="sec gsec" open id="in-a-fight"><summary><span class="st">In a fight</span></summary><div class="body">
 <p>Drafted pawns use their tools on their own, depending on their <b>stance</b>:</p>
-<p>| Stance | Tools | |---|---| | Vanguard | opens with a smoke bomb between itself and the enemy, then throws blades as it closes in | | Assassin | drops smoke on itself when it is spotted, then throws senbon (or other blades) from cover | | Barrage | throws bombs at the thickest group of enemies, between techniques, and never at an enemy standing next to one of your pawns | | Sealer | throws nets and tangling bags to pin enemies, then blades | | Support | gives pills to allies: a blood-increasing pill to someone bleeding, a soldier pill to someone out of chakra | | Default | throws blades when its chakra runs low |</p>
+<div class="tw"><table class="gt"><tr><th>Stance</th><th>Tools</th></tr><tr><td>Vanguard</td><td>opens with a smoke bomb between itself and the enemy, then throws blades as it closes in</td></tr><tr><td>Assassin</td><td>drops smoke on itself when it is spotted, then throws senbon (or other blades) from cover</td></tr><tr><td>Barrage</td><td>throws bombs at the thickest group of enemies, between techniques, and never at an enemy standing next to one of your pawns</td></tr><tr><td>Sealer</td><td>throws nets and tangling bags to pin enemies, then blades</td></tr><tr><td>Support</td><td>gives pills to allies: a blood-increasing pill to someone bleeding, a soldier pill to someone out of chakra</td></tr><tr><td>Default</td><td>throws blades when its chakra runs low</td></tr></table></div>
 <p>Tools follow the <b>priority target</b> if one is marked. Thrown hits fill the enemy&#x27;s break meter like any other ranged hit. Drafted pawns also get buttons to throw any tool by hand.</p>
 </div></details>
 <details class="sec gsec" open id="blades-come-back"><summary><span class="st">Blades come back</span></summary><div class="body">
@@ -37,5 +624,5 @@
 <p>Mod settings, <b>Ninja tool kit</b>: tool kits, using tools in fights, refilling from storage, blades coming back, the sidearm swap, enemy kits, drawn hold-fire areas for guard posts and formations routing around walls. All on by default.</p>
 </div></details></article></main>
 <footer>NFRP World is a RimWorld mod by Cassie, an add-on for World of Naruto and Taran Magic Framework. Technique and clan material from the Naruto Forum Role-play (NFRP) community archive. The Kazeraikou clan was created by Marii from NFRP and is used with her permission. This wiki is generated from the mod's files.</footer>
-<script>window.ROOT="../";</script><script src="../assets/search.js"></script>
+<script>window.ROOT="../";</script><script src="../assets/search.js"></script><script src="../assets/mock.js"></script>
 </body></html>

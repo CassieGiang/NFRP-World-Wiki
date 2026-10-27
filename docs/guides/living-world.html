@@ -3,7 +3,7 @@
 <title>The living world · NFRP World</title><meta name="description" content="The living world">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@600;700&display=swap">
-<link rel="stylesheet" href="../assets/style.css"><link rel="icon" href="../assets/icon.png">
+<link rel="stylesheet" href="../assets/style.css"><link rel="stylesheet" href="../assets/mock.css"><link rel="icon" href="../assets/icon.png">
 </head><body>
 <header><div class="hin"><a class="brand" href="../index.html"><img src="../assets/icon.png" alt=""><span>NFRP World</span></a>
 <nav><a href="../index.html">Home</a><a href="../guides/index.html">Guides</a><a href="../trees/index.html">Technique trees</a><a href="../items.html">Items</a><a href="../seals.html">Seals</a><a href="../creatures.html">Creatures</a><a href="../plants.html">Plants</a><a href="../factions.html">Factions</a><a href="../guides/for-modders.html">For modders</a></nav>
@@ -11,18 +11,705 @@
 </div></header>
 <main><article class="guide"><h1>The living world</h1>
 <p>The ninja world keeps moving when you aren&#x27;t looking. Villages fight and make peace, settlements fall and new ones are founded, named ninja grow up, marry, rank up and die, travellers walk the roads, legendary beasts roam, and the market follows it all. Everything that happens is written into the <b>World news</b> in the Ninja world window. The window has six tabs: <b>Overview</b> (your village, squads away with a Watch button, what&#x27;s coming up, your ninja with rank, stance and status, the latest news), <b>Villages &amp; diplomacy</b> (the war, founding your village, every faction with its leader and pacts on hover), <b>Bingo Book</b> (the most famous names, and the full book), <b>Missions</b> (send a squad, mission rank, records, the chūnin exam, duties), <b>News</b> and <b>Research</b>. Every part can be switched off on its own (Mod settings &gt; NFRP World &gt; World and events &gt; Living world).</p>
+<figure class="mock bronze">
+<div class="mwin">
+<span class="mx">×</span>
+
+<div class="mpage" data-page="ov">
+  <div class="mtabs" role="tablist"><button data-tab="ov">Overview</button><button data-tab="vil">Villages &amp; diplomacy</button><button data-tab="bb">Bingo Book</button><button data-tab="mis">Missions</button><button data-tab="news">News</button><button data-tab="res">Research</button></div>
+  <div class="mcols even">
+  <div>
+  <div class="msec"><h4>Getting started</h4>
+    <div class="mgood">&nbsp;&nbsp;• Build a scribe desk to copy techniques onto scrolls for other ninja.</div>
+  </div>
+  <div class="msec"><h4>Your village</h4>
+    <div>Sworn to Haigakure.</div>
+    <div class="mmuted">&nbsp;&nbsp;• Its scrolls cost 30% less (up to B rank).</div>
+    <div class="mmuted">&nbsp;&nbsp;• It offers ranked missions three times as often.</div>
+    <div class="mmuted">&nbsp;&nbsp;• Each rank your ninja earn raises its goodwill.</div>
+    <div class="mmuted">&nbsp;&nbsp;• It hosts your chūnin exams.</div>
+    <div class="mbad">The truce is over.</div>
+    <div>Mission rank: level 3 &nbsp;·&nbsp; relics 2/10</div>
+  </div>
+  <div class="msec"><h4>Renown</h4>
+    <div class="mwarn">Ashfall is noted (renown 212, renowned at 350).</div>
+    <div class="mmuted">&nbsp;&nbsp;• Wanderers seek you out (0.5% a day, at most every 15 days).</div>
+    <div class="mmuted">&nbsp;&nbsp;• Ranked missions pay 10% more silver.</div>
+    <div class="mmuted">&nbsp;&nbsp;• Traders sell to you 1% cheaper.</div>
+    <div class="mmuted">&nbsp;&nbsp;• Raids are 5% bigger: your name draws challengers.</div>
+    <div class="mmuted">Notoriety: clean (12).</div>
+    <div class="mmuted">Best known: Hoshi 'Still Water' Arai (310), Kenta 'Ember' Mori (184), Mei Sato (62).</div>
+    <div class="mmuted">Talked about: Kenta drove off a Syndicate enforcer at the river crossing.</div>
+  </div>
+  </div>
+  <div>
+  <div class="msec"><h4>Squads away</h4>
+    <div>Aiko, Haru — B-rank, back in 2.4 days</div>
+    <div style="display:flex;align-items:center;gap:8px"><div class="mbar" style="flex:1;height:14px"><i style="width:52%"></i></div><button class="mbtn sm" data-go="watch">Watch</button></div>
+  </div>
+  <div class="msec"><h4>Coming up</h4>
+    <div>Festival: around in 6 days.</div>
+    <div>Exam: around in 14 days.</div>
+    <div class="mmuted">An exam invitation can come any time now.</div>
+  </div>
+  </div>
+  </div>
+  <div class="msec"><h4>Your ninja</h4>
+    <div class="mrow mmuted" style="font-size:12px"><span style="width:16%">Name</span><span style="width:13%">Rank</span><span style="width:7%">Level</span><span style="width:11%">Stance</span><span style="width:18%">Status</span><span>Next exam</span></div>
+    <div class="mrow" title="Hoshi&#10;highest rank&#10;&#10;Click to select."><span style="width:16%">Hoshi</span><span style="width:13%">village leader</span><span style="width:7%">17</span><span style="width:11%">Default</span><span style="width:18%" class="mgood">fine · known</span><span class="" style="flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">highest rank</span></div>
+    <div class="mrow" title="Kenta&#10;jōnin: needs 34 more days as chūnin (120 in all)&#10;&#10;Click to select."><span style="width:16%">Kenta</span><span style="width:13%">chūnin</span><span style="width:7%">11</span><span style="width:11%">Vanguard</span><span style="width:18%" class="mgood">fine · known</span><span class="" style="flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">jōnin: needs 34 more days as chūnin (120 in all)</span></div>
+    <div class="mrow" title="Mei&#10;jōnin: needs ninja level 13 and two of Melee, Shooting, Intellectual, Medicine at 8&#10;&#10;Click to select."><span style="width:16%">Mei</span><span style="width:13%">chūnin</span><span style="width:7%">9</span><span style="width:11%">Support</span><span style="width:18%" class="mwarn">drafted</span><span class="" style="flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">jōnin: needs ninja level 13 and two of Melee, Shooting, Intellectual, Medicine at 8</span></div>
+    <div class="mrow" title="Aiko&#10;chūnin: ready&#10;&#10;Click to select."><span style="width:16%">Aiko</span><span style="width:13%">genin</span><span style="width:7%">7</span><span style="width:11%">Assassin</span><span style="width:18%" class="">on a mission</span><span class="mgood" style="flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">chūnin: ready</span></div>
+    <div class="mrow" title="Daichi&#10;chūnin: needs 21 more days as genin (60 in all)&#10;&#10;Click to select."><span style="width:16%">Daichi</span><span style="width:13%">genin</span><span style="width:7%">5</span><span style="width:11%">Default</span><span style="width:18%" class="mwarn">wounded</span><span class="" style="flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">chūnin: needs 21 more days as genin (60 in all)</span></div>
+    <div class="mrow" title="Haru&#10;chūnin: ready&#10;&#10;Click to select."><span style="width:16%">Haru</span><span style="width:13%">genin</span><span style="width:7%">4</span><span style="width:11%">Sealer</span><span style="width:18%" class="">on a mission</span><span class="mgood" style="flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">chūnin: ready</span></div>
+    <div class="mrow" title="Ren&#10;genin: needs ninja level 3&#10;&#10;Click to select."><span style="width:16%">Ren</span><span style="width:13%">no rank</span><span style="width:7%">2</span><span style="width:11%">Default</span><span style="width:18%" class="mgood">fine</span><span class="" style="flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">genin: needs ninja level 3</span></div>
+    <div class="mrow" title="Sora&#10;chūnin: needs 48 more days as genin (60 in all)&#10;&#10;Click to select."><span style="width:16%">Sora</span><span style="width:13%">genin</span><span style="width:7%">3</span><span style="width:11%">Barrage</span><span style="width:18%" class="mgood">fine</span><span class="" style="flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">chūnin: needs 48 more days as genin (60 in all)</span></div>
+    <p class="mmuted" style="font-size:12px;margin:4px 0 0">Click a row to jump to that ninja and select them.</p>
+  </div>
+  <div class="msec"><h4>Latest news</h4>
+    <div style="font-size:12px">7 Septober: A squad (Aiko, Haru) left for a B-rank mission for Haigakure: escort a merchant over a bandit pass.</div>
+    <div class="mwarn" style="font-size:12px">6 Septober: Sajingakure took the outpost at Red Ford from Tetsugakure.</div>
+    <div style="font-size:12px">5 Septober: Team Mori was formed: Kenta teaches Daichi.</div>
+    <div style="font-size:12px">3 Septober: Tribute paid with Otowagakure for 30 days.</div>
+    <div class="mwarn" style="font-size:12px">1 Septober: The chūnin exam in Nagisagakure: Sora (Nagisagakure), Tomo (Kaedegakure) were made chūnin.</div>
+    <div class="mrowbtns"><button class="mbtn" data-tab="news">All news</button></div>
+  </div>
+</div>
+
+<div class="mpage" data-page="vil" hidden>
+  <div class="mtabs" role="tablist"><button data-tab="ov">Overview</button><button data-tab="vil">Villages &amp; diplomacy</button><button data-tab="bb">Bingo Book</button><button data-tab="mis">Missions</button><button data-tab="news">News</button><button data-tab="res">Research</button></div>
+  <div class="mcols even">
+  <div>
+  <div class="msec"><h4>The war</h4>
+    <div class="mbad">The truce is over: warring villages and the Syndicate may raid you.</div>
+    <div>Between the villages: 3 settlements taken, 5 attacks held off.</div>
+    <div class="mmuted">&nbsp;&nbsp;Settlements held: Haigakure 4, Nagisagakure 3, Sajingakure 4, Tetsugakure 2, Black Ink Syndicate 3.</div>
+    <div class="mmuted">&nbsp;&nbsp;Sajingakure took the outpost at Red Ford from Tetsugakure.</div>
+    <div class="mmuted">&nbsp;&nbsp;Nagisagakure held off an attack by Sajingakure.</div>
+  </div>
+  <div class="msec"><h4>Founding your village</h4>
+    <div class="mgood">&nbsp;&nbsp;[x] A village leader: Hoshi.</div>
+    <div>&nbsp;&nbsp;[&nbsp;&nbsp;] Ranked ninja (chūnin or higher) besides the leader: 2/3.</div>
+    <div class="mgood">&nbsp;&nbsp;[x] Colonists: 9/6.</div>
+    <div class="mgood">&nbsp;&nbsp;[x] Independence: Haigakure must give its blessing (goodwill 78/75), or leave it first.</div>
+    <div class="mgood">&nbsp;&nbsp;[x] Standing: goodwill 0+ with 4/2 villages.</div>
+    <div>&nbsp;&nbsp;[&nbsp;&nbsp;] A household shrine at home.</div>
+    <div class="mgood">&nbsp;&nbsp;[x] A training dummy or battle ring at home.</div>
+    <div class="mgood">&nbsp;&nbsp;[x] A comms console, to take requests from other villages.</div>
+    <div class="mmuted">A hidden village of your own hosts exams at home and takes missions from other factions.</div>
+    <p class="mmuted" style="font-size:12px;margin:6px 0 0">When every line is ticked, a <b>Found the village</b> button takes this line's place.</p>
+  </div>
+  <div class="msec"><h4>Path to peace</h4>
+    <div class="mgood">&nbsp;&nbsp;[x] A village leader to sit at the summit: Hoshi.</div>
+    <div>&nbsp;&nbsp;Next leaders' summit in about 23 days (1 held).</div>
+    <div>&nbsp;&nbsp;[&nbsp;&nbsp;] Villages in alliance or ceasefire: 1/4: Haigakure (ally).</div>
+    <div>&nbsp;&nbsp;[&nbsp;&nbsp;] A united front against the Syndicate, called at a summit.</div>
+    <div>&nbsp;&nbsp;or: break the Syndicate. Settlements left: 3.</div>
+  </div>
+  </div>
+  <div>
+  <div class="msec"><h4>Factions</h4>
+    <div class="mmuted" style="font-size:12px">Hover a faction for its leader, pacts and what it remembers of you.</div>
+    <div class="mwarn" style="font-size:12px;margin-top:6px">Hidden villages</div>
+    <div class="mrow" title="Leader, pacts and what the faction remembers of you show here when you hover it in game."><span>Haigakure  (sworn)</span><span class="r mgood">+78  Ally</span></div>
+    <div class="mrow" title="Leader, pacts and what the faction remembers of you show here when you hover it in game."><span>Nagisagakure</span><span class="r ">+12  Neutral</span></div>
+    <div class="mrow" title="Leader, pacts and what the faction remembers of you show here when you hover it in game."><span>Sajingakure</span><span class="r mbad">-45  Hostile</span></div>
+    <div class="mwarn" style="font-size:12px;margin-top:6px">Smaller villages</div>
+    <div class="mrow" title="Leader, pacts and what the faction remembers of you show here when you hover it in game."><span>Kaedegakure</span><span class="r ">+30  Neutral</span></div>
+    <div class="mrow" title="Leader, pacts and what the faction remembers of you show here when you hover it in game."><span>Otowagakure</span><span class="r mbad">-20  Hostile</span></div>
+    <div class="mrow" title="Leader, pacts and what the faction remembers of you show here when you hover it in game."><span>Tetsugakure</span><span class="r ">+5  Neutral</span></div>
+    <div class="mwarn" style="font-size:12px;margin-top:6px">Syndicate</div>
+    <div class="mrow" title="Leader, pacts and what the faction remembers of you show here when you hover it in game."><span>Black Ink Syndicate</span><span class="r mbad">-80  Hostile</span></div>
+    <div class="mwarn" style="font-size:12px;margin-top:6px">Order of the Venator</div>
+    <div class="mrow" title="Leader, pacts and what the faction remembers of you show here when you hover it in game."><span>Order of the Venator</span><span class="r ">+15  Neutral</span></div>
+    <div class="mwarn" style="font-size:12px;margin-top:6px">Feudal houses</div>
+    <div class="mrow" title="Leader, pacts and what the faction remembers of you show here when you hover it in game."><span>House Akagane</span><span class="r ">+40  Neutral</span></div>
+    <div class="mrow" title="Leader, pacts and what the faction remembers of you show here when you hover it in game."><span>House Shiranami</span><span class="r ">+22  Neutral</span></div>
+    <div class="mrow" title="Leader, pacts and what the faction remembers of you show here when you hover it in game."><span>House Kurogane</span><span class="r ">-10  Neutral</span></div>
+  </div>
+  </div>
+  </div>
+</div>
+
+<div class="mpage" data-page="bb" hidden>
+  <div class="mtabs" role="tablist"><button data-tab="ov">Overview</button><button data-tab="vil">Villages &amp; diplomacy</button><button data-tab="bb">Bingo Book</button><button data-tab="mis">Missions</button><button data-tab="news">News</button><button data-tab="res">Research</button></div>
+  <div class="msec"><h4>Bingo Book</h4>
+    <div class="mmuted">The most famous ninja your colony knows of, with their bounties. Hunt famous enemies; watch out for hunters coming for your own.</div>
+    <div class="mrowbtns" style="margin:6px 0 8px"><button class="mbtn" data-go="bb-all">Open the Bingo Book</button></div>
+    <div class="mrow mmuted" style="font-size:12px"><span style="width:42%">Name</span><span style="width:20%">Standing</span><span style="width:24%">Faction</span><span>Fame</span></div>
+    <div class="mrow"><button class="mlink mbad" data-go="bb-all" style="width:42%">Gorō 'Stone Tiger' Ibara</button><span style="width:20%">Feared · rival</span><span style="width:24%">Sajingakure</span><span>512</span></div>
+    <div class="mrow"><button class="mlink mgood" data-go="bb-all" style="width:42%">Hoshi 'Still Water' Arai</button><span style="width:20%">Known · yours</span><span style="width:24%">Ashfall</span><span>310</span></div>
+    <div class="mrow"><button class="mlink " data-go="bb-all" style="width:42%">Haru Nishiki</button><span style="width:20%">Known</span><span style="width:24%">Kaedegakure</span><span>244</span></div>
+    <div class="mrow"><button class="mlink " data-go="bb-all" style="width:42%">Ink master Vesk</button><span style="width:20%">Known</span><span style="width:24%">Black Ink Syndicate</span><span>230</span></div>
+    <div class="mrow"><button class="mlink mgood" data-go="bb-all" style="width:42%">Kenta 'Ember' Mori</button><span style="width:20%">Known · yours</span><span style="width:24%">Ashfall</span><span>184</span></div>
+    <div class="mrow"><button class="mlink " data-go="bb-all" style="width:42%">Rin Kawabe (dead)</button><span style="width:20%">Known</span><span style="width:24%">Otowagakure</span><span>140</span></div>
+    <div class="mrow"><button class="mlink " data-go="bb-all" style="width:42%">Takeo Mura</button><span style="width:20%">Unknown</span><span style="width:24%">Nagisagakure</span><span>66</span></div>
+    <div class="mrow"><button class="mlink mgood" data-go="bb-all" style="width:42%">Mei Sato</button><span style="width:20%">Unknown · yours</span><span style="width:24%">Ashfall</span><span>62</span></div>
+    <p class="mmuted" style="font-size:12px;margin:6px 0 0">Click any name to open the full book. With no names yet: "No names yet: fame spreads as your ninja fight and are seen."</p>
+  </div>
+</div>
+
+<div class="mpage" data-page="mis" hidden>
+  <div class="mtabs" role="tablist"><button data-tab="ov">Overview</button><button data-tab="vil">Villages &amp; diplomacy</button><button data-tab="bb">Bingo Book</button><button data-tab="mis">Missions</button><button data-tab="news">News</button><button data-tab="res">Research</button></div>
+  <div class="msec"><h4>The ninja world</h4>
+    <div>Squad away: Aiko, Haru — B-rank for Haigakure, back in 2.4 days.</div>
+    <div class="mrowbtns" style="margin:6px 0"><button class="mbtn" data-go="send" title="Send 1-4 ninja from this map on a mission off the map. They come back days later with a report: silver, scrolls, XP and fame, or injuries.">Send a squad</button><button class="mbtn" data-go="newswin">All news</button><button class="mbtn" data-go="teams" title="Genin teams: a sensei and up to three genin who train and fight together.">Teams</button><button class="mbtn" data-go="diplo" title="Hostages, tribute and pacts with the villages.">Diplomacy</button></div>
+    <div class="mwarn">Siege: Sajingakure at Stone Gate (Tetsugakure), 1.6 days left.</div>
+    <div class="mgood" style="font-size:12px">Tribute paid with Otowagakure: 26 days left.</div>
+    <div class="mgood" style="font-size:12px">Hostage exchange with Kaedegakure: 11 days left.</div>
+    <div class="mwarn" style="font-size:12px">Market (NFRP traders): weapons +12%, medicine -8% — the war drives up blade prices.</div>
+    <div style="font-size:12px">Next festival abroad: Night of Ash Lanterns in Haigakure, in 6 days.</div>
+    <div class="mwarn" style="font-size:12px">Mission rank: level 3 (47 points) &nbsp;·&nbsp; missions 12, won 9 &nbsp;·&nbsp; relics 2/10</div>
+    <div class="mrowbtns" style="margin:4px 0 6px"><button class="mbtn sm" data-go="watch">Watch: Aiko, Haru</button><button class="mbtn sm" data-go="records">Mission records</button></div>
+    <div style="font-size:12px">7 Septober: A squad (Aiko, Haru) left for a B-rank mission for Haigakure: escort a merchant over a bandit pass.</div>
+    <div class="mwarn" style="font-size:12px">6 Septober: Sajingakure took the outpost at Red Ford from Tetsugakure.</div>
+    <div style="font-size:12px">5 Septober: Team Mori was formed: Kenta teaches Daichi.</div>
+    <div style="font-size:12px">3 Septober: Tribute paid with Otowagakure for 30 days.</div>
+    <div class="mwarn" style="font-size:12px">1 Septober: The chūnin exam in Nagisagakure: Sora (Nagisagakure), Tomo (Kaedegakure) were made chūnin.</div>
+    <div style="font-size:12px">28 Jugust: Siege: Sajingakure lays siege to Stone Gate (Tetsugakure).</div>
+  </div>
+  <div class="msec"><h4>Chūnin exam</h4>
+    <div>An exam invitation can come any time now.<br>Haigakure would host it.<br>Genin at home: 2.</div>
+  </div>
+  <div class="msec"><h4>Duties and jobs</h4>
+    <div>Village leader: Hoshi</div>
+    <div class="mmuted">&nbsp;&nbsp;Rally: ready &nbsp; Call to arms: 3.2 days &nbsp; Assign mission: ready</div>
+    <div>Contract for House Akagane: guard the rice road (4.5 days left).</div>
+    <div class="mwarn">Venator bounty: the Ash Wolf (600 silver, 6 days left).</div>
+    <div class="mmuted">Festivals: lanterns in summer, harvest in fall, new year in winter (Haigakure).</div>
+  </div>
+</div>
+
+<div class="mpage" data-page="news" hidden>
+  <div class="mtabs" role="tablist"><button data-tab="ov">Overview</button><button data-tab="vil">Villages &amp; diplomacy</button><button data-tab="bb">Bingo Book</button><button data-tab="mis">Missions</button><button data-tab="news">News</button><button data-tab="res">Research</button></div>
+  <div class="msec"><h4>World news</h4>
+    <div class="mrowbtns" style="margin:0 0 8px"><button class="mbtn" data-go="newswin">All news and filters</button></div>
+    <div>7 Septober&nbsp;&nbsp;A squad (Aiko, Haru) left for a B-rank mission for Haigakure: escort a merchant over a bandit pass.</div>
+    <div class="mwarn">6 Septober&nbsp;&nbsp;Sajingakure took the outpost at Red Ford from Tetsugakure.</div>
+    <div>5 Septober&nbsp;&nbsp;Team Mori was formed: Kenta teaches Daichi.</div>
+    <div>3 Septober&nbsp;&nbsp;Tribute paid with Otowagakure for 30 days.</div>
+    <div class="mwarn">1 Septober&nbsp;&nbsp;The chūnin exam in Nagisagakure: Sora (Nagisagakure), Tomo (Kaedegakure) were made chūnin.</div>
+    <div>28 Jugust&nbsp;&nbsp;Siege: Sajingakure lays siege to Stone Gate (Tetsugakure).</div>
+    <div>25 Jugust&nbsp;&nbsp;The squad is back from the C-rank mission for House Akagane: success.</div>
+    <div>22 Jugust&nbsp;&nbsp;A ninja squad of Kaedegakure was seen leaving Maple Hollow toward Stone Gate.</div>
+    <p class="mmuted" style="font-size:12px;margin:6px 0 0">Up to 40 items. Gold lines are important news. With nothing yet: "No news yet: the world will start talking within a day."</p>
+  </div>
+</div>
+
+<div class="mpage" data-page="res" hidden>
+  <div class="mtabs" role="tablist"><button data-tab="ov">Overview</button><button data-tab="vil">Villages &amp; diplomacy</button><button data-tab="bb">Bingo Book</button><button data-tab="mis">Missions</button><button data-tab="news">News</button><button data-tab="res">Research</button></div>
+  <div class="mrowbtns" style="margin:0 0 8px"><button class="mbtn" data-go="resscreen" title="Open the research screen on the Naruto tab, where the ninja research tree is.">Open ninja research</button></div>
+  <div class="msec"><h4>Ninja research</h4>
+    <div class="mrowbtns" style="margin:0 0 6px"><button class="mbtn" data-go="resscreen" title="Open the research screen on the Naruto tab, where the ninja research tree is.">Open ninja research</button></div>
+    <div>Projects done: 6 / 19.</div>
+    <div>Researching: Sealing arts (42%).</div>
+    <div class="mmuted">Ready to research (click to open):</div>
+    <div class="mrow"><button class="mlink" data-go="resscreen">• Ninja gadgets&nbsp;&nbsp;(900)</button></div>
+    <div class="mrow"><button class="mlink" data-go="resscreen">• Advanced alchemy&nbsp;&nbsp;(1200)</button></div>
+    <div class="mrow"><button class="mlink" data-go="resscreen">• Locks and restraints&nbsp;&nbsp;(800)</button></div>
+    <div class="mrow"><button class="mlink" data-go="resscreen">• Chakra metallurgy&nbsp;&nbsp;(1500)</button></div>
+    <p class="mmuted" style="font-size:12px;margin:6px 0 0">When everything is done: "All ninja research is done."</p>
+  </div>
+</div>
+
+<div class="mpage" data-page="resscreen" hidden>
+  <button class="mbtn sm mback" data-back>&#8592; Back</button>
+  <div class="mtitle">Research</div>
+  <div class="msec"><h4>Opens the game's research screen</h4>
+    <div>The button closes this panel and opens the normal Research screen on its <b>Naruto</b> tab, where the ninja research tree is. Clicking a project in the list opens the screen with that project selected.</div>
+  </div>
+</div>
+
+<div class="mpage" data-page="send" hidden>
+  <button class="mbtn sm mback" data-tab="mis">&#8592; Close this window</button>
+  <div class="mtitle">Send a squad</div>
+  <div class="mrowbtns" style="margin:0 0 8px"><button class="mbtn" data-go="send-for">For: Haigakure</button><button class="mbtn" data-go="send-rank">B-rank mission</button><button class="mbtn" data-go="send-task">Other task</button></div>
+  <p>Task: escort a merchant over a bandit pass.<br>Away for 5 days. Success: 650 silver, a scroll and seals, 250 class XP each, fame and goodwill. Failure: a third of the XP, injuries.</p>
+  <div class="msec">
+    <div class="mrow"><span class="mcheck">Hoshi&nbsp;&nbsp;(village leader, level 17)</span></div>
+    <div class="mrow"><span class="mcheck on">Kenta&nbsp;&nbsp;(chūnin, level 11)</span></div>
+    <div class="mrow"><button class="mlink mcheck on" data-go="send">Mei&nbsp;&nbsp;(chūnin, level 9)</button></div>
+    <div class="mrow mmuted"><span class="mcheck">Daichi&nbsp;&nbsp;(genin, level 5)&nbsp;&nbsp;— not ranked for this</span></div>
+    <div class="mrow mmuted"><span class="mcheck">Sora&nbsp;&nbsp;(genin, level 3)&nbsp;&nbsp;— not ranked for this</span></div>
+    <div class="mrow mmuted"><span class="mcheck">Ren&nbsp;&nbsp;(no rank, level 2)&nbsp;&nbsp;— not ranked for this</span></div>
+  </div>
+  <p>Chance of success: 71%</p>
+  <div class="mrowbtns"><button class="mbtn pri" data-go="sent">Send 2 ninja</button></div>
+  <p class="mmuted" style="font-size:12px">Click Mei to tick or untick her. Up to 4 ninja; at most 3 squads away at once. With nothing ticked the line reads "Pick up to 4 ninja."</p>
+</div>
+
+<div class="mpage" data-page="send2" hidden>
+  <button class="mbtn sm mback" data-tab="mis">&#8592; Close this window</button>
+  <div class="mtitle">Send a squad</div>
+  <div class="mrowbtns" style="margin:0 0 8px"><button class="mbtn" data-go="send-for">For: Haigakure</button><button class="mbtn" data-go="send-rank">B-rank mission</button><button class="mbtn" data-go="send-task">Other task</button></div>
+  <p>Task: escort a merchant over a bandit pass.<br>Away for 5 days. Success: 650 silver, a scroll and seals, 250 class XP each, fame and goodwill. Failure: a third of the XP, injuries.</p>
+  <div class="msec">
+    <div class="mrow"><span class="mcheck">Hoshi&nbsp;&nbsp;(village leader, level 17)</span></div>
+    <div class="mrow"><span class="mcheck on">Kenta&nbsp;&nbsp;(chūnin, level 11)</span></div>
+    <div class="mrow"><button class="mlink mcheck" data-go="send2">Mei&nbsp;&nbsp;(chūnin, level 9)</button></div>
+    <div class="mrow mmuted"><span class="mcheck">Daichi&nbsp;&nbsp;(genin, level 5)&nbsp;&nbsp;— not ranked for this</span></div>
+    <div class="mrow mmuted"><span class="mcheck">Sora&nbsp;&nbsp;(genin, level 3)&nbsp;&nbsp;— not ranked for this</span></div>
+    <div class="mrow mmuted"><span class="mcheck">Ren&nbsp;&nbsp;(no rank, level 2)&nbsp;&nbsp;— not ranked for this</span></div>
+  </div>
+  <p>Chance of success: 86%</p>
+  <div class="mrowbtns"><button class="mbtn pri" data-go="sent">Send 1 ninja</button></div>
+  <p class="mmuted" style="font-size:12px">Click Mei to tick or untick her. Up to 4 ninja; at most 3 squads away at once. With nothing ticked the line reads "Pick up to 4 ninja."</p>
+</div>
+
+<div class="mpage" data-page="send-for" hidden>
+  <button class="mbtn sm mback" data-back>&#8592; Back</button>
+  <div class="mtitle">For whom? <small>menu</small></div>
+  <div class="msec"><h4>Pick the mission giver</h4>
+    <div class="mrow"><button class="mlink" data-back>Haigakure (sworn)</button></div>
+    <div class="mrow"><button class="mlink" data-back>House Akagane (goodwill 40)</button></div>
+    <div class="mrow"><button class="mlink" data-back>Kaedegakure (goodwill 30)</button></div>
+  </div>
+  <p class="mmuted" style="font-size:12px">A sworn village, or any village or order at goodwill 25+. With none: "No village or order is friendly enough to give your ninja a mission (a sworn village, or goodwill 25+)."</p>
+</div>
+
+<div class="mpage" data-page="send-rank" hidden>
+  <button class="mbtn sm mback" data-back>&#8592; Back</button>
+  <div class="mtitle">Mission rank <small>menu</small></div>
+  <div class="msec"><h4>Pick the rank</h4>
+    <div class="mrow"><button class="mlink" data-back>D-rank (2 days, about level 3)</button></div>
+    <div class="mrow"><button class="mlink" data-back>C-rank (3 days, about level 6)</button></div>
+    <div class="mrow"><button class="mlink" data-back>B-rank (5 days, about level 9)</button></div>
+    <div class="mrow"><button class="mlink" data-back>A-rank (7 days, about level 12)</button></div>
+    <div class="mrow"><button class="mlink" data-back>S-rank (10 days, about level 16)</button></div>
+  </div>
+  <p class="mmuted" style="font-size:12px">Who may go: D any ninja, C a genin, B a chūnin, A and S a jōnin (or higher). A- and S-rank failures can cost a life. Rewards: D 150, C 320, B 650, A 1100, S 1800 silver; 60 / 120 / 250 / 450 / 800 class XP each.</p>
+</div>
+
+<div class="mpage" data-page="send-task" hidden>
+  <button class="mbtn sm mback" data-back>&#8592; Back</button>
+  <div class="mtitle">Other task</div>
+  <p>The button rolls another task of the same rank. B-rank tasks: escort a merchant over a bandit pass; scout an enemy outpost and come back alive; hunt a rogue ninja who raids villages.</p>
+</div>
+
+<div class="mpage" data-page="sent" hidden>
+  <button class="mbtn sm mback" data-back>&#8592; Back</button>
+  <div class="mtitle">Squad away: B rank <small>letter</small></div>
+  <p>Hoshi, Kenta, Mei left on a B-rank mission for Haigakure: escort a merchant over a bandit pass.</p>
+  <p>They'll be back in about 5 days. You can follow the trip as it happens.</p>
+  <div class="mrowbtns"><button class="mbtn" data-go="watch">Watch the mission</button><button class="mbtn" data-back>Close</button></div>
+</div>
+
+<div class="mpage" data-page="watch" hidden>
+  <button class="mbtn sm mback" data-back>&#8592; Close this window</button>
+  <div class="mtitle">B-rank mission for Haigakure</div>
+  <p class="mmuted" style="margin-top:-6px">escort a merchant over a bandit pass &nbsp;·&nbsp; squad: Aiko, Haru &nbsp;·&nbsp; back in 2.4 days</p>
+  <div class="mcols">
+  <div>
+  <svg class="mmap" viewBox="0 0 500 300" role="img" aria-label="Mission map with the road, the village, the target and the squad">
+    <rect width="500" height="300" fill="#2b3a2a"/>
+    <path d="M0 210 Q90 180 160 230 T330 200 T500 230 V300 H0Z" fill="#26341f"/>
+    <path d="M300 0 L360 70 L420 20 L500 90 V0Z" fill="#3a3f45"/>
+    <path d="M330 120 q30 -30 60 0 q-30 20 -60 0Z" fill="#30486a" opacity=".8"/>
+    <path d="M40 150 C100 70 170 90 210 150 S330 230 380 160 S440 110 460 140" fill="none" stroke="#735230" stroke-width="3"/>
+    <path d="M210 150 S330 230 380 160 S440 110 460 140" fill="none" stroke="#d9bf8c" stroke-opacity=".55" stroke-width="3"/>
+    <rect x="34" y="144" width="12" height="12" fill="#e6d9b3"/>
+    <rect x="454" y="134" width="12" height="12" fill="#bf4d40"/>
+    <rect x="97" y="96" width="6" height="6" fill="#f2bf80"/>
+    <rect x="152" y="104" width="6" height="6" fill="#bff299"/>
+    <rect x="186" y="122" width="6" height="6" fill="#b3d9ff"/>
+    <rect x="300" y="196" width="6" height="6" fill="#ffffff" fill-opacity=".25"/>
+    <rect x="405" y="132" width="6" height="6" fill="#ffffff" fill-opacity=".25"/>
+    <rect x="204" y="143" width="12" height="12" fill="#4d99ff" stroke="#fff"/>
+    <text x="30" y="176" fill="#e6e3dc" font-size="11">village</text><text x="430" y="162" fill="#e6e3dc" font-size="11">target</text>
+  </svg>
+    <div class="mrow">Aiko&nbsp;&nbsp;—&nbsp;&nbsp;level 7&nbsp;&nbsp;·&nbsp;&nbsp;fine</div>
+    <div class="mrow">Haru&nbsp;&nbsp;—&nbsp;&nbsp;level 4&nbsp;&nbsp;·&nbsp;&nbsp;hurt</div>
+  </div>
+  <div class="msec" style="max-height:340px;overflow:auto">
+    <div class="mmuted" style="font-size:11px">Day 3, 09:00</div>
+    <div class="" style="margin-bottom:6px">Met a travelling merchant and sold off some spare gear (120 silver).</div>
+    <div class="mmuted" style="font-size:11px">Day 2, 18:00</div>
+    <div class="mgood" style="margin-bottom:6px">Haru patched up their own wounds by the roadside.</div>
+    <div class="mmuted" style="font-size:11px">Day 2, 17:00</div>
+    <div class="mbad" style="margin-bottom:6px">Haru took a few cuts in the fight.</div>
+    <div class="mmuted" style="font-size:11px">Day 2, 16:00</div>
+    <div class="mwarn" style="margin-bottom:6px">Ran into a band of mountain bandits. Aiko struck from the shadows before they could draw.</div>
+    <div class="mmuted" style="font-size:11px">Day 1, 21:00</div>
+    <div class="mgood" style="margin-bottom:6px">Aiko found a cache of kunai under a collapsed bridge.</div>
+    <div class="mmuted" style="font-size:11px">Day 1, 08:00</div>
+    <div class="" style="margin-bottom:6px">The squad (Aiko, Haru) left the village gate for: escort a merchant over a bandit pass.</div>
+  </div>
+  </div>
+  <div class="mrowbtns"><button class="mbtn pri">Live</button><button class="mbtn" data-go="watch-replay">Replay so far</button><button class="mbtn bad" data-go="watch-skip">Skip to the end</button><button class="mbtn" data-go="records">Mission records</button></div>
+  <p class="mmuted" style="font-size:12px">Newest events on top; hover a marker on the road for its event. The game keeps running while this window is open. <b>Skip to the end</b> shows only when that setting is on; <b>Next squad</b> appears at the right when more than one squad is on a mission.</p>
+</div>
+
+<div class="mpage" data-page="watch-replay" hidden>
+  <button class="mbtn sm mback" data-back>&#8592; Back</button>
+  <div class="mtitle">Replay so far</div>
+  <p>The squad token runs the road again from the village gate, and the log fills in event by event up to now (speed: the <b>Mission replay speed</b> setting). <b>Live</b> jumps back to the present.</p>
+</div>
+
+<div class="mpage" data-page="watch-skip" hidden>
+  <button class="mbtn sm mback" data-back>&#8592; Back</button>
+  <div class="mtitle">Confirm</div>
+  <p>Bring the squad home now? The rest of the trip is played out at once.</p>
+  <div class="mrowbtns"><button class="mbtn bad" data-back>Confirm</button><button class="mbtn" data-back>Cancel</button></div>
+</div>
+
+<div class="mpage" data-page="records" hidden>
+  <button class="mbtn sm mback" data-back>&#8592; Close this window</button>
+  <div class="mtitle">Mission records</div>
+  <p style="margin:0">Mission rank level 3 (47 points) &nbsp;·&nbsp; 12 missions, 9 won, 2 great &nbsp;·&nbsp; relics 2/10</p>
+  <p class="mwarn" style="font-size:12px;margin:2px 0 8px">Relics: weathered founding scroll, healer's lotus jar</p>
+  <div class="mcols">
+  <div class="msec">
+    <div class="mrow"><button class="mlink" data-go="rec1"><span class="mwarn">C-rank · great success · 25 Jugust</span><br><small>Kenta, Daichi for House Akagane</small></button></div>
+    <div class="mrow"><button class="mlink" data-go="rec2"><span class="mbad">B-rank · failure · 12 Jugust</span><br><small>Mei, Aiko, Haru for Haigakure</small></button></div>
+    <div class="mrow"><button class="mlink" data-go="rec3"><span class="mgood">D-rank · success · 2 Jugust</span><br><small>Ren, Sora for Kaedegakure</small></button></div>
+  </div>
+  <div class="msec">
+    <div>Pick a mission to read its log.</div>
+  </div>
+  </div>
+</div>
+
+<div class="mpage" data-page="rec1" hidden>
+  <button class="mbtn sm mback" data-tab="mis">&#8592; Close this window</button>
+  <div class="mtitle">Mission records</div>
+  <p style="margin:0">Mission rank level 3 (47 points) &nbsp;·&nbsp; 12 missions, 9 won, 2 great &nbsp;·&nbsp; relics 2/10</p>
+  <p class="mwarn" style="font-size:12px;margin:2px 0 8px">Relics: weathered founding scroll, healer's lotus jar</p>
+  <div class="mcols">
+  <div class="msec">
+    <div class="mrow sel"><button class="mlink" data-go="rec1"><span class="mwarn">C-rank · great success · 25 Jugust</span><br><small>Kenta, Daichi for House Akagane</small></button></div>
+    <div class="mrow"><button class="mlink" data-go="rec2"><span class="mbad">B-rank · failure · 12 Jugust</span><br><small>Mei, Aiko, Haru for Haigakure</small></button></div>
+    <div class="mrow"><button class="mlink" data-go="rec3"><span class="mgood">D-rank · success · 2 Jugust</span><br><small>Ren, Sora for Kaedegakure</small></button></div>
+  </div>
+  <div class="msec">
+    <div style="font-size:12px">drive off a beast that kills livestock<br>Squad: Kenta, Daichi<br>Found: 320 silver, a C-rank scroll, 2 seals<br><br>Day 1, 07:00 The squad (Kenta, Daichi) left the village gate for: drive off a beast that kills livestock.<br>Day 2, 13:00 Daichi spotted a trap of tripwires and paper bombs and disarmed it.<br>Day 3, 02:00 A great success: Kenta led the squad to finish the task: drive off a beast that kills livestock.</div>
+  </div>
+  </div>
+</div>
+
+<div class="mpage" data-page="rec2" hidden>
+  <button class="mbtn sm mback" data-tab="mis">&#8592; Close this window</button>
+  <div class="mtitle">Mission records</div>
+  <p style="margin:0">Mission rank level 3 (47 points) &nbsp;·&nbsp; 12 missions, 9 won, 2 great &nbsp;·&nbsp; relics 2/10</p>
+  <p class="mwarn" style="font-size:12px;margin:2px 0 8px">Relics: weathered founding scroll, healer's lotus jar</p>
+  <div class="mcols">
+  <div class="msec">
+    <div class="mrow"><button class="mlink" data-go="rec1"><span class="mwarn">C-rank · great success · 25 Jugust</span><br><small>Kenta, Daichi for House Akagane</small></button></div>
+    <div class="mrow sel"><button class="mlink" data-go="rec2"><span class="mbad">B-rank · failure · 12 Jugust</span><br><small>Mei, Aiko, Haru for Haigakure</small></button></div>
+    <div class="mrow"><button class="mlink" data-go="rec3"><span class="mgood">D-rank · success · 2 Jugust</span><br><small>Ren, Sora for Kaedegakure</small></button></div>
+  </div>
+  <div class="msec">
+    <div style="font-size:12px">scout an enemy outpost and come back alive<br>Squad: Mei, Aiko, Haru<br><br>Day 1, 06:00 The squad (Mei, Aiko, Haru) left the village gate for: scout an enemy outpost and come back alive.<br>Day 3, 15:00 Ran into a patrol of Sajingakure. The fight went badly.<br>Day 3, 15:00 Aiko was wounded.<br>Day 4, 20:00 The task slipped out of reach: scout an enemy outpost and come back alive. Mei called the retreat.</div>
+  </div>
+  </div>
+</div>
+
+<div class="mpage" data-page="rec3" hidden>
+  <button class="mbtn sm mback" data-tab="mis">&#8592; Close this window</button>
+  <div class="mtitle">Mission records</div>
+  <p style="margin:0">Mission rank level 3 (47 points) &nbsp;·&nbsp; 12 missions, 9 won, 2 great &nbsp;·&nbsp; relics 2/10</p>
+  <p class="mwarn" style="font-size:12px;margin:2px 0 8px">Relics: weathered founding scroll, healer's lotus jar</p>
+  <div class="mcols">
+  <div class="msec">
+    <div class="mrow"><button class="mlink" data-go="rec1"><span class="mwarn">C-rank · great success · 25 Jugust</span><br><small>Kenta, Daichi for House Akagane</small></button></div>
+    <div class="mrow"><button class="mlink" data-go="rec2"><span class="mbad">B-rank · failure · 12 Jugust</span><br><small>Mei, Aiko, Haru for Haigakure</small></button></div>
+    <div class="mrow sel"><button class="mlink" data-go="rec3"><span class="mgood">D-rank · success · 2 Jugust</span><br><small>Ren, Sora for Kaedegakure</small></button></div>
+  </div>
+  <div class="msec">
+    <div style="font-size:12px">help bring in a harvest before the storm<br>Squad: Ren, Sora<br>Found: 150 silver<br><br>Day 1, 08:00 The squad (Ren, Sora) left the village gate for: help bring in a harvest before the storm.<br>Day 1, 19:00 A quiet day on the road: rain, mud and cold rice balls.<br>Day 2, 11:00 Ren led the squad to finish the task: help bring in a harvest before the storm.</div>
+  </div>
+  </div>
+</div>
+
+<div class="mpage" data-page="newswin" hidden>
+  <button class="mbtn sm mback" data-tab="news">&#8592; Close this window</button>
+  <div class="mtitle">World news<small><button class="mbtn sm" data-go="newsfilter">All kinds</button></small></div>
+  <div class="msec">
+    <div class="mrow">7 Septober&nbsp;&nbsp;[Squads]&nbsp;&nbsp;A squad (Aiko, Haru) left for a B-rank mission for Haigakure: escort a merchant over a bandit pass.</div>
+    <div class="mrow mwarn">6 Septober&nbsp;&nbsp;[War]&nbsp;&nbsp;Sajingakure took the outpost at Red Ford from Tetsugakure.</div>
+    <div class="mrow">5 Septober&nbsp;&nbsp;[Clans]&nbsp;&nbsp;Team Mori was formed: Kenta teaches Daichi.</div>
+    <div class="mrow">3 Septober&nbsp;&nbsp;[Diplomacy]&nbsp;&nbsp;Tribute paid with Otowagakure for 30 days.</div>
+    <div class="mrow mwarn">1 Septober&nbsp;&nbsp;[Exams]&nbsp;&nbsp;The chūnin exam in Nagisagakure: Sora (Nagisagakure), Tomo (Kaedegakure) were made chūnin.</div>
+    <div class="mrow">28 Jugust&nbsp;&nbsp;[Sieges]&nbsp;&nbsp;Siege: Sajingakure lays siege to Stone Gate (Tetsugakure).</div>
+    <div class="mrow">25 Jugust&nbsp;&nbsp;[Squads]&nbsp;&nbsp;The squad is back from the C-rank mission for House Akagane: success.</div>
+    <div class="mrow">22 Jugust&nbsp;&nbsp;[Landmarks]&nbsp;&nbsp;A ninja squad of Kaedegakure was seen leaving Maple Hollow toward Stone Gate.</div>
+  </div>
+  <p class="mmuted" style="font-size:12px">Click a line that names a place to jump to it on the world map.</p>
+</div>
+
+<div class="mpage" data-page="newswin-sq" hidden>
+  <button class="mbtn sm mback" data-tab="news">&#8592; Close this window</button>
+  <div class="mtitle">World news<small><button class="mbtn sm" data-go="newsfilter">Squads</button></small></div>
+  <div class="msec">
+    <div class="mrow">7 Septober&nbsp;&nbsp;[Squads]&nbsp;&nbsp;A squad (Aiko, Haru) left for a B-rank mission for Haigakure: escort a merchant over a bandit pass.</div>
+    <div class="mrow">25 Jugust&nbsp;&nbsp;[Squads]&nbsp;&nbsp;The squad is back from the C-rank mission for House Akagane: success.</div>
+  </div>
+  <p class="mmuted" style="font-size:12px">Click a line that names a place to jump to it on the world map.</p>
+</div>
+
+<div class="mpage" data-page="newsfilter" hidden>
+  <button class="mbtn sm mback" data-back>&#8592; Back</button>
+  <div class="mtitle">Kinds of news <small>menu</small></div>
+  <div class="msec">
+    <div class="mrow"><button class="mlink" data-go="newswin">All kinds</button></div>
+    <div class="mrow"><button class="mlink" data-go="newswin">War</button></div>
+    <div class="mrow"><button class="mlink" data-go="newswin">Sieges</button></div>
+    <div class="mrow"><button class="mlink" data-go="newswin">Exams</button></div>
+    <div class="mrow"><button class="mlink" data-go="newswin">Diplomacy</button></div>
+    <div class="mrow"><button class="mlink" data-go="newswin-sq">Squads</button></div>
+    <div class="mrow"><button class="mlink" data-go="newswin">Landmarks</button></div>
+    <div class="mrow"><button class="mlink" data-go="newswin">Clans</button></div>
+  </div>
+  <p class="mmuted" style="font-size:12px">Only kinds that have news so far are listed. In this mockup, <b>Squads</b> shows the filtered list.</p>
+</div>
+
+<div class="mpage" data-page="bb-all" hidden>
+  <button class="mbtn sm mback" data-tab="bb">&#8592; Close this window</button>
+  <div class="mtitle">Bingo Book</div>
+  <p class="mmuted" style="margin-top:-6px">The most famous ninja your colony knows of, with the bounties on their heads. Famous ninja are hunted; famous enemies can be hunted.</p>
+  <div class="mtabs" role="tablist"><button data-tab="bb-all" data-also="bb-all-h">All</button><button data-tab="bb-yours">Yours</button><button data-tab="bb-wanted">Wanted</button></div>
+  <div class="mcols">
+  <div class="msec">
+    <div class="mrow sel"><button class="mlink" data-go="bb-all">Gorō 'Stone Tiger' Ibara<br><small class="mmuted">Feared  ·  rival</small></button><span class="r">1400 silver</span></div>
+    <div class="mrow"><button class="mlink" data-go="bb-all-h">Hoshi 'Still Water' Arai<br><small class="mmuted">Known  ·  yours</small></button><span class="r">450 silver</span></div>
+    <div class="mrow"><button class="mlink" data-go="bb-all">Haru Nishiki<br><small class="mmuted">Known</small></button><span class="r">300 silver</span></div>
+    <div class="mrow"><button class="mlink" data-go="bb-all">Ink master Vesk<br><small class="mmuted">Known</small></button><span class="r">600 silver</span></div>
+    <div class="mrow"><button class="mlink" data-go="bb-all-h">Kenta 'Ember' Mori<br><small class="mmuted">Known  ·  yours</small></button><span class="r">-</span></div>
+    <div class="mrow"><button class="mlink" data-go="bb-all">Rin Kawabe<br><small class="mmuted">Known  ·  dead</small></button><span class="r">-</span></div>
+  </div>
+  <div class="msec">
+    <div class="mwarn" style="font:600 15px Georgia,serif">Gorō 'Stone Tiger' Ibara</div>
+    <div>jōnin, level 15 &nbsp;·&nbsp; Sajingakure</div>
+    <div class="mwarn">Feared &nbsp;·&nbsp; fame 512</div><div class="mbar"><i style="width:22%"></i></div>
+    <div class="mmuted">Known for earth pillars and a tiger's strength.</div>
+    <h4 style="margin:8px 0 2px">Bounty</h4><div>1400 silver, dead or alive. Wanted by you, Haigakure, Nagisagakure.</div>
+    <div class="mmuted">Last seen 4 days ago.</div>
+    <div class="mwarn">Your rival since he lost to Kenta at Red Ford.</div>
+    <div>Intel: seen (fight them with a sensor or tracker near, interrogate their people, or send a spy to learn more).</div>
+    <h4 style="margin:8px 0 2px">Deeds</h4><div style="font-size:12px">Beat Kenta at the Red Ford outpost.<br>Took the outpost at Red Ford for Sajingakure.</div>
+    <div class="mrowbtns"><button class="mbtn" data-go="bb-spy" title="Post a spy mission: reach a camp of their faction to learn everything about Gorō (no fight needed).">Spy</button><button class="mbtn pri" data-go="bb-hunt" title="Post a hunting mission: a camp of their faction a few days away with Gorō in it. Kill or capture him for the bounty.">Hunt</button></div>
+  </div>
+  </div>
+</div>
+
+<div class="mpage" data-page="bb-all-h" hidden>
+  <button class="mbtn sm mback" data-tab="bb">&#8592; Close this window</button>
+  <div class="mtitle">Bingo Book</div>
+  <p class="mmuted" style="margin-top:-6px">The most famous ninja your colony knows of, with the bounties on their heads. Famous ninja are hunted; famous enemies can be hunted.</p>
+  <div class="mtabs" role="tablist"><button data-tab="bb-all" data-also="bb-all-h">All</button><button data-tab="bb-yours">Yours</button><button data-tab="bb-wanted">Wanted</button></div>
+  <div class="mcols">
+  <div class="msec">
+    <div class="mrow"><button class="mlink" data-go="bb-all">Gorō 'Stone Tiger' Ibara<br><small class="mmuted">Feared  ·  rival</small></button><span class="r">1400 silver</span></div>
+    <div class="mrow sel"><button class="mlink" data-go="bb-all-h">Hoshi 'Still Water' Arai<br><small class="mmuted">Known  ·  yours</small></button><span class="r">450 silver</span></div>
+    <div class="mrow"><button class="mlink" data-go="bb-all">Haru Nishiki<br><small class="mmuted">Known</small></button><span class="r">300 silver</span></div>
+    <div class="mrow"><button class="mlink" data-go="bb-all">Ink master Vesk<br><small class="mmuted">Known</small></button><span class="r">600 silver</span></div>
+    <div class="mrow"><button class="mlink" data-go="bb-all-h">Kenta 'Ember' Mori<br><small class="mmuted">Known  ·  yours</small></button><span class="r">-</span></div>
+    <div class="mrow"><button class="mlink" data-go="bb-all">Rin Kawabe<br><small class="mmuted">Known  ·  dead</small></button><span class="r">-</span></div>
+  </div>
+  <div class="msec">
+    <div class="mwarn" style="font:600 15px Georgia,serif">Hoshi 'Still Water' Arai</div>
+    <div>village leader, level 17 &nbsp;·&nbsp; Ashfall</div>
+    <div>Known &nbsp;·&nbsp; fame 310</div><div class="mbar"><i style="width:30%"></i></div>
+    <div class="mmuted">Known for water dragons and a calm head.</div>
+    <h4 style="margin:8px 0 2px">Bounty</h4><div>450 silver, alive. Wanted by Sajingakure, Black Ink Syndicate.</div>
+    <div class="mmuted">At your home right now.</div>
+    <h4 style="margin:8px 0 2px">Deeds</h4><div style="font-size:12px">Held the east gate against a Syndicate raid.<br>Beat Haru Nishiki in a duel.</div>
+    <div class="mrowbtns"><button class="mbtn pri" data-tab="bb">Select</button></div>
+  </div>
+  </div>
+</div>
+
+<div class="mpage" data-page="bb-yours" hidden>
+  <button class="mbtn sm mback" data-tab="bb">&#8592; Close this window</button>
+  <div class="mtitle">Bingo Book</div>
+  <p class="mmuted" style="margin-top:-6px">The most famous ninja your colony knows of, with the bounties on their heads. Famous ninja are hunted; famous enemies can be hunted.</p>
+  <div class="mtabs" role="tablist"><button data-tab="bb-all" data-also="bb-all-h">All</button><button data-tab="bb-yours">Yours</button><button data-tab="bb-wanted">Wanted</button></div>
+  <div class="mcols">
+  <div class="msec">
+    <div class="mrow sel"><button class="mlink" data-go="bb-yours">Hoshi 'Still Water' Arai<br><small class="mmuted">Known  ·  yours</small></button><span class="r">450 silver</span></div>
+    <div class="mrow"><button class="mlink" data-go="bb-yours">Kenta 'Ember' Mori<br><small class="mmuted">Known  ·  yours</small></button><span class="r">-</span></div>
+    <div class="mrow"><button class="mlink" data-go="bb-yours">Mei Sato<br><small class="mmuted">Unknown  ·  yours</small></button><span class="r">-</span></div>
+  </div>
+  <div class="msec">
+    <div class="mwarn" style="font:600 15px Georgia,serif">Hoshi 'Still Water' Arai</div>
+    <div>village leader, level 17 &nbsp;·&nbsp; Ashfall</div>
+    <div>Known &nbsp;·&nbsp; fame 310</div><div class="mbar"><i style="width:30%"></i></div>
+    <div class="mmuted">Known for water dragons and a calm head.</div>
+    <h4 style="margin:8px 0 2px">Bounty</h4><div>450 silver, alive. Wanted by Sajingakure, Black Ink Syndicate.</div>
+    <div class="mmuted">At your home right now.</div>
+    <h4 style="margin:8px 0 2px">Deeds</h4><div style="font-size:12px">Held the east gate against a Syndicate raid.<br>Beat Haru Nishiki in a duel.</div>
+    <div class="mrowbtns"><button class="mbtn pri" data-tab="bb">Select</button></div>
+  </div>
+  </div>
+</div>
+
+<div class="mpage" data-page="bb-wanted" hidden>
+  <button class="mbtn sm mback" data-tab="bb">&#8592; Close this window</button>
+  <div class="mtitle">Bingo Book</div>
+  <p class="mmuted" style="margin-top:-6px">The most famous ninja your colony knows of, with the bounties on their heads. Famous ninja are hunted; famous enemies can be hunted.</p>
+  <div class="mtabs" role="tablist"><button data-tab="bb-all" data-also="bb-all-h">All</button><button data-tab="bb-yours">Yours</button><button data-tab="bb-wanted">Wanted</button></div>
+  <div class="mcols">
+  <div class="msec">
+    <div class="mrow sel"><button class="mlink" data-go="bb-wanted">Gorō 'Stone Tiger' Ibara<br><small class="mmuted">Feared  ·  rival</small></button><span class="r">1400 silver</span></div>
+    <div class="mrow"><button class="mlink" data-go="bb-wanted">Haru Nishiki<br><small class="mmuted">Known</small></button><span class="r">300 silver</span></div>
+    <div class="mrow"><button class="mlink" data-go="bb-wanted">Ink master Vesk<br><small class="mmuted">Known</small></button><span class="r">600 silver</span></div>
+    <div class="mrow"><button class="mlink" data-go="bb-wanted">Takeo Mura<br><small class="mmuted">Unknown</small></button><span class="r">-</span></div>
+  </div>
+  <div class="msec">
+    <div class="mwarn" style="font:600 15px Georgia,serif">Gorō 'Stone Tiger' Ibara</div>
+    <div>jōnin, level 15 &nbsp;·&nbsp; Sajingakure</div>
+    <div class="mwarn">Feared &nbsp;·&nbsp; fame 512</div><div class="mbar"><i style="width:22%"></i></div>
+    <div class="mmuted">Known for earth pillars and a tiger's strength.</div>
+    <h4 style="margin:8px 0 2px">Bounty</h4><div>1400 silver, dead or alive. Wanted by you, Haigakure, Nagisagakure.</div>
+    <div class="mmuted">Last seen 4 days ago.</div>
+    <div class="mwarn">Your rival since he lost to Kenta at Red Ford.</div>
+    <div>Intel: seen (fight them with a sensor or tracker near, interrogate their people, or send a spy to learn more).</div>
+    <h4 style="margin:8px 0 2px">Deeds</h4><div style="font-size:12px">Beat Kenta at the Red Ford outpost.<br>Took the outpost at Red Ford for Sajingakure.</div>
+    <div class="mrowbtns"><button class="mbtn" data-go="bb-spy" title="Post a spy mission: reach a camp of their faction to learn everything about Gorō (no fight needed).">Spy</button><button class="mbtn pri" data-go="bb-hunt" title="Post a hunting mission: a camp of their faction a few days away with Gorō in it. Kill or capture him for the bounty.">Hunt</button></div>
+  </div>
+  </div>
+</div>
+
+<div class="mpage" data-page="bb-spy" hidden>
+  <button class="mbtn sm mback" data-back>&#8592; Back</button>
+  <p>A spy mission on Gorō is in your quests.</p>
+</div>
+
+<div class="mpage" data-page="bb-hunt" hidden>
+  <button class="mbtn sm mback" data-back>&#8592; Back</button>
+  <p>A hunting mission for Gorō is in your quests.</p>
+</div>
+
+<div class="mpage" data-page="teams" hidden>
+  <button class="mbtn sm mback" data-tab="mis">&#8592; Close this window</button>
+  <div class="mtitle">Genin teams</div>
+  <p>A sensei (chūnin or higher) and up to three genin. Teammates like each other, spar 15% faster together, are in sync in a fight when near each other (aim and dodge up, foes break faster under their joint attacks), and a squad of one whole team has a better chance and earns more fame.</p>
+  <div class="mrow"><span>Team Mori: Kenta with Daichi</span><span class="r"><button class="mbtn sm" data-go="t-disband">Disband</button></span></div>
+  <hr style="border:0;border-top:1px solid var(--w-line);margin:8px 0">
+  <div>New team:</div>
+  <div class="mrowbtns" style="margin:4px 0 8px"><button class="mbtn" data-go="t-sensei">Sensei: choose</button></div>
+  <div class="msec">
+    <div class="mrow"><span class="mcheck">Ren (no rank, level 2)</span></div>
+    <div class="mrow"><span class="mcheck">Sora (genin, level 3)</span></div>
+  </div>
+  <div class="mrowbtns"><button class="mbtn off">Form the team</button><span class="mmuted" style="align-self:center">pick a sensei</span></div>
+  <p class="mmuted" style="font-size:12px">Pick a sensei to go on (the genin ticks are shown done in the next step).</p>
+</div>
+
+<div class="mpage" data-page="t-sensei" hidden>
+  <button class="mbtn sm mback" data-back>&#8592; Back</button>
+  <div class="mtitle">Sensei <small>menu</small></div>
+  <div class="msec">
+    <div class="mrow"><button class="mlink" data-go="t-picked">Hoshi (village leader)</button></div>
+    <div class="mrow"><button class="mlink" data-go="t-picked">Mei (chūnin)</button></div>
+  </div>
+  <p class="mmuted" style="font-size:12px">Only free chūnin, jōnin and leaders are offered; with none: "No chūnin or jōnin free". In this mockup either pick goes on with Mei.</p>
+</div>
+
+<div class="mpage" data-page="t-picked" hidden>
+  <button class="mbtn sm mback" data-tab="mis">&#8592; Close this window</button>
+  <div class="mtitle">Genin teams</div>
+  <p>A sensei (chūnin or higher) and up to three genin. Teammates like each other, spar 15% faster together, are in sync in a fight when near each other (aim and dodge up, foes break faster under their joint attacks), and a squad of one whole team has a better chance and earns more fame.</p>
+  <div class="mrow"><span>Team Mori: Kenta with Daichi</span><span class="r"><button class="mbtn sm" data-go="t-disband">Disband</button></span></div>
+  <hr style="border:0;border-top:1px solid var(--w-line);margin:8px 0">
+  <div>New team:</div>
+  <div class="mrowbtns" style="margin:4px 0 8px"><button class="mbtn" data-go="t-sensei">Sensei: Mei</button></div>
+  <div class="msec">
+    <div class="mrow"><span class="mcheck on">Ren (no rank, level 2)</span></div>
+    <div class="mrow"><span class="mcheck on">Sora (genin, level 3)</span></div>
+  </div>
+  <div class="mrowbtns"><button class="mbtn pri" data-go="t-formed">Form the team</button></div>
+</div>
+
+<div class="mpage" data-page="t-formed" hidden>
+  <button class="mbtn sm mback" data-tab="mis">&#8592; Close this window</button>
+  <div class="mtitle">Genin teams</div>
+  <p>A sensei (chūnin or higher) and up to three genin. Teammates like each other, spar 15% faster together, are in sync in a fight when near each other (aim and dodge up, foes break faster under their joint attacks), and a squad of one whole team has a better chance and earns more fame.</p>
+  <div class="mrow"><span>Team Mori: Kenta with Daichi</span><span class="r"><button class="mbtn sm" data-go="t-disband">Disband</button></span></div>
+  <div class="mrow"><span>Team Sato: Mei with Ren, Sora</span><span class="r"><button class="mbtn sm" data-go="t-disband">Disband</button></span></div>
+  <hr style="border:0;border-top:1px solid var(--w-line);margin:8px 0">
+  <div>New team:</div>
+  <div class="mrowbtns" style="margin:4px 0 8px"><button class="mbtn" data-go="t-sensei">Sensei: choose</button></div>
+  <div class="msec">
+    <div class="mmuted">No genin or unranked ninja free.</div>
+  </div>
+  <div class="mrowbtns"><button class="mbtn off">Form the team</button><span class="mmuted" style="align-self:center">pick a sensei</span></div>
+</div>
+
+<div class="mpage" data-page="t-disband" hidden>
+  <button class="mbtn sm mback" data-back>&#8592; Back</button>
+  <p>The team is removed at once and the news says "Team Mori was disbanded." A team also breaks up by itself when its sensei or all its genin are gone.</p>
+</div>
+
+<div class="mpage" data-page="diplo" hidden>
+  <button class="mbtn sm mback" data-tab="mis">&#8592; Close this window</button>
+  <div class="mtitle">Diplomacy</div>
+  <p style="margin:0 0 8px">Silver on this map: 1840</p>
+  <div class="msec" title="What Haigakure remembers of you (good and bad deeds) shows here when you hover it in game.">
+    <div>Haigakure&nbsp;&nbsp;(Ally, 78)</div>
+    <div class="mrowbtns" style="margin-top:6px"><button class="mbtn" data-go="d-hostage" title="One of your colonists stays with Haigakure for 20 days and one of their ninja stays with you. No raids from them meanwhile; both come home with goodwill +10.">Exchange hostages</button><button class="mbtn off" title="your village isn't renowned enough (needs Feared renown)">Demand tribute</button></div>
+  </div>
+  <div class="msec" title="What Nagisagakure remembers of you (good and bad deeds) shows here when you hover it in game.">
+    <div>Nagisagakure&nbsp;&nbsp;(Neutral, 12)</div>
+    <div class="mrowbtns" style="margin-top:6px"><button class="mbtn" data-go="d-hostage" title="One of your colonists stays with Nagisagakure for 20 days and one of their ninja stays with you. No raids from them meanwhile; both come home with goodwill +10.">Exchange hostages</button><button class="mbtn off" title="your village isn't renowned enough (needs Feared renown)">Demand tribute</button></div>
+  </div>
+  <div class="msec" title="What Sajingakure remembers of you (good and bad deeds) shows here when you hover it in game.">
+    <div>Sajingakure&nbsp;&nbsp;(Hostile, -45)</div>
+    <div class="mrowbtns" style="margin-top:6px"><button class="mbtn off" title="Sajingakure is hostile: offer a ceasefire first">Exchange hostages</button><button class="mbtn" data-go="d-tribute" title="Pay 800 silver: no raids from Sajingakure for 30 days.">Pay tribute (800)</button><button class="mbtn off" title="your village isn't renowned enough (needs Feared renown)">Demand tribute</button></div>
+  </div>
+  <div class="msec" title="What Kaedegakure remembers of you (good and bad deeds) shows here when you hover it in game.">
+    <div>Kaedegakure&nbsp;&nbsp;(Neutral, 30)</div>
+    <div class="mrowbtns" style="margin-top:6px"><button class="mbtn off" title="you already hold hostages with Kaedegakure">Exchange hostages</button><button class="mbtn off" title="your village isn't renowned enough (needs Feared renown)">Demand tribute</button></div>
+  </div>
+  <div class="msec" title="What Otowagakure remembers of you (good and bad deeds) shows here when you hover it in game.">
+    <div>Otowagakure&nbsp;&nbsp;(Hostile, -20)</div>
+    <div class="mrowbtns" style="margin-top:6px"><button class="mbtn off" title="Otowagakure is hostile: offer a ceasefire first">Exchange hostages</button><button class="mbtn off" title="Pay 600 silver: no raids from Otowagakure for 30 days.">Pay tribute (600)</button><button class="mbtn off" title="your village isn't renowned enough (needs Feared renown)">Demand tribute</button></div>
+  </div>
+  <div class="msec" title="What Tetsugakure remembers of you (good and bad deeds) shows here when you hover it in game.">
+    <div>Tetsugakure&nbsp;&nbsp;(Neutral, 5)</div>
+    <div class="mrowbtns" style="margin-top:6px"><button class="mbtn" data-go="d-hostage" title="One of your colonists stays with Tetsugakure for 20 days and one of their ninja stays with you. No raids from them meanwhile; both come home with goodwill +10.">Exchange hostages</button><button class="mbtn off" title="your village isn't renowned enough (needs Feared renown)">Demand tribute</button></div>
+  </div>
+  <p class="mmuted" style="font-size:12px">Hover a greyed button for why it is off. <b>Pay tribute</b> shows only for villages at war with you; <b>Demand tribute</b> opens up once your village is famous enough. A renowned village can demand tribute. They may pay (silver, goodwill -10) or refuse (goodwill -15). They will remember either way.</p>
+</div>
+
+<div class="mpage" data-page="d-hostage" hidden>
+  <button class="mbtn sm mback" data-back>&#8592; Back</button>
+  <div class="mtitle">Exchange hostages <small>menu</small></div>
+  <div class="msec">
+    <div class="mrow"><button class="mlink" data-go="d-hostage-done">Send Hoshi (20 days)</button></div>
+    <div class="mrow"><button class="mlink" data-go="d-hostage-done">Send Kenta (20 days)</button></div>
+    <div class="mrow"><button class="mlink" data-go="d-hostage-done">Send Mei (20 days)</button></div>
+    <div class="mrow"><button class="mlink" data-go="d-hostage-done">Send Daichi (20 days)</button></div>
+    <div class="mrow"><button class="mlink" data-go="d-hostage-done">Send Sora (20 days)</button></div>
+    <div class="mrow"><button class="mlink" data-go="d-hostage-done">Send Ren (20 days)</button></div>
+  </div>
+  <p class="mmuted" style="font-size:12px">Someone has to stay home: the exchange needs at least one other colonist on the map.</p>
+</div>
+
+<div class="mpage" data-page="d-hostage-done" hidden>
+  <button class="mbtn sm mback" data-back>&#8592; Back</button>
+  <p>Ren goes to stay with the village for 20 days, and one of their ninja comes to stay with you. No raids from them meanwhile; when both come home, goodwill +10. The pact shows as "Hostage exchange with …" on the Missions tab.</p>
+</div>
+
+<div class="mpage" data-page="d-tribute" hidden>
+  <button class="mbtn sm mback" data-back>&#8592; Back</button>
+  <p class="mgood">Tribute paid: no raids from Sajingakure for 30 days.</p>
+  <p class="mmuted" style="font-size:12px">The 800 silver is taken from this map; the button then stays off while the pact lasts.</p>
+</div>
+
+</div>
+<figcaption>The Ninja world panel (the Ninja world button on the bottom bar) with all six tabs, and the windows its buttons open: Send a squad, the live mission window (Watch), Mission records, World news, the Bingo Book, Genin teams and Diplomacy.</figcaption>
+</figure>
+
 <div class="toolbar"><button type="button" data-act="open">Expand all</button><button type="button" data-act="close">Collapse all</button></div><div class="toc"><a href="#the-world-moves">The world moves</a><a href="#squad-missions">Squad missions</a><a href="#ninja-society">Ninja society</a><a href="#the-living-land">The living land</a><a href="#small-touches">Small touches</a><a href="#settings">Settings</a></div><details class="sec gsec" open id="the-world-moves"><summary><span class="st">The world moves</span></summary><div class="body">
 <ul><li><b>Villages act on their own.</b> Warring villages lay <b>sieges</b> to each other&#x27;s settlements (you see them in the panel and the news). After a few days a siege ends: the settlement is captured, razed to ruins, or held. Villages sign <b>ceasefires</b> and fall out again, and now and then found <b>new settlements</b> near their others. A village never loses its last settlement this way, and after the leaders&#x27; peace the villages never war each other again.</li><li><b>Named ninja.</b> Every hidden village, the Black Ink Syndicate and the Order of the Venator keep a roster of named ninja: genin, chūnin, jōnin and their leader. Over the years they gain levels and rank up, marry (sometimes across villages), have children who carry the clan name, retire, and die. Famous ones (Known and up) become real people: they get a page in your <b>Bingo Book</b> before you ever meet them.</li><li><b>World news.</b> Wars, sieges, fallen and new settlements, leaders, exams, festivals, beasts, prices and the lives and deaths of people you know. The panel shows the latest lines; <b>All news</b> opens the whole log with a filter. A setting can also send the important ones as letters.</li></ul>
 </div></details>
 <details class="sec gsec" open id="squad-missions"><summary><span class="st">Squad missions</span></summary><div class="body">
 <p><b>Send a squad</b> (Ninja world panel): pick a mission rank from D to S, who it&#x27;s for (your sworn village, a friendly village or the Venator), and 1 to 4 ninja from a home map. They leave the map and come back days later (D 2 days, C 3, B 5, A 7, S 10) with a report.</p>
-<p>| | Success | Failure | |---|---|---| | Silver | D 150, C 320, B 650, A 1100, S 1800 | — | | Also | a technique scroll and seals, class XP, fame, goodwill | a third of the XP, injuries, goodwill −3 | | Risk | sometimes injuries | A and S: someone may not come back |</p>
+<div class="tw"><table class="gt"><tr><th></th><th>Success</th><th>Failure</th></tr><tr><td>Silver</td><td>D 150, C 320, B 650, A 1100, S 1800</td><td>—</td></tr><tr><td>Also</td><td>a technique scroll and seals, class XP, fame, goodwill</td><td>a third of the XP, injuries, goodwill −3</td></tr><tr><td>Risk</td><td>sometimes injuries</td><td>A and S: someone may not come back</td></tr></table></div>
 <p>The chance depends on the squad&#x27;s best and average level against the rank (about level 3 for D up to 16 for S). Someone always has to stay home, and up to three squads can be away at once. On the way they may meet a named ninja of the village, or make a rival.</p>
 </div></details>
 <details class="sec gsec" open id="ninja-society"><summary><span class="st">Ninja society</span></summary><div class="body">
-<ul><li><b>Village leaders</b> have an attitude: <b>hawk</b> (more wars), <b>diplomat</b> (ceasefires, warmer relations with you), <b>merchant</b> (trade) or <b>isolationist</b>. Leaders can be assassinated, overthrown or die of age; the strongest jōnin takes over, and the new attitude shifts goodwill with you. When you behead a village yourself, its successor also comes from the roster. Hover over a faction in the panel to see its leader.</li><li><b>Genin teams</b> (<b>Teams</b> button): a sensei (chūnin or higher) and up to three genin. Teammates like each other, spar 15% faster together, and in a fight near each other they are <b>in sync</b> (aim, melee and dodge +4%; a foe they attack together breaks 10% faster). A squad made of one whole team has +10% success and earns more fame.</li><li><b>Rotating chūnin exams.</b> The host changes every year through the hidden villages (a hostile host doesn&#x27;t invite you). Your genin face <b>named genin</b> of other villages: one who beats yours in the final may be promoted, and one yours defeat may swear revenge. The exam happens every year even without you; the news lists who was promoted.</li><li><b>Diplomacy</b> (<b>Diplomacy</b> button and envoys):</li></ul>
-<p>  - <b>Envoys</b> arrive with proposals: a non-aggression pact (no raids for 30 days), a trade pact (better prices for 60 days), a request for help (a mission), a <b>tribute demand</b> from a hostile hawk (pay, or they raid within two days), a <b>ceasefire</b> for silver, or a <b>marriage alliance</b>: one of their named ninja marries your single colonist and joins you (goodwill +20, no raids for 60 days).   - <b>Hostages:</b> one of your colonists stays with a village for 20 days and one of theirs stays with you as a guest. No raids from them meanwhile; both come home with goodwill +10. Let theirs die and they never forget.   - <b>Tribute:</b> pay a hostile village to leave you alone for 30 days, or, once your village is Feared, demand tribute from them.   - The village leaders also hold their own <b>summit</b> every year.</p>
-<ul><li><b>Clan politics at home.</b> Colonists who share a clan (or a family name) form a clan with a <b>head</b> (highest rank, then oldest). When the head dies the seat passes on (the heir is pleased, older relatives sulk). Clans sometimes <b>feud</b> (they think less of each other for a season) and make <b>requests</b> (a feast, an heirloom weapon, recognition, a grievance): grant them for a good mood, refuse and they resent it.</li><li><b>Villages remember.</b> Each village keeps a ledger of what you did to it: raids and kills, its leader killed, prisoners released, wounded tended, missions done for it, gifts, hostages, marriages, ambushes. Old deeds fade (by half in about half a year; big ones last much longer). What they remember nudges goodwill every season; villages that remember kindness send <b>gifts</b>, those that remember blood send <b>grudge raids</b>. Hover over a faction to read its memory.</li></ul>
+<ul><li><b>Village leaders</b> have an attitude: <b>hawk</b> (more wars), <b>diplomat</b> (ceasefires, warmer relations with you), <b>merchant</b> (trade) or <b>isolationist</b>. Leaders can be assassinated, overthrown or die of age; the strongest jōnin takes over, and the new attitude shifts goodwill with you. When you behead a village yourself, its successor also comes from the roster. Hover over a faction in the panel to see its leader.</li><li><b>Genin teams</b> (<b>Teams</b> button): a sensei (chūnin or higher) and up to three genin. Teammates like each other, spar 15% faster together, and in a fight near each other they are <b>in sync</b> (aim, melee and dodge +4%; a foe they attack together breaks 10% faster). A squad made of one whole team has +10% success and earns more fame.</li><li><b>Rotating chūnin exams.</b> The host changes every year through the hidden villages (a hostile host doesn&#x27;t invite you). Your genin face <b>named genin</b> of other villages: one who beats yours in the final may be promoted, and one yours defeat may swear revenge. The exam happens every year even without you; the news lists who was promoted.</li><li><b>Diplomacy</b> (<b>Diplomacy</b> button and envoys):<ul><li><b>Envoys</b> arrive with proposals: a non-aggression pact (no raids for 30 days), a trade pact (better prices for 60 days), a request for help (a mission), a <b>tribute demand</b> from a hostile hawk (pay, or they raid within two days), a <b>ceasefire</b> for silver, or a <b>marriage alliance</b>: one of their named ninja marries your single colonist and joins you (goodwill +20, no raids for 60 days).</li><li><b>Hostages:</b> one of your colonists stays with a village for 20 days and one of theirs stays with you as a guest. No raids from them meanwhile; both come home with goodwill +10. Let theirs die and they never forget.</li><li><b>Tribute:</b> pay a hostile village to leave you alone for 30 days, or, once your village is Feared, demand tribute from them.</li><li>The village leaders also hold their own <b>summit</b> every year.</li></ul></li><li><b>Clan politics at home.</b> Colonists who share a clan (or a family name) form a clan with a <b>head</b> (highest rank, then oldest). When the head dies the seat passes on (the heir is pleased, older relatives sulk). Clans sometimes <b>feud</b> (they think less of each other for a season) and make <b>requests</b> (a feast, an heirloom weapon, recognition, a grievance): grant them for a good mood, refuse and they resent it.</li><li><b>Villages remember.</b> Each village keeps a ledger of what you did to it: raids and kills, its leader killed, prisoners released, wounded tended, missions done for it, gifts, hostages, marriages, ambushes. Old deeds fade (by half in about half a year; big ones last much longer). What they remember nudges goodwill every season; villages that remember kindness send <b>gifts</b>, those that remember blood send <b>grudge raids</b>. Hover over a faction to read its memory.</li></ul>
 </div></details>
 <details class="sec gsec" open id="the-living-land"><summary><span class="st">The living land</span></summary><div class="body">
 <ul><li><b>Travellers</b> walk the world map between settlements: merchant caravans, ninja squads, pilgrims and missing-nin. When your caravan shares their tile you can <b>buy supplies</b> from merchants, <b>escort</b> them (silver and goodwill if your caravan is near when they arrive), <b>recruit</b> a missing-nin (Social decides), or <b>ambush</b> them (loot, but goodwill −40, remembered, and an infamous deed). Travellers passing near your village may stop by.</li><li><b>Landmarks</b> appear on the world map for a month or two: a <b>sealed temple</b>, an <b>old battlefield</b> guarded by the dead, a <b>scroll cache</b>, an <b>abandoned clan laboratory</b> with its constructs, and a <b>beast territory</b> with a summoning token at its heart. Visit with a caravan for scrolls, seals, silver and more.</li><li><b>Legendary beasts:</b> the <b>Ashmaw</b> (a giant ember boar), the <b>Tidewyrm</b> (a sea serpent) and the <b>Thunderhorn</b> (a storm bull) roam the world map and ravage settlements they pass (the news tells). One may come to your village in a rage. Kill it for spirit gems, gold and great fame, hunt it with a caravan on its tile, or down it and let a colonist with <b>Animals 10+</b> and a <b>summoning technique</b> try to <b>befriend</b> it.</li><li><b>Visitors:</b> <b>pilgrims</b> rest a day and leave an offering; a <b>wandering monk</b> blesses everyone or teaches one colonist a meditation (learning +10%, mental breaks less likely, 10 days); a <b>student</b> asks to train with your most famous ninja for 15 days (fame and XP for the teacher; they may ask to join); <b>war refugees</b> ask for shelter: take them in, shelter them as guests, or turn them away.</li><li><b>The market:</b> prices with NFRP traders follow the world. Wars raise weapons, armour and medicine; sieges and ravaged settlements raise food, and so does winter. Peace slowly brings prices back. Changes are capped at 35% and shown in the panel.</li></ul>
@@ -31,9 +718,9 @@
 <ul><li><b>Festivals abroad:</b> each hidden village has its own festival (the Night of Ash Lanterns, the Tide-Turning Festival, the Dance of the Sandstorm, the Maple Moon Viewing, the Festival of Echoing Bells, the Day of the Anvil). Villages that like you invite you three days ahead: send up to three colonists for two days for a big mood boost, goodwill, and maybe a new friend, a recruit or a marriage offer. The panel shows the next one.</li><li><b>Letters:</b> named ninja you have met write now and then: thanks with a small gift, news of their lives, requests for help, taunts from enemies, and threats from your rivals.</li><li><b>Deaths of people you know:</b> when a named ninja you met dies off-screen, a letter tells how, and their Bingo Book page is marked dead.</li></ul>
 </div></details>
 <details class="sec gsec" open id="settings"><summary><span class="st">Settings</span></summary><div class="body">
-<p>| Setting | Default | |---|---| | Villages act on their own | on | | Named ninja live their lives (most kept: 48) | on | | Squad missions | on | | World news (important news as letters: off) | on | | Village leaders and succession | on | | Genin teams | on | | Rotating chūnin exams with named genin | on | | Diplomacy | on | | Clan politics at home | on | | Villages remember | on | | Traffic on the world map | on | | Landmarks | on | | Legendary beasts | on | | Visitors | on | | Reactive market | on | | Festivals in other villages | on | | Letters from people you know | on | | Deaths of known ninja | on | | Living world pace | 100% (25–200%) |</p>
+<div class="tw"><table class="gt"><tr><th>Setting</th><th>Default</th></tr><tr><td>Villages act on their own</td><td>on</td></tr><tr><td>Named ninja live their lives (most kept: 48)</td><td>on</td></tr><tr><td>Squad missions</td><td>on</td></tr><tr><td>World news (important news as letters: off)</td><td>on</td></tr><tr><td>Village leaders and succession</td><td>on</td></tr><tr><td>Genin teams</td><td>on</td></tr><tr><td>Rotating chūnin exams with named genin</td><td>on</td></tr><tr><td>Diplomacy</td><td>on</td></tr><tr><td>Clan politics at home</td><td>on</td></tr><tr><td>Villages remember</td><td>on</td></tr><tr><td>Traffic on the world map</td><td>on</td></tr><tr><td>Landmarks</td><td>on</td></tr><tr><td>Legendary beasts</td><td>on</td></tr><tr><td>Visitors</td><td>on</td></tr><tr><td>Reactive market</td><td>on</td></tr><tr><td>Festivals in other villages</td><td>on</td></tr><tr><td>Letters from people you know</td><td>on</td></tr><tr><td>Deaths of known ninja</td><td>on</td></tr><tr><td>Living world pace</td><td>100% (25–200%)</td></tr></table></div>
 <p>The whole off-screen world runs once a day and costs a few milliseconds; only leaders, the famous and people you met ever become real pawns (at most 24).</p>
 </div></details></article></main>
 <footer>NFRP World is a RimWorld mod by Cassie, an add-on for World of Naruto and Taran Magic Framework. Technique and clan material from the Naruto Forum Role-play (NFRP) community archive. The Kazeraikou clan was created by Marii from NFRP and is used with her permission. This wiki is generated from the mod's files.</footer>
-<script>window.ROOT="../";</script><script src="../assets/search.js"></script>
+<script>window.ROOT="../";</script><script src="../assets/search.js"></script><script src="../assets/mock.js"></script>
 </body></html>

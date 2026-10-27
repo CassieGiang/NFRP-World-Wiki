@@ -20,3 +20,6 @@ Next to each row a **rank strip** from D to S shows how far that kind can go: gr
 ## Changing a build
 - The first build is free. Changing it later uses a **Revamp Scroll**, sold by the Venator or written at a scribe desk.
 - Only the player's pawns are limited by builds. NPCs follow their rank instead.
+
+## The build window
+@@mock build

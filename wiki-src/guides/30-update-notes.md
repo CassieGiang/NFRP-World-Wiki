@@ -1,6 +1,28 @@
 # Update notes
 What changed in recent updates, newest first.
 
+## Updates 263–286: signature techniques, our own art everywhere, a shinobi furniture style and smarter storytellers
+**Signature techniques** (see [signature techniques](signature-techniques.html))
+- Your ninja design techniques of their own from 24 shapes, 34 modifiers and 22 painted motifs, named in Japanese and English, and develop them at a training spot.
+- Parts are earned through missions, rivals, fame, old seals and training. Missions, duels, fame, sealed caches and training also bring inspirations: three ideas to choose from.
+- Scrolls teach a signature to another of your ninja. Copying techniques can't take one.
+- Enemy leaders, jōnin and rivals carry signatures. You learn them once you see them used; they show in the Bingo Book.
+- A **Signature techniques** window on the bottom bar lists your techniques, the parts and known enemy techniques.
+
+**Storytellers** (see [storytellers](storytellers.html))
+- Squad requests from friendly villages that pay extra when answered, moments of insight that inspire a ninja, rivals who come back with a signature, and ninja tools and shinobi weapons in the smuggler's stash.
+- The small portraits of Hisame and Kitsunebi are recropped to show the whole head.
+
+**Art**
+- **Our own art for hand-made animations:** the Kazeraikou storm, burial, eye, palm, hound, falcon and bear groups, the star, shadow, swarm, bone, Akimichi and masked guard groups, and the six prototype heroes (iron sand, folding space, seal blink, clockwork and fang blades) now draw their own painted pieces instead of shared ones.
+- **More signature looks:** dragons, birds, hounds and tigers in more elements, ten new pale motifs (serpent, crane, wolf, comet, turtle shell, spider web, lotus, mirror shards, crescent moon, sun flare).
+- **Shinobi furniture style** (Ideology): our own look for 34 vanilla furniture pieces, benches, lamps and the campfire, drawn from above; long benches are drawn long.
+- **Slate tab buttons** under a selected pawn or thing (also with RimHUD). Setting: NFRP tab buttons.
+
+**Gear and crafting**
+- **24 shinobi weapons**: classic blades, chain and rope weapons, polearms, parrying weapons and throwing tools (see [shinobi weapons](shinobi-weapons.html)).
+- **Inscribe seal** at the scribe desk opens a window listing the colony's weapons and apparel, on the map or worn.
+
 ## Updates 174–262: cleaner hand-made animations, painted creatures, jutsu chains and fixes
 **Hand-made animations**
 - **Clean casts:** a technique with its own hand-made animation now shows only its own art. During the wind-up the hands form the seals, with no shared seal circle or chakra gather; there is no generic flash, ring or start burst at the cast.

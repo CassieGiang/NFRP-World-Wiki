@@ -7,6 +7,8 @@ Pressing power into weapons and armour.
 - Gear has 1 seal slot, 2 at excellent or masterwork, 3 at legendary. A new seal goes on at C rank at most, then rises one rank at a time.
 - Sealed weapons glow in the seal's colour and flash on every hit.
 
+@@mock inscribe
+
 ## What seals do
 - **Weapon seals** add elemental damage, stun, cripple, knock back, drain chakra, heal the wielder, frighten or confuse.
 - **Armour seals** give stats, resist damage types, hurt melee attackers or keep effects on the wearer.

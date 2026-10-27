@@ -61,3 +61,6 @@ Under **Village life → Fame, Bingo Book and Rivals**:
 - **Rivals** on or off, the most rivals at once (default 6), and how often they return
 
 More parts (witnesses, masked names, infamy, renown, duels, legacy, bounties on bodies, intel and interrogation, beheading a village) are in [Reputation, duels and intel](reputation-duels-and-intel.html).
+
+## The Shinobi tab
+@@mock shinobi-tab

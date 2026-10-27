@@ -58,3 +58,5 @@ Once you have a village leader and the truce is over, the first summit comes 15 
 Success depends on goodwill, the leader's Social and whether you founded a village; a refusal costs 5 goodwill. Your partners stop fighting each other.
 
 **Peace** comes when four villages are your partners and the united front has been called, or when the Syndicate has no settlements left. Then every village stops fighting every other, every village's goodwill with you rises by 15, and everyone gets +10 mood for 20 days. After peace only the fights against the Syndicate go on. The panel's "Path to peace" section tracks it.
+
+@@mock summit

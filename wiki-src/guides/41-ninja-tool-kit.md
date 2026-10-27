@@ -17,6 +17,8 @@ Select a colonist and press **Kit**. Pick a kit, or **Edit kits…** to make you
 
 When a pawn is not drafted and has nothing to do, it walks to storage (or picks up tools lying on the ground) and refills its pouch, up to what the pouch holds.
 
+@@mock tool-kit
+
 ## In a fight
 Drafted pawns use their tools on their own, depending on their **stance**:
 

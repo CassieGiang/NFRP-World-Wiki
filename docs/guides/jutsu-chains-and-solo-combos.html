@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Jutsu chains and solo combos · NFRP World</title><meta name="description" content="Jutsu chains and solo combos">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@600;700&display=swap">
+<link rel="stylesheet" href="../assets/style.css"><link rel="stylesheet" href="../assets/mock.css"><link rel="icon" href="../assets/icon.png">
+</head><body>
+<header><div class="hin"><a class="brand" href="../index.html"><img src="../assets/icon.png" alt=""><span>NFRP World</span></a>
+<nav><a href="../index.html">Home</a><a href="../guides/index.html">Guides</a><a href="../trees/index.html">Technique trees</a><a href="../items.html">Items</a><a href="../seals.html">Seals</a><a href="../creatures.html">Creatures</a><a href="../plants.html">Plants</a><a href="../factions.html">Factions</a><a href="../guides/for-modders.html">For modders</a></nav>
+<div class="search"><input id="q" type="search" placeholder="Search techniques, items, seals…" autocomplete="off" aria-label="Search"><div id="hits"></div></div>
+</div></header>
+<main><article class="guide"><h1>Jutsu chains and solo combos</h1>
+<p>Trained ninja can fire several techniques on one order, and finish elemental combos on their own. Both open up with training, and a letter tells you the moment a ninja can do something new.</p>
+<div class="toolbar"><button type="button" data-act="open">Expand all</button><button type="button" data-act="close">Collapse all</button></div><div class="toc"><a href="#jutsu-chains">Jutsu chains</a><a href="#break-combo-slots">Break combo slots</a><a href="#solo-combos">Solo combos</a><a href="#letters">Letters</a></div><details class="sec gsec" open id="jutsu-chains"><summary><span class="st">Jutsu chains</span></summary><div class="body">
+<ul><li>A ninja fires up to <b>three ninjutsu back to back</b> on one order.</li><li><b>Steps:</b> one at first; a second step at <b>Ninjutsu 10</b>, a third at <b>Ninjutsu 16</b>.</li><li>The first step has its normal wind-up. Later steps take half of it, because the hand seals are already flowing, and less as the ninja masters it (down to about a third at Ninjutsu 20). The gap between steps shrinks with skill too.</li><li>Each step pays its own chakra and goes on its own cooldown. A step still on cooldown is skipped.</li><li>The chain stops when chakra runs out, the ninja is downed or stunned, or no enemy is left. If the target dies, the next step goes to the nearest enemy.</li><li>Only offensive ninjutsu aimed at an enemy can go in a chain: no taijutsu, toggles, summons, heals or buffs.</li><li>Set the chain in the combo window&#x27;s <b>Jutsu chain</b> tab, then fire it with the <b>Jutsu chain</b> button on the drafted ninja.</li></ul>
+</div></details>
+<details class="sec gsec" open id="break-combo-slots"><summary><span class="st">Break combo slots</span></summary><div class="body">
+<ul><li>The <b>Break combo</b> tab holds the techniques a ninja follows up with after breaking a foe&#x27;s guard (see <a href="../guides/break-and-combos.html">break and combos</a>).</li><li>Slots follow the rank-exam levels: <b>2</b> below level 8, <b>3</b> from level 8, <b>4</b> from 13, <b>5</b> from 16 or for a village leader.</li></ul>
+<figure class="mock bronze">
+<div class="mwin">
+<span class="mx">×</span>
+
+<div class="mpage" data-page="break">
+<div class="mtitle">Combo: Aiko</div>
+<div class="mtabs" role="tablist"><button data-tab="break" data-also="break-empty">Break combo</button><button data-tab="chain" data-also="chain-empty chain-new">Jutsu chain</button></div>
+<p class="mmuted">Ninja level 9: 3 slots (next slot at level 13). Runs by itself when an enemy breaks within reach; the last step is the finisher (x1.25 damage).</p>
+<div class="mcols even">
+  <div class="msec"><h4>Actions (click to add)</h4>
+    <div class="mrow"><span>Strike</span><span class="r">melee</span></div>
+    <div class="mrow"><span>Flying Knee</span><span class="r">taijutsu</span></div>
+    <div class="mrow"><span>Roundhouse Kick</span><span class="r">taijutsu</span></div>
+    <div class="mrow"><span>Spinning Elbow</span><span class="r">taijutsu</span></div>
+    <div class="mrow"><span>Low Leg Kick</span><span class="r">taijutsu</span></div>
+    <div class="mrow"><span>Electric Touch</span><span class="r">quick jutsu</span></div>
+    <div class="mrow"><span>Air Bullets</span><span class="r">quick jutsu</span></div>
+  </div>
+  <div class="msec"><h4>Combo order</h4>
+    <div class="mrow msec" style="margin:0 0 6px;min-height:34px"><b style="color:var(--w-on);font-size:16px;width:22px">1</b><span class="">Strike</span><span style="margin-left:auto;display:flex;gap:3px"><button class="mbtn sm">v</button><button class="mbtn sm bad">X</button></span></div>
+    <div class="mrow msec" style="margin:0 0 6px;min-height:34px"><b style="color:var(--w-on);font-size:16px;width:22px">2</b><span class="">Low Leg Kick</span><span style="margin-left:auto;display:flex;gap:3px"><button class="mbtn sm">^</button><button class="mbtn sm">v</button><button class="mbtn sm bad">X</button></span></div>
+    <div class="mrow msec" style="margin:0 0 6px;min-height:34px"><b style="color:var(--w-on);font-size:16px;width:22px">3</b><span class="">Flying Knee  — finisher</span><span style="margin-left:auto;display:flex;gap:3px"><button class="mbtn sm">^</button><button class="mbtn sm bad">X</button></span></div>
+    <div class="mrow msec" style="margin:0 0 6px;min-height:34px;opacity:.6"><b class="mmuted" style="font-size:16px;width:22px">4</b><span class="mmuted">unlocks at ninja level 13</span></div>
+    <div class="mrow msec" style="margin:0 0 6px;min-height:34px;opacity:.6"><b class="mmuted" style="font-size:16px;width:22px">5</b><span class="mmuted">unlocks at ninja level 16</span></div>
+  </div>
+</div>
+<div class="mrowbtns" style="align-items:center"><button class="mbtn pri" data-tab="break" title="Fill the slots with this ninja's best taijutsu and quick jutsu, strongest last.">Automatic</button><button class="mbtn bad" data-tab="break-empty">Clear</button><span style="margin-left:auto;display:flex;gap:6px"><button class="mbtn pri" data-go="closed-b">Done</button></span></div>
+
+</div>
+<div class="mpage" data-page="break-empty" hidden>
+<div class="mtitle">Combo: Aiko</div>
+<div class="mtabs" role="tablist"><button data-tab="break" data-also="break-empty">Break combo</button><button data-tab="chain" data-also="chain-empty chain-new">Jutsu chain</button></div>
+<p class="mmuted">Ninja level 9: 3 slots (next slot at level 13). Runs by itself when an enemy breaks within reach; the last step is the finisher (x1.25 damage).</p>
+<div class="mcols even">
+  <div class="msec"><h4>Actions (click to add)</h4>
+    <div class="mrow"><span><button class="mlink" data-go="break">Strike</button></span><span class="r">melee</span></div>
+    <div class="mrow"><span><button class="mlink" data-go="break">Flying Knee</button></span><span class="r">taijutsu</span></div>
+    <div class="mrow"><span><button class="mlink" data-go="break">Roundhouse Kick</button></span><span class="r">taijutsu</span></div>
+    <div class="mrow"><span><button class="mlink" data-go="break">Spinning Elbow</button></span><span class="r">taijutsu</span></div>
+    <div class="mrow"><span><button class="mlink" data-go="break">Low Leg Kick</button></span><span class="r">taijutsu</span></div>
+    <div class="mrow"><span><button class="mlink" data-go="break">Electric Touch</button></span><span class="r">quick jutsu</span></div>
+    <div class="mrow"><span><button class="mlink" data-go="break">Air Bullets</button></span><span class="r">quick jutsu</span></div>
+  </div>
+  <div class="msec"><h4>Combo order</h4>
+    <div class="mrow msec" style="margin:0 0 6px;min-height:34px"><b style="color:var(--w-on);font-size:16px;width:22px">1</b><span class="mmuted">empty: click an action</span></div>
+    <div class="mrow msec" style="margin:0 0 6px;min-height:34px"><b style="color:var(--w-on);font-size:16px;width:22px">2</b><span class="mmuted">empty: click an action</span></div>
+    <div class="mrow msec" style="margin:0 0 6px;min-height:34px"><b style="color:var(--w-on);font-size:16px;width:22px">3</b><span class="mmuted">empty: click an action</span></div>
+    <div class="mrow msec" style="margin:0 0 6px;min-height:34px;opacity:.6"><b class="mmuted" style="font-size:16px;width:22px">4</b><span class="mmuted">unlocks at ninja level 13</span></div>
+    <div class="mrow msec" style="margin:0 0 6px;min-height:34px;opacity:.6"><b class="mmuted" style="font-size:16px;width:22px">5</b><span class="mmuted">unlocks at ninja level 16</span></div>
+  </div>
+</div>
+<div class="mrowbtns" style="align-items:center"><button class="mbtn pri" data-tab="break" title="Fill the slots with this ninja's best taijutsu and quick jutsu, strongest last.">Automatic</button><button class="mbtn bad" data-tab="break-empty">Clear</button><span class="mmuted" style="align-self:center">An empty combo uses the automatic one.</span><span style="margin-left:auto;display:flex;gap:6px"><button class="mbtn pri" data-go="closed-b">Done</button></span></div>
+
+</div>
+<div class="mpage" data-page="closed-b" hidden>
+<div class="mtitle">Combo (3)<small>button tooltip</small></div>
+<p>The window closes and saves the combo. Hovering the ninja's <b>Combo (3)</b> button now shows:</p>
+<div class="msec"><p style="margin:0 0 6px">Combo used when an enemy breaks next to this ninja:</p><p style="margin:0 0 6px">1. Strike<br>2. Low Leg Kick<br>3. Flying Knee  (finisher)</p><p style="margin:0">Enemies break after enough pressure: hits, taijutsu, stuns, knockbacks and fear. Attacking together, from the side or from behind breaks them faster.</p></div>
+<p class="mmuted">Before you set a combo yourself, the first line ends in "(automatic: click to choose your own)".</p>
+<div class="mrowbtns"><button class="mbtn" data-back>Back</button></div>
+</div>
+<div class="mpage" data-page="chain" hidden>
+<div class="mtitle">Jutsu chain: Aiko</div>
+<div class="mtabs" role="tablist"><button data-tab="break" data-also="break-empty">Break combo</button><button data-tab="chain" data-also="chain-empty chain-new">Jutsu chain</button></div>
+<p class="mmuted">Ninjutsu 12: 2 steps (3rd at 16). Later steps wind up in 47% of the time.</p>
+<div class="mcols even">
+  <div class="msec"><h4>Ninjutsu (click to add)</h4>
+    <div class="mrow"><span>Raiton: Lightning Ball</span><span class="r">lightning</span></div>
+    <div class="mrow"><span>Raiton: Lightning Flash</span><span class="r">lightning</span></div>
+    <div class="mrow"><span>Electric Touch</span><span class="r">lightning</span></div>
+    <div class="mrow"><span>Water Fang Blast</span><span class="r">water</span></div>
+    <div class="mrow"><span>Drilling Water Bullet</span><span class="r">water</span></div>
+    <div class="mrow"><span>Running Water Whip</span><span class="r">water</span></div>
+    <div class="mrow"><span>Air Bullets</span><span class="r">wind</span></div>
+  </div>
+  <div class="msec"><h4>Chain order</h4>
+    <div class="mrow msec" style="margin:0 0 6px;min-height:34px"><b style="color:var(--w-on);font-size:16px;width:22px">1</b><span class="">Drilling Water Bullet</span><span style="margin-left:auto;display:flex;gap:3px"><button class="mbtn sm">v</button><button class="mbtn sm bad">X</button></span></div>
+    <div class="mrow msec" style="margin:0 0 6px;min-height:34px"><b style="color:var(--w-on);font-size:16px;width:22px">2</b><span class="">Raiton: Lightning Ball  → Electrified water</span><span style="margin-left:auto;display:flex;gap:3px"><button class="mbtn sm">^</button><button class="mbtn sm bad">X</button></span></div>
+    <div class="mrow msec" style="margin:0 0 6px;min-height:34px;opacity:.6"><b class="mmuted" style="font-size:16px;width:22px">3</b><span class="mmuted">unlocks at Ninjutsu 16</span></div>
+    <p class="mmuted" style="margin:4px 0 0">Each step pays its own chakra and cooldown; steps on cooldown are skipped. Two different elements in a row can combine into a combo when this ninja is trained in both.</p>
+  </div>
+</div>
+<p class="mmuted">The arrow names the elemental combo two neighbouring steps make. A ninja only half trained in both elements gets <i>→ light Electrified water</i>; one not trained enough sees <i>(Electrified water needs training)</i>. <button class="mbtn sm" data-go="chain-new">See a ninja below Ninjutsu 10</button></p>
+<div class="mrowbtns" style="align-items:center"><button class="mbtn pri" data-tab="chain" title="Fill the chain with this ninja's strongest ninjutsu, different elements first.">Automatic</button><button class="mbtn bad" data-tab="chain-empty">Clear</button><span style="margin-left:auto;display:flex;gap:6px"><button class="mbtn pri" data-go="closed-c">Done</button></span></div>
+
+</div>
+<div class="mpage" data-page="chain-empty" hidden>
+<div class="mtitle">Jutsu chain: Aiko</div>
+<div class="mtabs" role="tablist"><button data-tab="break" data-also="break-empty">Break combo</button><button data-tab="chain" data-also="chain-empty chain-new">Jutsu chain</button></div>
+<p class="mmuted">Ninjutsu 12: 2 steps (3rd at 16). Later steps wind up in 47% of the time.</p>
+<div class="mcols even">
+  <div class="msec"><h4>Ninjutsu (click to add)</h4>
+    <div class="mrow"><span><button class="mlink" data-go="chain">Raiton: Lightning Ball</button></span><span class="r">lightning</span></div>
+    <div class="mrow"><span><button class="mlink" data-go="chain">Raiton: Lightning Flash</button></span><span class="r">lightning</span></div>
+    <div class="mrow"><span><button class="mlink" data-go="chain">Electric Touch</button></span><span class="r">lightning</span></div>
+    <div class="mrow"><span><button class="mlink" data-go="chain">Water Fang Blast</button></span><span class="r">water</span></div>
+    <div class="mrow"><span><button class="mlink" data-go="chain">Drilling Water Bullet</button></span><span class="r">water</span></div>
+    <div class="mrow"><span><button class="mlink" data-go="chain">Running Water Whip</button></span><span class="r">water</span></div>
+    <div class="mrow"><span><button class="mlink" data-go="chain">Air Bullets</button></span><span class="r">wind</span></div>
+  </div>
+  <div class="msec"><h4>Chain order</h4>
+    <div class="mrow msec" style="margin:0 0 6px;min-height:34px"><b style="color:var(--w-on);font-size:16px;width:22px">1</b><span class="mmuted">empty: click a technique</span></div>
+    <div class="mrow msec" style="margin:0 0 6px;min-height:34px"><b style="color:var(--w-on);font-size:16px;width:22px">2</b><span class="mmuted">empty: click a technique</span></div>
+    <div class="mrow msec" style="margin:0 0 6px;min-height:34px;opacity:.6"><b class="mmuted" style="font-size:16px;width:22px">3</b><span class="mmuted">unlocks at Ninjutsu 16</span></div>
+    <p class="mmuted" style="margin:4px 0 0">Each step pays its own chakra and cooldown; steps on cooldown are skipped. Two different elements in a row can combine into a combo when this ninja is trained in both.</p>
+  </div>
+</div>
+<div class="mrowbtns" style="align-items:center"><button class="mbtn pri" data-tab="chain" title="Fill the chain with this ninja's strongest ninjutsu, different elements first.">Automatic</button><button class="mbtn bad" data-tab="chain-empty">Clear</button><span style="margin-left:auto;display:flex;gap:6px"><button class="mbtn pri" data-go="closed-c">Done</button></span></div>
+
+</div>
+<div class="mpage" data-page="chain-new" hidden>
+<div class="mtitle">Jutsu chain: Mei</div>
+<div class="mtabs" role="tablist"><button data-tab="break" data-also="break-empty">Break combo</button><button data-tab="chain" data-also="chain-empty chain-new">Jutsu chain</button></div>
+<p class="mmuted">Ninjutsu 6: chains unlock at Ninjutsu 10 (2 steps) and 16 (3 steps).</p>
+<div class="mcols even">
+  <div class="msec"><h4>Ninjutsu (click to add)</h4>
+    <p class="mmuted">Mei hasn't learned any attacking ninjutsu yet. Techniques that hit an enemy show up here once learned.</p>
+  </div>
+  <div class="msec"><h4>Chain order</h4>
+    <div class="mrow msec" style="margin:0 0 6px;min-height:34px"><b style="color:var(--w-on);font-size:16px;width:22px">1</b><span class="mmuted">empty: click a technique</span></div>
+    <div class="mrow msec" style="margin:0 0 6px;min-height:34px;opacity:.6"><b class="mmuted" style="font-size:16px;width:22px">2</b><span class="mmuted">unlocks at Ninjutsu 10</span></div>
+    <div class="mrow msec" style="margin:0 0 6px;min-height:34px;opacity:.6"><b class="mmuted" style="font-size:16px;width:22px">3</b><span class="mmuted">unlocks at Ninjutsu 16</span></div>
+    <p class="mmuted" style="margin:4px 0 0">Each step pays its own chakra and cooldown; steps on cooldown are skipped. Two different elements in a row can combine into a combo when this ninja is trained in both.</p>
+  </div>
+</div>
+<div class="mrowbtns" style="align-items:center"><button class="mbtn pri">Automatic</button><button class="mbtn bad">Clear</button><button class="mbtn" data-back>Back to Aiko</button><span style="margin-left:auto;display:flex;gap:6px"><button class="mbtn pri" data-go="closed-c">Done</button></span></div>
+
+</div>
+<div class="mpage" data-page="closed-c" hidden>
+<div class="mtitle">Jutsu chain saved</div>
+<p>The window closes and saves the chain. Draft Aiko and press her <b>Jutsu chain</b> button to fire Drilling Water Bullet and Raiton: Lightning Ball back to back.</p>
+<div class="mrowbtns"><button class="mbtn" data-back>Back</button></div>
+</div>
+
+</div>
+<figcaption>The <b>combo</b> window with its Break combo and Jutsu chain tabs. Select one of your ninja and press its <b>Combo</b> button (it shows the number of slots, for example Combo (3)); the Jutsu chain button opens the same window.</figcaption>
+</figure>
+
+</div></details>
+<details class="sec gsec" open id="solo-combos"><summary><span class="st">Solo combos</span></summary><div class="body">
+<p>Two allied ninja whose elements meet on a target make an elemental combo: fire and wind make a firestorm, fire and water scalding steam, and so on (see <a href="../guides/elemental-combos.html">elemental combos</a>). A single ninja can now do it alone by casting the second element onto what the first left behind.</p>
+<ul><li><b>Training in an element</b> comes from the techniques a ninja knows in it: S 5 points, A 4, B 3, C 2, D 1, and +2 for their chakra nature.</li><li><b>4 points in each</b> of the two elements: a light solo combo (about 60% strength, smaller area).</li><li><b>9 points in each:</b> the full combo, as strong as two ninja working together.</li><li>A <b>bloodline that fuses the two elements</b> (lava for fire and earth, boil for fire and water, and others) always counts as fully trained.</li><li>The first element&#x27;s mark now lasts 5.5 seconds, so one ninja has time for the second cast. The two hits must be two casts, not one technique&#x27;s own burst.</li><li>A jutsu chain of fire then water from a trained ninja makes their own scalding steam.</li></ul>
+</div></details>
+<details class="sec gsec" open id="letters"><summary><span class="st">Letters</span></summary><div class="body">
+<p>About every 30 seconds of game time the game checks your ninja. A new chain step, a new combo slot or a new solo combo arrives in one letter, with how to use it. A new recruit gets one letter listing what they can already do.</p>
+</div></details></article></main>
+<footer>NFRP World is a RimWorld mod by Cassie, an add-on for World of Naruto and Taran Magic Framework. Technique and clan material from the Naruto Forum Role-play (NFRP) community archive. The Kazeraikou clan was created by Marii from NFRP and is used with her permission. This wiki is generated from the mod's files.</footer>
+<script>window.ROOT="../";</script><script src="../assets/search.js"></script><script src="../assets/mock.js"></script>
+</body></html>

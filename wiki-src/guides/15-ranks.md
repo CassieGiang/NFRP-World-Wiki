@@ -55,3 +55,6 @@ A colonist with the **village leader** rank gets three buttons when selected on 
 - **Assign a mission** (once every 10 days): pick a rank from D to S and a ranked mission comes in from your sworn village, or the friendliest village that gives missions. It's greyed out with the reason if no village can give one.
 
 The ninja world panel shows the leader and whether each order is ready.
+
+## The chūnin exam window
+@@mock chunin-exam

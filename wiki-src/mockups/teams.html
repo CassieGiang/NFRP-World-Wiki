@@ -1,0 +1,67 @@
+<figure class="mock">
+<div class="mwin">
+<span class="mx">×</span>
+
+<div class="mpage" data-page="start">
+  <div class="mtitle">Genin teams</div>
+  <p>A sensei (chūnin or higher) and up to three genin. Teammates like each other, spar 15% faster together, are in sync in a fight when near each other (aim and dodge up, foes break faster under their joint attacks), and a squad of one whole team has a better chance and earns more fame.</p>
+  <div class="mrow"><span>Team Mori: Kenta with Daichi</span><span class="r"><button class="mbtn sm" data-go="disband">Disband</button></span></div>
+  <hr style="border:0;border-top:1px solid var(--w-line);margin:8px 0">
+  <div>New team:</div>
+  <div class="mrowbtns" style="margin:4px 0 8px"><button class="mbtn" data-go="sensei">Sensei: choose</button></div>
+  <div class="msec">
+    <div class="mrow"><span class="mcheck">Ren (no rank, level 2)</span></div>
+    <div class="mrow"><span class="mcheck">Sora (genin, level 3)</span></div>
+  </div>
+  <div class="mrowbtns"><button class="mbtn off">Form the team</button><span class="mmuted" style="align-self:center">pick a sensei</span></div>
+  <p class="mmuted" style="font-size:12px">Pick a sensei to go on (the genin ticks are shown done in the next step).</p>
+</div>
+
+<div class="mpage" data-page="sensei" hidden>
+  <button class="mbtn sm mback" data-back>&#8592; Back</button>
+  <div class="mtitle">Sensei <small>menu</small></div>
+  <div class="msec">
+    <div class="mrow"><button class="mlink" data-go="picked">Hoshi (village leader)</button></div>
+    <div class="mrow"><button class="mlink" data-go="picked">Mei (chūnin)</button></div>
+  </div>
+  <p class="mmuted" style="font-size:12px">Only free chūnin, jōnin and leaders are offered; with none: "No chūnin or jōnin free". In this mockup either pick goes on with Mei.</p>
+</div>
+
+<div class="mpage" data-page="picked" hidden>
+  <button class="mbtn sm mback" data-back>&#8592; Back</button>
+  <div class="mtitle">Genin teams</div>
+  <p>A sensei (chūnin or higher) and up to three genin. Teammates like each other, spar 15% faster together, are in sync in a fight when near each other (aim and dodge up, foes break faster under their joint attacks), and a squad of one whole team has a better chance and earns more fame.</p>
+  <div class="mrow"><span>Team Mori: Kenta with Daichi</span><span class="r"><button class="mbtn sm" data-go="disband">Disband</button></span></div>
+  <hr style="border:0;border-top:1px solid var(--w-line);margin:8px 0">
+  <div>New team:</div>
+  <div class="mrowbtns" style="margin:4px 0 8px"><button class="mbtn" data-go="sensei">Sensei: Mei</button></div>
+  <div class="msec">
+    <div class="mrow"><span class="mcheck on">Ren (no rank, level 2)</span></div>
+    <div class="mrow"><span class="mcheck on">Sora (genin, level 3)</span></div>
+  </div>
+  <div class="mrowbtns"><button class="mbtn pri" data-go="formed">Form the team</button></div>
+</div>
+
+<div class="mpage" data-page="formed" hidden>
+  <button class="mbtn sm mback" data-back>&#8592; Back</button>
+  <div class="mtitle">Genin teams</div>
+  <p>A sensei (chūnin or higher) and up to three genin. Teammates like each other, spar 15% faster together, are in sync in a fight when near each other (aim and dodge up, foes break faster under their joint attacks), and a squad of one whole team has a better chance and earns more fame.</p>
+  <div class="mrow"><span>Team Mori: Kenta with Daichi</span><span class="r"><button class="mbtn sm" data-go="disband">Disband</button></span></div>
+  <div class="mrow"><span>Team Sato: Mei with Ren, Sora</span><span class="r"><button class="mbtn sm" data-go="disband">Disband</button></span></div>
+  <hr style="border:0;border-top:1px solid var(--w-line);margin:8px 0">
+  <div>New team:</div>
+  <div class="mrowbtns" style="margin:4px 0 8px"><button class="mbtn" data-go="sensei">Sensei: choose</button></div>
+  <div class="msec">
+    <div class="mmuted">No genin or unranked ninja free.</div>
+  </div>
+  <div class="mrowbtns"><button class="mbtn off">Form the team</button><span class="mmuted" style="align-self:center">pick a sensei</span></div>
+</div>
+
+<div class="mpage" data-page="disband" hidden>
+  <button class="mbtn sm mback" data-back>&#8592; Back</button>
+  <p>The team is removed at once and the news says "Team Mori was disbanded." A team also breaks up by itself when its sensei or all its genin are gone.</p>
+</div>
+
+</div>
+<figcaption>Genin teams: open it with the Teams button on the Missions tab of the Ninja world panel (bottom bar).</figcaption>
+</figure>

@@ -87,3 +87,6 @@ The same settings window also has: how often sealed ruins appear on new maps, ho
 
 ## Dev tools
 With dev mode on, the debug actions menu has an **NFRP World** section: build a tomb, shrine or training ground; fire each event; start a ruin quest or a mission; drop families of items; spawn creatures; teach a tree or set a discipline; and fill chakra.
+
+## The in-game guide
+@@mock guide-window

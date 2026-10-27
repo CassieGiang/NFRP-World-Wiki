@@ -3,7 +3,7 @@
 <title>Live squad missions · NFRP World</title><meta name="description" content="Live squad missions">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@600;700&display=swap">
-<link rel="stylesheet" href="../assets/style.css"><link rel="icon" href="../assets/icon.png">
+<link rel="stylesheet" href="../assets/style.css"><link rel="stylesheet" href="../assets/mock.css"><link rel="icon" href="../assets/icon.png">
 </head><body>
 <header><div class="hin"><a class="brand" href="../index.html"><img src="../assets/icon.png" alt=""><span>NFRP World</span></a>
 <nav><a href="../index.html">Home</a><a href="../guides/index.html">Guides</a><a href="../trees/index.html">Technique trees</a><a href="../items.html">Items</a><a href="../seals.html">Seals</a><a href="../creatures.html">Creatures</a><a href="../plants.html">Plants</a><a href="../factions.html">Factions</a><a href="../guides/for-modders.html">For modders</a></nav>
@@ -16,6 +16,889 @@
 <p>The window doesn&#x27;t pause the game. It shows:</p>
 <ul><li>a small map of the road in your home&#x27;s landscape (forest, snow, desert, jungle or swamp colours),</li><li>the squad moving out to the target and back,</li><li>markers for everything that happened so far, and a log with the day and hour,</li><li>who in the squad is fine or hurt.</li></ul>
 <p>Buttons: <b>Live</b> follows the trip in game time, <b>Replay so far</b> plays what happened again, <b>Skip to the end</b> brings the squad home at once (a setting can turn this off), <b>Mission records</b> and <b>Next squad</b>.</p>
+<figure class="mock bronze">
+<div class="mwin">
+<span class="mx">×</span>
+
+<div class="mpage" data-page="panel">
+  <div class="mtitle">Ninja world</div>
+  <p class="mmuted" style="margin:-6px 0 8px">Missions tab</p>
+  <div class="msec"><h4>The ninja world</h4>
+    <div class="mrow">Squad away: Hana — D-rank for Order of the Venator, back in 19 hours.</div>
+    <div class="mrowbtns"><button class="mbtn" data-go="send">Send a squad</button></div>
+    <p class="mmuted" style="margin:8px 0 4px"><small>Mission rank: level 2 (8 points) &nbsp;·&nbsp; missions 3, won 2 &nbsp;·&nbsp; relics 1/10</small></p>
+    <div class="mrowbtns" style="margin-top:4px"><button class="mbtn sm" data-go="live2-solo">Watch: Hana</button><button class="mbtn sm" data-go="records">Mission records</button></div>
+  </div>
+</div>
+
+<div class="mpage" data-page="panel-after" hidden>
+  <div class="mtitle">Ninja world</div>
+  <p class="mmuted" style="margin:-6px 0 8px">Missions tab</p>
+  <div class="msec"><h4>The ninja world</h4>
+    <div class="mrow">Squad away: Hana — D-rank for Order of the Venator, back in 19 hours.</div>
+    <div class="mrow">Squad away: Aiko, Kenta, Mei — B-rank for Haigakure, back in 5 days.</div>
+    <div class="mrowbtns"><button class="mbtn" data-go="send">Send a squad</button></div>
+    <p class="mmuted" style="margin:8px 0 4px"><small>Mission rank: level 2 (8 points) &nbsp;·&nbsp; missions 3, won 2 &nbsp;·&nbsp; relics 1/10</small></p>
+    <div class="mrowbtns" style="margin-top:4px"><button class="mbtn sm" data-go="live2">Watch: Hana</button><button class="mbtn sm" data-go="live">Watch: Aiko, Kenta, Mei</button><button class="mbtn sm" data-go="records">Mission records</button></div>
+  </div>
+</div>
+
+<div class="mpage" data-page="send" hidden>
+  <div class="mtitle">Send a squad</div>
+  <div class="mrowbtns" style="margin:0 0 8px"><button class="mbtn" style="width:290px" data-go="for">For: Haigakure</button><button class="mbtn" style="width:140px" data-go="rankmenu">D-rank mission</button><button class="mbtn" style="flex:1" data-go="send-other">Other task</button></div>
+  <p>Task: find a lost child in the woods.<br>Away for 2 days. Success: 150 silver, a scroll and seals, 60 class XP each, fame and goodwill. Failure: a third of the XP, injuries.</p>
+  <div class="msec" style="max-height:190px;overflow:auto"><div class="mrow"><span class="mcheck">Aiko &nbsp;(jōnin, level 11)</span></div><div class="mrow"><span class="mcheck">Kenta &nbsp;(chūnin, level 8)</span></div><div class="mrow"><span class="mcheck">Mei &nbsp;(chūnin, level 7)</span></div><div class="mrow"><span class="mcheck">Sora &nbsp;(genin, level 5)</span></div><div class="mrow"><span class="mcheck">Daichi &nbsp;(genin, level 3)</span></div></div>
+  <p>Pick up to 4 ninja.</p>
+  <div class="mrowbtns"><button class="mbtn off" title="Nothing happens until the squad can go.">Send 0 ninja</button></div>
+</div>
+
+<div class="mpage" data-page="send-other" hidden>
+  <div class="mtitle">Send a squad</div>
+  <div class="mrowbtns" style="margin:0 0 8px"><button class="mbtn" style="width:290px" data-go="for">For: Haigakure</button><button class="mbtn" style="width:140px" data-go="rankmenu">D-rank mission</button><button class="mbtn" style="flex:1" data-go="send">Other task</button></div>
+  <p>Task: help bring in a harvest before the storm.<br>Away for 2 days. Success: 150 silver, a scroll and seals, 60 class XP each, fame and goodwill. Failure: a third of the XP, injuries.</p>
+  <div class="msec" style="max-height:190px;overflow:auto"><div class="mrow"><span class="mcheck">Aiko &nbsp;(jōnin, level 11)</span></div><div class="mrow"><span class="mcheck">Kenta &nbsp;(chūnin, level 8)</span></div><div class="mrow"><span class="mcheck">Mei &nbsp;(chūnin, level 7)</span></div><div class="mrow"><span class="mcheck">Sora &nbsp;(genin, level 5)</span></div><div class="mrow"><span class="mcheck">Daichi &nbsp;(genin, level 3)</span></div></div>
+  <p>Pick up to 4 ninja.</p>
+  <div class="mrowbtns"><button class="mbtn off" title="Nothing happens until the squad can go.">Send 0 ninja</button></div>
+</div>
+
+<div class="mpage" data-page="for" hidden>
+  <div class="mtitle">Send a squad</div>
+  <div class="mrowbtns" style="margin:0 0 4px"><button class="mbtn on" style="width:290px" data-back>For: Haigakure</button></div>
+  <div class="msec">
+    <div class="mrow"><button class="mlink" data-back>Haigakure (sworn)</button></div>
+    <div class="mrow"><button class="mlink" data-back>Order of the Venator (goodwill 48)</button></div>
+    <div class="mrow"><button class="mlink" data-back>Kaedegakure (goodwill 31)</button></div>
+  </div>
+  <p class="mmuted">The menu lists your sworn village first, then every village or order with goodwill 25 or more. With none, the window only says: "No village or order is friendly enough to give your ninja a mission (a sworn village, or goodwill 25+)."</p>
+</div>
+
+<div class="mpage" data-page="rankmenu" hidden>
+  <div class="mtitle">Send a squad</div>
+  <div class="mrowbtns" style="margin:0 0 4px"><button class="mbtn" style="width:290px" data-go="for">For: Haigakure</button><button class="mbtn on" style="width:140px" data-back>D-rank mission</button></div>
+  <div class="msec">
+    <div class="mrow"><button class="mlink" data-go="send">D-rank (2 days, about level 3)</button></div>
+    <div class="mrow"><button class="mlink" data-go="send">C-rank (3 days, about level 6)</button></div>
+    <div class="mrow"><button class="mlink" data-go="send-b">B-rank (5 days, about level 9)</button></div>
+    <div class="mrow"><button class="mlink" data-go="send-b">A-rank (7 days, about level 12)</button></div>
+    <div class="mrow"><button class="mlink" data-go="send-s">S-rank (10 days, about level 16)</button></div>
+  </div>
+  <p class="mmuted">Here: B-rank shows a squad picked and ready, S-rank shows a rank your village has not opened yet. C and D go back to the D-rank page.</p>
+</div>
+
+<div class="mpage" data-page="send-b" hidden>
+  <div class="mtitle">Send a squad</div>
+  <div class="mrowbtns" style="margin:0 0 8px"><button class="mbtn" style="width:290px" data-go="for">For: Haigakure</button><button class="mbtn" style="width:140px" data-go="rankmenu">B-rank mission</button><button class="mbtn" style="flex:1" data-go="send-b">Other task</button></div>
+  <p>Task: escort a merchant over a bandit pass.<br>Away for 5 days. Success: 650 silver, a scroll and seals, 250 class XP each, fame and goodwill. Failure: a third of the XP, injuries.</p>
+  <div class="msec" style="max-height:190px;overflow:auto"><div class="mrow sel"><span class="mcheck on">Aiko &nbsp;(jōnin, level 11)</span></div><div class="mrow sel"><span class="mcheck on">Kenta &nbsp;(chūnin, level 8)</span></div><div class="mrow sel"><span class="mcheck on">Mei &nbsp;(chūnin, level 7)</span></div><div class="mrow mmuted"><span class="mcheck">Sora &nbsp;(genin, level 5) &nbsp;— not ranked for this</span></div><div class="mrow mmuted"><span class="mcheck">Daichi &nbsp;(genin, level 3) &nbsp;— not ranked for this</span></div></div>
+  <p>Chance of success: 69%</p>
+  <div class="mrowbtns"><button class="mbtn pri" data-go="letter">Send 3 ninja</button></div>
+</div>
+
+<div class="mpage" data-page="send-s" hidden>
+  <div class="mtitle">Send a squad</div>
+  <div class="mrowbtns" style="margin:0 0 8px"><button class="mbtn" style="width:290px" data-go="for">For: Haigakure</button><button class="mbtn" style="width:140px" data-go="rankmenu">S-rank mission</button><button class="mbtn" style="flex:1" data-go="send-s">Other task</button></div>
+  <p>Task: guard a daimyo through a night of assassins.<br>Away for 10 days. Success: 1800 silver, a scroll and seals, 800 class XP each, fame and goodwill. Failure: a third of the XP, injuries, and someone may not come back.</p>
+  <div class="msec" style="max-height:190px;overflow:auto"><div class="mrow sel"><span class="mcheck on">Aiko &nbsp;(jōnin, level 11)</span></div><div class="mrow mmuted"><span class="mcheck">Kenta &nbsp;(chūnin, level 8) &nbsp;— not ranked for this</span></div><div class="mrow mmuted"><span class="mcheck">Mei &nbsp;(chūnin, level 7) &nbsp;— not ranked for this</span></div><div class="mrow mmuted"><span class="mcheck">Sora &nbsp;(genin, level 5) &nbsp;— not ranked for this</span></div><div class="mrow mmuted"><span class="mcheck">Daichi &nbsp;(genin, level 3) &nbsp;— not ranked for this</span></div></div>
+  <p>Chance of success: 25% &nbsp; <span class="mwarn">Your village's mission rank (level 2) is too low for S-rank missions: they open at level 4.</span></p>
+  <div class="mrowbtns"><button class="mbtn off" title="Nothing happens until the squad can go.">Send 1 ninja</button></div>
+</div>
+
+<div class="mpage" data-page="letter" hidden>
+  <div class="mtitle">Squad away: B rank</div>
+  <p>Aiko, Kenta, Mei left on a B-rank mission for Haigakure: escort a merchant over a bandit pass.</p>
+  <p>They'll be back in about 5 days. You can follow the trip as it happens.</p>
+  <div class="mrowbtns"><button class="mbtn pri" data-go="live">Watch the mission</button><button class="mbtn" data-go="panel-after">Close</button></div>
+</div>
+
+<div class="mpage" data-page="live" hidden>
+  <div class="mtitle">B-rank mission for Haigakure</div>
+  <p class="mmuted" style="margin:-6px 0 8px">escort a merchant over a bandit pass &nbsp;·&nbsp; squad: Aiko, Kenta, Mei &nbsp;·&nbsp; back in 2.8 days</p>
+  <div class="mcols">
+    <div>
+<svg class="mmap" viewBox="0 0 500 300" role="img" aria-label="The road from your village to the target" shape-rendering="crispEdges">
+<rect width="500" height="300" fill="#618c4d"/>
+<path d="M0,0 H170 L150,30 L120,48 L70,58 L30,76 L0,80 Z" fill="#80785f"/>
+<path d="M20,0 H110 L95,18 L60,30 L28,26 Z" fill="#adadb3"/>
+<path d="M250,20 L330,10 L392,28 L404,62 L360,82 L300,78 L262,58 Z" fill="#406b38"/>
+<path d="M120,236 L190,226 L238,250 L232,286 L170,298 L110,284 Z" fill="#406b38"/>
+<path d="M300,300 L320,262 L372,232 L440,222 L500,230 V300 Z" fill="#b8ab7a"/>
+<path d="M318,300 L336,268 L380,244 L440,236 L500,242 V300 Z" fill="#406e99"/>
+<path d="M360,300 L384,272 L438,256 L500,258 V300 Z" fill="#294d80"/>
+<g fill="#1f4724"><rect x="270" y="40" width="4" height="4"/><rect x="296" y="30" width="4" height="4"/><rect x="322" y="52" width="4" height="4"/><rect x="350" y="34" width="4" height="4"/><rect x="376" y="58" width="4" height="4"/><rect x="310" y="66" width="4" height="4"/><rect x="140" y="252" width="4" height="4"/><rect x="168" y="242" width="4" height="4"/><rect x="200" y="262" width="4" height="4"/><rect x="152" y="278" width="4" height="4"/><rect x="214" y="280" width="4" height="4"/></g>
+<line x1="40" y1="214" x2="50" y2="219" stroke="#73522e" stroke-width="3"/>
+<line x1="50" y1="219" x2="61" y2="222" stroke="#73522e" stroke-width="3"/>
+<line x1="61" y1="222" x2="72" y2="222" stroke="#73522e" stroke-width="3"/>
+<line x1="72" y1="222" x2="82" y2="218" stroke="#73522e" stroke-width="3"/>
+<line x1="82" y1="218" x2="92" y2="212" stroke="#73522e" stroke-width="3"/>
+<line x1="92" y1="212" x2="103" y2="203" stroke="#73522e" stroke-width="3"/>
+<line x1="103" y1="203" x2="113" y2="192" stroke="#73522e" stroke-width="3"/>
+<line x1="113" y1="192" x2="124" y2="179" stroke="#73522e" stroke-width="3"/>
+<line x1="124" y1="179" x2="134" y2="166" stroke="#73522e" stroke-width="3"/>
+<line x1="134" y1="166" x2="145" y2="153" stroke="#73522e" stroke-width="3"/>
+<line x1="145" y1="153" x2="156" y2="141" stroke="#73522e" stroke-width="3"/>
+<line x1="156" y1="141" x2="166" y2="130" stroke="#73522e" stroke-width="3"/>
+<line x1="166" y1="130" x2="177" y2="120" stroke="#73522e" stroke-width="3"/>
+<line x1="177" y1="120" x2="187" y2="112" stroke="#73522e" stroke-width="3"/>
+<line x1="187" y1="112" x2="198" y2="107" stroke="#73522e" stroke-width="3"/>
+<line x1="198" y1="107" x2="208" y2="104" stroke="#73522e" stroke-width="3"/>
+<line x1="208" y1="104" x2="218" y2="103" stroke="#73522e" stroke-width="3"/>
+<line x1="218" y1="103" x2="229" y2="104" stroke="#73522e" stroke-width="3"/>
+<line x1="229" y1="104" x2="240" y2="106" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="240" y1="106" x2="250" y2="110" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="250" y1="110" x2="260" y2="114" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="260" y1="114" x2="271" y2="119" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="271" y1="119" x2="282" y2="125" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="282" y1="125" x2="292" y2="129" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="292" y1="129" x2="302" y2="134" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="302" y1="134" x2="313" y2="137" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="313" y1="137" x2="324" y2="141" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="324" y1="141" x2="334" y2="143" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="334" y1="143" x2="344" y2="145" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="344" y1="145" x2="355" y2="147" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="355" y1="147" x2="366" y2="149" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="366" y1="149" x2="376" y2="151" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="376" y1="151" x2="386" y2="154" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="386" y1="154" x2="397" y2="157" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="397" y1="157" x2="408" y2="162" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="408" y1="162" x2="418" y2="166" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="418" y1="166" x2="428" y2="172" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="428" y1="172" x2="439" y2="177" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="439" y1="177" x2="449" y2="183" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="449" y1="183" x2="460" y2="189" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<rect x="34" y="208" width="12" height="12" fill="#e6d9b3"><title>Your village</title></rect>
+<rect x="454" y="183" width="12" height="12" fill="#bf4d40"><title>The target</title></rect>
+<rect x="87" y="210" width="6" height="6" fill="#bff299"><title>Mei gathered healing herbs along a stream.</title></rect>
+<rect x="125" y="171" width="6" height="6" fill="#f2bf80"><title>Ran into bandits on the road. Aiko dropped the leader with a crack of lightning.</title></rect>
+<rect x="176" y="115" width="6" height="6" fill="#b3d9ff"><title>Shared a fire with pilgrims headed for a mountain shrine; they had stories about the road ahead.</title></rect>
+<rect x="209" y="100" width="6" height="6" fill="#ff9980"><title>Kenta set off a hidden trap and was hurt.</title></rect>
+<rect x="255" y="111" width="6" height="6" fill="rgba(255,255,255,.25)"></rect>
+<rect x="302" y="132" width="6" height="6" fill="rgba(255,255,255,.25)"></rect>
+<rect x="348" y="144" width="6" height="6" fill="rgba(255,255,255,.25)"></rect>
+<rect x="398" y="156" width="6" height="6" fill="rgba(255,255,255,.25)"></rect>
+<rect x="249" y="106" width="12" height="12" fill="#6fa8ff"><title>The squad</title></rect>
+<rect x="248" y="105" width="14" height="14" fill="none" stroke="#fff" stroke-width="1"/>
+</svg>
+      <div class="msec" style="margin-top:8px"><div class="mrow">Aiko &nbsp;—&nbsp; level 11 &nbsp;·&nbsp; fine</div><div class="mrow">Kenta &nbsp;—&nbsp; level 8 &nbsp;·&nbsp; <span class="mbad">hurt</span></div><div class="mrow">Mei &nbsp;—&nbsp; level 7 &nbsp;·&nbsp; fine</div></div>
+    </div>
+    <div><div class="msec" style="max-height:330px;overflow:auto">
+<div class="mrow"><span><small class="mmuted">Day 3, 01:00</small><br><span class="mbad">Kenta set off a hidden trap and was hurt.</span></span></div>
+<div class="mrow"><span><small class="mmuted">Day 2, 15:00</small><br><span class="">Shared a fire with pilgrims headed for a mountain shrine; they had stories about the road ahead.</span></span></div>
+<div class="mrow"><span><small class="mmuted">Day 2, 02:00</small><br><span class="mgood">Mei patched up Kenta by the roadside.</span></span></div>
+<div class="mrow"><span><small class="mmuted">Day 2, 01:00</small><br><span class="mbad">Kenta took a few cuts in the fight.</span></span></div>
+<div class="mrow"><span><small class="mmuted">Day 2, 01:00</small><br><span class="mwarn">Ran into bandits on the road. Aiko dropped the leader with a crack of lightning.</span></span></div>
+<div class="mrow"><span><small class="mmuted">Day 1, 14:00</small><br><span class="mgood">Mei gathered healing herbs along a stream.</span></span></div>
+<div class="mrow"><span><small class="mmuted">Day 1, 00:00</small><br><span class="">The squad (Aiko, Kenta, Mei) left the village gate for: escort a merchant over a bandit pass.</span></span></div>
+</div></div>
+  </div>
+  
+  <div class="mrowbtns"><button class="mbtn pri" data-go="live">Live</button><button class="mbtn" data-go="replay">Replay so far</button><button class="mbtn bad" data-go="skip">Skip to the end</button><button class="mbtn" data-go="records">Mission records</button><button class="mbtn pri" style="margin-left:auto" data-go="live2">Next squad</button></div>
+</div>
+
+<div class="mpage" data-page="replay" hidden>
+  <div class="mtitle">B-rank mission for Haigakure</div>
+  <p class="mmuted" style="margin:-6px 0 8px">escort a merchant over a bandit pass &nbsp;·&nbsp; squad: Aiko, Kenta, Mei &nbsp;·&nbsp; back in 2.8 days</p>
+  <div class="mcols">
+    <div>
+<svg class="mmap" viewBox="0 0 500 300" role="img" aria-label="The road from your village to the target" shape-rendering="crispEdges">
+<rect width="500" height="300" fill="#618c4d"/>
+<path d="M0,0 H170 L150,30 L120,48 L70,58 L30,76 L0,80 Z" fill="#80785f"/>
+<path d="M20,0 H110 L95,18 L60,30 L28,26 Z" fill="#adadb3"/>
+<path d="M250,20 L330,10 L392,28 L404,62 L360,82 L300,78 L262,58 Z" fill="#406b38"/>
+<path d="M120,236 L190,226 L238,250 L232,286 L170,298 L110,284 Z" fill="#406b38"/>
+<path d="M300,300 L320,262 L372,232 L440,222 L500,230 V300 Z" fill="#b8ab7a"/>
+<path d="M318,300 L336,268 L380,244 L440,236 L500,242 V300 Z" fill="#406e99"/>
+<path d="M360,300 L384,272 L438,256 L500,258 V300 Z" fill="#294d80"/>
+<g fill="#1f4724"><rect x="270" y="40" width="4" height="4"/><rect x="296" y="30" width="4" height="4"/><rect x="322" y="52" width="4" height="4"/><rect x="350" y="34" width="4" height="4"/><rect x="376" y="58" width="4" height="4"/><rect x="310" y="66" width="4" height="4"/><rect x="140" y="252" width="4" height="4"/><rect x="168" y="242" width="4" height="4"/><rect x="200" y="262" width="4" height="4"/><rect x="152" y="278" width="4" height="4"/><rect x="214" y="280" width="4" height="4"/></g>
+<line x1="40" y1="214" x2="50" y2="219" stroke="#73522e" stroke-width="3"/>
+<line x1="50" y1="219" x2="61" y2="222" stroke="#73522e" stroke-width="3"/>
+<line x1="61" y1="222" x2="72" y2="222" stroke="#73522e" stroke-width="3"/>
+<line x1="72" y1="222" x2="82" y2="218" stroke="#73522e" stroke-width="3"/>
+<line x1="82" y1="218" x2="92" y2="212" stroke="#73522e" stroke-width="3"/>
+<line x1="92" y1="212" x2="103" y2="203" stroke="#73522e" stroke-width="3"/>
+<line x1="103" y1="203" x2="113" y2="192" stroke="#73522e" stroke-width="3"/>
+<line x1="113" y1="192" x2="124" y2="179" stroke="#73522e" stroke-width="3"/>
+<line x1="124" y1="179" x2="134" y2="166" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="134" y1="166" x2="145" y2="153" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="145" y1="153" x2="156" y2="141" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="156" y1="141" x2="166" y2="130" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="166" y1="130" x2="177" y2="120" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="177" y1="120" x2="187" y2="112" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="187" y1="112" x2="198" y2="107" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="198" y1="107" x2="208" y2="104" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="208" y1="104" x2="218" y2="103" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="218" y1="103" x2="229" y2="104" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="229" y1="104" x2="240" y2="106" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="240" y1="106" x2="250" y2="110" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="250" y1="110" x2="260" y2="114" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="260" y1="114" x2="271" y2="119" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="271" y1="119" x2="282" y2="125" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="282" y1="125" x2="292" y2="129" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="292" y1="129" x2="302" y2="134" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="302" y1="134" x2="313" y2="137" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="313" y1="137" x2="324" y2="141" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="324" y1="141" x2="334" y2="143" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="334" y1="143" x2="344" y2="145" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="344" y1="145" x2="355" y2="147" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="355" y1="147" x2="366" y2="149" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="366" y1="149" x2="376" y2="151" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="376" y1="151" x2="386" y2="154" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="386" y1="154" x2="397" y2="157" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="397" y1="157" x2="408" y2="162" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="408" y1="162" x2="418" y2="166" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="418" y1="166" x2="428" y2="172" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="428" y1="172" x2="439" y2="177" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="439" y1="177" x2="449" y2="183" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="449" y1="183" x2="460" y2="189" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<rect x="34" y="208" width="12" height="12" fill="#e6d9b3"><title>Your village</title></rect>
+<rect x="454" y="183" width="12" height="12" fill="#bf4d40"><title>The target</title></rect>
+<rect x="87" y="210" width="6" height="6" fill="#bff299"><title>Mei gathered healing herbs along a stream.</title></rect>
+<rect x="125" y="171" width="6" height="6" fill="rgba(255,255,255,.25)"></rect>
+<rect x="176" y="115" width="6" height="6" fill="rgba(255,255,255,.25)"></rect>
+<rect x="209" y="100" width="6" height="6" fill="rgba(255,255,255,.25)"></rect>
+<rect x="255" y="111" width="6" height="6" fill="rgba(255,255,255,.25)"></rect>
+<rect x="302" y="132" width="6" height="6" fill="rgba(255,255,255,.25)"></rect>
+<rect x="348" y="144" width="6" height="6" fill="rgba(255,255,255,.25)"></rect>
+<rect x="398" y="156" width="6" height="6" fill="rgba(255,255,255,.25)"></rect>
+<rect x="129" y="159" width="12" height="12" fill="#6fa8ff"><title>The squad</title></rect>
+<rect x="128" y="158" width="14" height="14" fill="none" stroke="#fff" stroke-width="1"/>
+</svg>
+      <div class="msec" style="margin-top:8px"><div class="mrow">Aiko &nbsp;—&nbsp; level 11 &nbsp;·&nbsp; fine</div><div class="mrow">Kenta &nbsp;—&nbsp; level 8 &nbsp;·&nbsp; fine</div><div class="mrow">Mei &nbsp;—&nbsp; level 7 &nbsp;·&nbsp; fine</div></div>
+    </div>
+    <div><div class="msec" style="max-height:330px;overflow:auto">
+<div class="mrow"><span><small class="mmuted">Day 1, 14:00</small><br><span class="mgood">Mei gathered healing herbs along a stream.</span></span></div>
+<div class="mrow"><span><small class="mmuted">Day 1, 00:00</small><br><span class="">The squad (Aiko, Kenta, Mei) left the village gate for: escort a merchant over a bandit pass.</span></span></div>
+</div></div>
+  </div>
+  <p class="mmuted">Replaying: the squad walks the road again from the gate and the log fills in until it catches up with now; then it follows live.</p>
+  <div class="mrowbtns"><button class="mbtn pri" data-go="live">Live</button><button class="mbtn" data-go="replay">Replay so far</button><button class="mbtn bad" data-go="skip">Skip to the end</button><button class="mbtn" data-go="records">Mission records</button><button class="mbtn pri" style="margin-left:auto" data-go="live2">Next squad</button></div>
+</div>
+
+<div class="mpage" data-page="skip" hidden>
+  <div class="mtitle">Confirm</div>
+  <p>Bring the squad home now? The rest of the trip is played out at once.</p>
+  <div class="mrowbtns"><button class="mbtn bad" data-go="home">Confirm</button><button class="mbtn" data-back>Go back</button></div>
+</div>
+
+<div class="mpage" data-page="home" hidden>
+  <div class="mtitle">Mission done: B rank</div>
+  <div class="msec">
+  <p>The squad is back from the B-rank mission for Haigakure: escort a merchant over a bandit pass.</p>
+  <p>The mission was a success.<br>Kenta came back hurt.</p>
+  <p>Each ninja gained 250 class XP.<br>650 silver, a technique scroll (B), a cold burst seal (B) and an acid burst seal (B) arrive by drop pod.<br>Goodwill with Haigakure +6.<br>Found on the road: herbal medicine x6.</p>
+  <p>The hidden camp of Black Ink Syndicate is now marked on the world map.</p>
+  </div>
+  <div class="mrowbtns"><button class="mbtn" data-go="live-done">Close</button></div>
+</div>
+
+<div class="mpage" data-page="live-done" hidden>
+  <div class="mtitle">B-rank mission for Haigakure</div>
+  <p class="mmuted" style="margin:-6px 0 8px">escort a merchant over a bandit pass &nbsp;·&nbsp; squad: Aiko, Kenta, Mei &nbsp;·&nbsp; back home</p>
+  <div class="mcols">
+    <div>
+<svg class="mmap" viewBox="0 0 500 300" role="img" aria-label="The road from your village to the target" shape-rendering="crispEdges">
+<rect width="500" height="300" fill="#618c4d"/>
+<path d="M0,0 H170 L150,30 L120,48 L70,58 L30,76 L0,80 Z" fill="#80785f"/>
+<path d="M20,0 H110 L95,18 L60,30 L28,26 Z" fill="#adadb3"/>
+<path d="M250,20 L330,10 L392,28 L404,62 L360,82 L300,78 L262,58 Z" fill="#406b38"/>
+<path d="M120,236 L190,226 L238,250 L232,286 L170,298 L110,284 Z" fill="#406b38"/>
+<path d="M300,300 L320,262 L372,232 L440,222 L500,230 V300 Z" fill="#b8ab7a"/>
+<path d="M318,300 L336,268 L380,244 L440,236 L500,242 V300 Z" fill="#406e99"/>
+<path d="M360,300 L384,272 L438,256 L500,258 V300 Z" fill="#294d80"/>
+<g fill="#1f4724"><rect x="270" y="40" width="4" height="4"/><rect x="296" y="30" width="4" height="4"/><rect x="322" y="52" width="4" height="4"/><rect x="350" y="34" width="4" height="4"/><rect x="376" y="58" width="4" height="4"/><rect x="310" y="66" width="4" height="4"/><rect x="140" y="252" width="4" height="4"/><rect x="168" y="242" width="4" height="4"/><rect x="200" y="262" width="4" height="4"/><rect x="152" y="278" width="4" height="4"/><rect x="214" y="280" width="4" height="4"/></g>
+<line x1="40" y1="214" x2="50" y2="219" stroke="#73522e" stroke-width="3"/>
+<line x1="50" y1="219" x2="61" y2="222" stroke="#73522e" stroke-width="3"/>
+<line x1="61" y1="222" x2="72" y2="222" stroke="#73522e" stroke-width="3"/>
+<line x1="72" y1="222" x2="82" y2="218" stroke="#73522e" stroke-width="3"/>
+<line x1="82" y1="218" x2="92" y2="212" stroke="#73522e" stroke-width="3"/>
+<line x1="92" y1="212" x2="103" y2="203" stroke="#73522e" stroke-width="3"/>
+<line x1="103" y1="203" x2="113" y2="192" stroke="#73522e" stroke-width="3"/>
+<line x1="113" y1="192" x2="124" y2="179" stroke="#73522e" stroke-width="3"/>
+<line x1="124" y1="179" x2="134" y2="166" stroke="#73522e" stroke-width="3"/>
+<line x1="134" y1="166" x2="145" y2="153" stroke="#73522e" stroke-width="3"/>
+<line x1="145" y1="153" x2="156" y2="141" stroke="#73522e" stroke-width="3"/>
+<line x1="156" y1="141" x2="166" y2="130" stroke="#73522e" stroke-width="3"/>
+<line x1="166" y1="130" x2="177" y2="120" stroke="#73522e" stroke-width="3"/>
+<line x1="177" y1="120" x2="187" y2="112" stroke="#73522e" stroke-width="3"/>
+<line x1="187" y1="112" x2="198" y2="107" stroke="#73522e" stroke-width="3"/>
+<line x1="198" y1="107" x2="208" y2="104" stroke="#73522e" stroke-width="3"/>
+<line x1="208" y1="104" x2="218" y2="103" stroke="#73522e" stroke-width="3"/>
+<line x1="218" y1="103" x2="229" y2="104" stroke="#73522e" stroke-width="3"/>
+<line x1="229" y1="104" x2="240" y2="106" stroke="#73522e" stroke-width="3"/>
+<line x1="240" y1="106" x2="250" y2="110" stroke="#73522e" stroke-width="3"/>
+<line x1="250" y1="110" x2="260" y2="114" stroke="#73522e" stroke-width="3"/>
+<line x1="260" y1="114" x2="271" y2="119" stroke="#73522e" stroke-width="3"/>
+<line x1="271" y1="119" x2="282" y2="125" stroke="#73522e" stroke-width="3"/>
+<line x1="282" y1="125" x2="292" y2="129" stroke="#73522e" stroke-width="3"/>
+<line x1="292" y1="129" x2="302" y2="134" stroke="#73522e" stroke-width="3"/>
+<line x1="302" y1="134" x2="313" y2="137" stroke="#73522e" stroke-width="3"/>
+<line x1="313" y1="137" x2="324" y2="141" stroke="#73522e" stroke-width="3"/>
+<line x1="324" y1="141" x2="334" y2="143" stroke="#73522e" stroke-width="3"/>
+<line x1="334" y1="143" x2="344" y2="145" stroke="#73522e" stroke-width="3"/>
+<line x1="344" y1="145" x2="355" y2="147" stroke="#73522e" stroke-width="3"/>
+<line x1="355" y1="147" x2="366" y2="149" stroke="#73522e" stroke-width="3"/>
+<line x1="366" y1="149" x2="376" y2="151" stroke="#73522e" stroke-width="3"/>
+<line x1="376" y1="151" x2="386" y2="154" stroke="#73522e" stroke-width="3"/>
+<line x1="386" y1="154" x2="397" y2="157" stroke="#73522e" stroke-width="3"/>
+<line x1="397" y1="157" x2="408" y2="162" stroke="#73522e" stroke-width="3"/>
+<line x1="408" y1="162" x2="418" y2="166" stroke="#73522e" stroke-width="3"/>
+<line x1="418" y1="166" x2="428" y2="172" stroke="#73522e" stroke-width="3"/>
+<line x1="428" y1="172" x2="439" y2="177" stroke="#73522e" stroke-width="3"/>
+<line x1="439" y1="177" x2="449" y2="183" stroke="#73522e" stroke-width="3"/>
+<line x1="449" y1="183" x2="460" y2="189" stroke="#73522e" stroke-width="3"/>
+<rect x="34" y="208" width="12" height="12" fill="#e6d9b3"><title>Your village</title></rect>
+<rect x="454" y="183" width="12" height="12" fill="#bf4d40"><title>The target</title></rect>
+<rect x="87" y="210" width="6" height="6" fill="#bff299"><title>Mei gathered healing herbs along a stream.</title></rect>
+<rect x="125" y="171" width="6" height="6" fill="#f2bf80"><title>Ran into bandits on the road. Aiko dropped the leader with a crack of lightning.</title></rect>
+<rect x="176" y="115" width="6" height="6" fill="#b3d9ff"><title>Shared a fire with pilgrims headed for a mountain shrine; they had stories about the road ahead.</title></rect>
+<rect x="209" y="100" width="6" height="6" fill="#ff9980"><title>Kenta set off a hidden trap and was hurt.</title></rect>
+<rect x="255" y="111" width="6" height="6" fill="#bfccff"><title>Aiko tracked a supply line to a hidden camp of Black Ink Syndicate. It'll be on the world map when the squad is home.</title></rect>
+<rect x="302" y="132" width="6" height="6" fill="#f2bf80"><title>Ran into a band of rogue ninja. Kenta broke the strongest of them and finished him with a combo.</title></rect>
+<rect x="348" y="144" width="6" height="6" fill="#d9dbe0"><title>Passed burned fields on the border between Sajingakure and Tetsugakure.</title></rect>
+<rect x="398" y="156" width="6" height="6" fill="#ffd980"><title>Aiko led the squad to finish the task: escort a merchant over a bandit pass.</title></rect>
+<rect x="34" y="208" width="12" height="12" fill="#6fa8ff"><title>The squad</title></rect>
+<rect x="33" y="207" width="14" height="14" fill="none" stroke="#fff" stroke-width="1"/>
+</svg>
+      <div class="msec" style="margin-top:8px"><div class="mrow">Aiko &nbsp;—&nbsp; level 11 &nbsp;·&nbsp; fine</div><div class="mrow">Kenta &nbsp;—&nbsp; level 8 &nbsp;·&nbsp; <span class="mbad">hurt</span></div><div class="mrow">Mei &nbsp;—&nbsp; level 7 &nbsp;·&nbsp; fine</div></div>
+    </div>
+    <div><div class="msec" style="max-height:330px;overflow:auto">
+<div class="mrow"><span><small class="mmuted">Day 5, 20:00</small><br><span class="">Tired and hungry, the squad turned for home.</span></span></div>
+<div class="mrow"><span><small class="mmuted">Day 5, 07:00</small><br><span class="mwarn">Aiko led the squad to finish the task: escort a merchant over a bandit pass.</span></span></div>
+<div class="mrow"><span><small class="mmuted">Day 4, 16:00</small><br><span class="">Passed burned fields on the border between Sajingakure and Tetsugakure.</span></span></div>
+<div class="mrow"><span><small class="mmuted">Day 4, 03:00</small><br><span class="mwarn">Ran into a band of rogue ninja. Kenta broke the strongest of them and finished him with a combo.</span></span></div>
+<div class="mrow"><span><small class="mmuted">Day 3, 14:00</small><br><span class="">Aiko tracked a supply line to a hidden camp of Black Ink Syndicate. It'll be on the world map when the squad is home.</span></span></div>
+<div class="mrow"><span><small class="mmuted">Day 3, 01:00</small><br><span class="mbad">Kenta set off a hidden trap and was hurt.</span></span></div>
+<div class="mrow"><span><small class="mmuted">Day 2, 15:00</small><br><span class="">Shared a fire with pilgrims headed for a mountain shrine; they had stories about the road ahead.</span></span></div>
+<div class="mrow"><span><small class="mmuted">Day 2, 02:00</small><br><span class="mgood">Mei patched up Kenta by the roadside.</span></span></div>
+<div class="mrow"><span><small class="mmuted">Day 2, 01:00</small><br><span class="mbad">Kenta took a few cuts in the fight.</span></span></div>
+<div class="mrow"><span><small class="mmuted">Day 2, 01:00</small><br><span class="mwarn">Ran into bandits on the road. Aiko dropped the leader with a crack of lightning.</span></span></div>
+<div class="mrow"><span><small class="mmuted">Day 1, 14:00</small><br><span class="mgood">Mei gathered healing herbs along a stream.</span></span></div>
+<div class="mrow"><span><small class="mmuted">Day 1, 00:00</small><br><span class="">The squad (Aiko, Kenta, Mei) left the village gate for: escort a merchant over a bandit pass.</span></span></div>
+</div></div>
+  </div>
+  <p class="mmuted">The squad is home: Skip to the end is gone, and Next squad shows only while two or more squads are away.</p>
+  <div class="mrowbtns"><button class="mbtn pri" data-go="live-done">Live</button><button class="mbtn" data-go="replay-done">Replay so far</button><button class="mbtn" data-go="records-a">Mission records</button></div>
+</div>
+
+<div class="mpage" data-page="replay-done" hidden>
+  <div class="mtitle">B-rank mission for Haigakure</div>
+  <p class="mmuted" style="margin:-6px 0 8px">escort a merchant over a bandit pass &nbsp;·&nbsp; squad: Aiko, Kenta, Mei &nbsp;·&nbsp; back home</p>
+  <div class="mcols">
+    <div>
+<svg class="mmap" viewBox="0 0 500 300" role="img" aria-label="The road from your village to the target" shape-rendering="crispEdges">
+<rect width="500" height="300" fill="#618c4d"/>
+<path d="M0,0 H170 L150,30 L120,48 L70,58 L30,76 L0,80 Z" fill="#80785f"/>
+<path d="M20,0 H110 L95,18 L60,30 L28,26 Z" fill="#adadb3"/>
+<path d="M250,20 L330,10 L392,28 L404,62 L360,82 L300,78 L262,58 Z" fill="#406b38"/>
+<path d="M120,236 L190,226 L238,250 L232,286 L170,298 L110,284 Z" fill="#406b38"/>
+<path d="M300,300 L320,262 L372,232 L440,222 L500,230 V300 Z" fill="#b8ab7a"/>
+<path d="M318,300 L336,268 L380,244 L440,236 L500,242 V300 Z" fill="#406e99"/>
+<path d="M360,300 L384,272 L438,256 L500,258 V300 Z" fill="#294d80"/>
+<g fill="#1f4724"><rect x="270" y="40" width="4" height="4"/><rect x="296" y="30" width="4" height="4"/><rect x="322" y="52" width="4" height="4"/><rect x="350" y="34" width="4" height="4"/><rect x="376" y="58" width="4" height="4"/><rect x="310" y="66" width="4" height="4"/><rect x="140" y="252" width="4" height="4"/><rect x="168" y="242" width="4" height="4"/><rect x="200" y="262" width="4" height="4"/><rect x="152" y="278" width="4" height="4"/><rect x="214" y="280" width="4" height="4"/></g>
+<line x1="40" y1="214" x2="50" y2="219" stroke="#73522e" stroke-width="3"/>
+<line x1="50" y1="219" x2="61" y2="222" stroke="#73522e" stroke-width="3"/>
+<line x1="61" y1="222" x2="72" y2="222" stroke="#73522e" stroke-width="3"/>
+<line x1="72" y1="222" x2="82" y2="218" stroke="#73522e" stroke-width="3"/>
+<line x1="82" y1="218" x2="92" y2="212" stroke="#73522e" stroke-width="3"/>
+<line x1="92" y1="212" x2="103" y2="203" stroke="#73522e" stroke-width="3"/>
+<line x1="103" y1="203" x2="113" y2="192" stroke="#73522e" stroke-width="3"/>
+<line x1="113" y1="192" x2="124" y2="179" stroke="#73522e" stroke-width="3"/>
+<line x1="124" y1="179" x2="134" y2="166" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="134" y1="166" x2="145" y2="153" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="145" y1="153" x2="156" y2="141" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="156" y1="141" x2="166" y2="130" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="166" y1="130" x2="177" y2="120" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="177" y1="120" x2="187" y2="112" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="187" y1="112" x2="198" y2="107" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="198" y1="107" x2="208" y2="104" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="208" y1="104" x2="218" y2="103" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="218" y1="103" x2="229" y2="104" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="229" y1="104" x2="240" y2="106" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="240" y1="106" x2="250" y2="110" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="250" y1="110" x2="260" y2="114" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="260" y1="114" x2="271" y2="119" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="271" y1="119" x2="282" y2="125" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="282" y1="125" x2="292" y2="129" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="292" y1="129" x2="302" y2="134" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="302" y1="134" x2="313" y2="137" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="313" y1="137" x2="324" y2="141" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="324" y1="141" x2="334" y2="143" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="334" y1="143" x2="344" y2="145" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="344" y1="145" x2="355" y2="147" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="355" y1="147" x2="366" y2="149" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="366" y1="149" x2="376" y2="151" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="376" y1="151" x2="386" y2="154" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="386" y1="154" x2="397" y2="157" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="397" y1="157" x2="408" y2="162" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="408" y1="162" x2="418" y2="166" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="418" y1="166" x2="428" y2="172" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="428" y1="172" x2="439" y2="177" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="439" y1="177" x2="449" y2="183" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="449" y1="183" x2="460" y2="189" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<rect x="34" y="208" width="12" height="12" fill="#e6d9b3"><title>Your village</title></rect>
+<rect x="454" y="183" width="12" height="12" fill="#bf4d40"><title>The target</title></rect>
+<rect x="87" y="210" width="6" height="6" fill="#bff299"><title>Mei gathered healing herbs along a stream.</title></rect>
+<rect x="125" y="171" width="6" height="6" fill="rgba(255,255,255,.25)"></rect>
+<rect x="176" y="115" width="6" height="6" fill="rgba(255,255,255,.25)"></rect>
+<rect x="209" y="100" width="6" height="6" fill="rgba(255,255,255,.25)"></rect>
+<rect x="255" y="111" width="6" height="6" fill="rgba(255,255,255,.25)"></rect>
+<rect x="302" y="132" width="6" height="6" fill="rgba(255,255,255,.25)"></rect>
+<rect x="348" y="144" width="6" height="6" fill="rgba(255,255,255,.25)"></rect>
+<rect x="398" y="156" width="6" height="6" fill="rgba(255,255,255,.25)"></rect>
+<rect x="129" y="159" width="12" height="12" fill="#6fa8ff"><title>The squad</title></rect>
+<rect x="128" y="158" width="14" height="14" fill="none" stroke="#fff" stroke-width="1"/>
+</svg>
+      <div class="msec" style="margin-top:8px"><div class="mrow">Aiko &nbsp;—&nbsp; level 11 &nbsp;·&nbsp; fine</div><div class="mrow">Kenta &nbsp;—&nbsp; level 8 &nbsp;·&nbsp; fine</div><div class="mrow">Mei &nbsp;—&nbsp; level 7 &nbsp;·&nbsp; fine</div></div>
+    </div>
+    <div><div class="msec" style="max-height:330px;overflow:auto">
+<div class="mrow"><span><small class="mmuted">Day 1, 14:00</small><br><span class="mgood">Mei gathered healing herbs along a stream.</span></span></div>
+<div class="mrow"><span><small class="mmuted">Day 1, 00:00</small><br><span class="">The squad (Aiko, Kenta, Mei) left the village gate for: escort a merchant over a bandit pass.</span></span></div>
+</div></div>
+  </div>
+  
+  <div class="mrowbtns"><button class="mbtn pri" data-go="live-done">Live</button><button class="mbtn" data-go="replay-done">Replay so far</button><button class="mbtn" data-go="records-a">Mission records</button></div>
+</div>
+
+<div class="mpage" data-page="live2" hidden>
+  <div class="mtitle">D-rank mission for Order of the Venator</div>
+  <p class="mmuted" style="margin:-6px 0 8px">repair a shrine's roof and its wards &nbsp;·&nbsp; squad: Hana &nbsp;·&nbsp; back in 19 hours</p>
+  <div class="mcols">
+    <div>
+<svg class="mmap" viewBox="0 0 500 300" role="img" aria-label="The road from your village to the target" shape-rendering="crispEdges">
+<rect width="500" height="300" fill="#618c4d"/>
+<path d="M330,0 H500 V70 L460,96 L410,88 L372,60 L346,30 Z" fill="#80785f"/>
+<path d="M400,0 H500 V36 L462,48 L420,30 Z" fill="#adadb3"/>
+<path d="M0,170 L50,160 L96,186 L104,232 L60,262 L0,256 Z" fill="#b8ab7a"/>
+<path d="M0,180 L44,172 L84,194 L90,228 L54,250 L0,246 Z" fill="#406e99"/>
+<path d="M0,196 L36,190 L66,206 L68,226 L40,238 L0,234 Z" fill="#294d80"/>
+<path d="M180,230 L260,224 L320,244 L330,290 L250,300 L176,286 Z" fill="#406b38"/>
+<path d="M160,10 L230,4 L270,24 L250,52 L190,56 L156,36 Z" fill="#406b38"/>
+<g fill="#1f4724"><rect x="200" y="246" width="4" height="4"/><rect x="236" y="262" width="4" height="4"/><rect x="276" y="250" width="4" height="4"/><rect x="300" y="276" width="4" height="4"/><rect x="214" y="282" width="4" height="4"/><rect x="180" y="24" width="4" height="4"/><rect x="214" y="16" width="4" height="4"/><rect x="236" y="38" width="4" height="4"/></g>
+<line x1="40" y1="122" x2="50" y2="107" stroke="#73522e" stroke-width="3"/>
+<line x1="50" y1="107" x2="61" y2="94" stroke="#73522e" stroke-width="3"/>
+<line x1="61" y1="94" x2="72" y2="83" stroke="#73522e" stroke-width="3"/>
+<line x1="72" y1="83" x2="82" y2="76" stroke="#73522e" stroke-width="3"/>
+<line x1="82" y1="76" x2="92" y2="72" stroke="#73522e" stroke-width="3"/>
+<line x1="92" y1="72" x2="103" y2="71" stroke="#73522e" stroke-width="3"/>
+<line x1="103" y1="71" x2="113" y2="73" stroke="#73522e" stroke-width="3"/>
+<line x1="113" y1="73" x2="124" y2="79" stroke="#73522e" stroke-width="3"/>
+<line x1="124" y1="79" x2="134" y2="87" stroke="#73522e" stroke-width="3"/>
+<line x1="134" y1="87" x2="145" y2="97" stroke="#73522e" stroke-width="3"/>
+<line x1="145" y1="97" x2="156" y2="109" stroke="#73522e" stroke-width="3"/>
+<line x1="156" y1="109" x2="166" y2="121" stroke="#73522e" stroke-width="3"/>
+<line x1="166" y1="121" x2="177" y2="134" stroke="#73522e" stroke-width="3"/>
+<line x1="177" y1="134" x2="187" y2="146" stroke="#73522e" stroke-width="3"/>
+<line x1="187" y1="146" x2="198" y2="157" stroke="#73522e" stroke-width="3"/>
+<line x1="198" y1="157" x2="208" y2="167" stroke="#73522e" stroke-width="3"/>
+<line x1="208" y1="167" x2="218" y2="176" stroke="#73522e" stroke-width="3"/>
+<line x1="218" y1="176" x2="229" y2="182" stroke="#73522e" stroke-width="3"/>
+<line x1="229" y1="182" x2="240" y2="187" stroke="#73522e" stroke-width="3"/>
+<line x1="240" y1="187" x2="250" y2="191" stroke="#73522e" stroke-width="3"/>
+<line x1="250" y1="191" x2="260" y2="192" stroke="#73522e" stroke-width="3"/>
+<line x1="260" y1="192" x2="271" y2="193" stroke="#73522e" stroke-width="3"/>
+<line x1="271" y1="193" x2="282" y2="192" stroke="#73522e" stroke-width="3"/>
+<line x1="282" y1="192" x2="292" y2="191" stroke="#73522e" stroke-width="3"/>
+<line x1="292" y1="191" x2="302" y2="189" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="302" y1="189" x2="313" y2="187" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="313" y1="187" x2="324" y2="185" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="324" y1="185" x2="334" y2="184" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="334" y1="184" x2="344" y2="182" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="344" y1="182" x2="355" y2="180" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="355" y1="180" x2="366" y2="178" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="366" y1="178" x2="376" y2="175" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="376" y1="175" x2="386" y2="172" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="386" y1="172" x2="397" y2="168" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="397" y1="168" x2="408" y2="163" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="408" y1="163" x2="418" y2="157" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="418" y1="157" x2="428" y2="150" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="428" y1="150" x2="439" y2="142" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="439" y1="142" x2="449" y2="133" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="449" y1="133" x2="460" y2="123" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<rect x="34" y="116" width="12" height="12" fill="#e6d9b3"><title>Your village</title></rect>
+<rect x="454" y="117" width="12" height="12" fill="#bf4d40"><title>The target</title></rect>
+<rect x="121" y="76" width="6" height="6" fill="#bff299"><title>Hana found raw jade in a dry riverbed.</title></rect>
+<rect x="226" y="179" width="6" height="6" fill="#b3d9ff"><title>Met a travelling merchant and sold off some spare gear (54 silver).</title></rect>
+<rect x="289" y="188" width="6" height="6" fill="#d9d9b3"><title>Hana spotted a trap of tripwires and paper bombs and disarmed it.</title></rect>
+<rect x="352" y="177" width="6" height="6" fill="rgba(255,255,255,.25)"></rect>
+<rect x="398" y="163" width="6" height="6" fill="rgba(255,255,255,.25)"></rect>
+<rect x="320" y="179" width="12" height="12" fill="#6fa8ff"><title>The squad</title></rect>
+<rect x="319" y="178" width="14" height="14" fill="none" stroke="#fff" stroke-width="1"/>
+</svg>
+      <div class="msec" style="margin-top:8px"><div class="mrow">Hana &nbsp;—&nbsp; level 4 &nbsp;·&nbsp; fine</div></div>
+    </div>
+    <div><div class="msec" style="max-height:330px;overflow:auto">
+<div class="mrow"><span><small class="mmuted">Day 2, 04:00</small><br><span class="">Hana spotted a trap of tripwires and paper bombs and disarmed it.</span></span></div>
+<div class="mrow"><span><small class="mmuted">Day 1, 21:00</small><br><span class="">Met a travelling merchant and sold off some spare gear (54 silver).</span></span></div>
+<div class="mrow"><span><small class="mmuted">Day 1, 09:00</small><br><span class="mgood">Hana found raw jade in a dry riverbed.</span></span></div>
+<div class="mrow"><span><small class="mmuted">Day 1, 00:00</small><br><span class="">The squad (Hana) left the village gate for: repair a shrine's roof and its wards.</span></span></div>
+</div></div>
+  </div>
+  
+  <div class="mrowbtns"><button class="mbtn pri" data-go="live2">Live</button><button class="mbtn" data-go="replay2">Replay so far</button><button class="mbtn bad" data-go="skip2">Skip to the end</button><button class="mbtn" data-go="records">Mission records</button><button class="mbtn pri" style="margin-left:auto" data-go="live">Next squad</button></div>
+</div>
+
+<div class="mpage" data-page="live2-solo" hidden>
+  <div class="mtitle">D-rank mission for Order of the Venator</div>
+  <p class="mmuted" style="margin:-6px 0 8px">repair a shrine's roof and its wards &nbsp;·&nbsp; squad: Hana &nbsp;·&nbsp; back in 19 hours</p>
+  <div class="mcols">
+    <div>
+<svg class="mmap" viewBox="0 0 500 300" role="img" aria-label="The road from your village to the target" shape-rendering="crispEdges">
+<rect width="500" height="300" fill="#618c4d"/>
+<path d="M330,0 H500 V70 L460,96 L410,88 L372,60 L346,30 Z" fill="#80785f"/>
+<path d="M400,0 H500 V36 L462,48 L420,30 Z" fill="#adadb3"/>
+<path d="M0,170 L50,160 L96,186 L104,232 L60,262 L0,256 Z" fill="#b8ab7a"/>
+<path d="M0,180 L44,172 L84,194 L90,228 L54,250 L0,246 Z" fill="#406e99"/>
+<path d="M0,196 L36,190 L66,206 L68,226 L40,238 L0,234 Z" fill="#294d80"/>
+<path d="M180,230 L260,224 L320,244 L330,290 L250,300 L176,286 Z" fill="#406b38"/>
+<path d="M160,10 L230,4 L270,24 L250,52 L190,56 L156,36 Z" fill="#406b38"/>
+<g fill="#1f4724"><rect x="200" y="246" width="4" height="4"/><rect x="236" y="262" width="4" height="4"/><rect x="276" y="250" width="4" height="4"/><rect x="300" y="276" width="4" height="4"/><rect x="214" y="282" width="4" height="4"/><rect x="180" y="24" width="4" height="4"/><rect x="214" y="16" width="4" height="4"/><rect x="236" y="38" width="4" height="4"/></g>
+<line x1="40" y1="122" x2="50" y2="107" stroke="#73522e" stroke-width="3"/>
+<line x1="50" y1="107" x2="61" y2="94" stroke="#73522e" stroke-width="3"/>
+<line x1="61" y1="94" x2="72" y2="83" stroke="#73522e" stroke-width="3"/>
+<line x1="72" y1="83" x2="82" y2="76" stroke="#73522e" stroke-width="3"/>
+<line x1="82" y1="76" x2="92" y2="72" stroke="#73522e" stroke-width="3"/>
+<line x1="92" y1="72" x2="103" y2="71" stroke="#73522e" stroke-width="3"/>
+<line x1="103" y1="71" x2="113" y2="73" stroke="#73522e" stroke-width="3"/>
+<line x1="113" y1="73" x2="124" y2="79" stroke="#73522e" stroke-width="3"/>
+<line x1="124" y1="79" x2="134" y2="87" stroke="#73522e" stroke-width="3"/>
+<line x1="134" y1="87" x2="145" y2="97" stroke="#73522e" stroke-width="3"/>
+<line x1="145" y1="97" x2="156" y2="109" stroke="#73522e" stroke-width="3"/>
+<line x1="156" y1="109" x2="166" y2="121" stroke="#73522e" stroke-width="3"/>
+<line x1="166" y1="121" x2="177" y2="134" stroke="#73522e" stroke-width="3"/>
+<line x1="177" y1="134" x2="187" y2="146" stroke="#73522e" stroke-width="3"/>
+<line x1="187" y1="146" x2="198" y2="157" stroke="#73522e" stroke-width="3"/>
+<line x1="198" y1="157" x2="208" y2="167" stroke="#73522e" stroke-width="3"/>
+<line x1="208" y1="167" x2="218" y2="176" stroke="#73522e" stroke-width="3"/>
+<line x1="218" y1="176" x2="229" y2="182" stroke="#73522e" stroke-width="3"/>
+<line x1="229" y1="182" x2="240" y2="187" stroke="#73522e" stroke-width="3"/>
+<line x1="240" y1="187" x2="250" y2="191" stroke="#73522e" stroke-width="3"/>
+<line x1="250" y1="191" x2="260" y2="192" stroke="#73522e" stroke-width="3"/>
+<line x1="260" y1="192" x2="271" y2="193" stroke="#73522e" stroke-width="3"/>
+<line x1="271" y1="193" x2="282" y2="192" stroke="#73522e" stroke-width="3"/>
+<line x1="282" y1="192" x2="292" y2="191" stroke="#73522e" stroke-width="3"/>
+<line x1="292" y1="191" x2="302" y2="189" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="302" y1="189" x2="313" y2="187" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="313" y1="187" x2="324" y2="185" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="324" y1="185" x2="334" y2="184" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="334" y1="184" x2="344" y2="182" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="344" y1="182" x2="355" y2="180" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="355" y1="180" x2="366" y2="178" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="366" y1="178" x2="376" y2="175" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="376" y1="175" x2="386" y2="172" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="386" y1="172" x2="397" y2="168" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="397" y1="168" x2="408" y2="163" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="408" y1="163" x2="418" y2="157" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="418" y1="157" x2="428" y2="150" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="428" y1="150" x2="439" y2="142" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="439" y1="142" x2="449" y2="133" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="449" y1="133" x2="460" y2="123" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<rect x="34" y="116" width="12" height="12" fill="#e6d9b3"><title>Your village</title></rect>
+<rect x="454" y="117" width="12" height="12" fill="#bf4d40"><title>The target</title></rect>
+<rect x="121" y="76" width="6" height="6" fill="#bff299"><title>Hana found raw jade in a dry riverbed.</title></rect>
+<rect x="226" y="179" width="6" height="6" fill="#b3d9ff"><title>Met a travelling merchant and sold off some spare gear (54 silver).</title></rect>
+<rect x="289" y="188" width="6" height="6" fill="#d9d9b3"><title>Hana spotted a trap of tripwires and paper bombs and disarmed it.</title></rect>
+<rect x="352" y="177" width="6" height="6" fill="rgba(255,255,255,.25)"></rect>
+<rect x="398" y="163" width="6" height="6" fill="rgba(255,255,255,.25)"></rect>
+<rect x="320" y="179" width="12" height="12" fill="#6fa8ff"><title>The squad</title></rect>
+<rect x="319" y="178" width="14" height="14" fill="none" stroke="#fff" stroke-width="1"/>
+</svg>
+      <div class="msec" style="margin-top:8px"><div class="mrow">Hana &nbsp;—&nbsp; level 4 &nbsp;·&nbsp; fine</div></div>
+    </div>
+    <div><div class="msec" style="max-height:330px;overflow:auto">
+<div class="mrow"><span><small class="mmuted">Day 2, 04:00</small><br><span class="">Hana spotted a trap of tripwires and paper bombs and disarmed it.</span></span></div>
+<div class="mrow"><span><small class="mmuted">Day 1, 21:00</small><br><span class="">Met a travelling merchant and sold off some spare gear (54 silver).</span></span></div>
+<div class="mrow"><span><small class="mmuted">Day 1, 09:00</small><br><span class="mgood">Hana found raw jade in a dry riverbed.</span></span></div>
+<div class="mrow"><span><small class="mmuted">Day 1, 00:00</small><br><span class="">The squad (Hana) left the village gate for: repair a shrine's roof and its wards.</span></span></div>
+</div></div>
+  </div>
+  <p class="mmuted">Next squad shows only while two or more squads are away.</p>
+  <div class="mrowbtns"><button class="mbtn pri" data-go="live2-solo">Live</button><button class="mbtn" data-go="replay2-solo">Replay so far</button><button class="mbtn bad" data-go="skip2">Skip to the end</button><button class="mbtn" data-go="records">Mission records</button></div>
+</div>
+
+<div class="mpage" data-page="replay2-solo" hidden>
+  <div class="mtitle">D-rank mission for Order of the Venator</div>
+  <p class="mmuted" style="margin:-6px 0 8px">repair a shrine's roof and its wards &nbsp;·&nbsp; squad: Hana &nbsp;·&nbsp; back in 19 hours</p>
+  <div class="mcols">
+    <div>
+<svg class="mmap" viewBox="0 0 500 300" role="img" aria-label="The road from your village to the target" shape-rendering="crispEdges">
+<rect width="500" height="300" fill="#618c4d"/>
+<path d="M330,0 H500 V70 L460,96 L410,88 L372,60 L346,30 Z" fill="#80785f"/>
+<path d="M400,0 H500 V36 L462,48 L420,30 Z" fill="#adadb3"/>
+<path d="M0,170 L50,160 L96,186 L104,232 L60,262 L0,256 Z" fill="#b8ab7a"/>
+<path d="M0,180 L44,172 L84,194 L90,228 L54,250 L0,246 Z" fill="#406e99"/>
+<path d="M0,196 L36,190 L66,206 L68,226 L40,238 L0,234 Z" fill="#294d80"/>
+<path d="M180,230 L260,224 L320,244 L330,290 L250,300 L176,286 Z" fill="#406b38"/>
+<path d="M160,10 L230,4 L270,24 L250,52 L190,56 L156,36 Z" fill="#406b38"/>
+<g fill="#1f4724"><rect x="200" y="246" width="4" height="4"/><rect x="236" y="262" width="4" height="4"/><rect x="276" y="250" width="4" height="4"/><rect x="300" y="276" width="4" height="4"/><rect x="214" y="282" width="4" height="4"/><rect x="180" y="24" width="4" height="4"/><rect x="214" y="16" width="4" height="4"/><rect x="236" y="38" width="4" height="4"/></g>
+<line x1="40" y1="122" x2="50" y2="107" stroke="#73522e" stroke-width="3"/>
+<line x1="50" y1="107" x2="61" y2="94" stroke="#73522e" stroke-width="3"/>
+<line x1="61" y1="94" x2="72" y2="83" stroke="#73522e" stroke-width="3"/>
+<line x1="72" y1="83" x2="82" y2="76" stroke="#73522e" stroke-width="3"/>
+<line x1="82" y1="76" x2="92" y2="72" stroke="#73522e" stroke-width="3"/>
+<line x1="92" y1="72" x2="103" y2="71" stroke="#73522e" stroke-width="3"/>
+<line x1="103" y1="71" x2="113" y2="73" stroke="#73522e" stroke-width="3"/>
+<line x1="113" y1="73" x2="124" y2="79" stroke="#73522e" stroke-width="3"/>
+<line x1="124" y1="79" x2="134" y2="87" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="134" y1="87" x2="145" y2="97" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="145" y1="97" x2="156" y2="109" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="156" y1="109" x2="166" y2="121" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="166" y1="121" x2="177" y2="134" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="177" y1="134" x2="187" y2="146" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="187" y1="146" x2="198" y2="157" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="198" y1="157" x2="208" y2="167" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="208" y1="167" x2="218" y2="176" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="218" y1="176" x2="229" y2="182" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="229" y1="182" x2="240" y2="187" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="240" y1="187" x2="250" y2="191" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="250" y1="191" x2="260" y2="192" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="260" y1="192" x2="271" y2="193" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="271" y1="193" x2="282" y2="192" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="282" y1="192" x2="292" y2="191" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="292" y1="191" x2="302" y2="189" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="302" y1="189" x2="313" y2="187" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="313" y1="187" x2="324" y2="185" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="324" y1="185" x2="334" y2="184" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="334" y1="184" x2="344" y2="182" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="344" y1="182" x2="355" y2="180" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="355" y1="180" x2="366" y2="178" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="366" y1="178" x2="376" y2="175" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="376" y1="175" x2="386" y2="172" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="386" y1="172" x2="397" y2="168" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="397" y1="168" x2="408" y2="163" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="408" y1="163" x2="418" y2="157" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="418" y1="157" x2="428" y2="150" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="428" y1="150" x2="439" y2="142" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="439" y1="142" x2="449" y2="133" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="449" y1="133" x2="460" y2="123" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<rect x="34" y="116" width="12" height="12" fill="#e6d9b3"><title>Your village</title></rect>
+<rect x="454" y="117" width="12" height="12" fill="#bf4d40"><title>The target</title></rect>
+<rect x="121" y="76" width="6" height="6" fill="#bff299"><title>Hana found raw jade in a dry riverbed.</title></rect>
+<rect x="226" y="179" width="6" height="6" fill="rgba(255,255,255,.25)"></rect>
+<rect x="289" y="188" width="6" height="6" fill="rgba(255,255,255,.25)"></rect>
+<rect x="352" y="177" width="6" height="6" fill="rgba(255,255,255,.25)"></rect>
+<rect x="398" y="163" width="6" height="6" fill="rgba(255,255,255,.25)"></rect>
+<rect x="129" y="82" width="12" height="12" fill="#6fa8ff"><title>The squad</title></rect>
+<rect x="128" y="81" width="14" height="14" fill="none" stroke="#fff" stroke-width="1"/>
+</svg>
+      <div class="msec" style="margin-top:8px"><div class="mrow">Hana &nbsp;—&nbsp; level 4 &nbsp;·&nbsp; fine</div></div>
+    </div>
+    <div><div class="msec" style="max-height:330px;overflow:auto">
+<div class="mrow"><span><small class="mmuted">Day 1, 09:00</small><br><span class="mgood">Hana found raw jade in a dry riverbed.</span></span></div>
+<div class="mrow"><span><small class="mmuted">Day 1, 00:00</small><br><span class="">The squad (Hana) left the village gate for: repair a shrine's roof and its wards.</span></span></div>
+</div></div>
+  </div>
+  
+  <div class="mrowbtns"><button class="mbtn pri" data-go="live2-solo">Live</button><button class="mbtn" data-go="replay2-solo">Replay so far</button><button class="mbtn bad" data-go="skip2">Skip to the end</button><button class="mbtn" data-go="records">Mission records</button></div>
+</div>
+
+<div class="mpage" data-page="replay2" hidden>
+  <div class="mtitle">D-rank mission for Order of the Venator</div>
+  <p class="mmuted" style="margin:-6px 0 8px">repair a shrine's roof and its wards &nbsp;·&nbsp; squad: Hana &nbsp;·&nbsp; back in 19 hours</p>
+  <div class="mcols">
+    <div>
+<svg class="mmap" viewBox="0 0 500 300" role="img" aria-label="The road from your village to the target" shape-rendering="crispEdges">
+<rect width="500" height="300" fill="#618c4d"/>
+<path d="M330,0 H500 V70 L460,96 L410,88 L372,60 L346,30 Z" fill="#80785f"/>
+<path d="M400,0 H500 V36 L462,48 L420,30 Z" fill="#adadb3"/>
+<path d="M0,170 L50,160 L96,186 L104,232 L60,262 L0,256 Z" fill="#b8ab7a"/>
+<path d="M0,180 L44,172 L84,194 L90,228 L54,250 L0,246 Z" fill="#406e99"/>
+<path d="M0,196 L36,190 L66,206 L68,226 L40,238 L0,234 Z" fill="#294d80"/>
+<path d="M180,230 L260,224 L320,244 L330,290 L250,300 L176,286 Z" fill="#406b38"/>
+<path d="M160,10 L230,4 L270,24 L250,52 L190,56 L156,36 Z" fill="#406b38"/>
+<g fill="#1f4724"><rect x="200" y="246" width="4" height="4"/><rect x="236" y="262" width="4" height="4"/><rect x="276" y="250" width="4" height="4"/><rect x="300" y="276" width="4" height="4"/><rect x="214" y="282" width="4" height="4"/><rect x="180" y="24" width="4" height="4"/><rect x="214" y="16" width="4" height="4"/><rect x="236" y="38" width="4" height="4"/></g>
+<line x1="40" y1="122" x2="50" y2="107" stroke="#73522e" stroke-width="3"/>
+<line x1="50" y1="107" x2="61" y2="94" stroke="#73522e" stroke-width="3"/>
+<line x1="61" y1="94" x2="72" y2="83" stroke="#73522e" stroke-width="3"/>
+<line x1="72" y1="83" x2="82" y2="76" stroke="#73522e" stroke-width="3"/>
+<line x1="82" y1="76" x2="92" y2="72" stroke="#73522e" stroke-width="3"/>
+<line x1="92" y1="72" x2="103" y2="71" stroke="#73522e" stroke-width="3"/>
+<line x1="103" y1="71" x2="113" y2="73" stroke="#73522e" stroke-width="3"/>
+<line x1="113" y1="73" x2="124" y2="79" stroke="#73522e" stroke-width="3"/>
+<line x1="124" y1="79" x2="134" y2="87" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="134" y1="87" x2="145" y2="97" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="145" y1="97" x2="156" y2="109" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="156" y1="109" x2="166" y2="121" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="166" y1="121" x2="177" y2="134" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="177" y1="134" x2="187" y2="146" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="187" y1="146" x2="198" y2="157" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="198" y1="157" x2="208" y2="167" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="208" y1="167" x2="218" y2="176" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="218" y1="176" x2="229" y2="182" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="229" y1="182" x2="240" y2="187" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="240" y1="187" x2="250" y2="191" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="250" y1="191" x2="260" y2="192" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="260" y1="192" x2="271" y2="193" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="271" y1="193" x2="282" y2="192" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="282" y1="192" x2="292" y2="191" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="292" y1="191" x2="302" y2="189" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="302" y1="189" x2="313" y2="187" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="313" y1="187" x2="324" y2="185" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="324" y1="185" x2="334" y2="184" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="334" y1="184" x2="344" y2="182" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="344" y1="182" x2="355" y2="180" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="355" y1="180" x2="366" y2="178" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="366" y1="178" x2="376" y2="175" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="376" y1="175" x2="386" y2="172" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="386" y1="172" x2="397" y2="168" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="397" y1="168" x2="408" y2="163" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="408" y1="163" x2="418" y2="157" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="418" y1="157" x2="428" y2="150" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="428" y1="150" x2="439" y2="142" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="439" y1="142" x2="449" y2="133" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<line x1="449" y1="133" x2="460" y2="123" stroke="rgba(217,191,140,.55)" stroke-width="3"/>
+<rect x="34" y="116" width="12" height="12" fill="#e6d9b3"><title>Your village</title></rect>
+<rect x="454" y="117" width="12" height="12" fill="#bf4d40"><title>The target</title></rect>
+<rect x="121" y="76" width="6" height="6" fill="#bff299"><title>Hana found raw jade in a dry riverbed.</title></rect>
+<rect x="226" y="179" width="6" height="6" fill="rgba(255,255,255,.25)"></rect>
+<rect x="289" y="188" width="6" height="6" fill="rgba(255,255,255,.25)"></rect>
+<rect x="352" y="177" width="6" height="6" fill="rgba(255,255,255,.25)"></rect>
+<rect x="398" y="163" width="6" height="6" fill="rgba(255,255,255,.25)"></rect>
+<rect x="129" y="82" width="12" height="12" fill="#6fa8ff"><title>The squad</title></rect>
+<rect x="128" y="81" width="14" height="14" fill="none" stroke="#fff" stroke-width="1"/>
+</svg>
+      <div class="msec" style="margin-top:8px"><div class="mrow">Hana &nbsp;—&nbsp; level 4 &nbsp;·&nbsp; fine</div></div>
+    </div>
+    <div><div class="msec" style="max-height:330px;overflow:auto">
+<div class="mrow"><span><small class="mmuted">Day 1, 09:00</small><br><span class="mgood">Hana found raw jade in a dry riverbed.</span></span></div>
+<div class="mrow"><span><small class="mmuted">Day 1, 00:00</small><br><span class="">The squad (Hana) left the village gate for: repair a shrine's roof and its wards.</span></span></div>
+</div></div>
+  </div>
+  
+  <div class="mrowbtns"><button class="mbtn pri" data-go="live2">Live</button><button class="mbtn" data-go="replay2">Replay so far</button><button class="mbtn bad" data-go="skip2">Skip to the end</button><button class="mbtn" data-go="records">Mission records</button><button class="mbtn pri" style="margin-left:auto" data-go="live">Next squad</button></div>
+</div>
+
+<div class="mpage" data-page="skip2" hidden>
+  <div class="mtitle">Confirm</div>
+  <p>Bring the squad home now? The rest of the trip is played out at once.</p>
+  <div class="mrowbtns"><button class="mbtn bad" data-back>Confirm</button><button class="mbtn" data-back>Go back</button></div>
+  <p class="mmuted">This mockup only plays out the B-rank trip; both buttons go back here.</p>
+</div>
+
+<div class="mpage" data-page="records" hidden>
+  <div class="mtitle">Mission records</div>
+  <p style="margin:0 0 2px">Mission rank level 2 (8 points) &nbsp;·&nbsp; 3 missions, 2 won, 1 great &nbsp;·&nbsp; relics 1/10</p>
+  <p class="mwarn" style="margin:0 0 8px"><small>Relics: healer's lotus jar</small></p>
+  <div class="mcols">
+    <div class="msec" style="max-height:340px;overflow:auto"><div class="mrow"><button class="mlink" data-go="rec3"><span class="mbad">C-rank · failure · 1 Jugust 5501</span><br><small>Sora, Daichi for Order of the Venator</small></button></div>
+<div class="mrow"><button class="mlink" data-go="rec2"><span class="mwarn">D-rank · great success · 12 Aprimay 5501</span><br><small>Kenta for Haigakure</small></button></div>
+<div class="mrow"><button class="mlink" data-go="rec1"><span class="mgood">C-rank · success · 3 Aprimay 5501</span><br><small>Aiko, Mei for Kaedegakure</small></button></div></div>
+    <div class="msec" style="max-height:340px;overflow:auto"><p class="mmuted">Pick a mission to read its log.</p></div>
+  </div>
+  <div class="mrowbtns"><button class="mbtn" data-back>Close</button></div>
+</div>
+
+<div class="mpage" data-page="rec1" hidden>
+  <div class="mtitle">Mission records</div>
+  <p style="margin:0 0 2px">Mission rank level 2 (8 points) &nbsp;·&nbsp; 3 missions, 2 won, 1 great &nbsp;·&nbsp; relics 1/10</p>
+  <p class="mwarn" style="margin:0 0 8px"><small>Relics: healer's lotus jar</small></p>
+  <div class="mcols">
+    <div class="msec" style="max-height:340px;overflow:auto"><div class="mrow"><button class="mlink" data-go="rec3"><span class="mbad">C-rank · failure · 1 Jugust 5501</span><br><small>Sora, Daichi for Order of the Venator</small></button></div>
+<div class="mrow"><button class="mlink" data-go="rec2"><span class="mwarn">D-rank · great success · 12 Aprimay 5501</span><br><small>Kenta for Haigakure</small></button></div>
+<div class="mrow sel"><button class="mlink" data-go="rec1"><span class="mgood">C-rank · success · 3 Aprimay 5501</span><br><small>Aiko, Mei for Kaedegakure</small></button></div></div>
+    <div class="msec" style="max-height:340px;overflow:auto"><p>clear bandits from a river crossing<br>Squad: Aiko, Mei<br>Found: silver x210</p><p>Day 1, 00:00: The squad (Aiko, Mei) left the village gate for: clear bandits from a river crossing.<br>Day 1, 13:00: Ran into deserters from a village at war. Mei swept them off their feet with a surge of water.<br>Day 2, 05:00: Met a travelling merchant and sold off some spare gear (62 silver).<br>Day 2, 19:00: Aiko found a smuggler's cache of silver.<br>Day 3, 14:00: Aiko led the squad to finish the task: clear bandits from a river crossing.<br>Day 3, 21:00: Tired and hungry, the squad turned for home.</p></div>
+  </div>
+  <div class="mrowbtns"><button class="mbtn" data-back>Close</button></div>
+</div>
+
+<div class="mpage" data-page="rec2" hidden>
+  <div class="mtitle">Mission records</div>
+  <p style="margin:0 0 2px">Mission rank level 2 (8 points) &nbsp;·&nbsp; 3 missions, 2 won, 1 great &nbsp;·&nbsp; relics 1/10</p>
+  <p class="mwarn" style="margin:0 0 8px"><small>Relics: healer's lotus jar</small></p>
+  <div class="mcols">
+    <div class="msec" style="max-height:340px;overflow:auto"><div class="mrow"><button class="mlink" data-go="rec3"><span class="mbad">C-rank · failure · 1 Jugust 5501</span><br><small>Sora, Daichi for Order of the Venator</small></button></div>
+<div class="mrow sel"><button class="mlink" data-go="rec2"><span class="mwarn">D-rank · great success · 12 Aprimay 5501</span><br><small>Kenta for Haigakure</small></button></div>
+<div class="mrow"><button class="mlink" data-go="rec1"><span class="mgood">C-rank · success · 3 Aprimay 5501</span><br><small>Aiko, Mei for Kaedegakure</small></button></div></div>
+    <div class="msec" style="max-height:340px;overflow:auto"><p>find a lost child in the woods<br>Squad: Kenta<br>Found: silver x75</p><p>Day 1, 00:00: The squad (Kenta) left the village gate for: find a lost child in the woods.<br>Day 1, 07:00: Kenta found something old under a fallen shrine: a healer's lotus jar.<br>Day 1, 16:00: Shared a fire with pilgrims headed for a mountain shrine; they had stories about the road ahead.<br>Day 2, 17:00: A great success: Kenta led the squad to finish the task: find a lost child in the woods.<br>Day 2, 22:00: Tired and hungry, the squad turned for home.</p></div>
+  </div>
+  <div class="mrowbtns"><button class="mbtn" data-back>Close</button></div>
+</div>
+
+<div class="mpage" data-page="rec3" hidden>
+  <div class="mtitle">Mission records</div>
+  <p style="margin:0 0 2px">Mission rank level 2 (8 points) &nbsp;·&nbsp; 3 missions, 2 won, 1 great &nbsp;·&nbsp; relics 1/10</p>
+  <p class="mwarn" style="margin:0 0 8px"><small>Relics: healer's lotus jar</small></p>
+  <div class="mcols">
+    <div class="msec" style="max-height:340px;overflow:auto"><div class="mrow sel"><button class="mlink" data-go="rec3"><span class="mbad">C-rank · failure · 1 Jugust 5501</span><br><small>Sora, Daichi for Order of the Venator</small></button></div>
+<div class="mrow"><button class="mlink" data-go="rec2"><span class="mwarn">D-rank · great success · 12 Aprimay 5501</span><br><small>Kenta for Haigakure</small></button></div>
+<div class="mrow"><button class="mlink" data-go="rec1"><span class="mgood">C-rank · success · 3 Aprimay 5501</span><br><small>Aiko, Mei for Kaedegakure</small></button></div></div>
+    <div class="msec" style="max-height:340px;overflow:auto"><p>drive off a beast that kills livestock<br>Squad: Sora, Daichi</p><p>Day 1, 00:00: The squad (Sora, Daichi) left the village gate for: drive off a beast that kills livestock.<br>Day 1, 10:00: Ran into a pack of wild beasts. The fight went badly; the squad had to fall back.<br>Day 1, 10:00: Daichi was wounded.<br>Day 2, 06:00: Daichi set off a hidden trap and was hurt.<br>Day 3, 14:00: The task slipped out of reach: drive off a beast that kills livestock. Sora called the retreat.<br>Day 3, 21:00: Tired and hungry, the squad turned for home.</p></div>
+  </div>
+  <div class="mrowbtns"><button class="mbtn" data-back>Close</button></div>
+</div>
+
+<div class="mpage" data-page="records-a" hidden>
+  <div class="mtitle">Mission records</div>
+  <p style="margin:0 0 2px">Mission rank level 2 (13 points) &nbsp;·&nbsp; 4 missions, 3 won, 1 great &nbsp;·&nbsp; relics 1/10</p>
+  <p class="mwarn" style="margin:0 0 8px"><small>Relics: healer's lotus jar</small></p>
+  <div class="mcols">
+    <div class="msec" style="max-height:340px;overflow:auto"><div class="mrow"><button class="mlink" data-go="rec4-a"><span class="mgood">B-rank · success · 9 Jugust 5501</span><br><small>Aiko, Kenta, Mei for Haigakure</small></button></div>
+<div class="mrow"><button class="mlink" data-go="rec3-a"><span class="mbad">C-rank · failure · 1 Jugust 5501</span><br><small>Sora, Daichi for Order of the Venator</small></button></div>
+<div class="mrow"><button class="mlink" data-go="rec2-a"><span class="mwarn">D-rank · great success · 12 Aprimay 5501</span><br><small>Kenta for Haigakure</small></button></div>
+<div class="mrow"><button class="mlink" data-go="rec1-a"><span class="mgood">C-rank · success · 3 Aprimay 5501</span><br><small>Aiko, Mei for Kaedegakure</small></button></div></div>
+    <div class="msec" style="max-height:340px;overflow:auto"><p class="mmuted">Pick a mission to read its log.</p></div>
+  </div>
+  <div class="mrowbtns"><button class="mbtn" data-back>Close</button></div>
+</div>
+
+<div class="mpage" data-page="rec1-a" hidden>
+  <div class="mtitle">Mission records</div>
+  <p style="margin:0 0 2px">Mission rank level 2 (13 points) &nbsp;·&nbsp; 4 missions, 3 won, 1 great &nbsp;·&nbsp; relics 1/10</p>
+  <p class="mwarn" style="margin:0 0 8px"><small>Relics: healer's lotus jar</small></p>
+  <div class="mcols">
+    <div class="msec" style="max-height:340px;overflow:auto"><div class="mrow"><button class="mlink" data-go="rec4-a"><span class="mgood">B-rank · success · 9 Jugust 5501</span><br><small>Aiko, Kenta, Mei for Haigakure</small></button></div>
+<div class="mrow"><button class="mlink" data-go="rec3-a"><span class="mbad">C-rank · failure · 1 Jugust 5501</span><br><small>Sora, Daichi for Order of the Venator</small></button></div>
+<div class="mrow"><button class="mlink" data-go="rec2-a"><span class="mwarn">D-rank · great success · 12 Aprimay 5501</span><br><small>Kenta for Haigakure</small></button></div>
+<div class="mrow sel"><button class="mlink" data-go="rec1-a"><span class="mgood">C-rank · success · 3 Aprimay 5501</span><br><small>Aiko, Mei for Kaedegakure</small></button></div></div>
+    <div class="msec" style="max-height:340px;overflow:auto"><p>clear bandits from a river crossing<br>Squad: Aiko, Mei<br>Found: silver x210</p><p>Day 1, 00:00: The squad (Aiko, Mei) left the village gate for: clear bandits from a river crossing.<br>Day 1, 13:00: Ran into deserters from a village at war. Mei swept them off their feet with a surge of water.<br>Day 2, 05:00: Met a travelling merchant and sold off some spare gear (62 silver).<br>Day 2, 19:00: Aiko found a smuggler's cache of silver.<br>Day 3, 14:00: Aiko led the squad to finish the task: clear bandits from a river crossing.<br>Day 3, 21:00: Tired and hungry, the squad turned for home.</p></div>
+  </div>
+  <div class="mrowbtns"><button class="mbtn" data-back>Close</button></div>
+</div>
+
+<div class="mpage" data-page="rec2-a" hidden>
+  <div class="mtitle">Mission records</div>
+  <p style="margin:0 0 2px">Mission rank level 2 (13 points) &nbsp;·&nbsp; 4 missions, 3 won, 1 great &nbsp;·&nbsp; relics 1/10</p>
+  <p class="mwarn" style="margin:0 0 8px"><small>Relics: healer's lotus jar</small></p>
+  <div class="mcols">
+    <div class="msec" style="max-height:340px;overflow:auto"><div class="mrow"><button class="mlink" data-go="rec4-a"><span class="mgood">B-rank · success · 9 Jugust 5501</span><br><small>Aiko, Kenta, Mei for Haigakure</small></button></div>
+<div class="mrow"><button class="mlink" data-go="rec3-a"><span class="mbad">C-rank · failure · 1 Jugust 5501</span><br><small>Sora, Daichi for Order of the Venator</small></button></div>
+<div class="mrow sel"><button class="mlink" data-go="rec2-a"><span class="mwarn">D-rank · great success · 12 Aprimay 5501</span><br><small>Kenta for Haigakure</small></button></div>
+<div class="mrow"><button class="mlink" data-go="rec1-a"><span class="mgood">C-rank · success · 3 Aprimay 5501</span><br><small>Aiko, Mei for Kaedegakure</small></button></div></div>
+    <div class="msec" style="max-height:340px;overflow:auto"><p>find a lost child in the woods<br>Squad: Kenta<br>Found: silver x75</p><p>Day 1, 00:00: The squad (Kenta) left the village gate for: find a lost child in the woods.<br>Day 1, 07:00: Kenta found something old under a fallen shrine: a healer's lotus jar.<br>Day 1, 16:00: Shared a fire with pilgrims headed for a mountain shrine; they had stories about the road ahead.<br>Day 2, 17:00: A great success: Kenta led the squad to finish the task: find a lost child in the woods.<br>Day 2, 22:00: Tired and hungry, the squad turned for home.</p></div>
+  </div>
+  <div class="mrowbtns"><button class="mbtn" data-back>Close</button></div>
+</div>
+
+<div class="mpage" data-page="rec3-a" hidden>
+  <div class="mtitle">Mission records</div>
+  <p style="margin:0 0 2px">Mission rank level 2 (13 points) &nbsp;·&nbsp; 4 missions, 3 won, 1 great &nbsp;·&nbsp; relics 1/10</p>
+  <p class="mwarn" style="margin:0 0 8px"><small>Relics: healer's lotus jar</small></p>
+  <div class="mcols">
+    <div class="msec" style="max-height:340px;overflow:auto"><div class="mrow"><button class="mlink" data-go="rec4-a"><span class="mgood">B-rank · success · 9 Jugust 5501</span><br><small>Aiko, Kenta, Mei for Haigakure</small></button></div>
+<div class="mrow sel"><button class="mlink" data-go="rec3-a"><span class="mbad">C-rank · failure · 1 Jugust 5501</span><br><small>Sora, Daichi for Order of the Venator</small></button></div>
+<div class="mrow"><button class="mlink" data-go="rec2-a"><span class="mwarn">D-rank · great success · 12 Aprimay 5501</span><br><small>Kenta for Haigakure</small></button></div>
+<div class="mrow"><button class="mlink" data-go="rec1-a"><span class="mgood">C-rank · success · 3 Aprimay 5501</span><br><small>Aiko, Mei for Kaedegakure</small></button></div></div>
+    <div class="msec" style="max-height:340px;overflow:auto"><p>drive off a beast that kills livestock<br>Squad: Sora, Daichi</p><p>Day 1, 00:00: The squad (Sora, Daichi) left the village gate for: drive off a beast that kills livestock.<br>Day 1, 10:00: Ran into a pack of wild beasts. The fight went badly; the squad had to fall back.<br>Day 1, 10:00: Daichi was wounded.<br>Day 2, 06:00: Daichi set off a hidden trap and was hurt.<br>Day 3, 14:00: The task slipped out of reach: drive off a beast that kills livestock. Sora called the retreat.<br>Day 3, 21:00: Tired and hungry, the squad turned for home.</p></div>
+  </div>
+  <div class="mrowbtns"><button class="mbtn" data-back>Close</button></div>
+</div>
+
+<div class="mpage" data-page="rec4-a" hidden>
+  <div class="mtitle">Mission records</div>
+  <p style="margin:0 0 2px">Mission rank level 2 (13 points) &nbsp;·&nbsp; 4 missions, 3 won, 1 great &nbsp;·&nbsp; relics 1/10</p>
+  <p class="mwarn" style="margin:0 0 8px"><small>Relics: healer's lotus jar</small></p>
+  <div class="mcols">
+    <div class="msec" style="max-height:340px;overflow:auto"><div class="mrow sel"><button class="mlink" data-go="rec4-a"><span class="mgood">B-rank · success · 9 Jugust 5501</span><br><small>Aiko, Kenta, Mei for Haigakure</small></button></div>
+<div class="mrow"><button class="mlink" data-go="rec3-a"><span class="mbad">C-rank · failure · 1 Jugust 5501</span><br><small>Sora, Daichi for Order of the Venator</small></button></div>
+<div class="mrow"><button class="mlink" data-go="rec2-a"><span class="mwarn">D-rank · great success · 12 Aprimay 5501</span><br><small>Kenta for Haigakure</small></button></div>
+<div class="mrow"><button class="mlink" data-go="rec1-a"><span class="mgood">C-rank · success · 3 Aprimay 5501</span><br><small>Aiko, Mei for Kaedegakure</small></button></div></div>
+    <div class="msec" style="max-height:340px;overflow:auto"><p>escort a merchant over a bandit pass<br>Squad: Aiko, Kenta, Mei<br>Found: herbal medicine x6</p><p>Day 1, 00:00: The squad (Aiko, Kenta, Mei) left the village gate for: escort a merchant over a bandit pass.<br>Day 1, 14:00: Mei gathered healing herbs along a stream.<br>Day 2, 01:00: Ran into bandits on the road. Aiko dropped the leader with a crack of lightning.<br>Day 2, 01:00: Kenta took a few cuts in the fight.<br>Day 2, 02:00: Mei patched up Kenta by the roadside.<br>Day 2, 15:00: Shared a fire with pilgrims headed for a mountain shrine; they had stories about the road ahead.<br>Day 3, 01:00: Kenta set off a hidden trap and was hurt.<br>Day 3, 14:00: Aiko tracked a supply line to a hidden camp of Black Ink Syndicate. It'll be on the world map when the squad is home.<br>Day 4, 03:00: Ran into a band of rogue ninja. Kenta broke the strongest of them and finished him with a combo.<br>Day 4, 16:00: Passed burned fields on the border between Sajingakure and Tetsugakure.<br>Day 5, 07:00: Aiko led the squad to finish the task: escort a merchant over a bandit pass.<br>Day 5, 20:00: Tired and hungry, the squad turned for home.</p></div>
+  </div>
+  <div class="mrowbtns"><button class="mbtn" data-back>Close</button></div>
+</div>
+
+</div>
+<figcaption>Squad missions: the Missions tab of the Ninja world window (its button on the bottom bar) opens <b>Send a squad</b>; the <b>Squad away</b> letter's <b>Watch the mission</b> (or a <b>Watch:</b> button in the panel) opens the live mission window; <b>Mission records</b> opens from the live window or the panel. A storyteller's squad request letter opens Send a squad already filled in with <b>Choose the squad</b>.</figcaption>
+</figure>
+
 </div></details>
 <details class="sec gsec" open id="what-decides-the-trip"><summary><span class="st">What decides the trip</span></summary><div class="body">
 <p>Every squad member counts:</p>
@@ -33,7 +916,7 @@
 </div></details>
 <details class="sec gsec" open id="relics"><summary><span class="st">Relics</span></summary><div class="body">
 <p>Rarely, a squad finds one of ten old relics. Each gives everyone in the village a small permanent bonus, shown in the health tab as *village relics*:</p>
-<p>| Relic | Bonus | |---|---| | Weathered founding scroll | +3% learning | | Sandals of the mountain pass | +0.05 move speed | | Crest of the old hearth | slightly harder to break mentally | | Healer&#x27;s lotus jar | +3% immunity gain | | Tempered anvil stone | +2% work speed | | Moon bell of quiet sleep | +3% rest rate | | Iron prayer beads | +2% pain shock threshold | | Third-eye ink stone | +1% consciousness | | Sealed riverstone blade | melee strikes a little faster | | Flask of the still spring | +3% chakra regeneration |</p>
+<div class="tw"><table class="gt"><tr><th>Relic</th><th>Bonus</th></tr><tr><td>Weathered founding scroll</td><td>+3% learning</td></tr><tr><td>Sandals of the mountain pass</td><td>+0.05 move speed</td></tr><tr><td>Crest of the old hearth</td><td>slightly harder to break mentally</td></tr><tr><td>Healer&#x27;s lotus jar</td><td>+3% immunity gain</td></tr><tr><td>Tempered anvil stone</td><td>+2% work speed</td></tr><tr><td>Moon bell of quiet sleep</td><td>+3% rest rate</td></tr><tr><td>Iron prayer beads</td><td>+2% pain shock threshold</td></tr><tr><td>Third-eye ink stone</td><td>+1% consciousness</td></tr><tr><td>Sealed riverstone blade</td><td>melee strikes a little faster</td></tr><tr><td>Flask of the still spring</td><td>+3% chakra regeneration</td></tr></table></div>
 </div></details>
 <details class="sec gsec" open id="mission-records"><summary><span class="st">Mission records</span></summary><div class="body">
 <p>The <b>Mission records</b> window lists every mission with its full log, your mission rank, totals and relics.</p>
@@ -42,5 +925,5 @@
 <p>Settings → World and events → Living world: <b>Live squad missions</b>, <b>Allow &quot;skip to the end&quot;</b>, <b>Mission bonding</b>, and sliders for rewards, injuries, relic chance and replay speed.</p>
 </div></details></article></main>
 <footer>NFRP World is a RimWorld mod by Cassie, an add-on for World of Naruto and Taran Magic Framework. Technique and clan material from the Naruto Forum Role-play (NFRP) community archive. The Kazeraikou clan was created by Marii from NFRP and is used with her permission. This wiki is generated from the mod's files.</footer>
-<script>window.ROOT="../";</script><script src="../assets/search.js"></script>
+<script>window.ROOT="../";</script><script src="../assets/search.js"></script><script src="../assets/mock.js"></script>
 </body></html>

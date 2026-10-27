@@ -13,6 +13,8 @@ The window doesn't pause the game. It shows:
 
 Buttons: **Live** follows the trip in game time, **Replay so far** plays what happened again, **Skip to the end** brings the squad home at once (a setting can turn this off), **Mission records** and **Next squad**.
 
+@@mock squad-missions
+
 ## What decides the trip
 Every squad member counts:
 - **Rank and level** against the mission's rank decide most fights and the objective.

@@ -3,7 +3,7 @@
 <title>Stances and squads · NFRP World</title><meta name="description" content="Stances and squads">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@600;700&display=swap">
-<link rel="stylesheet" href="../assets/style.css"><link rel="icon" href="../assets/icon.png">
+<link rel="stylesheet" href="../assets/style.css"><link rel="stylesheet" href="../assets/mock.css"><link rel="icon" href="../assets/icon.png">
 </head><body>
 <header><div class="hin"><a class="brand" href="../index.html"><img src="../assets/icon.png" alt=""><span>NFRP World</span></a>
 <nav><a href="../index.html">Home</a><a href="../guides/index.html">Guides</a><a href="../trees/index.html">Technique trees</a><a href="../items.html">Items</a><a href="../seals.html">Seals</a><a href="../creatures.html">Creatures</a><a href="../plants.html">Plants</a><a href="../factions.html">Factions</a><a href="../guides/for-modders.html">For modders</a></nav>
@@ -16,7 +16,7 @@
 </div></details>
 <details class="sec gsec" open id="combat-stances"><summary><span class="st">Combat stances</span></summary><div class="body">
 <p>Select drafted ninja and use the <b>Stance</b> button.</p>
-<p>| Stance | Prefers | Moves | |---|---|---| | Default | your orders, as before | only when you say | | Vanguard | taijutsu and melee techniques that build up the enemy&#x27;s break meter | closes in on the priority target or the nearest enemy | | Support | heals and buffs first, then control | steps back when an enemy gets close | | Assassin | the priority target, enemy ninja and Bingo Book names; avoids area techniques | slips out of sight and waits | | Sealer | binds, stuns and seals | keeps a sensible distance | | Barrage | ranged and area ninjutsu, as often as chakra and cooldowns allow; keeps about 10% chakra unless the target is broken or marked; holds back big area techniques when an ally stands next to the enemy | stays at the best range of its techniques, steps back when an enemy comes within about 6 cells, prefers cover |</p>
+<div class="tw"><table class="gt"><tr><th>Stance</th><th>Prefers</th><th>Moves</th></tr><tr><td>Default</td><td>your orders, as before</td><td>only when you say</td></tr><tr><td>Vanguard</td><td>taijutsu and melee techniques that build up the enemy&#x27;s break meter</td><td>closes in on the priority target or the nearest enemy</td></tr><tr><td>Support</td><td>heals and buffs first, then control</td><td>steps back when an enemy gets close</td></tr><tr><td>Assassin</td><td>the priority target, enemy ninja and Bingo Book names; avoids area techniques</td><td>slips out of sight and waits</td></tr><tr><td>Sealer</td><td>binds, stuns and seals</td><td>keeps a sensible distance</td></tr><tr><td>Barrage</td><td>ranged and area ninjutsu, as often as chakra and cooldowns allow; keeps about 10% chakra unless the target is broken or marked; holds back big area techniques when an ally stands next to the enemy</td><td>stays at the best range of its techniques, steps back when an enemy comes within about 6 cells, prefers cover</td></tr></table></div>
 <p><b>Ambush:</b> an Assassin who has been out of every enemy&#x27;s sight for about 5 seconds is *ambush ready*: the first strike hits truer and harder. The edge fades a few seconds after it is spotted.</p>
 </div></details>
 <details class="sec gsec" open id="priority-target"><summary><span class="st">Priority target</span></summary><div class="body">
@@ -35,7 +35,7 @@
 <details class="sec gsec" open id="wounded-retreat"><summary><span class="st">Wounded retreat</span></summary><div class="body">
 <p>A badly hurt pawn falls back instead of fighting to the death. Its <b>condition</b> is the worst of its overall health, pain, blood loss and any vital part about to give out.</p>
 <p>Each colonist has a <b>Fall back</b> button:</p>
-<p>| Setting | Falls back at about | |---|---| | Off | never | | Cautious | 60% condition | | Normal (default) | 40% | | Last stand | 20% |</p>
+<div class="tw"><table class="gt"><tr><th>Setting</th><th>Falls back at about</th></tr><tr><td>Off</td><td>never</td></tr><tr><td>Cautious</td><td>60% condition</td></tr><tr><td>Normal (default)</td><td>40%</td></tr><tr><td>Last stand</td><td>20%</td></tr></table></div>
 <p>Stances shift the point: Vanguard holds on 10% longer, Support, Sealer and Barrage leave 10% sooner, Assassin 5% sooner.</p>
 <ul><li><b>Where to:</b> a free bed (a medical bed first) well away from the fight, otherwise a covered cell out of the enemy&#x27;s sight, behind friends, reached without running past the enemy. The pawn calls &quot;Falling back!&quot; and runs.</li><li><b>Never:</b> in the middle of a technique or combo (it waits for it to end), while broken, when an equally fast enemy is right beside it (cornered), or when nowhere is safe. Then it fights on.</li><li><b>Back in the fight:</b> once it has healed 15% above its fall-back point. A drafted pawn stays drafted where it is. In cover it tends its own wounds if it can.</li><li><b>Your orders win:</b> give the pawn any order and it won&#x27;t fall back for the next 10 seconds.</li><li><b>Allies and enemies</b> fall back too. Badly hurt enemies run for the edge of the map, and an enemy ninja who gets away can come back as a <a href="../guides/fame-bingo-book-and-rivals.html">rival</a>.</li><li>Falling back is not fleeing: it costs no fame.</li></ul>
 </div></details>
@@ -45,5 +45,5 @@
 <p>If <b>Rules of Engagement</b> is in your mod list, it handles movement, priority targets, formations, guards and medics; NFRP stands those parts down and stances only choose which techniques your ninja use.</p>
 </div></details></article></main>
 <footer>NFRP World is a RimWorld mod by Cassie, an add-on for World of Naruto and Taran Magic Framework. Technique and clan material from the Naruto Forum Role-play (NFRP) community archive. The Kazeraikou clan was created by Marii from NFRP and is used with her permission. This wiki is generated from the mod's files.</footer>
-<script>window.ROOT="../";</script><script src="../assets/search.js"></script>
+<script>window.ROOT="../";</script><script src="../assets/search.js"></script><script src="../assets/mock.js"></script>
 </body></html>

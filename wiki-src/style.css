@@ -60,3 +60,4 @@ details[open].card .line{display:none}details.card>.body{padding:0 14px 14px 74p
 details.arts{margin-top:6px}details.arts summary{cursor:pointer;font-size:.85rem;color:var(--muted,inherit)}details.arts ul{margin:6px 0 0;padding-left:18px}details.arts li{margin:4px 0;font-size:.9rem}
 .item small.res{display:block;margin-top:4px;color:var(--muted);font-size:.85rem}
 
+table.gt{margin:8px 0 16px}table.gt td:first-child{font-weight:500}

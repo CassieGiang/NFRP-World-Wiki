@@ -1,0 +1,57 @@
+/* Clickable window mockups. They copy the game's own window looks, so they stay dark in both wiki themes.
+   .mock.slate  = the slate windows (signatures, inscribe, scroll bar): NFSlate colours
+   .mock.bronze = the Ninja world and squad windows: NFUIStyle colours (dark panel, bronze edges) */
+.mock{--w-top:#2e3036;--w-bot:#24262b;--w-edge:#0d0e10;--w-line:#59606d;--w-hover:#9aa2b1;--w-on:#c7cdd8;--w-text:#c9ced8;--w-soft:#9aa2b1;--w-groove:#15161a;--w-sel:#2e4260;--w-acc:#3d86e8;--w-good:#70b86b;--w-warn:#db8547;--w-bad:#c74738;
+  margin:18px 0 22px;max-width:100%;font:13px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--w-text)}
+.mock.bronze{--w-top:#1f2329;--w-bot:#161a1f;--w-line:#40454f;--w-hover:#d9a640;--w-on:#d9a640;--w-text:#e6e3dc;--w-soft:#9e9e94;--w-groove:#101114;--w-sel:#59451f;--w-acc:#d9a640}
+.mock .mwin{position:relative;background:linear-gradient(var(--w-top),var(--w-bot));border:1px solid var(--w-edge);box-shadow:0 0 0 1px var(--w-line) inset,0 8px 24px rgba(0,0,0,.35);border-radius:3px;padding:12px 14px 14px;overflow:hidden}
+.mock .mtitle{display:flex;align-items:center;gap:8px;font:600 16px/1.2 "Shippori Mincho",Georgia,serif;color:#fff;margin:0 0 10px;padding-right:22px}
+.mock .mtitle small{font:400 12px system-ui,sans-serif;color:var(--w-soft);margin-left:auto}
+.mock .mx{position:absolute;top:8px;right:10px;width:16px;height:16px;color:var(--w-soft);font:16px/16px system-ui;text-align:center}
+.mock .mtabs{display:flex;flex-wrap:wrap;gap:4px;border-bottom:1px solid var(--w-line);margin:0 0 10px}
+.mock button{font:inherit;color:inherit;cursor:pointer}
+.mock .mtabs button{background:var(--w-groove);border:1px solid var(--w-line);border-bottom:0;border-radius:3px 3px 0 0;padding:5px 12px;color:var(--w-soft)}
+.mock .mtabs button:hover{color:#fff;border-color:var(--w-hover)}
+.mock .mtabs button.on{background:var(--w-top);color:#fff;border-color:var(--w-on);position:relative;top:1px}
+.mock .mpage[hidden]{display:none}
+.mock .mbtn{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:26px;padding:3px 12px;background:linear-gradient(#34373e,#2a2c32);border:1px solid var(--w-line);border-radius:2px;color:var(--w-text)}
+.mock.bronze .mbtn{background:#2b2e35}
+.mock .mbtn:hover{border-color:var(--w-hover);color:#fff}
+.mock .mbtn.pri{border-color:var(--w-on);color:#fff;background:linear-gradient(#3e4552,#2f343e)}
+.mock.bronze .mbtn.pri{background:#85612a;border-color:#d9a640}
+.mock .mbtn.bad{background:#61241c;border-color:var(--w-bad)}
+.mock .mbtn.off{opacity:.5;cursor:default}
+.mock .mbtn.sm{min-height:20px;padding:1px 8px;font-size:12px}
+.mock .mrowbtns{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.mock .msec{background:var(--w-groove);border:1px solid var(--w-line);border-radius:2px;padding:8px 10px;margin:0 0 8px}
+.mock .msec h4{margin:0 0 6px;font:600 12px system-ui;letter-spacing:.06em;text-transform:uppercase;color:var(--w-soft)}
+.mock .mcols{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.4fr);gap:10px}
+.mock .mcols.even{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+.mock .mcols.three{grid-template-columns:repeat(3,minmax(0,1fr))}
+.mock .mrow{display:flex;align-items:center;gap:8px;padding:4px 6px;border-left:3px solid transparent}
+.mock .mrow:nth-child(even){background:rgba(255,255,255,.03)}
+.mock .mrow.sel{background:color-mix(in srgb,var(--w-sel) 70%,transparent);border-left-color:var(--w-on)}
+.mock .mrow .r{margin-left:auto;color:var(--w-soft);white-space:nowrap}
+.mock .mrow button.mlink{background:none;border:0;padding:0;text-align:left;color:inherit}
+.mock .mrow button.mlink:hover{color:#fff;text-decoration:underline}
+.mock .mmuted{color:var(--w-soft)}
+.mock .mgood{color:var(--w-good)}.mock .mwarn{color:var(--w-warn)}.mock .mbad{color:var(--w-bad)}
+.mock .mbadge{display:inline-block;padding:0 6px;border:1px solid var(--w-line);border-radius:2px;font-size:11px;color:var(--w-soft);background:var(--w-groove)}
+.mock .mbadge.on{border-color:var(--w-on);color:#fff}
+.mock .mbar{height:8px;background:var(--w-groove);border:1px solid var(--w-line);margin:4px 0}
+.mock .mbar i{display:block;height:100%;background:var(--w-acc)}
+.mock .mgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(92px,1fr));gap:5px}
+.mock .mslot{min-height:40px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:4px;background:#22252b;border:1px solid #5a5e68;border-radius:2px;font-size:12px}
+.mock .mslot.on{background:#332b1f;border-color:#d9a640;color:#fff}
+.mock .mslot.lock{background:#1a1a1c;border-color:#40454f;color:#7a7f88}
+.mock .mslot small{color:var(--w-soft);font-size:11px}
+.mock .mfield{display:flex;align-items:center;gap:8px;margin:4px 0}
+.mock .mfield>span:first-child{width:92px;flex:none;color:var(--w-soft)}
+.mock .minput{flex:1;min-height:24px;padding:2px 8px;background:#0f1012;border:1px solid var(--w-line);color:#fff;display:flex;align-items:center}
+.mock .mcheck::before{content:"";display:inline-block;width:12px;height:12px;margin-right:6px;vertical-align:-2px;border:1px solid var(--w-line);background:var(--w-groove)}
+.mock .mcheck.on::before{background:var(--w-good);box-shadow:inset 0 0 0 2px var(--w-groove)}
+.mock .mmap{display:block;width:100%;height:auto;border:1px solid var(--w-line);background:#0f1012}
+.mock .mback{margin-bottom:8px}
+.mock figcaption{margin-top:6px;color:var(--muted,#5d6871);font-size:.85rem}
+.mock figcaption::before{content:"Mockup · click the tabs and buttons. ";font-weight:600}
+@media (max-width:640px){.mock .mcols,.mock .mcols.even,.mock .mcols.three{grid-template-columns:1fr}.mock .mwin{padding:10px}}

@@ -23,6 +23,11 @@ NFRP World adds three storytellers who know about ninja: missions, ranks, rivals
   - **Summon beasts gone wild** roam into your land.
   - **Smugglers:** a Black Ink courier dumps a stash of silver and goods near your village. Black Ink comes back for it a few days later.
   - **A wandering master** visits to teach (the Old Sensei's favourite).
+- **New since update 286:**
+  - **Squad requests.** Some quiet-season offers are a friendly village asking for a squad of a set rank, for a named task. The letter has a **Choose the squad** button that opens the send window already filled in. Send a squad of that rank or harder for them in time and they pay extra silver if the mission succeeds (plus a little goodwill).
+  - **Moments of insight.** Now and then a ninja with room for a [signature technique](signature-techniques.html) gets an inspiration out of the blue: three ideas to pick from. Festivals and wandering masters can inspire someone too.
+  - **Rivals train while away.** A returning rival may bring a signature technique of their own. You only learn what it is once you see it used.
+  - **The smuggler's stash** now also holds ninja tools (kunai, senbon, smoke and paper bombs) and sometimes a [shinobi weapon](shinobi-weapons.html).
 - **No ninja yet?** The ninja-only events (exams, rivals) wait, deserters come more often (they bring you a ninja), and everything vanilla carries on as usual.
 - **The truce:** rivals, bounty hunters and Black Ink don't come during the truce. Hunter-nin chasing a deserter are the exception, as always.
 
@@ -37,5 +42,13 @@ NFRP World adds three storytellers who know about ninja: missions, ranks, rivals
 | Days between arcs | 12–20 | 20–30 | 6–25 |
 | Deserter turns out a spy | sometimes | never | often |
 | Early generic threats | rare for 60 days | rare for 90 days | less common for 30 days |
+| Share of offers that are squad requests | half | 4 in 10 (easier ranks) | 6 in 10 |
+| Time to answer a squad request | 5 days | 7 days | 3 days |
+| Extra silver for an answered request | +25% | +25% | +50% |
+| Moments of insight | every 40 days | every 25 days | about every 30 days, at random |
+| A festival inspires someone | 1 in 5 | about 1 in 3 | 1 in 5 |
+| A wandering master inspires someone | 6 in 10 | 9 in 10 | half |
+| A returning rival has a signature | 3 in 10 | about 1 in 7 | 4 in 10 |
+| A shinobi weapon in the smuggler's stash | 1 in 4 | 1 in 5 | 4 in 10 |
 
 Difficulty still decides how hard everything hits. On Peaceful, no threat arcs run.
