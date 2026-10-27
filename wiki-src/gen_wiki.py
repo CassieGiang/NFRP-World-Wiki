@@ -162,9 +162,42 @@ def pos(a):
     return (float(m[1]), float(m[0])) if len(m) >= 2 else (9, 9)
 
 # ───────────────────────────── page shell
-NAV = [('index.html', 'Home'), ('guides/index.html', 'Guides'), ('trees/index.html', 'Technique trees'), ('items.html', 'Items'),
-       ('seals.html', 'Seals'), ('creatures.html', 'Creatures'), ('plants.html', 'Plants'), ('factions.html', 'Factions'),
-       ('guides/for-modders.html', 'For modders')]
+NAV = [('index.html', 'Home'), ('guides/index.html', 'Guides'), ('trees/index.html', 'Techniques'), ('items.html', 'Items & gear'),
+       ('world.html', 'World'), ('guides/update-notes.html', 'What changed')]
+# redesign (approved 27 Oct): every guide belongs to one group; the left rail and the guides page follow this order
+GUIDE_GROUPS = [
+    ('Start here', 'Read these first.', ['getting-started', 'builds', 'ranks', 'windows', 'recommended-mods', 'mounts-and-flying', 'coming-next']),
+    ('Your ninja', 'What a ninja can become.', ['bloodlines', 'signature-techniques', 'more-arts', 'genjutsu-schools', 'beast-and-skill-arts', 'eight-gates', 'hand-signs', 'chakra-paper', 'kazeraikou', 'names-and-backstories']),
+    ('Fighting', 'How fights work, and how to win them.', ['break-and-combos', 'jutsu-chains-and-solo-combos', 'elemental-combos', 'stances-and-squads', 'ninja-tool-kit', 'shinobi-weapons', 'summons', 'contract-bonds', 'creatures-and-undead', 'visual-effects']),
+    ('The world', 'Villages, missions and the people in them.', ['factions', 'world', 'diplomacy', 'living-world', 'live-squad-missions', 'fame-bingo-book-and-rivals', 'reputation-duels-and-intel', 'storytellers']),
+    ('Village and crafting', 'Building your hidden village.', ['crafting', 'seals', 'gear', 'professions', 'ninja-research', 'rituals', 'ideology', 'stronghold-rooms']),
+    ('More', '', ['for-modders', 'update-notes']),
+]
+GUIDE_NEW = {'signature-techniques', 'jutsu-chains-and-solo-combos', 'shinobi-weapons', 'windows'}
+REFERENCE = [('trees/index.html', 'Technique trees'), ('items.html', 'Items and gear'), ('seals.html', 'Seals'), ('creatures.html', 'Creatures'),
+             ('plants.html', 'Plants'), ('factions.html', 'Factions')]
+def _guide_titles():
+    out = {}
+    for f in sorted(glob.glob(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'guides', '*.md'))):
+        n = re.sub(r'^\d+-', '', os.path.basename(f)[:-3]); out[n] = open(f, encoding='utf-8').readline().lstrip('# ').strip()
+    return out
+GUIDE_TITLES = _guide_titles()
+_grouped = {n for _, _, l in GUIDE_GROUPS for n in l}
+_left = [n for n in GUIDE_TITLES if n not in _grouped]
+if _left: GUIDE_GROUPS[-1][2][:0] = _left          # a new guide nobody grouped yet still shows, under More
+GUIDE_GROUP_OF = {n: g for g, _, l in GUIDE_GROUPS for n in l}
+
+def rail(up, path):
+    h = '<details class="railbox" open><summary>Browse the wiki</summary>'
+    for g, _, l in GUIDE_GROUPS:
+        h += f'<h4>{E(g)}</h4>'
+        for n in l:
+            if n not in GUIDE_TITLES: continue
+            hp = f'guides/{n}.html'
+            h += f'<a href="{up}{hp}"{" class=on aria-current=page" if hp == path else ""}>{E(GUIDE_TITLES[n])}{" <span class=new>NEW</span>" if n in GUIDE_NEW else ""}</a>'
+    h += '<h4>Reference</h4>' + ''.join(f'<a href="{up}{hp}"{" class=on aria-current=page" if hp == path else ""}>{E(l)}</a>' for hp, l in REFERENCE)
+    return '<nav class="rail" aria-label="All pages">' + h + '</details></nav>'
+
 
 def cd_text(ticks):
     # the technique window shows cooldowns as in-game time (GenDate.ToStringTicksToPeriod): seconds under an hour, then hours, then days
@@ -187,10 +220,13 @@ def toolbar(ph='Filter this page'):
 def seals_r(ranks):
     return '<span class="seals-r" aria-label="ranks ' + E(' '.join(ranks)) + '">' + ''.join(f'<span class="seal">{E(r)}</span>' for r in ranks) + '</span>' if ranks else ''
 
-def page(path, title, body, depth=None, desc=''):
+def page(path, title, body, depth=None, desc='', with_rail=True):
     depth = path.count('/') if depth is None else depth
     up = '../' * depth
-    nav = ''.join(f'<a href="{up}{h}"{" class=on" if h == path else ""}>{E(l)}</a>' for h, l in NAV)
+    top = 'guides/index.html' if path.startswith('guides/') and path != 'guides/update-notes.html' else 'trees/index.html' if path.startswith('trees/') else \
+          'world.html' if path in ('creatures.html', 'plants.html', 'factions.html') else 'items.html' if path == 'seals.html' else path
+    nav = ''.join(f'<a href="{up}{h}"{" class=on" if h == top else ""}>{E(l)}</a>' for h, l in NAV)
+    body = f'<div class="layout">{rail(up, path)}<div class="content">{body}</div></div>' if with_rail else body
     doc = f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{E(title)} · NFRP World</title><meta name="description" content="{E(desc or title)}">
@@ -200,9 +236,9 @@ def page(path, title, body, depth=None, desc=''):
 </head><body>
 <header><div class="hin"><a class="brand" href="{up}index.html"><img src="{up}assets/icon.png" alt=""><span>NFRP World</span></a>
 <nav>{nav}</nav>
-<div class="search"><input id="q" type="search" placeholder="Search techniques, items, seals…" autocomplete="off" aria-label="Search"><div id="hits"></div></div>
+<div class="search"><input id="q" type="search" placeholder="Search techniques, guides, items…" autocomplete="off" aria-label="Search"><kbd>/</kbd><div id="hits"></div></div>
 </div></header>
-<main>{body}</main>
+<main{" class=wide" if with_rail else ""}>{body}</main>
 <footer>NFRP World is a RimWorld mod by Cassie, an add-on for World of Naruto and Taran Magic Framework. Technique and clan material from the Naruto Forum Role-play (NFRP) community archive. The Kazeraikou clan was created by Marii from NFRP and is used with her permission. This wiki is generated from the mod's files.</footer>
 <script>window.ROOT="{up}";</script><script src="{up}assets/search.js"></script><script src="{up}assets/mock.js"></script>
 </body></html>'''
@@ -275,13 +311,13 @@ for g in GROUPS:
         note = NOTE.get(tdn) or gate or ('Open to every ninja. How high a ninja can go depends on their ninja build.' if open_t else 'Learned from technique scrolls, mission rewards, written scrolls and scroll merchants; some NPC ninja know it. It counts toward the ninja build like other trees.' if tdn.startswith('NF_Arch') else 'Unlocks through World of Naruto\'s own trees, a gene, a build choice or a profession.')
         bg = img(t.findtext('backgroundTexPath'), True)
         hero = f'<img class="treebg" src="{up}img/{E(bg)}" alt="">' if bg else ''
-        body = f'''<div class="hero tree">{hero}<div><p class="crumb"><a href="index.html">Technique trees</a> › {E(g)}</p>
+        body = f'''<div class="hero tree">{hero}<div><p class="crumb"><a href="../index.html">Home</a> › <a href="index.html">Techniques</a> › <a href="index.html#{slug(g)}">{E(g)}</a></p>
 <h1>{E(t.findtext('label'))}</h1><p class="lead">{len(techs)} techniques in the {E(tree_class.get(tdn, '').replace('WN_', '') or 'class')} tab.</p><p>{E(note)}</p></div></div>
 {toolbar('Filter techniques')}<section class="techs">{''.join(tech_card(d, up, path) for d in techs)}</section>{COST_NOTE}'''
         page(path, t.findtext('label'), body, desc=f'{t.findtext("label")}: all {len(techs)} techniques of the NFRP World tree.')
         index.append([t.findtext('label'), 'Tree', path, g])
 
-cards = ''
+cards = ''; chips = []
 for g in GROUPS:
     lst = sorted(tree_list.get(g, []), key=lambda x: trees[x].findtext('label') or x)
     if not lst: continue
@@ -290,9 +326,11 @@ for g in GROUPS:
         t = trees[tdn]; bg = img(t.findtext('backgroundTexPath'), True)
         inner += f'<a class="treecard unit" href="{slug(tdn)}.html">{"<img src=../img/" + E(bg) + " alt=\"\" loading=lazy>" if bg else "<span class=blank></span>"}<b>{E(t.findtext("label"))}</b><small>{len(by_tree[tdn])} techniques</small></a>'
     inner += '</div>'
-    cards += sec(g, inner, f'{len(lst)} trees', True, slug(g))
+    cards += f'<div data-group="{slug(g)}">' + sec(g, inner, f'{len(lst)} trees', True, slug(g)) + '</div>'
+    chips.append((slug(g), g, len(lst)))
 ntech = sum(len(by_tree[t]) for g in tree_list.values() for t in g)
-page('trees/index.html', 'Technique trees', f'<h1>Technique trees</h1><p class="lead">{sum(len(v) for v in tree_list.values())} trees and {ntech} techniques, read straight from the mod.</p>{toolbar('Filter trees')}{cards}')
+chipbar = '<div class="chips" data-filter role="group" aria-label="Show trees of one kind"><button type="button" class="chip on" data-k="all">All ' + str(sum(c for _, _, c in chips)) + '</button>' + ''.join(f'<button type="button" class="chip" data-k="{k}">{E(g)} {c}</button>' for k, g, c in chips) + '</div>'
+page('trees/index.html', 'Technique trees', f'<p class="crumb"><a href="../index.html">Home</a> › Techniques</p><h1>Technique trees</h1><p class="lead">{sum(len(v) for v in tree_list.values())} trees and {ntech:,} techniques, read straight from the mod.</p>{chipbar}{toolbar('Filter trees')}{cards}')
 
 # ───────────────────────────── items
 ITEM_GROUPS = [('Brews, pills and drugs', ('MakeableDrugBase', 'DrugPillBase', 'DrugBase')), ('Bombs and grenades', ('BaseMakeableGrenade',)),
@@ -323,7 +361,7 @@ for g, _ in ITEM_GROUPS:
         index.append([t.findtext('label'), 'Item', 'items.html#' + slug(dn), g])
     inner += '</div>'
     body += sec(g, inner, len(items[g]), False, slug(g))
-page('items.html', 'Items', body)
+page('items.html', 'Items', '<p class="crumb"><a href="index.html">Home</a> › Items &amp; gear</p>' + body)
 
 # ───────────────────────────── seals
 def seal_line(s):
@@ -352,7 +390,7 @@ for fw, title in (('true', 'Weapon seals'), ('false', 'Armour seals')):
         index.append([s.findtext('label') + ' seal', 'Seal', 'seals.html#' + slug(name), RANKS[lo] + '–' + RANKS[hi]])
     inner += '</table></div>'
     body += sec(title, inner, len(lst), False, slug(title))
-page('seals.html', 'Enchantment seals', body)
+page('seals.html', 'Enchantment seals', '<p class="crumb"><a href="index.html">Home</a> › <a href="items.html">Items &amp; gear</a> › Seals</p>' + body)
 
 
 ARTS = {}
@@ -422,7 +460,7 @@ ncre = sum(len(v) for v in cre.values())
 body = f'<h1>Creatures</h1><p class="lead">{ncre} wild animals and monsters, undead, summons, golems and companions. Roles and the biomes each one lives in are listed under its description.</p>' + toolbar('Filter creatures')
 for g in CRE_GROUPS:
     if cre[g]: body += sec(g, (f'<p class="meta">{E(CRE_NOTE[g])}</p>' if g in CRE_NOTE else '') + '<div class="grid items">' + ''.join(cre[g]) + '</div>', len(cre[g]), False, slug(g))
-page('creatures.html', 'Creatures', body)
+page('creatures.html', 'Creatures', '<p class="crumb"><a href="index.html">Home</a> › <a href="world.html">World</a> › Creatures</p>' + body)
 
 
 # ───────────────────────────── plants
@@ -478,7 +516,7 @@ for dn in plist:
 body = f'<h1>Plants</h1><p class="lead">{len(plist)} plants: medicinal herbs, poisons, alchemy ingredients, crops, flowers and trees. Sowable ones appear in a growing zone\'s plant list once a grower has the skill shown.</p>' + toolbar('Filter plants')
 for g in PL_GROUPS:
     if pl_cards[g]: body += sec(g, '<div class="grid items">' + ''.join(pl_cards[g]) + '</div>', len(pl_cards[g]), False, slug(g))
-page('plants.html', 'Plants', body)
+page('plants.html', 'Plants', '<p class="crumb"><a href="index.html">Home</a> › <a href="world.html">World</a> › Plants</p>' + body)
 
 # ───────────────────────────── factions
 fcards = ''
@@ -490,7 +528,7 @@ for dn, f in sorted(T('FactionDef').items(), key=lambda kv: kv[1].findtext('labe
 body = ('<h1>Factions</h1><p class="lead">Hidden villages, a criminal syndicate, an order of witch-hunters and three feudal houses.</p>' +
         sec('All factions', '<div class="grid items">' + fcards + '</div>', len(T('FactionDef')), True, 'all') +
         '<p>See the <a href="guides/factions.html">factions and missions guide</a> for the war, the one-year truce and ranked missions, and <a href="guides/diplomacy.html">diplomacy</a> for joining a village.</p>')
-page('factions.html', 'Factions', body)
+page('factions.html', 'Factions', '<p class="crumb"><a href="index.html">Home</a> › <a href="world.html">World</a> › Factions</p>' + body)
 
 # ───────────────────────────── guides (hand-written, markdown-lite in guides/*.md)
 SOON = 'Coming in the next update.'
@@ -574,31 +612,78 @@ def md(text, up, sections=False):
     return ('\n'.join(out), toc) if sections else '\n'.join(out)
 
 gdir = os.path.join(HERE, 'guides')
-glist = []
+glist = []; gtext = {}
 for f in sorted(glob.glob(os.path.join(gdir, '*.md'))):
     name = os.path.basename(f)[:-3]
     text = open(f, encoding='utf-8').read()
     title = text.splitlines()[0].lstrip('# ').strip()
-    blurb = next((l for l in text.splitlines()[1:] if l.strip() and not l.startswith('#')), '')
-    gbody, toc = md(text, '../', True)
-    side = ''
+    blurb = next((l for l in text.splitlines()[1:] if l.strip() and not l.lstrip().startswith(('#', '@@', '|', '- '))), '')
+    blurb = re.sub(r'\[(.+?)\]\(.+?\)', r'\1', blurb).replace('**', '')
+    glist.append((name[3:], title, blurb)); gtext[name[3:]] = text
+GBLURB = {n: b for n, t, b in glist}
+def short(t, n):
+    # the first sentence if it fits, else cut at a word with an ellipsis
+    m = re.match(r'(.+?[.!?])(\s|$)', t)
+    if m and len(m.group(1)) <= n: return m.group(1)
+    return t if len(t) <= n else t[:n].rsplit(' ', 1)[0].rstrip(',;:') + '…'
+for n, title, blurb in glist:
+    gbody, toc = md(gtext[n], '../', True)
+    grp = GUIDE_GROUP_OF.get(n, 'More')
+    peers = [x for x in next(l for g, _, l in GUIDE_GROUPS if g == grp) if x in GUIDE_TITLES]
+    i = peers.index(n) if n in peers else -1
+    prev_ = peers[i - 1] if i > 0 else None; next_ = peers[i + 1] if 0 <= i < len(peers) - 1 else None
+    crumb = f'<p class="crumb"><a href="../index.html">Home</a> › <a href="index.html#{slug(grp)}">{E(grp)}</a> › {E(title)}</p>'
+    pn = '<nav class="pn" aria-label="More in this group">' + \
+         (f'<a href="{prev_}.html"><small>Previous in {E(grp)}</small>‹ {E(GUIDE_TITLES[prev_])}</a>' if prev_ else '<span></span>') + \
+         (f'<a class="nx" href="{next_}.html"><small>Next in {E(grp)}</small>{E(GUIDE_TITLES[next_])} ›</a>' if next_ else '<span></span>') + '</nav>'
+    aside = ''
     if len(toc) >= 2:
-        links = ''.join(f'<a href="#{sid}">{lab}</a>' for sid, lab in toc)
-        side = ' '
         bar = '<div class="toolbar"><button type="button" data-act="open">Expand all</button><button type="button" data-act="close">Collapse all</button></div>'
-        # put the toolbar under the intro (after the first paragraph following the title)
-        gbody = gbody.replace('<details', bar + '<div class="toc">' + ''.join(f'<a href="#{sid}">{lab}</a>' for sid, lab in toc) + '</div><details', 1)
-    page(f'guides/{name[3:]}.html', title, f'<article class="guide">{gbody}</article>')
-    glist.append((name[3:], title, blurb))
-    index.append([title, 'Guide', f'guides/{name[3:]}.html', ''])
-page('guides/index.html', 'Guides', '<h1>Guides</h1><p class="lead">How the systems work, step by step.</p><div class="grid guides">' +
-     ''.join(f'<a class="guidecard" href="{n}.html"><b>{E(t)}</b><small>{E(b[:160])}</small></a>' for n, t, b in glist) + '</div>')
+        gbody = gbody.replace('<details', bar + '<details', 1)
+        aside = '<aside class="otp"><b>On this page</b>' + ''.join(f'<a href="#{sid}">{lab}</a>' for sid, lab in toc) + '</aside>'
+    page(f'guides/{n}.html', title, f'<div class="gpage"><article class="guide">{crumb}{gbody}{pn}</article>{aside}</div>', desc=blurb[:160])
+    index.append([title, 'Guide', f'guides/{n}.html', grp])
+gi = '<p class="crumb"><a href="../index.html">Home</a> › Guides</p><h1>Guides</h1><p class="lead">' + str(len(glist)) + ' guides, grouped by what you are doing. New ones are marked.</p>'
+for g, d, l in GUIDE_GROUPS:
+    l = [x for x in l if x in GUIDE_TITLES]
+    if not l: continue
+    gi += f'<section class="group" id="{slug(g)}"><h2>{E(g)}</h2>' + (f'<p>{E(d)}</p>' if d else '') + '<div class="glist">' + \
+          ''.join(f'<a href="{x}.html"><b>{E(GUIDE_TITLES[x])}{" <span class=new>NEW</span>" if x in GUIDE_NEW else ""}</b><small>{E(short(GBLURB.get(x, ""), 110))}</small></a>' for x in l) + '</div></section>'
+page('guides/index.html', 'Guides', gi)
+
+# ───────────────────────────── world hub
+def _count(path, pat='class="item unit"'):
+    try: return open(os.path.join(OUT, path), encoding='utf-8').read().count(pat)
+    except Exception: return 0
+wcards = [('factions.html', 'Factions', 'Hidden villages, orders and syndicates.', f'{_count("factions.html")} factions'),
+          ('creatures.html', 'Creatures', 'Summons, beasts and undead, with what they do.', f'{_count("creatures.html")} creatures'),
+          ('plants.html', 'Plants', 'Herbs, trees and what they grow into.', f'{_count("plants.html")} plants'),
+          ('guides/storytellers.html', 'Storytellers', 'Hisame, Genkō and Kitsunebi.', '3 storytellers'),
+          ('guides/living-world.html', 'Living world', 'Villages that remember, news, teams and diplomacy.', 'guide'),
+          ('guides/live-squad-missions.html', 'Squad missions', 'Send squads out and follow the trip.', 'guide')]
+page('world.html', 'World', '<p class="crumb"><a href="index.html">Home</a> › World</p><h1>World</h1><p class="lead">What your ninja meet out there: the factions, creatures and plants, and how the world moves around you.</p><div class="cats">' +
+     ''.join(f'<a class="cat" href="{h}"><b>{E(t)}</b><small>{E(d)}</small><span class="n">{E(c)}</span></a>' for h, t, d, c in wcards) + '</div>')
 
 # ───────────────────────────── home
 home = open(os.path.join(HERE, 'home.md'), encoding='utf-8').read()
-stats = f'<div class="stats"><div><b>{ntech}</b>techniques</div><div><b>{sum(len(v) for v in tree_list.values())}</b>trees</div><div><b>{len(seals)}</b>seals</div><div><b>{sum(len(v) for v in items.values())}</b>items</div></div>'
-quick = '<div class="grid guides">' + ''.join(f'<a class="guidecard" href="guides/{n}.html"><b>{E(t)}</b><small>{E(b[:140])}</small></a>' for n, t, b in glist[:8]) + '</div>'
-page('index.html', 'Home', '<div class="hero home"><img src="assets/preview.png" alt=""><div>' + md(home, '') + '</div></div>' + stats + '<h2>Start here</h2>' + quick)
+hl = home.splitlines()
+pitch = next((l for l in hl[1:] if l.strip()), '')
+rest = '\n'.join(l for l in hl[1:] if l.strip() and l != pitch)
+ngd = len(glist)
+stats = f'<div class="stats"><div><b>{ntech:,}</b>techniques</div><div><b>{sum(len(v) for v in tree_list.values())}</b>trees</div><div><b>{ngd}</b>guides</div><div><b>{len(seals)}</b>seals</div><div><b>{sum(len(v) for v in items.values())}</b>items</div></div>'
+first = '<div class="firsthour"><h3>Your first hour</h3><ol><li><a href="guides/builds.html">Pick a build</a> for each ninja.</li><li><a href="guides/getting-started.html">Learn a first technique</a> from a scroll.</li><li><a href="guides/ranks.html">Train for the rank exam</a>.</li><li><a href="guides/live-squad-missions.html">Send a squad</a> on a D-rank mission.</li></ol></div>'
+hero = f'<div class="hero home"><div><h1>NFRP World</h1><p class="lead">{inline(pitch, "")}</p>{md(rest, "")}<div class="btns"><a class="btn pri" href="guides/getting-started.html">Start playing</a><a class="btn" href="trees/index.html">Browse techniques</a><a class="btn" href="guides/update-notes.html">What changed</a></div></div>{first}</div>'
+cat_desc = {'Start here': 'Install, first build, ranks, the windows.', 'Your ninja': 'Bloodlines, arts, the Eight Gates, signature techniques.',
+            'Fighting': 'Breaks, combos, chains, stances, tools and weapons.', 'The world': 'Villages at war, missions, rivals, storytellers.',
+            'Village and crafting': 'Benches, seals, research, rituals, rooms.'}
+cats = '<div class="cats">' + ''.join(f'<a class="cat" href="guides/index.html#{slug(g)}"><b>{E(g)}</b><small>{E(cat_desc[g])}</small><span class="n">{len([x for x in l if x in GUIDE_TITLES])} guides</span></a>' for g, _, l in GUIDE_GROUPS if g in cat_desc) + \
+       f'<a class="cat" href="trees/index.html"><b>Technique trees</b><small>Every clan, element and style, ranked D to S.</small><span class="n">{sum(len(v) for v in tree_list.values())} trees</span></a></div>'
+news = ''
+un = gtext.get('update-notes', '')
+for m in list(re.finditer(r'^## (.+)$', un, re.M))[:3]:
+    h = m.group(1); parts = h.split(':', 1)
+    news += f'<a href="guides/update-notes.html#{slug(h)}"><span>{E(parts[0].replace("Updates ", "").replace("Update ", ""))}</span><div><b>{E((parts[1] if len(parts) > 1 else h).strip().capitalize())}</b></div></a>'
+page('index.html', 'Home', hero + stats + '<h2>Find it by what you are doing</h2>' + cats + '<h2>Latest changes</h2><div class="news">' + news + '</div>', with_rail=False)
 
 # ───────────────────────────── assets
 os.makedirs(os.path.join(OUT, 'assets'), exist_ok=True)

@@ -27,3 +27,21 @@
   function boot() { document.querySelectorAll('figure.mock').forEach(init); }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot); else boot();
 })();
+// redesign: chip filters (trees page), the "/" search shortcut, and the rail closed by default on phones
+(function () {
+  document.querySelectorAll('.chips[data-filter]').forEach(function (bar) {
+    bar.addEventListener('click', function (e) {
+      var b = e.target.closest('.chip'); if (!b) return;
+      bar.querySelectorAll('.chip').forEach(function (c) { c.classList.toggle('on', c === b); c.setAttribute('aria-pressed', c === b ? 'true' : 'false'); });
+      var k = b.getAttribute('data-k');
+      document.querySelectorAll('[data-group]').forEach(function (g) { g.hidden = k !== 'all' && g.getAttribute('data-group') !== k; });
+    });
+  });
+  document.addEventListener('keydown', function (e) {
+    var t = document.activeElement && document.activeElement.tagName;
+    if (e.key === '/' && t !== 'INPUT' && t !== 'TEXTAREA') { var q = document.getElementById('q'); if (q) { e.preventDefault(); q.focus(); } }
+  });
+  var rb = document.querySelector('.railbox');
+  if (rb && window.matchMedia && window.matchMedia('(max-width: 900px)').matches) rb.open = false;
+  var on = document.querySelector('.rail a.on'); if (on && rb && rb.open) { try { on.scrollIntoView({ block: 'center' }); window.scrollTo(0, 0); } catch (x) {} }
+})();
