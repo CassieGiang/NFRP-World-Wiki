@@ -3,6 +3,16 @@ What changed in recent updates, newest first.
 
 @@summary What changed in recent updates, newest first.
 
+## Updates 302–307: bringing every technique to the level of the best
+**Art**
+- **Hand-made animations show only their own art.** No hand-made technique animation draws a shared stock picture any more; where a piece of its own is still being painted, it shows its drawn effect instead. Thirty of their own pieces that were painted pointing sideways now point along the cast, and the pieces of the newer groups are drawn at their full size.
+- **Technique families get their own painted set:** every family of techniques without a hand-made animation shows its own painted gathering at the hands and its own aftermath where it lands, once installed.
+- **Painted flights for shots:** every technique shot that still flew as a plain picture gets a painted flight of its own, once installed (the shark blast and clay bombs already fly as the painted shark and clay bird).
+- More B- and C-rank techniques got their own painted piece where they hit.
+
+**For testers**
+- A new test measures how finished every technique is (own art, hand-made motion, painted flight, family set, choreography) and writes a table; a new showcase plays the most finished techniques.
+
 ## Updates 290–301: every technique gets its own painted art, and many fixes
 **Art**
 - **Every technique gets its own painted effect.** S- and A-rank techniques now show their own painted piece where they hit (239 techniques). B-, C- and D-rank techniques follow in stages (562). Plain shots get a piece where they land, and self buffs one on the user (170). A piece shows only once it is installed; until then the technique looks as before.
