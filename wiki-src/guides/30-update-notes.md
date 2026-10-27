@@ -3,6 +3,16 @@ What changed in recent updates, newest first.
 
 @@summary What changed in recent updates, newest first.
 
+## Update 314: Hiraishin and Edo Tensei
+**New techniques**
+- **Hiraishin: Marking** (A, Fūin barrier seals tree, after Saisokufūin): throw a kunai written with the Hiraishin formula. At a person the mark merges with them for an hour; at the ground the kunai stays there, marked; at a thing the mark stays on it. Five marks at most; a sixth replaces the oldest.
+- **Hiraishin no Jutsu** (S, after Marking): flash to any of your marks in an instant, up to about 60 cells away and with no need to see it, landing behind the mark. At a marked foe the flash ends in a strike from behind, and a ninja who knows the Rasengan drives one in as well. Swift mark stones count as your marks. From the archive's Flying Thunder God ritual and seal.
+- **Edo Tensei** (S, Kinjutsu tree): call a dead ninja back from their corpse, or from a grave or casket, into a bound body that cannot die. No pain, hunger or sleep, wounds close, lost limbs grow back, and a killing blow only knocks the body apart for it to reform. They keep what they knew and fight for you. It needs a living sacrifice (someone down, or a prisoner, within six cells), who is turned to ash. Three revenants at most; cast it on a revenant to release them, or on yourself to release them all.
+- Both have hand-made animations: the gold flash and the strike from behind; the ash, the coffin rising and its lid falling.
+
+**With World of Naruto**
+- Our Hiraishin replaces World of Naruto's Flying Raijin (both levels), the way update 221 did it. A ninja who knew theirs learns Hiraishin and Marking.
+
 ## Updates 308–313: every technique its own shape
 **Art**
 - **Shapes from the technique:** the newer painted pieces no longer all look like a round burst. Each one takes its shape from what the technique does: fire and sound breaths fan out toward the target, thrusts and shots are long streaks, blade techniques leave crossing slash marks, earth and ice throw spikes up from the ground, binds are tangles, mind techniques warp the air, smoke and mist roll along the ground, and heals send motes upward. Aimed pieces point at the target.
