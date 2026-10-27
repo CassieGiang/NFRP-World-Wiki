@@ -3,7 +3,7 @@ What changed in recent updates, newest first.
 
 @@summary What changed in recent updates, newest first.
 
-## Updates 308–313: every technique its own shape
+## Updates 308–312: every technique its own shape
 **Art**
 - **Shapes from the technique:** the newer painted pieces no longer all look like a round burst. Each one takes its shape from what the technique does: fire and sound breaths fan out toward the target, thrusts and shots are long streaks, blade techniques leave crossing slash marks, earth and ice throw spikes up from the ground, binds are tangles, mind techniques warp the air, smoke and mist roll along the ground, and heals send motes upward. Aimed pieces point at the target.
 - **Auras rise:** self buffs show an aura rising from the ground seen from the side, in one of several shapes: a crown of flames, a twisting column, an upward spiral or a loose drift, each in its element's look.
