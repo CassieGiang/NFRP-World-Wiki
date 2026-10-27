@@ -5,9 +5,9 @@ What changed in recent updates, newest first.
 
 ## Update 314: Hiraishin and Edo Tensei
 **New techniques**
-- **Hiraishin: Marking** (A, Fūin barrier seals tree, after Saisokufūin): throw a kunai written with the Hiraishin formula. At a person the mark merges with them for an hour; at the ground the kunai stays there, marked; at a thing the mark stays on it. Five marks at most; a sixth replaces the oldest.
+- **Hiraishin: Marking** (A, Barriers and scroll seals tree, after Saisokufūin): throw a kunai written with the Hiraishin formula. At a person the mark merges with them for an hour; at the ground the kunai stays there, marked; at a thing the mark stays on it. Five marks at most; a sixth replaces the oldest.
 - **Hiraishin no Jutsu** (S, after Marking): flash to any of your marks in an instant, up to about 60 cells away and with no need to see it, landing behind the mark. At a marked foe the flash ends in a strike from behind, and a ninja who knows the Rasengan drives one in as well. Swift mark stones count as your marks. From the archive's Flying Thunder God ritual and seal.
-- **Edo Tensei** (S, Kinjutsu tree): call a dead ninja back from their corpse, or from a grave or casket, into a bound body that cannot die. No pain, hunger or sleep, wounds close, lost limbs grow back, and a killing blow only knocks the body apart for it to reform. They keep what they knew and fight for you. It needs a living sacrifice (someone down, or a prisoner, within six cells), who is turned to ash. Three revenants at most; cast it on a revenant to release them, or on yourself to release them all.
+- **Edo Tensei** (S, Forbidden techniques tree): call a dead ninja back from their corpse, or from a grave or casket, into a bound body that cannot die. No pain, hunger or sleep, wounds close, lost limbs grow back, and a killing blow only knocks the body apart for it to reform. They keep what they knew and fight for you. It needs a living sacrifice (someone down, or a prisoner, within six cells), who is turned to ash. Three revenants at most; cast it on a revenant to release them, or on yourself to release them all.
 - Both have hand-made animations: the gold flash and the strike from behind; the ash, the coffin rising and its lid falling.
 
 **With World of Naruto**
