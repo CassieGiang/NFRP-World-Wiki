@@ -3,6 +3,16 @@ What changed in recent updates, newest first.
 
 @@summary What changed in recent updates, newest first.
 
+## Updates 308–313: every technique its own shape
+**Art**
+- **Shapes from the technique:** the newer painted pieces no longer all look like a round burst. Each one takes its shape from what the technique does: fire and sound breaths fan out toward the target, thrusts and shots are long streaks, blade techniques leave crossing slash marks, earth and ice throw spikes up from the ground, binds are tangles, mind techniques warp the air, smoke and mist roll along the ground, and heals send motes upward. Aimed pieces point at the target.
+- **Auras rise:** self buffs show an aura rising from the ground seen from the side, in one of several shapes: a crown of flames, a twisting column, an upward spiral or a loose drift, each in its element's look.
+- The older round pieces are being repainted in the new shapes in stages.
+
+**Hand-made animations**
+- **The freeze:** a hand-made animation's hit always gets its short freeze, even right after another hit, and a shorter one in big fights.
+- **Readable on any ground:** dark pieces get a soft pale halo and light pieces a soft shadow, so they show on dark soil, at night and on snow.
+
 ## Updates 302–307: bringing every technique to the level of the best
 **Art**
 - **Hand-made animations show only their own art.** No hand-made technique animation draws a shared stock picture any more; where a piece of its own is still being painted, it shows its drawn effect instead. Thirty of their own pieces that were painted pointing sideways now point along the cast, and the pieces of the newer groups are drawn at their full size.
