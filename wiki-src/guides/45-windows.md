@@ -1,6 +1,8 @@
 # Windows at a glance
 Every NFRP World window has a clickable mockup on the guide that explains it. Click the tabs and buttons in a mockup to see each page, the way the window works in game.
 
+@@summary Where every NFRP World window is and which guide explains it, each with a clickable mockup.
+
 ## On the bottom bar
 - **Ninja world:** overview, villages and diplomacy, the Bingo Book, missions, news and research, with the windows behind its buttons (send a squad, the live mission, records, teams, diplomacy). See [living world](living-world.html).
 - **Signature techniques:** your techniques, the parts library and known enemy techniques, plus the inspiration and the design editor. See [signature techniques](signature-techniques.html).

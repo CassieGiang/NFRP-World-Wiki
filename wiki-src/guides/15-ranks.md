@@ -1,6 +1,8 @@
 # Ninja ranks and the rank exam
 Every ninja can climb four ranks: **genin**, **chūnin**, **jōnin** and **village leader**. A rank shows as a small bonus on the pawn's health tab, and each one replaces the last.
 
+@@summary Four ranks (genin, chūnin, jōnin, village leader), earned at the rank exam with ninja level, time served and skills. Classes level slowly; training with a sensei, sparring, missions and exams are the main ways to grow.
+
 ## The rank exam
 Every couple of weeks the **rank exam** event comes round, as long as at least one colonist is eligible. Each eligible ninja sits the exam for the next rank. The chance of passing starts at 55%, goes up 4% for every ninja level above the requirement, and always stays between 30% and 92%. Passing gives a good mood for ten days; failing gives a small dip for five, and they can try again next time.
 

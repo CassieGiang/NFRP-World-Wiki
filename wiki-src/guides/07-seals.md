@@ -1,6 +1,8 @@
 # Enchantment seals
 Pressing power into weapons and armour.
 
+@@summary Ink a seal at a crafting spot, tailoring bench or scribe desk, then press it into gear: 1 slot, 2 at excellent or masterwork, 3 at legendary. Inscribing needs ninjutsu D 1 up to S 16, and higher levels make the seal stronger.
+
 ## Making and using seals
 - Seal items are inked at a crafting spot, tailoring bench or scribe desk. Higher ranks need more Crafting skill.
 - Use a seal and pick the gear. Inscribing needs a minimum ninjutsu level (D 1, C 4, B 8, A 12, S 16); every level above it makes the seal stronger.

@@ -1,6 +1,8 @@
 # Update notes
 What changed in recent updates, newest first.
 
+@@summary What changed in recent updates, newest first.
+
 ## Updates 263–289: signature techniques, our own art everywhere, a shinobi furniture style and smarter storytellers
 **Signature techniques** (see [signature techniques](signature-techniques.html))
 - Your ninja design techniques of their own from 24 shapes, 34 modifiers and 22 painted motifs, named in Japanese and English, and develop them at a training spot.

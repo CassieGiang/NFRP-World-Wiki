@@ -1,6 +1,8 @@
 # The world: creatures, plants, ruins and events
 The wilds of the NFRP world: archive beasts, herbs, chakra metal and gems, sealed ruins to explore, and the events that come to your colony.
 
+@@summary Archive creatures, herbs and poisons, chakra metal and gems, three kinds of sealed ruins to explore, and the events that visit you: monster incursions, chakra storms and wandering masters who teach for silver.
+
 ## Creatures
 - **Mist wrath wolf** and **thunder wrath wolf** hunt in packs. Mist wolves breathe out a blinding mist in a fight; thunder wolves call down lightning, and their bite crackles.
 - **Blade hood snake**: a huge serpent with blades along its hood.

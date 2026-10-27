@@ -1,6 +1,8 @@
 # Summons, contracts and companions
 Golems, fabled animals, a bone steed and animals sealed into scrolls.
 
+@@summary Element summons (golems, beasts, the bone steed), one fabled-animal contract per ninja through Blood Pact (hawks, boars, wolves or tortoises), a dozen weapon-scroll attacks, and Capture Seal for sealing a weakened wild animal into a scroll.
+
 ## Element summons
 - **Golem** (Earth C/B/A): one, two or three stone golems. Needs bare ground underfoot, not a built floor. **Golem Stone Prayer** crushes one enemy; **Living Golem Armour** puts a stone suit on an ally.
 - **Flame Golem** (Fire C to S), **Water Beast** (Water B, needs rain or water within 8 cells), **Wood Golem** (Wood S, weak to fire), **Spontaneous Tree** (Wood A, shelters an ally).

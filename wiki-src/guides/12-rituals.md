@@ -1,6 +1,8 @@
 # Rituals
 Ritualists write ritual seals at the **scribe desk**. Anyone can use a finished seal; only someone who knows the school at the seal's rank can write it.
 
+@@summary Ritualists write ritual seals at the scribe desk in five schools (Augmentation, Deception, Restoration, Travel, Warding); anyone can use a finished seal. Augmentations are permanent body changes, up to three per person.
+
 ## Learning rituals
 The **Rituals** tree (open to every ninja) has one technique per school: Augmentation, Deception, Restoration, Travel and Warding. Each rank you learn (C, B, A, S) lets you write that rank's seals. The same tree holds the ritualist perks:
 - **Enduring Ritualist** (B): timed rituals last 50% longer. **Persistent Ritual** (A): twice as long.

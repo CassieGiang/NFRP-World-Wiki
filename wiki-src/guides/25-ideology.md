@@ -1,6 +1,8 @@
 # Ideology
 With the Ideology DLC, NFRP World adds five ninja memes, eight ninja issues with their precepts, three roles, and a creed for every NFRP faction. Without the DLC none of this loads.
 
+@@summary With Ideology: five ninja memes, ninja issues with their precepts, three roles, a creed for every NFRP faction and four ninja rituals. Without the DLC none of it loads.
+
 ## Memes
 - **Shinobi Code**: a ninja lives by rank, orders and the mission. Duty to the village comes before the self.
 - **Clan Honour**: blood and name are sacred. A clan's techniques belong to the clan, and leaving your people is unforgivable.

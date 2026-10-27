@@ -1,6 +1,8 @@
 # The Eight Celestial Gates
 A taijutsu style from the NFRP archive's "Eight Celestial Gates" thread: the user forces open the gates of their own chakra network for a burst of impossible strength, and pays for it afterwards. It sits in the **Taijutsu** tab. The tree starts locked and is learned like the other archive trees: technique scrolls, mission rewards, written scrolls and scroll merchants. It counts toward the ninja build like any Taijutsu tree.
 
+@@summary A taijutsu tree of eight self-buffs, each needing the one before it: about 25 seconds of huge strength, then hours or days of strain. From the Fourth Gate on it costs blood; the Eighth nearly kills. Gate strikes need the First Gate.
+
 Each gate is named after its chakra wheel. Every gate needs the gate before it, and a higher Taijutsu level. A gate is a short self-buff (about 25 seconds; the Eighth about 20). When it **wears off**, the strain hits: the pawn is slowed and clumsy for hours, and from the Fourth Gate on they lose blood and take damage. Opening the Eighth Gate can kill a pawn who is already hurt.
 
 ## The gates

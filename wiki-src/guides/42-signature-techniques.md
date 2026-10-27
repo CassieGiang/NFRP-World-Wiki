@@ -1,6 +1,8 @@
 # Signature techniques
 Your ninja can create techniques of their own: pick an element, a shape, a few modifiers and a look, give it a name, and develop it at a training spot. Enemy leaders, jōnin and rivals carry signatures of their own too.
 
+@@summary Design techniques of your own from shapes, modifiers and motifs, and develop them at a training spot. One signature for genin and chūnin, two for jōnin, three for leaders. Scrolls teach them; the Sharingan can't copy them.
+
 ## How a ninja gets one
 - **On purpose:** select a ninja and press **Design a signature technique**. The design editor opens with every part your village has earned.
 - **Inspired:** missions, beating a rival, a new fame tier, opening an old sealed cache, every 20 training sessions, and (with an NFRP storyteller) festivals, wandering masters and quiet moments of insight can inspire a ninja. They get three ideas within their rank. Press **Inspired** to pick one, keep them for later, or let them go.

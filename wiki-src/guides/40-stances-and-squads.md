@@ -2,6 +2,8 @@
 
 Drafted ninja can be given a combat stance, a whole squad can focus one enemy, groups can march in formation, guards can stand duty and walk patrols, and medical ninja look after the fallen on their own. None of it ever cuts into a technique being cast, a combo, or an order you gave: it only steers a drafted pawn that is standing by.
 
+@@summary Give drafted ninja a combat stance, mark a priority target, march in formation, set guard posts and patrols, and let medical ninja tend the fallen. Badly hurt pawns fall back on their own. None of it interrupts a cast or a combo.
+
 ## Ninja orders
 A selected ninja shows one **Ninja orders** button instead of a row of NFRP buttons. It opens a small ring at the mouse with **Combo**, **Kit**, **Sidearm**, **Throw tool**, **Formation**, **Fall back**, **Guard post** and **Stance**; each slice shows its current value, or "mixed" when the selected pawns differ. **Stance** and **Mark as priority** also stay on the bar. Esc closes the ring. Only NFRP's own buttons are grouped: vanilla, World of Naruto and other mods' buttons stay where they are. To get the separate buttons back, turn off **Group NFRP orders into one button** (settings › Combat › Ninja orders).
 

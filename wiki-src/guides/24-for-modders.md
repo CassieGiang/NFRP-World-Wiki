@@ -1,6 +1,8 @@
 # For modders
 What NFRP World patches, how its defs are named, and the extensions you can reuse.
 
+@@summary Load order, the live patch list (a dev action writes NFRP_Patches.txt), what is patched by system, def name prefixes and the extensions you can reuse in your own mod.
+
 This page is for people making mods that sit next to NFRP World, or tracking down a conflict. Players can skip it.
 
 ## Load order

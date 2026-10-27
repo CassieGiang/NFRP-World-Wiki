@@ -1,6 +1,8 @@
 # Clans and bloodlines
 Clans come from genes, and the only way to take another clan's power is surgery.
 
+@@summary Each clan is a gene with its own tree. Another clan's power comes only from surgery: a Medical Specialist (medical arts B or higher, Medicine 8) extracts tissue and grafts it, capped at B rank. A graft can be rejected; the graft is lost, never the patient.
+
 ## Clans
 - Each clan is a gene (and a xenotype) with its own tree in the Clan tab: Kazeraikou, Inuzuka, Nara, Kaguya, Masamune (Iron Sand), Hozuki, Akimichi, Yamanaka, Hoshigaki, Ōgumo, Kamizuru, Protean, Toujitakumi, Airontoku and eighteen more from the archive.
 - World of Naruto's own Sharingan, Byakugan and Bug Control genes get companion trees: Uchiha arts, Hyuuga arts and Aburame arts. The eye techniques need the eye switched on.

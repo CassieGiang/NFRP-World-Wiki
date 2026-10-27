@@ -1,6 +1,8 @@
 # Shinobi weapons
 Twenty-four classic weapons for your ninja: short and long blades, chain and rope weapons, polearms, parrying weapons and throwing tools. Most need **Ninja weaponsmithing** research and are made at a smithy. Enemy ninja carry them too, and with an NFRP storyteller one may turn up in a smuggler's stash.
 
+@@summary Twenty-four classic weapons: blades, chain and rope weapons, polearms, parrying weapons and throwing tools. Most need Ninja weaponsmithing and a smithy; enemy ninja carry them too.
+
 ## Blades
 | Weapon | Hit (main attack) | What it is good at |
 |---|---|---|

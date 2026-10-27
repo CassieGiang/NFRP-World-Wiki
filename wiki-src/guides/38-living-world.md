@@ -1,6 +1,8 @@
 # The living world
 The ninja world keeps moving when you aren't looking. Villages fight and make peace, settlements fall and new ones are founded, named ninja grow up, marry, rank up and die, travellers walk the roads, legendary beasts roam, and the market follows it all. Everything that happens is written into the **World news** in the Ninja world window. The window has six tabs: **Overview** (your village, squads away with a Watch button, what's coming up, your ninja with rank, stance and status, the latest news), **Villages & diplomacy** (the war, founding your village, every faction with its leader and pacts on hover), **Bingo Book** (the most famous names, and the full book), **Missions** (send a squad, mission rank, records, the chūnin exam, duties), **News** and **Research**. Every part can be switched off on its own (Mod settings > NFRP World > World and events > Living world).
 
+@@summary The world moves without you: villages besiege and make peace, named ninja grow up, marry and die, travellers and legendary beasts roam, and the market follows the news. Send squads, form genin teams and talk to envoys from the Ninja world panel.
+
 @@mock ninja-world
 
 ## The world moves

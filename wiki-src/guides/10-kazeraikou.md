@@ -1,6 +1,8 @@
 # Kazeraikou, the storm clan
 The clan of storms and dragons, created by Marii from NFRP and used with her permission.
 
+@@summary The storm clan created by Marii from NFRP: Ryuugan, the Tempest, storm clouds that other cloud techniques need first, the Storm Clone, and the summonable storm dragon Kishinryuu, which can be ridden and flown.
+
 ## The clan
 - Kazeraikou pawns carry the **Ryuugan** and channel the **Tempest**. Their tree has storm clouds, lightning and wind techniques, and the clan vest.
 - Storm clouds have a "Dispel cloud" button. Cloud techniques (Kubo Buruto: Cloud Bolt, Arashi Ryuu: Storm Dragon, Arashi Yari: Storm Spears, Raiun Kyakuriki: Cloud Stepping) need a storm cloud (Kumo Soushi) in place first.

@@ -1,6 +1,8 @@
 # Break and combos
 Steady pressure breaks a fighter. A broken fighter can't act for a few seconds, and a nearby ninja runs a combo on them that you set up in advance. Enemy ninja do the same to your pawns.
 
+@@summary Steady pressure fills a fighter's break meter. When it fills they are Broken for a few seconds, and the ninja who caused it runs the combo you set in the Combo window, ending in a finisher at 1.25 times damage. Enemies do the same to you.
+
 ## The break meter
 A small bar appears under a fighter's name once they are under pressure. It fills from:
 - **melee hits**, more for harder hits

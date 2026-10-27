@@ -1,6 +1,8 @@
 # Storytellers
 NFRP World adds three storytellers who know about ninja: missions, ranks, rivals, the Bingo Book, the truce and the war between the villages. Pick one on the storyteller page when you start a new game (or change it later in the storyteller settings). Each plays like a vanilla storyteller underneath, so everything vanilla and your other mods add still happens.
 
+@@summary Three storytellers who know about ninja (Hisame, Genkō, Kitsunebi), built on Cassandra, Phoebe and Randy. Your renown sets the pace, a ninja calendar brings festivals, exams and missions, and story arcs play out over weeks.
+
 | Storyteller | Plays like | In short |
 |---|---|---|
 | **Hisame the Chronicler** | Cassandra Classic | A story with a shape: a calm first year, then rising arcs and, once the truce ends, war. |

@@ -1,6 +1,8 @@
 # Factions and missions
 Who's out there, the war, the truce and ranked missions.
 
+@@summary Six hidden villages and the Black Ink Syndicate start at war with you and each other, held off by a one-year truce. Friendly factions offer ranked missions (villages from goodwill 25). Later you can found your own village and seek peace at the leaders' summits.
+
 ## The factions
 - **Main villages**: Haigakure (fire and earth), Nagisagakure (water and ice), Sajingakure (wind, sand and lightning).
 - **Minor villages**: Kaedegakure (wood and earth), Otowagakure (sound and genjutsu), Tetsugakure (iron and bone).

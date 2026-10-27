@@ -1,6 +1,8 @@
 # Ninja research
 The stronger tools of NFRP World are researched: 19 projects in four tiers on World of Naruto's ninja research tab, next to World of Naruto's own projects.
 
+@@summary 19 projects in four tiers on World of Naruto's ninja research tab. Starter gear, D-rank seals, the scribe desk and training rooms need no research; the costs can be changed or skipped in the settings.
+
 ## Where to find it
 - Open **Research** and pick World of Naruto's ninja tab. NFRP World's projects sit to the right of World of Naruto's own.
 - The quickest way there is the **Ninja research** button at the top of the Ninja world panel (the shuriken button on the bottom bar). It opens the research screen on the ninja tab. If a research-tab mod merges the tabs, it opens that mod's screen instead.

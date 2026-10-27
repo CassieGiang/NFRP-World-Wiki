@@ -2,6 +2,8 @@
 
 Kunai, shuriken, senbon, paper bombs, smoke, nets and pills are a ninja's everyday tools. They ride in a **ninja pouch**, a **kit** decides what each pawn carries, and in a fight the pawn's stance decides when to throw them. Tools cost no chakra, so they are what a ninja reaches for while chakra recovers.
 
+@@summary Kunai, shuriken, senbon, bombs, smoke, nets and pills ride in a ninja pouch. A kit decides what each pawn carries and refills from storage; the stance decides when to throw them. Blades can be picked up again.
+
 ## Pouches
 A pouch is worn at the hip. It sets how much fits. Kunai, shuriken, senbon, smoke and pills take 1 unit each; bombs and nets take 2.
 

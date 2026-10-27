@@ -583,6 +583,8 @@ def md(text, up, sections=False):
         s = line.rstrip()
         if not s: flush(); continue
         if s.strip() == SOON: flush(); out.append('<p class="soon">Coming in the next update</p>'); continue
+        if s.startswith('@@summary '):
+            flush(); out.append('<div class="insum"><b>In short</b><p>' + inline(s[10:], up) + '</p></div>'); continue
         if s.startswith('@@mock '):
             # a clickable window mockup from mockups/<name>.html (every tab and page button works)
             flush(); mp = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'mockups', s[7:].strip() + '.html')

@@ -1,6 +1,8 @@
 # Contract bonds
 Two colonists bound soul to soul, with techniques that only work between them.
 
+@@summary Two of your people bound for life with one ritual. The bond gives techniques that only work between them (chakra gifts, pain switch, shields, healing, sacrifices) and passives that trigger when the partner falls.
+
 ## The ritual
 - Learn **Ritual of the Contract Bonds** (Contract bonds tree, D) and target another of your own people. Each person can have one bond, for life.
 

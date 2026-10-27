@@ -1,6 +1,8 @@
 # Recommended mods
 What NFRP World needs, and the optional mods it works with.
 
+@@summary Required: Harmony, Taran Magic Framework and World of Naruto, in that order. Recommended but optional: Giddy-Up, Show Me Your Hands, Yayo's Animation, Medieval Overhaul and CAI 5000. NFRP World works without them.
+
 ## Required
 Load them in this order, then NFRP World:
 - [Harmony](https://steamcommunity.com/sharedfiles/filedetails/?id=2009463077)

@@ -1,7 +1,9 @@
 # Elemental combos
 Two ninja hitting the same spot with different elements mix them into a combo.
 
-When two of your ninja hit the same spot with **different elements** within about two seconds, the elements mix into a combo. It works with area techniques and single-target strikes alike, from any tree. Both casters must be in the same faction. A combo shows its name over the spot and hits **everyone** in the area (about 3 cells across each way) except the two ninja who made it, so mind your own people. Chain lightning is the exception: it only jumps between enemies. After a combo, the same area can't combo again for a few seconds.
+@@summary Two of your ninja hitting the same spot with different elements within a few seconds mix them into a combo, such as Firestorm, Electrified water or Mudslide. It works with any technique from any tree.
+
+When two of your ninja hit the same spot with **different elements** within about five seconds, the elements mix into a combo. It works with area techniques and single-target strikes alike, from any tree. Both casters must be in the same faction. A combo shows its name over the spot and hits **everyone** in the area (about 3 cells across each way) except the two ninja who made it, so mind your own people. Chain lightning is the exception: it only jumps between enemies. After a combo, the same area can't combo again for a few seconds.
 
 Blade techniques count as wind, and dust as earth.
 

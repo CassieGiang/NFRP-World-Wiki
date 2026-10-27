@@ -1,6 +1,8 @@
 # Genjutsu schools
 Six schools of illusion from the archive, all in the **Genjutsu** tab. They unlock like the other genjutsu trees. Each school opens with a "Perception" passive that helps see through that kind of illusion.
 
+@@summary Six schools of illusion in the Genjutsu tab: Figment, Glamour, Pattern, Phantasm, Shadow and Charm. Each opens with a Perception passive, and illusions only affect enemies unless they are meant to help.
+
 - **Figment**: false images and sounds. Decoys, phantom guardians, illusory walls and pits, and the Thousand Weapons of Death, which does real damage.
 - **Glamour**: changing how things look. Camouflage, displacement, frightening presence, veils of darkness and a whole false world.
 - **Pattern**: hypnotic lights and colours that daze, blind and paralyse crowds.

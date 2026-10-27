@@ -1,6 +1,8 @@
 # Jutsu chains and solo combos
 Trained ninja can fire several techniques on one order, and finish elemental combos on their own. Both open up with training, and a letter tells you the moment a ninja can do something new.
 
+@@summary A trained ninja fires up to three ninjutsu on one order (second step at Ninjutsu 10, third at 16) and can finish an elemental combo alone when trained in both elements. A letter tells you when each opens.
+
 ## Jutsu chains
 - A ninja fires up to **three ninjutsu back to back** on one order.
 - **Steps:** one at first; a second step at **Ninjutsu 10**, a third at **Ninjutsu 16**.

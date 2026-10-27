@@ -1,6 +1,8 @@
 # Reputation, duels and intel
 More on [fame, the Bingo Book and rivals](fame-bingo-book-and-rivals.html): who hears about your deeds, masked names, infamy, your village's renown, duel challenges, teachers and fallen legends, tales for your artists, body and bloodline bounties, intel and interrogation, and beheading a village. Every part has its own setting.
 
+@@summary Deeds only spread when a witness lives to tell them. Also: masked names, infamy, your village's renown, duel challenges, legacy, tales, body bounties, intel and interrogation, and beheading an enemy village.
+
 ## Witnesses
 A deed only becomes fame (or infamy) when **someone who isn't one of yours lives to tell it**.
 - **In a fight**, deeds wait until the fight is over. If anyone outside your colony who saw it got away, or is still free (a visitor, a trader, an ally, an enemy still standing), the story spreads.

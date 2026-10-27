@@ -1,6 +1,8 @@
 # Alchemy and crafting
 The alchemy table, disciplines, the scribe desk and the crafting arts.
 
+@@summary Anyone makes common pills at the alchemy table; one alchemy discipline per colonist (Brewmeister, Crystalmancy or Demolitionist) opens the rest. The scribe desk writes technique scrolls of anything a ninja knows, except clan techniques.
+
 ## Alchemy table
 - Anyone can make the common pills and potions here.
 - Each colonist aged 13+ can follow one **alchemy discipline** (button on the pawn). The first choice is free; changing it uses a Revamp Scroll.

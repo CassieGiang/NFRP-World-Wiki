@@ -1,6 +1,8 @@
 # Mounts and flying
 NFRP World's creatures are ridden through **Giddy-Up**, which is recommended. Without Giddy-Up, creatures can't be ridden and the mounted arts and Fly order are unavailable; everything else works.
 
+@@summary Riding comes from Giddy-Up. A pawn on a flying mount gets a Fly order over walls and water (25 to 60 cells), caravans with flying beasts travel faster, and the Riders tree hits harder in the saddle.
+
 ## Riding
 - Giddy-Up lets a pawn ride any **tamed adult animal larger than body size 1.2** that has learned Tameness, as long as the animal can carry the rider. Most of NFRP World's big beasts qualify; the jet couatl, Ziz, the couatls and the bulettes are marked rideable on purpose.
 - Workers ride to far jobs and fighters ride into battle, exactly like Giddy-Up's own animals. Giddy-Up's settings decide which animals may be ridden.

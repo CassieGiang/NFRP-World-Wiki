@@ -1,4 +1,5 @@
 # Beast arts and skill techniques
+@@summary Clan beast arts (hive mind, scent, web) that show only for pawns with the clan's gene, the open Troll tree, five skill-technique trees that sharpen everyday work, and the Black Sun, Veritas and artisan paths.
 ## Beast arts
 - **Hive mind**: for the insect-control clan. Linked minds, shared senses, remote control and a chakra conduit through the swarm.
 - **Scent**: for the hound clan. Tracking, picking out fear, disease and poison by smell.

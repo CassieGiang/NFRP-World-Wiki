@@ -1,6 +1,8 @@
 # Getting started
 What to install, what changes when you start a colony, and where to find everything.
 
+@@summary Load Harmony, Taran Magic Framework and World of Naruto before NFRP World (Giddy-Up recommended). Give each ninja a build, learn techniques in World of Naruto's ability window, and use the one-year truce (60 days) to train and research scribe arts and ninja alchemy. Area techniques hit allies too.
+
 ## Install
 - Subscribe to [Harmony](https://steamcommunity.com/sharedfiles/filedetails/?id=2009463077), [Taran Magic Framework](https://steamcommunity.com/sharedfiles/filedetails/?id=3527502876), [World of Naruto](https://steamcommunity.com/sharedfiles/filedetails/?id=3025338958) and [Giddy-Up](https://steamcommunity.com/sharedfiles/filedetails/?id=3674332861), then NFRP World.
 - Load order: Harmony, Taran Magic Framework, World of Naruto, (Giddy-Up if you use it), NFRP World.

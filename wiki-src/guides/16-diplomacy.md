@@ -1,4 +1,5 @@
 # Diplomacy and scroll trading
+@@summary Call a village on the comms console to request a squad, buy a scroll or send a gift. At goodwill 60 you can swear to one village for cheaper scrolls and more missions; leaving it makes your ranked ninja missing-nin and brings hunter-nin.
 ## Talking to the villages
 Call a hidden village on the comms console and, as long as they aren't hostile, you get three extra options:
 - **Request a ninja squad**: a squad of their ninja comes to help. Needs goodwill 40 and costs 25 goodwill.

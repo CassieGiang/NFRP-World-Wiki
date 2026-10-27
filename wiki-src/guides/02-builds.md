@@ -1,6 +1,8 @@
 # Ninja builds
 How the build decides what a ninja can learn, after NFRP's Specialist rules.
 
+@@summary A build is 2 Specialists and 2 Non-Specialists, or 1 Master and 1 Non-Specialist. Mastered trees reach S rank, other build trees stop at B. Your own clan trees are free, and the first build is free; changing it later takes a Revamp Scroll.
+
 ## The build window
 The build window is a one-page planner. Each kind (Ninjutsu, Genjutsu, Taijutsu, Clan, Medical) has a row with four buttons: **None**, **Non-Specialist**, **Specialist** and **Master**. Picking a Master switches the build to the Master layout and clears Specialists; picking a Specialist switches it back. Medical has no Non-Specialist or Master form, so those buttons are greyed out.
 
@@ -21,5 +23,5 @@ Next to each row a **rank strip** from D to S shows how far that kind can go: gr
 - The first build is free. Changing it later uses a **Revamp Scroll**, sold by the Venator or written at a scribe desk.
 - Only the player's pawns are limited by builds. NPCs follow their rank instead.
 
-## The build window
+## Try the build window
 @@mock build

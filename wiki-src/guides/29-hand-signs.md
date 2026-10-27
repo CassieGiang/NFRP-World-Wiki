@@ -1,6 +1,8 @@
 # Hand signs
 Ninja form hand signs during the wind-up of their techniques, and the best of them learn to do it with one hand.
 
+@@summary Ninja sign with both hands during a technique's wind-up, and every technique has its own sequence. One-handed signs are learned only by training (14 sessions alone, about 5 with a sensei) and let a ninja sign with a weapon drawn.
+
 ## Two-handed signs
 When a technique starts with hand signs, both hands come in from the sides to meet at the chest and snap through a series of clearly different signs: one hand stacked on the other, overlapping, side by side, one in front of the other, a raised pair, angled one way or the other. Each sign is held for a short beat, a small puff in the technique's element marks the last one, and the hands slide back out to the sides.
 

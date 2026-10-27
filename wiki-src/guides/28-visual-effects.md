@@ -1,6 +1,8 @@
 # Visual effects
 How techniques look in NFRP World: crisp painted shapes, constructs, mouth casting, taijutsu moves and the small touches around them. Every part is cosmetic: none of it changes damage, timing, areas or targeting, and each has its own switch in Mod settings > NFRP World.
 
+@@summary How techniques look: one crisp painted style, constructs, mouth casting, taijutsu choreography, signature looks and many small touches. All of it is cosmetic and has its own switch in the mod settings.
+
 ## The crisp style
 All of NFRP World's effects are painted in one style: bold flat shapes with a thin dark outline, solid colour and crisp edges, the same way pawns and items are drawn.
 - **Projectiles** fly as the shape of their element: a spear or bolt for shots and arrows, a crescent for slashes, blades and waves.

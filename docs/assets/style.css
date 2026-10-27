@@ -107,3 +107,5 @@ main.wide{max-width:1240px}
   .railbox[open]>summary{margin-bottom:8px}.gpage{grid-template-columns:minmax(0,1fr)}.otp{display:none}.hero.home{grid-template-columns:minmax(0,1fr)}}
 @media (max-width:520px){.hero.home h1{font-size:2rem}.news a{grid-template-columns:70px minmax(0,1fr)}}
 header .hin{max-width:1240px}.hero.home+.stats{border-top:0;margin-top:0}
+.insum{border:1px solid var(--line);border-left:3px solid var(--shu);background:var(--panel);border-radius:6px;padding:10px 14px;margin:6px 0 16px;max-width:78ch}
+.insum b{display:block;font:600 .7rem system-ui,sans-serif;letter-spacing:.09em;text-transform:uppercase;color:var(--shu);margin-bottom:2px}.insum p{margin:0}

@@ -1,6 +1,8 @@
 # Fame, the Bingo Book and rivals
 Ninja build a reputation from what they do. Famous ninja lift their allies and shake their enemies, earn a nickname from what they are known for, end up in the Bingo Book with a price on their head, and make enemies who come back for them.
 
+@@summary Deeds earn fame. Famous ninja inspire allies and intimidate enemies, earn nicknames, and end up in the Bingo Book with bounty hunters after them. Enemies who get away can come back as rivals.
+
 ## Fame
 Every ninja has fame, yours and the enemy's. It comes from deeds:
 - **kills**, worth far more for high ranks (a village leader is worth eight times a genin), plus a share of the victim's own fame

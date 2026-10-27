@@ -1,6 +1,8 @@
 # Stronghold rooms
 Furniture and fittings from the archive's stronghold rooms, painted in the same Japanese style. Facilities work like vanilla tool cabinets: place them next to the workstation they help.
 
+@@summary Furniture from the archive's stronghold rooms. Facilities speed up the bench they stand next to; there are also training buildings, recreation, decoration, storage and defences.
+
 ## Facilities
 - **Scroll library**: Lacquered shelves of technique scrolls and reference texts. Researchers nearby work faster.
 - **Chakra study apparatus**: Brass instruments for measuring chakra, from the archive's chakra laboratory. Helps research and the scribe desk.

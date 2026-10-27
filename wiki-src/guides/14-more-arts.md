@@ -1,6 +1,8 @@
 # More arts from the archive
 The rest of the archive's styles and technique trees. Fighting and weapon styles are in the **Taijutsu** tab, the rest in **Ninjutsu**. Trees unlock like World of Naruto's element trees; **Academy techniques** and **Medical skill techniques** are open to every ninja. Weapon styles need the right weapon in hand (shown in each technique's description); passives stay on once learned.
 
+@@summary The rest of the archive's trees: fighting and weapon styles in the Taijutsu tab, universal ninjutsu, sealing and medicine in Ninjutsu. Academy and Medical skill techniques are open to everyone; the others are learned from scrolls.
+
 Every archive tree has its own section, named after the tree, in its class's tab of the technique menu. Locked trees are learned from technique scrolls, mission rewards, written scrolls and scroll merchants, and some NPC ninja know one; they count toward the ninja build like the older trees of their class.
 
 ## Fighting and weapon styles

@@ -1,6 +1,8 @@
 # Professions, ANBU and gear
 Venator, Bard, Soulcaster, Monster Trainer, Sensor and ANBU.
 
+@@summary Venator, Bard, Soulcaster, Monster Trainer, Sensor and ANBU trees, plus gadgets, talismans and gear. ANBU division arts need one of six masks worn; Bard techniques need an instrument in hand.
+
 ## Professions
 - **The Venator** (witch-hunter), **The Art of the Bard**, **Soulcaster**, **Monster Trainer** and **Sensor Specialist** are profession trees.
 - Venator, Bard, ANBU and Monster Trainer count as **universal ninjutsu** in the ninja build: technique scrolls, mission rewards and scroll merchants can teach them, up to the build's universal rank cap. Sensor and Soulcaster count as **Medical**.

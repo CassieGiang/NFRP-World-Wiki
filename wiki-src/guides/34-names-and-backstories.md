@@ -1,6 +1,8 @@
 # Ninja names and backstories
 Ninja and villagers in NFRP World get Japanese-style names and ninja-world backstories instead of RimWorld's usual ones.
 
+@@summary Japanese-style names, some with nicknames, and 95 ninja-world backstories for NFRP factions and ninja starts. Ninja-trained backstories give the Chakra trait. Two settings bring them to other starts.
+
 ## Names
 - Given name first, family name second, for example **Nanaho Nomura** or **Miho Shirahara**.
 - Hundreds of given names for each gender and hundreds of family names, so repeats are rare.

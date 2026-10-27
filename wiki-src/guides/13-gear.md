@@ -1,6 +1,8 @@
 # Gear
 Over two hundred pieces of equipment from the archive's item catalogs, painted in a Japanese feudal style. Most are made at the **smithy** (weapons, metals, armour), the **tailoring bench** (clothes, cloaks, packs), the **crafting spot** or **tool bench** (gadgets, fittings, restraints, locks) and the **alchemy table** (oils, powders, bombs, medicine).
 
+@@summary Over two hundred pieces of equipment: weapons for every style, legendary weapons with their own technique trees, twelve special metals, bow fittings and quivers, worn gadgets, restraints, locks and books.
+
 ## Weapons for every style
 Each weapon style now has its own weapons: **bō staff** (Bōjutsu), **naginata** and **ōgama great scythe** (staff and scythe styles), **nodachi** and **wakizashi** (blade styles), **ono** and **masakari** axes, **kanabō** (can stun) and **ōtsuchi** (can knock back), **tekko-kagi** claws and **tekkō** knuckles, **kusarigama** (can tangle), **steel wire spool** (Demon Weaver; can web), **ōgi battle fan** (gusts knock foes back), and the **spring razor**. Ranged: **yumi** longbow, **hankyū** short bow, pistol, heavy and repeating **crossbows**, hand and staff **slings**, the poisoned **fukiya** blowgun and **tetsudama** iron balls. The **tedate tower shield** and **iron buckler** count as shields for Armiger.
 

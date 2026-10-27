@@ -2,6 +2,8 @@
 
 Squad missions (see *The living world*) can now be watched as they happen, and what your ninja can actually do decides how the trip goes.
 
+@@summary Watch a squad's trip live on a small map. What each ninja can do decides the fights, traps and finds on the road, and they come home with what happened. Missions raise your village's mission rank and bond the squad.
+
 ## Following a trip
 When a squad leaves, a letter offers **Watch the mission**. You can also open it from the Ninja world panel (**Watch: …** buttons) at any time while the squad is away.
 
