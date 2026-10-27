@@ -1,7 +1,7 @@
 # Update notes
 What changed in recent updates, newest first.
 
-## Updates 263–286: signature techniques, our own art everywhere, a shinobi furniture style and smarter storytellers
+## Updates 263–289: signature techniques, our own art everywhere, a shinobi furniture style and smarter storytellers
 **Signature techniques** (see [signature techniques](signature-techniques.html))
 - Your ninja design techniques of their own from 24 shapes, 34 modifiers and 22 painted motifs, named in Japanese and English, and develop them at a training spot.
 - Parts are earned through missions, rivals, fame, old seals and training. Missions, duels, fame, sealed caches and training also bring inspirations: three ideas to choose from.
@@ -22,6 +22,10 @@ What changed in recent updates, newest first.
 **Gear and crafting**
 - **24 shinobi weapons**: classic blades, chain and rope weapons, polearms, parrying weapons and throwing tools (see [shinobi weapons](shinobi-weapons.html)).
 - **Inscribe seal** at the scribe desk opens a window listing the colony's weapons and apparel, on the map or worn.
+
+**Fixes**
+- The Ninja world panel says "Festival: in 6 days" instead of "around in 6 days", and ninja away from home show "when back home" for their next exam instead of "ready".
+- Demanding tribute names the right renown tier (Renowned), and the leaders' summit shows a sworn village as sworn instead of neutral.
 
 ## Updates 174–262: cleaner hand-made animations, painted creatures, jutsu chains and fixes
 **Hand-made animations**
