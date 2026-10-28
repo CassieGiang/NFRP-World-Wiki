@@ -3,6 +3,67 @@ What changed in recent updates, newest first.
 
 @@summary What changed in recent updates, newest first.
 
+## Updates 335–338: village standing, permits, and becoming a ninja
+**Village standing and permits** (Royalty). See [Diplomacy](diplomacy.html#village-standing-and-permits).
+- Honor titles are no longer ninja ranks (those are earned at the rank exam). Villages give **standing**: Welcomed Guest, Friend of the Village, Sworn Ally, Retainer, Envoy, Councillor, Honored Elder. The samurai houses have their own: Guest of the House up to Honored Lord.
+- Our six hidden villages and the three samurai houses now give standing, at once when the honor is there (no ceremony, no demands for clothes or rooms), and missions they give can pay in honor.
+- **More permit points:** 2 per standing from Sworn Ally on (11 in all instead of 5).
+- **Each village's permits:** its own goods, ninja tools, field medicine, genin, chūnin and jōnin squads, the **village archive request** (a technique scroll, mostly B or A, sometimes S, and very rarely a forbidden scroll too) and ANBU or the village guard. Couriers and squads body-flicker in: nothing comes by drop pod.
+- **Each house's permits:** its goods, provisions, ashigaru, an excellent weapon from the armory, samurai, bannermen, a war chest and veteran samurai. Its soldiers march in from the map edge.
+- **World of Naruto's village:** its secret scroll permit, which gave only one scroll since the rare arts, is now the village archive request; the Jōnin squad costs 9 honor (was 2); the orbital trade permit is gone; its squads body-flicker in.
+
+**Becoming a ninja.** See [Becoming a ninja](becoming-a-ninja.html).
+- **Chakra awakening:** a child who studies in the academy awakens chakra; an adult awakens it with a sensei at the chakra study apparatus (10% a session, certain by the 12th). The Sensei button shows on adults without chakra.
+- **Elements open with their gene:** the lightning gene opens Lightning Release and the Lightning arts, and so on, and element genes are inherited. Village ninja who know an element carry its gene, so their children do too.
+- **Nature training:** a leaning shown by chakra paper becomes a real, inherited element after long training at the apparatus (40 sessions, about 14 with a sensei), if the build has room.
+- **Scrolls:** technique scrolls teach only elements the ninja has, except a rare one in 33 that opens a new element; a written element scroll needs that element.
+- **Clan eyes:** a child of two eye clans (Sharingan, Byakugan, Ryuugan) always gets at least one of the parents' eyes.
+
+**Fixes:** a test target with a substitution technique no longer swaps out of a flurry; the mini-turret counts as a gun in a world without firearms.
+
+## Updates 331–334: rare arts and legendary blades
+See [Rare arts and legendary blades](rare-arts-and-legendary-blades.html).
+- **Hiraishin, Edo Tensei, Rasengan, Chidori, Shadow Clone** and the **toad, snake and slug contracts** (with Toad and Snake Sage Mode) are learnable but very rare: each has a forbidden scroll that opens it and teaches its first technique; the rest is learned with technique points. Chidori needs lightning nature.
+- No gene teaches them any more (the Hiraishin and Edo Tensei affinity genes and World of Naruto's Rasengan, Flying Raijin and Shadow Clone genes are gone), and random scrolls, masters and scribes never do. World of Naruto's traders and the Kage permit no longer hand out their scrolls.
+- The scrolls turn up in scroll caches, sealed temples and clan laboratories, as S- and A-rank mission bonuses and on Bingo Book targets: one or two a game-year. Edo Tensei is the rarest.
+- **The four named legendary blades** (Ryūgeki, Kibaō, Hoshigiri, Fūraimaru) can't be forged or bought, and each exists once per world: on old battlefields, in sealed temples and clan laboratories, or in a Bingo Book target's hands.
+
+## Updates 329–330: a world without guns, scenarios, names and habitats
+- **No firearms:** all our scenarios, and the mod setting **No firearms in any game**: raiders' guns become bows or medieval blades (mechanoids keep theirs), traders sell no guns, gun recipes are blocked and research that only leads to guns is hidden. See [Getting started](getting-started.html#a-world-without-firearms).
+- **Scenarios:** both Foundings start with scribe arts, ninja alchemy and field traps (the easy one with ninja weaponsmithing too), smoke bombs, soldier pills and genjutsu resistance pills, and a start letter about Kai, the Bingo Book, squads and signature techniques. New: **The Missing-nin (hard)**, one hunted ninja and almost nothing.
+- NFRP World's pills, bombs and seals now count as medieval, so a medieval colony isn't charged extra research for them.
+- **Names:** about 580 more given and family names, 66 epithets and 207 more fame nicknames.
+- **Habitats:** our creatures and herbs also live in the Odyssey biomes (grasslands, glacial plain, lava field, scarlands, glowforest); poison monkeys moved from deserts to tropical swamps.
+
+## Updates 321–328: fixes
+- A jutsu chain no longer stops itself after its first step.
+- Storm Clone only fires with Arashi no Kiero on.
+- A Hiraishin flash no longer cuts the caster's own technique short.
+- The Flying Raijin scroll teaches Hiraishin.
+- Choreography wind-up pieces are larger, and the gathering starts with the seal glow; storm clan techniques play their own storm piece where they hit.
+- A rare freeze when the signature tree was open is fixed.
+- A technique that killed a target is no longer applied to it twice; visitors no longer clash with family-tie mods.
+
+## Updates 318–320: choreography by type of jutsu
+Every technique now plays a short choreography that fits what kind of jutsu it is, around its own painted art. Looks and body motion only: damage, range, cost and timing are unchanged, and the wind-up plays inside the technique's own cast time.
+- **Ninjutsu:** chakra glows at the hands, the element gathers at the caster (embers, water drawn up, wind spiralling in, rock lifting), the jutsu is released, and a mark is left on the ground for a moment (scorch, puddle, frost, crater, flattened grass). Targets react to the element: thrown back by wind, staggered by earth, jolted by lightning.
+- **Taijutsu:** a surge of force, the ninja closes in, a hit flash on every contact with the target recoiling, and a harder last hit.
+- **Weapons:** a painted swing arc on every beat, shaped by the weapon: slash, thrust, staff sweep, scythe hook, fan gust, smash, chain or throw.
+- **Genjutsu:** the trigger (an eye glint, or a sound), then the world warps around the victim while the caster barely moves.
+- **Fūinjutsu:** the seal is drawn on the ground, charges, and activates.
+- **Medical and summoning:** a glow held under the hands that sinks into the patient; the ink spreading on the ground for a summon.
+- **By rank:** S and A play the full sequence (S also gets its own painted finisher, 109 of them), B a shorter one, C a release and a short mark, D a single beat, so quick low-rank moves stay quick.
+- Hiraishin, Edo Tensei and Burēdono Kenseijin keep their own hand-made choreography.
+
+**Art:** 197 new painted pieces (seal glows, moulding and ground marks for 16 elements, 11 weapon arcs, genjutsu warps, seal, healing and summoning pieces, 109 finishers), and 16 impact pieces redone without the flames that crept into them.
+
+## Update 317: genjutsu can be resisted and broken
+Mind-breaking genjutsu (confusion, panic, berserk, including the area ones) was too strong: it could not be resisted, it ran for the full length of the base game's mental state whatever the technique said, and nothing released it. Now:
+- **A chance to resist:** the target's genjutsu level against the caster's, and the technique's rank (an S-rank illusion is hardest to shake). World of Naruto's genjutsu resistance pill and eye or sensory bloodlines help. Between 5% and 75%.
+- **It lasts the technique's own time** and then ends (when a technique gives none: S 40 seconds, A 25, B 15, C 10, D 5).
+- **Kai:** a ninja who knows World of Naruto's Kai tries to break it every two seconds, paying a little chakra (Kai+ does better). An ally who knows Kai, standing next to them, can break it for them.
+- **Pain breaks it:** a hard hit has a good chance to snap the target out. A scratch does not.
+
 ## Updates 314–315: Hiraishin and Edo Tensei
 **Two new trees**, ported from Cassie's own Flying Thunder God mod (learned like the other archive trees, or all at once with a gene).
 

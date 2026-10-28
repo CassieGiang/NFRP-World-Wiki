@@ -17,6 +17,7 @@ What to install, what changes when you start a colony, and where to find everyth
 - The mod works in new and existing saves. Factions that are missing from an old world are added when you load it.
 
 ## Your first ninja
+- A pawn needs the **Chakra** trait to use techniques: clan genes, ninja backstories and village ninja have it; children awaken it in the academy and adults with a sensei. See [Becoming a ninja](becoming-a-ninja.html).
 - Every colonist aged 6 or older gets a **Ninja build** button. The build decides which kinds of trees the pawn can enter and how far they can go in each. See [Ninja builds](builds.html).
 - Techniques live in World of Naruto's ability window, in the Ninjutsu, Clan and other tabs. Each technique has ranks from D to S; higher ranks need a higher class level.
 - Tree and technique names read Japanese first, with the English meaning in brackets, for example Irekawari (body switch). NFRP's own invented names, the fighting styles, summons and a few clan trees keep theirs.
@@ -38,18 +39,30 @@ What to install, what changes when you start a colony, and where to find everyth
 ## Reporting bugs
 - Note what you did and what happened, then send your Player.log right after the bug, before restarting the game. It is in %USERPROFILE%\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\Player.log.
 
-## Scenario: The Founding (medieval)
-A starting scenario for a ninja village of the old ways.
-- **Five founders** drawn from every clan: World of Naruto's clans, the NFRP clans and some clanless shinobi. Reroll until you like the mix.
-- **Medieval village:** your faction starts at a medieval tech level, so industrial and later research costs more. You start knowing smithing, long blades, recurve bows, brewing, pemmican, complex furniture and clothing, stonecutting, passive coolers, tree sowing and ninja tools.
-- **Starting gear:** 500 silver, 450 pemmican, herbal medicine and all-heale, three D-rank and one C-rank technique scrolls, kunai, shuriken, a steel longsword, two recurve bows and a talisman of warding. Wood, steel and cloth lie nearby.
+## Scenarios
+All three start a medieval hidden village, and all three are **without firearms** (see below).
+
+**The Founding (medieval):** five founders drawn from every clan (World of Naruto's, NFRP's and some clanless shinobi); reroll until you like the mix.
+- **Known from the start:** smithing, long blades, recurve bows, brewing, pemmican, complex furniture and clothing, stonecutting, passive coolers, tree sowing, ninja tools, **scribe arts**, **ninja alchemy** and **field traps**.
+- **Gear:** 500 silver, 450 pemmican, herbal medicine and all-heale, three D-rank and one C-rank technique scrolls, kunai, shuriken, four smoke bombs, five soldier pills, two genjutsu resistance pills, a steel longsword, two recurve bows and a talisman of warding. Wood, steel and cloth lie nearby.
 - **Animals:** two horses and a husky bonded to one of the founders.
 
-## Scenario: The Founding: two masters (easy)
-The same medieval village, with two founders and a rich caravan: 1500 silver, 600 pemmican and 20 survival meals, plenty of medicine (including yulpris root), two C-rank and one B-rank technique scrolls, two steel longswords, a set of plate armour, two talismans, three spirit gems, and a big pile of wood, steel, cloth and granite blocks. Two horses and two bonded huskies. Plate armour, great bows, beds and carpets are already researched.
+**The Founding: two masters (easy):** two founders and a rich caravan: 1500 silver, 600 pemmican and 20 survival meals, plenty of medicine (yulpris root too), two C-rank and one B-rank scrolls, smoke bombs, soldier pills, chakra potions, genjutsu resistance pills, two longswords, plate armour, two talismans, three spirit gems, and a big pile of wood, steel, cloth and granite. Two horses and two bonded huskies. Plate armour, great bows, beds, carpets and **ninja weaponsmithing** are researched as well.
+
+**The Missing-nin (hard):** one hunted ninja and almost nothing: 120 silver, a little food and medicine, a few kunai, shuriken and smoke bombs, one D-rank scroll and some wood. Knows only ninja tools and field traps.
+
+The start letter explains the first steps: the ninja build, the technique window, Kai against genjutsu, the Bingo Book, squads and signature techniques.
+
+## A world without firearms
+Our scenarios turn on **no firearms** for that game; **No firearms in any game** in the mod settings turns it on everywhere. While it's on:
+- raiders and visitors who would carry a gun get a bow or a medieval blade instead (mechanoids keep theirs);
+- traders offer no guns (you can still sell any you have);
+- gun recipes can't be made, and research that only leads to guns or gun turrets is hidden.
+
+Bombs, seals, kunai and shuriken stay. NFRP World's pills, bombs and seals count as medieval, so a medieval colony isn't charged extra research for them.
 
 ## The settings window
-Options > Mod settings > NFRP World has tabs down the left side: **Looks**, **Combat**, **World**, **Village life**, **Performance** (and **Dev** in dev mode). Each tab shows how many settings it holds and how many you have changed from the default. Hover over any setting for a short explanation.
+Options > Mod settings > NFRP World has tabs down the left side: **Looks**, **Combat**, **World**, **Village life**, **Performance**. Each tab shows how many settings it holds and how many you have changed from the default. Hover over any setting for a short explanation.
 - **Search** at the top finds a setting on any tab: type "fall back" and you get Combat › Wounded retreat.
 - **Look preset** sets all the look and performance options in one click: **Cinematic**, **Balanced**, **Performance**, **Vanilla-like** or **Default looks**. Presets never change gameplay settings.
 - **Reset this tab** and **Reset everything** ask for a confirmation inside the window.
@@ -86,9 +99,6 @@ Sound cues need no setting: a technique starting plays a sound for its element, 
 
 ## World and ritual settings
 The same settings window also has: how often sealed ruins appear on new maps, how often NFRP events happen, switches for monster incursions, chakra storms and wandering masters, ritual power, the augmentation cap per person, and whether enemy ninja carry ritual seals and bombs (they use them: Syndicate ninja curse your colonists, Venator hunters heal their own).
-
-## Dev tools
-With dev mode on, the debug actions menu has an **NFRP World** section: build a tomb, shrine or training ground; fire each event; start a ruin quest or a mission; drop families of items; spawn creatures; teach a tree or set a discipline; and fill chakra.
 
 ## The in-game guide
 @@mock guide-window

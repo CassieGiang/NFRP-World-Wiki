@@ -30,7 +30,7 @@ Ninja classes level slowly, so a rank is earned over years of play:
 - **Exams**: passing a rank exam gives genin 300, chūnin 600, jōnin 1,000 and village leader 1,500 class XP.
 
 ## The academy (Biotech)
-Colonist children aged 6 to 17 with no rank gain class experience whenever their Biotech learning need fills, from lessons, the school desk, reading and play: 45 XP per full point of learning, at most 40 a day, and double when a ranked ninja teaches nearby. It goes into the child's best class, or Taijutsu, and stops at class level 5. The inspect panel shows "Academy student: n/40 class XP today, graduates at 13". Graduating gives a good mood for ten days.
+Colonist children aged 6 to 17 with no rank gain class experience whenever their Biotech learning need fills, from lessons, the school desk, reading and play: 45 XP per full point of learning, at most 40 a day, and double when a ranked ninja teaches nearby. It goes into the child's best class, or Taijutsu, and stops at class level 5. The inspect panel shows "Academy student: n/40 class XP today, graduates at 13". Graduating gives a good mood for ten days. A child without chakra awakens it the first time they study. Adults without chakra can awaken it with a sensei at the chakra study apparatus; see [Becoming a ninja](becoming-a-ninja.html).
 
 ## Missions by rank
 Like the role-play, a ninja's rank decides which missions they can take: unranked ninja only D, genin up to C, chūnin up to B, jōnin and the village leader any. Accepting a mission no ranked ninja of yours can take is refused with the reason. A colony with no ranked ninja at all is never blocked.
@@ -45,7 +45,6 @@ Each stage has a roll on both sides, so an underdog can win. Winners become **ch
 
 Ninja from other villages carry ranks too, matching how strong their loadout is: their leaders are village leaders, their elites jōnin.
 
-In dev mode, the **NFRP World** debug actions include "Make selected pawn qualify for the next rank exam" (raises level, skills and time served to exactly what the next exam needs), "Rank exam now" (everyone eligible passes; if nobody is, it says why for each ninja), "Chūnin exam invitation now" and "Raise selected pawn's rank".
 
 ## The ninja world panel
 The **ninja world** button on the bottom bar opens one screen with everything about your place in the ninja world: the village you're sworn to and its perks (or how to join), any colonists marked missing-nin, the truce countdown, how many days until a chūnin exam invitation can come and which village would host it, goodwill and relation with every NFRP faction, and a list of your ninja with rank, level, days at that rank and whether they're ready for the next exam. Click a ninja's row to select them.

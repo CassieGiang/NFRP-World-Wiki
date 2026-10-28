@@ -166,14 +166,14 @@ NAV = [('index.html', 'Home'), ('guides/index.html', 'Guides'), ('trees/index.ht
        ('world.html', 'World'), ('guides/update-notes.html', 'What changed')]
 # redesign (approved 27 Oct): every guide belongs to one group; the left rail and the guides page follow this order
 GUIDE_GROUPS = [
-    ('Start here', 'Read these first.', ['getting-started', 'builds', 'ranks', 'windows', 'recommended-mods', 'mounts-and-flying', 'coming-next']),
-    ('Your ninja', 'What a ninja can become.', ['bloodlines', 'signature-techniques', 'more-arts', 'genjutsu-schools', 'beast-and-skill-arts', 'eight-gates', 'hand-signs', 'chakra-paper', 'kazeraikou', 'names-and-backstories']),
+    ('Start here', 'Read these first.', ['getting-started', 'questions-and-answers', 'becoming-a-ninja', 'builds', 'ranks', 'windows', 'recommended-mods', 'mounts-and-flying', 'coming-next']),
+    ('Your ninja', 'What a ninja can become.', ['bloodlines', 'rare-arts-and-legendary-blades', 'signature-techniques', 'more-arts', 'genjutsu-schools', 'beast-and-skill-arts', 'eight-gates', 'hand-signs', 'chakra-paper', 'kazeraikou', 'names-and-backstories']),
     ('Fighting', 'How fights work, and how to win them.', ['break-and-combos', 'jutsu-chains-and-solo-combos', 'elemental-combos', 'stances-and-squads', 'ninja-tool-kit', 'shinobi-weapons', 'summons', 'contract-bonds', 'creatures-and-undead', 'visual-effects']),
     ('The world', 'Villages, missions and the people in them.', ['factions', 'world', 'diplomacy', 'living-world', 'live-squad-missions', 'fame-bingo-book-and-rivals', 'reputation-duels-and-intel', 'storytellers']),
     ('Village and crafting', 'Building your hidden village.', ['crafting', 'seals', 'gear', 'professions', 'ninja-research', 'rituals', 'ideology', 'stronghold-rooms']),
     ('More', '', ['for-modders', 'update-notes']),
 ]
-GUIDE_NEW = {'signature-techniques', 'jutsu-chains-and-solo-combos', 'shinobi-weapons', 'windows'}
+GUIDE_NEW = {'questions-and-answers', 'becoming-a-ninja', 'rare-arts-and-legendary-blades', 'diplomacy'}
 REFERENCE = [('trees/index.html', 'Technique trees'), ('items.html', 'Items and gear'), ('seals.html', 'Seals'), ('creatures.html', 'Creatures'),
              ('plants.html', 'Plants'), ('factions.html', 'Factions')]
 def _guide_titles():
