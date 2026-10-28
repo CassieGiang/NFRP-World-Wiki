@@ -3,15 +3,30 @@ What changed in recent updates, newest first.
 
 @@summary What changed in recent updates, newest first.
 
-## Update 314: Hiraishin and Edo Tensei
-**New techniques**
-- **Hiraishin: Marking** (A, Barriers and scroll seals tree, after Saisokufūin): throw a kunai written with the Hiraishin formula. At a person the mark merges with them for an hour; at the ground the kunai stays there, marked; at a thing the mark stays on it. Five marks at most; a sixth replaces the oldest.
-- **Hiraishin no Jutsu** (S, after Marking): flash to any of your marks in an instant, up to about 60 cells away and with no need to see it, landing behind the mark. At a marked foe the flash ends in a strike from behind, and a ninja who knows the Rasengan drives one in as well. Swift mark stones count as your marks. From the archive's Flying Thunder God ritual and seal.
-- **Edo Tensei** (S, Forbidden techniques tree): call a dead ninja back from their corpse, or from a grave or casket, into a bound body that cannot die. No pain, hunger or sleep, wounds close, lost limbs grow back, and a killing blow only knocks the body apart for it to reform. They keep what they knew and fight for you. It needs a living sacrifice (someone down, or a prisoner, within six cells), who is turned to ash. Three revenants at most; cast it on a revenant to release them, or on yourself to release them all.
-- Both have hand-made animations: the gold flash and the strike from behind; the ash, the coffin rising and its lid falling.
+## Updates 314–315: Hiraishin and Edo Tensei
+**Two new trees**, ported from Cassie's own Flying Thunder God mod (learned like the other archive trees, or all at once with a gene).
 
-**With World of Naruto**
-- Our Hiraishin replaces World of Naruto's Flying Raijin (both levels), the way update 221 did it. A ninja who knew theirs learns Hiraishin and Marking.
+**Hiraishin (Flying Thunder God)**
+- **Seal Touch** (B): lay a hand on someone next to you to seal them. Seals on enemies fade after a day, on anyone else after five days.
+- **Seal Kunai** (B): throw a seal kunai. A person it hits is sealed, and the kunai stays where it lands as a seal, forbidden until you unforbid it. It uses a kunai from a worn kunai pouch, one carried, or the one in your hand.
+- **Hiraishin no Jutsu** (A): flash to any seal on the map, with no need to see it: a seal kunai, a seal plate, a swift mark or a sealed person. A foe at the landing is stunned by the flash and struck at once; a ninja who knows the Rasengan drives one in as well.
+- **Escort** (A): flash to a seal with up to three touching allies, the wounded included. No strike.
+- **Guiding Thunder** (S): for 30 seconds, shots that land near you are warped away to a seal far off, only where they can hurt none of your people, animals or buildings. Each warp costs 4 chakra.
+- **Chain Strike** (S): flash from foe to foe inside a circle, up to ten, stunning, sealing and striking each with your own melee attack. Training dummies count, for practice.
+- **Things to make:** seal kunai (a weapon you can stab or throw, made five at a time at a smithy), the kunai pouch (ten kunai, refills itself from stored ones) and the seal plate (a permanent seal set in the floor).
+- **Hiraishin affinity** (gene): opens the tree and teaches all of it.
+
+**Edo Tensei (Impure World Reincarnation)**
+- **Edo Tensei** (S): touch a human corpse, or a grave or casket that holds one, with a living sacrifice beside it (someone down, or a prisoner), who is turned to ash. The dead come back bound to you with their name, skills and traits: no pain, wounds that knit, no food or sleep. Killed, they re-form from their ashes after about three hours unless the body is destroyed; if you die, they all crumble. Two at a time.
+- **Awaken / Bind** (S): bound, they are emotionless and obedient (no mood or mental breaks, but no social, art or research work); awakened, their feelings return.
+- **Kai** (S): release one; their body crumbles to ash for good.
+- **Edo Tensei affinity** (gene): opens the tree and teaches all of it.
+
+**Looks:** every technique in both trees has a hand-made animation: the gold flash and the strike from behind, each flash of the chain, shots swallowed by a tear in space, the ash, the coffin rising and its lid falling, and a revenant re-forming or crumbling.
+
+**With World of Naruto:** our Hiraishin replaces World of Naruto's Flying Raijin (both levels), the way update 221 did it; a ninja who knew theirs learns Hiraishin no Jutsu, Seal Kunai and Seal Touch. World of Naruto's chakra pill does the job of the old mod's.
+
+**Moving from the Flying Thunder God mod:** load your save once with both mods on and save. Its genes, reanimated, seal kunai, kunai pouches, seal plates and chakra pills move over to NFRP World; then turn the old mod off.
 
 ## Updates 308–313: every technique its own shape
 **Art**
