@@ -24,6 +24,17 @@ With the Ideology DLC, NFRP World adds five ninja memes, eight ninja issues with
 - **Village guardian**: takes less damage and moves a little faster.
 - **Shrine keeper**: speaks with gentle authority and is hard to rattle.
 
+## Preset ideoligions
+"Choose your ideoligion" has a **Ninja ways** group of ready-made ideoligions:
+
+| Preset | Memes | Roles it unlocks |
+|---|---|---|
+| Sworn village | Shinobi Code, Collectivist | sensei, village guardian, shrine keeper |
+| Old clan | Clan Honour, Shinobi Code | sensei, village guardian |
+| Chakra monks | Chakra Reverence, Sage of the Wilds | sensei, shrine keeper |
+| Wild sages | Sage of the Wilds, Nature Primacy | shrine keeper |
+| Missing-nin band | Forbidden Path, Raider | none of ours |
+
 ## Faction creeds
 - **Haigakure**: Shinobi Code and Clan Honour.
 - **Nagisagakure**: Shinobi Code and Sage of the Wilds.
