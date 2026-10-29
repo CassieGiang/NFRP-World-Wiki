@@ -3,9 +3,10 @@ What changed in recent updates, newest first.
 
 @@summary What changed in recent updates, newest first.
 
-## Updates 348–350: the Empire stays out, ninja ideoligions
+## Updates 348–351: the Empire stays out, ninja ideoligions, World of Naruto clans in our villages
 - **Keep the Empire out of the ninja world** (Royalty; mod setting, and on in all our scenarios): the Empire's settlements leave the world map, and it sends no visitors, traders, raids or quests and offers no titles. Your standing and permits with the hidden villages and samurai houses keep working. Turned off again, the Empire comes back, but its removed settlements don't.
 - **Ninja ideoligion presets** (Ideology): a Ninja ways group on the ideoligion page with sworn village, old clan, chakra monks, wild sages and missing-nin band. See [Ideology](ideology.html#preset-ideoligions).
+- **World of Naruto clans in our villages:** Uchiha ninja now come from Haigakure, Uzumaki from Nagisagakure, Aburame from Kaedegakure, Hyuuga from Otowagakure and Sarutobi from Tetsugakure (Yuki, Sabaku and Senju were already there). See [Clans of each village](factions.html#clans-of-each-village).
 - **The Founding: two masters** showed "Cannot read data" in the scenario list (it named two research projects that don't exist); fixed.
 
 ## Updates 345–347: no more drop pods, quieter status flashes

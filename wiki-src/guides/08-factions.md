@@ -10,6 +10,19 @@ Who's out there, the war, the truce and ranked missions.
 - **The Order of the Venator**: witch-hunters, friendly, and traders of seals, Revamp Scrolls, talismans, potions and scrolls.
 - **Feudal houses** Akagane, Shiranami and Kurogane: samurai in plate armour, neutral.
 
+## Clans of each village
+Ninja of each village are born into its clans (and some into none). World of Naruto's clans are spread over our villages too.
+
+| Faction | Our clans | World of Naruto clans |
+|---|---|---|
+| Haigakure | Airontoku, Onigami, Kishiyagi, Akimichi | Uchiha |
+| Nagisagakure | Hozuki, Hoshigaki, Kazeraikou, Ogumo | Yuki, Uzumaki |
+| Sajingakure | Tsubasa, Kitateha, Dioskouri, Hitobitomae | Sabaku |
+| Kaedegakure | Zassou, Inuzuka, Nara, Kamizuru, Yokushin | Senju, Aburame |
+| Otowagakure | Hyoushi, Ranzatsu, Dhenada, Karinui | Hyuuga |
+| Tetsugakure | Iron Sand, Kaguya, Mabuki, Protean, Toujitakumi | Sarutobi |
+| Black Ink Syndicate | Li, Ranzige, Kasuta, Yamanaka, Kedoin, Kamyuja | — |
+
 ## War and truce
 - The villages and the Syndicate start hostile to you and to each other. Goodwill can still be raised normally.
 - A **one-year truce** (60 days) blocks their raids on a new colony's home map, including raids from quests, other mods' raid events and Faction Territories incursions. An alert counts down; letters mark its start and end.
