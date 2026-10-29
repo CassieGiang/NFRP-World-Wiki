@@ -3,6 +3,10 @@ What changed in recent updates, newest first.
 
 @@summary What changed in recent updates, newest first.
 
+## Updates 348–349: the Empire stays out
+- **Keep the Empire out of the ninja world** (Royalty; mod setting, and on in all our scenarios): the Empire's settlements leave the world map, and it sends no visitors, traders, raids or quests and offers no titles. Your standing and permits with the hidden villages and samurai houses keep working. Turned off again, the Empire comes back, but its removed settlements don't.
+- **The Founding: two masters** showed "Cannot read data" in the scenario list (it named two research projects that don't exist); fixed.
+
 ## Updates 345–347: no more drop pods, quieter status flashes
 - **Rewards come on foot.** Mission pay, bounties, contract pay, bought scrolls, village headbands, gifts and tribute are brought by a runner from the faction that sends them: the runner walks in from the edge of the map, hands the goods over at your drop spot and walks home. A payer you're at war with leaves the goods at the edge of your land instead.
 - **Squads carry their loot home:** what a squad found on the road, its bounty share and its pay come back with it.
