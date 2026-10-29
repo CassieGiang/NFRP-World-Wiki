@@ -3,6 +3,15 @@ What changed in recent updates, newest first.
 
 @@summary What changed in recent updates, newest first.
 
+## Updates 339–342: bigger windows, fixes and cleaner technique looks
+- **Bigger windows:** the signature technique and ninja build windows are larger, and long button labels shrink to fit instead of touching the border.
+- **Fixes:** gaining standing with a village or samurai house no longer stops with an error; no recipe can forge the four legendary blades; a squad called with a permit now comes even during a new colony's first-year truce.
+- **Hand-made animations keep their own look:** the jutsu-type flourishes (element bursts, ground marks, finishers) and generic hit stamps no longer draw over a technique that has its own animation. Twin Blue Comets, Shadow Beast and others lose the stray orange bursts and purple swirls.
+- **Damage lands with the picture:** Great Divination Whirl, Dissolving Mist, Shadow Sewing and Chakra Cuffs now hit when their visual arrives, not before.
+- **No square glow in daylight:** big impacts no longer light a visible square of ground by day.
+- **Techniques reworked:** Killing Depths is heavy dark water that leaves its victims in view; Protection of the Sixty-Four Palms draws palm paths; Black Drizzle rains iron needles; Closed Dimension is quiet; Shadow Dome is charcoal and stands about four seconds; Smoke Dragon and Shadow Beast are drawn larger; Smoke Escape hides the user for the whole time they're unseen and leaves a smaller cloud; Chakra Cuffs hold the foe's wrists behind the back; Crown Splitter leaps; Tornado Drop lifts the foe and drives them down; Chakra Bulwark is a broad wall; Twin Barrier is two linked barriers; Deep Strike no longer draws a bolt overhead.
+- **Protection of the White God** gets a painted guardian (once its art is made).
+
 ## Updates 335–338: village standing, permits, and becoming a ninja
 **Village standing and permits** (Royalty). See [Diplomacy](diplomacy.html#village-standing-and-permits).
 - Honor titles are no longer ninja ranks (those are earned at the rank exam). Villages give **standing**: Welcomed Guest, Friend of the Village, Sworn Ally, Retainer, Envoy, Councillor, Honored Elder. The samurai houses have their own: Guest of the House up to Honored Lord.
