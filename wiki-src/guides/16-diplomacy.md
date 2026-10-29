@@ -3,7 +3,7 @@
 ## Talking to the villages
 Call a hidden village on the comms console and, as long as they aren't hostile, you get three extra options:
 - **Request a ninja squad**: a squad of their ninja comes to help. Needs goodwill 40 and costs 25 goodwill.
-- **Buy a technique scroll**: they send a scroll by drop pod. The better your relations, the higher the rank on offer: up to D rank for 150 silver, C rank for 300 (goodwill 40) or B rank for 600 (goodwill 75).
+- **Buy a technique scroll**: a runner from the village brings the scroll. The better your relations, the higher the rank on offer: up to D rank for 150 silver, C rank for 300 (goodwill 40) or B rank for 600 (goodwill 75).
 - **Send a gift**: 500 silver for +12 goodwill.
 
 Silver has to be near a trade beacon, as with any comms trade.
@@ -42,7 +42,7 @@ A village courier body-flickers in with supplies, and squads appear beside the s
 
 ## Joining a village
 With goodwill 60 or more you can **swear your ninja** to one of the six hidden villages from the comms console. Only one village at a time.
-- Each of your ninja on the map receives the village's **headband** by drop pod.
+- Each of your ninja on the map receives the village's **headband**, brought by a runner.
 - The village's scrolls cost 30% less and go up to B rank. When a jōnin or the village leader does the talking, they go up to **A rank** (840 silver with the sworn discount).
 - It offers ranked missions three times as often.
 - Every rank one of your ninja earns raises the village's goodwill (+2 for genin up to +8 for village leader).
@@ -67,7 +67,7 @@ Every couple of weeks (from day 10, at least 15 days apart) your sworn village, 
 - **Hunt a beast** (900 silver): a dangerous predator (cave bear, sabre-tooth cat, manticore, giant komodo, winter wolf, magma wrath wolf, cave lion, chupacabra, giant scorpion or leucrotta) comes for your colony. Kill it within six days.
 - **Escort an envoy** (600 silver): a member of the village stays for three days, and there's an even chance of an ambush meanwhile. It fails if the envoy dies (goodwill −10).
 
-On success the silver and a D to B rank technique scroll arrive by drop pod, plus +8 goodwill (+12 if you're sworn to that village). A failed contract costs 5 goodwill.
+On success the silver and a D to B rank technique scroll are brought by a runner, plus +8 goodwill (+12 if you're sworn to that village). A failed contract costs 5 goodwill.
 
 ## Festivals
 From the fourth day of summer, fall and winter, your sworn village (or the friendliest village that isn't hostile) invites you to a festival: the **lantern festival** in summer, the **harvest festival** in fall (with festival drums) and the **new year festival** in winter, once each a year. Every colonist gets a good mood for three days (+6, +7 and +6), goodwill with the host rises (+3, or +5 if you're sworn to it), and the colony holds a party if it can. There's no spring festival.

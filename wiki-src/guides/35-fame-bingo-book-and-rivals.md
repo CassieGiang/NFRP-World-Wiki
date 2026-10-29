@@ -39,7 +39,7 @@ Open it with the **Bingo Book** button at the top of the Ninja world panel. It l
 
 **Your famous ninja are hunted.** Once one of your ninja is Known and some faction is hostile to you, bounty hunters from a hostile village or the Black Ink Syndicate may come for them, more often and stronger the more famous they are (never during the truce, at least 20 days apart). The hunters go for their target first.
 
-**You can hunt.** On an enemy's page, **Hunt** posts a mission: a camp of their faction a few days away with the target in it. Kill or capture the target and the bounty arrives by drop pod. If they get away, the bounty stays open. Up to three hunts can be open at once.
+**You can hunt.** On an enemy's page, **Hunt** posts a mission: a camp of their faction a few days away with the target in it. Kill or capture the target and a runner brings the bounty. If they get away, the bounty stays open. Up to three hunts can be open at once.
 
 ## Rivals
 An enemy who gets away after a fight with you can become a **rival**:

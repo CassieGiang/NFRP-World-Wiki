@@ -32,7 +32,7 @@ While the Order of the Venator isn't hostile to you, it posts a **bounty** every
 - **A rogue ninja** of the Black Ink Syndicate (only after the truce, while the Syndicate is hostile) who comes for your colony. The reward depends on how dangerous they are, from 400 to 1,200 silver.
 - **A pack of undead**, three to five of them, roaming in. 150 silver a head.
 
-Kill, down or capture every target and the silver arrives by drop pod, plus +6 goodwill with the Venator. A bounty that isn't claimed within ten days is withdrawn.
+Kill, down or capture every target and a Venator runner brings the silver, plus +6 goodwill with the Venator. A bounty that isn't claimed within ten days is withdrawn.
 
 ## The visible war
 From day 30, every 10 to 20 days two warring factions fight over a settlement. The attacker wins 25% to 75% of the time, depending on size, and a captured settlement changes hands with a news letter. A faction never loses its last settlement, and a settlement where you have a map open is never taken.

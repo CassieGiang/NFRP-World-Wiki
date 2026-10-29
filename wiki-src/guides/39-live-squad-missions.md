@@ -13,7 +13,7 @@ The window doesn't pause the game. It shows:
 - markers for everything that happened so far, and a log with the day and hour,
 - who in the squad is fine or hurt.
 
-Buttons: **Live** follows the trip in game time, **Replay so far** plays what happened again, **Skip to the end** brings the squad home at once (a setting can turn this off), **Mission records** and **Next squad**.
+Buttons: **Live** follows the trip in game time, **Replay so far** plays what happened again, **Mission records** and **Next squad**.
 
 @@mock squad-missions
 
@@ -28,7 +28,7 @@ Every squad member counts:
 On the road the squad may fight rogue ninja, bandits, beasts, Black Ink crews or someone from the Bingo Book (harder, but beating them pays a share of the bounty), find herbs, silver, gold, jade or steel, meet merchants, pilgrims and refugees, spot a legendary beast or a war, or find a hidden camp you can raid afterwards.
 
 ## Coming home
-What happened on the road is what they bring back: the wounds, the loot and bounty (by drop pod), a relic if they found one, the hidden camp on the world map, fame for the fights they won, hunger and tiredness, and practice in a couple of skills, on top of the usual mission pay, XP and goodwill.
+What happened on the road is what they bring back: the wounds, the loot and bounty (they carry it home), a relic if they found one, the hidden camp on the world map, fame for the fights they won, hunger and tiredness, and practice in a couple of skills, on top of the usual mission pay, XP and goodwill.
 
 ## Bonds from the road
 Ninja who come home from a mission together like each other more:
@@ -39,7 +39,6 @@ Ninja who come home from a mission together like each other more:
 - **Comrades:** two ninja who have been on three missions together become comrades, a lasting relation shown in the Social tab. Losing a comrade hurts more than losing a friend.
 - **Solo missions:** a ninja who comes back from a successful mission alone is proud of it for a few days.
 
-A trip brought home early with "skip to the end" keeps the planned day and hour on every line of its log.
 
 Every mission earns your village points (more for higher ranks and successes). The rank opens harder missions: **B at level 2, A at level 3, S at level 4**, and makes great successes (extra pay) more likely.
 
@@ -63,4 +62,4 @@ Rarely, a squad finds one of ten old relics. Each gives everyone in the village 
 The **Mission records** window lists every mission with its full log, your mission rank, totals and relics.
 
 ## Settings
-Settings → World and events → Living world: **Live squad missions**, **Allow "skip to the end"**, **Mission bonding**, and sliders for rewards, injuries, relic chance and replay speed.
+Settings → World and events → Living world: **Live squad missions**, **Mission bonding**, and sliders for rewards, injuries, relic chance and replay speed.
