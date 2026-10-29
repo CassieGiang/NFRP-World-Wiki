@@ -77,6 +77,8 @@ for f in glob.glob(os.path.join(SRC, 'Patches', '*.xml')):
 
 # icons next to bolded names in the guides (Cassie, 29 Oct: "the wiki doesn't have much of visuals"): label -> image, filled as pages are built
 NAMEIC = {}
+import hashlib as _hl   # a new stylesheet or script reaches visitors at once (their browser cached the old one)
+ASSET_V = _hl.sha1(b''.join(open(os.path.join(HERE, f), 'rb').read() for f in ('style.css', 'mock.css', 'search.js', 'mock.js'))).hexdigest()[:8]
 def _nkey(s): return re.sub(r'\s+', ' ', re.sub(r'[^a-z0-9 ]', ' ', (s or '').lower())).strip()
 def name_icon(label, im, prio):
     k = _nkey(label)
@@ -239,7 +241,7 @@ def page(path, title, body, depth=None, desc='', with_rail=True):
 <title>{E(title)} · NFRP World</title><meta name="description" content="{E(desc or title)}">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@600;700&display=swap">
-<link rel="stylesheet" href="{up}assets/style.css"><link rel="stylesheet" href="{up}assets/mock.css"><link rel="icon" href="{up}assets/icon.png">
+<link rel="stylesheet" href="{up}assets/style.css?v={ASSET_V}"><link rel="stylesheet" href="{up}assets/mock.css?v={ASSET_V}"><link rel="icon" href="{up}assets/icon.png">
 </head><body>
 <header><div class="hin"><a class="brand" href="{up}index.html"><img src="{up}assets/icon.png" alt=""><span>NFRP World</span></a>
 <nav>{nav}</nav>
@@ -247,7 +249,7 @@ def page(path, title, body, depth=None, desc='', with_rail=True):
 </div></header>
 <main{" class=wide" if with_rail else ""}>{body}</main>
 <footer>NFRP World is a RimWorld mod by Cassie, an add-on for World of Naruto and Taran Magic Framework. Technique and clan material from the Naruto Forum Role-play (NFRP) community archive. The Kazeraikou clan was created by Marii from NFRP and is used with her permission. This wiki is generated from the mod's files.</footer>
-<script>window.ROOT="{up}";</script><script src="{up}assets/search.js"></script><script src="{up}assets/mock.js"></script>
+<script>window.ROOT="{up}";</script><script src="{up}assets/search.js?v={ASSET_V}"></script><script src="{up}assets/mock.js?v={ASSET_V}"></script>
 </body></html>'''
     p = os.path.join(OUT, path); os.makedirs(os.path.dirname(p), exist_ok=True)
     open(p, 'w', encoding='utf-8').write(doc)
@@ -556,7 +558,7 @@ def _bold(m, up):
     hit = None
     for v in (k, k[:-1] if k.endswith('s') else None, k[4:] if k.startswith('the ') else None):
         if v and v in NAMEIC: hit = NAMEIC[v][0]; break
-    return (f'<b><img class="gic" src="{up}img/{E(hit)}" alt="" loading="lazy">{txt}</b>' if hit else f'<b>{txt}</b>')
+    return (f'<b><img class="gic" src="{up}img/{E(hit)}" width="22" height="22" alt="" loading="lazy">{txt}</b>' if hit else f'<b>{txt}</b>')
 def inline(s, up):
     if not getattr(inline, 'ready', False): _techicons(); inline.ready = True
     s2 = E(s)
@@ -584,7 +586,7 @@ def md(text, up, sections=False):
             if lvl == 0:
                 if open_sub: h += '</ul></li>'; open_sub = False
                 elif h != '<ul>': h += '</li>'
-                h += '<li>' + x
+                h += ('<li class="icli">' if x.startswith('<b><img class="gic"') else '<li>') + x   # a list of named things: the icon sits in a column on the left
             else:
                 if not open_sub: h += '<ul>'; open_sub = True
                 h += '<li>' + x + '</li>'
