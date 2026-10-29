@@ -3,10 +3,11 @@ What changed in recent updates, newest first.
 
 @@summary What changed in recent updates, newest first.
 
-## Update 345: no more drop pods
+## Updates 345–347: no more drop pods, quieter status flashes
 - **Rewards come on foot.** Mission pay, bounties, contract pay, bought scrolls, village headbands, gifts and tribute are brought by a runner from the faction that sends them: the runner walks in from the edge of the map, hands the goods over at your drop spot and walks home. A payer you're at war with leaves the goods at the edge of your land instead.
 - **Squads carry their loot home:** what a squad found on the road, its bounty share and its pay come back with it.
 - **"Skip to the end"** for live squad missions is now a development-mode option only.
+- **Status flashes no longer cover the pawn:** a status landing, a status pulsing and sealed gear show a soft glow again (they had been drawn as a big spiky star), and several statuses landing at once flash only once.
 
 ## Updates 339–344: bigger windows, fixes and cleaner technique looks
 - **Bigger windows:** the signature technique and ninja build windows are larger, and long button labels shrink to fit instead of touching the border.
