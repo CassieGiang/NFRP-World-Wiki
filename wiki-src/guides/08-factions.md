@@ -21,7 +21,7 @@ Ninja of each village are born into its clans (and some into none). World of Nar
 | Kaedegakure | Zassou, Inuzuka, Nara, Kamizuru, Yokushin | Senju, Aburame |
 | Otowagakure | Hyoushi, Ranzatsu, Dhenada, Karinui | Hyuuga |
 | Tetsugakure | Iron Sand, Kaguya, Mabuki, Protean, Toujitakumi | Sarutobi |
-| Black Ink Syndicate | Li, Ranzige, Kasuta, Yamanaka, Kedoin, Kamyuja | — |
+| Black Ink Syndicate | Li, Ranzige, Kasuta, Yamanaka, Kedoin, Kamyuja | rarely a missing-nin Uchiha, Hyuuga, Uzumaki or Sabaku |
 
 ## War and truce
 - The villages and the Syndicate start hostile to you and to each other. Goodwill can still be raised normally.
