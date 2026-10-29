@@ -75,6 +75,13 @@ for f in glob.glob(os.path.join(SRC, 'Patches', '*.xml')):
         if m:
             for li in op.findall('value/li'): tree_class[li.text] = m.group(1)
 
+# icons next to bolded names in the guides (Cassie, 29 Oct: "the wiki doesn't have much of visuals"): label -> image, filled as pages are built
+NAMEIC = {}
+def _nkey(s): return re.sub(r'\s+', ' ', re.sub(r'[^a-z0-9 ]', ' ', (s or '').lower())).strip()
+def name_icon(label, im, prio):
+    k = _nkey(label)
+    if not im or len(k) < 4: return
+    if k not in NAMEIC or NAMEIC[k][1] > prio: NAMEIC[k] = (im, prio)
 def img(path, tree=False):
     if not path: return None
     rel = path + ('.jpg' if tree else '.png')
@@ -352,6 +359,9 @@ for g, _ in ITEM_GROUPS:
         t = things[dn]
         tex = t.findtext('graphicData/texPath') or ''
         ic = img(tex) or img(tex + '_south') or img(tex + '/' + tex.split('/')[-1]) or img(t.findtext('uiIconPath'))
+        name_icon(t.findtext('label'), ic, 0)
+        if ':' in (t.findtext('label') or ''): name_icon(t.findtext('label').split(':', 1)[1], ic, 3)   # "forbidden scroll: Rasengan" also answers to "Rasengan"
+        if (t.findtext('label') or '').startswith('contract scroll: '): name_icon(t.findtext('label')[17:].rstrip('s') + ' contract', ic, 3)   # "toad contract"
         icimg = f'<img class="ic" src="img/{E(ic)}" alt="" loading="lazy">' if ic else '<span class="ic blank"></span>'
         wg = t.findtext('apparel/wornGraphicPath')
         if wg:
@@ -453,6 +463,7 @@ for dn, t in sorted(things.items(), key=lambda kv: (kv[1].findtext('label') or '
     kind = T('PawnKindDef').get(dn)
     tex = kind.findtext('lifeStages/li/bodyGraphicData/texPath') if kind is not None else None
     ic = img((tex or '') + '_south') or img((tex or '') + '_east')
+    name_icon(t.findtext('label'), ic, 1)
     icimg = f'<img class="ic big" src="img/{E(ic)}" alt="" loading="lazy">' if ic else '<span class="ic big blank"></span>'
     cre[cre_group(dn, t)].append(f'<article class="item unit" id="{slug(dn)}">{icimg}<div><h3>{E((t.findtext("label") or dn).capitalize())}</h3><p>{E(t.findtext("description"))}</p>{creature_roles(dn, t)}</div></article>')
     index.append([t.findtext('label'), 'Creature', 'creatures.html#' + slug(dn), cre_group(dn, t)])
@@ -491,6 +502,7 @@ for dn in plist:
     t = things[dn]; pl = t.find('plant')
     tex = t.findtext('graphicData/texPath') or ''
     ic = img(tex) or img(tex + '_a')
+    name_icon(t.findtext('label'), ic, 1)
     icimg = f'<img class="ic big" src="img/{E(ic)}" alt="" loading="lazy">' if ic else '<span class="ic big blank"></span>'
     tree = (t.get('ParentName') or '').startswith('Tree') or pl.findtext('treeCategory') or 'Tree' in (t.get('ParentName') or '')
     sow = pl.find('sowTags') is not None
@@ -522,6 +534,7 @@ page('plants.html', 'Plants', '<p class="crumb"><a href="index.html">Home</a> �
 fcards = ''
 for dn, f in sorted(T('FactionDef').items(), key=lambda kv: kv[1].findtext('label') or ''):
     ic = img(f.findtext('factionIconPath'))
+    name_icon(f.findtext('label'), ic, 1)
     icimg = f'<img class="ic big" src="img/{E(ic)}" alt="" loading="lazy">' if ic else '<span class="ic big blank"></span>'
     fcards += f'<article class="item unit" id="{slug(dn)}">{icimg}<div><h3>{E((f.findtext("label") or dn))}</h3><p>{E(f.findtext("description"))}</p></div></article>'
     index.append([f.findtext('label'), 'Faction', 'factions.html#' + slug(dn), ''])
@@ -533,9 +546,21 @@ page('factions.html', 'Factions', '<p class="crumb"><a href="index.html">Home</a
 # ───────────────────────────── guides (hand-written, markdown-lite in guides/*.md)
 SOON = 'Coming in the next update.'
 GUIDE_SLUGS = {re.sub(r'^\d+-', '', os.path.basename(f)[:-3]) for f in glob.glob(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'guides', '*.md'))}
+def _techicons():
+    for dn, a in abilities.items(): name_icon(a.findtext('label'), img(a.findtext('uiSkillIcon')), 2)
+    for dn, g in T('GeneDef').items():   # clan genes: "Nara", "Ryuugan", "Crystal release"...
+        name_icon(g.findtext('label'), img(g.findtext('iconPath')), 4)
+        if (g.findtext('label') or '').lower().endswith(' clan'): name_icon(g.findtext('label')[:-5], img(g.findtext('iconPath')), 4)
+def _bold(m, up):
+    txt = m.group(1); k = _nkey(html.unescape(txt))
+    hit = None
+    for v in (k, k[:-1] if k.endswith('s') else None, k[4:] if k.startswith('the ') else None):
+        if v and v in NAMEIC: hit = NAMEIC[v][0]; break
+    return (f'<b><img class="gic" src="{up}img/{E(hit)}" alt="" loading="lazy">{txt}</b>' if hit else f'<b>{txt}</b>')
 def inline(s, up):
+    if not getattr(inline, 'ready', False): _techicons(); inline.ready = True
     s2 = E(s)
-    s2 = re.sub(r'\*\*(.+?)\*\*', r'<b>\1</b>', s2)
+    s2 = re.sub(r'\*\*(.+?)\*\*', lambda m: _bold(m, up), s2)
     def _href(t):
         if t.startswith('http') or t.startswith('#'): return t
         while t.startswith('../'): t = t[3:]
