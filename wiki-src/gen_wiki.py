@@ -307,7 +307,11 @@ for tdn, t in trees.items():
 for g in GROUPS:
     for tdn in sorted(tree_list.get(g, []), key=lambda x: trees[x].findtext('label') or x):
         t = trees[tdn]; path = f'trees/{slug(tdn)}.html'; up = '../'
-        techs = sorted(by_tree[tdn], key=lambda d: pos(abilities[d]))
+        # Cassie, 29 Oct: sorted by rank, lowest first (E, D, C, B, A, S), then as the tree lays them out
+        def _rk(d):
+            rs = [t['rank'] for t in (tier_info(li.text) for li in abilities[d].findall('abilityTiers/li')) if t and t.get('rank')]
+            return min(('EDCBAS'.index(r) for r in rs if r in 'EDCBAS'), default=9)
+        techs = sorted(by_tree[tdn], key=lambda d: (_rk(d), pos(abilities[d])))
         gate = tree_gate(t)
         open_t = (t.findtext('unlockedByDefault') or '').lower() == 'true'
         if not gate:
