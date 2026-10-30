@@ -175,14 +175,14 @@ NAV = [('index.html', 'Home'), ('guides/index.html', 'Guides'), ('trees/index.ht
        ('world.html', 'World'), ('guides/update-notes.html', 'What changed')]
 # redesign (approved 27 Oct): every guide belongs to one group; the left rail and the guides page follow this order
 GUIDE_GROUPS = [
-    ('Start here', 'Read these first.', ['getting-started', 'questions-and-answers', 'becoming-a-ninja', 'builds', 'ranks', 'windows', 'recommended-mods', 'mounts-and-flying', 'coming-next']),
+    ('Start here', 'Read these first.', ['getting-started', 'questions-and-answers', 'becoming-a-ninja', 'builds', 'ranks', 'windows', 'recommended-mods', 'mounts-and-flying', 'reporting-bugs', 'coming-next']),
     ('Your ninja', 'What a ninja can become.', ['bloodlines', 'rare-arts-and-legendary-blades', 'signature-techniques', 'more-arts', 'genjutsu-schools', 'beast-and-skill-arts', 'eight-gates', 'hand-signs', 'chakra-paper', 'kazeraikou', 'names-and-backstories']),
     ('Fighting', 'How fights work, and how to win them.', ['break-and-combos', 'jutsu-chains-and-solo-combos', 'elemental-combos', 'stances-and-squads', 'ninja-tool-kit', 'shinobi-weapons', 'summons', 'contract-bonds', 'creatures-and-undead', 'visual-effects']),
     ('The world', 'Villages, missions and the people in them.', ['factions', 'world', 'diplomacy', 'living-world', 'live-squad-missions', 'fame-bingo-book-and-rivals', 'reputation-duels-and-intel', 'storytellers']),
     ('Village and crafting', 'Building your hidden village.', ['crafting', 'seals', 'gear', 'professions', 'ninja-research', 'rituals', 'ideology', 'stronghold-rooms']),
     ('More', '', ['for-modders', 'update-notes']),
 ]
-GUIDE_NEW = {'questions-and-answers', 'becoming-a-ninja', 'rare-arts-and-legendary-blades', 'diplomacy'}
+GUIDE_NEW = {'questions-and-answers', 'becoming-a-ninja', 'rare-arts-and-legendary-blades', 'diplomacy', 'reporting-bugs'}
 REFERENCE = [('trees/index.html', 'Technique trees'), ('items.html', 'Items and gear'), ('seals.html', 'Seals'), ('creatures.html', 'Creatures'),
              ('plants.html', 'Plants'), ('factions.html', 'Factions')]
 def _guide_titles():
@@ -410,9 +410,10 @@ page('seals.html', 'Enchantment seals', '<p class="crumb"><a href="index.html">H
 
 
 ARTS = {}
-try:
-    for _x in json.load(open('/mnt/user-data/outputs/beastarts_wiki.json', encoding='utf-8')): ARTS[_x['defName']] = _x['arts']
-except Exception: pass
+# creature arts (u53 beast arts): kept in the repo since 30 Oct; before, the generator read a file from an old session's outputs
+# and a rebuild anywhere else silently dropped every creature's arts. A missing file is now an error, not an empty section.
+_arts_json = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'beastarts_wiki.json')
+for _x in json.load(open(_arts_json, encoding='utf-8')): ARTS[_x['defName']] = _x['arts']
 FLYERS = set()
 for dn_, t_ in things.items():
     if any((e.get('Class') or '') == 'CassieNFRP.NFFlyingMount' for e in t_.iter()): FLYERS.add(dn_)

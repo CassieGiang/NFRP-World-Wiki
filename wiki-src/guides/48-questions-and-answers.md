@@ -45,4 +45,4 @@ Short answers to the questions players ask most, with links to the full guide.
 - **The game slows down in big fights.** Mod settings › NFRP World: pick the **Performance** look preset, or lower the effect cap on the Performance tab. Big fights already draw simpler effects on their own.
 
 ## Problems
-- **Something broke. What do I send?** Note what you did and what happened, then send your Player.log before restarting the game: %USERPROFILE%\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\Player.log.
+- **Something broke. What do I send?** A bug report on GitHub with your **Player.log**, taken before you restart the game. See [Reporting bugs](reporting-bugs.html) for where the log is and the report form.

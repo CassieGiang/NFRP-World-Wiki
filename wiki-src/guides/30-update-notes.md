@@ -3,6 +3,10 @@ What changed in recent updates, newest first.
 
 @@summary What changed in recent updates, newest first.
 
+## Updates 373–374: high-rank techniques level buildings, reporting bugs
+- **S- and A-rank elemental techniques level buildings** (fire, earth, lightning, water, wind and the other elements): every building one hits takes at least **300** damage from an S-rank technique and **150** from an A-rank one, whether the technique strikes, sweeps an area, lingers as a storm or lands as a shot. Before, Great Fire Annihilation barely scorched a wall. Natural rock stays, and ranks B and below are unchanged. Aim with care near your own walls.
+- **Reporting bugs:** a new guide, [Reporting bugs](reporting-bugs.html), shows where Player.log is (RimWorld 1.7 keeps it in a Logs folder) and how to send it with a bug report on GitHub.
+
 ## Updates 348–351: the Empire stays out, ninja ideoligions, World of Naruto clans in our villages
 - **Keep the Empire out of the ninja world** (Royalty; mod setting, and on in all our scenarios): the Empire's settlements leave the world map, and it sends no visitors, traders, raids or quests and offers no titles. Your standing and permits with the hidden villages and samurai houses keep working. Turned off again, the Empire comes back, but its removed settlements don't.
 - **Ninja ideoligion presets** (Ideology): a Ninja ways group on the ideoligion page with sworn village, old clan, chakra monks, wild sages and missing-nin band. See [Ideology](ideology.html#preset-ideoligions).

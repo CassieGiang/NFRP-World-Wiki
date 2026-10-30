@@ -1,0 +1,63 @@
+name: Bug report
+description: Something in NFRP World broke, looks wrong or doesn't do what its description says.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for testing NFRP World! The guide [Reporting bugs](https://cassiegiang.github.io/NFRP-World-Wiki/guides/reporting-bugs.html) shows where to find your log.
+        **Your log is public here.** It contains your Windows user name in file paths.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you saw, and what you expected instead.
+      placeholder: "Great Fireball hit my own wall and nothing burned. I expected the wall to be damaged."
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How to make it happen
+      description: The steps that lead to the bug, as exactly as you can. Name the technique, item or event.
+      placeholder: |
+        1. Drafted an Uchiha ninja
+        2. Cast Katon: Gōkakyū no Jutsu at a raider next to a wall
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: Player.log
+      description: |
+        Drag your **Player.log** into this box (or zip it first if GitHub says it is too large). Take it right after the bug, before you restart the game.
+        Windows: `%USERPROFILE%\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\` (RimWorld 1.7: in the `Logs` folder there).
+        If you already restarted, send **Player-prev.log** from the same folder instead.
+    validations:
+      required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: RimWorld version
+      options:
+        - "1.7"
+        - "1.6"
+    validations:
+      required: true
+  - type: dropdown
+    id: modlist
+    attributes:
+      label: Your mod list
+      options:
+        - Only the required mods (Harmony, Taran Magic Framework, World of Naruto, NFRP World), maybe Giddy-Up
+        - A few other mods
+        - A big mod list (100+ mods)
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else
+      description: Screenshots or a short video help a lot with animations and effects. Did it happen once or every time?

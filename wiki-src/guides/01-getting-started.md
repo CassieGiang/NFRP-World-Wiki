@@ -37,7 +37,7 @@ What to install, what changes when you start a colony, and where to find everyth
 - Area techniques hit everyone caught in them, **allies included**, unless the description says otherwise. Aim with care.
 
 ## Reporting bugs
-- Note what you did and what happened, then send your Player.log right after the bug, before restarting the game. It is in %USERPROFILE%\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\Player.log.
+- Right after the bug, before restarting the game, take your **Player.log** and open a bug report on GitHub. [Reporting bugs](reporting-bugs.html) shows where the log is (RimWorld 1.7 keeps it in a Logs folder) and what to write.
 
 ## Scenarios
 All three start a medieval hidden village, and all three are **without firearms** (see below).

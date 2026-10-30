@@ -1,0 +1,1745 @@
+[
+ {
+  "defName": "NF_Animal_BlizzardBear",
+  "arts": [
+   {
+    "label": "Blizzard Breath",
+    "cooldownSeconds": 25,
+    "desc": "A cone of frost 6.1 cells long: 17 damage to everyone in front, allies included. Chills (slower for a while).",
+    "element": "ice"
+   },
+   {
+    "label": "Frost Claws",
+    "cooldownSeconds": 10,
+    "desc": "A savage frost strike at an adjacent foe: 21 damage, then a second cut for 10. Chills (slower for a while).",
+    "element": "ice"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_Bulette",
+  "arts": [
+   {
+    "label": "Leaping Bite",
+    "cooldownSeconds": 12,
+    "desc": "Leaps on a foe up to 7.9 cells away: 19 damage and a short stagger."
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_Couatl",
+  "arts": [
+   {
+    "label": "Rainbow Dive",
+    "cooldownSeconds": 18,
+    "desc": "Dives from the air onto a spot up to 9.9 cells away: 16 damage to everyone within 1.5 cells, allies included, knocked back. May entangle.",
+    "element": "nature"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_EmberCockatrice",
+  "arts": [
+   {
+    "label": "Petrifying Glare",
+    "cooldownSeconds": 30,
+    "desc": "Its gaze turns a foe up to 8.9 cells away half to stone: much slower for a few seconds.",
+    "element": "earth"
+   },
+   {
+    "label": "Ember Breath",
+    "cooldownSeconds": 25,
+    "desc": "A cone of fire 5.2 cells long: 7 damage to everyone in front, allies included. May set them alight.",
+    "element": "fire"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_FrostHydra",
+  "arts": [
+   {
+    "label": "Triple Frost Breath",
+    "cooldownSeconds": 25,
+    "desc": "A cone of frost 7.1 cells long: 33 damage to everyone in front, allies included. Chills (slower for a while).",
+    "element": "ice"
+   },
+   {
+    "label": "Tail Lash",
+    "cooldownSeconds": 12,
+    "desc": "A frost sweep all around: 19 damage to everyone within 2.9 cells, allies included, knocked back 1 cell. Chills (slower for a while).",
+    "element": "ice"
+   },
+   {
+    "label": "Hydra Roar",
+    "cooldownSeconds": 40,
+    "desc": "A terrifying roar: foes within 5.9 cells are shaken (slower, worse aim); smaller foes freeze for a moment."
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_HammerheadBulette",
+  "arts": [
+   {
+    "label": "Hammer Ram",
+    "cooldownSeconds": 20,
+    "desc": "Charges in a straight line up to 8.9 cells: 19 damage to everyone in the way, thrown aside 2 cells."
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_JetCouatl",
+  "arts": [
+   {
+    "label": "Thunder Spit",
+    "cooldownSeconds": 15,
+    "desc": "Spits a lightning glob at one target up to 11.9 cells away: 10 damage. Stuns briefly.",
+    "element": "lightning"
+   },
+   {
+    "label": "Static Coil",
+    "cooldownSeconds": 20,
+    "desc": "A lightning pulse bursts out: 8 damage to everyone within 2.9 cells, allies included. Stuns briefly.",
+    "element": "lightning"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_Kirin",
+  "arts": [
+   {
+    "label": "Thunder Gallop",
+    "cooldownSeconds": 20,
+    "desc": "Charges in a straight line up to 8.9 cells: 14 damage to everyone in the way, thrown aside 2 cells. Stuns briefly.",
+    "element": "lightning"
+   },
+   {
+    "label": "Kirin Blessing",
+    "cooldownSeconds": 30,
+    "desc": "Mends the wounds of allies within 5.9 cells (itself included): up to 11 injury healed each.",
+    "element": "lunar"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_MagmaWrathWolf",
+  "arts": [
+   {
+    "label": "Magma Breath",
+    "cooldownSeconds": 25,
+    "desc": "A cone of fire 5.4 cells long: 11 damage to everyone in front, allies included. May set them alight.",
+    "element": "fire"
+   },
+   {
+    "label": "Wrath Howl",
+    "cooldownSeconds": 50,
+    "desc": "A rallying fire howl: allies within 7.9 cells move faster and bite harder for 15 seconds.",
+    "element": "fire"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_Manticore",
+  "arts": [
+   {
+    "label": "Tail Spikes",
+    "cooldownSeconds": 18,
+    "desc": "Fires a volley of quill shards at foes up to 9.9 cells away: 7 damage each, 3 shots.",
+    "element": "quill"
+   },
+   {
+    "label": "Pounce",
+    "cooldownSeconds": 12,
+    "desc": "Leaps on a foe up to 7.9 cells away: 17 damage and a short stagger."
+   },
+   {
+    "label": "Manticore Roar",
+    "cooldownSeconds": 40,
+    "desc": "A terrifying roar: foes within 5.9 cells are shaken (slower, worse aim); smaller foes freeze for a moment."
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_MistWrathWolf",
+  "arts": [
+   {
+    "label": "Mist Breath",
+    "cooldownSeconds": 25,
+    "desc": "A cone of wind 5.4 cells long: 10 damage to everyone in front, allies included. Knocks back 2 cells.",
+    "element": "wind"
+   },
+   {
+    "label": "Wrath Howl",
+    "cooldownSeconds": 50,
+    "desc": "A rallying wind howl: allies within 7.9 cells move faster and bite harder for 15 seconds.",
+    "element": "wind"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_Phoenix",
+  "arts": [
+   {
+    "label": "Phoenix Fire",
+    "cooldownSeconds": 25,
+    "desc": "A cone of fire 5.7 cells long: 13 damage to everyone in front, allies included. May set them alight.",
+    "element": "fire"
+   },
+   {
+    "label": "Rebirth Flame",
+    "cooldownSeconds": 30,
+    "desc": "Mends the wounds of allies within 5.9 cells (itself included): up to 11 injury healed each.",
+    "element": "fire"
+   },
+   {
+    "label": "Blazing Dive",
+    "cooldownSeconds": 18,
+    "desc": "Dives from the air onto a spot up to 9.9 cells away: 16 damage to everyone within 1.5 cells, allies included, knocked back. May set them alight.",
+    "element": "fire"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_PiedViper",
+  "arts": [
+   {
+    "label": "Venom Spit",
+    "cooldownSeconds": 15,
+    "desc": "Spits a venom glob at one target up to 11.9 cells away: 7 damage. Poisons (toxic buildup).",
+    "element": "venom"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_PrimalCouatl",
+  "arts": [
+   {
+    "label": "Coils",
+    "cooldownSeconds": 20,
+    "desc": "Grabs an adjacent foe: 11 crushing damage, held (stunned) and entangled for a few seconds."
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_PyroHydra",
+  "arts": [
+   {
+    "label": "Triple Fire Breath",
+    "cooldownSeconds": 25,
+    "desc": "A cone of fire 7.2 cells long: 33 damage to everyone in front, allies included. May set them alight.",
+    "element": "fire"
+   },
+   {
+    "label": "Hydra Roar",
+    "cooldownSeconds": 40,
+    "desc": "A terrifying roar: foes within 5.9 cells are shaken (slower, worse aim); smaller foes freeze for a moment."
+   },
+   {
+    "label": "Tail Lash",
+    "cooldownSeconds": 12,
+    "desc": "A fire sweep all around: 19 damage to everyone within 3 cells, allies included, knocked back 1 cell. May set them alight.",
+    "element": "fire"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_RadiantCouatl",
+  "arts": [
+   {
+    "label": "Dawn Flare",
+    "cooldownSeconds": 20,
+    "desc": "A moonlight pulse bursts out: 9 damage to everyone within 3.1 cells, allies included. Dazes briefly.",
+    "element": "lunar"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_SandKraken",
+  "arts": [
+   {
+    "label": "Tentacle Grasp",
+    "cooldownSeconds": 20,
+    "desc": "Grabs an adjacent foe: 20 crushing damage, held (stunned) and entangled for a few seconds."
+   },
+   {
+    "label": "Sand Ambush",
+    "cooldownSeconds": 30,
+    "desc": "Vanishes underground and bursts up beside a foe up to 10.9 cells away: 31 damage to everyone within 1.5 cells, thrown up and stunned. Staggers briefly.",
+    "element": "earth"
+   },
+   {
+    "label": "Tentacle Sweep",
+    "cooldownSeconds": 12,
+    "desc": "A sweep all around: 20 damage to everyone within 3.1 cells, allies included, knocked back 1 cell."
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_Shadestriker",
+  "arts": [
+   {
+    "label": "Shade Dive",
+    "cooldownSeconds": 18,
+    "desc": "Dives from the air onto a spot up to 9.9 cells away: 13 damage to everyone within 1.5 cells, allies included, knocked back. Shakes their nerve (slower, worse aim).",
+    "element": "shadow"
+   },
+   {
+    "label": "Shadow Feathers",
+    "cooldownSeconds": 18,
+    "desc": "Fires a volley of shadow shards at foes up to 9.9 cells away: 4 damage each, 3 shots. Shakes their nerve (slower, worse aim).",
+    "element": "shadow"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_SnarlBeast",
+  "arts": [
+   {
+    "label": "Snarl",
+    "cooldownSeconds": 40,
+    "desc": "A terrifying roar: foes within 5.9 cells are shaken (slower, worse aim); smaller foes freeze for a moment."
+   },
+   {
+    "label": "Rending Paws",
+    "cooldownSeconds": 10,
+    "desc": "A savage strike at an adjacent foe: 19 damage, then a second cut for 9."
+   },
+   {
+    "label": "Horn Charge",
+    "cooldownSeconds": 20,
+    "desc": "Charges in a straight line up to 8.9 cells: 15 damage to everyone in the way, thrown aside 2 cells."
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_ThunderBehemoth",
+  "arts": [
+   {
+    "label": "Thunder Charge",
+    "cooldownSeconds": 20,
+    "desc": "Charges in a straight line up to 8.9 cells: 26 damage to everyone in the way, thrown aside 2 cells. Stuns briefly.",
+    "element": "lightning"
+   },
+   {
+    "label": "Thunderstomp",
+    "cooldownSeconds": 25,
+    "desc": "Rears up and slams the ground: 22 damage to everyone within 4.4 cells, allies included; smaller ones are stunned. Stuns briefly.",
+    "element": "lightning"
+   },
+   {
+    "label": "Behemoth Roar",
+    "cooldownSeconds": 40,
+    "desc": "A terrifying roar: foes within 5.9 cells are shaken (slower, worse aim); smaller foes freeze for a moment."
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_ThunderWrathWolf",
+  "arts": [
+   {
+    "label": "Thunder Breath",
+    "cooldownSeconds": 25,
+    "desc": "A cone of lightning 5.4 cells long: 11 damage to everyone in front, allies included. Stuns briefly.",
+    "element": "lightning"
+   },
+   {
+    "label": "Wrath Howl",
+    "cooldownSeconds": 50,
+    "desc": "A rallying lightning howl: allies within 7.9 cells move faster and bite harder for 15 seconds.",
+    "element": "lightning"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_WinterWolf",
+  "arts": [
+   {
+    "label": "Frost Breath",
+    "cooldownSeconds": 25,
+    "desc": "A cone of frost 5.5 cells long: 11 damage to everyone in front, allies included. Chills (slower for a while).",
+    "element": "ice"
+   },
+   {
+    "label": "Winter Howl",
+    "cooldownSeconds": 50,
+    "desc": "A rallying frost howl: allies within 7.9 cells move faster and bite harder for 15 seconds.",
+    "element": "ice"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_XenarthBulette",
+  "arts": [
+   {
+    "label": "Ichor Spit",
+    "cooldownSeconds": 15,
+    "desc": "Spits a acid glob at one target up to 11.9 cells away: 15 damage. Eats through armour.",
+    "element": "acid"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_Ziz",
+  "arts": [
+   {
+    "label": "Skyfall Dive",
+    "cooldownSeconds": 18,
+    "desc": "Dives from the air onto a spot up to 9.9 cells away: 36 damage to everyone within 1.5 cells, allies included, knocked back. Knocks back 2 cells.",
+    "element": "wind"
+   },
+   {
+    "label": "Storm Feathers",
+    "cooldownSeconds": 18,
+    "desc": "Fires a volley of wind shards at foes up to 9.9 cells away: 11 damage each, 4 shots. Knocks back 2 cells.",
+    "element": "wind"
+   },
+   {
+    "label": "Thunder Cry",
+    "cooldownSeconds": 40,
+    "desc": "A terrifying roar: foes within 5.9 cells are shaken (slower, worse aim); smaller foes freeze for a moment."
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_BerserkerWasp",
+  "arts": [
+   {
+    "label": "Berserk Sting",
+    "cooldownSeconds": 18,
+    "desc": "Dives from the air onto a spot up to 9.9 cells away: 8 damage to everyone within 1.5 cells, allies included, knocked back. Poisons (toxic buildup).",
+    "element": "venom"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_BladeHood",
+  "arts": [
+   {
+    "label": "Hood Blade Spin",
+    "cooldownSeconds": 12,
+    "desc": "A blade sweep all around: 10 damage to everyone within 2.1 cells, allies included, knocked back 1 cell.",
+    "element": "blade"
+   },
+   {
+    "label": "Venom Spit",
+    "cooldownSeconds": 15,
+    "desc": "Spits a venom glob at one target up to 11.9 cells away: 11 damage. Poisons (toxic buildup).",
+    "element": "venom"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_CaveBear",
+  "arts": [
+   {
+    "label": "Mauling Claws",
+    "cooldownSeconds": 10,
+    "desc": "A savage strike at an adjacent foe: 22 damage, then a second cut for 11."
+   },
+   {
+    "label": "Cave Roar",
+    "cooldownSeconds": 40,
+    "desc": "A terrifying roar: foes within 5.9 cells are shaken (slower, worse aim); smaller foes freeze for a moment."
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_CaveLion",
+  "arts": [
+   {
+    "label": "Pounce",
+    "cooldownSeconds": 12,
+    "desc": "Leaps on a foe up to 7.9 cells away: 15 damage and a short stagger."
+   },
+   {
+    "label": "Lion Roar",
+    "cooldownSeconds": 40,
+    "desc": "A terrifying roar: foes within 5.9 cells are shaken (slower, worse aim); smaller foes freeze for a moment."
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_Chupacabra",
+  "arts": [
+   {
+    "label": "Blood Drain",
+    "cooldownSeconds": 14,
+    "desc": "A bite that feeds: 9 damage to an adjacent foe and heals itself by about 5."
+   },
+   {
+    "label": "Night Pounce",
+    "cooldownSeconds": 12,
+    "desc": "Leaps on a foe up to 7.9 cells away: 10 damage and a short stagger."
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_GiantMantis",
+  "arts": [
+   {
+    "label": "Scythe Flurry",
+    "cooldownSeconds": 10,
+    "desc": "A savage blade strike at an adjacent foe: 15 damage, then a second cut for 7.",
+    "element": "blade"
+   },
+   {
+    "label": "Ambush Leap",
+    "cooldownSeconds": 12,
+    "desc": "Leaps on a foe up to 7.9 cells away: 13 damage and a short stagger."
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_DustDigger",
+  "arts": [
+   {
+    "label": "Dust Ambush",
+    "cooldownSeconds": 30,
+    "desc": "Vanishes underground and bursts up beside a foe up to 10.9 cells away: 18 damage to everyone within 1.5 cells, thrown up and stunned. Staggers briefly.",
+    "element": "earth"
+   },
+   {
+    "label": "Dust Cloud",
+    "cooldownSeconds": 25,
+    "desc": "A cone of earth 6 cells long: 11 damage to everyone in front, allies included. Staggers briefly.",
+    "element": "earth"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_FrostRoc",
+  "arts": [
+   {
+    "label": "Frost Dive",
+    "cooldownSeconds": 18,
+    "desc": "Dives from the air onto a spot up to 9.9 cells away: 27 damage to everyone within 1.5 cells, allies included, knocked back. Chills (slower for a while).",
+    "element": "ice"
+   },
+   {
+    "label": "Ice Feather Volley",
+    "cooldownSeconds": 18,
+    "desc": "Fires a volley of frost shards at foes up to 9.9 cells away: 10 damage each, 4 shots. Chills (slower for a while).",
+    "element": "ice"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_GiantConstrictor",
+  "arts": [
+   {
+    "label": "Crushing Coils",
+    "cooldownSeconds": 20,
+    "desc": "Grabs an adjacent foe: 11 crushing damage, held (stunned) and entangled for a few seconds."
+   },
+   {
+    "label": "Coil Lash",
+    "cooldownSeconds": 12,
+    "desc": "A sweep all around: 11 damage to everyone within 2.1 cells, allies included, knocked back 1 cell."
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_GiantKomodo",
+  "arts": [
+   {
+    "label": "Venom Bite",
+    "cooldownSeconds": 10,
+    "desc": "A savage venom strike at an adjacent foe: 19 damage, then a second cut for 9. Poisons (toxic buildup).",
+    "element": "venom"
+   },
+   {
+    "label": "Tail Lash",
+    "cooldownSeconds": 12,
+    "desc": "A sweep all around: 11 damage to everyone within 2.2 cells, allies included, knocked back 1 cell."
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_GiantScorpion",
+  "arts": [
+   {
+    "label": "Stinger Strike",
+    "cooldownSeconds": 10,
+    "desc": "A savage venom strike at an adjacent foe: 16 damage, then a second cut for 8. Poisons (toxic buildup).",
+    "element": "venom"
+   },
+   {
+    "label": "Pincer Grip",
+    "cooldownSeconds": 20,
+    "desc": "Grabs an adjacent foe: 9 crushing damage, held (stunned) and entangled for a few seconds."
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_SnappingTurtle",
+  "arts": [
+   {
+    "label": "Withdraw",
+    "cooldownSeconds": 45,
+    "desc": "Hunkers down behind its tough hide: takes half damage for 10 seconds but moves slower."
+   },
+   {
+    "label": "Snap",
+    "cooldownSeconds": 10,
+    "desc": "A savage strike at an adjacent foe: 18 damage, then a second cut for 9."
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_TrapdoorSpider",
+  "arts": [
+   {
+    "label": "Web Net",
+    "cooldownSeconds": 25,
+    "desc": "Throws a sticky web up to 9.9 cells: everyone within 1.5 cells of the spot is entangled (much slower) for a few seconds."
+   },
+   {
+    "label": "Trapdoor Ambush",
+    "cooldownSeconds": 30,
+    "desc": "Vanishes underground and bursts up beside a foe up to 10.9 cells away: 14 damage to everyone within 1.5 cells, thrown up and stunned. Staggers briefly.",
+    "element": "earth"
+   },
+   {
+    "label": "Venom Fangs",
+    "cooldownSeconds": 10,
+    "desc": "A savage venom strike at an adjacent foe: 15 damage, then a second cut for 7. Poisons (toxic buildup).",
+    "element": "venom"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_HellMoth",
+  "arts": [
+   {
+    "label": "Ember Dust",
+    "cooldownSeconds": 20,
+    "desc": "A fire pulse bursts out: 7 damage to everyone within 2.8 cells, allies included. May set them alight.",
+    "element": "fire"
+   },
+   {
+    "label": "Burning Dive",
+    "cooldownSeconds": 18,
+    "desc": "Dives from the air onto a spot up to 9.9 cells away: 13 damage to everyone within 1.5 cells, allies included, knocked back. May set them alight.",
+    "element": "fire"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_HellScorpion",
+  "arts": [
+   {
+    "label": "Hell Sting",
+    "cooldownSeconds": 10,
+    "desc": "A savage venom strike at an adjacent foe: 18 damage, then a second cut for 9. Poisons (toxic buildup).",
+    "element": "venom"
+   },
+   {
+    "label": "Brimstone Spit",
+    "cooldownSeconds": 15,
+    "desc": "Spits a fire glob at one target up to 11.9 cells away: 12 damage. May set them alight.",
+    "element": "fire"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_HoarFox",
+  "arts": [
+   {
+    "label": "Frost Breath",
+    "cooldownSeconds": 25,
+    "desc": "A cone of frost 5.1 cells long: 7 damage to everyone in front, allies included. Chills (slower for a while).",
+    "element": "ice"
+   },
+   {
+    "label": "Snow Pounce",
+    "cooldownSeconds": 12,
+    "desc": "Leaps on a foe up to 7.9 cells away: 9 damage and a short stagger."
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_JungleGriffon",
+  "arts": [
+   {
+    "label": "Griffon Dive",
+    "cooldownSeconds": 18,
+    "desc": "Dives from the air onto a spot up to 9.9 cells away: 17 damage to everyone within 1.5 cells, allies included, knocked back. Knocks back 2 cells.",
+    "element": "wind"
+   },
+   {
+    "label": "Talon Rake",
+    "cooldownSeconds": 10,
+    "desc": "A savage strike at an adjacent foe: 18 damage, then a second cut for 9."
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_Leucrotta",
+  "arts": [
+   {
+    "label": "Saw Jaws",
+    "cooldownSeconds": 10,
+    "desc": "A savage strike at an adjacent foe: 16 damage, then a second cut for 8."
+   },
+   {
+    "label": "Mimic Call",
+    "cooldownSeconds": 30,
+    "desc": "A ghostly gaze at a foe up to 8.9 cells away: stunned for 1.8 seconds. Shakes their nerve (slower, worse aim).",
+    "element": "spirit"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_MegaloCentipede",
+  "arts": [
+   {
+    "label": "Venom Mandibles",
+    "cooldownSeconds": 10,
+    "desc": "A savage venom strike at an adjacent foe: 16 damage, then a second cut for 8. Poisons (toxic buildup).",
+    "element": "venom"
+   },
+   {
+    "label": "Scuttling Rush",
+    "cooldownSeconds": 20,
+    "desc": "Charges in a straight line up to 8.9 cells: 12 damage to everyone in the way, thrown aside 2 cells."
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_PoisonMonkey",
+  "arts": [
+   {
+    "label": "Poison Fling",
+    "cooldownSeconds": 15,
+    "desc": "Spits a venom glob at one target up to 11.9 cells away: 7 damage. Poisons (toxic buildup).",
+    "element": "venom"
+   },
+   {
+    "label": "Swinging Leap",
+    "cooldownSeconds": 12,
+    "desc": "Leaps on a foe up to 7.9 cells away: 9 damage and a short stagger."
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_ProfaneCrocodile",
+  "arts": [
+   {
+    "label": "Death Roll",
+    "cooldownSeconds": 14,
+    "desc": "A shadow bite that feeds: 15 damage to an adjacent foe and heals itself by about 9. Shakes their nerve (slower, worse aim).",
+    "element": "shadow"
+   },
+   {
+    "label": "Tail Lash",
+    "cooldownSeconds": 12,
+    "desc": "A sweep all around: 12 damage to everyone within 2.3 cells, allies included, knocked back 1 cell."
+   },
+   {
+    "label": "Profane Mire",
+    "cooldownSeconds": 20,
+    "desc": "A shadow pulse bursts out: 11 damage to everyone within 3.3 cells, allies included. Shakes their nerve (slower, worse aim).",
+    "element": "shadow"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_SabreCat",
+  "arts": [
+   {
+    "label": "Sabre Pounce",
+    "cooldownSeconds": 12,
+    "desc": "Leaps on a foe up to 7.9 cells away: 14 damage and a short stagger."
+   },
+   {
+    "label": "Sabre Fangs",
+    "cooldownSeconds": 10,
+    "desc": "A savage blade strike at an adjacent foe: 17 damage, then a second cut for 8.",
+    "element": "blade"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_ShockerLizard",
+  "arts": [
+   {
+    "label": "Shock",
+    "cooldownSeconds": 20,
+    "desc": "A lightning pulse bursts out: 5 damage to everyone within 2.5 cells, allies included. Stuns briefly.",
+    "element": "lightning"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_Basilisk",
+  "arts": [
+   {
+    "label": "Stone Gaze",
+    "cooldownSeconds": 30,
+    "desc": "Its gaze turns a foe up to 8.9 cells away half to stone: much slower for a few seconds.",
+    "element": "earth"
+   },
+   {
+    "label": "Venom Spit",
+    "cooldownSeconds": 15,
+    "desc": "Spits a venom glob at one target up to 11.9 cells away: 12 damage. Poisons (toxic buildup).",
+    "element": "venom"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_AmaltheanRam",
+  "arts": [
+   {
+    "label": "Horn Rush",
+    "cooldownSeconds": 20,
+    "desc": "Charges in a straight line up to 8.9 cells: 12 damage to everyone in the way, thrown aside 2 cells."
+   },
+   {
+    "label": "Horn of Plenty",
+    "cooldownSeconds": 30,
+    "desc": "Mends the wounds of allies within 5.9 cells (itself included): up to 10 injury healed each.",
+    "element": "nature"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_FightingCock",
+  "arts": [
+   {
+    "label": "Spur Flurry",
+    "cooldownSeconds": 10,
+    "desc": "A savage blade strike at an adjacent foe: 13 damage, then a second cut for 6.",
+    "element": "blade"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_Bleyk",
+  "arts": [
+   {
+    "label": "Horn Charge",
+    "cooldownSeconds": 20,
+    "desc": "Charges in a straight line up to 8.9 cells: 18 damage to everyone in the way, thrown aside 2 cells."
+   },
+   {
+    "label": "Rearing Stomp",
+    "cooldownSeconds": 25,
+    "desc": "Rears up and slams the ground: 15 damage to everyone within 3.7 cells, allies included; smaller ones are stunned. Staggers briefly.",
+    "element": "earth"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_CrystalSerpent",
+  "arts": [
+   {
+    "label": "Shard Spit",
+    "cooldownSeconds": 15,
+    "desc": "Spits a frost glob at one target up to 11.9 cells away: 7 damage. Chills (slower for a while).",
+    "element": "ice"
+   },
+   {
+    "label": "Crystal Scales",
+    "cooldownSeconds": 45,
+    "desc": "Hunkers down behind its frost hide: takes half damage for 10 seconds but moves slower.",
+    "element": "ice"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_DireArmadillo",
+  "arts": [
+   {
+    "label": "Armour Curl",
+    "cooldownSeconds": 45,
+    "desc": "Hunkers down behind its iron hide: takes half damage for 10 seconds but moves slower.",
+    "element": "iron"
+   },
+   {
+    "label": "Rolling Charge",
+    "cooldownSeconds": 20,
+    "desc": "Charges in a straight line up to 8.9 cells: 10 damage to everyone in the way, thrown aside 2 cells."
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_DuneStrider",
+  "arts": [
+   {
+    "label": "Leaping Kick",
+    "cooldownSeconds": 12,
+    "desc": "Leaps on a foe up to 7.9 cells away: 14 damage and a short stagger."
+   },
+   {
+    "label": "Dune Sprint",
+    "cooldownSeconds": 20,
+    "desc": "Charges in a straight line up to 8.9 cells: 13 damage to everyone in the way, thrown aside 2 cells. Staggers briefly.",
+    "element": "earth"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_GiantBeaver",
+  "arts": [
+   {
+    "label": "Tail Slap",
+    "cooldownSeconds": 12,
+    "desc": "A water sweep all around: 8 damage to everyone within 1.9 cells, allies included, knocked back 1 cell. Knocks back 1 cell and douses fire.",
+    "element": "water"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_BumbleSteed",
+  "arts": [
+   {
+    "label": "Honey Balm",
+    "cooldownSeconds": 30,
+    "desc": "Mends the wounds of allies within 5.9 cells (itself included): up to 9 injury healed each.",
+    "element": "nature"
+   },
+   {
+    "label": "Diving Sting",
+    "cooldownSeconds": 18,
+    "desc": "Dives from the air onto a spot up to 9.9 cells away: 13 damage to everyone within 1.5 cells, allies included, knocked back. Poisons (toxic buildup).",
+    "element": "venom"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_GiantHedgehog",
+  "arts": [
+   {
+    "label": "Quill Burst",
+    "cooldownSeconds": 18,
+    "desc": "Fires a volley of quill shards at foes up to 9.9 cells away: 4 damage each, 3 shots.",
+    "element": "quill"
+   },
+   {
+    "label": "Quill Ball",
+    "cooldownSeconds": 45,
+    "desc": "Hunkers down behind its quill hide: takes half damage for 10 seconds but moves slower.",
+    "element": "quill"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_GiantHog",
+  "arts": [
+   {
+    "label": "Tusk Charge",
+    "cooldownSeconds": 20,
+    "desc": "Charges in a straight line up to 8.9 cells: 13 damage to everyone in the way, thrown aside 2 cells."
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_GiantRabbit",
+  "arts": [
+   {
+    "label": "Bounding Kick",
+    "cooldownSeconds": 12,
+    "desc": "Leaps on a foe up to 7.9 cells away: 9 damage and a short stagger."
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_Pangolin",
+  "arts": [
+   {
+    "label": "Scale Curl",
+    "cooldownSeconds": 45,
+    "desc": "Hunkers down behind its iron hide: takes half damage for 10 seconds but moves slower.",
+    "element": "iron"
+   },
+   {
+    "label": "Tail Swipe",
+    "cooldownSeconds": 12,
+    "desc": "A sweep all around: 7 damage to everyone within 1.9 cells, allies included, knocked back 1 cell."
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_GreatWoolback",
+  "arts": [
+   {
+    "label": "Thick Wool",
+    "cooldownSeconds": 45,
+    "desc": "Hunkers down behind its tough hide: takes half damage for 10 seconds but moves slower."
+   },
+   {
+    "label": "Head Butt",
+    "cooldownSeconds": 20,
+    "desc": "Charges in a straight line up to 8.9 cells: 12 damage to everyone in the way, thrown aside 2 cells."
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_HalbeisenWarhorse",
+  "arts": [
+   {
+    "label": "Trample",
+    "cooldownSeconds": 20,
+    "desc": "Charges in a straight line up to 8.9 cells: 17 damage to everyone in the way, thrown aside 2 cells."
+   },
+   {
+    "label": "Rearing Stomp",
+    "cooldownSeconds": 25,
+    "desc": "Rears up and slams the ground: 14 damage to everyone within 3.6 cells, allies included; smaller ones are stunned."
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_Jackalope",
+  "arts": [
+   {
+    "label": "Antler Hop",
+    "cooldownSeconds": 12,
+    "desc": "Leaps on a foe up to 7.9 cells away: 8 damage and a short stagger."
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_Muskhorn",
+  "arts": [
+   {
+    "label": "Horn Charge",
+    "cooldownSeconds": 20,
+    "desc": "Charges in a straight line up to 8.9 cells: 16 damage to everyone in the way, thrown aside 2 cells."
+   },
+   {
+    "label": "Stamping Herd",
+    "cooldownSeconds": 25,
+    "desc": "Rears up and slams the ground: 13 damage to everyone within 3.6 cells, allies included; smaller ones are stunned."
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_PlainsKangaroo",
+  "arts": [
+   {
+    "label": "Double Kick",
+    "cooldownSeconds": 12,
+    "desc": "Leaps on a foe up to 7.9 cells away: 11 damage and a short stagger."
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_RamMammoth",
+  "arts": [
+   {
+    "label": "Mammoth Charge",
+    "cooldownSeconds": 20,
+    "desc": "Charges in a straight line up to 8.9 cells: 23 damage to everyone in the way, thrown aside 2 cells."
+   },
+   {
+    "label": "Earthshaker",
+    "cooldownSeconds": 25,
+    "desc": "Rears up and slams the ground: 19 damage to everyone within 4 cells, allies included; smaller ones are stunned. Staggers briefly.",
+    "element": "earth"
+   },
+   {
+    "label": "Trumpet Blast",
+    "cooldownSeconds": 40,
+    "desc": "A terrifying roar: foes within 5.9 cells are shaken (slower, worse aim); smaller foes freeze for a moment."
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_SnowBoar",
+  "arts": [
+   {
+    "label": "Frost Charge",
+    "cooldownSeconds": 20,
+    "desc": "Charges in a straight line up to 8.9 cells: 11 damage to everyone in the way, thrown aside 2 cells. Chills (slower for a while).",
+    "element": "ice"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_StenchKow",
+  "arts": [
+   {
+    "label": "Stench Cloud",
+    "cooldownSeconds": 25,
+    "desc": "A cone of venom 5.9 cells long: 10 damage to everyone in front, allies included. Poisons (toxic buildup).",
+    "element": "venom"
+   },
+   {
+    "label": "Horn Charge",
+    "cooldownSeconds": 20,
+    "desc": "Charges in a straight line up to 8.9 cells: 15 damage to everyone in the way, thrown aside 2 cells."
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_Titanothere",
+  "arts": [
+   {
+    "label": "Titan Charge",
+    "cooldownSeconds": 20,
+    "desc": "Charges in a straight line up to 8.9 cells: 21 damage to everyone in the way, thrown aside 2 cells."
+   },
+   {
+    "label": "Stamp",
+    "cooldownSeconds": 25,
+    "desc": "Rears up and slams the ground: 17 damage to everyone within 3.9 cells, allies included; smaller ones are stunned."
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_CrescentElk",
+  "arts": [
+   {
+    "label": "Moonlit Charge",
+    "cooldownSeconds": 20,
+    "desc": "Charges in a straight line up to 8.9 cells: 15 damage to everyone in the way, thrown aside 2 cells. Dazes briefly.",
+    "element": "lunar"
+   },
+   {
+    "label": "Crescent Glow",
+    "cooldownSeconds": 20,
+    "desc": "A moonlight pulse bursts out: 10 damage to everyone within 3.2 cells, allies included. Dazes briefly.",
+    "element": "lunar"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_SwampJellyfish",
+  "arts": [
+   {
+    "label": "Stinging Tendrils",
+    "cooldownSeconds": 20,
+    "desc": "A venom pulse bursts out: 6 damage to everyone within 2.6 cells, allies included. Poisons (toxic buildup).",
+    "element": "venom"
+   },
+   {
+    "label": "Water Jet",
+    "cooldownSeconds": 15,
+    "desc": "Spits a water glob at one target up to 11.9 cells away: 8 damage. Knocks back 1 cell and douses fire.",
+    "element": "water"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_GiantStag",
+  "arts": [
+   {
+    "label": "Antler Charge",
+    "cooldownSeconds": 20,
+    "desc": "Charges in a straight line up to 8.9 cells: 14 damage to everyone in the way, thrown aside 2 cells."
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_Gorecupine",
+  "arts": [
+   {
+    "label": "Quill Volley",
+    "cooldownSeconds": 18,
+    "desc": "Fires a volley of quill shards at foes up to 9.9 cells away: 5 damage each, 3 shots.",
+    "element": "quill"
+   },
+   {
+    "label": "Spined Charge",
+    "cooldownSeconds": 20,
+    "desc": "Charges in a straight line up to 8.9 cells: 12 damage to everyone in the way, thrown aside 2 cells.",
+    "element": "quill"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_Hippogriff",
+  "arts": [
+   {
+    "label": "Swooping Dive",
+    "cooldownSeconds": 18,
+    "desc": "Dives from the air onto a spot up to 9.9 cells away: 17 damage to everyone within 1.5 cells, allies included, knocked back. Knocks back 2 cells.",
+    "element": "wind"
+   },
+   {
+    "label": "Talon Rake",
+    "cooldownSeconds": 10,
+    "desc": "A savage strike at an adjacent foe: 18 damage, then a second cut for 9."
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_KeelTurtle",
+  "arts": [
+   {
+    "label": "Withdraw",
+    "cooldownSeconds": 45,
+    "desc": "Hunkers down behind its tough hide: takes half damage for 10 seconds but moves slower."
+   },
+   {
+    "label": "Keel Ram",
+    "cooldownSeconds": 20,
+    "desc": "Charges in a straight line up to 8.9 cells: 23 damage to everyone in the way, thrown aside 2 cells."
+   }
+  ]
+ },
+ {
+  "defName": "NF_Animal_PleistoceneDeer",
+  "arts": [
+   {
+    "label": "Antler Charge",
+    "cooldownSeconds": 20,
+    "desc": "Charges in a straight line up to 8.9 cells: 19 damage to everyone in the way, thrown aside 2 cells."
+   },
+   {
+    "label": "Stamp",
+    "cooldownSeconds": 25,
+    "desc": "Rears up and slams the ground: 16 damage to everyone within 3.8 cells, allies included; smaller ones are stunned."
+   }
+  ]
+ },
+ {
+  "defName": "NF_Undead_Apparition",
+  "arts": [
+   {
+    "label": "Wail",
+    "cooldownSeconds": 35,
+    "desc": "A ghostly wail: 5 damage and a short stun to everyone within 4.9 cells, allies included (the undead are immune).",
+    "element": "spirit"
+   },
+   {
+    "label": "Chill Touch",
+    "cooldownSeconds": 14,
+    "desc": "A ghostly bite that feeds: 9 damage to an adjacent foe and heals itself by about 5. Shakes their nerve (slower, worse aim).",
+    "element": "spirit"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Undead_ZombieBrain",
+  "arts": [
+   {
+    "label": "Hungry Bite",
+    "cooldownSeconds": 14,
+    "desc": "A bite that feeds: 10 damage to an adjacent foe and heals itself by about 6."
+   },
+   {
+    "label": "Moan",
+    "cooldownSeconds": 35,
+    "desc": "A ghostly wail: 4 damage and a short stun to everyone within 4.9 cells, allies included (the undead are immune).",
+    "element": "spirit"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Undead_ZombieFlesh",
+  "arts": [
+   {
+    "label": "Hungry Bite",
+    "cooldownSeconds": 14,
+    "desc": "A bite that feeds: 10 damage to an adjacent foe and heals itself by about 6."
+   },
+   {
+    "label": "Rotting Burst",
+    "cooldownSeconds": 20,
+    "desc": "A venom pulse bursts out: 7 damage to everyone within 2.8 cells, allies included. Poisons (toxic buildup).",
+    "element": "venom"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Undead_Ghast",
+  "arts": [
+   {
+    "label": "Paralysing Claws",
+    "cooldownSeconds": 10,
+    "desc": "A savage paralysing strike at an adjacent foe: 14 damage, then a second cut for 7. Paralyses briefly (not undead).",
+    "element": "paralyze"
+   },
+   {
+    "label": "Grave Stench",
+    "cooldownSeconds": 20,
+    "desc": "A venom pulse bursts out: 7 damage to everyone within 2.8 cells, allies included. Poisons (toxic buildup).",
+    "element": "venom"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Undead_Ghoul",
+  "arts": [
+   {
+    "label": "Paralysing Claws",
+    "cooldownSeconds": 10,
+    "desc": "A savage paralysing strike at an adjacent foe: 13 damage, then a second cut for 6. Paralyses briefly (not undead).",
+    "element": "paralyze"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Undead_ZombieGiant",
+  "arts": [
+   {
+    "label": "Giant Stomp",
+    "cooldownSeconds": 25,
+    "desc": "Rears up and slams the ground: 16 damage to everyone within 3.8 cells, allies included; smaller ones are stunned."
+   },
+   {
+    "label": "Giant Swing",
+    "cooldownSeconds": 12,
+    "desc": "A sweep all around: 14 damage to everyone within 2.5 cells, allies included, knocked back 1 cell."
+   }
+  ]
+ },
+ {
+  "defName": "NF_Undead_GreenHag",
+  "arts": [
+   {
+    "label": "Evil Eye",
+    "cooldownSeconds": 30,
+    "desc": "A ghostly gaze at a foe up to 8.9 cells away: stunned for 1.7 seconds. Shakes their nerve (slower, worse aim).",
+    "element": "spirit"
+   },
+   {
+    "label": "Grasping Vines",
+    "cooldownSeconds": 25,
+    "desc": "Throws a net of vines up to 9.9 cells: everyone within 1.5 cells of the spot is entangled (much slower) for a few seconds.",
+    "element": "nature"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Undead_ZombieJuju",
+  "arts": [
+   {
+    "label": "Juju Bite",
+    "cooldownSeconds": 14,
+    "desc": "A shadow bite that feeds: 10 damage to an adjacent foe and heals itself by about 6. Shakes their nerve (slower, worse aim).",
+    "element": "shadow"
+   },
+   {
+    "label": "Hex Pulse",
+    "cooldownSeconds": 20,
+    "desc": "A shadow pulse bursts out: 7 damage to everyone within 2.8 cells, allies included. Shakes their nerve (slower, worse aim).",
+    "element": "shadow"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Undead_Lacedon",
+  "arts": [
+   {
+    "label": "Paralysing Claws",
+    "cooldownSeconds": 10,
+    "desc": "A savage paralysing strike at an adjacent foe: 13 damage, then a second cut for 6. Paralyses briefly (not undead).",
+    "element": "paralyze"
+   },
+   {
+    "label": "Lunge from the Deep",
+    "cooldownSeconds": 12,
+    "desc": "Leaps on a foe up to 7.9 cells away: 11 damage and a short stagger."
+   }
+  ]
+ },
+ {
+  "defName": "NF_Undead_Banshee",
+  "arts": [
+   {
+    "label": "Banshee's Wail",
+    "cooldownSeconds": 35,
+    "desc": "A ghostly wail: 6 damage and a short stun to everyone within 4.9 cells, allies included (the undead are immune).",
+    "element": "spirit"
+   },
+   {
+    "label": "Chill Touch",
+    "cooldownSeconds": 14,
+    "desc": "A ghostly bite that feeds: 10 damage to an adjacent foe and heals itself by about 6. Shakes their nerve (slower, worse aim).",
+    "element": "spirit"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Undead_SeaHag",
+  "arts": [
+   {
+    "label": "Death Glare",
+    "cooldownSeconds": 30,
+    "desc": "A ghostly gaze at a foe up to 8.9 cells away: stunned for 1.7 seconds. Shakes their nerve (slower, worse aim).",
+    "element": "spirit"
+   },
+   {
+    "label": "Drowning Kiss",
+    "cooldownSeconds": 14,
+    "desc": "A water bite that feeds: 10 damage to an adjacent foe and heals itself by about 6. Knocks back 1 cell and douses fire.",
+    "element": "water"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Undead_SivianBanshee",
+  "arts": [
+   {
+    "label": "Sivian Wail",
+    "cooldownSeconds": 35,
+    "desc": "A ghostly wail: 6 damage and a short stun to everyone within 4.9 cells, allies included (the undead are immune).",
+    "element": "spirit"
+   },
+   {
+    "label": "Hollow Gaze",
+    "cooldownSeconds": 30,
+    "desc": "A ghostly gaze at a foe up to 8.9 cells away: stunned for 1.7 seconds. Shakes their nerve (slower, worse aim).",
+    "element": "spirit"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Undead_Skeleton",
+  "arts": [
+   {
+    "label": "Bone Throw",
+    "cooldownSeconds": 18,
+    "desc": "Fires a volley of bone shards at foes up to 9.9 cells away: 4 damage each, 3 shots.",
+    "element": "bone"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Undead_ZombieTalking",
+  "arts": [
+   {
+    "label": "Babbling Curse",
+    "cooldownSeconds": 35,
+    "desc": "A ghostly wail: 4 damage and a short stun to everyone within 4.9 cells, allies included (the undead are immune).",
+    "element": "spirit"
+   },
+   {
+    "label": "Hungry Bite",
+    "cooldownSeconds": 14,
+    "desc": "A bite that feeds: 10 damage to an adjacent foe and heals itself by about 6."
+   }
+  ]
+ },
+ {
+  "defName": "NF_Undead_Zombie",
+  "arts": [
+   {
+    "label": "Hungry Bite",
+    "cooldownSeconds": 14,
+    "desc": "A bite that feeds: 10 damage to an adjacent foe and heals itself by about 6."
+   }
+  ]
+ },
+ {
+  "defName": "NF_BoneGolem",
+  "arts": [
+   {
+    "label": "Bone Shards",
+    "cooldownSeconds": 18,
+    "desc": "Fires a volley of bone shards at foes up to 9.9 cells away: 5 damage each, 3 shots.",
+    "element": "bone"
+   },
+   {
+    "label": "Bone Plating",
+    "cooldownSeconds": 45,
+    "desc": "Hunkers down behind its bone hide: takes half damage for 10 seconds but moves slower.",
+    "element": "bone"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Fabled_GaleHawk_Elder",
+  "arts": [
+   {
+    "label": "Gale Dive",
+    "cooldownSeconds": 18,
+    "desc": "Dives from the air onto a spot up to 9.9 cells away: 30 damage to everyone within 1.5 cells, allies included, knocked back. Knocks back 2 cells.",
+    "element": "wind"
+   },
+   {
+    "label": "Gale Feathers",
+    "cooldownSeconds": 18,
+    "desc": "Fires a volley of wind shards at foes up to 9.9 cells away: 11 damage each, 4 shots. Knocks back 2 cells.",
+    "element": "wind"
+   },
+   {
+    "label": "Cyclone Wings",
+    "cooldownSeconds": 20,
+    "desc": "A wind pulse bursts out: 17 damage to everyone within 4.2 cells, allies included. Knocks back 2 cells.",
+    "element": "wind"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Fabled_IronBoar_Elder",
+  "arts": [
+   {
+    "label": "Iron Charge",
+    "cooldownSeconds": 20,
+    "desc": "Charges in a straight line up to 8.9 cells: 26 damage to everyone in the way, thrown aside 2 cells.",
+    "element": "iron"
+   },
+   {
+    "label": "Iron Hide",
+    "cooldownSeconds": 45,
+    "desc": "Hunkers down behind its iron hide: takes half damage for 10 seconds but moves slower.",
+    "element": "iron"
+   },
+   {
+    "label": "Iron Stamp",
+    "cooldownSeconds": 25,
+    "desc": "Rears up and slams the ground: 21 damage to everyone within 4.2 cells, allies included; smaller ones are stunned.",
+    "element": "iron"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Fabled_MoonWolf_Elder",
+  "arts": [
+   {
+    "label": "Moon Howl",
+    "cooldownSeconds": 50,
+    "desc": "A rallying moonlight howl: allies within 7.9 cells move faster and bite harder for 15 seconds.",
+    "element": "lunar"
+   },
+   {
+    "label": "Moonlit Pounce",
+    "cooldownSeconds": 12,
+    "desc": "Leaps on a foe up to 7.9 cells away: 28 damage and a short stagger. Dazes briefly.",
+    "element": "lunar"
+   },
+   {
+    "label": "Moon Gaze",
+    "cooldownSeconds": 30,
+    "desc": "A moonlight gaze at a foe up to 8.9 cells away: stunned for 2.2 seconds.",
+    "element": "lunar"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Fabled_StoneTortoise_Elder",
+  "arts": [
+   {
+    "label": "Stone Shell",
+    "cooldownSeconds": 45,
+    "desc": "Hunkers down behind its earth hide: takes half damage for 10 seconds but moves slower.",
+    "element": "earth"
+   },
+   {
+    "label": "Ground Pound",
+    "cooldownSeconds": 25,
+    "desc": "Rears up and slams the ground: 21 damage to everyone within 4.2 cells, allies included; smaller ones are stunned. Staggers briefly.",
+    "element": "earth"
+   },
+   {
+    "label": "Grove Blessing",
+    "cooldownSeconds": 30,
+    "desc": "Mends the wounds of allies within 5.9 cells (itself included): up to 20 injury healed each.",
+    "element": "nature"
+   }
+  ]
+ },
+ {
+  "defName": "NF_FlameGolem",
+  "arts": [
+   {
+    "label": "Flame Pulse",
+    "cooldownSeconds": 20,
+    "desc": "A fire pulse bursts out: 9 damage to everyone within 3 cells, allies included. May set them alight.",
+    "element": "fire"
+   },
+   {
+    "label": "Furnace Breath",
+    "cooldownSeconds": 25,
+    "desc": "A cone of fire 5.7 cells long: 13 damage to everyone in front, allies included. May set them alight.",
+    "element": "fire"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Fabled_GaleHawk_Great",
+  "arts": [
+   {
+    "label": "Gale Dive",
+    "cooldownSeconds": 18,
+    "desc": "Dives from the air onto a spot up to 9.9 cells away: 18 damage to everyone within 1.5 cells, allies included, knocked back. Knocks back 2 cells.",
+    "element": "wind"
+   },
+   {
+    "label": "Gale Feathers",
+    "cooldownSeconds": 18,
+    "desc": "Fires a volley of wind shards at foes up to 9.9 cells away: 7 damage each, 3 shots. Knocks back 2 cells.",
+    "element": "wind"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Fabled_IronBoar_Great",
+  "arts": [
+   {
+    "label": "Iron Charge",
+    "cooldownSeconds": 20,
+    "desc": "Charges in a straight line up to 8.9 cells: 16 damage to everyone in the way, thrown aside 2 cells.",
+    "element": "iron"
+   },
+   {
+    "label": "Iron Hide",
+    "cooldownSeconds": 45,
+    "desc": "Hunkers down behind its iron hide: takes half damage for 10 seconds but moves slower.",
+    "element": "iron"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Fabled_MoonWolf_Great",
+  "arts": [
+   {
+    "label": "Moon Howl",
+    "cooldownSeconds": 50,
+    "desc": "A rallying moonlight howl: allies within 7.9 cells move faster and bite harder for 15 seconds.",
+    "element": "lunar"
+   },
+   {
+    "label": "Moonlit Pounce",
+    "cooldownSeconds": 12,
+    "desc": "Leaps on a foe up to 7.9 cells away: 17 damage and a short stagger. Dazes briefly.",
+    "element": "lunar"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Fabled_StoneTortoise_Great",
+  "arts": [
+   {
+    "label": "Stone Shell",
+    "cooldownSeconds": 45,
+    "desc": "Hunkers down behind its earth hide: takes half damage for 10 seconds but moves slower.",
+    "element": "earth"
+   },
+   {
+    "label": "Ground Pound",
+    "cooldownSeconds": 25,
+    "desc": "Rears up and slams the ground: 13 damage to everyone within 3.6 cells, allies included; smaller ones are stunned. Staggers briefly.",
+    "element": "earth"
+   }
+  ]
+ },
+ {
+  "defName": "NF_BoneSteed",
+  "arts": [
+   {
+    "label": "Deathless Charge",
+    "cooldownSeconds": 20,
+    "desc": "Charges in a straight line up to 8.9 cells: 15 damage to everyone in the way, thrown aside 2 cells.",
+    "element": "bone"
+   }
+  ]
+ },
+ {
+  "defName": "NF_StoneGolem",
+  "arts": [
+   {
+    "label": "Ground Pound",
+    "cooldownSeconds": 25,
+    "desc": "Rears up and slams the ground: 13 damage to everyone within 3.6 cells, allies included; smaller ones are stunned. Staggers briefly.",
+    "element": "earth"
+   },
+   {
+    "label": "Stone Skin",
+    "cooldownSeconds": 45,
+    "desc": "Hunkers down behind its earth hide: takes half damage for 10 seconds but moves slower.",
+    "element": "earth"
+   }
+  ]
+ },
+ {
+  "defName": "NF_WaterBeast",
+  "arts": [
+   {
+    "label": "Torrent",
+    "cooldownSeconds": 25,
+    "desc": "A cone of water 6.7 cells long: 21 damage to everyone in front, allies included. Knocks back 1 cell and douses fire.",
+    "element": "water"
+   },
+   {
+    "label": "Tail Lash",
+    "cooldownSeconds": 12,
+    "desc": "A water sweep all around: 16 damage to everyone within 2.6 cells, allies included, knocked back 1 cell. Knocks back 1 cell and douses fire.",
+    "element": "water"
+   },
+   {
+    "label": "Drowning Grip",
+    "cooldownSeconds": 20,
+    "desc": "Grabs an adjacent foe: 16 crushing damage, held (stunned) and entangled for a few seconds. Knocks back 1 cell and douses fire.",
+    "element": "water"
+   }
+  ]
+ },
+ {
+  "defName": "NF_WoodGolem",
+  "arts": [
+   {
+    "label": "Thorn Volley",
+    "cooldownSeconds": 18,
+    "desc": "Fires a volley of thorn shards at foes up to 9.9 cells away: 11 damage each, 4 shots. May entangle.",
+    "element": "nature"
+   },
+   {
+    "label": "Root Grasp",
+    "cooldownSeconds": 20,
+    "desc": "Grabs an adjacent foe: 19 crushing damage, held (stunned) and entangled for a few seconds. May entangle.",
+    "element": "nature"
+   },
+   {
+    "label": "Sap Mend",
+    "cooldownSeconds": 30,
+    "desc": "Mends the wounds of allies within 5.9 cells (itself included): up to 20 injury healed each.",
+    "element": "nature"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Fabled_GaleHawk_Young",
+  "arts": [
+   {
+    "label": "Gale Dive",
+    "cooldownSeconds": 18,
+    "desc": "Dives from the air onto a spot up to 9.9 cells away: 12 damage to everyone within 1.5 cells, allies included, knocked back. Knocks back 2 cells.",
+    "element": "wind"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Fabled_IronBoar_Young",
+  "arts": [
+   {
+    "label": "Iron Charge",
+    "cooldownSeconds": 20,
+    "desc": "Charges in a straight line up to 8.9 cells: 10 damage to everyone in the way, thrown aside 2 cells.",
+    "element": "iron"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Fabled_MoonWolf_Young",
+  "arts": [
+   {
+    "label": "Moon Howl",
+    "cooldownSeconds": 50,
+    "desc": "A rallying moonlight howl: allies within 7.9 cells move faster and bite harder for 15 seconds.",
+    "element": "lunar"
+   },
+   {
+    "label": "Moonlit Pounce",
+    "cooldownSeconds": 12,
+    "desc": "Leaps on a foe up to 7.9 cells away: 11 damage and a short stagger. Dazes briefly.",
+    "element": "lunar"
+   }
+  ]
+ },
+ {
+  "defName": "NF_Fabled_StoneTortoise_Young",
+  "arts": [
+   {
+    "label": "Stone Shell",
+    "cooldownSeconds": 45,
+    "desc": "Hunkers down behind its earth hide: takes half damage for 10 seconds but moves slower.",
+    "element": "earth"
+   }
+  ]
+ }
+]
