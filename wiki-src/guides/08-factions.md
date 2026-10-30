@@ -60,7 +60,7 @@ When your colony is strong enough, the ninja world panel shows a checklist and a
 - at least six colonists
 - not sworn to a village, or your sworn village blesses it at goodwill 75 or more
 - goodwill 0 or more with two villages
-- a household shrine, a training dummy or battle ring, and a comms console
+- a household shrine, a training dummy or battle ring, and a comms console or field radio
 
 Founding leaves your old village without anyone turning missing-nin. It becomes your first ally (+10 goodwill). Friendly villages are pleased and hostile ones less so; the Syndicate takes it badly. Everyone feels "we founded a hidden village" (+8 mood for 15 days). Afterwards chūnin exams are held at home, you can no longer swear to a village, and every 10 to 18 days a friendly faction sends a D to S rank request: you choose one of your top three eligible ninja, and the chance of success is 50% plus 7% for each level above the target, kept between 10% and 95%.
 

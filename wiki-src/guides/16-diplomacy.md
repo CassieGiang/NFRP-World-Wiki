@@ -1,7 +1,7 @@
 # Diplomacy and scroll trading
-@@summary Call a village on the comms console to request a squad, buy a scroll or send a gift. At goodwill 60 you can swear to one village for cheaper scrolls and more missions; leaving it makes your ranked ninja missing-nin and brings hunter-nin.
+@@summary Call a village on the comms console or field radio to request a squad, buy a scroll or send a gift. At goodwill 60 you can swear to one village for cheaper scrolls and more missions; leaving it makes your ranked ninja missing-nin and brings hunter-nin.
 ## Talking to the villages
-Call a hidden village on the comms console and, as long as they aren't hostile, you get three extra options:
+Call a hidden village on the comms console (or the field radio, which needs no power: research **Ninja gadgets**, then build it from the Misc tab) and, as long as they aren't hostile, you get three extra options:
 - **Request a ninja squad**: a squad of their ninja comes to help. Needs goodwill 40 and costs 25 goodwill.
 - **Buy a technique scroll**: a runner from the village brings the scroll. The better your relations, the higher the rank on offer: up to D rank for 150 silver, C rank for 300 (goodwill 40) or B rank for 600 (goodwill 75).
 - **Send a gift**: 500 silver for +12 goodwill.
@@ -41,7 +41,7 @@ A village courier body-flickers in with supplies, and squads appear beside the s
 **World of Naruto's village:** its Kage scroll permit is now the **village archive request** too, its Jōnin squad costs 9 honor, its squads body-flicker in, and the orbital trade permit is gone. Its supply drops still come by drop pod.
 
 ## Joining a village
-With goodwill 60 or more you can **swear your ninja** to one of the six hidden villages from the comms console. Only one village at a time.
+With goodwill 60 or more you can **swear your ninja** to one of the six hidden villages from the comms console or field radio. Only one village at a time.
 - Each of your ninja on the map receives the village's **headband**, brought by a runner.
 - The village's scrolls cost 30% less and go up to B rank. When a jōnin or the village leader does the talking, they go up to **A rank** (840 silver with the sworn discount).
 - It offers ranked missions three times as often.

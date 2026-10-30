@@ -28,7 +28,7 @@ Short answers to the questions players ask most, with links to the full guide.
 
 ## The world
 - **Why do the hidden villages attack me?** They're at war with everyone, but leave a new colony alone for its first year (60 days). Goodwill can be won back. See [Factions and missions](factions.html).
-- **How do I join a village?** At goodwill 60, swear to one village from the comms console: cheaper scrolls, more missions, its headband. See [Diplomacy](diplomacy.html).
+- **How do I join a village?** At goodwill 60, swear to one village from the comms console or field radio (no power needed): cheaper scrolls, more missions, its headband. See [Diplomacy](diplomacy.html).
 - **What are standing and permits?** With Royalty, honor with a village or samurai house earns standing (Friend of the Village up to Honored Elder) and permit points to spend on supplies, squads and the village archive. Missions can pay in honor. See [Village standing and permits](diplomacy.html#village-standing-and-permits).
 - **Can I play without guns?** Yes. All our scenarios have no firearms, and the mod setting **No firearms in any game** does it for any scenario: raiders get bows and blades, traders sell no guns, gun research is hidden. See [A world without firearms](getting-started.html#a-world-without-firearms).
 - **Can I get rid of the Empire?** Royalty always adds it, but the mod setting **Keep the Empire out of the ninja world** (on in all our scenarios) takes its settlements off the world map and stops its visitors, quests and titles. Village standing and permits keep working. Turning the Mechanoid hive off at world creation removes mechanoid raids too.
