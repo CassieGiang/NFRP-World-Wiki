@@ -1,7 +1,7 @@
 # Recommended mods
 What NFRP World needs, and the optional mods it works with.
 
-@@summary Required: Harmony, Taran Magic Framework and World of Naruto, in that order. Recommended but optional: Giddy-Up, Show Me Your Hands, Yayo's Animation, Medieval Overhaul and CAI 5000. NFRP World works without them.
+@@summary Required: Harmony, Taran Magic Framework and World of Naruto, in that order. Recommended but optional: Giddy-Up, Stylish Dialogs, Show Me Your Hands, Yayo's Animation, Medieval Overhaul and CAI 5000. NFRP World works without them.
 
 ## Required
 Load them in this order, then NFRP World:
@@ -12,6 +12,7 @@ Load them in this order, then NFRP World:
 ## Recommended
 None of these are needed. NFRP World notices them when they're loaded and works without them.
 - [Giddy-Up 2 (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=3674332861): riding. With it, NFRP World's big beasts are mounts, riders on flying beasts get the **Fly** order, and the mounted arts (Bajutsu) work. Without it, creatures simply can't be ridden. See [Mounts and flying](mounts-and-flying.html).
+- [Stylish Dialogs](https://steamcommunity.com/sharedfiles/filedetails/?id=3827006806): letters with a storyteller portrait and a reading layout. NFRP World's choice letters (choosing a ninja's first technique tree, envoys, clan requests, festivals) look and read much better with it; the choices themselves are the same.
 - [Show Me Your Hands](https://steamcommunity.com/sharedfiles/filedetails/?id=2475965842): hands on weapons. NFRP World sets the hand positions for its weapons, and its technique hands (hand seals, palm strikes, throws) take Show Me Your Hands' hand colour and size, so pawns never show four hands.
 - [Yayo's Animation (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2877292196): body animation. When it's loaded, NFRP World's technique sequences use smaller body motion and leave melee lunges to it.
 - [Medieval Overhaul](https://steamcommunity.com/sharedfiles/filedetails/?id=3219596926): NFRP World's woods are kept out of Medieval Overhaul's timber conversion, so its trees still give NFRP wood.
