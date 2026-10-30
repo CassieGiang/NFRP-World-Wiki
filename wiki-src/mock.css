@@ -4,7 +4,7 @@
 .mock{--w-top:#2e3036;--w-bot:#24262b;--w-edge:#0d0e10;--w-line:#59606d;--w-hover:#9aa2b1;--w-on:#c7cdd8;--w-text:#c9ced8;--w-soft:#9aa2b1;--w-groove:#15161a;--w-sel:#2e4260;--w-acc:#3d86e8;--w-good:#70b86b;--w-warn:#db8547;--w-bad:#c74738;
   margin:18px 0 22px;max-width:100%;font:13px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--w-text)}
 .mock.bronze{--w-top:#1f2329;--w-bot:#161a1f;--w-line:#40454f;--w-hover:#d9a640;--w-on:#d9a640;--w-text:#e6e3dc;--w-soft:#9e9e94;--w-groove:#101114;--w-sel:#59451f;--w-acc:#d9a640}
-.mock .mwin{position:relative;background:linear-gradient(var(--w-top),var(--w-bot));border:1px solid var(--w-edge);box-shadow:0 0 0 1px var(--w-line) inset,0 8px 24px rgba(0,0,0,.35);border-radius:3px;padding:12px 14px 14px;overflow:hidden}
+.mock .mwin{position:relative;background:linear-gradient(var(--w-top),var(--w-bot));border:1px solid var(--w-edge);box-shadow:0 0 0 1px var(--w-line) inset,0 8px 24px rgba(0,0,0,.35);border-radius:3px;padding:16px 22px 18px;overflow:hidden}
 .mock .mtitle{display:flex;align-items:center;gap:8px;font:600 16px/1.2 "Shippori Mincho",Georgia,serif;color:#fff;margin:0 0 10px;padding-right:22px}
 .mock .mtitle small{font:400 12px system-ui,sans-serif;color:var(--w-soft);margin-left:auto}
 .mock .mx{position:absolute;top:8px;right:10px;width:16px;height:16px;color:var(--w-soft);font:16px/16px system-ui;text-align:center}
@@ -45,14 +45,16 @@
 .mock .mslot.on{background:#332b1f;border-color:#d9a640;color:#fff}
 .mock .mslot.lock{background:#1a1a1c;border-color:#40454f;color:#7a7f88}
 .mock .mslot small{color:var(--w-soft);font-size:11px}
-.mock .mtiles{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px;max-height:260px;overflow-y:auto;padding:2px 4px 2px 0;margin:4px 0}
-.mock .mtile{display:flex;flex-direction:column;align-items:center;gap:2px;padding:4px;background:#22252b;border:1px solid #5a5e68;border-radius:2px;font-size:11px;text-align:center}
+.mock .mtiles{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));grid-auto-rows:86px;gap:4px;max-height:266px;overflow-y:auto;scroll-snap-type:y mandatory;padding:0 4px 0 0;margin:4px 0;scrollbar-width:thin;scrollbar-color:#5a5e68 transparent}
+.mock .mtile{display:flex;flex-direction:column;align-items:center;gap:2px;padding:3px;background:#22252b;border:1px solid #5a5e68;border-radius:2px;font-size:11px;line-height:1.15;text-align:center;overflow:hidden;scroll-snap-align:start;position:relative}
 .mock .mtile:hover{border-color:#8a8f99}
 .mock .mtile.on{background:#332b1f;border-color:#d9a640;color:#fff}
 .mock .mtile.lock{background:#1a1a1c;border-color:#40454f;color:#7a7f88}
 .mock .mtile.lock .mpic{opacity:.3}
-.mock .mtile b{font-weight:400}
-.mock .mpic{width:100%;aspect-ratio:1;object-fit:contain;display:flex;align-items:center;justify-content:center;color:var(--w-soft);font-size:10px;line-height:1.2}
+.mock .mtile b{font-weight:400;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.mock .mtile.lock{padding-top:14px}
+.mock .mtile.lock::before{content:"locked";position:absolute;top:3px;left:0;right:0;font-size:9px;letter-spacing:.04em;text-transform:uppercase;color:#8a8f99}
+.mock .mpic{width:100%;flex:1;min-height:0;object-fit:contain;display:flex;align-items:center;justify-content:center;color:var(--w-soft);font-size:10px;line-height:1.2}
 .mock .mfield{display:flex;align-items:center;gap:8px;margin:4px 0}
 .mock .mfield>span:first-child{width:92px;flex:none;color:var(--w-soft)}
 .mock .minput{flex:1;min-height:24px;padding:2px 8px;background:#0f1012;border:1px solid var(--w-line);color:#fff;display:flex;align-items:center}
@@ -62,4 +64,4 @@
 .mock .mback{margin-bottom:8px}
 .mock figcaption{margin-top:6px;color:var(--muted,#5d6871);font-size:.85rem}
 .mock figcaption::before{content:"Mockup · click the tabs and buttons. ";font-weight:600}
-@media (max-width:640px){.mock .mcols,.mock .mcols.even,.mock .mcols.three{grid-template-columns:1fr}.mock .mwin{padding:10px}}
+@media (max-width:640px){.mock .mcols,.mock .mcols.even,.mock .mcols.three{grid-template-columns:1fr}.mock .mwin{padding:14px 16px 16px}}
