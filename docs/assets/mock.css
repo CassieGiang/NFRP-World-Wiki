@@ -45,6 +45,14 @@
 .mock .mslot.on{background:#332b1f;border-color:#d9a640;color:#fff}
 .mock .mslot.lock{background:#1a1a1c;border-color:#40454f;color:#7a7f88}
 .mock .mslot small{color:var(--w-soft);font-size:11px}
+.mock .mtiles{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px;max-height:260px;overflow-y:auto;padding:2px 4px 2px 0;margin:4px 0}
+.mock .mtile{display:flex;flex-direction:column;align-items:center;gap:2px;padding:4px;background:#22252b;border:1px solid #5a5e68;border-radius:2px;font-size:11px;text-align:center}
+.mock .mtile:hover{border-color:#8a8f99}
+.mock .mtile.on{background:#332b1f;border-color:#d9a640;color:#fff}
+.mock .mtile.lock{background:#1a1a1c;border-color:#40454f;color:#7a7f88}
+.mock .mtile.lock .mpic{opacity:.3}
+.mock .mtile b{font-weight:400}
+.mock .mpic{width:100%;aspect-ratio:1;object-fit:contain;display:flex;align-items:center;justify-content:center;color:var(--w-soft);font-size:10px;line-height:1.2}
 .mock .mfield{display:flex;align-items:center;gap:8px;margin:4px 0}
 .mock .mfield>span:first-child{width:92px;flex:none;color:var(--w-soft)}
 .mock .minput{flex:1;min-height:24px;padding:2px 8px;background:#0f1012;border:1px solid var(--w-line);color:#fff;display:flex;align-items:center}
