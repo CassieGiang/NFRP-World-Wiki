@@ -46,8 +46,12 @@ A slip of [chakra paper](chakra-paper.html) shows a ninja's nature.
 
 **Nature training** makes that leaning theirs. Every session at the chakra study apparatus trains it: 40 sessions alone, or about 14 with a sensei nearby (each counts three). Then the nature becomes a real gene, its trees open, and the ninja's children can inherit it. Training needs room in the build: if all of the build's element tree slots are in use (or the build has no ninjutsu), a message says so and nothing is gained.
 
-## Scrolls and a second element
-- **Technique scrolls** (missions, the village archive, village traders) teach elements the ninja already has. About **one scroll in 33** is a rare find that opens an element the ninja doesn't have, with a letter to say so. An element learned that way is the ninja's own, but it isn't in their blood, so children don't inherit it.
+## A second element, and the advanced natures
+- **Chakra paper, very rarely:** a ninja who already has an element gets one roll per 15 days on their chakra paper, however many slips they use. With one element (or a pair that makes nothing), it's **3%** for a new basic nature. With both halves of a pair it's **1%** for the advanced nature they make together: **wind + water → Ice**, **earth + water → Wood**, **wind + earth → Sand**.
+- **Jōnin:** a jōnin's first slip always shows one more nature: the advanced one when a pair fits, otherwise a new basic one. Once per ninja.
+- **Making it theirs:** the new nature is a leaning, like a first one. **Nature training** turns it into a gene (40 sessions alone, about 14 with a sensei), if the build has a free element tree slot. Children conceived after that can inherit it; a leaning that isn't trained yet doesn't pass on. No new roll comes while a leaning is still untrained.
+- Crystal and Paper releases come only with their genes. Training Ice or Sand gives World of Naruto's Ice Release or Sand Control gene, which also opens that clan tree.
+- **Technique scrolls** (missions, the village archive, village traders) teach only elements the ninja already has. The reader picks a tree their build allows, then the technique.
 - **Written scrolls** from a scribe desk: a scroll of an element technique can only be read by a ninja with that element ("Needs fire nature").
 - Rare arts (Rasengan, Chidori, Hiraishin and others) have their own forbidden scrolls. See [Rare arts and legendary blades](rare-arts-and-legendary-blades.html).
 
