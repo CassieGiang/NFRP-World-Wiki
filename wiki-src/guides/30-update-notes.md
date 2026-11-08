@@ -3,6 +3,77 @@ What changed in recent updates, newest first.
 
 @@summary What changed in recent updates, newest first.
 
+## Updates 502–511: Training Points, tree scrolls, professions and Kage
+- **Training Points (TP)** replace levels for learning. Ninja earn TP from training sessions, sparring, a sensei, classes, fights and casting, and spend them in the new **Learn techniques** window. Ranks, missions, the chūnin exam and the jōnin trial use TP too. See [Training Points](training-points.html).
+- **Tree scrolls instead of masters:** most archive trees and a few others open only once a ninja reads that tree's scroll. Reading opens the tree and teaches its base technique for free. Scrolls come in Common, Rare and Powerful; Powerful ones only from real masters and ancient ruins. See [Tree scrolls](tree-scrolls.html).
+- **Advanced releases are bloodline only:** Ice, Wood, Sand, Crystal and Paper come free with their genes, and nobody else can learn them.
+- **First-tree letters** offer only trees that need no scroll, and teach the tree's base technique.
+- **Professions:** Venator and Bard are Rare scrolls; ANBU is a title the Kage gives (one division per ninja, it opens the ANBU tree and lets them wear that division's mask); Monster Trainer needs Binding seals first. Alchemist, Artisan and Ritualist each take a Miscellaneous slot in the Ninja build. See [Professions](professions.html) and [Builds](builds.html).
+- **Kage:** the leader of your village and of every ninja village is titled Kage. Samurai houses and the Syndicate keep their own titles.
+- **Tighter build rules:** Academy techniques are free for every genin and use nothing from the build; medical arts need a Medical Specialist build; the Shadow Clone tree needs the Shadow Clone scroll; Springtime of Youth needs the Eight Gates.
+- **World of Naruto techniques sorted into our trees** (with a balance pass on 15 ranks). See [World of Naruto techniques](world-of-naruto-techniques.html).
+- **New look:** buttons, tabs and selectors in the Learn, Ninja build and Ninja world windows use the slate style.
+
+## Updates 489–501: review fixes, the new Great Fireball and speed
+- Fixes from the 7 Nov code and QA reviews: clan techniques ask for Ninjutsu levels by rank, Ka (Addition) says it needs a sword, rules the archive techniques broke, and lab and Nukegara fixes.
+- **Great Fireball, version 2:** a charge in the last second of the wind-up, a comet in flight, a fire cloud and rising smoke, drawn frame by frame. A cancelled wind-up drops its charge at once.
+- **Faster:** caches for the busiest checks and one hook in place of eight for damage.
+
+## Updates 465–488: 267 new archive techniques
+- **Archive additions:** fighting and weapon styles, ninjutsu, genjutsu, taijutsu, medicine, seals, clans and bloodlines, skills and professions: 267 techniques from the NFRP archive, each with its own icon and impact art. A Universal Genjutsu tree opens with Intensify Fears.
+- **New kinds of technique:** reactions (counters, blocks, deflects, reflects, guards, last-moment saves), modifiers and masteries, resource pools (chakra spheres, stored sand, lightning petals, youth and others), stances (one at a time), clones and decoys, origin rituals, escapes, terrain and structures, sensing and stealth, control, Explosive Release, songs and mimicry.
+- **Thralls:** one at a time, never leaders, Kage or named ninja; the target must be down or stunned, and a thrall may break free each day.
+- **World of Naruto specializations** now come through the Ninja build; WoN's Specialize button is hidden.
+- **Balance:** origin rituals need a clan member beside the target and carry the archive's drawbacks; the Black Diamond sphere wears down.
+- **Frame-by-frame painted animations (pilot):** Great Fireball plays as painted drawings, about 12 a second, in all directions. A setting switches back to the older animation.
+
+## Updates 454–464: chakra mills, Ōtsutsuki relics and Gau
+- **Chakra mills** (research after sealing arts): a chakra watermill, a chakra windmill and a chakra seal jar that stores power. They never break down and work with conduits and switches.
+- **Ōtsutsuki relics:** the DLCs' archotech text now speaks of Ōtsutsuki relics, and tech levels read foreign, forbidden and Ōtsutsuki (English).
+- **Gau's ninja arts** (with Gau and Friends): Gau learns nine arts as he levels, from Kawarimi to Two-Tails' Blue Flame.
+- **Carry weight:** packs, pouches and strength techniques also raise how much a pawn carries in its inventory and caravans (needs Vanilla Expanded Framework).
+- **Chakra metal** can be forged at a smithy after chakra metallurgy: 10 steel and 1 spirit gem make 10.
+- The village panel's "Coming up" dates show days again.
+
+## Updates 444–453: Education classes, Ninja world pawns and rogue ninja labs
+- **Training messages:** one message per session names the building and what it gave.
+- **Ninja arts classes** for Progression: Education: taijutsu at dummies and battle rings, ninjutsu at the chakra apparatus, genjutsu and clan arts at school desks, taught by a sensei. A finished semester can teach a technique the sensei knows.
+- **Ninja world pawns** (setting, on by default): sleepers, refugees, wanderers, freed slaves and strangers come as wandering shinobi, ronin or commoners instead of spacers. See [The world](world.html#ninja-world-pawns).
+- **Rogue ninja labs:** about one ancient danger in three is one of Nukegara's abandoned labs, with gene-edited test subjects, clones and sometimes a ninja genepack. After two labs the trail leads to Nukegara himself (midgame: a chūnin by day 60, a jōnin for the lair). See [The world](world.html#rogue-ninja-labs).
+- Keeping the Empire out also stops VFE Deserters quests.
+
+## Updates 432–443: reviews, outfits leave for an add-on, short technique names
+- Time away on squad missions and festivals counts toward time at rank.
+- **Writing scrolls** costs more at higher ranks (gold from B, spirit gems from A); village scrolls are bought at a chosen rank; crafted items are valued closer to their materials; Kazeraikou techniques need Ninjutsu levels by rank like other clans.
+- Squad and hostage ninja stay yours while away; a captured or recruited named ninja leaves their village's records.
+- **Character outfits** moved to the **NFRP World: Character Outfits** add-on.
+- Descriptions for World of Naruto's instruction rituals and teacher roles.
+- The ninja orders ring's Kit slot opens a menu with both of its buttons.
+- **Short technique names:** jutsu window and bottom-bar buttons show a short name with the rank as a coloured corner badge, and a **Names: Japanese / English / Both** switch.
+- The Sensei button also offers the ideology Sensei role and your ideoligion's leader.
+- The lantern festival's dressing follows the gathering spot.
+
+## Updates 424–431: room seals, chakra paper and lamp oil
+- **Room seals** at the scribe desk: preservation (stops rot and deterioration in an enclosed room), fire-warding, lock, sensing barrier, chakra recovery, soundproof, healing, climate (21 °C), prison and calming seals, each for the floor or a wall, plus a storage seal (12 stacks a cell). Each needs its sealing research. See [Seals](seals.html#room-seals).
+- **Chakra paper:** seals and scrolls use World of Naruto's chakra paper (ours is gone).
+- **Lamp oil** replaces chemfuel in every NFRP recipe. It is rendered from raw meat or vegetables at the alchemy table, a fueled stove or a campfire.
+- Field medical items are filed under Items, so surgeries no longer use them up.
+
+## Updates 401–423: signature taijutsu, samurai gear and clothes
+- **Signature taijutsu and medical signatures:** design your own combo flurries, counter stances, grapple throws, mystic palms, healing circles and more.
+- **Samurai gear:** kabuto, menpo, jinbaori and sashimono; samurai of every rank wear Japanese armour.
+- **Clothes:** everyday clothes (tracksuit, jumpsuit, shinobi uniform, yukata, samue and others), work clothes with a small work bonus, and child versions of many. Dark materials no longer turn clothes black.
+- **Shinobi style** for 44 more vanilla and DLC buildings; new weapon icons.
+- **Impact beat:** every technique family plays a short impact where it lands.
+
+## Updates 375–400: day-one villages, invisible pawns fixed, Kage haori
+- New colonies can swear to a village from day one.
+- **Invisible pawns fixed:** backstories name a body type, and pawns left without one are repaired. Akimichi are Fat.
+- Ninja-only buttons are hidden for pawns without chakra.
+- **Canon names:** ANBU, hunter-nin, ninken, sensor-nin, medical-nin, tracker-nin, jōnin sensei and kage.
+- **Kage haori:** only a Kage colonist may wear it; enemy Kage arrive in it. New seal kunai art.
+- Not compatible: ChezhouLib (clothing looks see-through).
+
 ## Updates 373–374: high-rank techniques level buildings, reporting bugs
 - **S- and A-rank elemental techniques level buildings** (fire, earth, lightning, water, wind and the other elements): every building one hits takes at least **300** damage from an S-rank technique and **150** from an A-rank one, whether the technique strikes, sweeps an area, lingers as a storm or lands as a shot. Before, Great Fire Annihilation barely scorched a wall. Natural rock stays, and ranks B and below are unchanged. Aim with care near your own walls.
 - **Reporting bugs:** a new guide, [Reporting bugs](reporting-bugs.html), shows where Player.log is (RimWorld 1.7 keeps it in a Logs folder) and how to send it with a bug report on GitHub.

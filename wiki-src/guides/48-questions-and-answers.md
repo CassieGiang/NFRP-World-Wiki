@@ -12,12 +12,13 @@ Short answers to the questions players ask most, with links to the full guide.
 ## Ninja
 - **Why can't my colonist use techniques?** They have no **Chakra** trait. Clan genes, ninja backstories and village ninja have it; children awaken it in the academy, adults with a sensei at the chakra study apparatus. See [Becoming a ninja](becoming-a-ninja.html).
 - **What is the ninja build?** A choice every colonist makes once (from age 6): which kinds of trees they may enter and which go to S rank. See [Ninja builds](builds.html).
-- **How do I learn techniques?** With technique points as the class levels up, from technique scrolls (missions, villages, merchants), from written scrolls a scribe copies from another ninja, and with a sensei. See [Ranks](ranks.html).
-- **Why won't my ninja read this scroll?** Usually one of: the technique needs a higher class level; it doesn't fit the build; it is an element the ninja doesn't have (a written element scroll needs that element); or they already know it. The scroll's button says which.
+- **How do I learn techniques?** Earn **Training Points** (training, classes, sparring, missions, exams, fights) and spend them in the **Learn techniques** window, or read technique scrolls (missions, villages, merchants) and written scrolls a scribe copies from another ninja. See [Training Points](training-points.html).
+- **Why is a tree closed?** It may need its **tree scroll** (most archive trees), a bloodline (Ice, Wood, Sand, Crystal and Paper releases), the ANBU title from the Kage, a profession slot in the build (Alchemist, Artisan, Ritualist) or a Medical build. The Learn window's tooltip says which. See [Tree scrolls](tree-scrolls.html).
+- **Why won't my ninja read this scroll?** Usually one of: the technique needs a higher class; it doesn't fit the build; it is an element the ninja doesn't have (a written element scroll needs that element); or they already know it. The scroll's button says which.
 - **How does a ninja get an element?** From a gene: element genes and many clan genes. A ninja with none can find a leaning with chakra paper and make it theirs with nature training. See [Becoming a ninja](becoming-a-ninja.html#elements).
 - **Can a ninja learn a second element?** Through a gene (born with it, or two clans), or very rarely from a technique scroll (about 1 in 33 opens a new element).
 - **Can I learn another clan's techniques?** Only by carrying the bloodline: born into it, or grafted on by a Medical Specialist (capped at B rank). See [Clans and bloodlines](bloodlines.html).
-- **How do I rank up?** At the rank exam: ninja level, time at the current rank and skills. Genin, chūnin and jōnin are earned there, never bought. See [Ranks](ranks.html).
+- **How do I rank up?** With Training Points and time at rank: genin at 200 TP by the academy exam, chūnin at C class by the rank exam, jōnin through the Kage's trial mission. The village leader is always the Kage. See [Ranks](ranks.html).
 - **How do I break a genjutsu?** Kai (World of Naruto's technique) tries every two seconds, an ally with Kai can break it for you, and a hard hit can snap the victim out. See [Genjutsu schools](genjutsu-schools.html).
 
 ## Rare arts and gear

@@ -17,6 +17,10 @@ None of these are needed. NFRP World notices them when they're loaded and works 
 - [Yayo's Animation (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2877292196): body animation. When it's loaded, NFRP World's technique sequences use smaller body motion and leave melee lunges to it.
 - [Medieval Overhaul](https://steamcommunity.com/sharedfiles/filedetails/?id=3219596926): NFRP World's woods are kept out of Medieval Overhaul's timber conversion, so its trees still give NFRP wood.
 - [CAI 5000 - Advanced AI + Fog Of War (continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=3673768803): runs alongside NFRP World. Our **Enemy ninja tactics** setting only decides which techniques enemy ninja use and where they cast them.
+- **Gau and Friends**: Gau learns nine ninja arts as he levels, from Kawarimi at level 3 to Two-Tails' Blue Flame at 20.
+- **Progression: Education**: with it, the sensei teach **Ninja arts classes** (taijutsu at dummies and battle rings, ninjutsu at the chakra apparatus, genjutsu and clan arts at school desks). Classes give Training Points like a day's training. See [Training Points](training-points.html).
+- **Vanilla Expanded Framework**: packs, pouches and strength techniques also raise inventory and caravan carry weight.
+- **NFRP World: Character Outfits** (add-on): the canon character outfits now live there.
 - **Ferny's Progression mods**: not needed. NFRP World is developed and tested inside the Progression modpack and needs no extra setup there; with Progression loaded, Progression's research pacing also scales the ninja research costs, and a few ninja projects also ask for Progression's writing or advanced research bench projects.
 
 ## Not compatible

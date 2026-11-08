@@ -1,56 +1,49 @@
 # Ninja ranks and the rank exam
-Every ninja can climb four ranks: **genin**, **chūnin**, **jōnin** and **village leader**. A rank shows as a small bonus on the pawn's health tab, and each one replaces the last.
+Every ninja can climb the ranks **genin**, **chūnin** and **jōnin**; the village leader is the **Kage**. A rank shows as a small bonus on the pawn's health tab, and each one replaces the last.
 
-@@summary Four ranks (genin, chūnin, jōnin, village leader), earned at the rank exam with ninja level, time served and skills. Classes level slowly; training with a sensei, sparring, missions and exams are the main ways to grow.
+@@summary Genin at 200 TP by the academy exam, chūnin at C class by exam, jōnin by the Kage's trial mission at B class, and the village leader is always the Kage. Training Points come from training, classes, sparring, missions, exams and fights.
 
-## The rank exam
-Every couple of weeks the **rank exam** event comes round, as long as at least one colonist is eligible. Each eligible ninja sits the exam for the next rank. The chance of passing starts at 55%, goes up 4% for every ninja level above the requirement, and always stays between 30% and 92%. Passing gives a good mood for ten days; failing gives a small dip for five, and they can try again next time.
+## Ranks with Training Points
+Ranks follow the ninja's [Training Points](training-points.html) class and time served:
+- **Genin**: 200 TP earned, then the **academy graduation exam** (13 or older for under-18s). A genin learns every **Academy technique for free**, and Academy techniques never count toward the build.
+- **Chūnin**: a year (60 days) as genin, **C class** (500 TP) and Melee or Shooting 6, then the rank exam or a win at the chūnin exam.
+- **Jōnin**: two years (120 days) as chūnin and **B class** (1,500 TP). Jōnin is the Kage's call: a letter calls the chūnin for the **jōnin trial**, and the next B-rank or harder mission they finish on their feet makes them jōnin (+50 TP). Brought down on the mission, they can try again after 30 days.
+- **Kage**: the **village leader is always the Kage** and holds the kage rank; nobody else does. A colonist who was kage without leading steps back to jōnin. The ninja villages' leaders are titled Kage too; the Black Ink, the Venator and the samurai houses keep their own titles.
 
-- **Genin**: needs ninja level 3. For anyone under 18 it is the **academy graduation exam**: they must be 13 or older, and it is 15% easier. Bonus: learns a little faster.
-- **Chūnin**: needs a year (60 days) as genin, level 8, and Melee or Shooting 6. Bonus: learns faster, more social impact, steadier nerves.
-- **Jōnin**: needs two years (120 days) as chūnin, level 13, and two of Melee, Shooting, Intellectual or Medicine at 8. Bonus: social impact, steadier nerves, better aim and melee hits.
-- **Village leader**: needs four years (240 days) as jōnin, level 16 and Social 8; only one per colony. Bonus: big social and negotiation bonus, steady nerves, better aim and hits.
+Every couple of weeks the **rank exam** event comes round for eligible colonists. The chance of passing starts at 55% and stays between 30% and 92%. Passing gives a good mood for ten days; failing a small dip for five.
 
-Hover over a rank on the health tab to see the pawn's ninja level, how long they've held the rank, what the next exam needs, and whether they're ready for it.
+Hover over a rank on the health tab to see how long the pawn has held it, what the next rank needs and whether they're ready.
 
-**Ninja level** is the highest of the pawn's Ninjutsu, Taijutsu and Genjutsu class levels.
-
-## Leveling pace
-Ninja classes level slowly, so a rank is earned over years of play:
-
-- Each new level of Ninjutsu, Taijutsu or Genjutsu costs 150 × (current level + 1) XP, three times the framework's default. Reaching level 20 takes 31,500 XP in all.
-- NFRP World techniques give a small amount of XP once per cast, to the class the technique belongs to: a quarter of the XP written in the technique, at least 1. That is usually 2 for D rank, 2 to 3 for C, 4 for B, 6 to 7 for A and 11 to 12 for S. Fighting alone won't make a jōnin.
-- **Progression speed** in the mod settings (Village life tab, 25% to 200%) divides the XP every level needs. At 100% a ninja with a sensei reaches chūnin in about a year and a half and jōnin in under four; training alone takes roughly 2.5 and 5.5 years. The years each rank exam asks for never change.
-
-## Other ways to grow
-- **Training**: one session a day at a training building gives class XP as well as skill. Training post and training dummy: 15 Taijutsu. Battle ring: 18 Taijutsu. Chakra study apparatus ("Study chakra at"): 15 Ninjutsu. Star-watching platform ("Meditate on"): 15 Genjutsu. From class level 8 training gives half, and training alone stops at level 10. Pawns who refuse violence can still study at the apparatus and meditate at the platform; only the post, dummy and ring turn them away.
-- **Sensei and student**: select a colonist below jōnin and use the **Sensei** button to pick a jōnin or village leader who outranks them. While the sensei is awake within 15 cells, the student gets three times the XP from training and sparring, in the sensei's best class, and can grow past level 10 up to one level below the sensei (at most 16). The sensei gains Social.
-- **Sparring**: select a colonist, right-click a **battle ring** and pick "Spar with" a partner. Both walk to the ring and spar: Melee practice for both, 12 Taijutsu XP each at the end (three times as much with their sensei). There is a small chance of a light bruise; nobody gets knocked down.
-- **Missions**: clearing a ranked mission's camp gives every ninja on the site class XP by mission rank: D 60, C 120, B 250, A 450, S 800.
-- **Exams**: passing a rank exam gives genin 300, chūnin 600, jōnin 1,000 and village leader 1,500 class XP.
+## Growing
+- **Training**: one session a day at a training post, training dummy, battle ring, chakra study apparatus or star-watching platform gives 10 TP (15 with the sensei near) as well as skill. There is no solo cap any more.
+- **Sensei and student**: select a colonist below jōnin and use the **Sensei** button to pick a jōnin or the Kage who outranks them (or the ideoligion's Sensei role). While the sensei is awake within 15 cells, the student's sessions give half as much again. The sensei gains Social.
+- **Sparring**: right-click a **battle ring** and pick "Spar with" a partner; both get a session's TP.
+- **Classes**: ninja classes and academy lessons (and Progression: Education's) give 5 TP once a day.
+- **Missions**: D and C 5 TP, B 10, A 20, S 25. **Exams**: the chūnin exam gives 100 TP, the jōnin trial 50.
+- **Fights**: 3 TP a technique cast at enemies (at most 15 a day); other casting 1 TP per 5 casts (at most 3 a day).
 
 ## The academy (Biotech)
-Colonist children aged 6 to 17 with no rank gain class experience whenever their Biotech learning need fills, from lessons, the school desk, reading and play: 45 XP per full point of learning, at most 40 a day, and double when a ranked ninja teaches nearby. It goes into the child's best class, or Taijutsu, and stops at class level 5. The inspect panel shows "Academy student: n/40 class XP today, graduates at 13". Graduating gives a good mood for ten days. A child without chakra awakens it the first time they study. Adults without chakra can awaken it with a sensei at the chakra study apparatus; see [Becoming a ninja](becoming-a-ninja.html).
+Colonist children aged 6 to 17 with no rank learn at the academy: Biotech lessons, the school desk and academy classes give 5 TP once a day like other classes. They sit the academy graduation exam from 13, once they have earned 200 TP. Graduating gives a good mood for ten days. A child without chakra awakens it the first time they study. Adults without chakra can awaken it with a sensei at the chakra study apparatus; see [Becoming a ninja](becoming-a-ninja.html).
 
 ## Missions by rank
-Like the role-play, a ninja's rank decides which missions they can take: unranked ninja only D, genin up to C, chūnin up to B, jōnin and the village leader any. Accepting a mission no ranked ninja of yours can take is refused with the reason. A colony with no ranked ninja at all is never blocked.
+Like the role-play, a ninja's rank decides which missions they can take: genin D and C, chūnin up to B, jōnin up to A, and ANBU and the Kage S. Accepting a mission no ninja of yours can take is refused with the reason.
 
 ## The chūnin exam
-About once a season after the truce ends, your sworn village (or another friendly village) invites your genin to the **chūnin exam**. Only genin of ninja level 6 or more may enter. Pick up to three of them and send them; the exam is played out at once in three stages:
+About once a season after the truce ends, your sworn village (or another friendly village) invites your genin to the **chūnin exam**. Only genin of C class may enter. Pick up to three of them and send them; the exam is played out at once in three stages:
 - **Written test**: Intellectual and Social.
 - **Survival trial**: ninja level and the better of Melee or Shooting.
 - **Final duel**: ninja level, Melee and Shooting.
 
-Each stage has a roll on both sides, so an underdog can win. Winners become **chūnin** on the spot, even without a year as genin, and gain 600 class XP; the others gain XP for how far they got (300, 150 or 60). Those beaten in the trial or the final may come back bruised. One letter tells the whole tournament, round by round, against genin from the other villages. The host's goodwill rises for every finalist and winner.
+Each stage has a roll on both sides, so an underdog can win. Winners become **chūnin** on the spot, even without a year as genin, and gain 100 TP. Those beaten in the trial or the final may come back bruised. One letter tells the whole tournament, round by round, against genin from the other villages. The host's goodwill rises for every finalist and winner.
 
-Ninja from other villages carry ranks too, matching how strong their loadout is: their leaders are village leaders, their elites jōnin.
+Ninja from other villages carry ranks too, matching how strong their loadout is: their leaders are Kage, their elites jōnin.
 
 
 ## The ninja world panel
-The **ninja world** button on the bottom bar opens one screen with everything about your place in the ninja world: the village you're sworn to and its perks (or how to join), any colonists marked missing-nin, the truce countdown, how many days until a chūnin exam invitation can come and which village would host it, goodwill and relation with every NFRP faction, and a list of your ninja with rank, level, days at that rank and whether they're ready for the next exam. Click a ninja's row to select them.
+The **ninja world** button on the bottom bar opens one screen with everything about your place in the ninja world: the village you're sworn to and its perks (or how to join), any colonists marked missing-nin, the truce countdown, how many days until a chūnin exam invitation can come and which village would host it, goodwill and relation with every NFRP faction, and a list of your ninja with rank, class, days at that rank and whether they're ready for the next exam. Click a ninja's row to select them.
 
 ## Leader orders
-A colonist with the **village leader** rank gets three buttons when selected on their own:
+The **Kage** (the village leader) gets three buttons when selected on their own:
 - **Rally the village** (once a day): everyone on the map is rallied for about six hours (+5% consciousness), and everyone but the leader feels "rallied by the leader" (+6 mood for a day).
 - **Call to arms** (once a day): drafts every ninja on the map who can fight, and all of them are "called to arms" for about three hours (faster movement, +3 shooting accuracy, +3 melee hit chance).
 - **Assign a mission** (once every 10 days): pick a rank from D to S and a ranked mission comes in from your sworn village, or the friendliest village that gives missions. It's greyed out with the reason if no village can give one.

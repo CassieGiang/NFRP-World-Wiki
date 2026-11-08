@@ -10,6 +10,8 @@ Who's out there, the war, the truce and ranked missions.
 - **The Order of the Venator**: witch-hunters, friendly, and traders of seals, Revamp Scrolls, talismans, potions and scrolls.
 - **Feudal houses** Akagane, Shiranami and Kurogane: samurai in plate armour, neutral.
 
+Each hidden village is led by its **Kage**, who arrives in the kage haori. The Black Ink Syndicate is led by its Ink Master, the Order by the Grand Venator and each feudal house by its daimyo. Your own village's leader is always your Kage too (see [Ranks](ranks.html)).
+
 ## Clans of each village
 Ninja of each village are born into its clans (and some into none). World of Naruto's clans are spread over our villages too.
 

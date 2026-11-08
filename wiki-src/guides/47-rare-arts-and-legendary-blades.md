@@ -10,12 +10,12 @@ The most famous techniques and swords can't be bought, crafted or inherited: the
 | **Edo Tensei** (Impure World Reincarnation) | Opens the Edo Tensei tree and teaches Edo Tensei |
 | **Rasengan** | Teaches the Rasengan; its variants (Rasenshuriken, Rasenfire and others) follow |
 | **Chidori** | Teaches the Chidori (Lightning Blade); its variants follow. **Needs lightning nature** |
-| **Shadow Clone** | Teaches Shadow Clone |
+| **Shadow Clone** | Teaches Shadow Clone and opens the Shadow Clone tree (the element shadow clones and the other clone arts) |
 | **Toad contract** | Gamakichi first; bigger toads, the reverse summoning and Toad Sage Mode follow |
 | **Snake contract** | A cobra first; the great snake, the reverse summoning and Snake Sage Mode follow |
 | **Slug contract** | The slug summon |
 
-After the scroll, the rest of the art is learned with technique points, as usual. Without the scroll, points can't buy it, and nothing else teaches it: no gene, no random technique scroll, no master, no scribe (a rare art can't be written down). The scroll is used up after reading.
+After the scroll, the rest of the art is learned with [Training Points](training-points.html), as usual. Without the scroll, points can't buy it, and nothing else teaches it: no gene, no random technique scroll, no master, no scribe (a rare art can't be written down). The scroll is used up after reading.
 
 ## Where the scrolls come from
 - **Landmarks:** scroll caches (40%), sealed temples (30%) and clan laboratories (20%) may hold one.

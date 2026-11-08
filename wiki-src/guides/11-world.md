@@ -22,7 +22,7 @@ The wilds of the NFRP world: archive beasts, herbs, chakra metal and gems, seale
 - **Zalantar** (strong black wood) and **golden beech** (beautiful golden wood) are trees with their own woods.
 
 ## Materials
-- **Chakra metal** ore: a metal for weapons and armour. Weapons made of it drain a little chakra with every hit.
+- **Chakra metal** ore: a metal for weapons and armour. Weapons made of it drain a little chakra with every hit. After chakra metallurgy, a smithy forges it too: 10 steel and 1 spirit gem make 10.
 - **Spirit gem** veins: A and S rank seals need spirit gems.
 - **Ruby, sapphire, emerald and amethyst** veins: cut them into gems (below) or sell them rough.
 
@@ -32,10 +32,23 @@ New maps sometimes hold a ruin, and travellers sometimes tell of one nearby (a q
 - **Ruined shrine**: broken walls, an **altar** and a sealed **offering urn**. Praying at the altar gives a three-day blessing (faster chakra, a calmer mind); each shrine has three blessings in it. The urn is sometimes guarded by hell moths or wrath wolves.
 - **Abandoned training ground**: old **training posts**, a few practice weapons and sometimes a forgotten technique scroll. An hour at a post teaches melee, once a day per person, and now and then the carved notes teach a D-rank taijutsu technique.
 
+## Ninja world pawns
+With the **Ninja world pawns** setting (on by default), sleepers in cryptosleep, refugees, wanderers who join, freed slaves and strangers come as wandering shinobi, ronin or commoners with ninja-world backstories and gear, instead of spacers or other mods' xenotypes. About one in five belongs to a World of Naruto clan.
+
+The DLCs' archotech text speaks of **Ōtsutsuki relics**, and tech levels read foreign, forbidden and Ōtsutsuki (English only).
+
+## Rogue ninja labs
+About one ancient danger in three is one of **Nukegara's** abandoned labs (setting, with Ninja world pawns on).
+- **Inside:** gene-edited test subjects (chakra, elements, sometimes a grafted bloodline with side effects), a batch of clones with one face, failed experiments under a cursed seal, sometimes a lab assistant (medical-nin), growth vats, notes, bloodline samples, chakra pills and medicine.
+- **Genepacks:** about one lab in three leaves a ninja genepack with one or two genes (chakra, elements, sometimes a bloodline; never an eye clan).
+- **The trail:** after two labs the notes lead to Nukegara's lab still in use. Later Nukegara visits your colony, may kidnap a colonist and escapes when badly hurt. Last comes his lair, with an S-rank Nukegara, his clones and the colonists he took. The first time he falls he sheds his skin and rises again elsewhere.
+- **When:** the trail waits for day 60 and a chūnin (or 80,000 wealth); the visit and the lair wait for a jōnin (or 150,000 and 200,000 wealth).
+- **Rewards:** a perfected genepack with an eye-clan gene (the only source), a snake contract scroll, notes and a genepack.
+
 ## Events
 - **Monster incursion**: a pack of maddened archive creatures comes out of the wilds. If the Order of the Venator is friendly, its hunters sometimes follow the pack and join the fight.
 - **Chakra storm**: a violet storm. Every ninja recovers chakra much faster and hits harder with techniques, but lightning strikes at random. Stay under a roof.
-- **Wandering master**: a master of a friendly faction visits for about a day and offers lessons for silver: open the letter, choose a ninja and one of up to three techniques that fit their build. Two lessons per visit, up to B or A rank. Prices: D 150, C 350, B 750, A 1500 silver.
+- **Wandering master**: a master of a friendly faction visits for about a day and offers lessons for silver: open the letter, choose a ninja and one of up to three techniques that fit their build. Two lessons per visit, up to B or A rank. Prices: D 150, C 350, B 750, A 1500 silver. The master also sells one or two **tree scrolls** of their own arts, sometimes powerful ones (see [Tree scrolls](tree-scrolls.html)).
 
 ## Mineral Alchemy (crystalmancers)
 Gems are cut and harnessed at the alchemy table.

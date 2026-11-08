@@ -1,21 +1,27 @@
 # Alchemy and crafting
 The alchemy table, disciplines, the scribe desk and the crafting arts.
 
-@@summary Anyone makes common pills at the alchemy table; one alchemy discipline per colonist (Brewmeister, Crystalmancy or Demolitionist) opens the rest. The scribe desk writes technique scrolls of anything a ninja knows, except clan techniques.
+@@summary Anyone makes common pills at the alchemy table. Alchemist and Artisan are professions that take a Miscellaneous slot in the Ninja build; the Alchemist picks one discipline (Brewmeister, Crystalmancy or Demolitionist). The scribe desk writes technique scrolls of anything a ninja knows, except clan techniques.
 
 ## Alchemy table
 - Anyone can make the common pills and potions here.
-- Each colonist aged 13+ can follow one **alchemy discipline** (button on the pawn). The first choice is free; changing it uses a Revamp Scroll.
+- **Alchemist is a profession.** A colonist becomes one with **Take Alchemist...** in the Miscellaneous part of the [Ninja build](builds.html#miscellaneous-trading-a-mastery), which costs a mastery and picks the **alchemy discipline**. A Medical Specialist pays with a Medical mastery. Changing the discipline later uses a Revamp Scroll (button on the pawn).
+- Without the Alchemist pick, the alchemy trees (Alchemy arts, Alchemy enhancement, Mad science, Alchemist's tricks) stay closed. Colonists who were already alchemists in an older save keep it.
 - **Brewmeister**: brews for rage, courage, healing, energy and protection. **Crystalmancy**: crystals that heal or shield, and gem grenades. **Demolitionist**: all bombs, bigger batches, cluster bombs and land mines.
 
 ## Crafting arts (passive)
+- **Artisan is a profession too:** **Take Artisan...** in the Ninja build opens the Artisan arts, Equipment enhancing and Artisan paths trees.
 - **Alchemy arts** and **Artisan arts** are passive perks: faster work, better yields, tougher bodies, and a chance to make items one quality level better (Cutting Corners, Alchemical Perfection, Mastercraft).
 - **Alchemy enhancement**: what an alchemist knows is stamped on everything they make at the alchemy table. Bombs can hit harder, burn, daze, stun or ignore armour; drinks and pills can last longer or not be used up.
 - **Mad science**: an alchemical companion animal, a body of energy, poison spit, paralysing strikes and more.
 
 ## Scribe desk
 - Write **technique scrolls**: pick a technique with the "Scroll to write" button. A ninja can write any technique they know, up to the rank they know it at, but never clan or bloodline techniques. Written scrolls can be sold.
-- Seals and Revamp Scrolls can be made here too.
+- **Tree scrolls:** a ninja who knows a tree can write its scroll (Common, Rare or Powerful). See [Tree scrolls](tree-scrolls.html).
+- Seals, room seals and Revamp Scrolls can be made here too. Seals and scrolls use World of Naruto's **chakra paper**.
+
+## Lamp oil
+Every NFRP recipe that once took chemfuel takes **lamp oil**. Render it from raw meat or vegetables at the alchemy table, a fueled stove or a campfire.
 
 ## Bombs, oils and poisons
 - Demolitionists can make more than twenty alchemical bombs: fire, shrapnel, lightning, freezing wind, blinding sand, sticky goo, spores and poison gas, up to the S-rank Apocalypse. Many leave everyone in the blast dazed, blinded, slowed or drained of chakra.

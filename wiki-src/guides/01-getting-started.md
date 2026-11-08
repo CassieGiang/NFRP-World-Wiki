@@ -18,8 +18,9 @@ What to install, what changes when you start a colony, and where to find everyth
 
 ## Your first ninja
 - A pawn needs the **Chakra** trait to use techniques: clan genes, ninja backstories and village ninja have it; children awaken it in the academy and adults with a sensei. See [Becoming a ninja](becoming-a-ninja.html).
-- Every colonist aged 6 or older gets a **Ninja build** button. The build decides which kinds of trees the pawn can enter and how far they can go in each. See [Ninja builds](builds.html).
-- Techniques live in World of Naruto's ability window, in the Ninjutsu, Clan and other tabs. Each technique has ranks from D to S; higher ranks need a higher class level.
+- Every ninja (a pawn with chakra) aged 6 or older gets a **Ninja build** button. The build decides which kinds of trees the pawn can enter and how far they can go in each. See [Ninja builds](builds.html).
+- Techniques live in World of Naruto's ability window, in the Ninjutsu, Clan and other tabs. Each technique has ranks from D to S. Ninja earn **Training Points** and spend them in the **Learn techniques** window; higher ranks need a higher class. See [Training Points](training-points.html).
+- Many trees open only with their **tree scroll**; reading it also teaches the tree's first technique. See [Tree scrolls](tree-scrolls.html).
 - Tree and technique names read Japanese first, with the English meaning in brackets, for example Irekawari (body switch). NFRP's own invented names, the fighting styles, summons and a few clan trees keep theirs.
 - Pawns born into a clan (a gene or xenotype) get that clan's tree for free. See [Clans and bloodlines](bloodlines.html).
 - Some trees are open to every ninja from the start: Summoning arts, Contract bonds and the crafting arts. Medical ninjutsu is open too, but only up to D rank; higher ranks need a Medical Specialist build.

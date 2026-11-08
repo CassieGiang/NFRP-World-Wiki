@@ -1,5 +1,5 @@
 # Genjutsu schools
-Six schools of illusion from the archive, all in the **Genjutsu** tab. They unlock like the other genjutsu trees. Each school opens with a "Perception" passive that helps see through that kind of illusion.
+Six schools of illusion from the archive, all in the **Genjutsu** tab. Each school needs its **Common tree scroll** (see [Tree scrolls](tree-scrolls.html)); reading it opens the school and teaches its Perception passive for free. Each school opens with a "Perception" passive that helps see through that kind of illusion.
 
 @@summary Six schools of illusion in the Genjutsu tab: Figment, Glamour, Pattern, Phantasm, Shadow and Charm. Each opens with a Perception passive, and illusions only affect enemies unless they are meant to help.
 
