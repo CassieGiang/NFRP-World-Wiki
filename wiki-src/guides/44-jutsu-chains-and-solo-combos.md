@@ -10,6 +10,7 @@ Trained ninja can fire several techniques on one order, and finish elemental com
 - Each step pays its own chakra and goes on its own cooldown. A step still on cooldown is skipped.
 - The chain stops when chakra runs out, the ninja is downed or stunned, or no enemy is left. If the target dies, the next step goes to the nearest enemy.
 - Only offensive ninjutsu aimed at an enemy can go in a chain: no taijutsu, toggles, summons, heals or buffs.
+- **Enemy ninja chain too**, by the same rules: when one with 2 or more steps casts a ninjutsu at one of yours, it follows up with its other ninjutsu (different elements first, then the strongest).
 - Set the chain in the combo window's **Jutsu chain** tab, then fire it with the **Jutsu chain** button on the drafted ninja.
 
 ## Break combo slots
