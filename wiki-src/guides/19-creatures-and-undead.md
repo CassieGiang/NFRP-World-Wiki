@@ -4,12 +4,22 @@ Sixteen new beasts and fifteen undead, from the archive's bestiary. Creatures fo
 @@summary Dozens of new beasts and fifteen undead from the archive's bestiary, sized by the archive's classes. Every creature has signature arts of its own; the undead are always hostile and rise at night from day 15.
 
 ## Beasts
-- **Ember cockatrice**: spits fire. **Blizzard bear**: its roar freezes prey. **Stone-gaze basilisk**: its gaze stiffens and slows.
-- **Sand kraken**: tentacles burst out of the dunes. **Frost hydra**: five freezing heads and a stunning bellow.
-- **Jungle griffon**: fierce, and a loyal mount once tamed. **Jet couatl**: a feathered serpent that calls lightning.
-- **Megalo centipede**: burning venom. **Profane crocodile**: festering bites. **Gorecupine**: anything that strikes it bleeds.
-- **Ram-horned mammoth**: a strong pack beast that can be shorn and ridden. **Crescent elk**: herds in the northern forests. **Hoarfrost fox**: an eager little hunter once tamed.
-- **Shocker lizard**: harmless alone, dangerous in a nest. **Flying swamp jellyfish**: drifting stinging tentacles. **Shadestriker**: a man-sized hawk diving out of dark mist.
+- **Ember cockatrice**: spits fire.
+- **Blizzard bear**: its roar freezes prey.
+- **Stone-gaze basilisk**: its gaze stiffens and slows.
+- **Sand kraken**: tentacles burst out of the dunes.
+- **Frost hydra**: five freezing heads and a stunning bellow.
+- **Jungle griffon**: fierce, and a loyal mount once tamed.
+- **Jet couatl**: a feathered serpent that calls lightning.
+- **Megalo centipede**: burning venom.
+- **Profane crocodile**: festering bites.
+- **Gorecupine**: anything that strikes it bleeds.
+- **Ram-horned mammoth**: a strong pack beast that can be shorn and ridden.
+- **Crescent elk**: herds in the northern forests.
+- **Hoarfrost fox**: an eager little hunter once tamed.
+- **Shocker lizard**: harmless alone, dangerous in a nest.
+- **Flying swamp jellyfish**: drifting stinging tentacles.
+- **Shadestriker**: a man-sized hawk diving out of dark mist.
 
 The dangerous ones also turn up in **monster incursions**. Basilisks and centipedes guard **tombs**, and the jet couatl guards **shrines**.
 

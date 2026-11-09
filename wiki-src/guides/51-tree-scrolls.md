@@ -42,7 +42,9 @@ When a ninja starts a class (level 1), a letter offers a first tree of that kind
 Not every lock is a scroll:
 - **Advanced releases** (Ice, Wood, Sand, Crystal, Paper): no scroll, teacher, mission or Sharingan teaches them. They come with the bloodline gene, or (Ice, Wood and Sand only) through a rare chakra paper leaning that nature training makes real. See [Becoming a ninja](becoming-a-ninja.html#a-second-element-and-the-advanced-natures).
 - **Rare arts** (Hiraishin, Edo Tensei, Rasengan, Chidori, Shadow Clone, the summoning contracts): their forbidden scrolls, as before. The Kage Bunshin clone arts need the Shadow Clone itself. See [Rare arts and legendary blades](rare-arts-and-legendary-blades.html).
-- **ANBU**: a title from the Kage. **Monster Trainer**: after Binding seals. **Alchemy, Artisan and Rituals**: a Miscellaneous slot in the build. See [Professions](professions.html).
+- **ANBU**: a title from the Kage.
+- **Monster Trainer**: after Binding seals.
+- **Alchemy, Artisan and Rituals**: a Miscellaneous slot in the build. See [Professions](professions.html).
 - **Medical arts** (Medical Ninjutsu, Sensor, Soulcaster): a Medical Specialist build.
 - **Spring Time of Youth**: the Eight Gates first.
 - **Sharingan, Mangekyō, Byakugan and bug techniques** from World of Naruto: their eye or host. See [World of Naruto techniques](world-of-naruto-techniques.html).

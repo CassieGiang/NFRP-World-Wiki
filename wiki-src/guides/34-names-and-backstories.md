@@ -18,6 +18,14 @@ Each group gets fitting stories: village ninja get shinobi and village-folk stor
 
 Ninja-trained backstories (academy students, clan heirs, genin team leaders, masked-guard operatives, missing-nin, medics, sensors and the like, 33 in all) give the Chakra trait, so those pawns can use techniques and have the ninja tab. Village-folk and feudal backstories never do.
 
+## Rank from the backstory
+An adulthood that says what rank the pawn held gives that rank when the pawn first joins your colony, with the Training Points the rank needs:
+- **Jōnin (1,500 TP, B class):** jōnin sensei, retired jōnin, kage candidate, ANBU operative, combat instructor.
+- **Chūnin (500 TP, C class):** chūnin exam proctor, academy teacher, mission-desk officer, village gatekeeper, interrogator, medical-nin, sensor-nin, tracker-nin.
+- **Genin (200 TP):** border patrol, tide-watch ninja, dune scout, grove warden, bell-tower adept, summoner's beast-keeper, puppeteer, sealing scribe.
+
+Missing-nin, war deserters and non-ninja adulthoods give no rank. A child raised in your colony earns their rank at the exams, whatever adulthood they grow into.
+
 ## Who gets them
 - NFRP's villages, Black Ink, the Venator, the feudal houses and their villagers.
 - World of Naruto's village, rogue and trader ninja.

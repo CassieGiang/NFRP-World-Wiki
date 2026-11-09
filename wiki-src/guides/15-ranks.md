@@ -19,7 +19,8 @@ Hover over a rank on the health tab to see how long the pawn has held it, what t
 - **Sensei and student**: select a colonist below jōnin and use the **Sensei** button to pick a jōnin or the Kage who outranks them (or the ideoligion's Sensei role). While the sensei is awake within 15 cells, the student's sessions give half as much again. The sensei gains Social.
 - **Sparring**: right-click a **battle ring** and pick "Spar with" a partner; both get a session's TP.
 - **Classes**: ninja classes and academy lessons (and Progression: Education's) give 5 TP once a day.
-- **Missions**: D and C 5 TP, B 10, A 20, S 25. **Exams**: the chūnin exam gives 100 TP, the jōnin trial 50.
+- **Missions**: D and C 5 TP, B 10, A 20, S 25.
+- **Exams**: the chūnin exam gives 100 TP, the jōnin trial 50.
 - **Fights**: 3 TP a technique cast at enemies (at most 15 a day); other casting 1 TP per 5 casts (at most 3 a day).
 
 ## The academy (Biotech)

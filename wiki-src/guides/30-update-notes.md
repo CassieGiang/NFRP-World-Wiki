@@ -3,6 +3,11 @@ What changed in recent updates, newest first.
 
 @@summary What changed in recent updates, newest first.
 
+## Updates 518–519: half-price scrolls, ranks from backstories
+- **Written scrolls and grimoires** now cost half the TP price, like technique scrolls.
+- **Backstory ranks:** a retired jōnin joins as a jōnin, an academy teacher as a chūnin, a border patrol as a genin, and so on, with the TP the rank needs. See [Names and backstories](names-and-backstories.html#rank-from-the-backstory).
+- **Ryusen (Dragon Strike)** got B-rank stats: 24 chakra, 30 damage.
+
 ## Updates 514–517: prerequisites, real blasts, the truce and class everywhere
 - **Prerequisites as in the role-play:** a technique that builds on another needs it first (Greater Blade Rush needs Blade Rush, the element Kage Bunshin need Shadow Clone, Kirin needs Chidori and Great Fireball). The grey row names what's missing. See [Training Points](training-points.html#prices).
 - **No Taijutsu or Ninjutsu level gates** for Training Points ninja: the class, the price and the prerequisites decide.
@@ -345,7 +350,8 @@ Mind-breaking genjutsu (confusion, panic, berserk, including the area ones) was 
 - **Stances use tools** with no chakra: smoke and kunai openers, senbon from hiding, bombs at groups (never next to allies), nets, pills for allies.
 - **Thrown blades come back**: they land on the ground or stick in the target and fall out later; a small chance to break on a hit. Bombs and pills are used up.
 - **Sidearm swap by range**, standing down when a weapon-swap mod is loaded. **Enemy ninja carry kits** by rank.
-- **Guard posts**: draw a hold-fire area as well as the ring. **Formations**: places behind a wall move to a cell the leader can see and reach.
+- **Guard posts**: draw a hold-fire area as well as the ring.
+- **Formations**: places behind a wall move to a cell the leader can see and reach.
 
 ## Updates 142 and 143: wounded retreat and the Barrage stance
 - Badly hurt pawns fall back to a bed or to cover behind their friends and return once they've healed a little. Each colonist has a **Fall back** button (Off, Cautious, Normal, Last stand); stances shift the point. Hurt enemies run for the map edge and may come back as rivals.

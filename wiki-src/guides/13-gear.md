@@ -16,9 +16,13 @@ Every legendary weapon has its own **technique tree** in the Taijutsu tab. The t
 ## Special metals
 Twelve metals, forged at the smithy ten at a time. Weapons made from them get an on-hit effect and armour made from them a bonus:
 - **Fire-forged** and **frost-forged steel**, **dragonsteel**: burn or chill; armour resists fire or keeps you warm.
-- **Stormium**: can stun. **Darksteel**: deep bleeding. **Glassteel**: very sharp but brittle. **Adamantine**: cuts through armour.
+- **Stormium**: can stun.
+- **Darksteel**: deep bleeding.
+- **Glassteel**: very sharp but brittle.
+- **Adamantine**: cuts through armour.
 - **Cold iron**, **alchemical silver**, **venator's alloy**: extra damage to monsters, summoned beings and entities.
-- **Mithral**: very light and quick. **Starmetal**: dazzling flashes.
+- **Mithral**: very light and quick.
+- **Starmetal**: dazzling flashes.
 
 ## Bows and ammunition
 **Fittings** (scopes, sights, stabilizer, grip, stock) are used on the bow, crossbow or sling in hand; a weapon holds two, and they take no seal slot. New quivers (**karimata**, **togari-ya**, **yanagi-ba**, vial, bolo, flechette, sonic, zigzag) and sling pouches (burrowing, groaning, tracer, tremor) work like the old ones: worn, they change every hit.
@@ -26,7 +30,8 @@ Twelve metals, forged at the smithy ten at a time. Weapons made from them get an
 ## Worn gear
 - **Packs and pouches** carry more and some help with work (scroll pouch: faster rituals; medical pack: better tending). One pack, one pouch, one gadget, one trinket and one quiver or shield can be worn together. The **chest rig**, **load-carrying vest**, **bandolier** and **equipment belt** are worn on the body and drawn fitted to every body shape, like vanilla's bandolier. Packs, quivers and sling pouches sit on the back without loose straps hanging off them.
 - **Magic gear**: boots of levitation (hover), bracer of jutsu turning (techniques do 25% less, one in seven fails), cloak of confusion, cloak of the clear eye, thief's gloves.
-- **Armour pieces**: jingasa, sode, kote, dō, haidate and iron greaves (harder kicks). **Clothing**: kimono, hakama, haori, noragi, tear-away clothing, kasa, waraji.
+- **Armour pieces**: jingasa, sode, kote, dō, haidate and iron greaves (harder kicks).
+- **Clothing**: kimono, hakama, haori, noragi, tear-away clothing, kasa, waraji.
 - **Lenses and masks**: anti-flash, night-vision, infravision, zooming, lie-detector, condition-viewing and x-ray lenses; gas mask and rebreather.
 
 Most gear has its own look on the pawn, painted for every body shape: cloaks and the haori hang open at the front so the clothes beneath show, kabuto cover the whole head, and packs, quivers and shields are the same size on every body type. The **line launcher** is drawn too, slung low on the hip. Like vanilla belts, small items aren't drawn on the pawn: the half, quick-loader, scroll and utility pouches, the four bullet pouches, waist pack, leg rig, the flasks, mugs, goblet, cups, winged bottle and Leyden jutsu bottle, the auto-injector harness, emitters, propulsion disk, pouch projector, dungeoneer's compass, disruptor, grapnel gun and multi-tool.

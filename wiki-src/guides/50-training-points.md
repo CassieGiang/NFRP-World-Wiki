@@ -8,7 +8,7 @@ The total TP a ninja has ever earned sets the class. Spending never lowers it.
 
 | Class | Total TP | Learns up to |
 |---|---|---|
-| D | 0 (start: 150, or 100 with a bloodline) | B rank (E, D, C, B) |
+| D | 0 (start: 150, or 100 with a bloodline; a backstory rank brings more, see [Names and backstories](names-and-backstories.html#rank-from-the-backstory)) | B rank (E, D, C, B) |
 | C | 500 | A rank |
 | B | 1,500 | S rank |
 | A | 3,000 | nothing new on the technique side |
@@ -19,7 +19,7 @@ A new ninja gets the starting TP when their ninja build is chosen. World of Naru
 ## Prices
 E 5, D 10, C 10, B 40, A 80, S 100 TP, the same at every class. A technique with several ranks is bought one rank at a time from its lowest.
 - **Free:** Academy techniques for genin and up (see [Ninja ranks](ranks.html)); the eye itself (Sharingan, Byakugan) and other techniques that come with a gene, trait or item; your signature techniques; a weapon's own technique.
-- **Technique scrolls** teach at half price; **written scrolls** and grimoires are free; teachers and wandering masters charge the full price.
+- **Technique scrolls**, **written scrolls** and grimoires teach at half price; teachers and wandering masters charge the full price. Under Training Points a written scroll has no class level gate: the class, the TP and any prerequisite decide.
 - **Prerequisites:** a technique that builds on another needs it first, as in the role-play: Greater Blade Rush needs Blade Rush, Wind Kage Bunshin needs Shadow Clone, Kirin needs Chidori and Great Fireball. The grey row names the missing technique.
 - **Element body flickers** need their nature: Kaze Shunshin (Wind Flicker) wind; Mizu Shunshin (Water Flicker) and Kiri Shunshin (Mist Flicker) water; Tsuchi Shunshin (Earth Flicker) earth; Hi Shunshin (Fire Flicker) fire; Rakurai Shunshin (Bolt Flicker) lightning; Suna Shunshin (Sand Flicker) sand; Yuki Shunshin (Snow Flicker) ice. One already learned in an older save stays.
 - There is no Taijutsu or Ninjutsu level gate for Training Points ninja: only the class, the price and the prerequisites.

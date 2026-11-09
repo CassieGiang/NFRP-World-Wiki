@@ -7,7 +7,9 @@ The alchemy table, disciplines, the scribe desk and the crafting arts.
 - Anyone can make the common pills and potions here.
 - **Alchemist is a profession.** A colonist becomes one with **Take Alchemist...** in the Miscellaneous part of the [Ninja build](builds.html#miscellaneous-trading-a-mastery), which costs a mastery and picks the **alchemy discipline**. A Medical Specialist pays with a Medical mastery. Changing the discipline later uses a Revamp Scroll (button on the pawn).
 - Without the Alchemist pick, the alchemy trees (Alchemy arts, Alchemy enhancement, Mad science, Alchemist's tricks) stay closed. Colonists who were already alchemists in an older save keep it.
-- **Brewmeister**: brews for rage, courage, healing, energy and protection. **Crystalmancy**: crystals that heal or shield, and gem grenades. **Demolitionist**: all bombs, bigger batches, cluster bombs and land mines.
+- **Brewmeister**: brews for rage, courage, healing, energy and protection.
+- **Crystalmancy**: crystals that heal or shield, and gem grenades.
+- **Demolitionist**: all bombs, bigger batches, cluster bombs and land mines.
 
 ## Crafting arts (passive)
 - **Artisan is a profession too:** **Take Artisan...** in the Ninja build opens the Artisan arts, Equipment enhancing and Artisan paths trees.

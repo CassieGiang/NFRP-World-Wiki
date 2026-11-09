@@ -16,4 +16,7 @@ Two colonists bound soul to soul, with techniques that only work between them.
 - **Final Parting** and **Ultimate Sacrifice**: give your life to heal or even bring back the partner.
 
 ## Passives
-- **Distress Call**: feel it when the partner falls. **Bond Fury**: fight harder when they do. **Just a Little Longer**: a downed partner barely bleeds. **Don't Leave Me**: survive the sacrifices, downed instead of dead.
+- **Distress Call**: feel it when the partner falls.
+- **Bond Fury**: fight harder when they do.
+- **Just a Little Longer**: a downed partner barely bleeds.
+- **Don't Leave Me**: survive the sacrifices, downed instead of dead.
