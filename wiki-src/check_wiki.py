@@ -34,6 +34,9 @@ for ch in allel:
         resolve(ch); defs.setdefault(ch.tag, {})[ch.findtext('defName')] = ch
 T = lambda tag: defs.get(tag, {})
 trees, abilities, tiers = T('TaranMagicFramework.AbilityTreeDef'), T('TaranMagicFramework.AbilityDef'), T('TaranMagicFramework.AbilityTierDef')
+abilities = {d: a for d, a in abilities.items() if not d.startswith('NF_Sig_')}   # u282: signature slots are not wiki cards
+tiers = {d: t for d, t in tiers.items() if not d.startswith('NF_Sig_')}
+trees = {d: t for d, t in trees.items() if d != 'NF_Signature'}
 
 # ───── the wiki's own formatting, copied from gen_wiki.py so the comparison is like for like
 TP_PRICE = {'E': 5, 'D': 10, 'C': 10, 'B': 40, 'A': 80, 'S': 100}
