@@ -74,8 +74,20 @@ Every ninja has a Spring Time of Youth pool, shown in the health tab:
 - **Below half** the pool, the ninja is **fatigued**: -10% move and melee speed.
 - **8 hours of sleep or meditation** fill it. Meditation techniques still add to it during the day.
 
+## Gear, elixirs and Unlock Potential
+These add to the placed points and count past the 5. A respec doesn't touch them. Only ninja get them.
+
+| Source | Bonus | Made by | Notes |
+|---|---|---|---|
+| **Harnessed gem** | +6 to one letter | someone who knows Bagushi (Harness expert), at the alchemy table (gem harnessing) | Worn on the belt; one belt item at a time. Ruby or garnet Might, sapphire Intelligence, emerald or jade Luck, topaz or turquoise Agility, onyx Toughness, amethyst or opal Charisma, moonstone or pearl Perception |
+| **Letter ring** (e.g. the luck ring) | +6 to its letter | someone who knows Kyōka Yubiwa (Enhanced Rings), at the alchemy table | Worn on the right hand; one ring at a time |
+| **Elixir** of a letter | +4 for a day | the alchemy table (ninja alchemy) | A second dose starts the day again |
+| **Unlock Potential** | +8 to every letter, +8 saves, +8 movements, 60 seconds | its [forbidden scroll](rare-arts-and-legendary-blades.html) | Afterwards the Spring Time of Youth is spent |
+
+A gem and a ring can be worn together: a luck ring and a harnessed emerald make Luck 12 (6 steps). The Stats tab shows where each bonus comes from.
+
 ## Settings
 **IMPACT-L stats (NFRP)** in Mod settings → Village life → Progression turns it off. World of Naruto's class and element bonuses come back after a restart.
 
 ## Still to come
-Bonuses from ancestry traits, gear, alchemy and techniques (the archive's +2, +4, +6 and +8), and Ability Damage and Drain.
+Ability Damage and Drain.

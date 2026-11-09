@@ -1,7 +1,7 @@
 # Rare arts and legendary blades
 The most famous techniques and swords can't be bought, crafted or inherited: they have to be found.
 
-@@summary Hiraishin, Edo Tensei, Rasengan, Chidori, Shadow Clone and the toad, snake and slug summoning contracts are learned only from very rare forbidden scrolls, about one or two a game-year. The four named legendary blades exist once per world and are found, never forged or bought.
+@@summary Hiraishin, Edo Tensei, Rasengan, Chidori, Shadow Clone, Unlock Potential and the toad, snake and slug summoning contracts are learned only from very rare forbidden scrolls, about one or two a game-year. The four named legendary blades exist once per world and are found, never forged or bought.
 
 ## The rare arts
 | Art | What the scroll does |
@@ -14,6 +14,7 @@ The most famous techniques and swords can't be bought, crafted or inherited: the
 | **Toad contract** | Gamakichi first; bigger toads, the reverse summoning and Toad Sage Mode follow |
 | **Snake contract** | A cobra first; the great snake, the reverse summoning and Snake Sage Mode follow |
 | **Slug contract** | The slug summon |
+| **Unlock Potential** (Senzai Kaihō) | Teaches it: S-rank, 60 seconds of +8 to every [IMPACT-L](impact-l-stats.html) letter, +8 saves and +8 movements; afterwards the Spring Time of Youth is spent (fatigued until rest) |
 
 After the scroll, the rest of the art is learned with [Training Points](training-points.html), as usual. Without the scroll, points can't buy it, and nothing else teaches it: no gene, no random technique scroll, no master, no scribe (a rare art can't be written down). The scroll is used up after reading.
 
