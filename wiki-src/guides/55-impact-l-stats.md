@@ -89,5 +89,39 @@ A gem and a ring can be worn together: a luck ring and a harnessed emerald make 
 ## Settings
 **IMPACT-L stats (NFRP)** in Mod settings → Village life → Progression turns it off. World of Naruto's class and element bonuses come back after a restart.
 
-## Still to come
-Ability Damage and Drain.
+## Ability Damage and Drain
+Some techniques take IMPACT-L points away.
+
+- **Ability damage** is lost for a while: it comes back at 1 point a day in each letter.
+- **Ability drain** stays until it's cleansed.
+- **Steps:** losses count in 2s, like bonuses: every 2 points lost in a letter take away one step (for example, 2 Toughness lost means 5 fewer armour points and 1 less Fortitude). Anyone can be hit, ninja or not; someone without points simply goes below 0.
+- **At −15** in a letter the person is helpless until enough comes back:
+  - Intelligence: a coma.
+  - Might: lying helpless on the ground.
+  - Perception: a deep sleep full of nightmares.
+  - Agility: rigid and motionless.
+  - Charisma: a catatonic stupor.
+  - Toughness: death.
+  - Luck at −15 does nothing more than the lost steps.
+
+**What deals it:**
+- **Soul Drain:** 1d4+1 points of one letter. The ninja has a button to pick the letter; otherwise it takes the target's weakest. A Will save negates it.
+- **Psychic Blast:** 1d4 Intelligence and 1d4 Perception.
+- **Wooden Blight:** 1d4 Agility every round while it holds; the round its save ends it, half. At Agility −15 the victim becomes an inert wooden statue.
+- **Red Tide:** a Fortitude save or 3d6 Might, and a minute later another save or 3d6 more.
+- **Deadly Stroke:** 1 Toughness against a stunned, sleeping, downed or flat-footed foe (3 from B class).
+- **Disruptive Spring Time of Youth:** 1 point of Might, Agility or Toughness, picked with the same kind of button.
+- **The Crippling seal:** 1d3 Might when it triggers.
+- **The Infectious seal:** 1d3 Toughness when it triggers.
+- **Death Plume gems:** 1d3 Toughness to everyone in the ash.
+- **Chakra Consumption:** −4 Toughness on the user while wracked.
+
+**What restores it:**
+- **Cleanse:** Poison 2 points, Disease 4, Panacea all damage and all drain.
+- **Trauma Care:** 1d4 points (1d8 from B class; from A class, every point of the worst-hit letter).
+- **A wondrous lifecap** used in a tend: 2 points.
+- **Mind Over Body:** heals 1 + Indomitable Fortitude points a day.
+- **Curse of Mortality:** a day's recovery only comes with a Fortitude save.
+- **Battle Through Pain:** losses up to the ninja's Impeccable Will don't count, but it can't stop death.
+- **Exoskeleton of Undeath:** better saves against Might, Agility and Toughness damage.
+- **Alchemical Perfection:** immune to drain.
