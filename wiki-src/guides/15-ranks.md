@@ -28,7 +28,7 @@ The full story is on [The academy](the-academy.html).
 Colonist children aged 6 to 17 with no rank learn at the academy: Biotech lessons, the school desk and academy classes give 5 TP once a day like other classes. They sit the academy graduation exam from 13, once they have earned 200 TP. Graduating gives a good mood for ten days. A child without chakra awakens it the first time they study. Adults without chakra can awaken it with a sensei at the chakra study apparatus; see [Becoming a ninja](becoming-a-ninja.html).
 
 ## Missions by rank
-Like the role-play, a ninja's rank decides which missions they can take: genin D and C, chūnin up to B, jōnin up to A, and ANBU and the Kage S. Accepting a mission no ninja of yours can take is refused with the reason.
+Like the role-play, a ninja's rank decides which missions they can take: genin D and C, chūnin up to B, jōnin up to A, and the Kage and ninja the Kage made ANBU (an ANBU title) S. Accepting a mission no ninja of yours can take is refused with the reason.
 
 ## The chūnin exam
 About once a season after the truce ends, your sworn village (or another friendly village) invites your genin to the **chūnin exam**. Only genin of C class may enter. Pick up to three of them and send them; the exam is played out at once in three stages:
