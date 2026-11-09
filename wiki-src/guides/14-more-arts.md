@@ -20,7 +20,7 @@ Every archive tree has its own section, named after the tree, in its class's tab
 - **Riders (Saddle Warfare)**: Needs a melee weapon. Riding (Mount), Charge, Thunderclap Stride, Coup de Jarnoc, Vortex Charge, Wrath of the Thunder Dragon, Tsunami Strike, Star of Justice.
 
 ## Universal ninjutsu and sealing
-- **Academy techniques**: Kinobori no Waza (tree climbing), Suimen Hokō no Waza (water walking), Irekawari (body switch), Jibaku Fuda: Kassei (exploding tag), Chakra antiseptic, Chakra water purify, Sennen Goroshi (thousand years of pain).
+- **Academy techniques**: Kinobori no Waza (Tree Climbing), Suimen Hokō no Waza (Water Walking), Kawarimi no Jutsu (Body Replacement Technique), Jibaku Fuda: Kassei (Exploding Tag), Kishōdoku (Chakra antiseptic), Kijōsui (Chakra water purify), Sennen Goroshi (Thousand Years of Pain). Free from genin on; see [The academy](the-academy.html).
 - **Chakra sword**: Chakra Ken (chakra sword), Chakra Ken Nitōryū (twin chakra swords), Nobiyo Chakra Ken (chakra javelin), Nobiyo Chakra Ken Shirei (javelin control).
 - **Hair arts**: Kami Hari (hair needles), Kami Hoippu (hair whip), Kami Baindo (hair bind), Kami Harihana (hair needle field), Ranji Shigumi (wild lion's mane), Kami Henge Hebi (hair snakes), Art of the hair warrior, Wicked weaves: fist of the butterfly.
 - **Tenkai (Heavenly Release)**: Tenkai (heavenly release), Kekkai (barrier), Kekkai: Yari (barrier spear), Kekkai: Shōheki (barrier wall), Sekkai (untimely interference), Kekkai: Metsu (barrier destroy), Bankai (full release), Zekkai (absolute boundary).
@@ -29,6 +29,11 @@ Every archive tree has its own section, named after the tree, in its class's tab
 - **Fūinjutsu: binding seals**: Seal of chains, Mekuraban seal, Third eye of enlightenment, Third ear of the rat, Second nose of the bloodhound, Second mouth of the serpent's tongue, Seal of communication, The directive seal, Directive creation.
 - **Fūinjutsu: cursed seals**: Tenfūin: stage zero, Tenfūin: stage one, Tenfūin: stage two, Seishingan, A mother's touch, A mother's protection, Goddess worship, Black hole seal.
 - **Fūinjutsu: barriers and scroll seals**: Gofu Kekkai (five seal barrier), Seimitsu Han'ei (perfect reflection), Gofu Kekkai deactivation, Saisokufūin (summon seal), Bukifūin (weapon seal), Scroll grenade, Scroll shotgun, Wangetsuryū (crescent dragons).
+
+### Body flicker, the counter and blasts
+- **Element body flickers** in the Shunshin tree need their nature (wind for Kaze Shunshin, water for Mizu and Kiri Shunshin, and so on). See [Training Points](training-points.html#prices).
+- **Kaunta (Flicker Counter)**: switch it on, and while it lasts an enemy body flicker aimed at the user, or landing next to them, fails and goes on cooldown.
+- **Real blasts:** techniques whose description says they explode now blow up where they land: Jibaku Fuda: Kassei (exploding tag), the fireball, explosive clone, explosive shuriken and cross explosion. Self-centred blasts (Judgement Day, Final Trust, Lotus, Sphere of Devastation) burst around the user without hurting them.
 
 ## Pulverem and medicine
 - **The Pulverem (Keepers of the Y'la)**: Eye of the Y'la, Aura of misfortune, Oafstep, Harrowing strike, Malediction, Squirming grip, Devour curse, Great discord, Apt curse, Utterance of damnation, Foolschant, Verum fatis.

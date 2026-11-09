@@ -65,7 +65,7 @@ What the Bingo Book shows about an enemy grows with what you know:
 | Intel | Shows |
 |---|---|
 | Rumour | name, faction, tier, bounty |
-| Seen (you fought them) | rank, level, what they're known for, their deeds |
+| Seen (you fought them) | rank, class, what they're known for, their deeds |
 | Studied (a sensor or tracker of yours was there) | the techniques they know |
 | Known (a spy mission or interrogation) | weaknesses and whereabouts |
 

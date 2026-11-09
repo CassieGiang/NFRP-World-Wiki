@@ -3,7 +3,7 @@ A taijutsu style from the NFRP archive's "Eight Celestial Gates" thread: the use
 
 @@summary A taijutsu tree of eight self-buffs, each needing the one before it: about 25 seconds of huge strength, then hours or days of strain. From the Fourth Gate on it costs blood; the Eighth nearly kills. Gate strikes need the First Gate.
 
-Each gate is named after its chakra wheel. Every gate needs the gate before it, and a higher Taijutsu level. A gate is a short self-buff (about 25 seconds; the Eighth about 20). When it **wears off**, the strain hits: the pawn is slowed and clumsy for hours, and from the Fourth Gate on they lose blood and take damage. Opening the Eighth Gate can kill a pawn who is already hurt.
+Each gate is named after its chakra wheel. Every gate needs the gate before it. Under Training Points the class decides the rest: any class learns the First to Third Gates, C class the Fourth and Fifth (A rank), B class the Sixth to Eighth (S rank). With Training Points off, each gate needs the Taijutsu level shown below. A gate is a short self-buff (about 25 seconds; the Eighth about 20). When it **wears off**, the strain hits: the pawn is slowed and clumsy for hours, and from the Fourth Gate on they lose blood and take damage. Opening the Eighth Gate can kill a pawn who is already hurt.
 
 ## The gates
 - **Muladhara (First Gate: the Root)**, C rank, level 4: faster, harder melee blows (×1.1), small hit and dodge bonus, a little pain resistance. Afterwards: 1 hour of strain.

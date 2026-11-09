@@ -23,6 +23,7 @@ Hover over a rank on the health tab to see how long the pawn has held it, what t
 - **Fights**: 3 TP a technique cast at enemies (at most 15 a day); other casting 1 TP per 5 casts (at most 3 a day).
 
 ## The academy (Biotech)
+The full story is on [The academy](the-academy.html).
 Colonist children aged 6 to 17 with no rank learn at the academy: Biotech lessons, the school desk and academy classes give 5 TP once a day like other classes. They sit the academy graduation exam from 13, once they have earned 200 TP. Graduating gives a good mood for ten days. A child without chakra awakens it the first time they study. Adults without chakra can awaken it with a sensei at the chakra study apparatus; see [Becoming a ninja](becoming-a-ninja.html).
 
 ## Missions by rank
@@ -31,7 +32,7 @@ Like the role-play, a ninja's rank decides which missions they can take: genin D
 ## The chūnin exam
 About once a season after the truce ends, your sworn village (or another friendly village) invites your genin to the **chūnin exam**. Only genin of C class may enter. Pick up to three of them and send them; the exam is played out at once in three stages:
 - **Written test**: Intellectual and Social.
-- **Survival trial**: ninja level and the better of Melee or Shooting.
+- **Survival trial**: ninja level (it follows the class) and the better of Melee or Shooting.
 - **Final duel**: ninja level, Melee and Shooting.
 
 Each stage has a roll on both sides, so an underdog can win. Winners become **chūnin** on the spot, even without a year as genin, and gain 100 TP. Those beaten in the trial or the final may come back bruised. One letter tells the whole tournament, round by round, against genin from the other villages. The host's goodwill rises for every finalist and winner.

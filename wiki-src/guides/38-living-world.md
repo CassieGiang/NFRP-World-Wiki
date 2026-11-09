@@ -19,7 +19,7 @@ The ninja world keeps moving when you aren't looking. Villages fight and make pe
 | Also | a technique scroll and seals, class XP, fame, goodwill | a third of the XP, injuries, goodwill −3 |
 | Risk | sometimes injuries | A and S: someone may not come back |
 
-The chance depends on the squad's best and average level against the rank (about level 3 for D up to 16 for S). Someone always has to stay home, and up to three squads can be away at once. On the way they may meet a named ninja of the village, or make a rival.
+The chance depends on the squad's best and average level against the rank (about level 3 for D up to 16 for S; the level follows their class under Training Points: about 5 at C class, 10 at B, 15 at A, 20 at S). Someone always has to stay home, and up to three squads can be away at once. On the way they may meet a named ninja of the village, or make a rival.
 
 ## Ninja society
 - **Village leaders** have an attitude: **hawk** (more wars), **diplomat** (ceasefires, warmer relations with you), **merchant** (trade) or **isolationist**. Leaders can be assassinated, overthrown or die of age; the strongest jōnin takes over, and the new attitude shifts goodwill with you. When you behead a village yourself, its successor also comes from the roster. Hover over a faction in the panel to see its leader.

@@ -28,17 +28,36 @@
 <div class="mpage" data-page="send" hidden>
   <div class="mtitle">Send a squad</div>
   <div class="mrowbtns" style="margin:0 0 8px"><button class="mbtn" style="width:290px" data-go="for">For: Haigakure</button><button class="mbtn" style="width:140px" data-go="rankmenu">D-rank mission</button><button class="mbtn" style="flex:1" data-go="send-other">Other task</button></div>
+  <div class="mrowbtns" style="margin:0 0 8px"><button class="mbtn" style="width:290px" data-go="teammenu">Team: choose a team…</button></div>
   <p>Task: find a lost child in the woods.<br>Away for 2 days. Success: 150 silver, a scroll and seals, 60 class XP each, fame and goodwill. Failure: a third of the XP, injuries.</p>
-  <div class="msec" style="max-height:190px;overflow:auto"><div class="mrow"><span class="mcheck">Aiko &nbsp;(jōnin, level 11)</span></div><div class="mrow"><span class="mcheck">Kenta &nbsp;(chūnin, level 8)</span></div><div class="mrow"><span class="mcheck">Mei &nbsp;(chūnin, level 7)</span></div><div class="mrow"><span class="mcheck">Sora &nbsp;(genin, level 5)</span></div><div class="mrow"><span class="mcheck">Daichi &nbsp;(genin, level 3)</span></div></div>
+  <div class="msec" style="max-height:190px;overflow:auto"><div class="mrow"><span class="mcheck">Aiko &nbsp;(jōnin, B class)</span></div><div class="mrow"><span class="mcheck">Kenta &nbsp;(chūnin, C class)</span></div><div class="mrow"><span class="mcheck">Mei &nbsp;(chūnin, C class)</span></div><div class="mrow"><span class="mcheck">Sora &nbsp;(genin, C class)</span></div><div class="mrow"><span class="mcheck">Daichi &nbsp;(genin, D class)</span></div></div>
   <p>Pick up to 4 ninja.</p>
   <div class="mrowbtns"><button class="mbtn off" title="Nothing happens until the squad can go.">Send 0 ninja</button></div>
+</div>
+<div class="mpage" data-page="teammenu" hidden>
+  <div class="mtitle">Send a squad</div>
+  <div class="mrowbtns" style="margin:0 0 4px"><button class="mbtn on" style="width:290px" data-back>Team: choose a team…</button></div>
+  <div class="msec">
+    <div class="mrow"><button class="mlink" data-go="send-team">Team Aiko (Aiko, Sora, Daichi)</button></div>
+  </div>
+  <p class="mmuted">Picking a team ticks every member on this map who may take the mission's rank, up to four.</p>
+</div>
+
+<div class="mpage" data-page="send-team" hidden>
+  <div class="mtitle">Send a squad</div>
+  <div class="mrowbtns" style="margin:0 0 8px"><button class="mbtn" style="width:290px" data-go="for">For: Haigakure</button><button class="mbtn" style="width:140px" data-go="rankmenu">D-rank mission</button><button class="mbtn" style="flex:1" data-go="send-other">Other task</button></div>
+  <div class="mrowbtns" style="margin:0 0 8px"><button class="mbtn" style="width:290px" data-back>Team: choose a team…</button></div>
+  <p>Task: find a lost child in the woods.<br>Away for 2 days. Success: 150 silver, a scroll and seals, 60 class XP each, fame and goodwill. Failure: a third of the XP, injuries.</p>
+  <div class="msec" style="max-height:190px;overflow:auto"><div class="mrow sel"><span class="mcheck on">Aiko &nbsp;(jōnin, B class)</span></div><div class="mrow"><span class="mcheck">Kenta &nbsp;(chūnin, C class)</span></div><div class="mrow"><span class="mcheck">Mei &nbsp;(chūnin, C class)</span></div><div class="mrow sel"><span class="mcheck on">Sora &nbsp;(genin, C class)</span></div><div class="mrow sel"><span class="mcheck on">Daichi &nbsp;(genin, D class)</span></div></div>
+  <p>Pick up to 4 ninja.</p>
+  <div class="mrowbtns"><button class="mbtn" data-back>Send 3 ninja</button></div>
 </div>
 
 <div class="mpage" data-page="send-other" hidden>
   <div class="mtitle">Send a squad</div>
   <div class="mrowbtns" style="margin:0 0 8px"><button class="mbtn" style="width:290px" data-go="for">For: Haigakure</button><button class="mbtn" style="width:140px" data-go="rankmenu">D-rank mission</button><button class="mbtn" style="flex:1" data-go="send">Other task</button></div>
   <p>Task: help bring in a harvest before the storm.<br>Away for 2 days. Success: 150 silver, a scroll and seals, 60 class XP each, fame and goodwill. Failure: a third of the XP, injuries.</p>
-  <div class="msec" style="max-height:190px;overflow:auto"><div class="mrow"><span class="mcheck">Aiko &nbsp;(jōnin, level 11)</span></div><div class="mrow"><span class="mcheck">Kenta &nbsp;(chūnin, level 8)</span></div><div class="mrow"><span class="mcheck">Mei &nbsp;(chūnin, level 7)</span></div><div class="mrow"><span class="mcheck">Sora &nbsp;(genin, level 5)</span></div><div class="mrow"><span class="mcheck">Daichi &nbsp;(genin, level 3)</span></div></div>
+  <div class="msec" style="max-height:190px;overflow:auto"><div class="mrow"><span class="mcheck">Aiko &nbsp;(jōnin, B class)</span></div><div class="mrow"><span class="mcheck">Kenta &nbsp;(chūnin, C class)</span></div><div class="mrow"><span class="mcheck">Mei &nbsp;(chūnin, C class)</span></div><div class="mrow"><span class="mcheck">Sora &nbsp;(genin, C class)</span></div><div class="mrow"><span class="mcheck">Daichi &nbsp;(genin, D class)</span></div></div>
   <p>Pick up to 4 ninja.</p>
   <div class="mrowbtns"><button class="mbtn off" title="Nothing happens until the squad can go.">Send 0 ninja</button></div>
 </div>
@@ -58,11 +77,11 @@
   <div class="mtitle">Send a squad</div>
   <div class="mrowbtns" style="margin:0 0 4px"><button class="mbtn" style="width:290px" data-go="for">For: Haigakure</button><button class="mbtn on" style="width:140px" data-back>D-rank mission</button></div>
   <div class="msec">
-    <div class="mrow"><button class="mlink" data-go="send">D-rank (2 days, about level 3)</button></div>
-    <div class="mrow"><button class="mlink" data-go="send">C-rank (3 days, about level 6)</button></div>
-    <div class="mrow"><button class="mlink" data-go="send-b">B-rank (5 days, about level 9)</button></div>
-    <div class="mrow"><button class="mlink" data-go="send-b">A-rank (7 days, about level 12)</button></div>
-    <div class="mrow"><button class="mlink" data-go="send-s">S-rank (10 days, about level 16)</button></div>
+    <div class="mrow"><button class="mlink" data-go="send">D-rank (2 days, about D class)</button></div>
+    <div class="mrow"><button class="mlink" data-go="send">C-rank (3 days, about C class)</button></div>
+    <div class="mrow"><button class="mlink" data-go="send-b">B-rank (5 days, about C class)</button></div>
+    <div class="mrow"><button class="mlink" data-go="send-b">A-rank (7 days, about B class)</button></div>
+    <div class="mrow"><button class="mlink" data-go="send-s">S-rank (10 days, about A class)</button></div>
   </div>
   <p class="mmuted">Here: B-rank shows a squad picked and ready, S-rank shows a rank your village has not opened yet. C and D go back to the D-rank page.</p>
 </div>
@@ -71,7 +90,7 @@
   <div class="mtitle">Send a squad</div>
   <div class="mrowbtns" style="margin:0 0 8px"><button class="mbtn" style="width:290px" data-go="for">For: Haigakure</button><button class="mbtn" style="width:140px" data-go="rankmenu">B-rank mission</button><button class="mbtn" style="flex:1" data-go="send-b">Other task</button></div>
   <p>Task: escort a merchant over a bandit pass.<br>Away for 5 days. Success: 650 silver, a scroll and seals, 250 class XP each, fame and goodwill. Failure: a third of the XP, injuries.</p>
-  <div class="msec" style="max-height:190px;overflow:auto"><div class="mrow sel"><span class="mcheck on">Aiko &nbsp;(jōnin, level 11)</span></div><div class="mrow sel"><span class="mcheck on">Kenta &nbsp;(chūnin, level 8)</span></div><div class="mrow sel"><span class="mcheck on">Mei &nbsp;(chūnin, level 7)</span></div><div class="mrow mmuted"><span class="mcheck">Sora &nbsp;(genin, level 5) &nbsp;— not ranked for this</span></div><div class="mrow mmuted"><span class="mcheck">Daichi &nbsp;(genin, level 3) &nbsp;— not ranked for this</span></div></div>
+  <div class="msec" style="max-height:190px;overflow:auto"><div class="mrow sel"><span class="mcheck on">Aiko &nbsp;(jōnin, B class)</span></div><div class="mrow sel"><span class="mcheck on">Kenta &nbsp;(chūnin, C class)</span></div><div class="mrow sel"><span class="mcheck on">Mei &nbsp;(chūnin, C class)</span></div><div class="mrow mmuted"><span class="mcheck">Sora &nbsp;(genin, C class) &nbsp;— not ranked for this</span></div><div class="mrow mmuted"><span class="mcheck">Daichi &nbsp;(genin, D class) &nbsp;— not ranked for this</span></div></div>
   <p>Chance of success: 69%</p>
   <div class="mrowbtns"><button class="mbtn pri" data-go="letter">Send 3 ninja</button></div>
 </div>
@@ -80,7 +99,7 @@
   <div class="mtitle">Send a squad</div>
   <div class="mrowbtns" style="margin:0 0 8px"><button class="mbtn" style="width:290px" data-go="for">For: Haigakure</button><button class="mbtn" style="width:140px" data-go="rankmenu">S-rank mission</button><button class="mbtn" style="flex:1" data-go="send-s">Other task</button></div>
   <p>Task: guard a daimyo through a night of assassins.<br>Away for 10 days. Success: 1800 silver, a scroll and seals, 800 class XP each, fame and goodwill. Failure: a third of the XP, injuries, and someone may not come back.</p>
-  <div class="msec" style="max-height:190px;overflow:auto"><div class="mrow sel"><span class="mcheck on">Aiko &nbsp;(jōnin, level 11)</span></div><div class="mrow mmuted"><span class="mcheck">Kenta &nbsp;(chūnin, level 8) &nbsp;— not ranked for this</span></div><div class="mrow mmuted"><span class="mcheck">Mei &nbsp;(chūnin, level 7) &nbsp;— not ranked for this</span></div><div class="mrow mmuted"><span class="mcheck">Sora &nbsp;(genin, level 5) &nbsp;— not ranked for this</span></div><div class="mrow mmuted"><span class="mcheck">Daichi &nbsp;(genin, level 3) &nbsp;— not ranked for this</span></div></div>
+  <div class="msec" style="max-height:190px;overflow:auto"><div class="mrow sel"><span class="mcheck on">Aiko &nbsp;(jōnin, B class)</span></div><div class="mrow mmuted"><span class="mcheck">Kenta &nbsp;(chūnin, C class) &nbsp;— not ranked for this</span></div><div class="mrow mmuted"><span class="mcheck">Mei &nbsp;(chūnin, C class) &nbsp;— not ranked for this</span></div><div class="mrow mmuted"><span class="mcheck">Sora &nbsp;(genin, C class) &nbsp;— not ranked for this</span></div><div class="mrow mmuted"><span class="mcheck">Daichi &nbsp;(genin, D class) &nbsp;— not ranked for this</span></div></div>
   <p>Chance of success: 25% &nbsp; <span class="mwarn">Your village's mission rank (level 2) is too low for S-rank missions: they open at level 4.</span></p>
   <div class="mrowbtns"><button class="mbtn off" title="Nothing happens until the squad can go.">Send 1 ninja</button></div>
 </div>

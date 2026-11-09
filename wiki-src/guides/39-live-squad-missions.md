@@ -19,7 +19,7 @@ Buttons: **Live** follows the trip in game time, **Replay so far** plays what ha
 
 ## What decides the trip
 Every squad member counts:
-- **Rank and level** against the mission's rank decide most fights and the objective.
+- **Rank and class** (the level behind it) against the mission's rank decide most fights and the objective.
 - **Taijutsu**, **summons** and **genjutsu** help in fights; **fire** users do better against beasts.
 - **Sensors** slip around ambushes, find more on the road and can track a hidden enemy camp.
 - **Fast**, **sensor** or **sealing** ninja disarm traps.

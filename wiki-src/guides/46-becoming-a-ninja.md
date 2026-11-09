@@ -14,7 +14,7 @@ Where it comes from:
 - **Awakening:** see below.
 
 ## Awakening chakra
-**Children (Biotech).** A colonist child who studies in the academy (lessons, the school desk, reading, play: the Biotech learning need) awakens chakra the first time they learn. A letter says so. From then on the academy raises their class levels as before. See [Ranks](ranks.html).
+**Children (Biotech).** A colonist child who studies in [the academy](the-academy.html) (lessons, the school desk, reading, play: the Biotech learning need) awakens chakra the first time they learn. A letter says so. From then on the academy raises their class levels as before. See [Ranks](ranks.html).
 
 **Adults.** An adult without chakra can awaken it under a sensei:
 - Select the pawn and use the **Sensei** button to pick a jōnin or the village leader.

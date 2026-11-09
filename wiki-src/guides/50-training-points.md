@@ -20,12 +20,15 @@ A new ninja gets the starting TP when their ninja build is chosen. World of Naru
 E 5, D 10, C 10, B 40, A 80, S 100 TP, the same at every class. A technique with several ranks is bought one rank at a time from its lowest.
 - **Free:** Academy techniques for genin and up (see [Ninja ranks](ranks.html)); the eye itself (Sharingan, Byakugan) and other techniques that come with a gene, trait or item; your signature techniques; a weapon's own technique.
 - **Technique scrolls** teach at half price; **written scrolls** and grimoires are free; teachers and wandering masters charge the full price.
+- **Prerequisites:** a technique that builds on another needs it first, as in the role-play: Greater Blade Rush needs Blade Rush, Wind Kage Bunshin needs Shadow Clone, Kirin needs Chidori and Great Fireball. The grey row names the missing technique.
+- **Element body flickers** need their nature: Kaze Shunshin (Wind Flicker) wind; Mizu Shunshin (Water Flicker) and Kiri Shunshin (Mist Flicker) water; Tsuchi Shunshin (Earth Flicker) earth; Hi Shunshin (Fire Flicker) fire; Rakurai Shunshin (Bolt Flicker) lightning; Suna Shunshin (Sand Flicker) sand; Yuki Shunshin (Snow Flicker) ice. One already learned in an older save stays.
+- There is no Taijutsu or Ninjutsu level gate for Training Points ninja: only the class, the price and the prerequisites.
 - Learning still has to fit the [ninja build](builds.html) and any tree lock (a [tree scroll](tree-scrolls.html), a bloodline, the Sharingan and so on).
 
 ## The Learn techniques window
 Select a ninja and press **Learn techniques (N TP)**. The window shows the class, the TP earned and in the pool, the highest rank the class learns, and a bar to the next class. Every tree the build allows is listed, with your own techniques above World of Naruto's in each tree.
 - **Learn (N TP)** buys the next rank at once.
-- A grey row says why it can't be learned yet: the class is too low, the pool is short, the tree needs its scroll, the build has no room, and so on.
+- A grey row says why it can't be learned yet: the class is too low, a technique is needed first, the pool is short, the tree needs its scroll, the build has no room, and so on.
 - Hover a row for the technique's description, chakra cost, cooldown and range.
 - **Only what I can learn now** hides the grey rows; the search box filters by technique or tree name.
 

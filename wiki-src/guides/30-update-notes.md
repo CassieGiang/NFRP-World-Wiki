@@ -3,6 +3,19 @@ What changed in recent updates, newest first.
 
 @@summary What changed in recent updates, newest first.
 
+## Updates 514–517: prerequisites, real blasts, the truce and class everywhere
+- **Prerequisites as in the role-play:** a technique that builds on another needs it first (Greater Blade Rush needs Blade Rush, the element Kage Bunshin need Shadow Clone, Kirin needs Chidori and Great Fireball). The grey row names what's missing. See [Training Points](training-points.html#prices).
+- **No Taijutsu or Ninjutsu level gates** for Training Points ninja: the class, the price and the prerequisites decide.
+- **Element body flickers** need their nature; Mizu Shunshin (Water Flicker) and Kiri Shunshin (Mist Flicker) got their proper names.
+- **Kaunta (Flicker Counter)** now does what it says: while it's on, an enemy body flicker at the user fails.
+- **Real blasts:** the exploding tag and every technique described as exploding now blows up. See [More arts](more-arts.html#body-flicker-the-counter-and-blasts).
+- **Class, not level:** the Shinobi tab shows the rank and a Training Points row; the Bingo Book, intel, Send a squad, the live mission window, village jobs and the chūnin exam picker show the class. The chūnin exam takes genin of C class.
+- **Send a squad** has a team picker: choose a team and its members on the map are ticked.
+- **No swearing during the truce:** villages take sworn ninja once the truce ends.
+- **Radio texts:** the messenger hawk roost (wood only) is named first wherever the field radio or comms console was.
+- **Descriptions** for Dynamic Entry, the kicks and Morning Peacock. Ryusen (Dragon Strike) in the Kenseijin tree is B rank.
+- Teams and Diplomacy buttons now match the slate style.
+
 ## Updates 512–513: choose from technique scrolls, new natures from chakra paper
 - **Technique scrolls let you choose:** pick a tree your build allows, then a technique of the scroll's rank in it (half the TP price). The rare scroll that opened a new element is gone.
 - **Chakra paper** can very rarely show a ninja a new nature (one roll per 15 days), and every jōnin can draw out one more. With wind and water the next nature is Ice, with earth and water Wood, with wind and earth Sand. Nature training makes it theirs. See [Becoming a ninja](becoming-a-ninja.html#a-second-element-and-the-advanced-natures).

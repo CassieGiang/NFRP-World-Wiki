@@ -50,7 +50,7 @@ Combos can use **melee strikes, taijutsu moves and quick jutsu**: attack techniq
 | 13 | 4 |
 | 16, or village leader | 5 |
 
-Locked slots show the level that unlocks them.
+Locked slots show the level that unlocks them. For Training Points ninja the level follows their class under Training Points: about 5 at C class, 10 at B, 15 at A, 20 at S.
 
 ## Settings
 On the **Combat** tab of the mod settings:

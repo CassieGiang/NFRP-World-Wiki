@@ -6,7 +6,7 @@
 - **Web**: for the spider clan. Webs that trap, poison or stun, web lines, protective webs and sticky shelters.
 - **Troll** (Taijutsu tab, open to anyone who unlocks it): a fearsome presence, tusks, bursts of vigour, curses and a rain of rocks.
 
-The hive mind, scent and web trees only show for pawns with that clan's gene. They need Ninjutsu levels to learn and train Ninjutsu.
+The hive mind, scent and web trees only show for pawns with that clan's gene. They are learned with Training Points like other trees (the class sets the highest rank) and train Ninjutsu.
 
 ## Skill techniques
 Five trees in the Ninjutsu tab that sharpen everyday skills and toughness, most of them passives. **Basic skill techniques** are open to every ninja.
