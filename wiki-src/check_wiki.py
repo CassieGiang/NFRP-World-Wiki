@@ -38,7 +38,7 @@ trees, abilities, tiers = T('TaranMagicFramework.AbilityTreeDef'), T('TaranMagic
 # ───── the wiki's own formatting, copied from gen_wiki.py so the comparison is like for like
 TP_PRICE = {'E': 5, 'D': 10, 'C': 10, 'B': 40, 'A': 80, 'S': 100}
 TP_CLASS = {'E': 'D', 'D': 'D', 'C': 'D', 'B': 'D', 'A': 'C', 'S': 'B'}
-def TP_TEXT(r): return f'{TP_PRICE[r]} TP, {TP_CLASS[r]} class' if r in TP_PRICE else '–'
+def TP_TEXT(r, fixed=0): return f'{fixed or TP_PRICE[r]} TP, {TP_CLASS[r]} class' if r in TP_PRICE else '–'
 REQ_TEXT = {'bow': 'a bow, crossbow or sling', 'ranged': 'a ranged weapon', 'blade': 'a bladed weapon', 'sword': 'a sword', 'stab': 'a thrusting weapon', 'staff': 'a staff or spear',
             'scythe': 'a scythe, glaive or axe', 'blunt': 'a blunt weapon', 'fan': 'a war fan', 'yoyo': 'a battle yo-yo', 'melee': 'a melee weapon',
             'unarmed': 'empty hands', 'instrument': 'a musical instrument', 'contract': 'a Blood Pact', 'shield': 'a shield', 'water': 'rain or water nearby',
@@ -71,7 +71,7 @@ def tier_info(tn):
             try: lvl = int(float(m[0].text))
             except (TypeError, ValueError): pass
     if not kind and t.findtext('regenRate'): kind = 'toggle'
-    return dict(label=t.findtext('label') or tn, rank=rank_of(t.findtext('label')), cost=num('energyCost'), cd=num('cooldownTicks'), lvl=lvl, kind=kind, req=req_t, drain=num('regenRate'))
+    return dict(label=t.findtext('label') or tn, rank=rank_of(t.findtext('label')), cost=num('energyCost'), cd=num('cooldownTicks'), lvl=lvl, kind=kind, req=req_t, drain=num('regenRate'), tp=int(num("modExtensions/li[@Class='CassieNFRP.NFTPPrice']/tp")))
 def chakra(t):
     if t['kind'] == 'passive': return '–'
     parts = []
@@ -82,7 +82,7 @@ def expected(dn):
     a = abilities[dn]
     ti = [x for x in (tier_info(li.text) for li in a.findall('abilityTiers/li')) if x]
     passive = bool(ti) and all(t['kind'] == 'passive' for t in ti)
-    rows = [] if passive else [(t['rank'] or '–', chakra(t), cd_text(t['cd']) if t['kind'] != 'passive' else '–', TP_TEXT(t['rank'])) for t in ti]
+    rows = [] if passive else [(t['rank'] or '–', chakra(t), cd_text(t['cd']) if t['kind'] != 'passive' else '–', TP_TEXT(t['rank'], t.get('tp', 0))) for t in ti]
     return dict(label=a.findtext('label') or dn, ranks=[t['rank'] for t in ti if t['rank']], rows=rows, passive=passive,
                 passive_lvls=[f'{t["rank"] or "–"} {t["lvl"]}' for t in ti] if passive else [],
                 reqs=sorted({'Needs ' + t['req'] for t in ti if t['req']}), desc=(a.findtext('description') or '').strip())

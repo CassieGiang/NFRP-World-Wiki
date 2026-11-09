@@ -3,6 +3,11 @@ What changed in recent updates, newest first.
 
 @@summary What changed in recent updates, newest first.
 
+## Update 523: the archive's save techniques
+- New: **Kanpeki na Ishi (Impeccable Will)** and **Fukutsu no Tairyoku (Indomitable Fortitude)**, D rank, up to 6 times each, at the archive's prices (10, 10, 20, 20, 30, 30 TP).
+- **Toughness, Epic Toughness, Iron Will (Steel mind) and Great Fortitude (Unbowed)** now add armour points and saves as the archive says, at the archive's fixed prices (30, 20, 20, 20 TP). Epic Toughness is C rank.
+- Technique cards show these fixed prices. See [Saves and armour points](saves-and-armour-points.html).
+
 ## Update 522: saves and armour points
 - **Saves:** an enemy technique's status, mind effect or stun rolls d20 + Will or Fortitude against 10 + 2 per caster class, as in the NFRP archive. Will shrugs off genjutsu and mind effects, Fortitude poisons, paralysis and stuns; a failed save is rolled again every 6 seconds.
 - **Armour points:** every ninja has a pool that takes damage before wounds, from the handbook's tables by build and class points; it comes back with rest.

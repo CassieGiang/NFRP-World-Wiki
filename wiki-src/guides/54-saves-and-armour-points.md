@@ -6,7 +6,7 @@ NFRP's Will and Fortitude saves and armour points, from the Player's Handbook: h
 ## Saves
 When an enemy's technique puts a status, a mind effect or a stun on a pawn, the pawn rolls a save, as in the NFRP archive's techniques ("Will Save of 10 + 2 per Class Level"):
 
-- **The roll:** d20 + the pawn's save, against **10 + 2 per caster class level** (D 1, C 2, B 3, A 4, S 5). So a D-class caster needs 12, an S-class caster 20.
+- **The roll:** d20 + the pawn's save, against **10 + 2 per caster class level + the caster's Impeccable Will** (class level D 1, C 2, B 3, A 4, S 5). So a D-class caster needs 12, an S-class caster 20, more with Impeccable Will.
 - **Will:** genjutsu statuses and every mind effect a technique causes (fear, panic, berserk, charm). A pass **negates** it.
 - **Fortitude:** every other technique's harmful status (poisons, paralysis, bleeding statuses) and stuns. A pass **negates** it too, as the archive's techniques say ("Fortitude save or be paralysed").
 - **Saving again:** as in the handbook ("each round on its turn, the subject may attempt a new save to end the effect"), a pawn who failed rolls again every **6 seconds**, one NFRP round. A pass ends the effect early.
@@ -21,6 +21,13 @@ When an enemy's technique puts a status, a mind effect or a stun on a pawn, the 
 | Other specialists | 1 / 2 / 4 / 6 / 8 | Other specialists | 1 / 2 / 4 / 6 / 8 |
 | Genjutsu specialist or Ninjutsu Master | 2 / 3 / 5 / 8 / 10 | Taijutsu specialist | 2 / 3 / 5 / 8 / 10 |
 | Genjutsu Master | 3 / 4 / 7 / 9 / 12 | Taijutsu Master | 3 / 4 / 7 / 9 / 12 |
+
+**Techniques that add to them** (from the archive):
+- **Kanpeki na Ishi (Impeccable Will)**, Ippan Genjutsu (Universal Genjutsu), D rank, learned up to 6 times: +1 Will each time, and your own techniques are 1 harder to resist each time. 10, 10, 20, 20, 30 and 30 TP.
+- **Fukutsu no Tairyoku (Indomitable Fortitude)**, Toshu Kakutō (Universal Hand to Hand), D rank, up to 6 times: +1 Fortitude each time. 10, 10, 20, 20, 30 and 30 TP.
+- **Tesshin (Steel mind)** (Iron Will): +2 Will. **Fukutsu (Unbowed)** (Great Fortitude): +2 Fortitude. Both C rank, always 20 TP.
+- **Ganjō (Toughness)**: +6 armour points, +1 more per class point beyond 3, and +1 Fortitude from 10 class points. C rank, always 30 TP.
+- **Kongō Ganjō (Epic toughness)**: +30 armour points. C rank, always 20 TP.
 
 A ninja without a [build](builds.html) uses the row of their strongest World of Naruto class. Someone who isn't a ninja counts as a D-class specialist (Will 1, Fortitude 1).
 
@@ -37,11 +44,11 @@ NFRP's "anime defence": the ability to take outrageous blows and keep fighting. 
 | Taijutsu specialist | 40 | 80 | +8 | 200 (soaks 40) |
 | Taijutsu Master | 50 | 100 | +10 | 250 (soaks 50) |
 
-- **Rest:** as in the handbook's Rest and Recovery, an **extended rest** (6 hours asleep or meditating, once in 12 hours) brings them all back, and every **hour without being hit** brings back as many as the Fortitude save (at least 1).
+- **Rest:** as in the handbook's Rest and Recovery, an **extended rest** (6 hours asleep or meditating, once in 12 hours) brings them all back, and every **hour without being hit** brings back as many as Indomitable Fortitude, or the Fortitude save if that is higher (at least 1).
 - Enemy ninja have them too, so raids with ninja take longer to wear down.
 
 ## Settings
 **Saves and armour points (NFRP)** in Mod settings → Village life → Progression turns both off. The test suite keeps them off outside its own section, "Test: saves and armour points (u522)".
 
 ## Still to come
-The [IMPACT-L](training-points.html) stats will add to these: Perception to Will, Toughness to Fortitude, armour points and the Spring Time of Youth pool, Charisma to the difficulty of your own genjutsu.
+The IMPACT-L stats will add to these: Perception to Will, Toughness to Fortitude, armour points and the Spring Time of Youth pool, Charisma to the difficulty of your own genjutsu.

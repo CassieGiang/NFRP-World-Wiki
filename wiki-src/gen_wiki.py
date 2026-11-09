@@ -125,7 +125,7 @@ REQ_TEXT = {'bow': 'a bow, crossbow or sling', 'ranged': 'a ranged weapon', 'bla
 # u520 (QA W1): Training Points price and class per rank, and the prerequisites from NFPrereqs.cs
 TP_PRICE = {'E': 5, 'D': 10, 'C': 10, 'B': 40, 'A': 80, 'S': 100}
 TP_CLASS = {'E': 'D', 'D': 'D', 'C': 'D', 'B': 'D', 'A': 'C', 'S': 'B'}
-def tp_text(r): return f'{TP_PRICE[r]} TP, {TP_CLASS[r]} class' if r in TP_PRICE else '–'
+def tp_text(r, fixed=0): return f'{fixed or TP_PRICE[r]} TP, {TP_CLASS[r]} class' if r in TP_PRICE else '–'
 WON_LABEL, GENE_LABEL = {}, {}
 _won = os.environ.get('WON_DEFS', '/mnt/user-data/uploads/3025338958/1.6/Defs')
 if os.path.isdir(_won):
@@ -191,7 +191,8 @@ def tier_info(tn):
     gn = [g.text for g in t.findall('acquireRequirement/requiredGenes/li')]
     if not kind and t.findtext('regenRate'): kind = 'toggle'
     return dict(label=t.findtext('label') or tn, rank=rank_of(t.findtext('label')), cost=num('energyCost'), cd=num('cooldownTicks'),
-                lvl=lvl, kind=kind, req=req_t, genes=gn, drain=num('regenRate'))
+                lvl=lvl, kind=kind, req=req_t, genes=gn, drain=num('regenRate'),
+                tp=int(num("modExtensions/li[@Class='CassieNFRP.NFTPPrice']/tp")))   # u523: a fixed archive price
 
 def tree_gate(el):
     g = el.find("modExtensions/li[@Class='CassieNFRP.NFGeneTree']")
@@ -325,7 +326,7 @@ def tech_card(dn, up, url_tree):
         if t['drain']: parts.append(f"{-t['drain'] * 60:.2f}/s while on")
         return ' + '.join(parts) or '0'
     if not passive:
-        rows = ''.join(f'<tr><td>{seals_r([t["rank"]]) if t["rank"] else "–"}</td><td>{E(chakra(t))}</td><td>{E(cd_text(t["cd"]) if t["kind"] != "passive" else "–")}</td><td>{E(tp_text(t["rank"]))}</td></tr>' for t in ti)
+        rows = ''.join(f'<tr><td>{seals_r([t["rank"]]) if t["rank"] else "–"}</td><td>{E(chakra(t))}</td><td>{E(cd_text(t["cd"]) if t["kind"] != "passive" else "–")}</td><td>{E(tp_text(t["rank"], t.get("tp", 0)))}</td></tr>' for t in ti)
         rows = f'<div class="tw"><table class="tiers"><tr><th>Rank</th><th>Chakra</th><th>Cooldown</th><th>Training Points</th></tr>{rows}</table></div>'
         costs = [t['cost'] for t in ti if t['cost'] and t['kind'] != 'passive']
         drains = [-t['drain'] * 60 for t in ti if t['drain']]
@@ -333,7 +334,7 @@ def tech_card(dn, up, url_tree):
         elif drains: short = f'Drains {min(drains):.2f} to {max(drains):.2f} chakra a second' if min(drains) != max(drains) else f'Drains {drains[0]:.2f} chakra a second'
         else: short = 'No chakra cost'
     else:
-        rows = '<p class="meta">Passive: always on once learned. Training Points: ' + ', '.join(f'{t["rank"] or "–"} {tp_text(t["rank"])}' for t in ti) + '.</p>'
+        rows = '<p class="meta">Passive: always on once learned. Training Points: ' + ', '.join(f'{t["rank"] or "–"} {tp_text(t["rank"], t.get("tp", 0))}' for t in ti) + '.</p>'
         short = 'Passive'
     kinds = sorted({KIND_TEXT.get(t['kind'], '') for t in ti if t['kind']} - {''})
     reqs = sorted({t['req'] for t in ti if t['req']})
