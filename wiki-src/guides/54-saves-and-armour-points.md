@@ -1,14 +1,15 @@
 # Saves and armour points
 NFRP's Will and Fortitude saves and armour points, from the Player's Handbook: how strong techniques stick, and how much a ninja can take before being wounded.
 
-@@summary A hostile technique's status, mind effect or stun rolls a save: d20 + Will or Fortitude against 10 + 2 per caster class. A Will save shrugs off a genjutsu; a Fortitude save halves a poison or stun. Every ninja also has armour points that take damage before wounds and come back with rest.
+@@summary A hostile technique's status, mind effect or stun rolls a save: d20 + Will or Fortitude against 10 + 2 per caster class. A passed save shrugs the effect off, and a failed one is rolled again every 6 seconds. Every ninja also has armour points that take damage before wounds and come back with rest.
 
 ## Saves
 When an enemy's technique puts a status, a mind effect or a stun on a pawn, the pawn rolls a save, as in the NFRP archive's techniques ("Will Save of 10 + 2 per Class Level"):
 
 - **The roll:** d20 + the pawn's save, against **10 + 2 per caster class level** (D 1, C 2, B 3, A 4, S 5). So a D-class caster needs 12, an S-class caster 20.
 - **Will:** genjutsu statuses and every mind effect a technique causes (fear, panic, berserk, charm). A pass **negates** it.
-- **Fortitude:** every other technique's harmful status (poisons, paralysis, bleeding statuses) and stuns. A pass **halves** it: a timed status lasts half as long, a poison is half as strong, a stun is half as long.
+- **Fortitude:** every other technique's harmful status (poisons, paralysis, bleeding statuses) and stuns. A pass **negates** it too, as the archive's techniques say ("Fortitude save or be paralysed").
+- **Saving again:** as in the handbook ("each round on its turn, the subject may attempt a new save to end the effect"), a pawn who failed rolls again every **6 seconds**, one NFRP round. A pass ends the effect early.
 - Only hostile techniques roll. Buffs, an ally's techniques and the technique's own marks, seals and links never do.
 - A passed save shows over the pawn, e.g. "Will save 17 vs 14".
 

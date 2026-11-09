@@ -4,7 +4,7 @@ What changed in recent updates, newest first.
 @@summary What changed in recent updates, newest first.
 
 ## Update 522: saves and armour points
-- **Saves:** an enemy technique's status, mind effect or stun rolls d20 + Will or Fortitude against 10 + 2 per caster class, as in the NFRP archive. Will shrugs off genjutsu and mind effects; Fortitude halves poisons, paralysis and stuns.
+- **Saves:** an enemy technique's status, mind effect or stun rolls d20 + Will or Fortitude against 10 + 2 per caster class, as in the NFRP archive. Will shrugs off genjutsu and mind effects, Fortitude poisons, paralysis and stuns; a failed save is rolled again every 6 seconds.
 - **Armour points:** every ninja has a pool that takes damage before wounds, from the handbook's tables by build and class points; it comes back with rest.
 - Both are in the Shinobi tab and can be turned off in the settings. See [Saves and armour points](saves-and-armour-points.html).
 
