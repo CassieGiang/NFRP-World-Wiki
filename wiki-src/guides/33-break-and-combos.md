@@ -42,7 +42,18 @@ Select a ninja and press the **Combo** button. The window has the actions the ni
 
 Combos can use **melee strikes, taijutsu moves and quick jutsu**: attack techniques with a short cast. Summons, heals, buffs, toggles and long casts can't go in a combo. Without a combo set, the ninja uses an automatic one.
 
-### Slots by level
+### Slots
+With [IMPACT-L](impact-l-stats.html) on, the slots follow the class:
+
+| Class | Combo slots |
+| --- | --- |
+| D | 2 |
+| C | 3 |
+| B | 4 |
+| A, S, or village leader | 5 |
+
+With IMPACT-L off, they follow the ninja level:
+
 | Level | Combo slots |
 | --- | --- |
 | below 8 | 2 |
@@ -50,7 +61,7 @@ Combos can use **melee strikes, taijutsu moves and quick jutsu**: attack techniq
 | 13 | 4 |
 | 16, or village leader | 5 |
 
-Locked slots show the level that unlocks them. For Training Points ninja the level follows their class under Training Points: about 5 at C class, 10 at B, 15 at A, 20 at S.
+Locked slots show what unlocks them. For Training Points ninja the level follows their class under Training Points: about 5 at C class, 10 at B, 15 at A, 20 at S.
 
 ## Settings
 On the **Combat** tab of the mod settings:

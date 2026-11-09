@@ -50,5 +50,5 @@ NFRP's "anime defence": the ability to take outrageous blows and keep fighting. 
 ## Settings
 **Saves and armour points (NFRP)** in Mod settings → Village life → Progression turns both off.
 
-## Still to come
-The IMPACT-L stats will add to these: Perception to Will, Toughness to Fortitude, armour points and the Spring Time of Youth pool, Charisma to the difficulty of your own genjutsu.
+## IMPACT-L
+The [IMPACT-L stats](impact-l-stats.html) add to these: each step of Perception +1 Will, each step of Toughness +1 Fortitude and +5 armour points, and each step of Charisma makes your own Will-save techniques 1 harder to resist.
