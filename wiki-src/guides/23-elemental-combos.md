@@ -17,3 +17,14 @@ Blade techniques count as wind, and dust as earth.
 - **Earth + fire: Magma burst.** 11 flame damage, and small fires in the middle.
 - **Ice + wind: Blizzard.** 5 frostbite damage, and everyone is chilled (30% slower, 15% less manipulation) for 25 seconds.
 - **Sand + wind: Sandstorm.** 4 cut damage and a cloud of blinding sand.
+
+## Elemental advantages
+When two natures meet head-on, one can overpower the other: **fire beats wind, wind beats lightning, lightning beats earth, earth beats water, and water beats fire.**
+
+- **Clashes.** Two techniques clash when their shots meet in the air, or when two ninja cast elemental attacks at each other within about a second. The stronger nature wins: it carries on at **half damage** and the other is gone ("overpowers!"). The same nature, or two that don't touch in the cycle (fire and lightning, say), cancel each other ("cancelled out!").
+- **Rank beats nature.** A technique two or more ranks higher wins whatever the natures, as Naruto's Rasenshuriken did. One rank isn't enough.
+- **Advanced natures count by their parts:** ice is wind + water, wood is earth + water, lava is fire + earth, explosion is earth + lightning, sand and magnet are wind + earth, storm is lightning + water, boil is fire + water and scorch is fire + wind. An advanced nature wins against any basic nature one of its parts beats (ice beats fire through its water) and would lose only to one that beats both parts. Two advanced natures compare every part against every part, and the side with more winning pairings wins; a tie cancels.
+- **Walls.** A barrier wall (earth, water, wind, lightning, wood, ice or sand) takes **double damage** from shots of a nature that beats it, so lightning breaks an earth wall twice as fast.
+- **Plain shots** with no nature in the cycle (kunai, shuriken, chakra blasts, bugs, paper, ink) don't clash this way: they flash and fly on, as before.
+
+You can turn this off in the mod settings (Progression: **Elemental advantages**).
