@@ -48,7 +48,7 @@ NFRP's "anime defence": the ability to take outrageous blows and keep fighting. 
 - Enemy ninja have them too, so raids with ninja take longer to wear down.
 
 ## Settings
-**Saves and armour points (NFRP)** in Mod settings → Village life → Progression turns both off. The test suite keeps them off outside its own section, "Test: saves and armour points (u522)".
+**Saves and armour points (NFRP)** in Mod settings → Village life → Progression turns both off.
 
 ## Still to come
 The IMPACT-L stats will add to these: Perception to Will, Toughness to Fortitude, armour points and the Spring Time of Youth pool, Charisma to the difficulty of your own genjutsu.
