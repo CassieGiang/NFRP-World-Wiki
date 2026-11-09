@@ -3,6 +3,11 @@ What changed in recent updates, newest first.
 
 @@summary What changed in recent updates, newest first.
 
+## Update 522: saves and armour points
+- **Saves:** an enemy technique's status, mind effect or stun rolls d20 + Will or Fortitude against 10 + 2 per caster class, as in the NFRP archive. Will shrugs off genjutsu and mind effects; Fortitude halves poisons, paralysis and stuns.
+- **Armour points:** every ninja has a pool that takes damage before wounds, from the handbook's tables by build and class points; it comes back with rest.
+- Both are in the Shinobi tab and can be turned off in the settings. See [Saves and armour points](saves-and-armour-points.html).
+
 ## Update 520: the QA pass on Training Points
 - **Every text speaks Training Points:** the first letters, the getting-started hints, the sensei button, the Progression speed setting, respec, the break combo window, seals and the forbidden and written scrolls.
 - **XP rewards became TP:** a good rank ceremony or memorial gives 10 TP (5 for a decent one), a World of Naruto ninjutsu or genjutsu lesson 15 TP (8 if terrible), and a sensei who holds the Sensei role makes a training session 19 TP. Every TP gain pops up over the ninja.
