@@ -60,7 +60,7 @@ Every ninja has a number of movements per turn, +1 per Agility step:
 - **Break combo slots** follow the class: D 2, C 3, B 4, A and S 5, and a village leader 5.
 
 ## Spring Time of Youth
-Every ninja has a Spring Time of Youth pool, shown in the health tab:
+Ninja with the **Seishun Zenkai (Spring Time of Youth)** tree open have a Spring Time of Youth pool, shown in the health tab. Without the tree there is no pool, no button and no fatigue:
 
 | Build | D | C | B | A | S |
 |---|---|---|---|---|---|
