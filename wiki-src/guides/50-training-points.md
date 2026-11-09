@@ -19,8 +19,8 @@ A new ninja gets the starting TP when their ninja build is chosen. World of Naru
 ## Prices
 E 5, D 10, C 10, B 40, A 80, S 100 TP, the same at every class. A technique with several ranks is bought one rank at a time from its lowest.
 - **Free:** Academy techniques for genin and up (see [Ninja ranks](ranks.html)); the eye itself (Sharingan, Byakugan) and other techniques that come with a gene, trait or item; your signature techniques; a weapon's own technique.
-- **Technique scrolls**, **written scrolls** and grimoires teach at half price; teachers and wandering masters charge the full price. Under Training Points a written scroll has no class level gate: the class, the TP and any prerequisite decide.
-- **Prerequisites:** a technique that builds on another needs it first, as in the role-play: Greater Blade Rush needs Blade Rush, Wind Kage Bunshin needs Shadow Clone, Kirin needs Chidori and Great Fireball. The grey row names the missing technique.
+- **Technique scrolls**, **written scrolls** and grimoires teach at half price (the scroll or grimoire says up front if the pool is short); teachers and wandering masters charge the full price. Under Training Points a written scroll has no class level gate: the class, the TP and any prerequisite decide.
+- **Prerequisites:** a technique that builds on another needs it first, as in the role-play: Greater Blade Rush needs Blade Rush, Wind Kage Bunshin needs Shadow Clone, Kirin needs Chidori and Great Fireball, and the Great Fireball needs the Sharingan, so only Uchiha learn Kirin. The grey row names the missing technique.
 - **Element body flickers** need their nature: Kaze Shunshin (Wind Flicker) wind; Mizu Shunshin (Water Flicker) and Kiri Shunshin (Mist Flicker) water; Tsuchi Shunshin (Earth Flicker) earth; Hi Shunshin (Fire Flicker) fire; Rakurai Shunshin (Bolt Flicker) lightning; Suna Shunshin (Sand Flicker) sand; Yuki Shunshin (Snow Flicker) ice. One already learned in an older save stays.
 - There is no Taijutsu or Ninjutsu level gate for Training Points ninja: only the class, the price and the prerequisites.
 - Learning still has to fit the [ninja build](builds.html) and any tree lock (a [tree scroll](tree-scrolls.html), a bloodline, the Sharingan and so on).
@@ -35,7 +35,7 @@ Select a ninja and press **Learn techniques (N TP)**. The window shows the class
 @@mock learn-techniques
 
 ## Earning TP
-All TP go into the one pool. The **Progression speed** setting scales them.
+All TP go into the one pool. The **Progression speed** setting scales the daily TP (training, sparring, classes, lessons, casting); missions, exams and epics always give their full amount.
 
 | Source | TP |
 |---|---|

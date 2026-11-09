@@ -20,7 +20,7 @@ With the Ideology DLC, NFRP World adds five ninja memes, eight ninja issues with
 - **Ninja missions**: sacred oath, pragmatic or mercenary. Decides how good a completed mission feels and how much a failed one stings.
 
 ## Roles
-- **Sensei**: students who train or spar with the sensei gain experience 25% faster, and the sensei learns a little faster too.
+- **Sensei**: a student training near the sensei earns 19 TP a session instead of 15 (25% more experience without Training Points), and the sensei learns a little faster too.
 - **Village guardian**: takes less damage and moves a little faster.
 - **Shrine keeper**: speaks with gentle authority and is hard to rattle.
 
@@ -46,8 +46,8 @@ With the Ideology DLC, NFRP World adds five ninja memes, eight ninja issues with
 
 ## Rituals
 Four ninja rituals, each brought by one of the memes and open to ideoligions with a related meme:
-- **Rank ceremony** (Shinobi Code): the leader honours a ranked ninja. Good mood and class experience for the honoree.
-- **Memorial for the fallen** (Clan Honour): held at a grave. If the dead was a ninja, the ninja present gain experience.
+- **Rank ceremony** (Shinobi Code): the leader honours a ranked ninja. Good mood and 10 TP for the honoree (5 for a decent ceremony; class experience without Training Points).
+- **Memorial for the fallen** (Clan Honour): held at a grave. If the dead was a ninja, the ninja present gain 10 TP (5 for a decent memorial; experience without Training Points).
 - **Festival rite** (Sage of the Wilds): during a village festival it raises goodwill with the host village.
 - **Blood pact rite** (The Forbidden Path): the pact-bearer regains chakra faster for one to three days, longer and stronger with a summoning contract.
 

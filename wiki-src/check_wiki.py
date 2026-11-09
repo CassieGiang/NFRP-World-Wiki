@@ -36,7 +36,10 @@ T = lambda tag: defs.get(tag, {})
 trees, abilities, tiers = T('TaranMagicFramework.AbilityTreeDef'), T('TaranMagicFramework.AbilityDef'), T('TaranMagicFramework.AbilityTierDef')
 
 # ───── the wiki's own formatting, copied from gen_wiki.py so the comparison is like for like
-REQ_TEXT = {'bow': 'a bow, crossbow or sling', 'ranged': 'a ranged weapon', 'blade': 'a bladed weapon', 'stab': 'a thrusting weapon', 'staff': 'a staff or spear',
+TP_PRICE = {'E': 5, 'D': 10, 'C': 10, 'B': 40, 'A': 80, 'S': 100}
+TP_CLASS = {'E': 'D', 'D': 'D', 'C': 'D', 'B': 'D', 'A': 'C', 'S': 'B'}
+def TP_TEXT(r): return f'{TP_PRICE[r]} TP, {TP_CLASS[r]} class' if r in TP_PRICE else '–'
+REQ_TEXT = {'bow': 'a bow, crossbow or sling', 'ranged': 'a ranged weapon', 'blade': 'a bladed weapon', 'sword': 'a sword', 'stab': 'a thrusting weapon', 'staff': 'a staff or spear',
             'scythe': 'a scythe, glaive or axe', 'blunt': 'a blunt weapon', 'fan': 'a war fan', 'yoyo': 'a battle yo-yo', 'melee': 'a melee weapon',
             'unarmed': 'empty hands', 'instrument': 'a musical instrument', 'contract': 'a Blood Pact', 'shield': 'a shield', 'water': 'rain or water nearby',
             'earth': 'bare ground underfoot', 'bond': 'a Contract Bond partner'}
@@ -79,7 +82,7 @@ def expected(dn):
     a = abilities[dn]
     ti = [x for x in (tier_info(li.text) for li in a.findall('abilityTiers/li')) if x]
     passive = bool(ti) and all(t['kind'] == 'passive' for t in ti)
-    rows = [] if passive else [(t['rank'] or '–', chakra(t), cd_text(t['cd']) if t['kind'] != 'passive' else '–', str(t['lvl'] or '–')) for t in ti]
+    rows = [] if passive else [(t['rank'] or '–', chakra(t), cd_text(t['cd']) if t['kind'] != 'passive' else '–', TP_TEXT(t['rank'])) for t in ti]
     return dict(label=a.findtext('label') or dn, ranks=[t['rank'] for t in ti if t['rank']], rows=rows, passive=passive,
                 passive_lvls=[f'{t["rank"] or "–"} {t["lvl"]}' for t in ti] if passive else [],
                 reqs=sorted({'Needs ' + t['req'] for t in ti if t['req']}), desc=(a.findtext('description') or '').strip())
@@ -99,6 +102,7 @@ for f in sorted(glob.glob(os.path.join(DOCS, 'trees', '*.html'))):
         ranks = re.findall(r'<span class="seal">([^<]*)</span>', h3)
         d = re.search(r'<div class="body"><p>(.*?)</p>', body, re.S)
         tags = [text(t) for t in re.findall(r'<span class="tag[^"]*">(.*?)</span>', body, re.S)]
+        tags = [t for t in tags if not (t.startswith('Needs ') and t.endswith(' first'))]   # u520: prerequisites come from NFPrereqs.cs, not the defs
         rows = []
         for tr in re.findall(r'<tr>(.*?)</tr>', body, re.S):
             tds = re.findall(r'<td>(.*?)</td>', tr, re.S)

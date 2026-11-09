@@ -3,6 +3,14 @@ What changed in recent updates, newest first.
 
 @@summary What changed in recent updates, newest first.
 
+## Update 520: the QA pass on Training Points
+- **Every text speaks Training Points:** the first letters, the getting-started hints, the sensei button, the Progression speed setting, respec, the break combo window, seals and the forbidden and written scrolls.
+- **XP rewards became TP:** a good rank ceremony or memorial gives 10 TP (5 for a decent one), a World of Naruto ninjutsu or genjutsu lesson 15 TP (8 if terrible), and a sensei who holds the Sensei role makes a training session 19 TP. Every TP gain pops up over the ninja.
+- **Seals** are inscribed by class like techniques: A-rank seals need C class, S-rank seals B class.
+- **Kirin** says it needs the Sharingan (its Great Fireball is the Uchiha's).
+- **Common tree scrolls** cost 160 silver to write (was 60), and random tree scrolls no longer roll a bloodline tree nobody in the colony can read.
+- **Technique cards** on this wiki show the TP price and class instead of a class level, and name the prerequisite.
+
 ## Updates 518–519: half-price scrolls, ranks from backstories
 - **Written scrolls and grimoires** now cost half the TP price, like technique scrolls.
 - **Backstory ranks:** a retired jōnin joins as a jōnin, an academy teacher as a chūnin, a border patrol as a genin, and so on, with the TP the rank needs. See [Names and backstories](names-and-backstories.html#rank-from-the-backstory).

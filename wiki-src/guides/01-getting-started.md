@@ -1,7 +1,7 @@
 # Getting started
 What to install, what changes when you start a colony, and where to find everything.
 
-@@summary Load Harmony, Taran Magic Framework and World of Naruto before NFRP World (Giddy-Up recommended). Give each ninja a build, learn techniques in World of Naruto's ability window, and use the one-year truce (60 days) to train and research scribe arts and ninja alchemy. Area techniques hit allies too.
+@@summary Load Harmony, Taran Magic Framework and World of Naruto before NFRP World (Giddy-Up recommended). Give each ninja a build, buy techniques with Training Points in the Learn techniques window, and use the one-year truce (60 days) to train and research scribe arts and ninja alchemy. Area techniques hit allies too.
 
 ## Install
 - Subscribe to [Harmony](https://steamcommunity.com/sharedfiles/filedetails/?id=2009463077), [Taran Magic Framework](https://steamcommunity.com/sharedfiles/filedetails/?id=3527502876), [World of Naruto](https://steamcommunity.com/sharedfiles/filedetails/?id=3025338958) and [Giddy-Up](https://steamcommunity.com/sharedfiles/filedetails/?id=3674332861), then NFRP World.
@@ -19,7 +19,7 @@ What to install, what changes when you start a colony, and where to find everyth
 ## Your first ninja
 - A pawn needs the **Chakra** trait to use techniques: clan genes, ninja backstories and village ninja have it; children awaken it in the academy and adults with a sensei. See [Becoming a ninja](becoming-a-ninja.html).
 - Every ninja (a pawn with chakra) aged 6 or older gets a **Ninja build** button. The build decides which kinds of trees the pawn can enter and how far they can go in each. See [Ninja builds](builds.html).
-- Techniques live in World of Naruto's ability window, in the Ninjutsu, Clan and other tabs. Each technique has ranks from D to S. Ninja earn **Training Points** and spend them in the **Learn techniques** window; higher ranks need a higher class. See [Training Points](training-points.html).
+- Learned techniques show in World of Naruto's ability window, in the Ninjutsu, Clan and other tabs. Each technique has ranks from D to S. Ninja earn **Training Points** and spend them in the **Learn techniques** window; higher ranks need a higher class. See [Training Points](training-points.html).
 - Many trees open only with their **tree scroll**; reading it also teaches the tree's first technique. See [Tree scrolls](tree-scrolls.html).
 - Tree and technique names read Japanese first, with the English meaning in brackets, for example Irekawari (body switch). NFRP's own invented names, the fighting styles, summons and a few clan trees keep theirs.
 - Pawns born into a clan (a gene or xenotype) get that clan's tree for free. See [Clans and bloodlines](bloodlines.html).

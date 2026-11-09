@@ -49,7 +49,7 @@ See [Hand signs](hand-signs.html).
 - **Pincer strikes:** two allies hitting one foe from opposite sides at the same moment land a joint strike with one shared flash, "Pincer!", and a knockdown or big stagger. An ally joining a fight dashes in.
 - **Big combos:** when two allies' elements combine into an [elemental combo](elemental-combos.html), it shows as one big effect the size of the combo: a fire vortex for fire and wind, an electrified pool for water and lightning, a mud surge for earth and water, and so on.
 - **Callouts:** a ninja shouts the technique as it casts ("Fire Release!" and then the technique's name); quick chains stack. Your ninja only, everyone, or off.
-- **XP pop-ups:** small yellow text over your ninja when they gain class XP, such as "+27 XP (Combat)", "(Kill)" or "(Training)". Gains close together merge.
+- **TP pop-ups:** small blue text over your ninja when they earn Training Points, such as "+10 TP (training)" or "+15 TP (lesson)". Ninja without Training Points get yellow XP pop-ups instead, such as "+27 XP (Combat)"; gains close together merge.
 
 ## Signature looks
 About 35 of the biggest S-rank techniques have a look of their own (**Signature technique looks**). Each plays in three beats:

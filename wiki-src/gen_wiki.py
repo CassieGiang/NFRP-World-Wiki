@@ -122,6 +122,55 @@ REQ_TEXT = {'bow': 'a bow, crossbow or sling', 'ranged': 'a ranged weapon', 'bla
             'unarmed': 'empty hands', 'instrument': 'a musical instrument', 'contract': 'a Blood Pact', 'shield': 'a shield', 'water': 'rain or water nearby',
             'earth': 'bare ground underfoot', 'bond': 'a Contract Bond partner'}
 
+# u520 (QA W1): Training Points price and class per rank, and the prerequisites from NFPrereqs.cs
+TP_PRICE = {'E': 5, 'D': 10, 'C': 10, 'B': 40, 'A': 80, 'S': 100}
+TP_CLASS = {'E': 'D', 'D': 'D', 'C': 'D', 'B': 'D', 'A': 'C', 'S': 'B'}
+def tp_text(r): return f'{TP_PRICE[r]} TP, {TP_CLASS[r]} class' if r in TP_PRICE else '–'
+WON_LABEL, GENE_LABEL = {}, {}
+_won = os.environ.get('WON_DEFS', '/mnt/user-data/uploads/3025338958/1.6/Defs')
+if os.path.isdir(_won):
+    for _r, _d, _fs in os.walk(_won):
+        for _f in _fs:
+            if not _f.endswith('.xml'): continue
+            try:
+                for _el in ET.parse(os.path.join(_r, _f)).getroot():
+                    _dn = _el.findtext('defName')
+                    if not _dn: continue
+                    if _el.tag.endswith('AbilityDef') and _el.findtext('label'): WON_LABEL[_dn] = _el.findtext('label')
+                    if _el.tag == 'GeneDef' and _el.findtext('label'): GENE_LABEL[_dn] = _el.findtext('label')
+            except ET.ParseError: pass
+PREREQ = {}
+_pr = os.path.join(SRC, 'NFPrereqs.cs')
+if os.path.exists(_pr):
+    for _m in re.finditer(r'Add\(("[^"]+"(?:\s*,\s*"[^"]+")+)\)', open(_pr, encoding='utf-8').read()):
+        _names = re.findall(r'"([^"]+)"', _m.group(1))
+        for _t in _names[1:]: PREREQ.setdefault(_t, []).append(_names[0])
+def gene_label(g):
+    d = T('GeneDef').get(g)
+    return (d.findtext('label') if d is not None else None) or GENE_LABEL.get(g, g)
+def ab_name(dn):
+    a = abilities.get(dn)
+    lab = (a.findtext('label') if a is not None else None) or WON_LABEL.get(dn) or dn
+    return re.sub(r'\s*\((?:E|D|C|B|A|S)\)$', '', lab)
+def prereq_text(dn):
+    out = []
+    for need in PREREQ.get(dn, []):
+        opts = need.split('|'); txt = ' or '.join(ab_name(o) for o in opts)
+        genes = set()
+        for o in opts:
+            a = abilities.get(o)
+            if a is None: continue
+            first = a.find('abilityTiers/li')
+            t = tiers.get(first.text) if first is not None else None
+            if t is not None: genes |= {g.text for g in t.findall('acquireRequirement/requiredGenes/li')}
+        own = set()
+        a0 = abilities.get(dn); f0 = a0.find('abilityTiers/li') if a0 is not None else None; t0 = tiers.get(f0.text) if f0 is not None else None
+        if t0 is not None: own = {g.text for g in t0.findall('acquireRequirement/requiredGenes/li')}
+        genes -= own   # a clan technique needing its own clan's technique: the tree already says so
+        if genes: txt += ' (needs the ' + ' or '.join(gene_label(g) for g in sorted(genes)) + ')'
+        out.append(txt)
+    return out
+
 def tier_info(tn):
     t = tiers.get(tn)
     if t is None: return None
@@ -276,19 +325,19 @@ def tech_card(dn, up, url_tree):
         if t['drain']: parts.append(f"{-t['drain'] * 60:.2f}/s while on")
         return ' + '.join(parts) or '0'
     if not passive:
-        rows = ''.join(f'<tr><td>{seals_r([t["rank"]]) if t["rank"] else "–"}</td><td>{E(chakra(t))}</td><td>{E(cd_text(t["cd"]) if t["kind"] != "passive" else "–")}</td><td>{t["lvl"] or "–"}</td></tr>' for t in ti)
-        rows = f'<div class="tw"><table class="tiers"><tr><th>Rank</th><th>Chakra</th><th>Cooldown</th><th>Class level</th></tr>{rows}</table></div>'
+        rows = ''.join(f'<tr><td>{seals_r([t["rank"]]) if t["rank"] else "–"}</td><td>{E(chakra(t))}</td><td>{E(cd_text(t["cd"]) if t["kind"] != "passive" else "–")}</td><td>{E(tp_text(t["rank"]))}</td></tr>' for t in ti)
+        rows = f'<div class="tw"><table class="tiers"><tr><th>Rank</th><th>Chakra</th><th>Cooldown</th><th>Training Points</th></tr>{rows}</table></div>'
         costs = [t['cost'] for t in ti if t['cost'] and t['kind'] != 'passive']
         drains = [-t['drain'] * 60 for t in ti if t['drain']]
         if costs: short = 'Chakra ' + (fmt(min(costs)) if min(costs) == max(costs) else f'{fmt(min(costs))} to {fmt(max(costs))}')
         elif drains: short = f'Drains {min(drains):.2f} to {max(drains):.2f} chakra a second' if min(drains) != max(drains) else f'Drains {drains[0]:.2f} chakra a second'
         else: short = 'No chakra cost'
     else:
-        rows = '<p class="meta">Passive: always on once learned. Class level needed: ' + ', '.join(f'{t["rank"] or "–"} {t["lvl"]}' for t in ti) + '.</p>'
+        rows = '<p class="meta">Passive: always on once learned. Training Points: ' + ', '.join(f'{t["rank"] or "–"} {tp_text(t["rank"])}' for t in ti) + '.</p>'
         short = 'Passive'
     kinds = sorted({KIND_TEXT.get(t['kind'], '') for t in ti if t['kind']} - {''})
     reqs = sorted({t['req'] for t in ti if t['req']})
-    tags = ''.join(f'<span class="tag">{E(k)}</span>' for k in kinds) + ''.join(f'<span class="tag req">Needs {E(r)}</span>' for r in reqs)
+    tags = ''.join(f'<span class="tag">{E(k)}</span>' for k in kinds) + ''.join(f'<span class="tag req">Needs {E(r)}</span>' for r in reqs) + ''.join(f'<span class="tag req">Needs {E(p)} first</span>' for p in prereq_text(dn))
     index.append([label, 'Technique', url_tree + '#' + slug(dn), '/'.join(rk)])
     desc = a.findtext('description') or ''
     return f'''<details class="card unit" id="{slug(dn)}"><summary>{icon(a.findtext('uiSkillIcon'), up)}<div class="sum"><h3>{E(label)} {seals_r(rk)}</h3><p class="line">{E(short)}. {E(desc)}</p></div></summary>

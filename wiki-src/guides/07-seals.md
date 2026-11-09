@@ -5,7 +5,7 @@ Pressing power into weapons and armour.
 
 ## Making and using seals
 - Seal items are inked at a crafting spot, tailoring bench or scribe desk. Higher ranks need more Crafting skill.
-- Use a seal and pick the gear. Inscribing needs a minimum ninjutsu level (D 1, C 4, B 8, A 12, S 16); every level above it makes the seal stronger. For Training Points ninja the level follows their class under Training Points: about 5 at C class, 10 at B, 15 at A, 20 at S.
+- Use a seal and pick the gear. Inscribing an A-rank seal needs C class and an S-rank seal B class, as for techniques; D to B seals any class. Without Training Points it needs a ninjutsu level (D 1, C 4, B 8, A 12, S 16). Every ninjutsu level above that makes the seal stronger. For Training Points ninja the level follows their class under Training Points: about 5 at C class, 10 at B, 15 at A, 20 at S.
 - Gear has 1 seal slot, 2 at excellent or masterwork, 3 at legendary. A new seal goes on at C rank at most, then rises one rank at a time.
 - Sealed weapons glow in the seal's colour and flash on every hit.
 
