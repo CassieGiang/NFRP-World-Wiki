@@ -48,7 +48,7 @@ The **ninja world** button on the bottom bar opens one screen with everything ab
 The **Kage** (the village leader) gets three buttons when selected on their own:
 - **Rally the village** (once a day): everyone on the map is rallied for about six hours (+5% consciousness), and everyone but the leader feels "rallied by the leader" (+6 mood for a day).
 - **Call to arms** (once a day): drafts every ninja on the map who can fight, and all of them are "called to arms" for about three hours (faster movement, +3 shooting accuracy, +3 melee hit chance).
-- **Assign a mission** (once every 10 days): pick a rank from D to S and a ranked mission comes in from your sworn village, or the friendliest village that gives missions. It's greyed out with the reason if no village can give one.
+- **Request mission** (once every 10 days): pick a rank from D to S and your sworn village, or the friendliest village that gives missions, answers with a mission offer of that rank, which you can accept or decline. It's greyed out with the reason if no village can give one.
 
 The ninja world panel shows the leader and whether each order is ready.
 

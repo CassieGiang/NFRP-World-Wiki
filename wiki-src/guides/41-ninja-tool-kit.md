@@ -14,6 +14,8 @@ A pouch is worn at the hip. It sets how much fits. Kunai, shuriken, senbon, smok
 | leather ninja pouch | 24 units | Ninja weaponsmithing |
 | sealing-scroll pouch | 40 units | Sealing arts |
 
+**Tools in a pouch weigh nothing.** While a ninja wears a pouch, the tools that fit in it add no carried weight, on the map and in a caravan. The pouch keeps its own weight. Tools over the pouch's units, tools carried without a pouch, and a blade set as the sidearm weigh as usual.
+
 ## Kits
 Select a colonist and press **Kit**. Pick a kit, or **Edit kits…** to make your own: set a count for each tool and see how many units it needs. The game starts with five kits: *Assault*, *Infiltration*, *Sealer*, *Medic* and *Barrage*.
 

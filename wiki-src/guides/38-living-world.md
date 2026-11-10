@@ -16,7 +16,8 @@ The ninja world keeps moving when you aren't looking. Villages fight and make pe
 | | Success | Failure |
 |---|---|---|
 | Silver | D 150, C 320, B 650, A 1100, S 1800 | — |
-| Also | a technique scroll and seals, class XP, fame, goodwill | a third of the XP, injuries, goodwill −3 |
+| Also | a technique scroll and seals, Training Points (S 25, A 20, B 10, C 5, D 5; none for a mission below the ninja's rank), fame, goodwill | no Training Points, injuries, goodwill −3 |
+| Training Points off | class XP instead of Training Points | a third of the XP |
 | Risk | sometimes injuries | A and S: someone may not come back |
 
 The chance depends on the squad's best and average level against the rank (about level 3 for D up to 16 for S; the level follows their class under Training Points: about 5 at C class, 10 at B, 15 at A, 20 at S). Someone always has to stay home, and up to three squads can be away at once. On the way they may meet a named ninja of the village, or make a rival.

@@ -3,6 +3,17 @@ What changed in recent updates, newest first.
 
 @@summary What changed in recent updates, newest first.
 
+## Training Points on missions, lighter pouches, one Jutsu button
+- **Squad missions pay Training Points** to a Training Points ninja: S 25, A 20, B 10, C 5, D 5, and nothing for a mission below the ninja's rank or a failed one. The mission letter says what each ninja gained. With Training Points off, class XP is paid as before.
+- The seasonal **chūnin exam** gives a promoted ninja 100 Training Points; teaching a **foreign student** gives the teacher 15.
+- Technique tooltips of a Training Points ninja no longer show XP gain or a technique level.
+- **One Jutsu button:** with technique buttons minimised, a ninja has a single **Jutsu** button that opens the technique window at the tab used last. Expanded, there is one button per kind as before. Pins and the right-click menu are unchanged.
+- **Your ninja** in the ninja world panel also lists ninja away on a squad mission, marked "on a mission".
+- The Bingo Book list in the panel shows full names: first name, nickname in quotes, last name.
+- **Tools in a ninja pouch weigh nothing** (cloth, leather and sealing-scroll pouch). See [Ninja tool kit](ninja-tool-kit.html).
+- The kage's **Assign a mission** is now **Request mission**.
+- **Classes:** when a teacher leaves on a squad mission, the class is paused instead of being cancelled every day. It keeps its teacher and students and resumes when the teacher is back (needs Progression: Education).
+
 ## Update 523: the archive's save techniques
 - New: **Kanpeki na Ishi (Impeccable Will)** and **Fukutsu no Tairyoku (Indomitable Fortitude)**, D rank, up to 6 times each, at the archive's prices (10, 10, 20, 20, 30, 30 TP).
 - **Toughness, Epic Toughness, Iron Will (Steel mind) and Great Fortitude (Unbowed)** now add armour points and saves as the archive says, at the archive's fixed prices (30, 20, 20, 20 TP). Epic Toughness is C rank.
