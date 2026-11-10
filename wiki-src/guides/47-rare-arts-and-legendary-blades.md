@@ -35,7 +35,7 @@ Seven named weapons exist **once per world**. They can't be forged or bought; th
 - **Hoshigiri, the star cutter:** a sword of impossible length that cuts through armour as if it were not there.
 - **Fūraimaru, the wind-thunder sword:** wind and lightning; its strikes can leave a foe shaking.
 - **Kusanagi, the grass-cutter:** a straight sword that stretches out along a line and slips through armour. Its Chidori Current needs Raiton (a lightning nature or a Raiton technique).
-- **The Uchiha war fan:** a heavy fan that turns shots and techniques back on whoever sent them, and sends a wave of fire.
+- **The Uchiha war fan:** a heavy fan. Uchiha Reflection (5 seconds) stops shots and techniques that come from the front and sends them back; Flame Return (10 seconds) stops only enemy fire techniques from the front and blows them back half again as hard. Hits from behind land.
 - **The three-bladed scythe:** a priest of Jashin's weapon. Its Jashin Ritual only answers a follower of Jashin (see [Ideology](ideology.html#jashinism)).
 
 They turn up on old battlefields (30%), in sealed temples (25%), in clan laboratories (10%), and in the hands of a Bingo Book target (10%), always of legendary quality. Once a blade has appeared, it never appears again in that world.
@@ -56,6 +56,8 @@ Six legendary swords belong to six villages. Each village has one sworn swordsma
 | **Kabutowari**, the helm splitter | Tetsugakure | Helm Split (ignores armour, breaks shield belts and barriers, triple damage to walls), Chain Throw (pulls one foe in), Hammer Blow (knockback and stun) |
 
 When a swordsman dies in the living world (old age, war), another ninja of his village inherits the sword. When he falls on your map, the sword drops and is yours to take, but his village wants it back: a hostile village sends ninja to reclaim it within a week; a village at peace with you asks for it in a letter, and its goodwill drops by 20.
+
+**Giving it back:** gift the sword to its village like any other gift (drop pods to one of its settlements, or a caravan). The village's goodwill rises by 40, a planned reclaim raid is called off, and one of its swordsmen carries the sword again.
 
 ## The weapon-sealing scroll
 A great scroll worn in the belt slot, written at a scribe desk. It holds up to 10 weapons: seal them from your hands or inventory, then **Buki Kaihō (Weapon Release)** rains them all on an area up to 14 cells away (15 chakra). Each weapon strikes a foe there with its own force and lands on the ground to be picked up again. While it is worn, **Sōshōryū (Twin Rising Scrolls)** is 50% stronger.
