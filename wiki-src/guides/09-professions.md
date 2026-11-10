@@ -39,3 +39,24 @@ Ninja who already had a discipline, or already knew a technique of one of these 
 ## Clothing and gear
 - Boots of speed, boots of striding and springing, gloves of digging, cloaks of protection, displacement and lightning, battle cloaks, fire-resistant, cold-weather and hot-weather clothing, courtier's clothing, a tactical vest and a patrol pack.
 - Weapons: battle umbrellas, throwing disks, war boomerangs, senbon, and two legendary blades, the clockwork blade and the blade of the dhampir.
+
+## Puppeteer
+**Take Puppeteer…** in the ninja build (Miscellaneous, trades a mastery) opens the tree **Kugutsu no Jutsu (Puppet Technique)**. Puppets are built objects: a Puppeteer makes them at the **puppet workshop** (research: puppet making), carries them folded in the pack, and unseals them in a fight.
+
+**On the threads.** An unsealed puppet stands beside its Puppeteer and is ordered like a drafted fighter. It must stay within 12 cells: farther than that, or if the Puppeteer is downed, stunned or gone, the threads snap and the puppet folds up where it stands. **Seal puppet** folds it on purpose; within 2 cells it goes back into the pack. A puppet keeps its damage until repaired. At 0 it leaves a **broken puppet**, which the workshop rebuilds for a third of the materials.
+
+| Puppet | Role | What it does |
+|---|---|---|
+| **Karasu (Crow)** | Fast attacker, fragile | Poisoned arm blades; **Poison Needles** (three needles, 10 cells); **Poison Smoke Bomb** (smoke, and everyone of flesh within 3 cells is poisoned, friend or foe) |
+| **Kuroari (Black Ant)** | Trap | Saw-blade arms; **Capture** pulls a foe within 3 cells into its barrel: helpless until released or until the puppet breaks, folds or loses its threads |
+| **Sanshōuo (Salamander)** | Shield, slow and very tough | Tail strike; the shield frill (below) |
+
+**The tree:**
+- **Chakra Threads** (D): the basis.
+- **Puppet Technique** (C): unseal the next puppet you carry. Also needed to build puppets.
+- **Two-Puppet Control** (B) and **Three-Puppet Control** (A): two, then three puppets at once.
+- **Puppet Repair** (C): mends the worst damage of a puppet within 3 cells; within 4 cells of a puppet workshop, everything.
+- **Black Secret Technique: Salamander** (B): the frill opens for 20 seconds; shots and techniques aimed from range at an ally within 3 cells behind the Salamander hit the puppet instead.
+- **Black Secret Technique: Machine One Shot** (A): with a foe caught in Black Ant and Crow within 3 cells of it, Crow's blades go through the barrel. Very heavy damage.
+
+Puppet poison slows and weakens; it wears off in about two days and does not kill. Puppets themselves can't be poisoned.
