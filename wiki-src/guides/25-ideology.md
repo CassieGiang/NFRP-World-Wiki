@@ -41,6 +41,7 @@ With the Ideology DLC, NFRP World adds five ninja memes, eight ninja issues with
 - **Sajingakure**: Shinobi Code and Chakra Reverence.
 - **Kaedegakure, Otowagakure and Tetsugakure**: Shinobi Code.
 - **The Black Ink Syndicate**: The Forbidden Path.
+- **The Cult of Jashin**: Jashin.
 - **The Order of the Venator**: Sage of the Wilds.
 - **The feudal houses** Akagane, Shiranami and Kurogane: Clan Honour.
 
@@ -52,3 +53,11 @@ Four ninja rituals, each brought by one of the memes and open to ideoligions wit
 - **Blood pact rite** (The Forbidden Path): the pact-bearer regains chakra faster for one to three days, longer and stronger with a summoning contract.
 
 An ideoligion made before the rituals were added gets them only after it is reformed.
+
+## Jashinism
+**Jashin** is a meme of its own: Jashin demands slaughter, and pain is a prayer. An ideoligion with it always holds:
+- **Pain: idealized** (pain lifts the mood).
+- **Jashin's offering: required.** Every person a believer kills in melee is an offering (a good mood for 4 days); more than ten days without one is a bad mood.
+- **Jashin's rite**, a ritual led by a Jashinist at a ritual spot or altar, with a person killed within the last day lying within 6 cells and a colonist of another ideoligion listening. A fervent or ecstatic rite converts them; a cold one shakes their certainty.
+
+Jashinism is rare when ideoligions are made at random, and a small hostile **Cult of Jashin** lives in new worlds. Followers are not immortal. Only a follower can use the three-bladed scythe's Jashin Ritual: cut a foe, stand in the circle of their blood, and for 30 seconds every wound you take there is dealt to them as well.
