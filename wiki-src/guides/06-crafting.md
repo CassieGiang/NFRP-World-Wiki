@@ -13,6 +13,7 @@ The alchemy table, disciplines, the scribe desk and the crafting arts.
 
 ## Crafting arts (passive)
 - **Artisan is a profession too:** **Take Artisan...** in the Ninja build opens the Artisan arts, Equipment enhancing and Artisan paths trees.
+- **Among other people the professions are rare too:** about 1 in 10 ninja you meet is an alchemist, about 1 in 10 an artisan, and so on for puppeteers and each ritual school. The others don't know those techniques.
 - **Alchemy arts** and **Artisan arts** are passive perks: faster work, better yields, tougher bodies, and a chance to make items one quality level better (Cutting Corners, Alchemical Perfection, Mastercraft).
 - **Alchemy enhancement**: what an alchemist knows is stamped on everything they make at the alchemy table. Bombs can hit harder, burn, daze, stun or ignore armour; drinks and pills can last longer or not be used up.
 - **Mad science**: an alchemical companion animal, a body of energy, poison spit, paralysing strikes and more.

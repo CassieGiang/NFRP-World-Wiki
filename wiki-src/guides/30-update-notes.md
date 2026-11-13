@@ -4,6 +4,8 @@ What changed in recent updates, newest first.
 @@summary What changed in recent updates, newest first.
 
 ## Switch off trees and clans
+- Professions are rare among the ninja you meet: about 1 in 10 is an artisan, 1 in 10 an alchemist, and so on. Before, nearly everyone had artisan techniques.
+- Metal gear from other mods that couldn't be smelted now can be; anything that still can't be burned or smelted can be destroyed at the crematorium (**Destroy unburnable gear**).
 - New in the mod settings (World tab), **Trees and clans**: switch single technique trees and clans off, or the whole top tier at once with **Legendary powers**. Ninja who already have something keep it. See [Getting started](getting-started.html).
 - The **Alchemy discipline** button now shows on alchemists only; becoming one is **Take Alchemist...** in the Ninja build.
 - New icons for Spring Time of Youth, Call to arms and Request mission.
