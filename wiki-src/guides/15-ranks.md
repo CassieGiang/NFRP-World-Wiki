@@ -18,7 +18,7 @@ Hover over a rank on the health tab to see how long the pawn has held it, what t
 - **Training**: one session a day at a training post, training dummy, battle ring, chakra study apparatus or star-watching platform gives 10 TP (15 with the sensei near) as well as skill. There is no solo cap any more.
 - **Sensei and student**: select a colonist below jōnin and use the **Sensei** button to pick a jōnin or the Kage who outranks them (or the ideoligion's Sensei role). While the sensei is awake within 15 cells, the student's sessions give half as much again. The sensei gains Social.
 - **Sparring**: right-click a **battle ring** and pick "Spar with" a partner; both get a session's TP.
-- **Classes**: ninja classes and academy lessons (and Progression: Education's) give 5 TP once a day.
+- **Classes**: a ninja class (Progression: Education) is the day's training: it gives 10 TP once a day, 15 when the teacher is the student's sensei, and it shares the "trained recently" rest with the training post. Academy lessons give 5 TP once a day. The class teacher gets 5 TP.
 - **Missions**: D and C 5 TP, B 10, A 20, S 25.
 - **Exams**: the chūnin exam gives 100 TP, the jōnin trial 50.
 - **Fights**: 3 TP a technique cast at enemies (at most 15 a day); other casting 1 TP per 5 casts (at most 3 a day).
