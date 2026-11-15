@@ -58,11 +58,13 @@ The ninja world panel's war section shows settlements taken and held, who holds 
 
 ## Founding your own village
 When your colony is strong enough, the ninja world panel shows a checklist and a **Found the village** button:
-- a village leader and three more ninja of chūnin rank or higher
-- at least six colonists
+- a Kage and at least three ranked ninja in total, counting the Kage as a jōnin
+- at least six colonists, including living colonists away on active squad missions
 - not sworn to a village, or your sworn village blesses it at goodwill 75 or more
 - goodwill 0 or more with two villages
 - a household shrine, a training dummy or battle ring, and a messenger hawk roost, field radio or comms console
+
+Chūnin and higher-ranked colonists away on active squad missions count toward the ranked roster too.
 
 Founding leaves your old village without anyone turning missing-nin. It becomes your first ally (+10 goodwill). Friendly villages are pleased and hostile ones less so; the Syndicate takes it badly. Everyone feels "we founded a hidden village" (+8 mood for 15 days). Afterwards chūnin exams are held at home, you can no longer swear to a village, and every 10 to 18 days a friendly faction sends a D to S rank request: you choose one of your top three eligible ninja, and the chance of success is 50% plus 7% for each level above the target, kept between 10% and 95%.
 

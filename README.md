@@ -12,5 +12,7 @@ Requires Harmony, Taran Magic Framework and World of Naruto (load in that order,
 
 To regenerate: `python3 wiki-src/gen_wiki.py <mod_src> docs` where `mod_src` holds the mod's `Defs/`, `Patches/`, `About/` and an `img/` folder of thumbnails made from `Textures/`.
 
+For RimWorld 1.7, include the installed Kedōin and young tailed-beast definitions in that input. Copy the `*NF_Kedoin*.xml` patch files into `Patches/` and include the new jutsu and summon images under `img/` at their texture paths.
+
 ## Credits
 The Kazeraikou clan was created by Marii from NFRP and is used with her permission. Technique and clan material from the Naruto Forum Role-play (NFRP) community archive. Built on World of Naruto and Taran Magic Framework.

@@ -3,6 +3,16 @@ What changed in recent updates, newest first.
 
 @@summary What changed in recent updates, newest first.
 
+## Kedōin body arts and homunculi
+- The [Kedōin tree](../trees/nf-clankedoin.html) now has 26 techniques and 18 new icons. The [Kedōin gameplay guide](bloodlines.html#ked-in-in-rimworld) explains the summon caps, limb recovery, storage and movement controls.
+- Added Warped Visage, three Maw upgrades, Lesser and Greater Homunculi, Mirror Function, Sentient Limbs, Organ Reattachment, four storage techniques, External Shift, Gecko Grip, Flesh Fabric, Cowl of Kedōin and Autolytic Control.
+- Updated Flesh Architect, Legion of Maw, Shift of Organs, Formless Flexion, Hyperactive Immunity and Re-mortality Protocol.
+
+## Young tailed beasts and village founding
+- A drafted jinchūriki at the Bonded stage can summon a young form of any of the nine tailed beasts for two in-game hours. See [Young tailed beasts](summons.html#young-tailed-beasts).
+- The village-founding checklist includes colonists and ranked ninja away on active squad missions. A Kage keeps jōnin standing for the ranked roster.
+- Updated adult tailed-beast movement and front-facing animation frames when World of Naruto is loaded.
+
 ## Switch off trees and clans
 - A ninja class now gives as much as a training session: 10 TP, 15 when the teacher is the student's sensei. Before, it gave 5 and took the day's training.
 - Professions are rare among the ninja you meet: about 1 in 10 is an artisan, 1 in 10 an alchemist, and so on. Before, nearly everyone had artisan techniques.

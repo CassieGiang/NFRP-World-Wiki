@@ -12,6 +12,12 @@ Golems, fabled animals, a bone steed and animals sealed into scrolls.
 - Learn **Blood Pact** (Summoning arts, D) and pick one contract: Gale Hawks, Iron Boars, Moon Wolves or Stone Tortoises. One contract per ninja.
 - **Kuchiyose: Fabled Animal** calls animals of that contract: D one young animal, C two, B one great animal, A two, S one giant elder.
 
+## Young tailed beasts
+- Draft a player-controlled jinchūriki with a World of Naruto tailed-beast seal. Select **Summon young …** once the implant shows the **Bonded** stage.
+- The young beast appears drafted on clear ground near its host and fights for two in-game hours. Each host can have one active young summon of that beast at a time.
+- All nine are available: Shukaku, Matatabi, Isobu, Son Gokū, Kokuō, Saiken, Chōmei, Gyūki and Kurama. They have directional movement and idle animations. Matatabi and Kurama groom, Isobu tucks into its shell, and young Chōmei crawls as a beetle larva.
+- Kedōin have their own temporary summons. See [Homunculi and Maw techniques](bloodlines.html#maw-techniques-and-homunculi).
+
 ## Weapon scrolls
 - The Summoning arts tree also has a dozen weapon-scroll attacks, from Hidden Attack and Scroll Whip to Twin Rising Scrolls and Scroll Storm. Most of them hit everyone in the area.
 

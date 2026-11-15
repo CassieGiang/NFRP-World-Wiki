@@ -4,6 +4,7 @@ usage: python3 gen_wiki.py <mod_src> <out>
   mod_src: folder with Defs/, Patches/, About/ and img/ (thumbnails made from Textures/, same relative paths)
 Writes a plain HTML site (no build step) for GitHub Pages."""
 import os, sys, re, json, glob, shutil, html
+from copy import deepcopy
 import xml.etree.ElementTree as ET
 
 SRC, OUT = sys.argv[1], sys.argv[2]
@@ -20,6 +21,33 @@ for f in sorted(glob.glob(os.path.join(SRC, 'Defs', '*.xml'))):
             if ch.get('Name'): named[ch.get('Name')] = ch
     except ET.ParseError as e:
         print('skip', f, e)
+
+# The Kedōin extension ships its 1.7 changes as concrete XML patches.
+# Apply these before inheritance so the wiki reads the same definitions as the game.
+def apply_kedoin_patches(elements, paths):
+    root = ET.Element('Defs')
+    root.extend(elements)
+    for path in sorted(paths):
+        for op in ET.parse(path).getroot().findall('Operation'):
+            xpath = op.findtext('xpath')
+            targets = root.findall('.' + xpath.removeprefix('Defs'))
+            if len(targets) != 1:
+                raise ValueError(f'{path}: expected one Kedōin patch target at {xpath}, got {len(targets)}')
+            target = targets[0]
+            kind = op.get('Class')
+            additions = [deepcopy(child) for child in op.findall('value/*')]
+            if kind == 'PatchOperationAdd':
+                target.extend(additions)
+            elif kind in ('PatchOperationRemove', 'PatchOperationReplace'):
+                parent = next(node for node in root.iter() if target in list(node))
+                i = list(parent).index(target)
+                parent.remove(target)
+                for j, child in enumerate(additions):
+                    parent.insert(i + j, child)
+            else:
+                raise ValueError(f'{path}: unsupported Kedōin patch operation {kind}')
+
+apply_kedoin_patches(allel, glob.glob(os.path.join(SRC, 'Patches', '*NF_Kedoin*.xml')))
 # resolve XML inheritance (Name / ParentName) for the fields we read: copy missing children from parents
 def resolve(el, depth=0):
     par = named.get(el.get('ParentName') or '')
@@ -318,7 +346,8 @@ def tech_card(dn, up, url_tree):
     label = a.findtext('label') or dn
     ti = [x for x in (tier_info(li.text) for li in a.findall('abilityTiers/li')) if x]
     rk = [t['rank'] for t in ti if t['rank']]
-    passive = ti and all(t['kind'] == 'passive' for t in ti)
+    passive = a.findtext('abilityClass') in ('NFRPKedoin.HomunculusMastery', 'NFRPKedoin.MawMastery') or (
+        ti and all(t['kind'] == 'passive' for t in ti))
     def chakra(t):
         if t['kind'] == 'passive': return '–'
         parts = []
@@ -338,7 +367,21 @@ def tech_card(dn, up, url_tree):
         short = 'Passive'
     kinds = sorted({KIND_TEXT.get(t['kind'], '') for t in ti if t['kind']} - {''})
     reqs = sorted({t['req'] for t in ti if t['req']})
-    tags = ''.join(f'<span class="tag">{E(k)}</span>' for k in kinds) + ''.join(f'<span class="tag req">Needs {E(r)}</span>' for r in reqs) + ''.join(f'<span class="tag req">Needs {E(p)} first</span>' for p in prereq_text(dn))
+    prereqs = prereq_text(dn)
+    if dn.startswith('NF_Kedo') and len(a.findall('abilityTiers/li')) > 0:
+        first_tier = tiers.get(a.findtext('abilityTiers/li'))
+        if first_tier is not None:
+            for item in first_tier.findall('acquireRequirement/requiredMinimumAbilityLevels/*'):
+                name = ab_name(item.tag)
+                needed = int(item.text)
+                other = abilities.get(item.tag)
+                if needed > 0 and other is not None:
+                    path = other.findall('abilityTiers/li')
+                    if needed < len(path) and (rank := tier_info(path[needed].text)) and rank['rank']:
+                        name += f' ({rank["rank"]})'
+                if name not in prereqs:
+                    prereqs.append(name)
+    tags = ''.join(f'<span class="tag">{E(k)}</span>' for k in kinds) + ''.join(f'<span class="tag req">Needs {E(r)}</span>' for r in reqs) + ''.join(f'<span class="tag req">Needs {E(p)} first</span>' for p in prereqs)
     index.append([label, 'Technique', url_tree + '#' + slug(dn), '/'.join(rk)])
     desc = a.findtext('description') or ''
     return f'''<details class="card unit" id="{slug(dn)}"><summary>{icon(a.findtext('uiSkillIcon'), up)}<div class="sum"><h3>{E(label)} {seals_r(rk)}</h3><p class="line">{E(short)}. {E(desc)}</p></div></summary>
@@ -374,9 +417,10 @@ for g in GROUPS:
         note = NOTE.get(tdn) or gate or ('Open to every ninja. How high a ninja can go depends on their ninja build.' if open_t else 'Learned from technique scrolls, mission rewards, written scrolls and scroll merchants; some NPC ninja know it. It counts toward the ninja build like other trees.' if tdn.startswith('NF_Arch') else 'Unlocks through World of Naruto\'s own trees, a gene, a build choice or a profession.')
         bg = img(t.findtext('backgroundTexPath'), True)
         hero = f'<img class="treebg" src="{up}img/{E(bg)}" alt="">' if bg else ''
+        extra = f'<p><a href="../guides/bloodlines.html#{slug("Kedōin in RimWorld")}">Kedōin gameplay guide</a></p>' if tdn == 'NF_ClanKedoin' else ''
         body = f'''<div class="hero tree">{hero}<div><p class="crumb"><a href="../index.html">Home</a> › <a href="index.html">Techniques</a> › <a href="index.html#{slug(g)}">{E(g)}</a></p>
 <h1>{E(t.findtext('label'))}</h1><p class="lead">{len(techs)} techniques in the {E(tree_class.get(tdn, '').replace('WN_', '') or 'class')} tab.</p><p>{E(note)}</p></div></div>
-{toolbar('Filter techniques')}<section class="techs">{''.join(tech_card(d, up, path) for d in techs)}</section>{COST_NOTE}'''
+{extra}{toolbar('Filter techniques')}<section class="techs">{''.join(tech_card(d, up, path) for d in techs)}</section>{COST_NOTE}'''
         page(path, t.findtext('label'), body, desc=f'{t.findtext("label")}: all {len(techs)} techniques of the NFRP World tree.')
         index.append([t.findtext('label'), 'Tree', path, g])
 
