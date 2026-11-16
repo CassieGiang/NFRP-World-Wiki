@@ -5,6 +5,7 @@ Checks every technique card on the tree pages (label, ranks, chakra per rank, co
 description), every tree page title, and lists techniques that are in the mod but missing from the wiki (and the reverse).
 Also scans every page for things that must never be in the wiki (the dev test suite and the showcase recorder).
 Exit code 0 always; the report is the output."""
+from copy import deepcopy
 import os, re, sys, glob, json, html
 import xml.etree.ElementTree as ET
 
@@ -22,6 +23,33 @@ for f in sorted(glob.glob(os.path.join(MOD, 'Defs', '*.xml'))):
             if ch.get('Name'): named[ch.get('Name')] = ch
     except ET.ParseError as e:
         print('skip unreadable def file', os.path.basename(f), e)
+# The Kedōin extension ships its 1.7 changes as concrete XML patches.
+# Apply these before inheritance so the wiki reads the same definitions as the game.
+def apply_kedoin_patches(elements, paths):
+    root = ET.Element('Defs')
+    root.extend(elements)
+    for path in sorted(paths):
+        for op in ET.parse(path).getroot().findall('Operation'):
+            xpath = op.findtext('xpath')
+            targets = root.findall('.' + xpath.removeprefix('Defs'))
+            if len(targets) != 1:
+                raise ValueError(f'{path}: expected one Kedōin patch target at {xpath}, got {len(targets)}')
+            target = targets[0]
+            kind = op.get('Class')
+            additions = [deepcopy(child) for child in op.findall('value/*')]
+            if kind == 'PatchOperationAdd':
+                target.extend(additions)
+            elif kind in ('PatchOperationRemove', 'PatchOperationReplace'):
+                parent = next(node for node in root.iter() if target in list(node))
+                i = list(parent).index(target)
+                parent.remove(target)
+                for j, child in enumerate(additions):
+                    parent.insert(i + j, child)
+            else:
+                raise ValueError(f'{path}: unsupported Kedōin patch operation {kind}')
+
+apply_kedoin_patches(allel, glob.glob(os.path.join(MOD, 'Patches', '*NF_Kedoin*.xml')))   # same as gen_wiki.py
+
 def resolve(el, depth=0):
     par = named.get(el.get('ParentName') or '')
     if par is None or depth > 8: return
