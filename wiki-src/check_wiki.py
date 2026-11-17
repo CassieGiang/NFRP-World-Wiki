@@ -63,6 +63,15 @@ for ch in allel:
 T = lambda tag: defs.get(tag, {})
 trees, abilities, tiers = T('TaranMagicFramework.AbilityTreeDef'), T('TaranMagicFramework.AbilityDef'), T('TaranMagicFramework.AbilityTierDef')
 abilities = {d: a for d, a in abilities.items() if not d.startswith('NF_Sig_')}   # u282: signature slots are not wiki cards
+# u569: retired techniques are hidden (in the def or by a patch adding <hidden>true</hidden>) and get no wiki card
+HIDDEN = {d for d, a in abilities.items() if (a.findtext('hidden') or '').strip().lower() == 'true'}
+for _f in glob.glob(os.path.join(MOD, 'Patches', '*.xml')):
+    try: _r = ET.parse(_f).getroot()
+    except ET.ParseError: continue
+    for _op in _r.iter('Operation'):
+        _m = re.search(r'AbilityDef\[defName="([^"]+)"\]$', (_op.findtext('xpath') or '').strip())
+        if _m and (_op.findtext('value/hidden') or '').strip().lower() == 'true': HIDDEN.add(_m.group(1))
+abilities = {d: a for d, a in abilities.items() if d not in HIDDEN}
 tiers = {d: t for d, t in tiers.items() if not d.startswith('NF_Sig_')}
 trees = {d: t for d, t in trees.items() if d != 'NF_Signature'}
 
