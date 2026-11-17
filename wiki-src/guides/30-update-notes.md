@@ -3,28 +3,28 @@ What changed in recent updates, newest first.
 
 @@summary What changed in recent updates, newest first.
 
-## New animations and motifs
+## Updates 574–576: new animations and motifs
 - **About 330 techniques have their own animation now.** Every S-rank technique except Storm Cloud, and most A-rank attacks, play a hand-made sequence instead of the shared one for their family: a tsunami wall that breaks, a typhoon round a calm eye, an iceberg that drops out of its own shadow, a snow whale that breaches, a black hole that drinks the light, a C4 giant that dissolves into dust, Hotei's wooden hands, and many more.
 - **Each clan's strongest attack** has its own animation, from Yggdrasil's halos to the Ōgumo web and the Kitateha butterflies.
 - **26 new motifs** for signature techniques: 14 creatures (monkey, hawk, slug, weasel, salamander, centipede, lion, bear, stag, horse, mantis, hare, octopus, kirin) and 12 bursts (kunai, senbon, spears, cage, snowflakes, bubbles, thorns, paper lanterns, bells, war fans, smoke rings, dragon scales).
 - **48 more S/A techniques have painted impact art**, among them Bug Wasteland, Bone Cage, Shadow Endgame, 128 Palms and the Sharingan stares, plus 93 from the release, clan and weapon-style additions.
 
-## Own art for the new techniques
+## Updates 571–573: own art for the new techniques
 - **124 techniques** from the recent additions (releases, clans, fighting and weapon styles) now have their own painted icons instead of borrowed ones.
 - The **Rinnegan** tree has its own card and icons, and Senju blood and the Rinnegan eyes have their own item pictures.
 - Nine summons have their own bodies: Ruby Light's hedgehog, the black ice and green wood dragons, the sand scorpion, the paper crane, the gummy bears, the two ink beasts and the fire lion. The Crystal Tree has its own look.
 - New hand-made animations for **Shinra Tensei**, **Chibaku Tensei**, **Mirage of a Frozen Moon**, **Haunted Forest** and **Laser Storm**.
 
-## Weapon styles and taijutsu: signature moves
+## Update 569: weapon styles and taijutsu, signature moves
 - 32 new moves across 19 weapon styles, among them Armiger's **Unlimited Aggression** (every enemy within 20 cells comes at you), Busōsen's **Judgment Cut**, Kenseijin's nine-cut **Kuzu-ryūsen**, Kamashi's **My Puppet**, Santōryū's **Rise of Ganesh**, Marksman's **Shower of Arrows**, Tonfa's **Full Stop**, Wakizashi Kagame's **Fire Lion Dance** and three Riders dressage moves.
 - Retired: Tessen's three wind moves, Gintsuki's five moon cuts and Wakizashi Kagame's Jade Fist, Amethyst Blade and Onyx Blade. They don't match their archive styles. A ninja who knew one loses it when the game loads and gets its Training Points back. Diamond Blade now needs the Wakizashi Kagame training.
 - See the [Tessen](../trees/nf-styletessen.html), [Gintsuki](../trees/nf-stylegintsuki.html) and [Wakizashi Kagame](../trees/nf-archwakizashikagame.html) trees.
 
-## Nine clans grow
+## Update 568: nine clans grow
 - 28 new techniques for the clans that had the fewest: [Kishiyagi](../trees/nf-clankishiyagi.html), [Yokushin](../trees/nf-clanyokushin.html), [Protean](../trees/nf-clanprotean.html), [Zassou](../trees/nf-clanzassou.html), [Mabuki](../trees/nf-clanmabuki.html), [Kitateha](../trees/nf-clankitateha.html), [Ōgumo](../trees/nf-clanogumo.html), [Hoshigaki](../trees/nf-clanhoshigaki.html) and [Li](../trees/nf-clanli.html).
 - Highlights: Yokushin's **Gummy Bear Massacre** (six candy bears), Protean's **Biobomb** and **Longshot Grab**, Hoshigaki's **Goblin Shark Pack**, Li's **Chōjū Giga** ink beasts.
 
-## Releases: new high-rank techniques
+## Updates 559–567: releases, new high-rank techniques
 - **Fire:** Weaponization (a fire weapon whose blows burn), Exploding Flock, Exploding Flame Crater, Phoenix Rebirth.
 - **Water:** Thousand Feeding Sharks, Water Jet, Miracle of Rain (real rain for a day), Water Formation Pillar.
 - **Earth:** Lithic Press, Deadly Lahar, Decaying Swamp, Crumblewall (brings down a building and damages its neighbours).
@@ -35,29 +35,29 @@ What changed in recent updates, newest first.
 - **Sand:** Desert Forest, Sand Rack, Sand Scorpion Duplicate. **Crystal:** Imprisonment Wave, Eighth Formation, Arrow of Light, Crystal Tree. **Paper:** Paper Weapon, Razor Strings, Paper Familiar.
 - See the [Fire](../trees/nf-artsfire.html), [Water](../trees/nf-artswater.html), [Earth](../trees/nf-artsearth.html), [Lightning](../trees/nf-artslightning.html), [Wind](../trees/nf-artswind.html), [Ice](../trees/nf-artsice.html), [Wood](../trees/nf-artswood.html), [Sand](../trees/nf-artssand.html), [Crystal](../trees/nf-ninjutsucrystal.html) and [Paper](../trees/nf-ninjutsupaper.html) trees.
 
-## Rinnegan and the Ten-Tails
+## Updates 554–556: Rinnegan and the Ten-Tails
 - New legendary tree: the [Rinnegan (Samsara Eye)](../trees/nf-legendrinnegan.html). It awakens in a Mangekyō Sharingan user infused with Senju blood (drawn from someone with a Senju body by surgery), in time or at the edge of death, and can be harvested from a fallen bearer and implanted. Techniques: Shinra Tensei, Banshō Ten'in, Preta Path absorption, Human Path soul rip and Chibaku Tensei.
 - **The Ten-Tails (Jūbi)** is far stronger and levels buildings. A Rinnegan or Mangekyō user can raise the **Gedō Mazō** and seal the Jūbi into themselves.
 
-## Fighting styles: Roaring Iron, Drunken Fist, Muay Thai, Red Leg, Sky Skates
+## Updates 550–558: fighting styles, Roaring Iron, Drunken Fist, Muay Thai, Red Leg, Sky Skates
 - New moves for [Gōtetsu](../trees/nf-archgoutetsu.html) (Vacuum Whirlwind, Red Crow Pillar, Fist of the Wind), [Drunken Fist](../trees/nf-styledrunken.html), [Muay Thai](../trees/nf-stylemuaythai.html), [Red Leg](../trees/nf-styleredleg.html) (Party Table, Frit Assorti, Boar Hot Pot Shot, Epluchage) and [Sky Skates](../trees/nf-styleskyskates.html) (Moon Drop, Air Cannon, Cloak of Time, Focke Wulf).
 - Technique trees no longer have buttons sitting on top of each other.
 
-## Genjutsu: two new batches and a mass grave
+## Updates 548–551: genjutsu, two new batches and a mass grave
 - New tree: [Illusion Enhancement](../trees/nf-archgenenhance.html) (Charm Lace, Infuse Truth, Augment and Enhanced Shadows and more), plus new figments, glamours, patterns, phantasms, shadows, charms and compulsions, among them Hound of Doom, Shadow Body and Tide of War.
 - **Mass grave:** holds up to 20 bodies; light it to burn them all.
 
-## Kedōin body arts and homunculi
+## Update 547: Kedōin body arts and homunculi
 - The [Kedōin tree](../trees/nf-clankedoin.html) now has 26 techniques and 18 new icons. The [Kedōin gameplay guide](bloodlines.html#ked-in-in-rimworld) explains the summon caps, limb recovery, storage and movement controls.
 - Added Warped Visage, three Maw upgrades, Lesser and Greater Homunculi, Mirror Function, Sentient Limbs, Organ Reattachment, four storage techniques, External Shift, Gecko Grip, Flesh Fabric, Cowl of Kedōin and Autolytic Control.
 - Updated Flesh Architect, Legion of Maw, Shift of Organs, Formless Flexion, Hyperactive Immunity and Re-mortality Protocol.
 
-## Young tailed beasts and village founding
+## Update 547: young tailed beasts and village founding
 - A drafted jinchūriki at the Bonded stage can summon a young form of any of the nine tailed beasts for two in-game hours. See [Young tailed beasts](summons.html#young-tailed-beasts).
 - The village-founding checklist includes colonists and ranked ninja away on active squad missions. A Kage keeps jōnin standing for the ranked roster.
 - Updated adult tailed-beast movement and front-facing animation frames when World of Naruto is loaded.
 
-## Switch off trees and clans
+## Updates 541–546: switch off trees and clans
 - A ninja class now gives as much as a training session: 10 TP, 15 when the teacher is the student's sensei. Before, it gave 5 and took the day's training.
 - Professions are rare among the ninja you meet: about 1 in 10 is an artisan, 1 in 10 an alchemist, and so on. Before, nearly everyone had artisan techniques.
 - Metal gear from other mods that couldn't be smelted now can be; anything that still can't be burned or smelted can be destroyed at the crematorium (**Destroy unburnable gear**).
@@ -65,7 +65,7 @@ What changed in recent updates, newest first.
 - The **Alchemy discipline** button now shows on alchemists only; becoming one is **Take Alchemist...** in the Ninja build.
 - New icons for Spring Time of Youth, Call to arms and Request mission.
 
-## Training Points on missions, lighter pouches, one Jutsu button
+## Updates 539–540: Training Points on missions, lighter pouches, one Jutsu button
 - **Squad missions pay Training Points** to a Training Points ninja: S 25, A 20, B 10, C 5, D 5, and nothing for a mission below the ninja's rank or a failed one. The mission letter says what each ninja gained. With Training Points off, class XP is paid as before.
 - The seasonal **chūnin exam** gives a promoted ninja 100 Training Points; teaching a **foreign student** gives the teacher 15.
 - Technique tooltips of a Training Points ninja no longer show XP gain or a technique level.
@@ -75,6 +75,12 @@ What changed in recent updates, newest first.
 - **Tools in a ninja pouch weigh nothing** (cloth, leather and sealing-scroll pouch). See [Ninja tool kit](ninja-tool-kit.html).
 - The kage's **Assign a mission** is now **Request mission**.
 - **Classes:** when a teacher leaves on a squad mission, the class is paused instead of being cancelled every day. It keeps its teacher and students and resumes when the teacher is back (needs Progression: Education).
+
+## Updates 524–538: IMPACT-L stats, elemental advantages, legendary weapons and puppets
+- **IMPACT-L stats** from the archive, with their gear, elixirs and Unlock Potential, and **ability damage and drain**. See [IMPACT-L stats](impact-l-stats.html).
+- **Elemental advantages:** one rule for every clash between elements; a stronger element can win a crossing cast at half power or cancel it.
+- **Legendary weapons and Jashinism:** the Seven Swordsmen's blades and other named weapons with their own techniques and training icons.
+- **Puppets:** the Puppeteer profession, a puppet workshop, and Crow, Black Ant and Salamander.
 
 ## Update 523: the archive's save techniques
 - New: **Kanpeki na Ishi (Impeccable Will)** and **Fukutsu no Tairyoku (Indomitable Fortitude)**, D rank, up to 6 times each, at the archive's prices (10, 10, 20, 20, 30, 30 TP).
