@@ -107,7 +107,7 @@ What changed in recent updates, newest first.
 ## Updates 502–511: Training Points, tree scrolls, professions and Kage
 - **Training Points (TP)** replace levels for learning. Ninja earn TP from training sessions, sparring, a sensei, classes, fights and casting, and spend them in the new **Learn techniques** window. Ranks, missions, the chūnin exam and the jōnin trial use TP too. See [Training Points](training-points.html).
 - **Tree scrolls instead of masters:** most archive trees and a few others open only once a ninja reads that tree's scroll. Reading opens the tree and teaches its base technique for free. Scrolls come in Common, Rare and Powerful; Powerful ones only from real masters and ancient ruins. See [Tree scrolls](tree-scrolls.html).
-- **Advanced releases are bloodline releases:** Ice, Wood, Sand, Crystal and Paper come free with their genes (since u513, chakra paper can also lead to Ice, Wood and Sand).
+- **Advanced releases are bloodline releases:** Ice, Wood, Sand, Crystal and Paper come free with their genes (chakra paper can also lead to Ice, Wood and Sand).
 - **First-tree letters** offer only trees that need no scroll, and teach the tree's base technique.
 - **Professions:** Venator and Bard are Rare scrolls; ANBU is a title the Kage gives (one division per ninja, it opens the ANBU tree and lets them wear that division's mask); Monster Trainer needs Binding seals first. Alchemist, Artisan and Ritualist each take a Miscellaneous slot in the Ninja build. See [Professions](professions.html) and [Builds](builds.html).
 - **Kage:** the leader of your village and of every ninja village is titled Kage. Samurai houses and the Syndicate keep their own titles.
