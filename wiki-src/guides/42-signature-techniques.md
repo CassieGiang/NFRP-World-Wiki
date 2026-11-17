@@ -34,7 +34,7 @@ Every village starts with a set of shapes, modifiers and motifs. The rest are **
 
 - **Shapes** (24) decide what the technique does: a bullet, a breath, a field, a bind, a barrier, a mending, a curse and more.
 - **Modifiers** (34) tune it: stronger, farther, wider, cheaper, and effects such as stunning, freezing, chakra-sealing or of swiftness.
-- **Motifs** (22 besides plain) decide its look: dragons, birds, hounds, sharks, a serpent, a crane, a wolf, a comet, a lotus, a crescent moon and more. Each is painted art that takes the element's colour. The design window shows them as picture tiles for the chosen element: hover a tile to see it move, and locked ones are greyed with how to earn them.
+- **Motifs** (64 besides plain) decide its look: dragons, birds, hounds, sharks, a serpent, a crane, a wolf, a comet, a lotus, a crescent moon, and creatures from a monkey, hawk and slug to a lion, stag, mantis, octopus and kirin, or bursts of kunai, senbon, spears, a cage, snowflakes, bubbles, thorns, paper lanterns, bells, war fans, smoke rings and dragon scales. Kunai is open from the start; the others are earned like any motif. Each is painted art that takes the element's colour. The design window shows them as picture tiles for the chosen element: hover a tile to see it move, and locked ones are greyed with how to earn them.
 
 ## Teaching and scrolls
 - The creator can write the technique on a scroll at the scribe desk. Another of your ninja who reads it starts **Learning** it at a training spot.

@@ -3,6 +3,12 @@ What changed in recent updates, newest first.
 
 @@summary What changed in recent updates, newest first.
 
+## New animations and motifs
+- **About 330 techniques have their own animation now.** Every S-rank technique except Storm Cloud, and most A-rank attacks, play a hand-made sequence instead of the shared one for their family: a tsunami wall that breaks, a typhoon round a calm eye, an iceberg that drops out of its own shadow, a snow whale that breaches, a black hole that drinks the light, a C4 giant that dissolves into dust, Hotei's wooden hands, and many more.
+- **Each clan's strongest attack** has its own animation, from Yggdrasil's halos to the Ōgumo web and the Kitateha butterflies.
+- **26 new motifs** for signature techniques: 14 creatures (monkey, hawk, slug, weasel, salamander, centipede, lion, bear, stag, horse, mantis, hare, octopus, kirin) and 12 bursts (kunai, senbon, spears, cage, snowflakes, bubbles, thorns, paper lanterns, bells, war fans, smoke rings, dragon scales).
+- **48 more S/A techniques have painted impact art**, among them Bug Wasteland, Bone Cage, Shadow Endgame, 128 Palms and the Sharingan stares, plus 93 from the release, clan and weapon-style additions.
+
 ## Own art for the new techniques
 - **124 techniques** from the recent additions (releases, clans, fighting and weapon styles) now have their own painted icons instead of borrowed ones.
 - The **Rinnegan** tree has its own card and icons, and Senju blood and the Rinnegan eyes have their own item pictures.
