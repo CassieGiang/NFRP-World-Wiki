@@ -3,6 +3,38 @@ What changed in recent updates, newest first.
 
 @@summary What changed in recent updates, newest first.
 
+## Weapon styles and taijutsu: signature moves
+- 32 new moves across 19 weapon styles, among them Armiger's **Unlimited Aggression** (every enemy within 20 cells comes at you), Busōsen's **Judgment Cut**, Kenseijin's nine-cut **Kuzu-ryūsen**, Kamashi's **My Puppet**, Santōryū's **Rise of Ganesh**, Marksman's **Shower of Arrows**, Tonfa's **Full Stop**, Wakizashi Kagame's **Fire Lion Dance** and three Riders dressage moves.
+- Retired: Tessen's three wind moves, Gintsuki's five moon cuts and Wakizashi Kagame's Jade Fist, Amethyst Blade and Onyx Blade. They don't match their archive styles. A ninja who knew one loses it when the game loads and gets its Training Points back. Diamond Blade now needs the Wakizashi Kagame training.
+- See the [Tessen](../trees/nf-styletessen.html), [Gintsuki](../trees/nf-stylegintsuki.html) and [Wakizashi Kagame](../trees/nf-archwakizashikagame.html) trees.
+
+## Nine clans grow
+- 28 new techniques for the clans that had the fewest: [Kishiyagi](../trees/nf-clankishiyagi.html), [Yokushin](../trees/nf-clanyokushin.html), [Protean](../trees/nf-clanprotean.html), [Zassou](../trees/nf-clanzassou.html), [Mabuki](../trees/nf-clanmabuki.html), [Kitateha](../trees/nf-clankitateha.html), [Ōgumo](../trees/nf-clanogumo.html), [Hoshigaki](../trees/nf-clanhoshigaki.html) and [Li](../trees/nf-clanli.html).
+- Highlights: Yokushin's **Gummy Bear Massacre** (six candy bears), Protean's **Biobomb** and **Longshot Grab**, Hoshigaki's **Goblin Shark Pack**, Li's **Chōjū Giga** ink beasts.
+
+## Releases: new high-rank techniques
+- **Fire:** Weaponization (a fire weapon whose blows burn), Exploding Flock, Exploding Flame Crater, Phoenix Rebirth.
+- **Water:** Thousand Feeding Sharks, Water Jet, Miracle of Rain (real rain for a day), Water Formation Pillar.
+- **Earth:** Lithic Press, Deadly Lahar, Decaying Swamp, Crumblewall (brings down a building and damages its neighbours).
+- **Lightning:** Laser Storm (a storm that follows its target), Chirping Claw, Ridairekuto (sends a lightning technique back), Ruby Light (a hedgehog that keeps a shield on you).
+- **Wind:** Asphyxiation (no breathing and no techniques), Cyclone Barrier, Winds of Vengeance, Towering Thunderhead (a cloud that shields from shots and powers lightning and sound).
+- **Ice:** Mirage of a Frozen Moon, Eternal Ice Prison, Polar Ray, Black Dragon Familiar.
+- **Wood:** Control Plants (trees fight as golems), Deadfall Bearing, Haunted Forest (needs a forest), Gather Moss, Green Dragon Familiar.
+- **Sand:** Desert Forest, Sand Rack, Sand Scorpion Duplicate. **Crystal:** Imprisonment Wave, Eighth Formation, Arrow of Light, Crystal Tree. **Paper:** Paper Weapon, Razor Strings, Paper Familiar.
+- See the [Fire](../trees/nf-artsfire.html), [Water](../trees/nf-artswater.html), [Earth](../trees/nf-artsearth.html), [Lightning](../trees/nf-artslightning.html), [Wind](../trees/nf-artswind.html), [Ice](../trees/nf-artsice.html), [Wood](../trees/nf-artswood.html), [Sand](../trees/nf-artssand.html), [Crystal](../trees/nf-ninjutsucrystal.html) and [Paper](../trees/nf-ninjutsupaper.html) trees.
+
+## Rinnegan and the Ten-Tails
+- New legendary tree: the [Rinnegan (Samsara Eye)](../trees/nf-legendrinnegan.html). It awakens in a Mangekyō Sharingan user infused with Senju blood (drawn from someone with a Senju body by surgery), in time or at the edge of death, and can be harvested from a fallen bearer and implanted. Techniques: Shinra Tensei, Banshō Ten'in, Preta Path absorption, Human Path soul rip and Chibaku Tensei.
+- **The Ten-Tails (Jūbi)** is far stronger and levels buildings. A Rinnegan or Mangekyō user can raise the **Gedō Mazō** and seal the Jūbi into themselves.
+
+## Fighting styles: Roaring Iron, Drunken Fist, Muay Thai, Red Leg, Sky Skates
+- New moves for [Gōtetsu](../trees/nf-archgoutetsu.html) (Vacuum Whirlwind, Red Crow Pillar, Fist of the Wind), [Drunken Fist](../trees/nf-styledrunken.html), [Muay Thai](../trees/nf-stylemuaythai.html), [Red Leg](../trees/nf-styleredleg.html) (Party Table, Frit Assorti, Boar Hot Pot Shot, Epluchage) and [Sky Skates](../trees/nf-styleskyskates.html) (Moon Drop, Air Cannon, Cloak of Time, Focke Wulf).
+- Technique trees no longer have buttons sitting on top of each other.
+
+## Genjutsu: two new batches and a mass grave
+- New tree: [Illusion Enhancement](../trees/nf-archgenenhance.html) (Charm Lace, Infuse Truth, Augment and Enhanced Shadows and more), plus new figments, glamours, patterns, phantasms, shadows, charms and compulsions, among them Hound of Doom, Shadow Body and Tide of War.
+- **Mass grave:** holds up to 20 bodies; light it to burn them all.
+
 ## Kedōin body arts and homunculi
 - The [Kedōin tree](../trees/nf-clankedoin.html) now has 26 techniques and 18 new icons. The [Kedōin gameplay guide](bloodlines.html#ked-in-in-rimworld) explains the summon caps, limb recovery, storage and movement controls.
 - Added Warped Visage, three Maw upgrades, Lesser and Greater Homunculi, Mirror Function, Sentient Limbs, Organ Reattachment, four storage techniques, External Shift, Gecko Grip, Flesh Fabric, Cowl of Kedōin and Autolytic Control.
