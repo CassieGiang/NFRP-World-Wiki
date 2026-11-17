@@ -3,6 +3,12 @@ What changed in recent updates, newest first.
 
 @@summary What changed in recent updates, newest first.
 
+## Own art for the new techniques
+- **124 techniques** from the recent additions (releases, clans, fighting and weapon styles) now have their own painted icons instead of borrowed ones.
+- The **Rinnegan** tree has its own card and icons, and Senju blood and the Rinnegan eyes have their own item pictures.
+- Nine summons have their own bodies: Ruby Light's hedgehog, the black ice and green wood dragons, the sand scorpion, the paper crane, the gummy bears, the two ink beasts and the fire lion. The Crystal Tree has its own look.
+- New hand-made animations for **Shinra Tensei**, **Chibaku Tensei**, **Mirage of a Frozen Moon**, **Haunted Forest** and **Laser Storm**.
+
 ## Weapon styles and taijutsu: signature moves
 - 32 new moves across 19 weapon styles, among them Armiger's **Unlimited Aggression** (every enemy within 20 cells comes at you), Busōsen's **Judgment Cut**, Kenseijin's nine-cut **Kuzu-ryūsen**, Kamashi's **My Puppet**, Santōryū's **Rise of Ganesh**, Marksman's **Shower of Arrows**, Tonfa's **Full Stop**, Wakizashi Kagame's **Fire Lion Dance** and three Riders dressage moves.
 - Retired: Tessen's three wind moves, Gintsuki's five moon cuts and Wakizashi Kagame's Jade Fist, Amethyst Blade and Onyx Blade. They don't match their archive styles. A ninja who knew one loses it when the game loads and gets its Training Points back. Diamond Blade now needs the Wakizashi Kagame training.
