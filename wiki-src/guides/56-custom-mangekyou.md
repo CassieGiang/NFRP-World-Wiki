@@ -12,6 +12,8 @@ A ninja whose Sharingan becomes a Mangekyō can keep the eye World of Naruto giv
 - A shaped eye counts as a Mangekyō for the [Rinnegan](../trees/nf-legendrinnegan.html).
 
 ## The window
+@@mock custom-mangekyou
+
 - **Left eye and right eye:** pick a power type for each (the two must differ), then one of that type's forms. Hover a type or a form to read it.
 - **Both eyes:** the combined art for your two types, Susanoo with a weapon, or Izanami. Combined arts exist so far for every pair among the first 23 types (Black flames to Silence); pairs with Magnetism or a later type get theirs in later updates and meanwhile take Susanoo or Izanami.
 - **Pattern and colour:** choose for both eyes at once or for each eye on its own. 40 patterns; 8 colour presets or any colour with the hue, colour and brightness sliders. The eyes show above the ninja when the Mangekyō opens and on the Mangekyō button, and Susanoo takes the colour.
