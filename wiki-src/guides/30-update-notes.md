@@ -3,6 +3,11 @@ What changed in recent updates, newest first.
 
 @@summary What changed in recent updates, newest first.
 
+## Update 578: more Mangekyō powers and eyes
+- **20 new power types** for shaped Mangekyō, three forms each: Reflection, Storm, Summoning, Soul, Kotodama (Word), Fate threads, Bloom and decay, Echo, Labyrinth, Hunger, Erasure, Blood eye, Silence, Magnetism, Karma, Exchange, Light, Memory, Scale and Mark. Mind and Sealing get a third form, Reality two more. See [Custom Mangekyō](custom-mangekyou.html).
+- **Eyes:** 40 patterns, each eye its own pattern and colour, any colour with sliders, and a merged **Eternal** look.
+- Combined arts for pairs with the new types come in later updates; until then those pairs take Susanoo or Izanami.
+
 ## Update 577: custom Mangekyō
 - When a colonist's **Mangekyō** awakens, you can keep the eye World of Naruto gives or **shape your own**: one power in each eye (10 types, 26 forms), a power for both eyes (Susanoo with a sword and shield, a bow, a spear or magatama; Izanami; or one of **45 combined arts**, one for each pair of powers), a pattern (20) and a colour (8). See [Custom Mangekyō](custom-mangekyou.html).
 - The techniques cost eye sight as World of Naruto's own Mangekyō techniques do. About 1 enemy Mangekyō user in 100 has an own-shaped eye.
