@@ -3,6 +3,10 @@ What changed in recent updates, newest first.
 
 @@summary What changed in recent updates, newest first.
 
+## Update 577: custom Mangekyō
+- When a colonist's **Mangekyō** awakens, you can keep the eye World of Naruto gives or **shape your own**: one power in each eye (10 types, 26 forms), a power for both eyes (Susanoo with a sword and shield, a bow, a spear or magatama; Izanami; or one of **45 combined arts**, one for each pair of powers), a pattern (20) and a colour (8). See [Custom Mangekyō](custom-mangekyou.html).
+- The techniques cost eye sight as World of Naruto's own Mangekyō techniques do. About 1 enemy Mangekyō user in 100 has an own-shaped eye.
+
 ## Updates 574–576: new animations and motifs
 - **About 330 techniques have their own animation now.** Every S-rank technique except Storm Cloud, and most A-rank attacks, play a hand-made sequence instead of the shared one for their family: a tsunami wall that breaks, a typhoon round a calm eye, an iceberg that drops out of its own shadow, a snow whale that breaches, a black hole that drinks the light, a C4 giant that dissolves into dust, Hotei's wooden hands, and many more.
 - **Each clan's strongest attack** has its own animation, from Yggdrasil's halos to the Ōgumo web and the Kitateha butterflies.
