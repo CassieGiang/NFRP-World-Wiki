@@ -1,7 +1,7 @@
 # Custom Mangekyō
 A ninja whose Sharingan becomes a Mangekyō can keep the eye World of Naruto gives them, or shape their own: one power in each eye, a power for both eyes, and the look of each eye.
 
-@@summary When a colonist's Mangekyō awakens, a letter offers to keep the canon eye or shape your own: two different eye powers (30 types, 90 forms), a joint power (Susanoo with one of four weapons, Izanami, or one of 351 combined arts so far), and for each eye one of 40 patterns and any colour. An Eternal Mangekyō merges in a second pattern. Strain is World of Naruto's own. About 1 enemy Mangekyō user in 100 has a shaped eye.
+@@summary When a colonist's Mangekyō awakens, a letter offers to keep the canon eye or shape your own: two different eye powers (30 types, 90 forms), a joint power (Susanoo with one of four weapons, Izanami, or one of 435 combined arts so far), and for each eye one of 40 patterns and any colour. An Eternal Mangekyō merges in a second pattern. Strain is World of Naruto's own. About 1 enemy Mangekyō user in 100 has a shaped eye.
 
 ## Awakening
 - The Mangekyō awakens as World of Naruto decides, and World of Naruto picks a canon eye for it (Itachi's, Sasuke's, Shisui's, Obito's and the others).
@@ -15,7 +15,7 @@ A ninja whose Sharingan becomes a Mangekyō can keep the eye World of Naruto giv
 @@mock custom-mangekyou
 
 - **Left eye and right eye:** pick a power type for each (the two must differ), then one of that type's forms. Hover a type or a form to read it.
-- **Both eyes:** the combined art for your two types, Susanoo with a weapon, or Izanami. Combined arts exist so far for every pair among the first 27 types (Black flames to Light); pairs with Memory or a later type get theirs in later updates and meanwhile take Susanoo or Izanami.
+- **Both eyes:** the combined art for your two types, Susanoo with a weapon, or Izanami. Combined arts exist so far for every pair among the first 30 types (Black flames to Mark); pairs with  or a later type get theirs in later updates and meanwhile take Susanoo or Izanami.
 - **Pattern and colour:** choose for both eyes at once or for each eye on its own. 40 patterns; 8 colour presets or any colour with the hue, colour and brightness sliders. The eyes show above the ninja when the Mangekyō opens and on the Mangekyō button, and Susanoo takes the colour.
 
 ## Eternal Mangekyō
@@ -175,7 +175,7 @@ When a shaped eye becomes Eternal (World of Naruto's Eternal Mangekyō), a lette
 | Izanami (Fated Loop) | The victim relives the same moment over and over and cannot break out until they accept their fate: a day lost in the loop. A captive caught by it gives up all resistance. The user's eye goes dark for a day. |
 
 ## Combined arts
-One for each pair among the first 27 powers so far.
+One for each pair among the first 30 powers so far.
 
 | Eyes | Art | What it does |
 |---|---|---|
@@ -530,6 +530,90 @@ One for each pair among the first 27 powers so far.
 | Magnetism + light | Jikō (Magnetic Light) | Light runs through iron: every armed foe within ten cells is burned through their weapon and drops it. |
 | Karma + light | Kōmyō (Light of Merit) | The user and allies within eight cells heal and gain fortune; foes who hurt them in the last minute are blinded. |
 | Exchange + light | Kō Kōkan (Light Swap) | The user swaps places with any pawn in sight at the speed of light and blinds them for fifteen seconds. |
+| Black flames + memory | Kioku no Hi (Burning Memory) | A foe relives the worst burn of their life: black fire, and a five-second stun. |
+| Illusion world + memory | Nisekioku (False Memories) | Foes within six cells remember the user as a friend: they stop fighting and wander for thirty seconds. |
+| Space-time + memory | Kaerimichi Wasure (Lost Way Home) | Every foe within eight cells forgets where they stand and finds themselves ten to twenty cells away. |
+| Mind control + memory | Kioku Shihai (Rewritten Memory) | A foe remembers serving the user and obeys for a minute. |
+| Sealing + memory | Kioku Fūin (Sealed Memory) | A foe's techniques are sealed out of their memory: no casting for two minutes. |
+| Time + memory | Kioku Modoshi (Memory Rewind) | The user's last minute is taken back: they return to where they stood, and the wounds of that minute are gone. |
+| Gravity + memory | Kōkai no Omomi (Weight of Regret) | Foes within six cells of the spot are crushed by their regrets and stunned. |
+| Sight + memory | Kioku Gan (Eye of Memory) | The user reads every foe's memory: hidden foes are shown, and every foe in sight is marked as prey. |
+| Shaping + memory | Kioku Ken (Blade of Memory) | A blade shaped from the foe's own last attack strikes them three times. |
+| Reality + memory | Omoide no Utsutsu (Memory Made Real) | The user's memory of an ally whole and well becomes real: every wound is undone. |
+| Reflection + memory | Kioku Kagami (Mirror of Memory) | A foe forgets one technique for two minutes, and the user can cast it once in that time. |
+| Storm + memory | Raiki (Lightning Memory) | Lightning remembers: up to five foes within ten cells are struck twice, once where they stood ten seconds ago and once where they are. |
+| Summoning + memory | Omokage Shōkan (Summoned Faces) | Two shades shaped from the user's memories fight for a minute. |
+| Soul + memory | Kioku Tamashii (Forgotten Self) | A foe forgets who they are: out cold for a minute, and one technique is lost to them for two minutes. |
+| Kotodama (Word) + memory | Kotodama: Omoidase (Word: Remember) | "Remember." Allies within eight cells remember their training: faster, and lucky, for thirty seconds. |
+| Fate threads + memory | Kioku no Ito (Thread of Memory) | A foe is marked as prey for two minutes, and the user steps to their side. |
+| Bloom and decay + memory | Omoide Bana (Flowers of Memory) | Allies within eight cells recall happier times: they heal, and any mental break ends. |
+| Echo + memory | Kioku Hibiki (Echoing Memory) | The user casts their own last technique again. |
+| Labyrinth + memory | Kioku Meikyū (Maze of Memory) | Foes within six cells of the spot are lost in their own memories: wandering and unable to cast for twenty seconds. |
+| Hunger + memory | Kioku Kui (Memory Eater) | A foe's best skill is eaten: it drops for a day, and the user gains it. |
+| Erasure + memory | Kioku Shōkyo (Erased Battle) | Up to six foes within eight cells forget the fight and leave the map. |
+| Blood eye + memory | Chi no Kioku (Blood Memory) | A foe's blood remembers old wounds: every scar opens and bleeds. |
+| Silence + memory | Seijaku Kioku (Silent Memory) | A foe forgets how to speak a technique: no casting for a minute, and a five-second stun. |
+| Magnetism + memory | Tetsu no Kioku (Iron Memory) | Iron remembers its shape: the gear of allies within eight cells is mended, and foes there drop their weapons. |
+| Karma + memory | Inga Kioku (Memory of Deeds) | Every foe within eight cells remembers their deeds: they take their last blow and are dogged by misfortune. |
+| Exchange + memory | Kioku Kōkan (Memory Swap) | The user and a person swap their best skills for a day. |
+| Light + memory | Senkō Kioku (Flash of Memory) | A flash wipes the last moments from foes within eight cells: blinded for ten seconds and stunned for three. |
+| Black flames + scale | Kyoen (Giant Blaze) | Black flames grow huge: everything within four cells of the spot catches fire. |
+| Illusion world + scale | Kyozō Gensō (Giant Illusion) | Foes within six cells see the user as a giant and flee in terror. |
+| Space-time + scale | Kūkan Kakudai (Grown Space) | The space around the user grows: foes within six cells are pushed six cells away. |
+| Mind control + scale | Kokoro Shukushō (Shrunken Will) | A foe's will shrinks with their body: shrunk, they obey for thirty seconds. |
+| Sealing + scale | Shukushō Fūin (Shrinking Seal) | A foe is shrunk into a tiny prison for thirty seconds and comes back still small. |
+| Time + scale | Kibo Toki (Scale of Time) | The user grows giant and quick for twenty-five seconds. |
+| Gravity + scale | Kyojū (Giant Weight) | A foe grows impossibly heavy: crushed by their own weight and held fast. |
+| Sight + scale | Kakudai Gan (Magnifying Eye) | The user sees every detail: every foe in sight is marked as prey, and the user's next technique can't be resisted. |
+| Shaping + scale | Kyoken (Giant Blade) | A blade grows giant and sweeps a wide arc eight cells long. |
+| Reality + scale | Kibo Kaki (Rewritten Size) | The user and allies within eight cells grow to giant strength for twenty seconds. |
+| Reflection + scale | Kagami Kyozō (Giant Reflection) | A giant mirror image of a foe fights for the user for thirty seconds. |
+| Storm + scale | Kyorai (Giant Thunder) | A bolt grown huge: everything within five cells of the spot is burned. |
+| Summoning + scale | Kyojū Shōkan (Giant Summon) | A great toad grown to full size fights for a minute. |
+| Soul + scale | Tamashii Kakudai (Swollen Soul) | The user's soul swells: they heal and grow to giant strength for twenty seconds. |
+| Kotodama (Word) + scale | Kotodama: Chijime (Word: Shrink) | "Shrink." Every foe within eight cells shrinks for twenty seconds. |
+| Fate threads + scale | Unmei Shukushō (Shrunken Fate) | A foe's fate shrinks: shrunk and dogged by misfortune for thirty seconds. |
+| Bloom and decay + scale | Kyoboku (Giant Tree) | A giant tree bursts up at the spot: foes within three cells are thrown and crushed, and the tree stays. |
+| Echo + scale | Kakudai Hibiki (Swelling Echo) | A sound grows to a roar: foes within ten cells are stunned for six seconds. |
+| Labyrinth + scale | Kyodai Meikyū (Giant Maze) | A vast maze rises within eight cells of the spot for a minute. |
+| Hunger + scale | Kyodai Kūfuku (Giant Hunger) | The eye's hunger grows: chakra is drained from every foe within twelve cells. |
+| Erasure + scale | Shōmetsu (Shrunk to Nothing) | A weakened foe (below 40% of their health or down) shrinks away to nothing. |
+| Blood eye + scale | Chi Kakudai (Swollen Blood) | Every wound on a foe swells and bleeds. |
+| Silence + scale | Hirogaru Seijaku (Spreading Silence) | Silence spreads twelve cells around the user: no foe there can cast for thirty seconds. |
+| Magnetism + scale | Jiki Kakudai (Grown Magnet) | The pull grows: every armed foe within fifteen cells of the spot is dragged to it and disarmed. |
+| Karma + scale | Inga Kakudai (Grown Debt) | A foe's last blow comes back on them three times as large. |
+| Exchange + scale | Kibo Kōkan (Size Swap) | The user and a foe swap size for twenty-five seconds: the user grows giant and the foe shrinks. |
+| Light + scale | Kakudai Kō (Magnified Light) | Sunlight focused through a giant lens burns a spot: everything within two cells is burned hard and catches fire. |
+| Memory + scale | Kioku Kakudai (Grown Memory) | An ally's training memories swell: their best skill rises by five for a day. |
+| Black flames + mark | Hi no Shirushi (Fire Mark) | A foe is marked as prey and set alight with black fire. |
+| Illusion world + mark | Kyōfu no Shirushi (Mark of Dread) | A foe is marked as prey, sees the user everywhere, and flees in terror. |
+| Space-time + mark | Shirushi Kamui (Mark Gate) | A foe is marked as prey and pulled through space to the user. |
+| Mind control + mark | Meirei no Shirushi (Mark of Command) | A foe is marked as prey and obeys the user for forty seconds. |
+| Sealing + mark | Fūin no Shirushi (Seal Mark) | A foe is marked as prey, can't cast for a minute, and is held fast for ten seconds. |
+| Time + mark | Toki no Shirushi (Time Mark) | A foe is marked as prey, and their time nearly stops for thirty seconds. |
+| Gravity + mark | Omoshi no Shirushi (Weight Mark) | Every marked foe on the map is slammed to the ground and stunned. |
+| Sight + mark | Shirushi Gan (Mark Eye) | Every foe in sight is marked as prey. |
+| Shaping + mark | Shirushi Ken (Mark Blades) | Blades fly to every marked foe on the map: two cuts each. |
+| Reality + mark | Shirushi Kaki (Rewritten Mark) | The user's wounds move to the nearest marked foe. |
+| Reflection + mark | Kagami no Shirushi (Mirror Mark) | A foe is marked as prey, and for forty seconds every hit on the user echoes back on its attacker. |
+| Storm + mark | Rai no Shirushi (Lightning Mark) | Lightning strikes every marked foe on the map. |
+| Summoning + mark | Kari no Mure (Hunting Pack) | Shades appear beside up to three marked foes and hunt them for a minute. |
+| Soul + mark | Tamashii no Shirushi (Soul Mark) | The user drinks life from every marked foe within twenty cells. |
+| Kotodama (Word) + mark | Kotodama: Shirusu (Word: Mark) | "Be marked." Every foe within ten cells is marked as prey. |
+| Fate threads + mark | Shirushi no Ito (Marked Thread) | Every marked foe on the map is tied to the others for forty seconds: their wounds are shared. |
+| Bloom and decay + mark | Kuchi no Shirushi (Rotting Mark) | Every marked foe on the map rots, and the user heals by it. |
+| Echo + mark | Hibiki no Shirushi (Echo Mark) | A foe is marked as prey, and for twenty seconds every hit on them lands twice. |
+| Labyrinth + mark | Mayoi no Shirushi (Lost Mark) | Every marked foe on the map wanders lost. |
+| Hunger + mark | Kūfuku no Shirushi (Hungry Mark) | A foe is marked as prey, and their chakra flows to the user every second for thirty seconds. |
+| Erasure + mark | Shōkyo no Shirushi (Erasing Mark) | A marked foe below 40% of their health or down is erased. |
+| Blood eye + mark | Chi no Shirushi (Blood Mark) | Every marked foe on the map bleeds heavily. |
+| Silence + mark | Seijaku no Shirushi (Silent Mark) | Every marked foe on the map can't cast for forty seconds. |
+| Magnetism + mark | Jiki no Shirushi (Magnetic Mark) | Every marked foe within twenty cells is dragged to the user and disarmed. |
+| Karma + mark | Fusai no Shirushi (Debt Mark) | Every foe who hurt the user in the last minute is marked as prey and dogged by misfortune. |
+| Exchange + mark | Shirushi Kōkan (Mark Swap) | The user swaps places with the nearest marked foe. |
+| Light + mark | Noroshi no Shirushi (Beacon Mark) | Every marked foe on the map glows so brightly they are blind for twenty seconds. |
+| Memory + mark | Oboeta Emono (Remembered Prey) | Every marked foe on the map is shown, and their mark lasts three more minutes. |
+| Scale + mark | Chijimu Shirushi (Shrinking Mark) | Every marked foe on the map shrinks for thirty seconds. |
 
 ## Dev mode
 - **Custom Mangekyō: awaken and shape (window)**: gives a pawn the Mangekyō if needed and opens the window.

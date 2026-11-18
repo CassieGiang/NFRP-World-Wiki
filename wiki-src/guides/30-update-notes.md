@@ -3,6 +3,10 @@ What changed in recent updates, newest first.
 
 @@summary What changed in recent updates, newest first.
 
+## Update 582: the last 84 combined arts
+- Every pair of the 30 Mangekyō powers now has its combined art: 84 new ones with Memory, Scale and Mark, 435 in all. Among them are **Memory Rewind**, **Memory Swap**, **Giant Tree**, **Shrunk to Nothing**, **Echo Mark** and **Erasing Mark**. See [Custom Mangekyō](custom-mangekyou.html).
+- Many Mark arts work on every marked foe on the map, and they won't cast when nobody is marked.
+
 ## Update 581: 98 more combined arts
 - Every pair among the first 27 Mangekyō powers now has its combined art: 98 new ones with Magnetism, Karma, Exchange and Light, among them **Iron Sand Spear**, **Divine Punishment**, **Death Swap**, **Luck Swap** and **Light-Speed Void**. See [Custom Mangekyō](custom-mangekyou.html).
 - The Custom Mangekyō guide now has a clickable mockup of the awakening letter, the shaping window and the Eternal merge.
