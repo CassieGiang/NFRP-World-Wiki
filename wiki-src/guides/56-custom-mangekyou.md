@@ -1,7 +1,7 @@
 # Custom Mangekyō
 A ninja whose Sharingan becomes a Mangekyō can keep the eye World of Naruto gives them, or shape their own: one power in each eye, a power for both eyes, and the look of each eye.
 
-@@summary When a colonist's Mangekyō awakens, a letter offers to keep the canon eye or shape your own: two different eye powers (30 types, 90 forms), a joint power (Susanoo with one of four weapons, Izanami, or one of 153 combined arts so far), and for each eye one of 40 patterns and any colour. An Eternal Mangekyō merges in a second pattern. Strain is World of Naruto's own. About 1 enemy Mangekyō user in 100 has a shaped eye.
+@@summary When a colonist's Mangekyō awakens, a letter offers to keep the canon eye or shape your own: two different eye powers (30 types, 90 forms), a joint power (Susanoo with one of four weapons, Izanami, or one of 253 combined arts so far), and for each eye one of 40 patterns and any colour. An Eternal Mangekyō merges in a second pattern. Strain is World of Naruto's own. About 1 enemy Mangekyō user in 100 has a shaped eye.
 
 ## Awakening
 - The Mangekyō awakens as World of Naruto decides, and World of Naruto picks a canon eye for it (Itachi's, Sasuke's, Shisui's, Obito's and the others).
@@ -13,7 +13,7 @@ A ninja whose Sharingan becomes a Mangekyō can keep the eye World of Naruto giv
 
 ## The window
 - **Left eye and right eye:** pick a power type for each (the two must differ), then one of that type's forms. Hover a type or a form to read it.
-- **Both eyes:** the combined art for your two types, Susanoo with a weapon, or Izanami. Combined arts exist so far for every pair among the first 18 types (Black flames to Echo); pairs with Labyrinth or a later type get theirs in later updates and meanwhile take Susanoo or Izanami.
+- **Both eyes:** the combined art for your two types, Susanoo with a weapon, or Izanami. Combined arts exist so far for every pair among the first 23 types (Black flames to Silence); pairs with Magnetism or a later type get theirs in later updates and meanwhile take Susanoo or Izanami.
 - **Pattern and colour:** choose for both eyes at once or for each eye on its own. 40 patterns; 8 colour presets or any colour with the hue, colour and brightness sliders. The eyes show above the ninja when the Mangekyō opens and on the Mangekyō button, and Susanoo takes the colour.
 
 ## Eternal Mangekyō
@@ -173,7 +173,7 @@ When a shaped eye becomes Eternal (World of Naruto's Eternal Mangekyō), a lette
 | Izanami (Fated Loop) | The victim relives the same moment over and over and cannot break out until they accept their fate: a day lost in the loop. A captive caught by it gives up all resistance. The user's eye goes dark for a day. |
 
 ## Combined arts
-One for each pair among the first 18 powers so far.
+One for each pair among the first 23 powers so far.
 
 | Eyes | Art | What it does |
 |---|---|---|
@@ -330,6 +330,106 @@ One for each pair among the first 18 powers so far.
 | Kotodama (Word) + echo | Kotodama Hibiki (Echoing Word) | "Kneel", three times: every foe within eight cells is stunned again and again over ten seconds. |
 | Fate threads + echo | Ito Hibiki (Thread Echo) | For twenty seconds every wound dealt to a foe echoes onto every foe within three cells of them. |
 | Bloom and decay + echo | Hana Hibiki (Echo of Spring) | The user or an ally heals now, and twice more over ten seconds. |
+| Black flames + labyrinth | Enmeikyū (Burning Labyrinth) | Walls of black flame form a maze around the spot; foes inside wander lost and burn. |
+| Illusion world + labyrinth | Mugen Meikyū (Endless Maze) | Every foe within six cells is lost in an illusory maze and wanders for thirty seconds. |
+| Space-time + labyrinth | Kūkan Meiro (Folded Maze) | Every foe within six cells is folded away to a random spot ten to twenty cells off. |
+| Mind control + labyrinth | Mayoi Gokoro (Lost Heart) | A foe forgets the way: they drop their weapon and wander lost. |
+| Sealing + labyrinth | Fūin Meikyū (Sealed Labyrinth) | A foe is sealed in a pocket maze for thirty seconds and comes back stunned. |
+| Time + labyrinth | Toki Meikyū (Maze of Hours) | Foes within six cells nearly stop for twenty seconds while stone walls rise among them. |
+| Gravity + labyrinth | Jū Meikyū (Heavy Maze) | Walls of crushing weight: foes within five cells are crushed and walled in for a minute. |
+| Sight + labyrinth | Meiro Gan (Path-Seeing Eye) | The user sees every path: hidden foes are shown, and the user moves fast for thirty seconds. |
+| Shaping + labyrinth | Kabe Katachi (Shaped Walls) | A ring of stone walls closes around a foe for a minute. |
+| Reality + labyrinth | Meikyū Kaki (Rewritten Halls) | The ground within five cells of the spot becomes a stone maze for a minute. |
+| Reflection + labyrinth | Kagami Meikyū (Hall of Mirrors) | Foes within six cells are lost among their reflections: stunned for five seconds, then wandering. |
+| Storm + labyrinth | Raimeikyū (Thunder Maze) | Walls of lightning: for ten seconds bolts strike foes within six cells of the spot. |
+| Summoning + labyrinth | Meikyū no Ban (Maze Keepers) | Stone walls ring the user, and two shades guard them for a minute. |
+| Soul + labyrinth | Tamashii Meikyū (Soul Maze) | A foe's soul is lost in a maze: hurt, and out cold for thirty seconds. |
+| Kotodama (Word) + labyrinth | Kotodama: Mayoe (Word: Be Lost) | "Be lost." Every foe within eight cells wanders lost. |
+| Fate threads + labyrinth | Ito Meikyū (Thread Maze) | Threads draw a maze: foes within six cells of the spot are held fast for twenty seconds. |
+| Bloom and decay + labyrinth | Ibara Meikyū (Thorn Maze) | A maze of brambles grows within five cells of the spot; foes in it are cut and held for fifteen seconds. |
+| Echo + labyrinth | Hibiki Meikyū (Echoing Halls) | The halls echo: foes within six cells are stunned twice over six seconds and left lost. |
+| Black flames + hunger | Enshoku (Fire Eater) | The eye eats every fire within ten cells, and the user heals by each one. |
+| Illusion world + hunger | Yume Kui (Dream Eater) | A foe's dreams are eaten: they fall into a day-long stupor, and the user's chakra fills. |
+| Space-time + hunger | Kūkan Kui (Space Eater) | A hole eats space: foes within four cells of the spot are pulled in and crushed, and buildings within two are gone. |
+| Mind control + hunger | Ishi Kui (Will Eater) | The will of every foe within six cells is eaten: they stop fighting and wander off. |
+| Sealing + hunger | Fūshoku (Sealing Hunger) | A foe's chakra is eaten to nothing and sealed for a minute. |
+| Time + hunger | Toki Kui (Time Eater) | A year is eaten from every person within six cells: they slow for twenty seconds, and the user speeds up. |
+| Gravity + hunger | Kokuten (Black Maw) | A black maw pulls in the foes within six cells and eats their chakra. |
+| Sight + hunger | Shikai Kui (Sight Eater) | Every foe within eight cells is blind for a minute. |
+| Shaping + hunger | Kiba Katachi (Shaped Fangs) | Chakra fangs bite a foe four times, and each bite heals the user. |
+| Reality + hunger | Kūkyo (Hollowing) | A foe is hollowed: everything they wear falls apart, and they take heavy harm. |
+| Reflection + hunger | Hanshoku (Mirrored Hunger) | For thirty seconds, every second, chakra flows from the foes within six cells to the user. |
+| Storm + hunger | Raishoku (Thunder Eater) | For forty seconds half of every technique at the user is eaten and turned into chakra. |
+| Summoning + hunger | Gaki Shōkan (Hungry Ghosts) | Three hungry ghosts fight for the user for a minute. |
+| Soul + hunger | Tamashii Kui (Soul Eater) | The souls of the dead within ten cells are eaten: the user heals for each body, and the bodies crumble. |
+| Kotodama (Word) + hunger | Kotodama: Kue (Word: Devour) | "Devour." Every foe within eight cells loses a lot of chakra, and the user drinks it. |
+| Fate threads + hunger | Ito Kui (Thread Eater) | The threads of the foes within six cells are eaten: their boosts vanish, and they are held fast for fifteen seconds. |
+| Bloom and decay + hunger | Kare Kui (Withering Hunger) | Plants within eight cells wither into the user, healing them; foes there rot. |
+| Echo + hunger | Hibiki Kui (Echo Eater) | For twenty seconds the eye eats sound: foes within six cells can't cast, and the user is unseen. |
+| Labyrinth + hunger | Kūfuku Meikyū (Hungry Maze) | Foes within six cells are lost in a maze that drinks their chakra for twenty seconds. |
+| Black flames + erasure | Shōen (Erasing Flame) | Black flames erase a building at the spot and set the foes within three cells alight. |
+| Illusion world + erasure | Kioku Shōkyo (Erased World) | Foes within six cells forget where they are: they wander, and their boosts vanish. |
+| Space-time + erasure | Kūkan Shōkyo (Erased Distance) | The distance to the spot is erased: the user is there at once, and foes there are thrown aside. |
+| Mind control + erasure | Ishiki Shōkyo (Erased Mind) | A foe's mind is erased for twenty seconds: they drop where they stand. |
+| Sealing + erasure | Fūin Shōkyo (Erasing Seal) | Every ailment of the user and allies within eight cells is erased, and so is every boost of the foes there. |
+| Time + erasure | Toki Shōkyo (Erased Moment) | Ten seconds are erased for every foe within six cells: they stand stunned through them. |
+| Gravity + erasure | Jū Shōkyo (Erased Weight) | The user weighs nothing for thirty seconds: very fast, and most blows miss. |
+| Sight + erasure | Shikai Shōkyo (Erased Sight) | The user and allies within six cells are unseen for thirty seconds. |
+| Shaping + erasure | Kesu Ken (Erasing Blade) | A blade that erases what it cuts: three cuts on a foe through any armour. |
+| Reality + erasure | Mu (Nothingness) | Everything within two cells of the spot is erased: buildings and items are gone, foes heavily hurt. |
+| Reflection + erasure | Hanshō (Reflected Erasure) | Within forty seconds the next technique at the user is erased, and its caster can't cast for a minute. |
+| Storm + erasure | Raishō (Erasing Thunder) | A bolt that erases: the foe is struck, their boosts vanish, and what they wear falls apart. |
+| Summoning + erasure | Shōkan Shōkyo (Unsummoning) | Every summoned creature of the foes within ten cells vanishes. |
+| Soul + erasure | Tamashii Shōkyo (Soul Erasure) | A weakened foe's soul (below 40% of their health or down) is erased: they die, and nothing is left to bring back. |
+| Kotodama (Word) + erasure | Kotodama: Nakuse (Word: Vanish) | "Vanish." The weapon of every foe within eight cells vanishes. |
+| Fate threads + erasure | Unmei Shōkyo (Erased Fate) | A foe's good fortune is erased: misfortune dogs them for a minute. |
+| Bloom and decay + erasure | Kizu Shōkyo (Erased Scars) | Old scars of the user and allies within eight cells are erased. |
+| Echo + erasure | Hibiki Shōkyo (Erased Echo) | Every ailment the foes put on the user and allies within eight cells is erased, and the foes there are stunned. |
+| Labyrinth + erasure | Michi Shōkyo (Erased Path) | Walls and doors within four cells of the spot vanish. |
+| Hunger + erasure | Kūmu (Hungry Void) | The void eats everything within three cells of the spot: buildings and items gone, foes hurt and drained. |
+| Black flames + blood eye | Chi Moyashi (Burning Blood) | A foe's blood boils: heavy burns from inside, through any armour. |
+| Illusion world + blood eye | Chi no Yume (Blood Dream) | Foes within six cells see themselves bleed out: they flee in terror, bleeding. |
+| Space-time + blood eye | Chi Kamui (Blood Void) | A third of a foe's blood is pulled into the void. |
+| Mind control + blood eye | Chi Ayatsuri (Blood Puppet) | The user moves a foe by their blood for forty seconds. |
+| Sealing + blood eye | Chi Fūin (Blood Seal) | A seal in the foe's own blood: held fast and unable to cast for forty seconds. |
+| Time + blood eye | Chi Toki (Blood Clock) | A foe's blood runs fast: for twenty seconds they bleed heavily. |
+| Gravity + blood eye | Chi Omomi (Heavy Blood) | The blood of foes within five cells grows heavy: nearly stopped for fifteen seconds and stunned. |
+| Sight + blood eye | Chi Gan (Blood Sight) | The user sees every beating heart: hidden foes are shown and marked as prey for thirty seconds. |
+| Shaping + blood eye | Chi Yaiba (Blood Blades) | The user's own blood forms blades: five cuts on a foe, at the cost of a little of the user's blood. |
+| Reality + blood eye | Chi Kaki (Rewritten Blood) | The lost blood of the user and allies within eight cells is restored. |
+| Reflection + blood eye | Chi Kagami (Blood Mirror) | For thirty seconds whoever wounds the user takes half of it back. |
+| Storm + blood eye | Chi Rai (Blood Lightning) | Lightning runs through spilled blood: every bleeding foe within ten cells is struck. |
+| Summoning + blood eye | Chi Shōkan (Blood Summoning) | Two beasts of blood fight for the user for a minute. |
+| Soul + blood eye | Chi Tamashii (Soul Blood) | The user drinks a foe's blood: the foe bleeds, and the user heals greatly. |
+| Kotodama (Word) + blood eye | Kotodama: Nagare (Word: Flow) | "Flow." Every foe within eight cells starts to bleed. |
+| Fate threads + blood eye | Chi no Ito (Blood Thread) | The user's lost blood goes along a thread to a foe. |
+| Bloom and decay + blood eye | Chi Bana (Blood Blossom) | Flowers drink the blood of foes within five cells of the spot and heal allies there. |
+| Echo + blood eye | Chi Hibiki (Blood Echo) | Every wound on a foe echoes and deepens. |
+| Labyrinth + blood eye | Chi Meikyū (Blood Maze) | A foe's blood loses its way: dizzy and wandering for thirty seconds. |
+| Hunger + blood eye | Chi Kui (Blood Hunger) | The user drinks the blood of every foe within four cells and heals for each. |
+| Erasure + blood eye | Chi Shōkyo (Erased Blood) | Much of a foe's blood is erased at once. |
+| Black flames + silence | Mukoe Hi (Silent Fire) | Black flames without sound or light take a foe, and the user is unseen for ten seconds. |
+| Illusion world + silence | Seijaku Yume (Silent Dream) | Foes within six cells fall into silent sleep for twenty seconds. |
+| Space-time + silence | Seijaku Kamui (Silent Void) | A pocket of silent space: foes within six cells can't cast for twenty seconds, and the user slips out of reach for two. |
+| Mind control + silence | Mugon no Meirei (Silent Order) | A silent command: up to two foes within eight cells obey for thirty seconds. |
+| Sealing + silence | Fūin Seijaku (Sealed Silence) | A foe can't cast for two minutes. |
+| Time + silence | Seijaku Toki (Silent Hour) | The world stops in silence within six cells: foes are stunned for eight seconds and can't cast for twenty. |
+| Gravity + silence | Seijaku Omomi (Weight of Silence) | Silence presses down within six cells: foes nearly stop and can't cast for twenty seconds. |
+| Sight + silence | Seijaku Gan (Silent Eye) | The user is unseen for thirty seconds and sees every hidden foe. |
+| Shaping + silence | Mukoe Ken (Silent Blades) | Soundless blades cut a foe three times. |
+| Reality + silence | Seijaku Kaki (Rewritten Silence) | The fight's noise is erased: the user and allies within six cells are unseen for twenty seconds. |
+| Reflection + silence | Hansei (Reflected Silence) | For thirty seconds whoever casts a technique at the user can't cast for thirty seconds. |
+| Storm + silence | Mukoe Rai (Silent Thunder) | Lightning without thunder strikes a foe and seals their chakra for thirty seconds. |
+| Summoning + silence | Seijaku Shōkan (Silent Summons) | Two unseen shades fight for the user for a minute. |
+| Soul + silence | Tamashii Seijaku (Silent Soul) | A foe's soul goes quiet: out cold for a minute. |
+| Kotodama (Word) + silence | Kotodama: Shizuka ni (Word: Quiet) | "Quiet." No foe within ten cells can cast for a minute. |
+| Fate threads + silence | Seijaku Ito (Silent Thread) | A foe is tied in silence: held fast and unable to cast for thirty seconds. |
+| Bloom and decay + silence | Seijaku Bana (Silent Blossom) | Silent flowers: foes within six cells of the spot sleep for fifteen seconds, and allies there heal. |
+| Echo + silence | Hibiki Nashi (No Echo) | For a minute nothing the user does makes a sound: unseen until they strike, and that strike can't be resisted. |
+| Labyrinth + silence | Seijaku Meikyū (Silent Maze) | Foes within six cells are lost in silence: wandering and unable to cast for thirty seconds. |
+| Hunger + silence | Oto Kui (Sound Eater) | All sound within eight cells is eaten: foes there are stunned for four seconds and can't cast for thirty. |
+| Erasure + silence | Oto Shōkyo (Erased Sound) | The user's presence and sound are erased: unseen for a minute. |
+| Blood eye + silence | Chi Seijaku (Blood Silence) | A foe's heartbeat is silenced for a moment: stunned for ten seconds, with heavy harm through any armour. |
 
 ## Dev mode
 - **Custom Mangekyō: awaken and shape (window)**: gives a pawn the Mangekyō if needed and opens the window.

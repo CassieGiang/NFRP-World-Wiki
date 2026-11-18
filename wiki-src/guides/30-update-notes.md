@@ -3,6 +3,9 @@ What changed in recent updates, newest first.
 
 @@summary What changed in recent updates, newest first.
 
+## Update 580: 100 more combined arts
+- Every pair among the first 23 Mangekyō powers now has its combined art: 100 new ones with Labyrinth, Hunger, Erasure, Blood eye and Silence, among them **Burning Labyrinth**, **Black Maw**, **Nothingness**, **Blood Puppet** and **No Echo**. See [Custom Mangekyō](custom-mangekyou.html).
+
 ## Update 579: 108 more combined arts
 - Every pair of Mangekyō powers among the first 18 types now has its combined art: 108 new ones with Reflection, Storm, Summoning, Soul, Word, Fate, Bloom and Echo, among them the **Yata Mirror**, **Kirin**, **Word: Die**, **Rewritten Death** and **Echo of Spring**. See [Custom Mangekyō](custom-mangekyou.html).
 
