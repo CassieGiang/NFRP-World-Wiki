@@ -1,7 +1,7 @@
 # Custom Mangekyō
 A ninja whose Sharingan becomes a Mangekyō can keep the eye World of Naruto gives them, or shape their own: one power in each eye, a power for both eyes, and the look of each eye.
 
-@@summary When a colonist's Mangekyō awakens, a letter offers to keep the canon eye or shape your own: two different eye powers (30 types, 90 forms), a joint power (Susanoo with one of four weapons, Izanami, or one of 253 combined arts so far), and for each eye one of 40 patterns and any colour. An Eternal Mangekyō merges in a second pattern. Strain is World of Naruto's own. About 1 enemy Mangekyō user in 100 has a shaped eye.
+@@summary When a colonist's Mangekyō awakens, a letter offers to keep the canon eye or shape your own: two different eye powers (30 types, 90 forms), a joint power (Susanoo with one of four weapons, Izanami, or one of 351 combined arts so far), and for each eye one of 40 patterns and any colour. An Eternal Mangekyō merges in a second pattern. Strain is World of Naruto's own. About 1 enemy Mangekyō user in 100 has a shaped eye.
 
 ## Awakening
 - The Mangekyō awakens as World of Naruto decides, and World of Naruto picks a canon eye for it (Itachi's, Sasuke's, Shisui's, Obito's and the others).
@@ -15,7 +15,7 @@ A ninja whose Sharingan becomes a Mangekyō can keep the eye World of Naruto giv
 @@mock custom-mangekyou
 
 - **Left eye and right eye:** pick a power type for each (the two must differ), then one of that type's forms. Hover a type or a form to read it.
-- **Both eyes:** the combined art for your two types, Susanoo with a weapon, or Izanami. Combined arts exist so far for every pair among the first 23 types (Black flames to Silence); pairs with Magnetism or a later type get theirs in later updates and meanwhile take Susanoo or Izanami.
+- **Both eyes:** the combined art for your two types, Susanoo with a weapon, or Izanami. Combined arts exist so far for every pair among the first 27 types (Black flames to Light); pairs with Memory or a later type get theirs in later updates and meanwhile take Susanoo or Izanami.
 - **Pattern and colour:** choose for both eyes at once or for each eye on its own. 40 patterns; 8 colour presets or any colour with the hue, colour and brightness sliders. The eyes show above the ninja when the Mangekyō opens and on the Mangekyō button, and Susanoo takes the colour.
 
 ## Eternal Mangekyō
@@ -175,7 +175,7 @@ When a shaped eye becomes Eternal (World of Naruto's Eternal Mangekyō), a lette
 | Izanami (Fated Loop) | The victim relives the same moment over and over and cannot break out until they accept their fate: a day lost in the loop. A captive caught by it gives up all resistance. The user's eye goes dark for a day. |
 
 ## Combined arts
-One for each pair among the first 23 powers so far.
+One for each pair among the first 27 powers so far.
 
 | Eyes | Art | What it does |
 |---|---|---|
@@ -432,6 +432,104 @@ One for each pair among the first 23 powers so far.
 | Hunger + silence | Oto Kui (Sound Eater) | All sound within eight cells is eaten: foes there are stunned for four seconds and can't cast for thirty. |
 | Erasure + silence | Oto Shōkyo (Erased Sound) | The user's presence and sound are erased: unseen for a minute. |
 | Blood eye + silence | Chi Seijaku (Blood Silence) | A foe's heartbeat is silenced for a moment: stunned for ten seconds, with heavy harm through any armour. |
+| Black flames + magnetism | Kokutetsu En (Black Iron Blaze) | Iron sand heated by black flames rains on every foe within five cells of the spot: cut and set alight. |
+| Illusion world + magnetism | Tetsu no Yume (Iron Dream) | Foes within six cells believe their gear has turned to lead: nearly stopped for fifteen seconds and stunned. |
+| Space-time + magnetism | Jiki Kamui (Magnetic Void) | The weapons of foes within eight cells are torn away and flung back at their owners. |
+| Mind control + magnetism | Tetsu no Ishi (Iron Will) | For forty seconds the user's mind can't be taken, and iron sand armours them. |
+| Sealing + magnetism | Tetsu Fūin (Iron Seal) | Iron sand binds a foe: held fast and unable to cast for thirty seconds. |
+| Time + magnetism | Sabi Toki (Rusting Time) | The gear of foes within six cells rusts in a moment: weapons and armour lose most of their strength. |
+| Gravity + magnetism | Jiryoku Hōkai (Magnetic Collapse) | Armed and armoured foes within eight cells are pulled to the spot and crushed together. |
+| Sight + magnetism | Jiki Gan (Magnet Eye) | The user sees every scrap of metal: hidden foes are shown, and every armed foe is marked as prey for thirty seconds. |
+| Shaping + magnetism | Satetsu Hoko (Iron Sand Spear) | Iron sand forms a great spear that runs twelve cells, piercing everyone on it. |
+| Reality + magnetism | Tetsu Kaki (Rewritten Iron) | The gear of the user and allies within eight cells is made whole again. |
+| Reflection + magnetism | Jiki Hansha (Magnetic Mirror) | For thirty seconds bullets and blades at the user are mostly turned aside and sent back. |
+| Storm + magnetism | Denji Rai (Electromagnetic Thunder) | Lightning is drawn to metal: every armed foe within twelve cells is struck. |
+| Summoning + magnetism | Tetsu Kyojin (Iron Giant) | A golem of iron and stone fights for the user for a minute. |
+| Soul + magnetism | Tetsu Tamashii (Iron Soul) | The user's body turns to iron for thirty seconds: very hard to hurt, but slower. |
+| Kotodama (Word) + magnetism | Kotodama: Sutero (Word: Drop It) | "Drop it." Every foe within ten cells drops their weapon. |
+| Fate threads + magnetism | Tetsu no Ito (Iron Thread) | Iron wires tie the foes within six cells of the spot together: held fast for twenty seconds and sharing wounds. |
+| Bloom and decay + magnetism | Sabi Bana (Rust Blossom) | Rust blooms over the foes within six cells: their armour falls apart. |
+| Echo + magnetism | Tetsu Hibiki (Ringing Iron) | Iron rings like a bell: foes within eight cells are stunned for six seconds. |
+| Labyrinth + magnetism | Tetsu Meikyū (Iron Maze) | Walls of iron sand form a maze within five cells of the spot for a minute. |
+| Hunger + magnetism | Tetsu Kui (Iron Eater) | The eye eats the weapons of foes within six cells, and the user heals by each one. |
+| Erasure + magnetism | Jiki Shōkyo (Erased Iron) | Every metal wall and door within four cells of the spot vanishes. |
+| Blood eye + magnetism | Chi no Tetsu (Iron in the Blood) | The iron is pulled from a foe's blood: heavy blood loss and a five-second stun. |
+| Silence + magnetism | Mukoe Tetsu (Silent Iron) | Iron sand muffles every sound within six cells: foes are slowed and can't cast for thirty seconds. |
+| Black flames + karma | Ingaen (Karmic Fire) | A foe burns in black fire, harder the more harm they last dealt. |
+| Illusion world + karma | Inga Yume (Dream of Deeds) | A foe relives the wounds they caused: stunned for fifteen seconds and struck by their own last blow, twice. |
+| Space-time + karma | Inga Kamui (Karmic Gate) | The last foe to hurt the user is pulled to them and stunned. |
+| Mind control + karma | Inga Shihai (Bound by Deeds) | The last foe to hurt the user obeys them for forty seconds. |
+| Sealing + karma | Inga Fūin (Sealed Fortune) | A foe's luck is sealed: misfortune and no casting for thirty seconds. |
+| Time + karma | Inga Toki (Fortune's Hour) | For a minute the user's luck holds and their time runs fast. |
+| Gravity + karma | Inga no Omomi (Weight of Deeds) | Every foe within six cells of the spot is crushed by the weight of their own last blow. |
+| Sight + karma | Inga Gan (Eye of Karma) | The user sees every foe's debts: each foe in sight is marked as prey and dogged by misfortune for thirty seconds. |
+| Shaping + karma | Inga Ken (Blade of Karma) | A blade that cuts deeper the more harm the foe has done. |
+| Reality + karma | Unsei Kaki (Rewritten Luck) | The user's misfortune becomes fortune: every ailment is erased, and fortune holds for a minute. |
+| Reflection + karma | Inga Gaeshi (Karmic Return) | For forty seconds every harm on the user goes back to its maker in full. |
+| Storm + karma | Tenbatsu (Divine Punishment) | Lightning finds every foe within fifteen cells who hurt anyone in the last minute. |
+| Summoning + karma | Fukujin (Luck Spirits) | Two luck spirits fight for the user for a minute, and allies within eight cells gain fortune. |
+| Soul + karma | Inga Tamashii (Soul Debt) | A foe's soul pays its debt: life drained by twice their last blow, into the user. |
+| Kotodama (Word) + karma | Kotodama: Mukui (Word: Pay) | "Pay." Every foe within eight cells takes the last blow they dealt. |
+| Fate threads + karma | Unmei Inga (Fate and Karma) | A foe is bound to their own misfortune: misfortune for two minutes, held fast for fifteen seconds. |
+| Bloom and decay + karma | Kōun Bana (Lucky Blossom) | The user and allies within eight cells heal and gain fortune for a minute. |
+| Echo + karma | Inga Hibiki (Echo of Deeds) | For thirty seconds every hit on the user or an ally within eight cells echoes back on its attacker. |
+| Labyrinth + karma | Inga Meikyū (Maze of Deeds) | Foes within six cells wander lost in their own misfortune. |
+| Hunger + karma | Un Kui (Luck Eater) | The eye eats the luck of foes within eight cells: misfortune for them, fortune for the user, for a minute. |
+| Erasure + karma | Inga Shōkyo (Erased Debt) | The user's debts are erased: every ailment is gone, and they heal. |
+| Blood eye + karma | Chi no Inga (Blood Debt) | A foe bleeds as much as their last blow made others bleed. |
+| Silence + karma | Mukuchi no Inga (Silent Karma) | Every foe within eight cells who hurt anyone in the last minute can't cast for forty seconds. |
+| Magnetism + karma | Inga Hikiyose (Drawing of Debts) | Every foe within ten cells who hurt the user in the last minute is dragged to them and stunned. |
+| Black flames + exchange | Hi Kōkan (Fire Exchange) | Fires on the user and allies within eight cells leap onto the nearest foes. |
+| Illusion world + exchange | Gen Kōkan (Swapped Sight) | Two foes see through each other's eyes: both stunned for ten seconds and lost. |
+| Space-time + exchange | Kūkan Kōkan (Space Swap) | The user swaps places with any ally on the map. |
+| Mind control + exchange | Kokoro Kōkan (Mind Swap) | Two foes swap minds: both fight for the user for thirty seconds. |
+| Sealing + exchange | Fūin Kōkan (Seal Swap) | The user's ailments are sealed onto a foe. |
+| Time + exchange | Toki Kōkan (Time Swap) | The user takes a foe's time: the user fast, the foe nearly stopped, for twenty seconds. |
+| Gravity + exchange | Jū Kōkan (Weight Swap) | The user's weight goes to a foe: the user weightless and the foe nearly stopped for twenty seconds. |
+| Sight + exchange | Me Kōkan (Eye Swap) | Whatever dims the user's eyes goes to a foe: the user sees clearly, and the foe is blind for a minute. |
+| Shaping + exchange | Katachi Kōkan (Shape Swap) | The user takes a foe's weapon, leaves them their own, and strikes twice with it. |
+| Reality + exchange | Shi Kōkan (Death Swap) | Within forty seconds, the first blow that would kill the user is undone, and its maker dies in the user's place. |
+| Reflection + exchange | Kagami Kōkan (Mirror Swap) | The user swaps places with a foe, who is left stunned for five seconds. |
+| Storm + exchange | Rai Kōkan (Lightning Swap) | The user flashes from foe to foe within twelve cells, swapping places with up to four and striking each with lightning. |
+| Summoning + exchange | Kōkan Shōkan (Exchange Summoning) | A shade takes the user's place while the user appears at the spot. |
+| Soul + exchange | Tamashii Kōkan (Soul Swap) | The pain of the user's wounds goes to a foe: the user's wounds are tended, and the foe is stunned by the pain for ten seconds. |
+| Kotodama (Word) + exchange | Kotodama: Kaware (Word: Trade) | "Trade." Every foe within eight cells swaps places with another foe. |
+| Fate threads + exchange | Unmei Kōkan (Fate Swap) | The fates of the nearest ally and a foe swap: the ally's ailments go to the foe, and the foe's boosts to the ally. |
+| Bloom and decay + exchange | Inochi Kōkan (Life Swap) | The nearest ally's wounds go to a foe (up to sixty). |
+| Echo + exchange | Hibiki Kōkan (Echo Swap) | The user casts the last technique a foe cast, at that foe. |
+| Labyrinth + exchange | Meiro Kōkan (Shuffled Halls) | Foes within eight cells of the spot swap places at random, and walls rise between them for thirty seconds. |
+| Hunger + exchange | Kūfuku Kōkan (Hunger Swap) | The user's and a foe's chakra trade places. |
+| Erasure + exchange | Shōkyo Kōkan (Erased Trade) | The user takes a foe's weapon and gives nothing back. |
+| Blood eye + exchange | Chi Kōkan (Blood Swap) | The user's lost blood goes to a foe. |
+| Silence + exchange | Seijaku Kōkan (Silent Swap) | The user swaps places with a foe without a sound and is unseen for ten seconds. |
+| Magnetism + exchange | Jiki Kōkan (Polarity Swap) | Pull becomes push: foes within six cells are flung five cells away, and their weapons fly from their hands. |
+| Karma + exchange | Un Kōkan (Luck Swap) | The user and a foe swap luck for a minute: fortune for the user, misfortune for the foe. |
+| Black flames + light | Kokkō (Black Light) | A beam of black light runs twenty cells: everyone on it burns, and black fire stays. |
+| Illusion world + light | Kōgen (Light Phantoms) | Doubles of light confuse foes within six cells of the spot: stunned for five seconds, then lost. |
+| Space-time + light | Kōsoku Kamui (Light-Speed Void) | The user travels a beam to any spot in sight, cutting everyone on the line. |
+| Mind control + light | Kōmei (Enlightenment) | Foes within six cells of the spot see the light and stop fighting. |
+| Sealing + light | Hikari Fūin (Light Seal) | A foe is sealed in a prism: frozen and untouchable for twenty seconds. |
+| Time + light | Kōjin (Speed of Light) | The user moves at the speed of light for ten seconds. |
+| Gravity + light | Kōjū (Heavy Light) | A pillar of crushing light at the spot: foes within four cells are crushed and blinded. |
+| Sight + light | Senrikō (Far Light) | Light floods the map: hidden foes are shown, and foes within twenty cells are blinded for ten seconds. |
+| Shaping + light | Hikari Ken (Light Blade) | A blade of light: three burning cuts through any armour. |
+| Reality + light | Kōkaki (Rewritten Light) | The dark is rewritten: allies within ten cells heal, and their sight comes back. |
+| Reflection + light | Kōhansha (Bent Light) | Light bends around the user: unseen for twenty seconds, and most blows miss. |
+| Storm + light | Kōrai (Blinding Thunder) | A blinding bolt: the spot is struck, and foes within four cells are blinded for fifteen seconds. |
+| Summoning + light | Hikari no Tori (Bird of Light) | A bird of light circles the user for twenty seconds, burning foes within eight cells. |
+| Soul + light | Tamashii no Hikari (Light of the Soul) | The user's soul shines: allies within eight cells heal, and foes within eight are blinded for fifteen seconds. |
+| Kotodama (Word) + light | Kotodama: Hikare (Word: Shine) | "Shine." Every foe within eight cells is blinded for twenty seconds. |
+| Fate threads + light | Hikari no Ito (Thread of Light) | A thread of light pulls the user to an ally anywhere on the map, and both heal. |
+| Bloom and decay + light | Taiyō Bana (Sunbloom) | Sunlight bursts within six cells: plants grow, allies heal, foes are blinded for fifteen seconds. |
+| Echo + light | Zankō (Afterlight) | Flashes echo three times within six cells: foes are blinded and stunned again and again. |
+| Labyrinth + light | Kōmeikyū (Prism Maze) | A maze of light within six cells of the spot: foes are lost and blinded for thirty seconds. |
+| Hunger + light | Hikari Kui (Light Eater) | The eye eats the light within eight cells: foes are blind for thirty seconds, and the user is unseen for ten. |
+| Erasure + light | Kōshō (Erasing Beam) | A beam that erases: buildings on its fifteen-cell line vanish, and foes on it burn. |
+| Blood eye + light | Chi no Hikari (Blood Light) | Light boils a foe's blood: burned and bleeding. |
+| Silence + light | Mukō (Silent Light) | A soundless flash: foes within eight cells are blinded and can't cast for fifteen seconds. |
+| Magnetism + light | Jikō (Magnetic Light) | Light runs through iron: every armed foe within ten cells is burned through their weapon and drops it. |
+| Karma + light | Kōmyō (Light of Merit) | The user and allies within eight cells heal and gain fortune; foes who hurt them in the last minute are blinded. |
+| Exchange + light | Kō Kōkan (Light Swap) | The user swaps places with any pawn in sight at the speed of light and blinds them for fifteen seconds. |
 
 ## Dev mode
 - **Custom Mangekyō: awaken and shape (window)**: gives a pawn the Mangekyō if needed and opens the window.

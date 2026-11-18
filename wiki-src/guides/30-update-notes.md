@@ -3,6 +3,10 @@ What changed in recent updates, newest first.
 
 @@summary What changed in recent updates, newest first.
 
+## Update 581: 98 more combined arts
+- Every pair among the first 27 Mangekyō powers now has its combined art: 98 new ones with Magnetism, Karma, Exchange and Light, among them **Iron Sand Spear**, **Divine Punishment**, **Death Swap**, **Luck Swap** and **Light-Speed Void**. See [Custom Mangekyō](custom-mangekyou.html).
+- The Custom Mangekyō guide now has a clickable mockup of the awakening letter, the shaping window and the Eternal merge.
+
 ## Update 580: 100 more combined arts
 - Every pair among the first 23 Mangekyō powers now has its combined art: 100 new ones with Labyrinth, Hunger, Erasure, Blood eye and Silence, among them **Burning Labyrinth**, **Black Maw**, **Nothingness**, **Blood Puppet** and **No Echo**. See [Custom Mangekyō](custom-mangekyou.html).
 
