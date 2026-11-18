@@ -1,7 +1,7 @@
 # Custom Mangekyō
 A ninja whose Sharingan becomes a Mangekyō can keep the eye World of Naruto gives them, or shape their own: one power in each eye, a power for both eyes, and the look of each eye.
 
-@@summary When a colonist's Mangekyō awakens, a letter offers to keep the canon eye or shape your own: two different eye powers (30 types, 90 forms), a joint power (Susanoo with one of four weapons, Izanami, or a combined art), and for each eye one of 40 patterns and any colour. An Eternal Mangekyō merges in a second pattern. Strain is World of Naruto's own. About 1 enemy Mangekyō user in 100 has a shaped eye.
+@@summary When a colonist's Mangekyō awakens, a letter offers to keep the canon eye or shape your own: two different eye powers (30 types, 90 forms), a joint power (Susanoo with one of four weapons, Izanami, or one of 153 combined arts so far), and for each eye one of 40 patterns and any colour. An Eternal Mangekyō merges in a second pattern. Strain is World of Naruto's own. About 1 enemy Mangekyō user in 100 has a shaped eye.
 
 ## Awakening
 - The Mangekyō awakens as World of Naruto decides, and World of Naruto picks a canon eye for it (Itachi's, Sasuke's, Shisui's, Obito's and the others).
@@ -13,7 +13,7 @@ A ninja whose Sharingan becomes a Mangekyō can keep the eye World of Naruto giv
 
 ## The window
 - **Left eye and right eye:** pick a power type for each (the two must differ), then one of that type's forms. Hover a type or a form to read it.
-- **Both eyes:** the combined art for your two types, Susanoo with a weapon, or Izanami. Combined arts exist so far for every pair of the first ten types (Black flames to Reality); the other pairs get theirs in later updates and meanwhile take Susanoo or Izanami.
+- **Both eyes:** the combined art for your two types, Susanoo with a weapon, or Izanami. Combined arts exist so far for every pair among the first 18 types (Black flames to Echo); pairs with Labyrinth or a later type get theirs in later updates and meanwhile take Susanoo or Izanami.
 - **Pattern and colour:** choose for both eyes at once or for each eye on its own. 40 patterns; 8 colour presets or any colour with the hue, colour and brightness sliders. The eyes show above the ninja when the Mangekyō opens and on the Mangekyō button, and Susanoo takes the colour.
 
 ## Eternal Mangekyō
@@ -173,7 +173,7 @@ When a shaped eye becomes Eternal (World of Naruto's Eternal Mangekyō), a lette
 | Izanami (Fated Loop) | The victim relives the same moment over and over and cannot break out until they accept their fate: a day lost in the loop. A captive caught by it gives up all resistance. The user's eye goes dark for a day. |
 
 ## Combined arts
-One for each pair of the first ten powers so far.
+One for each pair among the first 18 powers so far.
 
 | Eyes | Art | What it does |
 |---|---|---|
@@ -222,6 +222,114 @@ One for each pair of the first ten powers so far.
 | Sight + shaping | Mikiri Katachi (Perfect Counter) | For forty seconds the user sees each blow coming and shapes a chakra weapon to meet it: three blows are blocked and struck back. |
 | Sight + reality | Shinjitsu Gan (Eye of Truth) | The user sees every outcome and picks one: the next technique they land in forty seconds can't be resisted (armour is ignored) and hits harder. |
 | Shaping + reality | Sōzō (Creation) | The user shapes chakra into a stone giant that fights at their side for a minute and a wall that guards them, then both fade. |
+| Black flames + reflection | Enkyō (Burning Mirror) | For forty seconds the next technique aimed at the user is turned back as black flames on its caster. |
+| Illusion world + reflection | Kagami Gensō (Mirror Dream) | Every foe within six cells sees the others as the enemy and turns on them. |
+| Space-time + reflection | Kagami no Ma (Mirror Gate) | For twenty seconds every attack at the user comes out of a portal at its maker instead. |
+| Mind control + reflection | Kokoro Kagami (Heart Mirror) | A foe's hate is turned on their own side: they fight their allies for thirty seconds. |
+| Sealing + reflection | Fūin Kagami (Sealing Mirror) | For forty seconds techniques at the user are reflected, and their casters can't cast for thirty seconds. |
+| Time + reflection | Toki Kagami (Mirror of Time) | The user's wounds from the last minute go back to the foe who dealt the last of them. |
+| Gravity + reflection | Hanjū (Reflected Weight) | Every foe within five cells is crushed by their own weight, harder the bigger they are, and stunned. |
+| Sight + reflection | Utsushi Kagami (Copying Mirror) | The last technique cast at the user in the last minute is cast straight back at its caster. |
+| Shaping + reflection | Yata no Kagami (Yata Mirror) | A mirror shield shaped from chakra: for twenty-five seconds every blow is blocked and half of it goes back. |
+| Reality + reflection | Kagami Kaki (Mirror Rewrite) | The user's and a pawn's wounds trade places in full. |
+| Black flames + storm | Kokurai (Black Thunder) | A bolt of black lightning falls on a spot; everyone within two cells is burned and caught by black fire. |
+| Illusion world + storm | Raimu (Thunder Dream) | Every foe within six cells feels lightning strike them over and over: stunned for fifteen seconds and lightly burned. |
+| Space-time + storm | Kūrai (Void Lightning) | Lightning from portals strikes every foe the user can see within thirty cells (up to eight). |
+| Mind control + storm | Raishin (Thunder Dread) | Bolts fall around the spot, and every foe within six cells flees in terror. |
+| Sealing + storm | Fūrai (Sealed Thunder) | A storm waits in the eye for a day: the next three foes to strike the user are struck by lightning and stunned. |
+| Time + storm | Raisoku (Lightning Speed) | For fifteen seconds the user moves and strikes at the speed of lightning. |
+| Gravity + storm | Raijū Ochi (Falling Thunderbeast) | A pillar of lightning drags every foe within five cells of the spot into it and strikes them all. |
+| Sight + storm | Raigan (Thunder Eye) | A bolt falls on every foe the user can see within thirty cells (up to eight). |
+| Shaping + storm | Kirin (Thunder Beast) | A beast of lightning dives from the sky onto one spot: an enormous strike, and everything within three cells is burned. |
+| Reality + storm | Ten'i Arashi (Rewritten Weather) | The weather turns to a thunderstorm, and for thirty seconds bolts hunt the user's foes within twelve cells. |
+| Reflection + storm | Hanrai (Lightning Return) | For forty seconds every technique at the user is sent back as lightning. |
+| Black flames + summoning | Enkaku (Blaze Crows) | Crows of black flame dive on every foe within five cells: blinded and set alight. |
+| Illusion world + summoning | Gen'yō Karasu (Phantom Crows) | Crows carrying an illusion swarm the spot: every foe within five cells stands stunned for ten seconds. |
+| Space-time + summoning | Kuchiyose Kamui (Void Summoning) | The bound serpent comes out of a portal anywhere the user can see, strikes there, and fights for a minute. |
+| Mind control + summoning | Shihai Kuchiyose (Ruled Summons) | Every enemy summon and animal within eight cells fights for the user for a minute. |
+| Sealing + summoning | Fūin Jū (Sealed Beast) | An animal is bound to the eye and joins the user's side for good. |
+| Time + summoning | Jikan Shōkan (Summoned From Time) | Two shades of the user's past step out and fight beside them for a minute. |
+| Gravity + summoning | Jūryoku Karasu (Heavy Crows) | Crows weigh down every foe within five cells: nearly stopped and pecked for fifteen seconds. |
+| Sight + summoning | Karasu no Me (Crow's Eye) | Crows fly over the map: every hidden foe is shown, and the three nearest foes are harried and blinded. |
+| Shaping + summoning | Mōen Kyojin (Blazing Golem) | A golem of fire shaped from chakra fights for the user for a minute. |
+| Reality + summoning | Gensō Kyojū (Made-Real Beast) | A great toad is made real and fights for the user for two minutes. |
+| Reflection + summoning | Kagami Shōkan (Mirror Summoning) | A mirror double of a foe appears and fights for the user for thirty seconds. |
+| Storm + summoning | Raichō (Thunderbird) | A thunderbird circles the user for twenty seconds, dropping bolts on foes within eight cells. |
+| Black flames + soul | Tamashii Yaki (Soul Burn) | Black flames burn a foe's soul: heavy harm that no armour stops, and the flames stay. |
+| Illusion world + soul | Rikon Gen (Soul-Parting Dream) | The soul is drawn out into the illusion: the foe is hurt and sleeps for a day. |
+| Space-time + soul | Tamashii Kamui (Soul Void) | Part of a soul is torn into the void: very heavy harm and a fifteen-second stun. |
+| Mind control + soul | Tamashii Shihai (Soul Dominion) | The user rides a foe for two minutes while their own body is kept safe outside time. |
+| Sealing + soul | Tamashii Fūin (Soul Seal) | A weakened foe's soul (below 40% of their health or down) is sealed: they die, and its strength heals the user of every wound. |
+| Time + soul | Jumyō Kui (Lifespan Eater) | Ten years are drained from a person: they age and weaken, and the user heals. |
+| Gravity + soul | Tamashii no Omomi (Weight of Souls) | Every foe within six cells feels the weight of the dead: stunned, then fleeing in fear. |
+| Sight + soul | Reigan (Spirit Eye) | The user sees every soul: hidden foes are shown, and every foe in sight is marked as prey for thirty seconds. |
+| Shaping + soul | Tamashii Ken (Soul Blade) | A blade of soul strikes three times through any armour, and the user heals as much as it deals. |
+| Reality + soul | Rinne Kaki (Rewritten Death) | A colonist who died within the last day, whose body lies near the spot, comes back to life. |
+| Reflection + soul | Kagami Tamashii (Soul Mirror) | For twenty seconds harm to the user is taken from a foe's soul instead. |
+| Storm + soul | Raikon (Thunder Soul) | For twenty seconds every blow the user lands adds lightning and a short stun. |
+| Summoning + soul | Shiryō Shōkan (Summoned Spirits) | The dead nearby rise as shades and fight for a minute: one for each body within fifteen cells, up to five. |
+| Black flames + kotodama (word) | Kotodama: Kokuen (Word: Black Flame) | "Burn black." Every foe within eight cells catches black fire. |
+| Illusion world + kotodama (word) | Kotodama: Nemure (Word: Sleep) | "Sleep." Every foe within eight cells falls asleep for thirty seconds. |
+| Space-time + kotodama (word) | Kotodama: Kiero (Word: Begone) | "Begone." Every foe within six cells is flung fifteen cells away through space. |
+| Mind control + kotodama (word) | Kotodama: Shitagae (Word: Obey) | "Obey." Up to three foes within eight cells obey the user for thirty seconds. |
+| Sealing + kotodama (word) | Kotodama: Damare (Word: Silence) | "Silence." No foe within ten cells can cast for forty seconds. |
+| Time + kotodama (word) | Kotodama: Tomare (Word: Stop) | "Stop." Every foe within eight cells stops for ten seconds. |
+| Gravity + kotodama (word) | Kotodama: Fuse (Word: Down) | "Down." Every foe within eight cells is slammed to the ground. |
+| Sight + kotodama (word) | Kotodama: Arawareyo (Word: Show Yourselves) | "Show yourselves." Every hidden foe is shown and marked as prey for thirty seconds. |
+| Shaping + kotodama (word) | Kotodama: Katachi (Word: Take Shape) | "Take shape." The words become blades: three cuts on every foe within eight cells. |
+| Reality + kotodama (word) | Kotodama: Naore (Word: Be Whole) | "Be whole." The user and every ally within eight cells heal. |
+| Reflection + kotodama (word) | Kotodama: Kaese (Word: Give It Back) | "Give it back." The user and allies within eight cells lose every ailment, and foes nearby are stunned. |
+| Storm + kotodama (word) | Kotodama: Ochiro (Word: Fall) | "Fall." Lightning falls on every foe within ten cells. |
+| Summoning + kotodama (word) | Kotodama: Kitare (Word: Come) | "Come." Every drafted ally on the map comes to the user's side. |
+| Soul + kotodama (word) | Kotodama: Shine (Word: Die) | "Die." A foe below 30% of their health dies outright. |
+| Black flames + fate threads | Unmei Ito: Enjō (Fate Thread: Burning) | A foe and their three nearest allies are tied together for forty seconds and set alight. |
+| Illusion world + fate threads | Yume no Ito (Thread of Dreams) | Two foes share one illusion: both stand stunned for twenty seconds. |
+| Space-time + fate threads | Ito Kamui (Thread Portal) | The user follows a thread to any ally on the map and appears beside them. |
+| Mind control + fate threads | Ayatsuri Ito (Puppet Thread) | A foe is a puppet on the user's threads for a minute. |
+| Sealing + fate threads | Fūin Ito (Sealing Thread) | A foe is tied to a seal: held fast and unable to cast for thirty seconds. |
+| Time + fate threads | Toki no Ito (Thread of Time) | The thread of the user or an ally is wound back: every wound from the last hour is undone. |
+| Gravity + fate threads | Hikiito (Drawing Thread) | Up to four foes in sight are drawn together to the spot and tied (their wounds are shared) for forty seconds. |
+| Sight + fate threads | Unmei Gan (Eye of Fate) | The user sees their own threads: the next three attacks on them within forty seconds miss. |
+| Shaping + fate threads | Ito Ken (Thread Blades) | Threads harden into wires between the user and the spot: everyone on the line is cut. |
+| Reality + fate threads | Unmei Kaki (Rewritten Fate) | An ally who is down is pulled back to their feet, healed. |
+| Reflection + fate threads | Hansha Ito (Reflected Thread) | A foe is tied to the user for thirty seconds: whatever they deal to the user, they take too. |
+| Storm + fate threads | Rai Ito (Lightning Thread) | Lightning runs along threads from a foe to up to five more nearby. |
+| Summoning + fate threads | Kizuna Shōkan (Bond Summoning) | The strongest ally on the map is pulled to the user, and for forty seconds the first blow that would kill either of them is undone. |
+| Soul + fate threads | Tamashii Ito (Soul Thread) | The user is tied to a foe's soul and drinks their life every second for twenty seconds. |
+| Kotodama (Word) + fate threads | Kotodama: Musube (Word: Bind) | "Bind." Every foe within eight cells is held fast for fifteen seconds. |
+| Black flames + bloom and decay | Kaen Bana (Flame Blossom) | Flowers of black fire bloom within four cells of the spot. |
+| Illusion world + bloom and decay | Hana Gen (Flower Dream) | Pollen carries an illusion: every foe within six cells sleeps for twenty seconds. |
+| Space-time + bloom and decay | Kūkan Ibara (Void Thorns) | Thorns grow out of portals around a foe: four cuts, and held fast for fifteen seconds. |
+| Mind control + bloom and decay | Kahō Ishi (Seed of Will) | A seed of obedience is planted in a foe; ten seconds later it blooms, and they obey the user for a minute. |
+| Sealing + bloom and decay | Fūin Ki (Sealing Tree) | A tree grows around a foe and seals them: frozen and untouchable for thirty seconds. |
+| Time + bloom and decay | Seichō Kasoku (Growth Rush) | Every plant within ten cells grows to full, and the user and allies there heal. |
+| Gravity + bloom and decay | Jūboku (Heavy Wood) | Trees crash down on every foe within four cells of the spot. |
+| Sight + bloom and decay | Ne no Me (Root Sight) | Roots feel every footstep: hidden foes are shown, and foes within ten cells are held fast for five seconds. |
+| Shaping + bloom and decay | Mokuzō (Wooden Guardian) | A wood golem shaped from living wood fights for the user for a minute. |
+| Reality + bloom and decay | Kare to Hana (Wither and Bloom) | Within five cells of the spot foes wither and allies heal. |
+| Reflection + bloom and decay | Kagami Hana (Mirror Bloom) | For thirty seconds the user heals by half of every wound they take. |
+| Storm + bloom and decay | Raika (Thunder Blossom) | Five lightning seeds burst on foes within six cells of the spot over five seconds. |
+| Summoning + bloom and decay | Ki no Kemono (Forest Beast) | A green wood dragon fights for the user for a minute. |
+| Soul + bloom and decay | Inochi Suikomi (Life Drink) | Life is drawn from every foe within five cells into the user. |
+| Kotodama (Word) + bloom and decay | Kotodama: Sakeyo (Word: Bloom) | "Bloom." The user and every ally within eight cells heal, and their bleeding stops. |
+| Fate threads + bloom and decay | Ito Ibara (Thread of Thorns) | A thorned thread ties every foe within five cells of the spot: held fast for fifteen seconds and bleeding. |
+| Black flames + echo | Enkyō Hibiki (Echoing Blaze) | Black flames take a foe, and twice more, three seconds apart. |
+| Illusion world + echo | Mugen Hibiki (Endless Echo) | A foe is stunned, and the stun echoes three times over fifteen seconds. |
+| Space-time + echo | Kamui Hibiki (Void Echo) | The user warps to a spot and, five seconds later, echoes back to where they stood. |
+| Mind control + echo | Kokoro Hibiki (Echo of the Heart) | A foe's last attack echoes in their own mind and hits them twice. |
+| Sealing + echo | Fūin Hibiki (Sealed Echo) | The last technique cast near the user in the last minute is replayed twice for them, at the chosen target. |
+| Time + echo | Toki Hibiki (Time Echo) | The cooldowns of the user's other techniques (not Mangekyō ones) are wound back to ready. |
+| Gravity + echo | Jū Hibiki (Echoing Weight) | Five crushing pulses over five seconds within five cells of the spot. |
+| Sight + echo | Hibiki Gan (Echo Eye) | The user sees the echoes of the past: hidden foes are shown, and whoever last hurt the user is stunned for ten seconds. |
+| Shaping + echo | Zanzō Ken (Afterimage Blades) | Afterimages strike a foe six times. |
+| Reality + echo | Hibiki Kaki (Rewritten Echo) | The user's last thirty seconds are taken back (place and wounds), and foes within five cells take the echo of their own last blow. |
+| Reflection + echo | Hankyō (Reverberation) | For thirty seconds every hit on the user echoes back at its attacker three seconds later. |
+| Storm + echo | Raimei (Rolling Thunder) | A bolt falls on a spot and echoes three more times. |
+| Summoning + echo | Hibiki Shōkan (Echoed Summons) | The last summoning cast near the user in the last minute is cast again for them. |
+| Soul + echo | Tamashii Hibiki (Soul Echo) | The souls of foes who died within fifteen cells in the last minute rise as shades for the user (up to five). |
+| Kotodama (Word) + echo | Kotodama Hibiki (Echoing Word) | "Kneel", three times: every foe within eight cells is stunned again and again over ten seconds. |
+| Fate threads + echo | Ito Hibiki (Thread Echo) | For twenty seconds every wound dealt to a foe echoes onto every foe within three cells of them. |
+| Bloom and decay + echo | Hana Hibiki (Echo of Spring) | The user or an ally heals now, and twice more over ten seconds. |
 
 ## Dev mode
 - **Custom Mangekyō: awaken and shape (window)**: gives a pawn the Mangekyō if needed and opens the window.

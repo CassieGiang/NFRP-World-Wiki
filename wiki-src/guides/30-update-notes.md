@@ -3,6 +3,9 @@ What changed in recent updates, newest first.
 
 @@summary What changed in recent updates, newest first.
 
+## Update 579: 108 more combined arts
+- Every pair of Mangekyō powers among the first 18 types now has its combined art: 108 new ones with Reflection, Storm, Summoning, Soul, Word, Fate, Bloom and Echo, among them the **Yata Mirror**, **Kirin**, **Word: Die**, **Rewritten Death** and **Echo of Spring**. See [Custom Mangekyō](custom-mangekyou.html).
+
 ## Update 578: more Mangekyō powers and eyes
 - **20 new power types** for shaped Mangekyō, three forms each: Reflection, Storm, Summoning, Soul, Kotodama (Word), Fate threads, Bloom and decay, Echo, Labyrinth, Hunger, Erasure, Blood eye, Silence, Magnetism, Karma, Exchange, Light, Memory, Scale and Mark. Mind and Sealing get a third form, Reality two more. See [Custom Mangekyō](custom-mangekyou.html).
 - **Eyes:** 40 patterns, each eye its own pattern and colour, any colour with sliders, and a merged **Eternal** look.
