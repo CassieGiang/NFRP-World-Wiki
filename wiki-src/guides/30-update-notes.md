@@ -3,6 +3,13 @@ What changed in recent updates, newest first.
 
 @@summary What changed in recent updates, newest first.
 
+## Update 589: ninja cornerstones
+- With Vanilla Factions Expanded - Tribals, 12 ninja cornerstones join the list in Factions → Customize cornerstones. Each changes one stat by about 10%: Chakra no Izumi (Deep Chakra Wells), Meisō no Michi (Path of Meditation), Chakura Kontorōru (Chakra Control), Hi no Ishi (Will of Fire), Gen'ei no Ie (House of Illusions), Fudōshin (Immovable Mind), Gōken (Strong Fist), Shurikenjutsu (Way of the Shuriken), Mugen Renshū (Endless Drill), Kōsoku In (Swift Hand Seals), Ketsuzoku no Hokori (Bloodline Pride) and Iryō no Dentō (Medic Tradition).
+
+## Update 588: hit fixes
+- Hits that combined arts pass on wait until the first hit is over, so a dying foe is no longer killed twice.
+- A Mangekyō technique whose level is out of range still deals its damage instead of logging an error.
+
 ## Update 587: trade ships come as caravans
 - There are no ships in orbit in the ninja world. When a trade ship would arrive, a merchant caravan from a friendly faction walks in instead. Turn it off with "Trade ships come as caravans" in the mod settings.
 
