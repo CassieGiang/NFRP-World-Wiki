@@ -5,6 +5,7 @@ What changed in recent updates, newest first.
 
 ## Update 590: no casting through walls
 - Enemy ninja no longer cast techniques at someone they can't see. With a wall in the way they pick another target or move. Techniques they cast on themselves (eyes, stances, clones) are unchanged.
+- Hiraishin (Flying Thunder God) and Edo Tensei (Impure World Reincarnation) have new painted icons.
 
 ## Update 589: ninja cornerstones
 - With Vanilla Factions Expanded - Tribals, 12 ninja cornerstones join the list in Factions → Customize cornerstones. Each changes one stat by about 10%: Chakra no Izumi (Deep Chakra Wells), Meisō no Michi (Path of Meditation), Chakura Kontorōru (Chakra Control), Hi no Ishi (Will of Fire), Gen'ei no Ie (House of Illusions), Fudōshin (Immovable Mind), Gōken (Strong Fist), Shurikenjutsu (Way of the Shuriken), Mugen Renshū (Endless Drill), Kōsoku In (Swift Hand Seals), Ketsuzoku no Hokori (Bloodline Pride) and Iryō no Dentō (Medic Tradition).
