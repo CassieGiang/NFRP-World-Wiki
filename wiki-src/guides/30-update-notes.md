@@ -3,6 +3,12 @@ What changed in recent updates, newest first.
 
 @@summary What changed in recent updates, newest first.
 
+## Update 586: more fixes from testing
+- The custom Mangekyō tree lays out the chosen powers so their buttons no longer overlap. A handful of other trees' overlapping buttons were moved apart.
+- The Rinnegan's eye technique comes free with the awakened eye, and an awakening that was due right away now happens.
+- Chirping Claw and Kuzu-ryūsen get their own hero animations.
+- Loading a save no longer logs errors from IMPACT-L stats or from remembered weapons of raiders who were gone.
+
 ## Update 585: fixes from testing
 - **Learn techniques window:** filter buttons for All, Ninjutsu, Taijutsu, Genjutsu, Clans and Other. The "Only what I can learn now" tick no longer sits on the Techniques button.
 - **Custom Mangekyō window:** the hue, colour and brightness names are easy to read. You can now pick Susanoo's colour: the left eye's, the right eye's, or a blend of both.
