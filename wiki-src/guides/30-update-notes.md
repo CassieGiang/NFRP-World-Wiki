@@ -3,6 +3,9 @@ What changed in recent updates, newest first.
 
 @@summary What changed in recent updates, newest first.
 
+## Update 592: corpses beamed into graves
+- With Manipulator Beam Emitter, the beam now puts corpses into a mass grave (or any grave) on its own when the grave's storage priority is higher than where the body is.
+
 ## Update 590: no casting through walls
 - Enemy ninja no longer cast techniques at someone they can't see. With a wall in the way they pick another target or move. Techniques they cast on themselves (eyes, stances, clones) are unchanged.
 - Hiraishin (Flying Thunder God) and Edo Tensei (Impure World Reincarnation) have new painted icons.
