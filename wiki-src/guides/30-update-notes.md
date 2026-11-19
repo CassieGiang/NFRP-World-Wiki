@@ -3,6 +3,9 @@ What changed in recent updates, newest first.
 
 @@summary What changed in recent updates, newest first.
 
+## Update 593: rituals at full quality
+- The mod's own rituals (festival rite, memorial, rank ceremony, blood pact, Jashin rite) can no longer turn out badly at 100% quality. The chance of a bad result shrinks as quality rises.
+
 ## Update 592: corpses beamed into graves
 - With Manipulator Beam Emitter, the beam now puts corpses into a mass grave (or any grave) on its own when the grave's storage priority is higher than where the body is.
 
