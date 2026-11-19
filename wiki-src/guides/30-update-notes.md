@@ -3,6 +3,13 @@ What changed in recent updates, newest first.
 
 @@summary What changed in recent updates, newest first.
 
+## Update 585: fixes from testing
+- **Learn techniques window:** filter buttons for All, Ninjutsu, Taijutsu, Genjutsu, Clans and Other. The "Only what I can learn now" tick no longer sits on the Techniques button.
+- **Custom Mangekyō window:** the hue, colour and brightness names are easy to read. You can now pick Susanoo's colour: the left eye's, the right eye's, or a blend of both.
+- **Katon: Great Fireball** sets the ground on fire where it lands, wider at S rank.
+- **Gedō Mazō:** its three orders get icons.
+- Combined arts that pass a hit on (afterimages, fate threads, Soul Mirror, Echo Mark and others) no longer break the first hit. Giant Tree no longer fails when it kills a foe. Memory Swap works with skill aptitudes.
+
 ## Update 582: the last 84 combined arts
 - Every pair of the 30 Mangekyō powers now has its combined art: 84 new ones with Memory, Scale and Mark, 435 in all. Among them are **Memory Rewind**, **Memory Swap**, **Giant Tree**, **Shrunk to Nothing**, **Echo Mark** and **Erasing Mark**. See [Custom Mangekyō](custom-mangekyou.html).
 - Many Mark arts work on every marked foe on the map, and they won't cast when nobody is marked.
