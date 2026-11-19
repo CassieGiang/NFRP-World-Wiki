@@ -3,6 +3,9 @@ What changed in recent updates, newest first.
 
 @@summary What changed in recent updates, newest first.
 
+## Update 587: trade ships come as caravans
+- There are no ships in orbit in the ninja world. When a trade ship would arrive, a merchant caravan from a friendly faction walks in instead. Turn it off with "Trade ships come as caravans" in the mod settings.
+
 ## Update 586: more fixes from testing
 - The custom Mangekyō tree lays out the chosen powers so their buttons no longer overlap. A handful of other trees' overlapping buttons were moved apart.
 - The Rinnegan's eye technique comes free with the awakened eye, and an awakening that was due right away now happens.
