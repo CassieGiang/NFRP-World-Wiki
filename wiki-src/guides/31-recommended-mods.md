@@ -23,6 +23,12 @@ None of these are needed. NFRP World notices them when they're loaded and works 
 - **NFRP World: Character Outfits** (add-on): the canon character outfits now live there.
 - **Ferny's Progression mods**: not needed. NFRP World is developed and tested inside the Progression modpack and needs no extra setup there; with Progression loaded, Progression's research pacing also scales the ninja research costs, and a few ninja projects also ask for Progression's writing or advanced research bench projects.
 
+## Also in our test setup
+These aren't needed and NFRP World doesn't change them; they're simply part of the setup the mod is played and tested on, on top of the Progression modpack.
+- [Mad Skills](https://steamcommunity.com/sharedfiles/filedetails/?id=731111514): skills don't decay. That also keeps ninja class levels steady, since a class's level cap can follow a decaying skill.
+- [RimWorld: Living Waters](https://steamcommunity.com/sharedfiles/filedetails/?id=3834245888) and [RimWorld: Waves](https://steamcommunity.com/sharedfiles/filedetails/?id=3831078430): water.
+- [Passive Research](https://steamcommunity.com/sharedfiles/filedetails/?id=2843607858), [Animals at Work - Herding Dogs](https://steamcommunity.com/sharedfiles/filedetails/?id=3766198296), [SimpleBabyCarry](https://steamcommunity.com/sharedfiles/filedetails/?id=3692756679), [Dubs Mint Minimap](https://steamcommunity.com/sharedfiles/filedetails/?id=1662119905), [[LYN] Cheat Spot](https://steamcommunity.com/sharedfiles/filedetails/?id=2295451181), [Pawn Marketplace](https://steamcommunity.com/sharedfiles/filedetails/?id=3780530696) and [Project RimFactory Revived](https://steamcommunity.com/sharedfiles/filedetails/?id=2033979700).
+
 ## Not compatible
 - **ChezhouLib** (Workshop 3595247479, a library by 追踪虫): with it loaded, pawns are drawn with a see-through overlay, so their apparel looks translucent. Other players report it overriding other mods' clothing and breaking clothing textures on children. Mods that need it, such as Chezhou's Sandworm and Hivelord creatures, can't be used without it, so leave them off too. The Workshop page has since been taken down by Steam.
 
