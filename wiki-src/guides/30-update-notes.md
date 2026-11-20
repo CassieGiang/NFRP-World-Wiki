@@ -3,6 +3,12 @@ What changed in recent updates, newest first.
 
 @@summary What changed in recent updates, newest first.
 
+## Update 605: new puppet and Hiraishin art, clean new games
+- Kankurō's puppets Karasu (Crow), Kuroari (Black Ant) and Sanshōuo (Salamander) are now wooden puppets on the map and in the inventory, in place of the old stone-golem look. The ten puppetry technique icons were redrawn to show them and their chakra threads.
+- The six Hiraishin (Flying Thunder God) icons show Minato's three-pronged kunai.
+- Starting a new game no longer logs "Could not find player faction" errors.
+- NFRP World now lists RimWorld 1.7 as its only supported version.
+
 ## Update 603: storage seals hide what they hold
 - A Shūnō Fūin (Storage Seal) now shows only the seal. Items, corpses and their stack counts and forbidden marks are hidden inside it. Select the seal and open its Contents tab to see or forbid what it holds.
 - A dev mode tool, "Why won't this go to storage?", says for one item which storage takes it and why each one refuses it, including mods that switch a storage off (for example Flickable Storage's "Retrieve only").
