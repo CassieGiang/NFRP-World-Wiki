@@ -3,6 +3,16 @@ What changed in recent updates, newest first.
 
 @@summary What changed in recent updates, newest first.
 
+## Update 596: samurai and permits
+- The samurai of the feudal houses (Akagane, Shiranami, Kurogane) no longer hold ninja ranks; the world's history calls them ashigaru, samurai, hatamoto and daimyo. A former samurai in your colony can still take your rank exams.
+- The Permits tab opens on the village where the pawn has permit points to spend, and skips the Empire while it is kept out of the game.
+
+## Update 595: random Mangekyō
+- The Mangekyō shaping window has a Random button for each eye, for the joint power and for pattern and colour, plus Random all.
+
+## Update 594: broken technique data
+- A pawn whose technique data breaks no longer turns invisible or stops working; the broken entries are cleaned out.
+
 ## Update 593: rituals at full quality
 - The mod's own rituals (festival rite, memorial, rank ceremony, blood pact, Jashin rite) can no longer turn out badly at 100% quality. The chance of a bad result shrinks as quality rises.
 
