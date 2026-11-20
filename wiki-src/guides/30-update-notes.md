@@ -3,6 +3,18 @@ What changed in recent updates, newest first.
 
 @@summary What changed in recent updates, newest first.
 
+## Update 603: storage seals hide what they hold
+- A Shūnō Fūin (Storage Seal) now shows only the seal. Items, corpses and their stack counts and forbidden marks are hidden inside it. Select the seal and open its Contents tab to see or forbid what it holds.
+- A dev mode tool, "Why won't this go to storage?", says for one item which storage takes it and why each one refuses it, including mods that switch a storage off (for example Flickable Storage's "Retrieve only").
+
+## Update 599: steady class levels
+- A ninja whose class level dips and comes back (for example from skill decay) no longer gets a "level up" message each time. The message only appears for a level higher than any reached before.
+
+## Update 597: smaller download, kabuto fix
+- The mod's textures were reduced to 256 colours: the download went from about 1.4 GB to about 515 MB, with no visible change in game.
+- The kabuto helmet sits centred on the head when seen from the front and back.
+- The Workshop page recommends playing on RimWorld 1.7 (the "unstable" beta), lists the optional mods of our test setup, and links the mods that don't work with NFRP World.
+
 ## Update 596: samurai and permits
 - The samurai of the feudal houses (Akagane, Shiranami, Kurogane) no longer hold ninja ranks; the world's history calls them ashigaru, samurai, hatamoto and daimyo. A former samurai in your colony can still take your rank exams.
 - The Permits tab opens on the village where the pawn has permit points to spend, and skips the Empire while it is kept out of the game.
